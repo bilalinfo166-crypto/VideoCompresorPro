@@ -420,10 +420,9 @@ export default function Home() {
                 muted 
                 playsInline 
                 preload="metadata"
-                poster="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=2071&auto=format&fit=crop"
+                crossOrigin="anonymous"
                 className="w-full h-full object-cover opacity-100 transition-transform duration-1000 group-hover:scale-105"
               >
-                <source src="https://player.vimeo.com/external/494244245.hd.mp4?s=a0248c8230538053f3e970a00d024626156e507b&profile_id=175" type="video/mp4" />
                 <source src="/homepage-hd.mp4" type="video/mp4" />
               </video>
 
