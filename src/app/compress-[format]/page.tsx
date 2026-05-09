@@ -11,6 +11,8 @@ export async function generateStaticParams() {
   ];
 }
 
+export const dynamicParams = false;
+
 export default function CompressFormatPage({ params }: { params: { format: string } }) {
   const format = (params?.format || "mp4").toUpperCase();
   
