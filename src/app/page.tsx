@@ -308,14 +308,8 @@ export default function Home() {
                 </p>
               </div>
               <div className="order-1 md:order-2">
-                <div className="relative rounded-[2rem] overflow-hidden border border-slate-100 aspect-[4/3] shadow-2xl bg-slate-800">
-                  <Image 
-                    src="/storage-feature.png" 
-                    alt="Reduce video size and save storage" 
-                    fill 
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                    className="object-cover" 
-                  />
+                <div className="relative rounded-[2rem] overflow-hidden border border-slate-100 aspect-[4/3] shadow-2xl">
+                  <Image src="/storage-feature.png" alt="Reduce video size and save storage" fill className="object-cover" />
                 </div>
               </div>
             </div>
@@ -323,14 +317,8 @@ export default function Home() {
             {/* Discord Feature */}
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <div className="relative rounded-[2rem] overflow-hidden border border-slate-100 aspect-[4/3] shadow-2xl bg-slate-800">
-                  <Image 
-                    src="/discord-feature.png" 
-                    alt="Compress video for Discord limits" 
-                    fill 
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                    className="object-cover" 
-                  />
+                <div className="relative rounded-[2rem] overflow-hidden border border-slate-100 aspect-[4/3] shadow-2xl">
+                  <Image src="/discord-feature.png" alt="Compress video for Discord limits" fill className="object-cover" />
                 </div>
               </div>
               <div>
@@ -366,7 +354,7 @@ export default function Home() {
                   { icon: Star, text: "comparison.cost" },
                   { icon: Globe, text: "comparison.internet" }
                 ].map((item, idx) => (
-                  <li key={idx} className="flex items-center gap-3 text-sm font-bold text-[var(--foreground)]">
+                  <li key={item.text} className="flex items-center gap-3 text-sm font-bold text-[var(--foreground)]">
                     <item.icon className="w-4 h-4 text-emerald-500" />
                     {t(item.text)}
                   </li>
@@ -387,7 +375,7 @@ export default function Home() {
                   "comparison.cost_cloud",
                   "comparison.internet_cloud"
                 ].map((text, idx) => (
-                  <li key={idx} className="flex items-center gap-3 text-sm font-bold text-[var(--foreground)]">
+                  <li key={text} className="flex items-center gap-3 text-sm font-bold text-[var(--foreground)]">
                     <div className="w-4 h-4 flex items-center justify-center text-red-500 font-black">✕</div>
                     {t(text)}
                   </li>
@@ -419,10 +407,9 @@ export default function Home() {
                 loop 
                 muted 
                 playsInline 
-                preload="metadata"
-                crossOrigin="anonymous"
                 className="w-full h-full object-cover opacity-100 transition-transform duration-1000 group-hover:scale-105"
               >
+                <source src="https://player.vimeo.com/external/494244245.hd.mp4?s=a0248c8230538053f3e970a00d024626156e507b&profile_id=175" type="video/mp4" />
                 <source src="/homepage-hd.mp4" type="video/mp4" />
               </video>
 
@@ -471,14 +458,8 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto items-center">
             {/* Image side */}
-            <div className="relative rounded-3xl overflow-hidden border border-indigo-500/30 aspect-[4/3] bg-gradient-to-br from-indigo-900/40 to-slate-900 shadow-2xl shadow-indigo-500/10 bg-slate-800">
-              <Image 
-                src="/how-it-works-ui.png" 
-                alt="How it works" 
-                fill 
-                sizes="(max-width: 768px) 100vw, 50vw"
-                className="object-cover opacity-90" 
-              />
+            <div className="relative rounded-3xl overflow-hidden border border-indigo-500/30 aspect-[4/3] bg-gradient-to-br from-indigo-900/40 to-slate-900 shadow-2xl shadow-indigo-500/10">
+              <Image src="/how-it-works-ui.png" alt="How it works" fill className="object-cover opacity-90" />
             </div>
 
             {/* Steps side */}
@@ -558,14 +539,7 @@ export default function Home() {
                    <p className="text-[var(--foreground)] text-base leading-relaxed mb-8 font-medium opacity-90 italic">"{t(`reviews.r${review.id}_text`)}"</p>
                 </div>
                 <div className="flex items-center gap-4 mt-auto pt-6 border-t border-[var(--card-border)]">
-                  <Image 
-                    src={review.avatar} 
-                    alt={review.name} 
-                    width={48} 
-                    height={48} 
-                    sizes="48px"
-                    className="rounded-full bg-slate-800 object-cover ring-2 ring-white/10" 
-                  />
+                  <Image src={review.avatar} alt={review.name} width={48} height={48} className="rounded-full bg-slate-800 object-cover ring-2 ring-white/10" />
                   <div>
                     <div className="font-bold text-[var(--foreground)] text-sm">{review.name}</div>
                     <div className="text-xs text-[var(--muted-text)] font-bold uppercase tracking-wider">{t(`reviews.r${review.id}_role`)}</div>
@@ -614,8 +588,7 @@ export default function Home() {
                   alt="Privacy illustration"
                   width={500}
                   height={400}
-                  sizes="(max-width: 768px) 100vw, 500px"
-                  className="relative z-10 rounded-2xl w-full object-cover bg-slate-800"
+                  className="relative z-10 rounded-2xl w-full object-cover"
                 />
               </div>
             </div>
