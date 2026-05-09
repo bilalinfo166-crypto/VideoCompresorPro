@@ -12,7 +12,7 @@ export async function generateStaticParams() {
 }
 
 export default function CompressFormatPage({ params }: { params: { format: string } }) {
-  const format = params.format.toUpperCase();
+  const format = (params?.format || "mp4").toUpperCase();
   
   return <FormatPageClient format={format} />;
 }
