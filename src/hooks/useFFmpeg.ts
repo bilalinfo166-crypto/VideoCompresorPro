@@ -1,12 +1,10 @@
 import { useState, useRef, useCallback } from 'react';
-import { FFmpeg } from '@ffmpeg/ffmpeg';
-import { fetchFile, toBlobURL } from '@ffmpeg/util';
 
 export function useFFmpeg() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [progress, setProgress] = useState(0);
-  const ffmpegRef = useRef(new FFmpeg());
+  const ffmpegRef = useRef<any>(null);
   const messageRef = useRef<string>('');
 
   const load = useCallback(async () => {
@@ -14,10 +12,15 @@ export function useFFmpeg() {
     
     setIsLoading(true);
     try {
+      // Dynamic import to avoid SSR issues
+      const { FFmpeg } = await import('@ffmpeg/ffmpeg');
+      const { toBlobURL } = await import('@ffmpeg/util');
+      
       const baseURL = 'https://unpkg.com/@ffmpeg/core@0.12.6/dist/umd';
-      const ffmpeg = ffmpegRef.current;
+      const ffmpeg = new FFmpeg();
+      ffmpegRef.current = ffmpeg;
 
-      ffmpeg.on('progress', ({ progress, time }) => {
+      ffmpeg.on('progress', ({ progress }) => {
         setProgress(Math.round(progress * 100));
       });
 
@@ -50,8 +53,10 @@ export function useFFmpeg() {
     
     setProgress(0);
     const ffmpeg = ffmpegRef.current;
+    if (!ffmpeg) return null;
     
     try {
+      const { fetchFile } = await import('@ffmpeg/util');
       const inputName = `input_${Date.now()}.${file.name.split('.').pop()}`;
       const outputName = `output_${Date.now()}.${outputExt}`;
       
