@@ -64,10 +64,9 @@ export function useFFmpeg() {
       const data = await ffmpeg.readFile(outputName);
       
       await ffmpeg.deleteFile(inputName);
-      if (addWatermark) try { await ffmpeg.deleteFile(watermarkName); } catch(e){}
       await ffmpeg.deleteFile(outputName);
       
-      return new Blob([data], { type: mimeType });
+      return new Blob([data as any], { type: mimeType });
     } catch (error) {
       console.error('Error executing FFmpeg command:', error);
       return null;
@@ -79,7 +78,7 @@ export function useFFmpeg() {
     quality: 'basic' | 'strong' | 'extreme' = 'basic',
     addWatermark: boolean = false
   ): Promise<Blob | null> => {
-    let args = [];
+    let args: string[] = [];
     if (quality === 'basic') {
       args = ['-c:v', 'libx264', '-crf', '28', '-preset', 'ultrafast', '-tune', 'zerolatency', '-profile:v', 'baseline', '-level', '3.0'];
     } else if (quality === 'strong') {

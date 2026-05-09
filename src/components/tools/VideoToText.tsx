@@ -16,7 +16,8 @@ import {
   Clock,
   Trash2,
   ArrowLeft,
-  Play
+  Play,
+  ChevronDown
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { UnifiedUpload } from './UnifiedUpload';

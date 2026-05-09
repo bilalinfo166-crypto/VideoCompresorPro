@@ -24,7 +24,18 @@ const VideoCompressor = dynamic(
   }
 );
 
-const TOOLS = [
+interface Tool {
+  icon: any;
+  title: string;
+  description: string;
+  href: string;
+  color: string;
+  bg: string;
+  border: string;
+  badge?: string;
+}
+
+const TOOLS: Tool[] = [
   {
     icon: FileVideo,
     title: "tools.compressor_title",
@@ -33,6 +44,7 @@ const TOOLS = [
     color: "text-indigo-400",
     bg: "bg-indigo-500/10",
     border: "border-indigo-500/20",
+    badge: "common.popular"
   },
   {
     icon: Scissors,
@@ -78,6 +90,7 @@ const TOOLS = [
     color: "text-cyan-400",
     bg: "bg-cyan-500/10",
     border: "border-cyan-500/20",
+    badge: "common.new"
   },
 ];
 
