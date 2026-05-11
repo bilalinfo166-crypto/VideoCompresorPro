@@ -25,7 +25,7 @@ export async function POST(req: NextRequest) {
 
     const body: Record<string, unknown> = {
       audio_url,
-      speech_model: 'universal-2',   // required by AssemblyAI as of latest API
+      speech_models: ['universal-2'], // AssemblyAI requires array (speech_model singular is deprecated)
       punctuate: true,
       format_text: true,
     };
