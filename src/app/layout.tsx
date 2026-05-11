@@ -91,6 +91,7 @@ export const metadata: Metadata = {
   }
 };
 
+import { headers } from "next/headers";
 import { ThemeProvider } from "@/context/ThemeContext";
 
 export default function RootLayout({
@@ -98,8 +99,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const headersList = headers();
+  const locale = headersList.get('x-next-locale') || 'en';
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <head>
         <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -107,7 +111,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.variable} ${outfit.variable} font-sans antialiased min-h-screen flex flex-col bg-gradient-premium text-[var(--foreground)]`}>
         <ThemeProvider>
-          <LanguageProvider>
+          <LanguageProvider initialLocale={locale}>
             <Header />
             <main className="flex-1 pt-16">
               {children}

@@ -5,7 +5,13 @@ import { Video, Twitter, Github, Globe } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 export function Footer() {
-  const { t } = useLanguage();
+  const { language, t } = useLanguage();
+
+  const getLocalizedHref = (path: string) => {
+    if (language === 'en') return path;
+    if (path === '/') return `/${language}`;
+    return `/${language}${path}`;
+  };
 
   const TOOL_LINKS = [
     { label: t("footer.links.video_compressor"), href: "/" },
@@ -36,7 +42,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-10 mb-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <Link href="/" className="flex items-center gap-2 mb-5">
+            <Link href={getLocalizedHref('/')} className="flex items-center gap-2 mb-5">
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                 <Video className="w-5 h-5 text-white" />
               </div>
@@ -59,7 +65,7 @@ export function Footer() {
             <ul className="space-y-3">
               {TOOL_LINKS.map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="text-[var(--muted-text)] hover:text-blue-600 text-sm transition-colors">
+                  <Link href={getLocalizedHref(l.href)} className="text-[var(--muted-text)] hover:text-blue-600 text-sm transition-colors">
                     {l.label}
                   </Link>
                 </li>
@@ -73,7 +79,7 @@ export function Footer() {
             <ul className="space-y-3">
               {FORMAT_LINKS.map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="text-[var(--muted-text)] hover:text-blue-600 text-sm transition-colors">
+                  <Link href={getLocalizedHref(l.href)} className="text-[var(--muted-text)] hover:text-blue-600 text-sm transition-colors">
                     {l.label}
                   </Link>
                 </li>
@@ -87,7 +93,7 @@ export function Footer() {
             <ul className="space-y-3">
               {LEGAL_LINKS.map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="text-[var(--muted-text)] hover:text-blue-600 text-sm transition-colors">
+                  <Link href={getLocalizedHref(l.href)} className="text-[var(--muted-text)] hover:text-blue-600 text-sm transition-colors">
                     {l.label}
                   </Link>
                 </li>

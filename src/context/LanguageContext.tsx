@@ -42,44 +42,46 @@ const allTranslations: Record<string, any> = {
   en, ur, ar, hi, es, pt, fr, de, it, id, ja, ru, zh, tr, vi, ko, th, nl, pl, fa, ro, el, uk, sv 
 };
 
-export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [language, setLanguageState] = useState("en");
-  const [currentTranslations, setCurrentTranslations] = useState(en);
+export const LanguageProvider: React.FC<{ children: React.ReactNode, initialLocale?: string }> = ({ children, initialLocale = 'en' }) => {
+  const [language, setLanguageState] = useState(initialLocale);
+  const [currentTranslations, setCurrentTranslations] = useState(allTranslations[initialLocale] || en);
 
   const setLanguage = async (lang: string) => {
     try {
-      let langData;
+      if (lang === language) return;
       
-      if (allTranslations[lang]) {
-        langData = allTranslations[lang];
-      } else {
-        langData = en;
-      }
-      
-      setLanguageState(lang);
-      setCurrentTranslations(langData);
       localStorage.setItem("preferred_lang", lang);
-      document.documentElement.lang = lang;
-      // Keep LTR format as requested by user
-      document.documentElement.dir = "ltr";
+      
+      // Get current path
+      const currentPath = window.location.pathname;
+      const locales = Object.keys(allTranslations);
+      
+      // Remove any existing locale prefix from the current path
+      let cleanPath = currentPath;
+      for (const loc of locales) {
+        if (currentPath.startsWith(`/${loc}/`) || currentPath === `/${loc}`) {
+          cleanPath = currentPath.replace(`/${loc}`, '') || '/';
+          break;
+        }
+      }
+
+      // If switching to English, use clean path, else prepend the new locale
+      const newPath = lang === 'en' ? cleanPath : `/${lang}${cleanPath === '/' ? '' : cleanPath}`;
+      
+      // Navigate to the new localized URL
+      window.location.href = newPath;
+      
     } catch (error) {
       console.error("Error changing language:", error);
     }
   };
 
   useEffect(() => {
-    const savedLang = localStorage.getItem("preferred_lang");
-    if (savedLang) {
-      setLanguage(savedLang);
-    } else {
-      // Auto-detect browser language
-      const browserLang = navigator.language.split("-")[0];
-      const supported = Object.keys(allTranslations);
-      if (supported.includes(browserLang)) {
-        setLanguage(browserLang);
-      }
-    }
-  }, []);
+    // We already have the correct language from the server via initialLocale
+    // Just sync the DOM attributes
+    document.documentElement.lang = initialLocale;
+    document.documentElement.dir = "ltr";
+  }, [initialLocale]);
 
   const t = (path: string): string => {
     const keys = path.split(".");
