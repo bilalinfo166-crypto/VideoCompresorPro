@@ -104,12 +104,12 @@ export function Header() {
                 <ChevronDown className="w-3 h-3 opacity-70" />
               </button>
               {langOpen && (
-                <div className="absolute top-full right-0 mt-2 w-[280px] sm:w-[480px] bg-[var(--background)] rounded-2xl border border-[var(--card-border)] shadow-2xl overflow-hidden grid grid-cols-2 sm:grid-cols-3 p-1 max-h-[70vh] overflow-y-auto">
+                <div className="absolute top-full right-0 mt-2 w-[200px] bg-[var(--background)] rounded-2xl border border-[var(--card-border)] shadow-2xl overflow-hidden flex flex-col p-2 max-h-[70vh] overflow-y-auto custom-scrollbar">
                   {LANGUAGES.map((l) => (
                     <button
                       key={l.code}
                       onClick={() => { setLanguage(l.code); setLangOpen(false); }}
-                      className={`px-3 py-2 text-[10px] sm:text-xs text-left hover:bg-white/5 rounded-lg transition-colors ${language === l.code ? "text-blue-600 font-bold bg-blue-500/10" : "text-[var(--muted-text)]"}`}
+                      className={`px-3 py-2.5 text-xs sm:text-sm text-left hover:bg-white/5 rounded-lg transition-colors ${language === l.code ? "text-blue-600 font-bold bg-blue-500/10" : "text-[var(--muted-text)]"}`}
                     >
                       {l.label}
                     </button>
@@ -184,12 +184,12 @@ export function Header() {
               <div className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-4 px-4 flex items-center gap-2">
                 <Globe className="w-3 h-3" /> {t("nav.mobile_language")}
               </div>
-              <div className="grid grid-cols-2 gap-2 px-2">
+              <div className="flex flex-col gap-2 px-2 max-h-[40vh] overflow-y-auto">
                 {LANGUAGES.map((l) => (
                   <button
                     key={l.code}
                     onClick={() => { setLanguage(l.code); setMobileOpen(false); }}
-                    className={`px-3 py-2 text-xs text-left rounded-lg transition-colors ${language === l.code ? "bg-indigo-600/20 text-indigo-400 font-bold border border-indigo-500/30" : "bg-white/5 text-slate-400 border border-transparent"}`}
+                    className={`px-3 py-3 text-sm text-left rounded-lg transition-colors ${language === l.code ? "bg-indigo-600/20 text-indigo-400 font-bold border border-indigo-500/30" : "bg-white/5 text-slate-400 border border-transparent"}`}
                   >
                     {l.label}
                   </button>
