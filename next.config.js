@@ -45,18 +45,6 @@ const nextConfig = {
       },
     ];
   },
-  async rewrites() {
-    return [
-      {
-        source: '/:locale(ur|ar|hi|es|pt|fr|de|it|id|ja|ru|zh|tr|vi|ko|th|nl|pl|fa|ro|el|uk|sv)/:path*',
-        destination: '/:path*',
-      },
-      {
-        source: '/:locale(ur|ar|hi|es|pt|fr|de|it|id|ja|ru|zh|tr|vi|ko|th|nl|pl|fa|ro|el|uk|sv)',
-        destination: '/',
-      }
-    ];
-  },
 };
 
 module.exports = nextConfig;
