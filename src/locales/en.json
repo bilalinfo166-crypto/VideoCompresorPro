@@ -246,11 +246,29 @@
     "button": "Start Compressing — It's Free"
   },
   "footer": {
-    "desc": "The most powerful, private, and fast video compression toolkit. 100% browser-based.",
-    "copyright": "All rights reserved.",
+    "desc": "The world's fastest and most private online video compressor. Powered by WebAssembly.",
     "tools": "Tools",
     "formats": "Formats",
-    "company": "Company"
+    "company": "Company",
+    "copyright": "Made with ❤️ for Privacy",
+    "status": "All systems operational",
+    "languages": "Available in 22+ languages",
+    "links": {
+      "video_compressor": "Video Compressor",
+      "video_cutter": "Video Cutter",
+      "crop_video": "Crop Video",
+      "video_to_mp3": "Video to MP3",
+      "audio_cutter": "Audio Cutter",
+      "compress_mp4": "Compress MP4",
+      "compress_avi": "Compress AVI",
+      "compress_mov": "Compress MOV",
+      "compress_mkv": "Compress MKV",
+      "compress_webm": "Compress WEBM",
+      "privacy_policy": "Privacy Policy",
+      "terms_of_service": "Terms of Service",
+      "contact_us": "Contact Us",
+      "about": "About"
+    }
   },
   "cutter_page": {
     "hero_badge": "Frame-Accurate · No Uploads · 100% Free",
@@ -383,7 +401,7 @@
   },
   "to_mp3_page": {
     "hero_badge": "High Fidelity · No Uploads · 100% Free",
-    "hero_title": "Online Video to MP3",
+    "hero_title": "Online Video to MP3 Converter",
     "hero_subtitle": "Extract high-quality audio tracks from your videos instantly. Fast, free, and private.",
     "visualizer_title": "The Best Video to MP3 Converter",
     "visualizer_desc": "Extract audio from any video file with studio-quality precision. Our Video to MP3 converter is fast, free, and 100% private.",
@@ -447,7 +465,7 @@
   },
   "audio_cutter_page": {
     "hero_badge": "Precision Trimming · No Uploads · 100% Free",
-    "hero_title": "Online Audio Cutter",
+    "hero_title": "Online Audio Cutter Converter",
     "hero_subtitle": "Trim and cut your audio files with waveform precision instantly. Fast, free, and private.",
     "visualizer_title": "The Best Online Audio Cutter",
     "visualizer_desc": "Trim MP3s and isolate sound bites with millisecond precision. Our Online Audio Cutter is fast, free, and 100% private.",
@@ -510,7 +528,7 @@
   },
   "to_text_page": {
     "hero_badge": "AI Powered · No Uploads · 100% Private",
-    "hero_title": "Online Video to Text",
+    "hero_title": "Online Video to Text Converter",
     "hero_subtitle": "Transcribe your videos into accurate text instantly. Perfect for captions, notes, and documentation. Fast, free, and secure.",
     "visualizer_title": "The Best Video to Text Transcriber",
     "visualizer_desc": "Our AI-powered engine transcribes your video audio with high accuracy directly in your browser. No files are ever uploaded, ensuring 100% privacy.",
@@ -611,31 +629,6 @@
     "v2_desc": "Your {format} videos are never uploaded to any server. All processing happens locally on your own device.",
     "v3_title": "Blazing Fast",
     "v3_desc": "Utilizing WebAssembly, we harness your device's raw power to compress {format} files faster than cloud-based tools."
-  },
-  "footer": {
-    "desc": "The world's fastest and most private online video compressor. Powered by WebAssembly.",
-    "tools": "Tools",
-    "formats": "Formats",
-    "company": "Company",
-    "copyright": "Made with ❤️ for Privacy",
-    "status": "All systems operational",
-    "languages": "Available in 22+ languages",
-    "links": {
-      "video_compressor": "Video Compressor",
-      "video_cutter": "Video Cutter",
-      "crop_video": "Crop Video",
-      "video_to_mp3": "Video to MP3",
-      "audio_cutter": "Audio Cutter",
-      "compress_mp4": "Compress MP4",
-      "compress_avi": "Compress AVI",
-      "compress_mov": "Compress MOV",
-      "compress_mkv": "Compress MKV",
-      "compress_webm": "Compress WEBM",
-      "privacy_policy": "Privacy Policy",
-      "terms_of_service": "Terms of Service",
-      "contact_us": "Contact Us",
-      "about": "About"
-    }
   },
   "auth": {
     "login_title": "Welcome Back",
