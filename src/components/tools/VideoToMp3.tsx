@@ -93,7 +93,7 @@ export function VideoToMp3() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
         
         {/* LEFT: Upload / Result Area */}
-        <div className="bg-white dark:bg-slate-900 rounded-[32px] border border-[var(--card-border)] shadow-xl h-[600px] flex flex-col relative overflow-hidden group">
+        <div className="bg-white dark:bg-slate-900 rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[600px] flex flex-col relative overflow-hidden group">
           {!file ? (
             <div 
               className="flex-1 flex flex-col items-center justify-center p-12 cursor-pointer hover:bg-slate-50/50 dark:hover:bg-slate-800/20 transition-all duration-500 group"
@@ -168,7 +168,7 @@ export function VideoToMp3() {
         </div>
 
         {/* RIGHT: Settings Area */}
-        <div className="bg-white dark:bg-slate-900 rounded-[32px] p-8 border border-[var(--card-border)] shadow-xl flex flex-col h-[600px]">
+        <div className="bg-white dark:bg-slate-900 rounded-[32px] p-8 border border-[var(--card-border)] shadow-xl flex flex-col min-h-[600px]">
           <div className="flex items-center gap-3 mb-10 border-b border-[var(--card-border)] pb-6">
             <div className="w-10 h-10 bg-blue-500/10 rounded-xl flex items-center justify-center">
               <Settings2 className="w-5 h-5 text-blue-500" />
