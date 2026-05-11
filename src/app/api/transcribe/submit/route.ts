@@ -25,17 +25,17 @@ export async function POST(req: NextRequest) {
 
     const body: Record<string, unknown> = {
       audio_url,
-      speaker_labels: true,
-      auto_chapters: false,
-      sentiment_analysis: false,
+      speech_model: 'universal-2',   // required by AssemblyAI as of latest API
       punctuate: true,
       format_text: true,
     };
 
     if (language && language !== 'auto') {
       body.language_code = language;
+      body.speaker_labels = true;    // speaker labels work with explicit language
     } else {
       body.language_detection = true;
+      body.speaker_labels = false;   // cannot combine speaker_labels + language_detection
     }
 
     const response = await fetch(`${ASSEMBLYAI_BASE}/transcript`, {
