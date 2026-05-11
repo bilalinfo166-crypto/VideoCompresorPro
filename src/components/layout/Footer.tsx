@@ -42,14 +42,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-10 mb-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <a href={getLocalizedHref('/')} className="flex items-center gap-2 mb-5">
+            <Link href={getLocalizedHref('/')} className="flex items-center gap-2 mb-5">
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                 <Video className="w-5 h-5 text-white" />
               </div>
               <span className="text-base font-bold text-[var(--foreground)]">
                 VideoCompressorPro
               </span>
-            </a>
+            </Link>
             <p className="text-[var(--muted-text)] text-sm leading-relaxed max-w-xs mb-6">
               {t("footer.desc")}
             </p>
@@ -65,9 +65,9 @@ export function Footer() {
             <ul className="space-y-3">
               {TOOL_LINKS.map((l) => (
                 <li key={l.href}>
-                  <a href={getLocalizedHref(l.href)} className="text-[var(--muted-text)] hover:text-blue-600 text-sm transition-colors">
+                  <Link href={getLocalizedHref(l.href)} className="text-[var(--muted-text)] hover:text-blue-600 text-sm transition-colors">
                     {l.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -79,9 +79,9 @@ export function Footer() {
             <ul className="space-y-3">
               {FORMAT_LINKS.map((l) => (
                 <li key={l.href}>
-                  <a href={getLocalizedHref(l.href)} className="text-[var(--muted-text)] hover:text-blue-600 text-sm transition-colors">
+                  <Link href={getLocalizedHref(l.href)} className="text-[var(--muted-text)] hover:text-blue-600 text-sm transition-colors">
                     {l.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -93,9 +93,9 @@ export function Footer() {
             <ul className="space-y-3">
               {LEGAL_LINKS.map((l) => (
                 <li key={l.href}>
-                  <a href={getLocalizedHref(l.href)} className="text-[var(--muted-text)] hover:text-blue-600 text-sm transition-colors">
+                  <Link href={getLocalizedHref(l.href)} className="text-[var(--muted-text)] hover:text-blue-600 text-sm transition-colors">
                     {l.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

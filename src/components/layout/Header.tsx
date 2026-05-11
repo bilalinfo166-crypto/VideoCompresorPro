@@ -56,29 +56,29 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="h-16 flex items-center justify-between gap-4">
           {/* Logo */}
-          <a href={getLocalizedHref('/')} className="flex items-center gap-2 group shrink-0">
+          <Link href={getLocalizedHref('/')} className="flex items-center gap-2 group shrink-0">
             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center group-hover:bg-blue-500 transition-colors">
               <Video className="w-5 h-5 text-white" />
             </div>
             <span className="text-base font-bold text-[var(--foreground)] hidden sm:inline-block">
               VideoCompressorPro
             </span>
-          </a>
+          </Link>
 
           {/* Desktop Nav - Direct Tool Links */}
           <nav className="hidden lg:flex items-center gap-1">
             {TOOLS.map((tool) => (
-              <a
+              <Link
                 key={tool.href}
                 href={getLocalizedHref(tool.href)}
                 className="px-3 py-2 text-xs xl:text-sm font-semibold text-[var(--muted-text)] hover:text-blue-600 rounded-lg transition-colors whitespace-nowrap"
               >
                 {t(tool.label)}
-              </a>
+              </Link>
             ))}
-            <a href={getLocalizedHref('/blog')} className="px-3 py-2 text-xs xl:text-sm font-semibold text-[var(--muted-text)] hover:text-blue-600 rounded-lg transition-colors">
+            <Link href={getLocalizedHref('/blog')} className="px-3 py-2 text-xs xl:text-sm font-semibold text-[var(--muted-text)] hover:text-blue-600 rounded-lg transition-colors">
               Blog
-            </a>
+            </Link>
           </nav>
 
           {/* Right side */}
@@ -118,19 +118,19 @@ export function Header() {
               )}
             </div>
 
-            <a
+            <Link
               href={getLocalizedHref('/login')}
               className="text-xs sm:text-sm font-bold text-[var(--foreground)] hover:text-blue-600 transition-colors"
             >
               Log In
-            </a>
+            </Link>
 
-            <a
+            <Link
               href={getLocalizedHref('/signup')}
               className="hidden sm:inline-flex px-6 py-2.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-xl transition-all shadow-md shadow-blue-500/20 whitespace-nowrap"
             >
               Sign Up
-            </a>
+            </Link>
 
             {/* Mobile toggle */}
             <button
@@ -151,7 +151,7 @@ export function Header() {
             {TOOLS.map((tool) => {
               const Icon = tool.icon;
               return (
-                <a
+                <Link
                   key={tool.href}
                   href={getLocalizedHref(tool.href)}
                   className="flex items-center gap-3 px-4 py-3 text-sm text-slate-300 hover:text-white hover:bg-white/5 rounded-lg transition-colors"
@@ -159,25 +159,25 @@ export function Header() {
                 >
                   <Icon className="w-4 h-4 text-indigo-400" />
                   {t(tool.label)}
-                </a>
+                </Link>
               );
             })}
             
             <div className="border-t border-[var(--card-border)] mt-4 pt-6 px-4 space-y-3">
-              <a
+              <Link
                 href={getLocalizedHref('/login')}
                 className="flex items-center justify-center w-full py-3 text-sm font-bold text-[var(--foreground)] border border-[var(--card-border)] rounded-xl hover:bg-white/5 transition-all"
                 onClick={() => setMobileOpen(false)}
               >
                 Log In
-              </a>
-              <a
+              </Link>
+              <Link
                 href={getLocalizedHref('/signup')}
                 className="flex items-center justify-center w-full py-3 text-sm font-bold text-white bg-blue-600 rounded-xl hover:bg-blue-500 shadow-lg shadow-blue-500/20 transition-all"
                 onClick={() => setMobileOpen(false)}
               >
                 Sign Up
-              </a>
+              </Link>
             </div>
 
             <div className="border-t border-[var(--card-border)] mt-4 pt-6">

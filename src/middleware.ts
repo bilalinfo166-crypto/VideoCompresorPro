@@ -21,32 +21,28 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
+  const requestHeaders = new Headers(request.headers);
+
   // Check if the pathname starts with a locale
   const pathnameIsMissingLocale = locales.every(
     (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   );
 
   if (!pathnameIsMissingLocale) {
-    // Extract the locale and the actual path
+    // Extract the locale
     const pathParts = pathname.split('/');
     const locale = pathParts[1]; // e.g., 'es'
-    const actualPath = pathname.replace(`/${locale}`, '') || '/'; // e.g., '/video-cutter' or '/'
-
-    // Clone the URL and set the new pathname to the actual (unprefixed) path
-    const url = request.nextUrl.clone();
-    url.pathname = actualPath;
-
-    // Rewrite the request to the actual path but pass the locale in headers
-    const response = NextResponse.rewrite(url);
-    response.headers.set('x-next-locale', locale);
-    
-    return response;
+    requestHeaders.set('x-next-locale', locale);
+  } else {
+    // If no locale in URL, default is 'en'
+    requestHeaders.set('x-next-locale', 'en');
   }
 
-  // If no locale in URL, default is 'en'
-  const response = NextResponse.next();
-  response.headers.set('x-next-locale', 'en');
-  return response;
+  return NextResponse.next({
+    request: {
+      headers: requestHeaders,
+    },
+  });
 }
 
 export const config = {
