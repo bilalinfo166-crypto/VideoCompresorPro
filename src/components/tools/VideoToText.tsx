@@ -388,7 +388,7 @@ export const VideoToText = () => {
 
           </div>
 
-          <p className="mt-4 text-[10px] text-[var(--muted-text)] text-center font-bold uppercase tracking-wider opacity-60">⚡ Powered by AssemblyAI · Results in ~15 seconds</p>
+          <p className="mt-4 text-[10px] text-[var(--muted-text)] text-center font-bold uppercase tracking-wider opacity-60">⚡ Video Compressor Pro AI · Results in ~15 seconds</p>
         </div>
       </div>
 
