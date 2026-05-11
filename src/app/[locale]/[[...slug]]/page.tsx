@@ -23,10 +23,6 @@ interface LocalizedPageProps {
   };
 }
 
-export function generateStaticParams() {
-  // Return empty array, paths will be evaluated at runtime or generated on-demand
-  return [];
-}
 
 export default function LocalizedPage({ params }: LocalizedPageProps) {
   const { locale, slug } = params;
