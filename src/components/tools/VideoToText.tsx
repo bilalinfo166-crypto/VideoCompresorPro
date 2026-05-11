@@ -89,22 +89,64 @@ export const VideoToText = () => {
     if (!file) return;
     setStep(3); setError(""); setResult(null); setProcessingStep(1);
     try {
-      // Step 1: Extract audio
+      // Step 1: Extract audio from video in the browser
       const audioBlob = await extractAudioBlob(file);
       setProcessingStep(2);
 
-      // Step 2+3+4: Upload + transcribe via API route
-      const formData = new FormData();
-      formData.append('audio', audioBlob, 'audio.wav');
-      formData.append('language', language);
+      // Step 2: Upload WAV directly from browser to AssemblyAI
+      // (bypasses Vercel's 4.5 MB serverless body-size limit)
+      const apiKey = process.env.NEXT_PUBLIC_ASSEMBLYAI_API_KEY;
+      if (!apiKey) throw new Error('AssemblyAI API key is not configured. Please add NEXT_PUBLIC_ASSEMBLYAI_API_KEY.');
+
+      const uploadRes = await fetch('https://api.assemblyai.com/v2/upload', {
+        method: 'POST',
+        headers: {
+          authorization: apiKey,
+          'content-type': 'application/octet-stream',
+        },
+        body: audioBlob,
+      });
+      if (!uploadRes.ok) {
+        const t = await uploadRes.text();
+        throw new Error(`Audio upload failed: ${t}`);
+      }
+      const { upload_url } = await uploadRes.json();
       setProcessingStep(3);
 
-      const res = await fetch('/api/transcribe', { method: 'POST', body: formData });
+      // Step 3: Tell our server to submit the transcription job (tiny JSON request)
+      const submitRes = await fetch('/api/transcribe/submit', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ audio_url: upload_url, language }),
+      });
+      if (!submitRes.ok) {
+        const d = await submitRes.json();
+        throw new Error(d.error || 'Failed to submit transcription job');
+      }
+      const { transcript_id } = await submitRes.json();
       setProcessingStep(4);
-      if (!res.ok) { const d = await res.json(); throw new Error(d.error || 'Transcription failed'); }
-      const data: TranscriptResult = await res.json();
-      setResult(data);
-      setStep(4);
+
+      // Step 4: Poll our server until transcription is done
+      const maxAttempts = 120;
+      for (let i = 0; i < maxAttempts; i++) {
+        await new Promise(r => setTimeout(r, 2000));
+        const pollRes = await fetch(`/api/transcribe/poll/${transcript_id}`);
+        if (!pollRes.ok) {
+          const d = await pollRes.json();
+          throw new Error(d.error || 'Polling failed');
+        }
+        const pollData = await pollRes.json();
+        if (pollData.status === 'completed') {
+          setResult(pollData as TranscriptResult);
+          setStep(4);
+          return;
+        }
+        if (pollData.status === 'error') {
+          throw new Error(pollData.error || 'Transcription error');
+        }
+        // still queued/processing — keep polling
+      }
+      throw new Error('Transcription timed out after 4 minutes.');
     } catch (e: any) {
       setError(e.message || 'Something went wrong.');
       setStep(2);
