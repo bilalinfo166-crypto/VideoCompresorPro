@@ -55,7 +55,16 @@ export const VideoToText = () => {
     setTimeout(() => { setUrlError("URL transcription coming soon."); setIsFetching(false); }, 1500);
   };
 
+  const MAX_FILE_MB = 100;
+
   const handleFileSelect = useCallback((f: File) => {
+    const sizeMB = f.size / (1024 * 1024);
+    if (sizeMB > MAX_FILE_MB) {
+      setError(`File too large (${sizeMB.toFixed(1)} MB). Maximum allowed size is ${MAX_FILE_MB} MB.`);
+      setStep(2);
+      setFile(f); // still show the file card so user sees the size
+      return;
+    }
     setFile(f); setResult(null); setError(""); setProcessingStep(0); setStep(2);
   }, []);
 
@@ -195,6 +204,11 @@ export const VideoToText = () => {
                 <h3 className="text-2xl font-black text-[var(--foreground)] mb-4">{t("to_text_page.hero_title") || "Video to Text"}</h3>
                 <p className="text-[var(--muted-text)] font-medium max-w-xs leading-relaxed mb-8">{t("to_text_page.visualizer_desc") || "Upload a video and get accurate AI transcription in seconds."}</p>
                 <UnifiedUpload onFileSelect={handleFileSelect} onUrlClick={() => setShowUrlModal(true)} onQrClick={() => setShowQrModal(true)} onDriveClick={() => {}} fileInputRef={fileInputRef} />
+                {/* Max file size notice */}
+                <div className="mt-4 flex items-center gap-1.5 px-3 py-1.5 bg-amber-500/10 border border-amber-500/20 rounded-full">
+                  <svg className="w-3 h-3 text-amber-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" /></svg>
+                  <span className="text-[10px] font-black uppercase tracking-widest text-amber-600 dark:text-amber-400">Max 100 MB · We can&apos;t process larger files</span>
+                </div>
               </div>
             </div>
           ) : (
