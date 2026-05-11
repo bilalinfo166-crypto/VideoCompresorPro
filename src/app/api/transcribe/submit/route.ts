@@ -25,7 +25,7 @@ export async function POST(req: NextRequest) {
 
     const body: Record<string, unknown> = {
       audio_url,
-      speech_models: ['universal-2'], // AssemblyAI requires array (speech_model singular is deprecated)
+      speech_models: ['universal-3-pro', 'universal-2'], // Prioritizes Pro model for top languages, falls back to universal-2 for others like Urdu/Hindi
       punctuate: true,
       format_text: true,
     };
