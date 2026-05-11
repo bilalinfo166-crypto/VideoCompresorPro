@@ -93,10 +93,11 @@ export const VideoToText = () => {
       const audioBlob = await extractAudioBlob(file);
       setProcessingStep(2);
 
-      // Step 2: Upload WAV directly from browser to AssemblyAI
-      // (bypasses Vercel's 4.5 MB serverless body-size limit)
-      const apiKey = process.env.NEXT_PUBLIC_ASSEMBLYAI_API_KEY;
-      if (!apiKey) throw new Error('AssemblyAI API key is not configured. Please add NEXT_PUBLIC_ASSEMBLYAI_API_KEY.');
+      // Step 2: Fetch the AssemblyAI API key from our server (no NEXT_PUBLIC_ needed)
+      const tokenRes = await fetch('/api/transcribe/token');
+      if (!tokenRes.ok) throw new Error('Could not retrieve transcription token from server.');
+      const { key: apiKey } = await tokenRes.json();
+      if (!apiKey) throw new Error('AssemblyAI API key is not configured on the server.');
 
       const uploadRes = await fetch('https://api.assemblyai.com/v2/upload', {
         method: 'POST',
