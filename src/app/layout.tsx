@@ -87,7 +87,7 @@ export const metadata: Metadata = {
     canonical: "https://videocompressorpro.com",
   },
   verification: {
-    google: "google-site-verification-placeholder",
+    google: "5zDZlNYc1BJIfkypQ4vmi0FPgB83fBYeFgqpYw9brV8",
   }
 };
 
