@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import { UploadCloud, FileVideo, Crop, Download, Loader2, CheckCircle2, X, RotateCw, Settings2, Zap, Crown, ShieldAlert, PlusCircle, ChevronDown, Move } from "lucide-react";
-import { useFFmpeg } from "@/hooks/useFFmpeg";
+import { useFFmpeg, isMobileDevice, fileSizeMB } from "@/hooks/useFFmpeg";
 import { useLanguage } from "@/context/LanguageContext";
 import { UnifiedUpload } from "./UnifiedUpload";
 import { SharedModals } from "./SharedModals";
@@ -41,7 +41,10 @@ export function VideoCropper() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const { isLoaded, isLoading, progress, load, executeCommand } = useFFmpeg();
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const { isLoaded, isLoading, progress, statusMsg, load, executeCommand } = useFFmpeg();
+  const isMobile = typeof window !== 'undefined' ? isMobileDevice() : false;
 
   useEffect(() => {
     if (file) {
@@ -203,24 +206,24 @@ export function VideoCropper() {
   };
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 transition-colors duration-300">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+    <div className="w-full max-w-7xl mx-auto px-2 sm:px-4 transition-colors duration-300">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 items-stretch">
         
         {/* LEFT: Interactive Preview Area */}
-        <div className="bg-white dark:bg-slate-900 rounded-[32px] border border-[var(--card-border)] shadow-xl h-[600px] flex flex-col relative overflow-hidden group">
+        <div className="bg-white dark:bg-slate-900 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[360px] flex flex-col relative overflow-hidden group">
           {!file ? (
             <div 
-              className="flex-1 flex flex-col items-center justify-center p-8 cursor-pointer relative"
+              className="flex-1 flex flex-col items-center justify-center p-6 sm:p-8 cursor-pointer relative"
               onClick={() => fileInputRef.current?.click()}
             >
-              <div className="w-24 h-24 mb-6 relative">
+              <div className="w-16 h-16 sm:w-24 sm:h-24 mb-4 sm:mb-6 relative">
                 <div className="absolute inset-0 bg-blue-500/10 rounded-full animate-pulse" />
                 <div className="relative z-10 w-full h-full flex items-center justify-center">
-                  <UploadCloud className="w-12 h-12 text-blue-500" />
+                  <UploadCloud className="w-8 h-8 sm:w-12 sm:h-12 text-blue-500" />
                 </div>
               </div>
-              <h3 className="text-2xl font-bold text-[var(--foreground)] mb-2">Online Video Cropper</h3>
-              <p className="text-sm text-[var(--muted-text)] mb-8 font-medium">Crop your video online in seconds. Choose presets or drag to select.</p>
+              <h3 className="text-base sm:text-2xl font-bold text-[var(--foreground)] mb-2 px-4 text-center">Online Video Cropper</h3>
+              <p className="text-xs sm:text-sm text-[var(--muted-text)] mb-6 sm:mb-8 font-medium text-center">Crop your video online in seconds. Choose presets or drag to select.</p>
               
               <UnifiedUpload 
                 onFileSelect={handleFileSelect}
@@ -251,7 +254,14 @@ export function VideoCropper() {
                 <div className="w-full h-full border-4 border-blue-500/20 border-t-blue-500 rounded-full animate-spin" />
               </div>
               <h3 className="text-2xl font-bold mb-4">{progress}% Processing...</h3>
-              <p className="text-[var(--muted-text)] font-bold uppercase tracking-widest text-xs">Applying Crop Filter...</p>
+              <p className="text-[var(--muted-text)] font-bold uppercase tracking-widest text-xs">
+                {statusMsg || 'Applying Crop Filter...'}
+              </p>
+              {isMobile && (
+                <p className="text-xs text-amber-500 mt-4 font-medium">
+                  ⚡ Processing directly on your device
+                </p>
+              )}
             </div>
           ) : (
             <div className="flex-1 flex flex-col bg-slate-50 dark:bg-slate-950 p-6 overflow-hidden">
@@ -322,12 +332,21 @@ export function VideoCropper() {
                    Preview Area
                  </div>
               </div>
+              {/* Mobile large file warning */}
+              {isMobile && fileSizeMB(file) > 100 && (
+                <div className="mt-3 flex items-start gap-2 bg-amber-500/10 border border-amber-500/20 rounded-xl p-3">
+                  <span className="text-amber-500 text-base shrink-0">⚡</span>
+                  <p className="text-xs text-amber-600 dark:text-amber-400 font-medium leading-relaxed">
+                    <strong>Large File Warning</strong> — Mobile editing might be slow or crash for large files. Use a desktop for best results.
+                  </p>
+                </div>
+              )}
             </div>
           )}
         </div>
 
         {/* RIGHT: Settings Area */}
-        <div className={`bg-white dark:bg-slate-900 rounded-[32px] border border-[var(--card-border)] shadow-xl h-[600px] p-8 flex flex-col transition-all duration-500 ${!file ? 'opacity-50 grayscale pointer-events-none' : 'opacity-100 grayscale-0'}`}>
+        <div className={`bg-white dark:bg-slate-900 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[320px] md:h-[600px] p-5 sm:p-8 flex flex-col transition-all duration-500 ${!file ? 'opacity-50 grayscale pointer-events-none' : 'opacity-100 grayscale-0'}`}>
           <h3 className="font-black text-[var(--foreground)] uppercase text-[10px] tracking-widest mb-6 border-b border-[var(--card-border)] pb-4 flex items-center gap-2">
             <Settings2 className="w-4 h-4 text-blue-500" /> Platform Presets
           </h3>

@@ -2,7 +2,7 @@
 
 import { useState, useRef } from "react";
 import { UploadCloud, FileAudio, Scissors, Download, Loader2, Clock, CheckCircle2, X, Settings2, Zap, Music } from "lucide-react";
-import { useFFmpeg } from "@/hooks/useFFmpeg";
+import { useFFmpeg, isMobileDevice, fileSizeMB } from "@/hooks/useFFmpeg";
 import { useLanguage } from "@/context/LanguageContext";
 
 export function AudioCutter() {
@@ -16,7 +16,8 @@ export function AudioCutter() {
   const [isCutting, setIsCutting] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
   
-  const { isLoaded, isLoading, progress, load, executeCommand } = useFFmpeg();
+  const { isLoaded, isLoading, progress, statusMsg, load, executeCommand } = useFFmpeg();
+  const isMobile = typeof window !== 'undefined' ? isMobileDevice() : false;
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) {
@@ -87,26 +88,26 @@ export function AudioCutter() {
   };
 
   return (
-    <div className="w-full max-w-6xl mx-auto transition-colors duration-300">
-      <div className="rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] dark:shadow-[0_20px_50px_rgba(0,0,0,0.3)] border border-[var(--card-border)] flex flex-col md:flex-row bg-white dark:bg-slate-900 h-[600px]">
+    <div className="w-full max-w-6xl mx-auto px-2 sm:px-4 transition-colors duration-300">
+      <div className="rounded-[24px] sm:rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] dark:shadow-[0_20px_50px_rgba(0,0,0,0.3)] border border-[var(--card-border)] flex flex-col md:flex-row bg-white dark:bg-slate-900 min-h-[360px] md:h-[600px]">
         {/* ─── LEFT COLUMN: Upload / File Info ─── */}
-        <div className="flex-1 p-6 md:p-12 border-b md:border-b-0 md:border-r border-[var(--card-border)] relative flex flex-col overflow-hidden">
+        <div className="flex-1 p-4 sm:p-6 md:p-12 border-b md:border-b-0 md:border-r border-[var(--card-border)] relative flex flex-col overflow-hidden">
           {!file ? (
             <div 
-              className="flex-1 rounded-3xl p-12 md:p-24 border-2 border-dashed border-[var(--card-border)] hover:border-blue-500/50 bg-slate-50 dark:bg-slate-900/50 transition-all duration-500 cursor-pointer text-center group relative overflow-hidden shadow-inner flex flex-col items-center justify-center"
+              className="flex-1 rounded-3xl p-6 sm:p-12 md:p-24 border-2 border-dashed border-[var(--card-border)] hover:border-blue-500/50 bg-slate-50 dark:bg-slate-900/50 transition-all duration-500 cursor-pointer text-center group relative overflow-hidden shadow-inner flex flex-col items-center justify-center"
               onClick={() => fileInputRef.current?.click()}
               onDragOver={(e) => e.preventDefault()}
               onDrop={handleDrop}
             >
               <div className="relative z-10 flex flex-col items-center">
-                <div className="w-20 h-20 bg-blue-500/10 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500">
-                  <UploadCloud className="w-10 h-10 text-blue-500" />
+                <div className="w-16 h-16 sm:w-20 sm:h-20 bg-blue-500/10 rounded-full flex items-center justify-center mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-500">
+                  <UploadCloud className="w-8 h-8 sm:w-10 sm:h-10 text-blue-500" />
                 </div>
-                <h2 className="text-2xl font-bold mb-3 text-[var(--foreground)]">{t("tool.audio_select_title")}</h2>
-                <p className="text-[var(--muted-text)] mb-8 max-w-sm mx-auto font-medium leading-relaxed">
+                <h2 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3 text-[var(--foreground)] px-2">{t("tool.audio_select_title")}</h2>
+                <p className="text-xs sm:text-sm text-[var(--muted-text)] mb-6 sm:mb-8 max-w-sm mx-auto font-medium leading-relaxed px-2">
                   {t("tool.audio_select_desc")}
                 </p>
-                <button className="bg-blue-600 text-white hover:bg-blue-500 px-8 py-3 rounded-xl font-bold transition-colors shadow-xl shadow-blue-500/20">
+                <button className="bg-blue-600 text-white hover:bg-blue-500 px-6 py-3 sm:px-8 sm:py-3 rounded-xl font-bold transition-colors shadow-xl shadow-blue-500/20 text-sm sm:text-base">
                   {t("tool.choose_file")}
                 </button>
               </div>
@@ -129,17 +130,24 @@ export function AudioCutter() {
               </div>
             </div>
           ) : isCutting ? (
-            <div className="flex-1 glass-card rounded-3xl p-12 md:p-24 text-center border border-blue-500/20 bg-[var(--background)] flex flex-col items-center justify-center">
-              <div className="w-20 h-20 bg-blue-500/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Loader2 className="w-10 h-10 text-blue-500 animate-spin" />
+            <div className="flex-1 glass-card rounded-3xl p-8 sm:p-12 md:p-24 text-center border border-blue-500/20 bg-[var(--background)] flex flex-col items-center justify-center">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 bg-blue-500/10 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
+                <Loader2 className="w-8 h-8 sm:w-10 sm:h-10 text-blue-500 animate-spin" />
               </div>
-              <h3 className="text-3xl font-bold mb-4 text-[var(--foreground)]">{t("tool.cutting_audio")}</h3>
-              <div className="max-w-md mx-auto w-full">
+              <h3 className="text-xl sm:text-3xl font-bold mb-4 text-[var(--foreground)] px-2">
+                {statusMsg || t("tool.cutting_audio")}
+              </h3>
+              <div className="max-w-md mx-auto w-full px-4">
                 <div className="h-2 bg-[var(--background)] border border-[var(--card-border)] rounded-full overflow-hidden mb-4">
                   <div className="h-full bg-blue-600 transition-all duration-300" style={{ width: `${progress}%` }} />
                 </div>
-                <div className="text-sm font-black text-[var(--muted-text)] uppercase tracking-wider">{progress}% {t("tool.complete")}</div>
+                <div className="text-xs sm:text-sm font-black text-[var(--muted-text)] uppercase tracking-wider">{progress}% {t("tool.complete")}</div>
               </div>
+              {isMobile && (
+                <p className="text-xs text-amber-500 mt-6 font-medium text-center px-4">
+                  ⚡ Processing directly on your device
+                </p>
+              )}
             </div>
           ) : (
             <div className="flex-1 flex flex-col items-center justify-center">
@@ -158,13 +166,22 @@ export function AudioCutter() {
                     <p className="text-sm text-[var(--muted-text)] font-bold">{formatSize(file.size)}</p>
                   </div>
                 </div>
+                {/* Mobile large file warning */}
+                {isMobile && fileSizeMB(file) > 100 && (
+                  <div className="mt-4 flex items-start gap-2 bg-amber-500/10 border border-amber-500/20 rounded-xl p-3">
+                    <span className="text-amber-500 text-base shrink-0">⚡</span>
+                    <p className="text-xs text-amber-600 dark:text-amber-400 font-medium leading-relaxed text-left">
+                      <strong>Large File Warning</strong> — Audio cutting on mobile might be slow for files >100MB. Use a desktop for best results.
+                    </p>
+                  </div>
+                )}
               </div>
             </div>
           )}
         </div>
 
         {/* ─── RIGHT COLUMN: Settings / Actions ─── */}
-        <div className="w-full md:w-[420px] lg:w-[480px] p-6 md:p-12 bg-slate-50 dark:bg-slate-950/50 flex flex-col h-[600px]">
+        <div className="w-full md:w-[420px] lg:w-[480px] p-5 sm:p-6 md:p-12 bg-slate-50 dark:bg-slate-950/50 flex flex-col h-auto md:h-[600px]">
           <div className="h-full flex flex-col">
             <div className="flex items-center gap-2 mb-8 border-b border-[var(--card-border)] pb-4">
               <div className="w-8 h-8 bg-blue-500/10 rounded-lg flex items-center justify-center">

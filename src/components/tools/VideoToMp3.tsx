@@ -2,7 +2,7 @@
 
 import { useState, useRef } from "react";
 import { UploadCloud, FileVideo, Music, Download, Loader2, CheckCircle2, X, Settings2, Zap, Volume2 } from "lucide-react";
-import { useFFmpeg } from "@/hooks/useFFmpeg";
+import { useFFmpeg, isMobileDevice, fileSizeMB } from "@/hooks/useFFmpeg";
 import { useLanguage } from "@/context/LanguageContext";
 
 export function VideoToMp3() {
@@ -15,7 +15,8 @@ export function VideoToMp3() {
   const [isExtracting, setIsExtracting] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
   
-  const { isLoaded, isLoading, progress, load, executeCommand } = useFFmpeg();
+  const { isLoaded, isLoading, progress, statusMsg, load, executeCommand } = useFFmpeg();
+  const isMobile = typeof window !== 'undefined' ? isMobileDevice() : false;
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) {
@@ -89,26 +90,26 @@ export function VideoToMp3() {
   };
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 transition-colors duration-300">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+    <div className="w-full max-w-7xl mx-auto px-2 sm:px-4 transition-colors duration-300">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 items-stretch">
         
         {/* LEFT: Upload / Result Area */}
-        <div className="bg-white dark:bg-slate-900 rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[600px] flex flex-col relative overflow-hidden group">
+        <div className="bg-white dark:bg-slate-900 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[360px] md:min-h-[600px] flex flex-col relative overflow-hidden group">
           {!file ? (
             <div 
-              className="flex-1 flex flex-col items-center justify-center p-12 cursor-pointer hover:bg-slate-50/50 dark:hover:bg-slate-800/20 transition-all duration-500 group"
+              className="flex-1 flex flex-col items-center justify-center p-6 sm:p-12 cursor-pointer hover:bg-slate-50/50 dark:hover:bg-slate-800/20 transition-all duration-500 group"
               onClick={() => fileInputRef.current?.click()}
               onDragOver={(e) => e.preventDefault()}
               onDrop={handleDrop}
             >
-              <div className="w-24 h-24 bg-blue-500/10 rounded-full flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500 shadow-inner">
-                <UploadCloud className="w-12 h-12 text-blue-500" />
+              <div className="w-16 h-16 sm:w-24 sm:h-24 bg-blue-500/10 rounded-full flex items-center justify-center mb-6 sm:mb-8 group-hover:scale-110 transition-transform duration-500 shadow-inner">
+                <UploadCloud className="w-8 h-8 sm:w-12 sm:h-12 text-blue-500" />
               </div>
-              <h2 className="text-3xl font-black mb-4 text-[var(--foreground)] tracking-tight text-center">{t("tool.mp3_select_title")}</h2>
-              <p className="text-[var(--muted-text)] mb-8 max-w-sm mx-auto font-medium text-center leading-relaxed">
+              <h2 className="text-xl sm:text-3xl font-black mb-2 sm:mb-4 text-[var(--foreground)] tracking-tight text-center px-4">{t("tool.mp3_select_title")}</h2>
+              <p className="text-sm sm:text-base text-[var(--muted-text)] mb-6 sm:mb-8 max-w-sm mx-auto font-medium text-center leading-relaxed px-4">
                 {t("tool.mp3_select_desc")}
               </p>
-              <button className="bg-blue-600 text-white hover:bg-blue-500 px-10 py-4 rounded-2xl font-black transition-all shadow-xl shadow-blue-500/20 active:scale-95">
+              <button className="bg-blue-600 text-white hover:bg-blue-500 px-6 py-3 sm:px-10 sm:py-4 rounded-2xl font-black transition-all shadow-xl shadow-blue-500/20 active:scale-95 text-sm sm:text-base">
                 {t("tool.choose_file")}
               </button>
               <input type="file" ref={fileInputRef} className="hidden" accept="video/*" onChange={handleFileChange} />
@@ -134,13 +135,20 @@ export function VideoToMp3() {
               <div className="w-24 h-24 bg-blue-500/10 rounded-full flex items-center justify-center mb-8 shadow-inner">
                 <Loader2 className="w-12 h-12 text-blue-500 animate-spin" />
               </div>
-              <h3 className="text-3xl font-black mb-8 text-[var(--foreground)] tracking-tight">{t("tool.extracting_audio")}</h3>
-              <div className="w-full max-w-md">
+              <h3 className="text-xl sm:text-3xl font-black mb-4 sm:mb-8 text-[var(--foreground)] tracking-tight text-center px-4">
+                {statusMsg || t("tool.extracting_audio")}
+              </h3>
+              <div className="w-full max-w-md px-4">
                 <div className="h-4 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden mb-4 shadow-inner">
                   <div className="h-full bg-blue-600 transition-all duration-300 rounded-full shadow-[0_0_20px_rgba(37,99,235,0.5)]" style={{ width: `${progress}%` }} />
                 </div>
-                <div className="text-sm font-black text-[var(--muted-text)] uppercase tracking-widest text-center">{progress}% {t("tool.complete")}</div>
+                <div className="text-xs sm:text-sm font-black text-[var(--muted-text)] uppercase tracking-widest text-center">{progress}% {t("tool.complete")}</div>
               </div>
+              {isMobile && (
+                <p className="text-xs text-amber-500 mt-6 font-medium text-center px-4">
+                  ⚡ Processing directly on your device
+                </p>
+              )}
             </div>
           ) : (
             <div className="flex-1 flex flex-col items-center justify-center p-12 text-center overflow-hidden">
@@ -160,6 +168,15 @@ export function VideoToMp3() {
                         <span className="px-3 py-1 bg-blue-500/10 text-blue-600 dark:text-blue-400 rounded-lg text-xs font-black uppercase tracking-widest leading-none">Video File</span>
                         <p className="text-sm text-[var(--muted-text)] font-black uppercase tracking-widest">{formatSize(file.size)}</p>
                       </div>
+                      {/* Mobile large file warning */}
+                      {isMobile && fileSizeMB(file) > 100 && (
+                        <div className="mt-4 flex items-start gap-2 bg-amber-500/10 border border-amber-500/20 rounded-xl p-3">
+                          <span className="text-amber-500 text-base shrink-0">⚡</span>
+                          <p className="text-xs text-amber-600 dark:text-amber-400 font-medium leading-relaxed text-left">
+                            <strong>Large File Warning</strong> — Audio extraction on mobile might be slow for files >100MB. Use a desktop for best results.
+                          </p>
+                        </div>
+                      )}
                     </div>
                   </div>
                </div>
@@ -168,7 +185,7 @@ export function VideoToMp3() {
         </div>
 
         {/* RIGHT: Settings Area */}
-        <div className="bg-white dark:bg-slate-900 rounded-[32px] p-8 border border-[var(--card-border)] shadow-xl flex flex-col min-h-[600px]">
+        <div className="bg-white dark:bg-slate-900 rounded-[24px] sm:rounded-[32px] p-5 sm:p-8 border border-[var(--card-border)] shadow-xl flex flex-col min-h-[320px] md:min-h-[600px]">
           <div className="flex items-center gap-3 mb-10 border-b border-[var(--card-border)] pb-6">
             <div className="w-10 h-10 bg-blue-500/10 rounded-xl flex items-center justify-center">
               <Settings2 className="w-5 h-5 text-blue-500" />

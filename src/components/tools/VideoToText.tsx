@@ -2,6 +2,7 @@
 import React, { useState, useRef, useCallback } from 'react';
 import { FileVideo, Upload, Type, Download, Copy, Check, Loader2, MessageSquare, Sparkles, Globe, Trash2, ArrowLeft, Play, CheckCircle2, CloudUpload, Cpu, FileText } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
+import { isMobileDevice } from '@/hooks/useFFmpeg';
 import { UnifiedUpload } from './UnifiedUpload';
 import { SharedModals } from './SharedModals';
 
@@ -35,6 +36,7 @@ const SPEAKER_COLORS = ['#f97316','#8b5cf6','#06b6d4','#10b981','#f43f5e','#eab3
 
 export const VideoToText = () => {
   const { t } = useLanguage();
+  const isMobile = typeof window !== 'undefined' ? isMobileDevice() : false;
   const [file, setFile] = useState<File | null>(null);
   const [step, setStep] = useState<1|2|3|4>(1);
   const [language, setLanguage] = useState("auto");
@@ -189,20 +191,20 @@ export const VideoToText = () => {
   };
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+    <div className="w-full max-w-7xl mx-auto px-2 sm:px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 items-stretch">
 
         {/* LEFT: Upload / Preview */}
-        <div className="flex flex-col h-[620px] bg-white dark:bg-slate-900 rounded-[2.5rem] border border-[var(--card-border)] overflow-hidden shadow-2xl shadow-indigo-500/5">
+        <div className="flex flex-col min-h-[360px] md:h-[620px] bg-white dark:bg-slate-900 rounded-[24px] sm:rounded-[2.5rem] border border-[var(--card-border)] overflow-hidden shadow-2xl shadow-indigo-500/5">
           {!file ? (
-            <div className="flex-1 flex flex-col items-center justify-center p-12 text-center group relative overflow-hidden">
+            <div className="flex-1 flex flex-col items-center justify-center p-6 sm:p-12 text-center group relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-b from-indigo-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="relative z-10 flex flex-col items-center">
-                <div className="w-24 h-24 bg-indigo-600 rounded-[2rem] flex items-center justify-center mb-8 shadow-2xl shadow-indigo-500/40 group-hover:scale-110 transition-transform cursor-pointer" onClick={() => fileInputRef.current?.click()}>
-                  <Upload className="w-10 h-10 text-white" />
+                <div className="w-16 h-16 sm:w-24 sm:h-24 bg-indigo-600 rounded-[1.5rem] sm:rounded-[2rem] flex items-center justify-center mb-4 sm:mb-8 shadow-2xl shadow-indigo-500/40 group-hover:scale-110 transition-transform cursor-pointer" onClick={() => fileInputRef.current?.click()}>
+                  <Upload className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
                 </div>
-                <h3 className="text-2xl font-black text-[var(--foreground)] mb-4">{t("to_text_page.hero_title") || "Video to Text"}</h3>
-                <p className="text-[var(--muted-text)] font-medium max-w-xs leading-relaxed mb-8">{t("to_text_page.visualizer_desc") || "Upload a video and get accurate AI transcription in seconds."}</p>
+                <h3 className="text-xl sm:text-2xl font-black text-[var(--foreground)] mb-2 sm:mb-4 px-2">{t("to_text_page.hero_title") || "Video to Text"}</h3>
+                <p className="text-xs sm:text-sm text-[var(--muted-text)] font-medium max-w-xs leading-relaxed mb-6 sm:mb-8 px-2">{t("to_text_page.visualizer_desc") || "Upload a video and get accurate AI transcription in seconds."}</p>
                 <UnifiedUpload onFileSelect={handleFileSelect} onUrlClick={() => setShowUrlModal(true)} onQrClick={() => setShowQrModal(true)} onDriveClick={() => {}} fileInputRef={fileInputRef} />
                 {/* Max file size notice */}
                 <div className="mt-4 flex items-center gap-1.5 px-3 py-1.5 bg-amber-500/10 border border-amber-500/20 rounded-full">
@@ -234,7 +236,7 @@ export const VideoToText = () => {
         </div>
 
         {/* RIGHT: Settings / Processing / Results */}
-        <div className="flex flex-col h-[620px] bg-white dark:bg-slate-900 rounded-[2.5rem] border border-[var(--card-border)] p-8 shadow-2xl shadow-indigo-500/5 relative overflow-hidden">
+        <div className="flex flex-col min-h-[320px] md:h-[620px] bg-white dark:bg-slate-900 rounded-[24px] sm:rounded-[2.5rem] border border-[var(--card-border)] p-5 sm:p-8 shadow-2xl shadow-indigo-500/5 relative overflow-hidden">
 
           {/* Header */}
           <div className="flex items-center justify-between mb-6">
