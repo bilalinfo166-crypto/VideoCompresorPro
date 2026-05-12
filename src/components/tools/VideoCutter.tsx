@@ -97,7 +97,7 @@ export function VideoCutter() {
     }
 
     try {
-      const result = await executeCommand(file, args, format, `video/${format}`, false);
+      const result = await executeCommand(file, args, format, `video/${format}`);
       if (result && result.size > 2000) {
         setResultBlob(result);
       } else {

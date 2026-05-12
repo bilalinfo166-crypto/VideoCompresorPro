@@ -41,8 +41,6 @@ export function VideoCropper() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const fileInputRef = useRef<HTMLInputElement>(null);
-
   const { isLoaded, isLoading, progress, statusMsg, load, executeCommand } = useFFmpeg();
   const isMobile = typeof window !== 'undefined' ? isMobileDevice() : false;
 
@@ -183,7 +181,7 @@ export function VideoCropper() {
       '-c:a', 'copy'           // Audio: no re-encoding = no quality loss
     ];
 
-    const result = await executeCommand(file, args, format, `video/${format}`, false);
+    const result = await executeCommand(file, args, format, `video/${format}`);
     if (result) setResultBlob(result);
     else alert("Cropping failed.");
     setIsCropping(false);

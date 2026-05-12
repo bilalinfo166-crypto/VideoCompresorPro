@@ -173,7 +173,7 @@ export function VideoToMp3() {
                         <div className="mt-4 flex items-start gap-2 bg-amber-500/10 border border-amber-500/20 rounded-xl p-3">
                           <span className="text-amber-500 text-base shrink-0">⚡</span>
                           <p className="text-xs text-amber-600 dark:text-amber-400 font-medium leading-relaxed text-left">
-                            <strong>Large File Warning</strong> — Audio extraction on mobile might be slow for files >100MB. Use a desktop for best results.
+                            <strong>Large File Warning</strong> — Audio extraction on mobile might be slow for files &gt;100MB. Use a desktop for best results.
                           </p>
                         </div>
                       )}
