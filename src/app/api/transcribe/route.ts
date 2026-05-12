@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { ratelimit } from '@/lib/ratelimit';
 
 export const maxDuration = 120; // 2-minute timeout for transcription polling
 export const dynamic = 'force-dynamic';
@@ -85,12 +86,56 @@ async function pollTranscription(transcriptId: string): Promise<any> {
 
 export async function POST(req: NextRequest) {
   try {
+    // 1. Strict Rate Limiting Check (Using Upstash Redis)
+    const ip = req.headers.get('x-forwarded-for') || '127.0.0.1';
+    const { success, limit, reset, remaining } = await ratelimit.limit(
+      `ratelimit_transcribe_${ip}`
+    );
+
+    if (!success) {
+      return NextResponse.json(
+        { 
+          error: 'Too many requests. Please try again later.',
+          limit,
+          remaining,
+          reset
+        }, 
+        { 
+          status: 429,
+          headers: {
+            'X-RateLimit-Limit': limit.toString(),
+            'X-RateLimit-Remaining': remaining.toString(),
+            'X-RateLimit-Reset': reset.toString(),
+          }
+        }
+      );
+    }
+    
     const formData = await req.formData();
     const audioFile = formData.get('audio') as File | null;
     const language = (formData.get('language') as string) || 'auto';
 
+    // 2. Validation
     if (!audioFile) {
       return NextResponse.json({ error: 'No audio file provided' }, { status: 400 });
+    }
+
+    // 3. Strict File Size Limit (25MB)
+    const MAX_FILE_SIZE = 25 * 1024 * 1024; // 25MB
+    if (audioFile.size > MAX_FILE_SIZE) {
+      return NextResponse.json({ 
+        error: 'File too large. Maximum size allowed is 25MB.' 
+      }, { status: 413 });
+    }
+
+    // 4. MIME Type Validation
+    const allowedTypes = ['audio/wav', 'audio/mp3', 'audio/mpeg', 'audio/ogg', 'audio/m4a', 'audio/x-m4a', 'video/mp4', 'video/webm'];
+    if (!allowedTypes.includes(audioFile.type)) {
+      console.warn(`[transcribe] Rejected invalid MIME type: ${audioFile.type}`);
+      // We still allow it if it's a common audio extension, but be cautious
+      if (!audioFile.name.match(/\.(mp3|wav|m4a|ogg|mp4|webm)$/i)) {
+        return NextResponse.json({ error: 'Invalid file type. Please upload a valid audio or video file.' }, { status: 400 });
+      }
     }
 
     const audioBlob = new Blob([await audioFile.arrayBuffer()], { type: audioFile.type || 'audio/wav' });
@@ -124,8 +169,11 @@ export async function POST(req: NextRequest) {
       confidence: result.confidence,
     });
   } catch (err: any) {
-    console.error('[transcribe]', err);
-    return NextResponse.json({ error: err.message || 'Transcription failed' }, { status: 500 });
+    // Avoid leaking internal error details to client in production
+    console.error('[transcribe]', err.message);
+    return NextResponse.json({ 
+      error: 'Transcription failed. Please try a smaller file or different format.' 
+    }, { status: 500 });
   }
 }
 

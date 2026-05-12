@@ -95,3 +95,82 @@ details summary::-webkit-details-marker { display: none; }
   mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
   -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
+
+/* ── Premium Mobile Enhancements ── */
+
+/* iOS momentum scrolling */
+.scroll-touch {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+/* Horizontal snap carousel for mobile reviews */
+.mobile-carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  scrollbar-width: none;
+}
+.mobile-carousel::-webkit-scrollbar { display: none; }
+.mobile-carousel > * {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+/* Safe area padding for notched phones (iPhone X+) */
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.safe-top {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+/* Prevent iOS auto-zoom on input focus (font must be >= 16px) */
+input, select, textarea {
+  font-size: max(16px, 1rem);
+}
+
+/* Touch feedback utility */
+.touch-feedback {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+.touch-feedback:active {
+  transform: scale(0.97);
+  opacity: 0.85;
+}
+
+/* Mobile drawer overlay */
+.mobile-drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  z-index: 40;
+  animation: fadeInOverlay 0.2s ease forwards;
+}
+@keyframes fadeInOverlay {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Mobile drawer panel */
+.mobile-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(85vw, 360px);
+  z-index: 50;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  animation: slideInDrawer 0.3s cubic-bezier(0.32, 0.72, 0, 1) forwards;
+}
+@keyframes slideInDrawer {
+  from { transform: translateX(100%); }
+  to   { transform: translateX(0); }
+}
+

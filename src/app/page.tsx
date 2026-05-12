@@ -154,7 +154,7 @@ export default function Home() {
   return (
     <div className="flex flex-col transition-colors duration-300">
       {/* ─── Hero Section ─── */}
-      <section className="relative pt-32 pb-20 overflow-hidden bg-[var(--background)]">
+      <section className="relative pt-24 sm:pt-32 pb-12 sm:pb-20 overflow-hidden bg-[var(--background)]">
         {/* Subtle background patterns */}
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-[0.03] pointer-events-none" />
         {/* Premium soft glows */}
@@ -172,10 +172,10 @@ export default function Home() {
             </div>
 
             {/* Headline */}
-            <h1 className="text-center text-5xl md:text-7xl font-black tracking-tight mb-8 leading-[1.1] text-[var(--foreground)]">
+            <h1 className="text-center text-4xl sm:text-5xl md:text-7xl font-black tracking-tight mb-6 sm:mb-8 leading-[1.1] text-[var(--foreground)] px-2">
                {t("hero.title_main")}
             </h1>
-            <p className="text-center text-xl text-[var(--muted-text)] mb-16 max-w-2xl mx-auto leading-relaxed font-medium">
+            <p className="text-center text-base sm:text-xl text-[var(--muted-text)] mb-10 sm:mb-16 max-w-2xl mx-auto leading-relaxed font-medium px-4">
               {t("hero.subtitle")}
             </p>
 
@@ -278,15 +278,15 @@ export default function Home() {
       </section>
 
       {/* ─── Stats Strip ─── */}
-      <section className="py-12 bg-[var(--background)] border-y border-[var(--card-border)]">
+      <section className="py-10 sm:py-12 bg-[var(--background)] border-y border-[var(--card-border)]">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
             {STATS.map((s) => (
-              <div key={s.label} className="text-center">
-                <div className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 mb-1">
+              <div key={s.label} className="text-center touch-feedback">
+                <div className="text-4xl sm:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 mb-1">
                    {s.value}
                 </div>
-                <div className="text-slate-500 text-sm font-bold uppercase tracking-wider">{t(s.label)}</div>
+                <div className="text-slate-500 text-xs sm:text-sm font-bold uppercase tracking-wider">{t(s.label)}</div>
               </div>
             ))}
           </div>
@@ -488,14 +488,14 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-6xl mx-auto">
             {TOOLS.map((tool) => {
               const Icon = tool.icon;
               return (
                 <Link
                   key={tool.title}
                   href={tool.href}
-                  className={`group glass-card rounded-2xl p-6 border ${tool.border} hover:border-opacity-60 hover:-translate-y-1 transition-all duration-300 relative overflow-hidden`}
+                  className={`group glass-card rounded-2xl p-5 sm:p-6 border ${tool.border} hover:border-opacity-60 hover:-translate-y-1 active:scale-95 transition-all duration-300 relative overflow-hidden touch-feedback`}
                 >
                   <div className="absolute inset-0 bg-gradient-to-br from-white/3 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   <div className="relative z-10">
@@ -523,15 +523,16 @@ export default function Home() {
       </section>
 
       {/* ─── Reviews / Testimonials ─── */}
-      <section className="py-24 bg-[var(--background)]">
+      <section className="py-16 sm:py-24 bg-[var(--background)]">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4 text-[var(--foreground)]">{t("reviews.title")}</h2>
-            <p className="text-[var(--muted-text)] text-lg max-w-2xl mx-auto font-medium">{t("reviews.desc")}</p>
+          <div className="text-center mb-10 sm:mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-[var(--foreground)]">{t("reviews.title")}</h2>
+            <p className="text-[var(--muted-text)] text-base sm:text-lg max-w-2xl mx-auto font-medium">{t("reviews.desc")}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+          {/* Mobile: horizontal snap scroll. Desktop: 3-col grid */}
+          <div className="mobile-carousel md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 max-w-7xl mx-auto">
             {REVIEWS.map((review) => (
-              <div key={review.id} className="flex flex-col glass-card rounded-2xl p-8 border border-[var(--card-border)] hover:border-indigo-500/30 hover:bg-white/5 transition-all duration-300 h-full">
+              <div key={review.id} className="flex flex-col glass-card rounded-2xl p-6 sm:p-8 border border-[var(--card-border)] hover:border-indigo-500/30 hover:bg-white/5 transition-all duration-300 h-full w-[80vw] sm:w-auto shrink-0 md:shrink">
                 <div className="flex gap-1 mb-6">
                   {[...Array(5)].map((_, j) => <Star key={j} className="w-4 h-4 fill-yellow-500 text-yellow-500" />)}
                 </div>
@@ -640,20 +641,20 @@ export default function Home() {
       </section>
 
       {/* ─── CTA Banner ─── */}
-      <section className="py-20 bg-[var(--background)]">
+      <section className="py-12 sm:py-20 bg-[var(--background)]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="relative rounded-[2.5rem] overflow-hidden bg-indigo-600/10 dark:bg-indigo-600/20 border border-indigo-500/20 p-12 text-center shadow-inner">
+            <div className="relative rounded-[2rem] sm:rounded-[2.5rem] overflow-hidden bg-indigo-600/10 dark:bg-indigo-600/20 border border-indigo-500/20 p-8 sm:p-12 text-center shadow-inner">
               <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-[0.03]" />
               <div className="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-indigo-600/20 rounded-full blur-3xl" />
               <div className="relative z-10">
-                <h2 className="text-4xl font-black mb-4 text-[var(--foreground)]">{t("cta.title")}</h2>
-                <p className="text-[var(--muted-text)] text-lg mb-8 max-w-xl mx-auto font-bold opacity-90">
+                <h2 className="text-2xl sm:text-4xl font-black mb-4 text-[var(--foreground)]">{t("cta.title")}</h2>
+                <p className="text-[var(--muted-text)] text-sm sm:text-lg mb-6 sm:mb-8 max-w-xl mx-auto font-bold opacity-90">
                   {t("cta.desc")}
                 </p>
                 <Link
                   href="/"
-                  className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-500 text-white px-8 py-4 rounded-xl font-black text-lg transition-all shadow-xl shadow-indigo-500/25 hover:scale-105"
+                  className="inline-flex items-center justify-center gap-2 w-full sm:w-auto bg-indigo-600 hover:bg-indigo-500 active:scale-95 text-white px-8 py-4 rounded-xl font-black text-base sm:text-lg transition-all shadow-xl shadow-indigo-500/25 hover:scale-105 touch-feedback"
                 >
                   <Play className="w-5 h-5 fill-current" />
                   {t("cta.button")}
