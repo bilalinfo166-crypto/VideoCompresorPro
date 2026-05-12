@@ -7,6 +7,7 @@ import {
   ChevronDown, Monitor, Link2, HardDrive, Chrome, QrCode
 } from "lucide-react";
 import { useFFmpeg } from "@/hooks/useFFmpeg";
+import { isMobileDevice, fileSizeMB } from "@/hooks/useFFmpeg";
 import { useLanguage } from "@/context/LanguageContext";
 import Script from "next/script";
 import { QRCodeSVG } from "qrcode.react";
@@ -22,7 +23,8 @@ export function VideoCompressor() {
   const [activeTab, setActiveTab] = useState<"basic" | "advanced">("basic");
   
   const fileInputRef = useRef<HTMLInputElement>(null);
-  const { isLoaded, isLoading, progress, load, executeCommand } = useFFmpeg();
+  const { isLoaded, isLoading, progress, statusMsg, load, executeCommand, mobileFastCompress } = useFFmpeg();
+  const isMobile = typeof window !== 'undefined' ? isMobileDevice() : false;
 
   const [showUrlModal, setShowUrlModal] = useState(false);
   const [showQrModal, setShowQrModal] = useState(false);
@@ -64,18 +66,17 @@ export function VideoCompressor() {
     setResultBlob(null);
     if (!isLoaded) await load();
 
-    // 1. Get video duration first to calculate bitrate
-    // For now, we use a simple heuristic, but for precise target size, 
-    // we need bitrate = (targetSize_in_bits) / duration_in_seconds
-    
-    // Let's improve the command to use target bitrate based on targetSize
-    // Bitrate (bps) = (Target Size in MB * 8 * 1024 * 1024) / duration
-    // Since duration fetching is async and can be tricky with File, we'll use a robust approach
-    
+    // On mobile: use the fast mobile-optimized path (720p + CRF30 + ultrafast)
+    if (isMobile && mobileFastCompress) {
+      const result = await mobileFastCompress(file);
+      setResultBlob(result);
+      setIsCompressing(false);
+      return;
+    }
+
+    // Desktop: bitrate-based target size compression
     const targetSizeBits = targetSize * 1024 * 1024 * 8;
-    const estimatedDuration = 60; // Fallback to 60s if we can't get it, but let's try to be smarter
-    
-    // Get real duration if possible
+
     const getDuration = (): Promise<number> => {
       return new Promise((resolve) => {
         const video = document.createElement('video');
@@ -88,7 +89,7 @@ export function VideoCompressor() {
 
     const duration = await getDuration();
     const targetBitrate = Math.floor(targetSizeBits / duration);
-    const videoBitrate = Math.floor(targetBitrate * 0.9); // Reserve 10% for audio
+    const videoBitrate = Math.floor(targetBitrate * 0.9);
     
     const args = [
       '-c:v', 'libx264', 
@@ -96,22 +97,20 @@ export function VideoCompressor() {
       '-maxrate', `${videoBitrate}`,
       '-bufsize', `${videoBitrate * 2}`,
       '-pix_fmt', 'yuv420p',
-      '-preset', 'ultrafast',   // Maximum speed for browser processing
+      '-preset', 'ultrafast',
       '-profile:v', 'main', 
       '-level', '4.0',
       '-movflags', '+faststart',
       '-c:a', 'aac', 
-      '-b:a', '128k'            // Higher audio quality (was 96k)
+      '-b:a', '128k'
     ];
 
     const result = await executeCommand(file, args, 'mp4', 'video/mp4');
     if (result) {
-      // Final check: if result is somehow larger than original, we didn't compress well
       if (result.size >= file.size) {
-        // Fallback to a much lower bitrate if first pass failed to reduce size
         const fallbackBitrate = Math.floor(videoBitrate * 0.7);
         const fallbackArgs = [...args];
-        fallbackArgs[3] = `${fallbackBitrate}`; // Update -b:v
+        fallbackArgs[3] = `${fallbackBitrate}`;
         const secondResult = await executeCommand(file, fallbackArgs);
         setResultBlob(secondResult || result);
       } else {
@@ -310,6 +309,15 @@ export function VideoCompressor() {
                 <div className="text-sm font-bold text-[var(--foreground)] truncate max-w-[200px]">{file.name}</div>
                 <div className="text-xs font-black text-blue-500">{formatSize(file.size)}</div>
               </div>
+              {/* Mobile large file warning */}
+              {isMobile && fileSizeMB(file) > 100 && (
+                <div className="mt-3 flex items-start gap-2 bg-amber-500/10 border border-amber-500/20 rounded-xl p-3">
+                  <span className="text-amber-500 text-base shrink-0">⚡</span>
+                  <p className="text-xs text-amber-600 dark:text-amber-400 font-medium leading-relaxed">
+                    <strong>Mobile Fast Mode ON</strong> — Large file detected. Video will be downscaled to 720p for faster processing. For best quality, use a desktop browser.
+                  </p>
+                </div>
+              )}
             </div>
           )}
         </div>
@@ -358,10 +366,17 @@ export function VideoCompressor() {
             </div>
 
             {isCompressing ? (
-              <div className="bg-slate-50 dark:bg-slate-800/50 p-8 rounded-3xl border border-[var(--card-border)] text-center">
+              <div className="bg-slate-50 dark:bg-slate-800/50 p-6 sm:p-8 rounded-3xl border border-[var(--card-border)] text-center">
                 <div className="w-16 h-16 border-4 border-blue-500/20 border-t-blue-500 rounded-full animate-spin mx-auto mb-4" />
-                <div className="text-2xl font-black text-blue-600 mb-2">{progress}%</div>
-                <p className="text-sm font-bold text-[var(--muted-text)] uppercase tracking-widest">Compressing Video...</p>
+                <div className="text-2xl font-black text-blue-600 mb-1">{progress}%</div>
+                <p className="text-sm font-bold text-[var(--muted-text)] uppercase tracking-widest">
+                  {statusMsg || 'Compressing Video...'}
+                </p>
+                {isMobile && (
+                  <p className="text-xs text-amber-500 mt-3 font-medium">
+                    ⚡ Mobile Fast Mode — downscaling to 720p for speed
+                  </p>
+                )}
               </div>
             ) : resultBlob ? (
               <div className="bg-emerald-500/10 border border-emerald-500/20 p-8 rounded-[2rem] text-center animate-in zoom-in-95 duration-500">
