@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 import { useLanguage } from "@/context/LanguageContext";
 import { Music, Zap, Shield, Sparkles, CheckCircle2, Star, ArrowRight, Play, AudioLines, Download, Headphones, Mic2, Disc, Globe, Speaker, Smartphone, Youtube, Film, Radio, FileAudio, ChevronDown } from "lucide-react";
 import { RelatedTools } from "@/components/layout/RelatedTools";
+import { SocialShare } from "@/components/layout/SocialShare";
 
 const VideoToMp3 = dynamic(
   () => import("@/components/tools/VideoToMp3").then((m) => m.VideoToMp3),
@@ -204,6 +205,9 @@ export default function VideoToMp3Page() {
           </div>
         </div>
       </section>
+
+      {/* ─── Social Share ─── */}
+      <SocialShare title="Convert Video to MP3 Online Free" />
 
       {/* ─── Related Tools ─── */}
       <RelatedTools exclude="to_mp3" />

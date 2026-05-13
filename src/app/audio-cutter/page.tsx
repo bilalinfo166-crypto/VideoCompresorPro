@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 import { useLanguage } from "@/context/LanguageContext";
 import { Scissors, Zap, Shield, Sparkles, CheckCircle2, Star, ArrowRight, Play, Music, Mic2, AudioLines, Download, Headphones, Disc, Globe, Speaker, Smartphone, Radio, FileAudio, ChevronDown } from "lucide-react";
 import { RelatedTools } from "@/components/layout/RelatedTools";
+import { SocialShare } from "@/components/layout/SocialShare";
 
 const AudioCutter = dynamic(
   () => import("@/components/tools/AudioCutter").then((m) => m.AudioCutter),
@@ -209,6 +210,9 @@ export default function AudioCutterPage() {
           </div>
         </div>
       </section>
+
+      {/* ─── Social Share ─── */}
+      <SocialShare title="Free Online Audio Cutter - Trim Audio Easily" />
 
       {/* ─── Related Tools ─── */}
       <RelatedTools exclude="audio_cutter" />

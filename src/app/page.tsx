@@ -10,6 +10,7 @@ import {
   CheckCircle2, Star, ArrowRight, Play, UploadCloud
 } from "lucide-react";
 import { RelatedTools } from "@/components/layout/RelatedTools";
+import { SocialShare } from "@/components/layout/SocialShare";
 
 const VideoCompressor = dynamic(
   () => import("@/components/tools/VideoCompressor").then((m) => m.VideoCompressor),
@@ -655,6 +656,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* ─── Social Share ─── */}
+      <SocialShare title="Video Compressor Pro - Compress Video Online Free" />
 
       {/* ─── Related Tools ─── */}
       <RelatedTools exclude="compressor" />

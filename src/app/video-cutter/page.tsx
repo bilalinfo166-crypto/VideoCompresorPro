@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 import { useLanguage } from "@/context/LanguageContext";
 import { Scissors, Zap, Shield, Sparkles, CheckCircle2, Star, ArrowRight, Play, Clock, Layout, Monitor, Smartphone, Globe, HardDrive, Youtube, Instagram, Facebook, Video, Layers, Film, Activity, ChevronDown } from "lucide-react";
 import { RelatedTools } from "@/components/layout/RelatedTools";
+import { SocialShare } from "@/components/layout/SocialShare";
 
 const VideoCutter = dynamic(
   () => import("@/components/tools/VideoCutter").then((m) => m.VideoCutter),
@@ -244,6 +245,9 @@ export default function VideoCutterPage() {
           </div>
         </div>
       </section>
+
+      {/* ─── Social Share ─── */}
+      <SocialShare title="Free Online Video Cutter - Trim Videos Easily" />
 
       {/* ─── Related Tools ─── */}
       <RelatedTools exclude="cutter" />

@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 import { useLanguage } from "@/context/LanguageContext";
 import { Crop, Zap, Shield, Sparkles, CheckCircle2, Star, ArrowRight, Play, Layout, Monitor, Smartphone, Globe, HardDrive, Youtube, Instagram, Facebook, Video, Layers, Film, Activity, ChevronDown, Tablet } from "lucide-react";
 import { RelatedTools } from "@/components/layout/RelatedTools";
+import { SocialShare } from "@/components/layout/SocialShare";
 
 const VideoCropper = dynamic(
   () => import("@/components/tools/VideoCropper").then((m) => m.VideoCropper),
@@ -246,6 +247,9 @@ export default function CropVideoPage() {
           </div>
         </div>
       </section>
+
+      {/* ─── Social Share ─── */}
+      <SocialShare title="Free Online Video Cropper - Crop Videos Instantly" />
 
       {/* ─── Related Tools ─── */}
       <RelatedTools exclude="cropper" />

@@ -20,6 +20,7 @@ import {
   ChevronDown
 } from "lucide-react";
 import { RelatedTools } from "@/components/layout/RelatedTools";
+import { SocialShare } from "@/components/layout/SocialShare";
 
 const VideoToText = dynamic(
   () => import("@/components/tools/VideoToText").then((m) => m.VideoToText),
@@ -181,6 +182,9 @@ export default function VideoToTextPage() {
           </div>
         </div>
       </section>
+
+      {/* ─── Social Share ─── */}
+      <SocialShare title="Video to Text Transcription Online Free" />
 
       {/* ─── Related Tools ─── */}
       <RelatedTools exclude="to_text" />
