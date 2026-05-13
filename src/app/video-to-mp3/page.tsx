@@ -5,6 +5,7 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import { useLanguage } from "@/context/LanguageContext";
 import { Music, Zap, Shield, Sparkles, CheckCircle2, Star, ArrowRight, Play, AudioLines, Download, Headphones, Mic2, Disc, Globe, Speaker, Smartphone, Youtube, Film, Radio, FileAudio, ChevronDown } from "lucide-react";
+import { RelatedTools } from "@/components/layout/RelatedTools";
 
 const VideoToMp3 = dynamic(
   () => import("@/components/tools/VideoToMp3").then((m) => m.VideoToMp3),
@@ -169,7 +170,6 @@ export default function VideoToMp3Page() {
         </div>
       </section>
 
-      {/* ─── FAQ ─── */}
       <section className="py-24 bg-[var(--background)]">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
@@ -190,6 +190,9 @@ export default function VideoToMp3Page() {
           </div>
         </div>
       </section>
+
+      {/* ─── Related Tools ─── */}
+      <RelatedTools exclude="to_mp3" />
 
       <section className="py-20 bg-[var(--background)]">
         <div className="container mx-auto px-4 text-center">

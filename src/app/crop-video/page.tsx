@@ -5,6 +5,7 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import { useLanguage } from "@/context/LanguageContext";
 import { Crop, Zap, Shield, Sparkles, CheckCircle2, Star, ArrowRight, Play, Layout, Monitor, Smartphone, Globe, HardDrive, Youtube, Instagram, Facebook, Video, Layers, Film, Activity, ChevronDown, Tablet } from "lucide-react";
+import { RelatedTools } from "@/components/layout/RelatedTools";
 
 const VideoCropper = dynamic(
   () => import("@/components/tools/VideoCropper").then((m) => m.VideoCropper),
@@ -231,6 +232,9 @@ export default function CropVideoPage() {
           </div>
         </div>
       </section>
+
+      {/* ─── Related Tools ─── */}
+      <RelatedTools exclude="cropper" />
 
       <section className="py-20 bg-[var(--background)]">
         <div className="container mx-auto px-4 text-center">

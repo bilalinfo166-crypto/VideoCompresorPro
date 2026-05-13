@@ -5,6 +5,7 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import { useLanguage } from "@/context/LanguageContext";
 import { Scissors, Zap, Shield, Sparkles, CheckCircle2, Star, ArrowRight, Play, Music, Mic2, AudioLines, Download, Headphones, Disc, Globe, Speaker, Smartphone, Radio, FileAudio, ChevronDown } from "lucide-react";
+import { RelatedTools } from "@/components/layout/RelatedTools";
 
 const AudioCutter = dynamic(
   () => import("@/components/tools/AudioCutter").then((m) => m.AudioCutter),
@@ -174,7 +175,6 @@ export default function AudioCutterPage() {
         </div>
       </section>
 
-      {/* ─── FAQ ─── */}
       <section className="py-24 bg-[var(--background)]">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
@@ -195,6 +195,9 @@ export default function AudioCutterPage() {
           </div>
         </div>
       </section>
+
+      {/* ─── Related Tools ─── */}
+      <RelatedTools exclude="audio_cutter" />
 
       <section className="py-20 bg-[var(--background)]">
         <div className="container mx-auto px-4 text-center">

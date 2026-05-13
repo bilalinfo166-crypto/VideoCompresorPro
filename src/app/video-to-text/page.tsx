@@ -19,6 +19,7 @@ import {
   FileText,
   ChevronDown
 } from "lucide-react";
+import { RelatedTools } from "@/components/layout/RelatedTools";
 
 const VideoToText = dynamic(
   () => import("@/components/tools/VideoToText").then((m) => m.VideoToText),
@@ -166,6 +167,9 @@ export default function VideoToTextPage() {
           </div>
         </div>
       </section>
+
+      {/* ─── Related Tools ─── */}
+      <RelatedTools exclude="to_text" />
 
       {/* ─── CTA ─── */}
       <section className="py-20 bg-[var(--background)]">

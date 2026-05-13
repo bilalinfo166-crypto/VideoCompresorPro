@@ -120,9 +120,14 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-[var(--card-border)] pt-6 mt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-[var(--muted-text)] text-xs sm:text-sm text-center sm:text-left">
-            &copy; {new Date().getFullYear()} VideoCompressorPro — {t("footer.copyright")}
-          </p>
+          <div className="flex flex-col items-center sm:items-start gap-1 text-center sm:text-left">
+            <p className="text-[var(--muted-text)] text-xs sm:text-sm">
+              &copy; {new Date().getFullYear()} VideoCompressorPro — {t("footer.copyright")}
+            </p>
+            <p className="text-[var(--muted-text)] text-[10px] opacity-60">
+              Powered by <a href="https://ffmpeg.org/" target="_blank" rel="nofollow external" className="hover:text-indigo-400 transition-colors">FFmpeg</a>
+            </p>
+          </div>
           <div className="flex items-center gap-2 text-[var(--muted-text)] text-xs sm:text-sm">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
             {t("footer.status")}

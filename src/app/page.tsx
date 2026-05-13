@@ -9,6 +9,7 @@ import {
   Scissors, Crop, Music, FileVideo, FileText,
   CheckCircle2, Star, ArrowRight, Play, UploadCloud
 } from "lucide-react";
+import { RelatedTools } from "@/components/layout/RelatedTools";
 
 const VideoCompressor = dynamic(
   () => import("@/components/tools/VideoCompressor").then((m) => m.VideoCompressor),
@@ -639,6 +640,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* ─── Related Tools ─── */}
+      <RelatedTools exclude="compressor" />
 
       {/* ─── CTA Banner ─── */}
       <section className="py-12 sm:py-20 bg-[var(--background)]">
