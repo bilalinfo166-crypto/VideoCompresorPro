@@ -7,6 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://videocompress.ai/sitemap.xml',
+    sitemap: 'https://videocompressorpro.com/sitemap.xml',
   };
+
 }

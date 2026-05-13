@@ -1,7 +1,8 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://videocompress.ai';
+  const baseUrl = 'https://videocompressorpro.com';
+
 
   const routes = [
     '',
