@@ -5,6 +5,17 @@ import { useState } from "react";
 import { Video, Globe, ChevronDown, Facebook, Youtube, Instagram } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
+const PinterestIcon = ({ className }: { className?: string }) => (
+  <svg 
+    viewBox="0 0 24 24" 
+    fill="currentColor" 
+    className={className}
+    aria-hidden="true"
+  >
+    <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.966 1.406-5.966s-.359-.72-.359-1.781c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.259 7.929-7.259 4.162 0 7.398 2.965 7.398 6.931 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/>
+  </svg>
+);
+
 function FooterSection({ title, links, getHref }: { 
   title: string; 
   links: { label: string; href: string }[];
@@ -101,6 +112,9 @@ export function Footer() {
             <a href="https://www.instagram.com/videocompressorpro?igsh=MXF3aWVzaWZ3c3VkbA==" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-[var(--muted-text)] hover:text-pink-600 transition-colors" aria-label="Follow us on Instagram">
               <Instagram className="w-4 h-4" />
             </a>
+            <a href="https://pin.it/3AbOozku7" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-[var(--muted-text)] hover:text-red-600 transition-colors" aria-label="Follow us on Pinterest">
+              <PinterestIcon className="w-4 h-4" />
+            </a>
           </div>
         </div>
 
@@ -126,6 +140,9 @@ export function Footer() {
               </a>
               <a href="https://www.instagram.com/videocompressorpro?igsh=MXF3aWVzaWZ3c3VkbA==" target="_blank" rel="noopener noreferrer" className="text-[var(--muted-text)] hover:text-pink-600 transition-all hover:scale-110" aria-label="Follow us on Instagram">
                 <Instagram className="w-5 h-5" />
+              </a>
+              <a href="https://pin.it/3AbOozku7" target="_blank" rel="noopener noreferrer" className="text-[var(--muted-text)] hover:text-red-600 transition-all hover:scale-110" aria-label="Follow us on Pinterest">
+                <PinterestIcon className="w-5 h-5" />
               </a>
             </div>
             <div className="flex items-center gap-2 text-[11px] font-bold text-[var(--muted-text)] opacity-60 uppercase tracking-widest">
