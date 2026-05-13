@@ -5,7 +5,7 @@ import type { NextRequest } from "next/server";
 export const locales = [
   "ar", "hi", "es", "pt", "fr", "de", "it", "id", "ja", 
   "ru", "zh", "tr", "vi", "ko", "th", "nl", "pl", "fa", "ro", 
-  "el", "uk", "sv"
+  "el", "uk", "sv", "he", "da", "fi", "no", "cs", "hu"
 ];
 
 function getLocale(request: NextRequest): string | undefined {

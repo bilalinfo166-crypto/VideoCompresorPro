@@ -37,6 +37,12 @@ const LANGUAGES = [
   { code: "ro", label: "Română" },
   { code: "el", label: "Ελληνικά" },
   { code: "uk", label: "Українська" },
+  { code: "he", label: "עברית" },
+  { code: "da", label: "Dansk" },
+  { code: "fi", label: "Suomi" },
+  { code: "no", label: "Norsk" },
+  { code: "cs", label: "Čeština" },
+  { code: "hu", label: "Magyar" },
 ];
 
 export function Header() {

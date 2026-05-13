@@ -110,6 +110,12 @@ export const metadata: Metadata = {
       "el": "/el",
       "uk": "/uk",
       "sv": "/sv",
+      "he": "/he",
+      "da": "/da",
+      "fi": "/fi",
+      "no": "/no",
+      "cs": "/cs",
+      "hu": "/hu",
       "x-default": "/"
     },
   },
