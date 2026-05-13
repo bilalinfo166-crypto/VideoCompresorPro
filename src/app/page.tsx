@@ -9,13 +9,18 @@ import {
   Scissors, Crop, Music, FileVideo, FileText,
   CheckCircle2, Star, ArrowRight, Play, UploadCloud, List
 } from "lucide-react";
-const StatsStrip = dynamic(() => import("@/components/home/StatsStrip").then(m => m.StatsStrip));
-const Features = dynamic(() => import("@/components/home/Features").then(m => m.Features));
-const RelatedTools = dynamic(() => import("@/components/layout/RelatedTools").then(m => m.RelatedTools));
-const SocialShare = dynamic(() => import("@/components/layout/SocialShare").then(m => m.SocialShare));
-const AuthorBlock = dynamic(() => import("@/components/layout/AuthorBlock").then(m => m.AuthorBlock));
-const Breadcrumbs = dynamic(() => import("@/components/layout/Breadcrumbs").then(m => m.Breadcrumbs), { ssr: false });
-
+import { RelatedTools } from "@/components/layout/RelatedTools";
+import { SocialShare } from "@/components/layout/SocialShare";
+import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
+import { AuthorBlock } from "@/components/layout/AuthorBlock";
+import { StatsStrip } from "@/components/home/StatsStrip";
+import { Features } from "@/components/home/Features";
+import { Comparison } from "@/components/home/Comparison";
+import { HowItWorks } from "@/components/home/HowItWorks";
+import { AllTools } from "@/components/home/AllTools";
+import { WhyChoose } from "@/components/home/WhyChoose";
+import { SupportedFormats } from "@/components/home/SupportedFormats";
+import { CtaBanner } from "@/components/home/CtaBanner";
 
 const VideoCompressor = dynamic(
   () => import("@/components/tools/VideoCompressor").then((m) => m.VideoCompressor),
@@ -31,15 +36,10 @@ const VideoCompressor = dynamic(
   }
 );
 
-const Comparison = dynamic(() => import("@/components/home/Comparison").then(m => m.Comparison));
 const QualityVisualizer = dynamic(() => import("@/components/home/QualityVisualizer").then(m => m.QualityVisualizer));
-const HowItWorks = dynamic(() => import("@/components/home/HowItWorks").then(m => m.HowItWorks));
-const AllTools = dynamic(() => import("@/components/home/AllTools").then(m => m.AllTools));
 const Reviews = dynamic(() => import("@/components/home/Reviews").then(m => m.Reviews));
 const FaqSection = dynamic(() => import("@/components/home/FaqSection").then(m => m.FaqSection));
-const WhyChoose = dynamic(() => import("@/components/home/WhyChoose").then(m => m.WhyChoose));
-const SupportedFormats = dynamic(() => import("@/components/home/SupportedFormats").then(m => m.SupportedFormats));
-const CtaBanner = dynamic(() => import("@/components/home/CtaBanner").then(m => m.CtaBanner));
+
 
 
 const FAQS = [

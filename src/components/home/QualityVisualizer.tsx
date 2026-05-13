@@ -52,9 +52,10 @@ export function QualityVisualizer() {
                     <div className={`font-bold text-sm sm:text-base mb-1 ${mode.active ? 'text-slate-900' : 'text-white'}`}>
                       {t(mode.label)}
                     </div>
-                    <div className={`text-[10px] sm:text-xs font-bold uppercase tracking-wider opacity-70 ${mode.active ? 'text-slate-500' : 'text-slate-300'}`}>
+                    <div className={`text-[11px] sm:text-xs font-black uppercase tracking-wider ${mode.active ? 'text-slate-600' : 'text-slate-200'}`}>
                       {mode.size}
                     </div>
+
                   </div>
                 ))}
               </div>

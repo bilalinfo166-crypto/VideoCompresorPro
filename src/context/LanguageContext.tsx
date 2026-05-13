@@ -53,24 +53,16 @@ export const LanguageProvider: React.FC<{
 
   const t = (path: string): string => {
     const keys = path.split(".");
-    let result: any = currentTranslations;
-    
-    for (const key of keys) {
-      if (!result || result[key] === undefined) {
-        let fallback: any = en;
-        for (const fKey of keys) {
-           if (!fallback || fallback[fKey] === undefined) {
-             return path;
-           }
-           fallback = fallback[fKey];
-        }
-        return fallback;
-      }
-      result = result[key];
-    }
-    
-    return result || path;
+    let res: any = currentTranslations;
+    for (const k of keys) { res = res?.[k]; }
+    if (res && typeof res === 'string') return res;
+
+    // Fallback to English
+    let fb: any = en;
+    for (const k of keys) { fb = fb?.[k]; }
+    return (fb && typeof fb === 'string') ? fb : path;
   };
+
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage, t }}>
