@@ -6,7 +6,7 @@ const STATS = [
   { value: "50M+", label: "stats.videos_compressed" },
   { value: "90%", label: "stats.reduction" },
   { value: "30+", label: "stats.formats" },
-  { value: "22+", label: "stats.languages" },
+  { value: "30+", label: "stats.languages" },
 ];
 
 export function StatsStrip() {
