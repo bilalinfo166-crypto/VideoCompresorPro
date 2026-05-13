@@ -154,7 +154,7 @@ export default function Home() {
   return (
     <div className="flex flex-col transition-colors duration-300">
       {/* ─── Hero Section ─── */}
-      <section className="relative pt-24 sm:pt-32 pb-12 sm:pb-20 overflow-hidden bg-[var(--background)]">
+      <section className="relative pt-12 sm:pt-16 pb-12 sm:pb-20 overflow-hidden bg-[var(--background)]">
         {/* Subtle background patterns */}
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-[0.03] pointer-events-none" />
         {/* Premium soft glows */}

@@ -89,12 +89,12 @@ export function AudioCutter() {
 
   return (
     <div className="w-full max-w-6xl mx-auto px-2 sm:px-4 transition-colors duration-300">
-      <div className="rounded-[24px] sm:rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] dark:shadow-[0_20px_50px_rgba(0,0,0,0.3)] border border-[var(--card-border)] flex flex-col md:flex-row bg-white dark:bg-slate-900 min-h-[360px] md:h-[600px]">
+      <div className="rounded-[24px] sm:rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] dark:shadow-[0_20px_50px_rgba(0,0,0,0.3)] border border-[var(--card-border)] flex flex-col md:flex-row bg-white dark:bg-slate-800 min-h-[360px] md:h-[600px]">
         {/* ─── LEFT COLUMN: Upload / File Info ─── */}
         <div className="flex-1 p-4 sm:p-6 md:p-12 border-b md:border-b-0 md:border-r border-[var(--card-border)] relative flex flex-col overflow-hidden">
           {!file ? (
             <div 
-              className="flex-1 rounded-3xl p-6 sm:p-12 md:p-24 border-2 border-dashed border-[var(--card-border)] hover:border-blue-500/50 bg-slate-50 dark:bg-slate-900/50 transition-all duration-500 cursor-pointer text-center group relative overflow-hidden shadow-inner flex flex-col items-center justify-center"
+              className="flex-1 rounded-3xl p-6 sm:p-12 md:p-24 border-2 border-dashed border-[var(--card-border)] hover:border-blue-500/50 bg-slate-50 dark:bg-slate-800/50 transition-all duration-500 cursor-pointer text-center group relative overflow-hidden shadow-inner flex flex-col items-center justify-center"
               onClick={() => fileInputRef.current?.click()}
               onDragOver={(e) => e.preventDefault()}
               onDrop={handleDrop}

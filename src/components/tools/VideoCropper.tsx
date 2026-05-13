@@ -208,7 +208,7 @@ export function VideoCropper() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 items-stretch">
         
         {/* LEFT: Interactive Preview Area */}
-        <div className="bg-white dark:bg-slate-900 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[360px] flex flex-col relative overflow-hidden group">
+        <div className="bg-white dark:bg-slate-800 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[360px] flex flex-col relative overflow-hidden group">
           {!file ? (
             <div 
               className="flex-1 flex flex-col items-center justify-center p-6 sm:p-8 cursor-pointer relative"
@@ -344,7 +344,7 @@ export function VideoCropper() {
         </div>
 
         {/* RIGHT: Settings Area */}
-        <div className={`bg-white dark:bg-slate-900 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[320px] md:h-[600px] p-5 sm:p-8 flex flex-col transition-all duration-500 ${!file ? 'opacity-50 grayscale pointer-events-none' : 'opacity-100 grayscale-0'}`}>
+        <div className={`bg-white dark:bg-slate-800 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[320px] md:h-[600px] p-5 sm:p-8 flex flex-col transition-all duration-500 ${!file ? 'opacity-50 grayscale pointer-events-none' : 'opacity-100 grayscale-0'}`}>
           <h3 className="font-black text-[var(--foreground)] uppercase text-[10px] tracking-widest mb-6 border-b border-[var(--card-border)] pb-4 flex items-center gap-2">
             <Settings2 className="w-4 h-4 text-blue-500" /> Platform Presets
           </h3>

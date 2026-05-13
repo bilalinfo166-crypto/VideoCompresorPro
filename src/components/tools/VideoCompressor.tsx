@@ -211,7 +211,7 @@ export function VideoCompressor() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 items-stretch">
         
         {/* BOX A: Upload / Preview */}
-        <div className="bg-white dark:bg-slate-900 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[360px] flex flex-col relative overflow-hidden group">
+        <div className="bg-white dark:bg-slate-800 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[360px] flex flex-col relative overflow-hidden group">
           {!file ? (
             <div 
               className="flex-1 flex flex-col items-center justify-center p-6 sm:p-8 cursor-pointer relative"
@@ -323,7 +323,7 @@ export function VideoCompressor() {
         </div>
 
         {/* BOX B: Settings */}
-        <div className={`bg-white dark:bg-slate-900 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[320px] md:h-[600px] p-5 sm:p-8 flex flex-col transition-all duration-500 ${!file ? 'opacity-50 grayscale pointer-events-none' : 'opacity-100 grayscale-0'}`}>
+        <div className={`bg-white dark:bg-slate-800 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[320px] md:h-[600px] p-5 sm:p-8 flex flex-col transition-all duration-500 ${!file ? 'opacity-50 grayscale pointer-events-none' : 'opacity-100 grayscale-0'}`}>
           
           {/* Tabs */}
           <div className="bg-slate-100 dark:bg-slate-800 p-1 rounded-2xl flex mb-8">
@@ -426,7 +426,7 @@ export function VideoCompressor() {
       {showQrModal && (
         <div className="fixed inset-0 z-[10000] flex items-center justify-center p-4">
           <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setShowQrModal(false)} />
-          <div className="bg-white dark:bg-slate-900 w-full max-w-md rounded-[2.5rem] p-10 relative z-10 border border-[var(--card-border)] shadow-2xl animate-in zoom-in-95 duration-300 text-center">
+          <div className="bg-white dark:bg-slate-800 w-full max-w-md rounded-[2.5rem] p-10 relative z-10 border border-[var(--card-border)] shadow-2xl animate-in zoom-in-95 duration-300 text-center">
             <button onClick={() => setShowQrModal(false)} className="absolute top-6 right-6 p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full transition-colors">
               <X className="w-5 h-5 text-[var(--muted-text)]" />
             </button>
@@ -459,7 +459,7 @@ export function VideoCompressor() {
       {showUrlModal && (
         <div className="fixed inset-0 z-[10000] flex items-center justify-center p-4">
           <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setShowUrlModal(false)} />
-          <div className="bg-white dark:bg-slate-900 w-full max-w-md rounded-[2.5rem] p-8 relative z-10 border border-[var(--card-border)] shadow-2xl animate-in zoom-in-95 duration-300">
+          <div className="bg-white dark:bg-slate-800 w-full max-w-md rounded-[2.5rem] p-8 relative z-10 border border-[var(--card-border)] shadow-2xl animate-in zoom-in-95 duration-300">
             <button onClick={() => setShowUrlModal(false)} className="absolute top-6 right-6 p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full transition-colors">
               <X className="w-5 h-5 text-[var(--muted-text)]" />
             </button>
@@ -493,7 +493,7 @@ export function VideoCompressor() {
       {showCloudModal.show && (
         <div className="fixed inset-0 z-[10000] flex items-center justify-center p-4">
           <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setShowCloudModal({show: false, type: ""})} />
-          <div className="bg-white dark:bg-slate-900 w-full max-w-md rounded-[2.5rem] p-8 relative z-10 border border-[var(--card-border)] shadow-2xl animate-in zoom-in-95 duration-300 text-center">
+          <div className="bg-white dark:bg-slate-800 w-full max-w-md rounded-[2.5rem] p-8 relative z-10 border border-[var(--card-border)] shadow-2xl animate-in zoom-in-95 duration-300 text-center">
             <button onClick={() => setShowCloudModal({show: false, type: ""})} className="absolute top-6 right-6 p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full transition-colors">
               <X className="w-5 h-5 text-[var(--muted-text)]" />
             </button>

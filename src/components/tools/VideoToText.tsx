@@ -195,7 +195,7 @@ export const VideoToText = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 items-stretch">
 
         {/* LEFT: Upload / Preview */}
-        <div className="flex flex-col min-h-[360px] md:h-[620px] bg-white dark:bg-slate-900 rounded-[24px] sm:rounded-[2.5rem] border border-[var(--card-border)] overflow-hidden shadow-2xl shadow-indigo-500/5">
+        <div className="flex flex-col min-h-[360px] md:h-[620px] bg-white dark:bg-slate-800 rounded-[24px] sm:rounded-[2.5rem] border border-[var(--card-border)] overflow-hidden shadow-2xl shadow-indigo-500/5">
           {!file ? (
             <div className="flex-1 flex flex-col items-center justify-center p-6 sm:p-12 text-center group relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-b from-indigo-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -236,7 +236,7 @@ export const VideoToText = () => {
         </div>
 
         {/* RIGHT: Settings / Processing / Results */}
-        <div className="flex flex-col min-h-[320px] md:h-[620px] bg-white dark:bg-slate-900 rounded-[24px] sm:rounded-[2.5rem] border border-[var(--card-border)] p-5 sm:p-8 shadow-2xl shadow-indigo-500/5 relative overflow-hidden">
+        <div className="flex flex-col min-h-[320px] md:h-[620px] bg-white dark:bg-slate-800 rounded-[24px] sm:rounded-[2.5rem] border border-[var(--card-border)] p-5 sm:p-8 shadow-2xl shadow-indigo-500/5 relative overflow-hidden">
 
           {/* Header */}
           <div className="flex items-center justify-between mb-6">
@@ -283,7 +283,7 @@ export const VideoToText = () => {
                     <Globe className="w-4 h-4 text-indigo-500" />
                     <label className="text-[10px] font-black uppercase tracking-widest text-[var(--muted-text)]">Language</label>
                   </div>
-                  <select value={language} onChange={e => setLanguage(e.target.value)} className="w-full bg-white dark:bg-slate-900 border border-[var(--card-border)] rounded-2xl px-5 py-4 outline-none focus:ring-2 ring-indigo-500/30 transition-all font-bold text-sm text-[var(--foreground)]">
+                  <select value={language} onChange={e => setLanguage(e.target.value)} className="w-full bg-white dark:bg-slate-800 border border-[var(--card-border)] rounded-2xl px-5 py-4 outline-none focus:ring-2 ring-indigo-500/30 transition-all font-bold text-sm text-[var(--foreground)]">
                     {LANGUAGES.map(l => <option key={l.code} value={l.code}>{l.name}</option>)}
                   </select>
                   <p className="text-[10px] text-[var(--muted-text)] font-medium pl-1 mt-2 italic">Select "Auto-detect" if unsure of the spoken language.</p>
