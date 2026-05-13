@@ -19,6 +19,7 @@ import { Comparison } from "@/components/home/Comparison";
 import { HowItWorks } from "@/components/home/HowItWorks";
 import { AllTools } from "@/components/home/AllTools";
 import { WhyChoose } from "@/components/home/WhyChoose";
+import { FeatureGrid } from "@/components/home/FeatureGrid";
 import { SupportedFormats } from "@/components/home/SupportedFormats";
 import { CtaBanner } from "@/components/home/CtaBanner";
 
@@ -225,6 +226,7 @@ export default function Home() {
 
       <StatsStrip />
       <Features />
+      <FeatureGrid />
       <Comparison />
       <HowItWorks />
       

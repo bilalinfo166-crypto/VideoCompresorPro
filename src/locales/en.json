@@ -680,5 +680,21 @@
     "badge": "Discord Optimization",
     "title": "Free Video Compressor for Discord Uploads",
     "desc": "The Discord video compressor is designed to compress large video files to meet Discord's video upload limit of 25MB while preserving the best possible quality. Quickly compress video for easy sharing, quick uploads and great video playback on desktop and mobile devices."
+  },
+  "feature_grid": {
+    "title": "Advanced Online Video Compressor pro Features",
+    "desc": "Compress videos with ease, effectively shrink video file sizes, and benefit from smart video compression tools for creators, businesses, students, gamers and everyone else.",
+    "f1_title": "Introduce flexible video compression settings",
+    "f1_desc": "Adjust the quality, resolution and file size of compressed video files. Our Online Video Compressor allows you to compress videos easily to use on the website, email, storage and social media sharing without complicated tools.",
+    "f2_title": "Secure Online Video Compression",
+    "f2_desc": "VideoCompressorPro secures your video files while being compressed using secure video compression in the browser. In case you need a free video compressor for your own or for your work, your uploaded videos remain protected all along the way.",
+    "f3_title": "Supports multiple video formats",
+    "f3_desc": "Compress MP4, MOV, AVI, MKV, WebM and many more formats using our video file compressor. Online Video Compression benefits in the fast uploads, easy sharing and lesser storage use over devices.",
+    "f4_title": "Quick Video compression speed",
+    "f4_desc": "Use our smart video compressor online free tool to compress videos online within seconds. Download video size free without compromising the playback and viewing quality of video on desktop and mobile devices.",
+    "f5_title": "Simple Video Compressor for Everyone",
+    "f5_desc": "Our free Online Video Compressor was designed to be simple and easy to use for beginners. Upload, compress video size and download optimized video without technical skills and software installation.",
+    "f6_title": "Compress Videos Without Losing Quality",
+    "f6_desc": "VideoCompressorPro can compress video without compromising its quality with its smart compression optimization technology. Resize video to discord, websites, email attachments, cloud storage and social media without hassle."
   }
 }
