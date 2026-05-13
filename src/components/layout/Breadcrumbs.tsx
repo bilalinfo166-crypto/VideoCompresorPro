@@ -30,7 +30,6 @@ export function Breadcrumbs({ items }: BreadcrumbProps) {
   };
 
   return (
-  return (
     <nav className="container mx-auto px-4 pt-2 pb-0" aria-label="Breadcrumb">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <ol className="flex items-center flex-wrap gap-2 text-xs sm:text-sm font-semibold text-[var(--muted-text)]">
