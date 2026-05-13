@@ -95,9 +95,6 @@ export const metadata: Metadata = {
     statusBarStyle: "default",
     title: "VideoCompressorPro",
   },
-  formatDetection: {
-    telephone: false,
-  },
 };
 
 export const viewport = {
