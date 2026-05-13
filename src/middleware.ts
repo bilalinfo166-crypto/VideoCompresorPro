@@ -8,6 +8,19 @@ export const locales = [
   "el", "uk", "sv"
 ];
 
+function getLocale(request: NextRequest): string | undefined {
+  const acceptLanguage = request.headers.get("accept-language");
+  if (!acceptLanguage) return undefined;
+  
+  // Simple check for supported languages
+  for (const locale of locales) {
+    if (acceptLanguage.toLowerCase().includes(locale)) {
+      return locale;
+    }
+  }
+  return undefined;
+}
+
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
@@ -19,6 +32,14 @@ export function middleware(request: NextRequest) {
     pathname === '/favicon.ico'
   ) {
     return NextResponse.next();
+  }
+
+  // Handle root redirection based on language
+  if (pathname === '/') {
+    const preferredLocale = getLocale(request);
+    if (preferredLocale && preferredLocale !== 'en') {
+      return NextResponse.redirect(new URL(`/${preferredLocale}`, request.url));
+    }
   }
 
   const requestHeaders = new Headers(request.headers);
@@ -49,3 +70,4 @@ export const config = {
   // Matcher ignoring `/_next/` and `/api/`
   matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)'],
 };
+

@@ -21,14 +21,14 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   metadataBase: new URL('https://videocompressorpro.com'),
   title: {
-    default: "VideoCompressorPro - Compress Video Online Free (High Quality)",
+    default: "Video Compressor with no Quality Compromise | VideoCompressorPro",
     template: "%s | VideoCompressorPro"
   },
   icons: {
     icon: '/icon.svg',
     apple: '/icon.svg',
   },
-  description: "The world's fastest VideoCompressorPro. Compress video online for free without losing quality. 100% private and secure - no uploads required.",
+  description: "Our free video compressor can compress video files online in seconds. Directly from your web browser, reduces video sizes such as MP4, MOV, AVI, MKV and more without noticeable quality loss.",
   keywords: [
     "videocompressorpro",
     "video compressor", 
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     url: "https://videocompressorpro.com",
     siteName: "VideoCompressorPro",
     title: "VideoCompressorPro - Compress Video Online (100% Private)",
-    description: "Use our pro-grade VideoCompressorPro to compress video files instantly in your browser. No quality loss, no uploads.",
+    description: "Our free video compressor can compress video files online in seconds. Directly from your web browser, reduces video sizes without noticeable quality loss.",
     images: [
       {
         url: "/og-image.png",
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "VideoCompressorPro - Compress Video Free",
-    description: "The fastest way to compress video online without uploading to any server.",
+    description: "Compress video files online in seconds without quality loss.",
     images: ["/og-image.png"],
   },
   robots: {
