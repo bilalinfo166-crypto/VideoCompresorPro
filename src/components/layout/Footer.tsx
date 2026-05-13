@@ -141,16 +141,14 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-[var(--card-border)] pt-4 mt-4 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex flex-col items-center md:items-start gap-2">
-            <div className="flex items-center gap-2 text-[var(--muted-text)] text-[11px] sm:text-xs font-medium">
-              <span>&copy; {new Date().getFullYear()} VideoCompressorPro</span>
-              <span className="w-1 h-1 rounded-full bg-[var(--card-border)]" />
-              <span>{t("footer.copyright")}</span>
-            </div>
+        <div className="border-t border-[var(--card-border)] pt-5 mt-4 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="flex items-center gap-2 text-[var(--muted-text)] text-[11px] sm:text-xs font-medium h-full">
+            <span>&copy; {new Date().getFullYear()} VideoCompressorPro</span>
+            <span className="w-1 h-1 rounded-full bg-[var(--card-border)]" />
+            <span>{t("footer.copyright")}</span>
           </div>
 
-          <div className="flex items-center gap-3 px-4 py-1.5 rounded-full bg-emerald-500/5 border border-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-[11px] font-bold transition-all hover:bg-emerald-500/10">
+          <div className="flex items-center gap-2.5 px-3 py-1.5 rounded-full bg-emerald-500/5 border border-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-[10px] sm:text-[11px] font-bold transition-all hover:bg-emerald-500/10 shrink-0">
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
