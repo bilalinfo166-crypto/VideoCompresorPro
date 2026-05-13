@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Video, Globe, ChevronDown } from "lucide-react";
+import { Video, Globe, ChevronDown, Facebook, Youtube, Instagram } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 function FooterSection({ title, links, getHref }: { 
@@ -85,13 +85,24 @@ export function Footer() {
       <div className="container mx-auto px-4">
 
         {/* Brand Row — mobile only */}
-        <div className="flex items-start gap-4 mb-8 pb-6 border-b border-[var(--card-border)] md:hidden">
+        <div className="flex flex-col gap-6 mb-8 pb-6 border-b border-[var(--card-border)] md:hidden">
           <Link href={getLocalizedHref('/')} className="flex items-center gap-2 touch-feedback" aria-label="VideoCompressorPro Home">
             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shrink-0">
               <Video className="w-5 h-5 text-white" aria-hidden="true" />
             </div>
             <span className="text-sm font-bold text-[var(--foreground)]">VideoCompressorPro</span>
           </Link>
+          <div className="flex items-center gap-4">
+            <a href="https://www.facebook.com/profile.php?id=61589328824380" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-[var(--muted-text)] hover:text-blue-600 transition-colors" aria-label="Follow us on Facebook">
+              <Facebook className="w-5 h-5" />
+            </a>
+            <a href="https://www.youtube.com/channel/UCyQ2x6JkCCqmwVKby0VipwQ" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-[var(--muted-text)] hover:text-red-600 transition-colors" aria-label="Subscribe on YouTube">
+              <Youtube className="w-5 h-5" />
+            </a>
+            <a href="https://www.instagram.com/videocompressorpro?igsh=MXF3aWVzaWZ3c3VkbA==" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-[var(--muted-text)] hover:text-pink-600 transition-colors" aria-label="Follow us on Instagram">
+              <Instagram className="w-5 h-5" />
+            </a>
+          </div>
         </div>
 
         {/* Links Grid */}
@@ -107,6 +118,17 @@ export function Footer() {
             <p className="text-[var(--muted-text)] text-sm leading-relaxed max-w-xs mb-6">
               {t("footer.desc")}
             </p>
+            <div className="flex items-center gap-6 mb-6">
+              <a href="https://www.facebook.com/profile.php?id=61589328824380" target="_blank" rel="noopener noreferrer" className="text-[var(--muted-text)] hover:text-blue-600 transition-colors" aria-label="Follow us on Facebook">
+                <Facebook className="w-5 h-5" />
+              </a>
+              <a href="https://www.youtube.com/channel/UCyQ2x6JkCCqmwVKby0VipwQ" target="_blank" rel="noopener noreferrer" className="text-[var(--muted-text)] hover:text-red-600 transition-colors" aria-label="Subscribe on YouTube">
+                <Youtube className="w-5 h-5" />
+              </a>
+              <a href="https://www.instagram.com/videocompressorpro?igsh=MXF3aWVzaWZ3c3VkbA==" target="_blank" rel="noopener noreferrer" className="text-[var(--muted-text)] hover:text-pink-600 transition-colors" aria-label="Follow us on Instagram">
+                <Instagram className="w-5 h-5" />
+              </a>
+            </div>
             <div className="flex items-center gap-2 text-xs text-[var(--muted-text)]">
               <Globe className="w-4 h-4" aria-hidden="true" />
               {t("footer.languages")}
