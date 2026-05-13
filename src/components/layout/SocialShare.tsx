@@ -27,19 +27,19 @@ export function SocialShare({ title }: SocialShareProps) {
       name: "Twitter",
       icon: Twitter,
       href: `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`,
-      color: "hover:bg-sky-500 hover:text-white hover:border-sky-500",
+      color: "hover:bg-sky-700 hover:text-white hover:border-sky-700",
     },
     {
       name: "Facebook",
       icon: Facebook,
       href: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
-      color: "hover:bg-blue-600 hover:text-white hover:border-blue-600",
+      color: "hover:bg-blue-700 hover:text-white hover:border-blue-700",
     },
     {
       name: "WhatsApp",
       icon: MessageCircle,
       href: `https://api.whatsapp.com/send?text=${encodedTitle} ${encodedUrl}`,
-      color: "hover:bg-emerald-500 hover:text-white hover:border-emerald-500",
+      color: "hover:bg-emerald-700 hover:text-white hover:border-emerald-700",
     }
   ];
 
