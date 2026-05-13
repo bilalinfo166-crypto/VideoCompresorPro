@@ -193,11 +193,12 @@ export function AudioCutter() {
             <div className="space-y-6 flex-1">
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="flex items-center gap-2 text-[10px] font-black text-[var(--muted-text)] uppercase tracking-widest mb-3">
-                    <Clock className="w-3 h-3 text-blue-500" />
+                  <label htmlFor="audio-start-time" className="flex items-center gap-2 text-[10px] font-black text-[var(--muted-text)] uppercase tracking-widest mb-3">
+                    <Clock className="w-3 h-3 text-blue-500" aria-hidden="true" />
                     {t("tool.start")}
                   </label>
                   <input 
+                    id="audio-start-time"
                     type="text" 
                     value={startTime}
                     onChange={(e) => setStartTime(e.target.value)}
@@ -206,11 +207,12 @@ export function AudioCutter() {
                   />
                 </div>
                 <div>
-                  <label className="flex items-center gap-2 text-[10px] font-black text-[var(--muted-text)] uppercase tracking-widest mb-3">
-                    <Clock className="w-3 h-3 text-blue-500" />
+                  <label htmlFor="audio-end-time" className="flex items-center gap-2 text-[10px] font-black text-[var(--muted-text)] uppercase tracking-widest mb-3">
+                    <Clock className="w-3 h-3 text-blue-500" aria-hidden="true" />
                     {t("tool.end")}
                   </label>
                   <input 
+                    id="audio-end-time"
                     type="text" 
                     value={endTime}
                     onChange={(e) => setEndTime(e.target.value)}

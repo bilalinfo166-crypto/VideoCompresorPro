@@ -215,12 +215,11 @@ export function VideoToMp3() {
 
             <div className="grid grid-cols-1 gap-6">
               <div>
-                <label className="flex items-center gap-2 text-xs font-black text-[var(--muted-text)] uppercase tracking-widest mb-4 leading-none">
-                  <Volume2 className="w-4 h-4 text-blue-500" /> {t("tool.channels")}
+                <label htmlFor="audio-channels" className="flex items-center gap-2 text-xs font-black text-[var(--muted-text)] uppercase tracking-widest mb-4 leading-none">
+                  <Volume2 className="w-4 h-4 text-blue-500" aria-hidden="true" /> {t("tool.channels")}
                 </label>
                 <select 
-                  value={channels} 
-                  onChange={(e) => setChannels(e.target.value)}
+                  id="audio-channels"
                   className="w-full bg-slate-50 dark:bg-slate-800 border border-[var(--card-border)] rounded-2xl px-5 py-4 text-sm text-[var(--foreground)] outline-none focus:ring-4 focus:ring-blue-500/10 font-black transition-all"
                 >
                   <option value="1">{t("tool.mono")}</option>
@@ -228,12 +227,11 @@ export function VideoToMp3() {
                 </select>
               </div>
               <div>
-                <label className="flex items-center gap-2 text-xs font-black text-[var(--muted-text)] uppercase tracking-widest mb-4 leading-none">
-                  <Zap className="w-4 h-4 text-blue-500" /> {t("tool.sample")}
+                <label htmlFor="sample-rate" className="flex items-center gap-2 text-xs font-black text-[var(--muted-text)] uppercase tracking-widest mb-4 leading-none">
+                  <Zap className="w-4 h-4 text-blue-500" aria-hidden="true" /> {t("tool.sample")}
                 </label>
                 <select 
-                  value={sampleRate} 
-                  onChange={(e) => setSampleRate(e.target.value)}
+                  id="sample-rate"
                   className="w-full bg-slate-50 dark:bg-slate-800 border border-[var(--card-border)] rounded-2xl px-5 py-4 text-sm text-[var(--foreground)] outline-none focus:ring-4 focus:ring-blue-500/10 font-black transition-all"
                 >
                   <option value="44100">44.1 kHz</option>

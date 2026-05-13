@@ -280,10 +280,10 @@ export const VideoToText = () => {
                 )}
                 <div className="p-6 bg-slate-50 dark:bg-slate-800/50 rounded-3xl border border-[var(--card-border)]">
                   <div className="flex items-center gap-2 mb-3">
-                    <Globe className="w-4 h-4 text-indigo-500" />
-                    <label className="text-[10px] font-black uppercase tracking-widest text-[var(--muted-text)]">Language</label>
+                    <Globe className="w-4 h-4 text-indigo-500" aria-hidden="true" />
+                    <label htmlFor="language-select" className="text-[10px] font-black uppercase tracking-widest text-[var(--muted-text)]">Language</label>
                   </div>
-                  <select value={language} onChange={e => setLanguage(e.target.value)} className="w-full bg-white dark:bg-slate-800 border border-[var(--card-border)] rounded-2xl px-5 py-4 outline-none focus:ring-2 ring-indigo-500/30 transition-all font-bold text-sm text-[var(--foreground)]">
+                  <select id="language-select" value={language} onChange={e => setLanguage(e.target.value)} className="w-full bg-white dark:bg-slate-800 border border-[var(--card-border)] rounded-2xl px-5 py-4 outline-none focus:ring-2 ring-indigo-500/30 transition-all font-bold text-sm text-[var(--foreground)]">
                     {LANGUAGES.map(l => <option key={l.code} value={l.code}>{l.name}</option>)}
                   </select>
                   <p className="text-[10px] text-[var(--muted-text)] font-medium pl-1 mt-2 italic">Select "Auto-detect" if unsure of the spoken language.</p>

@@ -236,10 +236,11 @@ export function VideoCutter() {
 
             <div className="grid grid-cols-2 gap-4">
               <div>
-                <label className="flex items-center gap-2 text-[10px] font-black text-[var(--muted-text)] uppercase tracking-widest mb-3">
-                  <Clock className="w-3 h-3 text-blue-500" /> Start Time
+                <label htmlFor="start-time" className="flex items-center gap-2 text-[10px] font-black text-[var(--muted-text)] uppercase tracking-widest mb-3">
+                  <Clock className="w-3 h-3 text-blue-500" aria-hidden="true" /> Start Time
                 </label>
                 <input 
+                  id="start-time"
                   type="text" 
                   value={startTime}
                   onChange={(e) => setStartTime(e.target.value)}
@@ -248,10 +249,11 @@ export function VideoCutter() {
                 />
               </div>
               <div>
-                <label className="flex items-center gap-2 text-[10px] font-black text-[var(--muted-text)] uppercase tracking-widest mb-3">
-                  <Clock className="w-3 h-3 text-blue-500" /> End Time
+                <label htmlFor="end-time" className="flex items-center gap-2 text-[10px] font-black text-[var(--muted-text)] uppercase tracking-widest mb-3">
+                  <Clock className="w-3 h-3 text-blue-500" aria-hidden="true" /> End Time
                 </label>
                 <input 
+                  id="end-time"
                   type="text" 
                   value={endTime}
                   onChange={(e) => setEndTime(e.target.value)}

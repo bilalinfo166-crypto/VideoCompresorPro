@@ -288,7 +288,7 @@ export function VideoCompressor() {
       {/* Cloud SDKs */}
       <Script src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="YOUR_DROPBOX_APP_KEY" />
       <Script src="https://apis.google.com/js/api.js" />
-      <Script src="https://accounts.google.com/gsi/client" />
+      <Script src="https://accounts.google.com/gsi/client" strategy="lazyOnload" />
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 items-stretch">
         
@@ -432,25 +432,29 @@ export function VideoCompressor() {
           <div className="flex-1 overflow-hidden flex flex-col">
             <div className="flex-1 overflow-y-auto pr-2 space-y-6 custom-scrollbar">
               <div className="flex items-center justify-between">
-                <label className="text-base font-bold text-[var(--foreground)]">Output file size:</label>
+                <label htmlFor="target-size-number" className="text-base font-bold text-[var(--foreground)]">Output file size:</label>
                 <div className="flex items-center gap-2">
                   <input 
+                    id="target-size-number"
                     type="number" 
                     value={targetSize}
                     onChange={(e) => setTargetSize(Number(e.target.value))}
                     className="w-20 bg-slate-50 dark:bg-slate-800 border border-[var(--card-border)] rounded-xl py-2 px-3 text-center font-black text-sm focus:ring-2 ring-blue-500 outline-none"
+                    aria-label="Output file size in MB"
                   />
                   <span className="text-sm font-bold text-[var(--muted-text)]">MB</span>
                 </div>
               </div>
-              <input 
-                type="range" 
-                min="1" 
-                max={file ? Math.round(file.size / (1024 * 1024)) : 100} 
-                value={targetSize}
-                onChange={(e) => setTargetSize(Number(e.target.value))}
-                className="w-full h-2 bg-blue-100 dark:bg-slate-700 rounded-lg appearance-none cursor-pointer accent-blue-600"
-              />
+                <input 
+                  id="target-size-range"
+                  type="range" 
+                  min="1" 
+                  max={file ? Math.round(file.size / (1024 * 1024)) : 100} 
+                  value={targetSize}
+                  onChange={(e) => setTargetSize(Number(e.target.value))}
+                  className="w-full h-2 bg-blue-100 dark:bg-slate-700 rounded-lg appearance-none cursor-pointer accent-blue-600"
+                  aria-label="Adjust compression target size"
+                />
             </div>
 
             {isCompressing ? (

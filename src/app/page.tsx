@@ -348,7 +348,7 @@ export default function Home() {
               </div>
               <div className="order-1 md:order-2">
                 <div className="relative rounded-[2rem] overflow-hidden border border-slate-100 aspect-[4/3] shadow-2xl">
-                  <Image src="/storage-feature.png" alt="Reduce video size and save storage" fill className="object-cover" />
+                  <Image src="/storage-feature.png" alt="Reduce video size and save storage" fill className="object-cover" sizes="(max-width: 768px) 100vw, 500px" />
                 </div>
               </div>
             </div>
@@ -357,7 +357,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <div className="relative rounded-[2rem] overflow-hidden border border-slate-100 aspect-[4/3] shadow-2xl">
-                  <Image src="/discord-feature.png" alt="Compress video for Discord limits" fill className="object-cover" />
+                  <Image src="/discord-feature.png" alt="Compress video for Discord limits" fill className="object-cover" sizes="(max-width: 768px) 100vw, 500px" />
                 </div>
               </div>
               <div>
@@ -498,7 +498,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto items-center">
             {/* Image side */}
             <div className="relative rounded-3xl overflow-hidden border border-indigo-500/30 aspect-[4/3] bg-gradient-to-br from-indigo-900/40 to-slate-900 shadow-2xl shadow-indigo-500/10">
-              <Image src="/how-it-works-ui.png" alt="How it works" fill className="object-cover opacity-90" />
+              <Image src="/how-it-works-ui.png" alt="How it works" fill className="object-cover opacity-90" sizes="(max-width: 768px) 100vw, 600px" />
             </div>
 
             {/* Steps side */}
