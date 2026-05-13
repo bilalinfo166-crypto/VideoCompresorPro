@@ -33,9 +33,14 @@ export function SharedModals({
         <div className="fixed inset-0 z-[10000] flex items-center justify-center p-4">
           <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setShowQrModal(false)} />
           <div className="bg-white dark:bg-slate-800 w-full max-w-md rounded-[2.5rem] p-10 relative z-10 border border-[var(--card-border)] shadow-2xl animate-in zoom-in-95 duration-300 text-center text-[var(--foreground)]">
-            <button onClick={() => setShowQrModal(false)} className="absolute top-6 right-6 p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full transition-colors">
+            <button 
+              onClick={() => setShowQrModal(false)} 
+              aria-label="Close QR Modal"
+              className="absolute top-6 right-6 p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full transition-colors"
+            >
               <X className="w-5 h-5 text-[var(--muted-text)]" />
             </button>
+
             <div className="w-20 h-20 bg-purple-500/10 rounded-full flex items-center justify-center mx-auto mb-8">
               <QrCode className="w-10 h-10 text-purple-500" />
             </div>
@@ -66,9 +71,14 @@ export function SharedModals({
         <div className="fixed inset-0 z-[10000] flex items-center justify-center p-4">
           <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setShowUrlModal(false)} />
           <div className="bg-white dark:bg-slate-800 w-full max-w-md rounded-[2.5rem] p-8 relative z-10 border border-[var(--card-border)] shadow-2xl animate-in zoom-in-95 duration-300 text-[var(--foreground)]">
-            <button onClick={() => setShowUrlModal(false)} className="absolute top-6 right-6 p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full transition-colors">
+            <button 
+              onClick={() => setShowUrlModal(false)} 
+              aria-label="Close URL Import Modal"
+              className="absolute top-6 right-6 p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full transition-colors"
+            >
               <X className="w-5 h-5 text-[var(--muted-text)]" />
             </button>
+
             <div className="w-16 h-16 bg-blue-500/10 rounded-2xl flex items-center justify-center mb-6">
               <Link2 className="w-8 h-8 text-blue-500" />
             </div>

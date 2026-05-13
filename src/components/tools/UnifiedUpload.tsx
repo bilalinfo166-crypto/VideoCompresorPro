@@ -33,8 +33,12 @@ export function UnifiedUpload({
     <div className="relative inline-block" onClick={(e) => e.stopPropagation()}>
       <button 
         onClick={() => setDropdownOpen(!dropdownOpen)}
+        aria-label="Upload video file"
+        aria-expanded={dropdownOpen}
+        aria-haspopup="true"
         className="bg-blue-600 hover:bg-blue-500 text-white px-10 py-4 rounded-2xl font-bold flex items-center gap-3 shadow-lg shadow-blue-500/20 transition-all hover:scale-[1.02] active:scale-95 group"
       >
+
         <PlusCircle className="w-5 h-5 transition-transform group-hover:rotate-90" /> 
         <span className="text-lg">Choose File</span>
         <ChevronDown className={`w-4 h-4 ml-2 transition-transform ${dropdownOpen ? 'rotate-180' : ''}`} />

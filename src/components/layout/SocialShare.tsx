@@ -49,17 +49,13 @@ export function SocialShare({ title }: SocialShareProps) {
     setTimeout(() => setCopied(false), 2000);
   };
 
-  // Safe translation fallbacks since we didn't add these keys to the locale files yet
-  const shareText = t("common.share_tool") === "common.share_tool" ? "Share this tool" : t("common.share_tool");
-  const copiedText = t("common.copied") === "common.copied" ? "Copied!" : t("common.copied");
-  const copyLinkText = t("common.copy_link") === "common.copy_link" ? "Copy Link" : t("common.copy_link");
-
   return (
     <div className="flex flex-col items-center justify-center py-10 px-4 mt-8 sm:mt-16 mx-4 sm:mx-auto max-w-5xl rounded-[2.5rem] bg-indigo-50/50 dark:bg-indigo-950/20 border border-indigo-100 dark:border-indigo-500/10 mb-8 sm:mb-16">
       <div className="flex items-center gap-2 mb-6">
         <Share2 className="w-5 h-5 text-indigo-500" />
-        <h3 className="font-bold text-xl text-[var(--foreground)]">{shareText}</h3>
+        <h3 className="font-bold text-xl text-[var(--foreground)]">{t("common.share_tool")}</h3>
       </div>
+
       <div className="flex flex-wrap justify-center gap-3 sm:gap-4 w-full">
         {links.map((link) => (
           <a
@@ -83,9 +79,10 @@ export function SocialShare({ title }: SocialShareProps) {
           }`}
         >
           <Link2 className="w-5 h-5" aria-hidden="true" />
-          <span className="inline">{copied ? copiedText : copyLinkText}</span>
+          <span className="inline">{copied ? t("common.copied") : t("common.copy_link")}</span>
         </button>
       </div>
     </div>
   );
 }
+

@@ -149,7 +149,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.variable} ${outfit.variable} font-sans antialiased min-h-screen flex flex-col bg-gradient-premium text-[var(--foreground)]`}>
         <ThemeProvider>
-          <LanguageProvider initialLocale={locale}>
+          <LanguageProvider initialLocale={locale} translations={require(`../locales/${locale}.json`)}>
             <Header />
             <main className="flex-1 pt-16">
               {children}
@@ -157,6 +157,7 @@ export default function RootLayout({
             <Footer />
           </LanguageProvider>
         </ThemeProvider>
+
         
         {/* Global Schema.org Structured Data */}
         <script

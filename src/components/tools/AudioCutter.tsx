@@ -159,9 +159,14 @@ export function AudioCutter() {
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center justify-between mb-1">
                       <h3 className="font-black text-xl truncate pr-4 text-[var(--foreground)]">{file.name}</h3>
-                      <button onClick={() => setFile(null)} className="p-1.5 hover:bg-white/10 rounded-lg transition-colors text-[var(--muted-text)] hover:text-red-500">
+                      <button 
+                        onClick={() => setFile(null)} 
+                        aria-label="Remove audio file"
+                        className="p-1.5 hover:bg-white/10 rounded-lg transition-colors text-[var(--muted-text)] hover:text-red-500"
+                      >
                         <X className="w-5 h-5" />
                       </button>
+
                     </div>
                     <p className="text-sm text-[var(--muted-text)] font-bold">{formatSize(file.size)}</p>
                   </div>
