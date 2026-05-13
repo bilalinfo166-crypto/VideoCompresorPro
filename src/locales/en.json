@@ -219,8 +219,8 @@
     "r12_role": "Digital Creator"
   },
   "why_choose": {
-    "title": "A Private and Secure Video Compressor",
-    "desc": "Unlike other tools that upload your videos to remote servers, our platform is a privacy-first Video Compressor that uses cutting-edge WebAssembly (WASM) technology to reduce video size entirely within your browser.",
+    "title": "Private Video Compression Without Upload Risks",
+    "desc": "Unlike numerous online resources, VideoCompressorPro prioritizes privacy and security. For video compression, our video compressor fast and reliably helps to reduce the video size, protects the video during processing and ensures a safe compression experience on desktop and mobile devices.",
     "point1": "No file size limits for basic compression",
     "point2": "Your videos never touch our servers",
     "point3": "Works offline after first load",
