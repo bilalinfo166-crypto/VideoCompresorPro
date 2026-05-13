@@ -127,7 +127,7 @@ export function Header() {
                   <ChevronDown className="w-3 h-3 opacity-100" aria-hidden="true" />
                 </button>
                 {langOpen && (
-                  <div className="absolute top-full right-0 mt-2 w-[200px] bg-[var(--background)] rounded-2xl border border-[var(--card-border)] shadow-2xl overflow-hidden flex flex-col p-2 max-h-[70vh] overflow-y-auto custom-scrollbar">
+                  <div className="absolute top-full right-0 mt-2 w-[200px] bg-[var(--background)] rounded-2xl border border-[var(--card-border)] shadow-2xl overflow-hidden flex flex-col p-2 max-h-[70vh] overflow-y-auto custom-scrollbar z-50 before:content-[''] before:absolute before:-top-2 before:left-0 before:right-0 before:h-2">
                     {LANGUAGES.map((l) => (
                       <button
                         key={l.code}
