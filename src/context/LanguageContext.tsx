@@ -26,7 +26,7 @@ export const LanguageProvider: React.FC<{
       localStorage.setItem("preferred_lang", lang);
       
       const currentPath = window.location.pathname;
-      const locales = ["en", "ur", "ar", "hi", "es", "pt", "fr", "de", "it", "id", "ja", "ru", "zh", "tr", "vi", "ko", "th", "nl", "pl", "fa", "ro", "el", "uk", "sv"];
+      const locales = ["en", "ar", "hi", "es", "pt", "fr", "de", "it", "id", "ja", "ru", "zh", "tr", "vi", "ko", "th", "nl", "pl", "fa", "ro", "el", "uk", "sv"];
       
       let cleanPath = currentPath;
       for (const loc of locales) {
@@ -47,7 +47,7 @@ export const LanguageProvider: React.FC<{
   useEffect(() => {
     document.documentElement.lang = initialLocale;
     // Set direction for RTL languages
-    const rtlLocales = ['ar', 'fa', 'ur'];
+    const rtlLocales = ['ar', 'fa'];
     document.documentElement.dir = rtlLocales.includes(initialLocale) ? "rtl" : "ltr";
   }, [initialLocale]);
 

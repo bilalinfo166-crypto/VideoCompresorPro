@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export const locales = [
-  "ur", "ar", "hi", "es", "pt", "fr", "de", "it", "id", "ja", 
+  "ar", "hi", "es", "pt", "fr", "de", "it", "id", "ja", 
   "ru", "zh", "tr", "vi", "ko", "th", "nl", "pl", "fa", "ro", 
   "el", "uk", "sv"
 ];

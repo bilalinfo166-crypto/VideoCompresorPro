@@ -3,7 +3,7 @@ import type { NextRequest } from "next/server";
 
 // Supported locales except English (which is default/unprefixed)
 export const locales = [
-  "ur", "ar", "hi", "es", "pt", "fr", "de", "it", "id", "ja", 
+  "ar", "hi", "es", "pt", "fr", "de", "it", "id", "ja", 
   "ru", "zh", "tr", "vi", "ko", "th", "nl", "pl", "fa", "ro", 
   "el", "uk", "sv"
 ];
@@ -13,7 +13,11 @@ function getLocale(request: NextRequest): string | undefined {
   if (!acceptLanguage) return undefined;
   
   // Simple check for supported languages
+  // Skip auto-detection for 'hi' as requested (default to English for South Asia)
+  const skipDetection = ['hi', 'ur'];
+  
   for (const locale of locales) {
+    if (skipDetection.includes(locale)) continue;
     if (acceptLanguage.toLowerCase().includes(locale)) {
       return locale;
     }
