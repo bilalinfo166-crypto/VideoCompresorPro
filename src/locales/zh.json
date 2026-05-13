@@ -586,7 +586,7 @@
     "v2_title": "100% 安全",
     "v2_desc": "您的 {format} 文件从未被上传 — 您拥有完全控制权。",
     "v3_title": "极速响应",
-    "v3_desc": "通过 WebAssembly，我们利用您的电脑性能，实现比云端更快的压缩。",
+    "v3_desc": "通过 WebAssembly，我们利用您的电脑性能，实现比云端更快的压缩。"
   },
   "auth": {
     "login_title": "欢迎回来",
