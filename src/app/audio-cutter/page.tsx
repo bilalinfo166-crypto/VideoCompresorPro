@@ -4,9 +4,11 @@ import Link from "next/link";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import { useLanguage } from "@/context/LanguageContext";
-import { Scissors, Zap, Shield, Sparkles, CheckCircle2, Star, ArrowRight, Play, Music, Mic2, AudioLines, Download, Headphones, Disc, Globe, Speaker, Smartphone, Radio, FileAudio, ChevronDown } from "lucide-react";
+import { Scissors, Zap, Shield, Sparkles, CheckCircle2, Star, ArrowRight, Play, Music, Mic2, AudioLines, Download, Headphones, Disc, Globe, Speaker, Smartphone, Radio, FileAudio, ChevronDown, List } from "lucide-react";
 import { RelatedTools } from "@/components/layout/RelatedTools";
 import { SocialShare } from "@/components/layout/SocialShare";
+import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
+import { AuthorBlock } from "@/components/layout/AuthorBlock";
 
 const AudioCutter = dynamic(
   () => import("@/components/tools/AudioCutter").then((m) => m.AudioCutter),
@@ -69,6 +71,9 @@ export default function AudioCutterPage() {
   return (
     <div className="flex flex-col transition-colors duration-300">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      
+      <Breadcrumbs items={[{ label: "Audio Tools", href: "/" }, { label: "Audio Cutter", href: "/audio-cutter" }]} />
+
       {/* ─── Hero Section ─── */}
       <section className="relative pt-24 pb-16 overflow-hidden bg-[var(--background)]">
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-5" />
@@ -92,8 +97,25 @@ export default function AudioCutterPage() {
         </div>
       </section>
 
+      {/* ─── Table of Contents ─── */}
+      <section className="py-8 bg-[var(--background)]">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto bg-slate-50 dark:bg-slate-900/40 rounded-3xl p-6 border border-[var(--card-border)]">
+            <h3 className="text-sm font-bold text-[var(--muted-text)] uppercase tracking-wider mb-4 flex items-center gap-2">
+              <List className="w-4 h-4" /> {t("common.quick_navigation") || "Quick Navigation"}
+            </h3>
+            <div className="flex flex-wrap gap-x-8 gap-y-3 text-sm font-semibold text-[var(--foreground)]">
+              <a href="#visualizer" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Visualizer</a>
+              <a href="#features" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Key Features</a>
+              <a href="#how-to-use" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">How to Cut</a>
+              <a href="#faq" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">FAQ</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ─── Cinematic Video Section ─── */}
-      <section className="relative py-32 border-y border-white/5 overflow-hidden bg-[#020617]">
+      <section id="visualizer" className="relative py-32 border-y border-white/5 overflow-hidden bg-[#020617]">
         <div className="container mx-auto px-4 relative z-10 text-center">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-extrabold mb-12 text-white italic">{t("audio_cutter_page.visualizer_title")}</h2>
@@ -131,7 +153,7 @@ export default function AudioCutterPage() {
       </section>
 
       {/* ─── Features Grid ─── */}
-      <section className="py-24 bg-[var(--background)] border-y border-[var(--card-border)]">
+      <section id="features" className="py-24 bg-[var(--background)] border-y border-[var(--card-border)]">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-16 text-[var(--foreground)] italic">{t("audio_cutter_page.features_title")}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -149,7 +171,7 @@ export default function AudioCutterPage() {
       </section>
 
       {/* ─── Steps ─── */}
-      <section className="py-24 bg-[var(--background)]">
+      <section id="how-to-use" className="py-24 bg-[var(--background)]">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-16 text-[var(--foreground)]">{t("audio_cutter_page.steps_title")}</h2>
           <div className="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto">
@@ -190,7 +212,7 @@ export default function AudioCutterPage() {
         </div>
       </section>
 
-      <section className="py-24 bg-[var(--background)]">
+      <section id="faq" className="py-24 bg-[var(--background)]">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-4xl font-bold mb-16 text-center text-[var(--foreground)] italic">{t("audio_cutter_page.faq_title")}</h2>
@@ -213,6 +235,9 @@ export default function AudioCutterPage() {
 
       {/* ─── Social Share ─── */}
       <SocialShare title="Free Online Audio Cutter - Trim Audio Easily" />
+
+      {/* ─── Author Block ─── */}
+      <AuthorBlock />
 
       {/* ─── Related Tools ─── */}
       <RelatedTools exclude="audio_cutter" />

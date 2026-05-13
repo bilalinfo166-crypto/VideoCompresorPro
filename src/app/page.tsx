@@ -7,10 +7,12 @@ import { useLanguage } from "@/context/LanguageContext";
 import {
   Zap, Shield, Sparkles, ChevronDown, Globe,
   Scissors, Crop, Music, FileVideo, FileText,
-  CheckCircle2, Star, ArrowRight, Play, UploadCloud
+  CheckCircle2, Star, ArrowRight, Play, UploadCloud, List
 } from "lucide-react";
 import { RelatedTools } from "@/components/layout/RelatedTools";
 import { SocialShare } from "@/components/layout/SocialShare";
+import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
+import { AuthorBlock } from "@/components/layout/AuthorBlock";
 
 const VideoCompressor = dynamic(
   () => import("@/components/tools/VideoCompressor").then((m) => m.VideoCompressor),
@@ -170,6 +172,9 @@ export default function Home() {
   return (
     <div className="flex flex-col transition-colors duration-300">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      
+      <Breadcrumbs items={[{ label: "Video Compressor", href: "/" }]} />
+
       {/* ─── Hero Section ─── */}
       <section className="relative pt-12 sm:pt-16 pb-12 sm:pb-20 overflow-hidden bg-[var(--background)]">
         {/* Subtle background patterns */}
@@ -199,6 +204,23 @@ export default function Home() {
             {/* Tool Container with Shadow */}
             <div className="relative z-20 shadow-[0_32px_64px_-12px_rgba(0,0,0,0.15)] rounded-[2.5rem]">
               <VideoCompressor />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Table of Contents ─── */}
+      <section className="py-8 bg-[var(--background)]">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto bg-slate-50 dark:bg-slate-900/40 rounded-3xl p-6 border border-[var(--card-border)]">
+            <h3 className="text-sm font-bold text-[var(--muted-text)] uppercase tracking-wider mb-4 flex items-center gap-2">
+              <List className="w-4 h-4" /> {t("common.quick_navigation") || "Quick Navigation"}
+            </h3>
+            <div className="flex flex-wrap gap-x-8 gap-y-3 text-sm font-semibold text-[var(--foreground)]">
+              <a href="#how-it-works" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">How it Works</a>
+              <a href="#all-tools" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Free Tools</a>
+              <a href="#reviews" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">User Reviews</a>
+              <a href="#faq" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">FAQ</a>
             </div>
           </div>
         </div>
@@ -466,7 +488,7 @@ export default function Home() {
       </section>
 
       {/* ─── How It Works ─── */}
-      <section className="py-24">
+      <section id="how-it-works" className="py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4 text-[var(--foreground)]">{t("how_it_works.title")}</h2>
@@ -496,7 +518,7 @@ export default function Home() {
       </section>
 
       {/* ─── All Tools Grid ─── */}
-      <section className="py-24 bg-[var(--background)] border-y border-[var(--card-border)]">
+      <section id="all-tools" className="py-24 bg-[var(--background)] border-y border-[var(--card-border)]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4 text-[var(--foreground)]">{t("tools.all_free_title")}</h2>
@@ -540,7 +562,7 @@ export default function Home() {
       </section>
 
       {/* ─── Reviews / Testimonials ─── */}
-      <section className="py-16 sm:py-24 bg-[var(--background)]">
+      <section id="reviews" className="py-16 sm:py-24 bg-[var(--background)]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10 sm:mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-[var(--foreground)]">{t("reviews.title")}</h2>
@@ -632,7 +654,7 @@ export default function Home() {
       </section>
 
       {/* ─── FAQ ─── */}
-      <section className="py-24 bg-[var(--background)]">
+      <section id="faq" className="py-24 bg-[var(--background)]">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-16">
@@ -659,6 +681,9 @@ export default function Home() {
 
       {/* ─── Social Share ─── */}
       <SocialShare title="Video Compressor Pro - Compress Video Online Free" />
+
+      {/* ─── Author Block ─── */}
+      <AuthorBlock />
 
       {/* ─── Related Tools ─── */}
       <RelatedTools exclude="compressor" />

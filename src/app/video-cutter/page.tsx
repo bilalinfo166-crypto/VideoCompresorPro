@@ -4,9 +4,11 @@ import Link from "next/link";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import { useLanguage } from "@/context/LanguageContext";
-import { Scissors, Zap, Shield, Sparkles, CheckCircle2, Star, ArrowRight, Play, Clock, Layout, Monitor, Smartphone, Globe, HardDrive, Youtube, Instagram, Facebook, Video, Layers, Film, Activity, ChevronDown } from "lucide-react";
+import { Scissors, Zap, Shield, Sparkles, CheckCircle2, Star, ArrowRight, Play, Clock, Layout, Monitor, Smartphone, Globe, HardDrive, Youtube, Instagram, Facebook, Video, Layers, Film, Activity, ChevronDown, List } from "lucide-react";
 import { RelatedTools } from "@/components/layout/RelatedTools";
 import { SocialShare } from "@/components/layout/SocialShare";
+import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
+import { AuthorBlock } from "@/components/layout/AuthorBlock";
 
 const VideoCutter = dynamic(
   () => import("@/components/tools/VideoCutter").then((m) => m.VideoCutter),
@@ -76,6 +78,9 @@ export default function VideoCutterPage() {
   return (
     <div className="flex flex-col transition-colors duration-300">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      
+      <Breadcrumbs items={[{ label: "Video Tools", href: "/" }, { label: "Video Cutter", href: "/video-cutter" }]} />
+
       {/* ─── Hero Section ─── */}
       <section className="relative pt-24 pb-16 overflow-hidden bg-[var(--background)]">
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-5" />
@@ -103,8 +108,25 @@ export default function VideoCutterPage() {
         </div>
       </section>
 
+      {/* ─── Table of Contents ─── */}
+      <section className="py-8 bg-[var(--background)]">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto bg-slate-50 dark:bg-slate-900/40 rounded-3xl p-6 border border-[var(--card-border)]">
+            <h3 className="text-sm font-bold text-[var(--muted-text)] uppercase tracking-wider mb-4 flex items-center gap-2">
+              <List className="w-4 h-4" /> {t("common.quick_navigation") || "Quick Navigation"}
+            </h3>
+            <div className="flex flex-wrap gap-x-8 gap-y-3 text-sm font-semibold text-[var(--foreground)]">
+              <a href="#social-platforms" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Social Specs</a>
+              <a href="#features" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Key Features</a>
+              <a href="#how-to-use" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">How to Cut</a>
+              <a href="#faq" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">FAQ</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ─── Social Platforms ─── */}
-      <section className="py-20 bg-[var(--background)] border-y border-[var(--card-border)] relative">
+      <section id="social-platforms" className="py-20 bg-[var(--background)] border-y border-[var(--card-border)] relative">
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4 text-[var(--foreground)]">{t("cutter_page.social_title")}</h2>
@@ -163,7 +185,7 @@ export default function VideoCutterPage() {
       </section>
 
       {/* ─── Features Grid ─── */}
-      <section className="py-24 bg-[var(--background)]">
+      <section id="features" className="py-24 bg-[var(--background)]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4 text-[var(--foreground)]">{t("cutter_page.features_title")}</h2>
@@ -183,7 +205,7 @@ export default function VideoCutterPage() {
       </section>
 
       {/* ─── Steps ─── */}
-      <section className="py-24 bg-[var(--background)] border-y border-[var(--card-border)]">
+      <section id="how-to-use" className="py-24 bg-[var(--background)] border-y border-[var(--card-border)]">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-16 text-[var(--foreground)]">{t("cutter_page.steps_title")}</h2>
           <div className="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto">
@@ -225,7 +247,7 @@ export default function VideoCutterPage() {
       </section>
 
       {/* ─── FAQ ─── */}
-      <section className="py-24 bg-[var(--background)] border-t border-[var(--card-border)]">
+      <section id="faq" className="py-24 bg-[var(--background)] border-t border-[var(--card-border)]">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-4xl font-bold mb-16 text-center text-[var(--foreground)]">{t("cutter_page.faq_title")}</h2>
@@ -248,6 +270,9 @@ export default function VideoCutterPage() {
 
       {/* ─── Social Share ─── */}
       <SocialShare title="Free Online Video Cutter - Trim Videos Easily" />
+
+      {/* ─── Author Block ─── */}
+      <AuthorBlock />
 
       {/* ─── Related Tools ─── */}
       <RelatedTools exclude="cutter" />

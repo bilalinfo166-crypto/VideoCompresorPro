@@ -17,10 +17,13 @@ import {
   Clock, 
   MessageSquare,
   FileText,
-  ChevronDown
+  ChevronDown,
+  List
 } from "lucide-react";
 import { RelatedTools } from "@/components/layout/RelatedTools";
 import { SocialShare } from "@/components/layout/SocialShare";
+import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
+import { AuthorBlock } from "@/components/layout/AuthorBlock";
 
 const VideoToText = dynamic(
   () => import("@/components/tools/VideoToText").then((m) => m.VideoToText),
@@ -74,6 +77,9 @@ export default function VideoToTextPage() {
   return (
     <div className="flex flex-col transition-colors duration-300">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      
+      <Breadcrumbs items={[{ label: "AI Tools", href: "/" }, { label: "Video to Text", href: "/video-to-text" }]} />
+
       {/* ─── Hero Section ─── */}
       <section className="relative pt-24 pb-16 overflow-hidden bg-[var(--background)]">
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-5" />
@@ -101,8 +107,24 @@ export default function VideoToTextPage() {
         </div>
       </section>
 
+      {/* ─── Table of Contents ─── */}
+      <section className="py-8 bg-[var(--background)]">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto bg-slate-50 dark:bg-slate-900/40 rounded-3xl p-6 border border-[var(--card-border)]">
+            <h3 className="text-sm font-bold text-[var(--muted-text)] uppercase tracking-wider mb-4 flex items-center gap-2">
+              <List className="w-4 h-4" /> {t("common.quick_navigation") || "Quick Navigation"}
+            </h3>
+            <div className="flex flex-wrap gap-x-8 gap-y-3 text-sm font-semibold text-[var(--foreground)]">
+              <a href="#features" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Key Features</a>
+              <a href="#how-to-use" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">How to Transcribe</a>
+              <a href="#faq" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">FAQ</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ─── Features Grid ─── */}
-      <section className="py-24 bg-[var(--background)] border-y border-[var(--card-border)]">
+      <section id="features" className="py-24 bg-[var(--background)] border-y border-[var(--card-border)]">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-16 text-[var(--foreground)]">{t("to_text_page.features_title")}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -120,7 +142,7 @@ export default function VideoToTextPage() {
       </section>
 
       {/* ─── Steps ─── */}
-      <section className="py-24 bg-[var(--background)]">
+      <section id="how-to-use" className="py-24 bg-[var(--background)]">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-16 text-[var(--foreground)]">{t("to_text_page.steps_title")}</h2>
           <div className="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto">
@@ -162,7 +184,7 @@ export default function VideoToTextPage() {
       </section>
 
       {/* ─── FAQ ─── */}
-      <section className="py-24 bg-[var(--background)]">
+      <section id="faq" className="py-24 bg-[var(--background)]">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-4xl font-bold mb-16 text-center text-[var(--foreground)]">{t("to_text_page.faq_title")}</h2>
@@ -185,6 +207,9 @@ export default function VideoToTextPage() {
 
       {/* ─── Social Share ─── */}
       <SocialShare title="Video to Text Transcription Online Free" />
+
+      {/* ─── Author Block ─── */}
+      <AuthorBlock />
 
       {/* ─── Related Tools ─── */}
       <RelatedTools exclude="to_text" />
