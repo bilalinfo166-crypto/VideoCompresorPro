@@ -28,7 +28,7 @@ function FooterSection({ title, links, getHref }: {
       </button>
 
       <ul
-        className={`space-y-3 overflow-hidden transition-all duration-300 md:!max-h-none md:!opacity-100 md:pb-0 ${
+        className={`space-y-2 overflow-hidden transition-all duration-300 md:!max-h-none md:!opacity-100 md:pb-0 ${
           open ? "max-h-96 opacity-100 pb-4" : "max-h-0 opacity-0"
         }`}
       >
@@ -36,8 +36,7 @@ function FooterSection({ title, links, getHref }: {
           <li key={l.href}>
             <Link
               href={getHref(l.href)}
-              className="text-[var(--muted-text)] hover:text-blue-600 text-sm transition-colors block py-2.5 touch-feedback"
-
+              className="text-[var(--muted-text)] hover:text-blue-600 text-sm transition-colors block py-1.5 touch-feedback"
             >
               {l.label}
             </Link>
@@ -81,7 +80,7 @@ export function Footer() {
   ];
 
   return (
-    <footer className="border-t border-[var(--card-border)] bg-[var(--header-bg)] pt-8 md:pt-12 pb-4 transition-colors duration-300 safe-bottom">
+    <footer className="border-t border-[var(--card-border)] bg-[var(--header-bg)] pt-6 md:pt-8 pb-4 transition-colors duration-300 safe-bottom">
       <div className="container mx-auto px-4">
 
         {/* Brand Row — mobile only */}
@@ -106,7 +105,7 @@ export function Footer() {
         </div>
 
         {/* Links Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-0 md:gap-10 mb-0 md:mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-0 md:gap-8 mb-0 md:mb-6">
           {/* Brand Description — desktop only */}
           <div className="hidden md:block md:col-span-2">
             <Link href={getLocalizedHref('/')} className="flex items-center gap-2 mb-4" aria-label="VideoCompressorPro Home">
@@ -142,7 +141,7 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-[var(--card-border)] pt-5 mt-5 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="border-t border-[var(--card-border)] pt-4 mt-4 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex flex-col items-center md:items-start gap-2">
             <div className="flex items-center gap-2 text-[var(--muted-text)] text-[11px] sm:text-xs font-medium">
               <span>&copy; {new Date().getFullYear()} VideoCompressorPro</span>
