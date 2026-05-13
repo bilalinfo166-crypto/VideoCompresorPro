@@ -138,7 +138,7 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-8">
             <h2 className="text-xl md:text-2xl font-bold text-[var(--foreground)] mb-2">{t("trusted.title")}</h2>
-            <p className="text-[var(--muted-text)] text-sm md:text-base font-medium">{t("trusted.desc")}</p>
+            <p className="text-[var(--muted-text)] text-sm md:text-base font-medium max-w-2xl mx-auto">{t("trusted.desc")}</p>
           </div>
           
           <div className="w-full max-w-5xl mx-auto mask-image-gradient-x overflow-hidden">
