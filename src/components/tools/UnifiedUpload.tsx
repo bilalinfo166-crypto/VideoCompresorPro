@@ -59,7 +59,7 @@ export function UnifiedUpload({
             <div className="p-1">
               {[
                 { 
-                  logo: <Monitor className="w-4 h-4 text-slate-500" />, 
+                  logo: <Monitor className="w-4 h-4 text-slate-600" />, 
                   label: "From Device", 
                   action: () => fileInputRef.current?.click() 
                 },
@@ -88,12 +88,14 @@ export function UnifiedUpload({
                 <button 
                   key={idx} 
                   onClick={() => { if(item.action) item.action(); setDropdownOpen(false); }}
-                  className="w-full flex items-center gap-3 px-3 py-2 hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-all rounded-xl text-left group/item"
+                  className="w-full flex items-center gap-3 px-3 py-3 hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-all rounded-xl text-left group/item"
+
                 >
                   <div className="w-7 h-7 flex items-center justify-center transition-transform group-hover/item:scale-110">
                     {item.logo}
                   </div>
-                  <span className="font-bold text-[12px] text-[var(--foreground)]">{item.label}</span>
+                  <span className="font-bold text-[13px] text-[var(--foreground)]">{item.label}</span>
+
                 </button>
               ))}
             </div>

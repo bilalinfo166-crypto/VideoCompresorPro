@@ -36,7 +36,8 @@ function FooterSection({ title, links, getHref }: {
           <li key={l.href}>
             <Link
               href={getHref(l.href)}
-              className="text-[var(--muted-text)] hover:text-blue-600 text-sm transition-colors block py-1 touch-feedback"
+              className="text-[var(--muted-text)] hover:text-blue-600 text-sm transition-colors block py-2.5 touch-feedback"
+
             >
               {l.label}
             </Link>
@@ -124,9 +125,10 @@ export function Footer() {
             <p className="text-[var(--muted-text)] text-xs sm:text-sm">
               &copy; {new Date().getFullYear()} VideoCompressorPro — {t("footer.copyright")}
             </p>
-            <p className="text-[var(--muted-text)] text-[10px] opacity-60">
+            <p className="text-[var(--muted-text)] text-[11px] font-medium">
               Powered by <a href="https://ffmpeg.org/" target="_blank" rel="nofollow external" className="hover:text-indigo-400 transition-colors">FFmpeg</a>
             </p>
+
           </div>
           <div className="flex items-center gap-2 text-[var(--muted-text)] text-xs sm:text-sm">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />

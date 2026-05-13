@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /api/
 
-Sitemap: https://videocompressor.com/sitemap.xml
+Sitemap: https://videocompressorpro.com/sitemap.xml

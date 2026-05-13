@@ -41,8 +41,9 @@ export function HowItWorks() {
           {/* Steps side */}
           <div className="space-y-4">
             {STEPS.map((step, i) => (
-              <div key={step.number} className={`p-6 rounded-2xl border transition-all ${i === 0 ? 'bg-indigo-500/10 border-indigo-500/30' : 'bg-transparent border-[var(--card-border)] opacity-70 hover:opacity-100 hover:bg-white/5'}`}>
-                <h3 className={`text-lg font-bold mb-3 flex items-center gap-3 ${i === 0 ? 'text-[var(--foreground)]' : 'text-[var(--muted-text)]'}`}>
+              <div key={step.number} className={`p-6 rounded-2xl border transition-all ${i === 0 ? 'bg-indigo-500/10 border-indigo-500/30' : 'bg-white/5 border-[var(--card-border)] hover:bg-white/10 hover:border-indigo-500/20'}`}>
+                <h3 className={`text-lg font-bold mb-3 flex items-center gap-3 ${i === 0 ? 'text-[var(--foreground)]' : 'text-[var(--foreground)]/80'}`}>
+
                   <span className="text-indigo-500 uppercase text-sm tracking-wider font-black">{t("how_it_works.step")} {parseInt(step.number)}</span> 
                   {t(`steps.0${parseInt(step.number)}_title`)}
                 </h3>

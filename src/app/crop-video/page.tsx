@@ -112,9 +112,10 @@ export default function CropVideoPage() {
       <section className="py-8 bg-[var(--background)]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto bg-slate-50 dark:bg-slate-900/40 rounded-3xl p-6 border border-[var(--card-border)]">
-            <h3 className="text-sm font-bold text-[var(--muted-text)] uppercase tracking-wider mb-4 flex items-center gap-2">
+            <h2 className="text-sm font-bold text-[var(--muted-text)] uppercase tracking-wider mb-4 flex items-center gap-2">
               <List className="w-4 h-4" /> {t("common.quick_navigation") || "Quick Navigation"}
-            </h3>
+            </h2>
+
             <div className="flex flex-wrap gap-x-8 gap-y-3 text-sm font-semibold text-[var(--foreground)]">
               <a href="#social-aspects" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Social Aspect Ratios</a>
               <a href="#features" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Key Features</a>
@@ -136,7 +137,8 @@ export default function CropVideoPage() {
               <div key={p.name} className="glass-card p-8 rounded-3xl border border-[var(--card-border)] flex flex-col items-center text-center group hover:bg-white/5 transition-all">
                 <p.icon className={`w-12 h-12 ${p.color} mb-4 group-hover:scale-110 transition-transform`} />
                 <h3 className="font-bold text-[var(--foreground)] mb-1">{p.name}</h3>
-                <p className="text-[10px] text-[var(--muted-text)] uppercase font-black tracking-widest">{p.desc}</p>
+                <p className="text-[11px] text-[var(--muted-text)] uppercase font-black tracking-widest">{p.desc}</p>
+
               </div>
             ))}
           </div>
@@ -155,9 +157,10 @@ export default function CropVideoPage() {
             <div className="group relative">
                <div className="aspect-video rounded-2xl overflow-hidden border border-white/10 bg-slate-900 shadow-2xl transition-transform group-hover:scale-[1.02]">
                   <video autoPlay loop muted playsInline className="w-full h-full object-cover opacity-80">
-                    <source src="https://player.vimeo.com/external/494244245.hd.mp4?s=a0248c8230538053f3e970a00d024626156e507b&profile_id=175" type="video/mp4" />
                     <source src="/demo-video.mp4" type="video/mp4" />
+                    <track kind="captions" src="" label="None" />
                   </video>
+
                   <div className="absolute top-4 left-4 px-3 py-1 bg-red-600 text-white text-[10px] font-black rounded-full uppercase tracking-widest">YouTube</div>
                </div>
                <div className="mt-4 text-center text-slate-500 text-xs font-bold uppercase tracking-tighter">16:9 Widescreen</div>
@@ -166,9 +169,10 @@ export default function CropVideoPage() {
             <div className="group relative">
                <div className="aspect-square rounded-2xl overflow-hidden border border-white/10 bg-slate-900 shadow-2xl transition-transform group-hover:scale-[1.02] max-w-[300px] mx-auto">
                   <video autoPlay loop muted playsInline className="w-full h-full object-cover opacity-80">
-                    <source src="https://player.vimeo.com/external/494244245.hd.mp4?s=a0248c8230538053f3e970a00d024626156e507b&profile_id=175" type="video/mp4" />
                     <source src="/demo-video.mp4" type="video/mp4" />
+                    <track kind="captions" src="" label="None" />
                   </video>
+
                   <div className="absolute top-4 left-4 px-3 py-1 bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-500 text-white text-[10px] font-black rounded-full uppercase tracking-widest">Instagram</div>
                </div>
                <div className="mt-4 text-center text-slate-500 text-xs font-bold uppercase tracking-tighter">1:1 Square</div>
@@ -177,9 +181,10 @@ export default function CropVideoPage() {
             <div className="group relative">
                <div className="aspect-[9/16] rounded-2xl overflow-hidden border border-white/10 bg-slate-900 shadow-2xl transition-transform group-hover:scale-[1.02] max-h-[400px] mx-auto">
                   <video autoPlay loop muted playsInline className="w-full h-full object-cover opacity-80">
-                    <source src="https://player.vimeo.com/external/494244245.hd.mp4?s=a0248c8230538053f3e970a00d024626156e507b&profile_id=175" type="video/mp4" />
                     <source src="/demo-video.mp4" type="video/mp4" />
+                    <track kind="captions" src="" label="None" />
                   </video>
+
                   <div className="absolute top-4 left-4 px-3 py-1 bg-black text-white text-[10px] font-black rounded-full uppercase tracking-widest border border-white/20">TikTok</div>
                </div>
                <div className="mt-4 text-center text-slate-500 text-xs font-bold uppercase tracking-tighter">9:16 Vertical</div>
@@ -238,8 +243,9 @@ export default function CropVideoPage() {
                 <div className="flex items-center gap-4">
                   <Image src={review.avatar} alt={review.name} width={40} height={40} className="rounded-full ring-2 ring-white/10" />
                   <div>
-                    <div className="font-bold text-[var(--foreground)] text-[10px]">{review.name}</div>
-                    <div className="text-[10px] text-[var(--muted-text)] font-bold uppercase tracking-wider">{t(`cropper_page.r${review.id}_role`)}</div>
+                    <div className="font-bold text-[var(--foreground)] text-[12px]">{review.name}</div>
+                    <div className="text-[11px] text-[var(--muted-text)] font-bold uppercase tracking-wider">{t(`cropper_page.r${review.id}_role`)}</div>
+
                   </div>
                 </div>
               </div>

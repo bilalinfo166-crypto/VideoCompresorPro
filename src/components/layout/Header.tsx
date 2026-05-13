@@ -201,9 +201,10 @@ export function Header() {
             <div className="flex-1 overflow-y-auto scroll-touch p-4 space-y-2">
               {/* Tools Section */}
               <div className="mb-4">
-                <div className="text-[10px] font-black text-[var(--muted-text)] uppercase tracking-widest px-3 mb-3">
-                  🎬 {t("nav.mobile_tools")}
+                <div className="text-[11px] font-black text-[var(--muted-text)] uppercase tracking-widest px-3 mb-3">
+                  {t("nav.mobile_tools")}
                 </div>
+
                 <div className="space-y-1">
                   {TOOLS.map((tool) => {
                     const Icon = tool.icon;

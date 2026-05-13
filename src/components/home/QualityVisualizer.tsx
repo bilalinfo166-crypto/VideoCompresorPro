@@ -25,9 +25,10 @@ export function QualityVisualizer() {
               playsInline 
               className="w-full h-full object-cover opacity-100 transition-transform duration-1000 group-hover:scale-105"
             >
-              <source src="https://player.vimeo.com/external/494244245.hd.mp4?s=a0248c8230538053f3e970a00d024626156e507b&profile_id=175" type="video/mp4" />
               <source src="/homepage-hd.mp4" type="video/mp4" />
+              <track kind="captions" src="" label="English" />
             </video>
+
 
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
 
@@ -43,8 +44,9 @@ export function QualityVisualizer() {
                     key={mode.label} 
                     className={`flex-1 min-w-[120px] rounded-2xl p-4 sm:p-5 text-center transition-all duration-300 border ${
                       mode.active 
-                        ? 'bg-white/90 border-white shadow-[0_8px_32px_rgba(255,255,255,0.3)] scale-105 z-10' 
-                        : 'bg-white/5 border-white/10 text-white hover:bg-white/20 hover:border-white/30'
+                        ? 'bg-white/95 border-white shadow-[0_8px_32px_rgba(255,255,255,0.4)] scale-105 z-10' 
+                        : 'bg-black/40 backdrop-blur-md border-white/20 text-white hover:bg-black/60 hover:border-white/40'
+
                     }`}
                   >
                     <div className={`font-bold text-sm sm:text-base mb-1 ${mode.active ? 'text-slate-900' : 'text-white'}`}>

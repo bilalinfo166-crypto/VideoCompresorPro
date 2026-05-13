@@ -385,7 +385,10 @@ export function VideoCompressor() {
           ) : (
             <div className="flex-1 flex flex-col p-6 overflow-hidden">
               <div className="relative flex-1 bg-black rounded-2xl overflow-hidden shadow-2xl group flex items-center justify-center">
-                <video src={videoUrl!} className="max-w-full max-h-full" controls />
+                <video src={videoUrl!} className="max-w-full max-h-full" controls>
+                  <track kind="captions" src="" label="None" />
+                </video>
+
                 <button 
                   onClick={() => setFile(null)}
                   className="absolute top-4 right-4 p-2 bg-black/50 hover:bg-red-500 text-white rounded-full transition-all opacity-0 group-hover:opacity-100"

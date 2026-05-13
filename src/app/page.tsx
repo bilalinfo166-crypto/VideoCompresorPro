@@ -9,12 +9,13 @@ import {
   Scissors, Crop, Music, FileVideo, FileText,
   CheckCircle2, Star, ArrowRight, Play, UploadCloud, List
 } from "lucide-react";
-import { RelatedTools } from "@/components/layout/RelatedTools";
-import { SocialShare } from "@/components/layout/SocialShare";
-import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
-import { AuthorBlock } from "@/components/layout/AuthorBlock";
-import { StatsStrip } from "@/components/home/StatsStrip";
-import { Features } from "@/components/home/Features";
+const StatsStrip = dynamic(() => import("@/components/home/StatsStrip").then(m => m.StatsStrip));
+const Features = dynamic(() => import("@/components/home/Features").then(m => m.Features));
+const RelatedTools = dynamic(() => import("@/components/layout/RelatedTools").then(m => m.RelatedTools));
+const SocialShare = dynamic(() => import("@/components/layout/SocialShare").then(m => m.SocialShare));
+const AuthorBlock = dynamic(() => import("@/components/layout/AuthorBlock").then(m => m.AuthorBlock));
+const Breadcrumbs = dynamic(() => import("@/components/layout/Breadcrumbs").then(m => m.Breadcrumbs), { ssr: false });
+
 
 const VideoCompressor = dynamic(
   () => import("@/components/tools/VideoCompressor").then((m) => m.VideoCompressor),
@@ -112,9 +113,10 @@ export default function Home() {
       <section className="py-8 bg-[var(--background)]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto bg-slate-50 dark:bg-slate-900/40 rounded-3xl p-6 border border-[var(--card-border)]">
-            <h3 className="text-sm font-bold text-[var(--muted-text)] uppercase tracking-wider mb-4 flex items-center gap-2">
+            <h2 className="text-sm font-bold text-[var(--muted-text)] uppercase tracking-wider mb-4 flex items-center gap-2">
               <List className="w-4 h-4" aria-hidden="true" /> {t("common.quick_navigation")}
-            </h3>
+            </h2>
+
             <div className="flex flex-wrap gap-x-8 gap-y-3 text-sm font-semibold text-[var(--foreground)]">
               <a href="#how-it-works" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">How it Works</a>
               <a href="#all-tools" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Free Tools</a>

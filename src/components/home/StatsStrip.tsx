@@ -21,7 +21,8 @@ export function StatsStrip() {
               <div className="text-4xl sm:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 mb-1">
                  {s.value}
               </div>
-              <div className="text-slate-500 text-xs sm:text-sm font-bold uppercase tracking-wider">{t(s.label)}</div>
+              <div className="text-slate-600 text-xs sm:text-sm font-bold uppercase tracking-wider">{t(s.label)}</div>
+
             </div>
           ))}
         </div>

@@ -26,9 +26,10 @@ export function AuthorBlock() {
              </span>
           </div>
           
-          <h3 className="text-2xl sm:text-3xl font-black text-[var(--foreground)] mb-4 tracking-tight leading-tight">
+          <h2 className="text-2xl sm:text-3xl font-black text-[var(--foreground)] mb-4 tracking-tight leading-tight">
             Professional Grade Quality Guaranteed
-          </h3>
+          </h2>
+
           
           <p className="text-sm sm:text-base text-[var(--muted-text)] font-semibold leading-relaxed mb-6">
             This tool and documentation are maintained by the VideoCompressorPro multimedia engineering team. We use advanced FFmpeg algorithms to ensure your videos are compressed with the perfect balance of size and quality. All processing happens 100% in your browser for total privacy.
