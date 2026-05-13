@@ -23,6 +23,65 @@ interface LocalizedPageProps {
   };
 }
 
+export async function generateMetadata({ params }: LocalizedPageProps) {
+  const { locale, slug } = params;
+  const baseUrl = 'https://videocompressorpro.com';
+  const path = slug ? slug[0] : '';
+  
+  let translations;
+  try {
+    translations = require(`@/locales/${locale}.json`);
+  } catch {
+    translations = require(`@/locales/en.json`);
+  }
+
+  const t = (path: string) => {
+    const keys = path.split('.');
+    let res = translations;
+    for (const k of keys) res = res?.[k];
+    return res || path;
+  };
+
+  let title = t('tools.compressor_title');
+  let description = t('tools.compressor_desc');
+
+  if (path === 'video-cutter') {
+    title = t('tools.cutter_title');
+    description = t('tools.cutter_desc');
+  } else if (path === 'crop-video') {
+    title = t('tools.cropper_title');
+    description = t('tools.cropper_desc');
+  } else if (path === 'video-to-mp3') {
+    title = t('tools.to_mp3_title');
+    description = t('tools.to_mp3_desc');
+  } else if (path === 'audio-cutter') {
+    title = t('tools.audio_cutter_title');
+    description = t('tools.audio_cutter_desc');
+  } else if (path === 'video-to-text') {
+    title = t('tools.to_text_title');
+    description = t('tools.to_text_desc');
+  } else if (path.startsWith('compress-')) {
+    const format = path.replace('compress-', '').toUpperCase();
+    title = `Compress ${format} Video Online | Free ${format} Compressor`;
+    description = `Compress ${format} files online in seconds without quality loss. Use our free tool to reduce ${format} video size quickly and privately.`;
+  }
+
+  const fullUrl = `${baseUrl}/${locale}${path ? `/${path}` : ''}`;
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: fullUrl,
+    },
+    openGraph: {
+      title,
+      description,
+      url: fullUrl,
+    }
+  };
+}
+
 
 export default function LocalizedPage({ params }: LocalizedPageProps) {
   const { locale, slug } = params;
