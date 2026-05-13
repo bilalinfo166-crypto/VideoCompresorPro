@@ -5,18 +5,18 @@ import { Star } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 const REVIEWS = [
-  { id: 1, name: "Alex Rivera", avatar: "https://randomuser.me/api/portraits/men/32.jpg" },
-  { id: 2, name: "Samantha Lee", avatar: "https://randomuser.me/api/portraits/women/44.jpg" },
-  { id: 3, name: "David Chen", avatar: "https://randomuser.me/api/portraits/men/22.jpg" },
-  { id: 4, name: "Emily Watson", avatar: "https://randomuser.me/api/portraits/women/68.jpg" },
-  { id: 5, name: "Marcus Johnson", avatar: "https://randomuser.me/api/portraits/men/46.jpg" },
-  { id: 6, name: "Sarah Jenkins", avatar: "https://randomuser.me/api/portraits/women/12.jpg" },
-  { id: 7, name: "Tomislav Novak", avatar: "https://randomuser.me/api/portraits/men/91.jpg" },
-  { id: 8, name: "Jessica Alba", avatar: "https://randomuser.me/api/portraits/women/24.jpg" },
-  { id: 9, name: "Omar Khalid", avatar: "https://randomuser.me/api/portraits/men/88.jpg" },
-  { id: 10, name: "Isabella Rossi", avatar: "https://randomuser.me/api/portraits/women/33.jpg" },
-  { id: 11, name: "Liam Wilson", avatar: "https://randomuser.me/api/portraits/men/55.jpg" },
-  { id: 12, name: "Sophia Garcia", avatar: "https://randomuser.me/api/portraits/women/19.jpg" }
+  { id: 1, name: "Michael Carter", avatar: "https://randomuser.me/api/portraits/men/1.jpg" },
+  { id: 2, name: "Sarah Mitchell", avatar: "https://randomuser.me/api/portraits/women/2.jpg" },
+  { id: 3, name: "Daniel Lee", avatar: "https://randomuser.me/api/portraits/men/3.jpg" },
+  { id: 4, name: "Olivia Brown", avatar: "https://randomuser.me/api/portraits/women/4.jpg" },
+  { id: 5, name: "James Wilson", avatar: "https://randomuser.me/api/portraits/men/5.jpg" },
+  { id: 6, name: "Emily Davis", avatar: "https://randomuser.me/api/portraits/women/6.jpg" },
+  { id: 7, name: "Ryan Walker", avatar: "https://randomuser.me/api/portraits/men/7.jpg" },
+  { id: 8, name: "Sophia Taylor", avatar: "https://randomuser.me/api/portraits/women/8.jpg" },
+  { id: 9, name: "Ethan Moore", avatar: "https://randomuser.me/api/portraits/men/9.jpg" },
+  { id: 10, name: "Ava Johnson", avatar: "https://randomuser.me/api/portraits/women/10.jpg" },
+  { id: 11, name: "Noah Anderson", avatar: "https://randomuser.me/api/portraits/men/11.jpg" },
+  { id: 12, name: "Isabella Martin", avatar: "https://randomuser.me/api/portraits/women/12.jpg" }
 ];
 
 export function Reviews() {
