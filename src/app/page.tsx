@@ -116,19 +116,35 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─── Table of Contents ─── */}
+      {/* ─── Quick Navigation ─── */}
       <section className="py-8 bg-[var(--background)]">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto bg-slate-50 dark:bg-slate-900/40 rounded-3xl p-6 border border-[var(--card-border)]">
-            <h2 className="text-sm font-bold text-[var(--muted-text)] uppercase tracking-wider mb-4 flex items-center gap-2">
-              <List className="w-4 h-4" aria-hidden="true" /> {t("common.quick_navigation")}
+          <div className="max-w-4xl mx-auto bg-slate-50/50 dark:bg-slate-900/40 rounded-[2rem] p-6 sm:p-8 border border-[var(--card-border)] backdrop-blur-sm shadow-sm transition-all hover:shadow-md">
+            <h2 className="text-[10px] font-black text-[var(--muted-text)] uppercase tracking-[0.2em] mb-6 flex items-center gap-2 opacity-70">
+              <List className="w-3.5 h-3.5" aria-hidden="true" /> {t("common.quick_navigation")}
             </h2>
 
-            <div className="flex flex-wrap gap-x-8 gap-y-3 text-sm font-semibold text-[var(--foreground)]">
-              <a href="#how-it-works" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">How it Works</a>
-              <a href="#all-tools" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Free Tools</a>
-              <a href="#reviews" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">User Reviews</a>
-              <a href="#faq" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">FAQ</a>
+            <div className="flex flex-wrap gap-x-10 gap-y-5">
+              {[
+                { id: "how-it-works", label: "How it Works", icon: Zap, color: "text-yellow-500" },
+                { id: "features", label: "Features", icon: Sparkles, color: "text-blue-500" },
+                { id: "use-cases", label: "Use Cases", icon: Shield, color: "text-indigo-500" },
+                { id: "comparison", label: "Comparison", icon: Star, color: "text-emerald-500" },
+                { id: "all-tools", label: "Free Tools", icon: Scissors, color: "text-purple-500" },
+                { id: "reviews", label: "User Reviews", icon: CheckCircle2, color: "text-pink-500" },
+                { id: "faq", label: "FAQ", icon: List, color: "text-slate-500" },
+              ].map((item) => (
+                <a 
+                  key={item.id}
+                  href={`#${item.id}`} 
+                  className="group flex items-center gap-2.5 text-xs sm:text-sm font-bold text-[var(--foreground)] hover:text-blue-600 transition-all active:scale-95"
+                >
+                  <div className={`w-8 h-8 rounded-lg bg-white/10 border border-[var(--card-border)] flex items-center justify-center group-hover:scale-110 group-hover:bg-blue-500/10 group-hover:border-blue-500/20 transition-all shadow-sm ${item.color}`}>
+                    <item.icon className="w-4 h-4" aria-hidden="true" />
+                  </div>
+                  <span className="relative after:absolute after:bottom-[-2px] after:left-0 after:w-0 after:h-0.5 after:bg-blue-500 after:transition-all group-hover:after:w-full">{item.label}</span>
+                </a>
+              ))}
             </div>
           </div>
         </div>

@@ -79,7 +79,7 @@ export function UseCases() {
   };
 
   return (
-    <section className="py-24 bg-[var(--background)] overflow-hidden">
+    <section id="use-cases" className="py-24 bg-[var(--background)] overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-sm font-bold mb-6">

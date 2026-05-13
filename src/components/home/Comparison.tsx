@@ -7,7 +7,7 @@ export function Comparison() {
   const { t } = useLanguage();
 
   return (
-    <div className="container mx-auto px-4 py-24 border-t border-[var(--card-border)]">
+    <section id="comparison" className="container mx-auto px-4 py-24 border-t border-[var(--card-border)]">
       <div className="text-center mb-16">
         <h2 className="text-3xl md:text-4xl font-black text-[var(--foreground)] mb-4">{t("comparison.title")}</h2>
         <p className="text-[var(--muted-text)] font-medium max-w-2xl mx-auto">{t("comparison.subtitle")}</p>
@@ -56,6 +56,6 @@ export function Comparison() {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
