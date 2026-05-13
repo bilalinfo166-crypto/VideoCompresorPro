@@ -149,10 +149,6 @@ export function Footer() {
               <span className="w-1 h-1 rounded-full bg-[var(--card-border)]" />
               <span>{t("footer.copyright")}</span>
             </div>
-            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800/50 border border-[var(--card-border)]">
-              <span className="text-[10px] font-bold text-[var(--muted-text)] opacity-70 uppercase tracking-tighter">Powered by</span>
-              <a href="https://ffmpeg.org/" target="_blank" rel="nofollow external" className="text-[10px] font-black text-indigo-500 hover:text-indigo-400 transition-colors uppercase">FFmpeg</a>
-            </div>
           </div>
 
           <div className="flex items-center gap-3 px-4 py-1.5 rounded-full bg-emerald-500/5 border border-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-[11px] font-bold transition-all hover:bg-emerald-500/10">
