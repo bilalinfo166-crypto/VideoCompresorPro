@@ -1,5 +1,12 @@
 "use client";
 
+declare global {
+  interface Window {
+    gapi: any;
+    google: any;
+  }
+}
+
 import { useState, useRef, useEffect } from "react";
 import { 
   UploadCloud, FileVideo, Settings, Download, Loader2, Play, 
@@ -31,6 +38,8 @@ export function VideoCompressor() {
   const [showCloudModal, setShowCloudModal] = useState<{show: boolean, type: string}>({show: false, type: ""});
   const [urlInput, setUrlInput] = useState("");
   const [urlError, setUrlError] = useState("");
+  const [accessToken, setAccessToken] = useState<string | null>(null);
+  const [isDriveLoading, setIsDriveLoading] = useState(false);
 
   // Disable body scroll when any modal is open
   useEffect(() => {
@@ -148,10 +157,82 @@ export function VideoCompressor() {
     });
   };
 
+  // Google Drive API Config
+  const CLIENT_ID = process.env.NEXT_PUBLIC_GOOGLE_DRIVE_CLIENT_ID;
+  const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_DRIVE_API_KEY;
+  const SCOPES = 'https://www.googleapis.com/auth/drive.readonly';
+
   const handleGoogleDrive = () => {
-    alert("Google Drive requires an API Key and Client ID to be configured in your project settings. Once set, this will open the official Google Picker.");
-    // In a real production setup, you would call:
-    // gapi.load('picker', { 'callback': onPickerApiLoad });
+    if (accessToken) {
+      createPicker();
+      return;
+    }
+
+    setIsDriveLoading(true);
+    const tokenClient = window.google.accounts.oauth2.initTokenClient({
+      client_id: CLIENT_ID,
+      scope: SCOPES,
+      callback: async (response: any) => {
+        if (response.error !== undefined) {
+          setIsDriveLoading(false);
+          return;
+        }
+        setAccessToken(response.access_token);
+        createPicker(response.access_token);
+      },
+    });
+
+    if (accessToken === null) {
+      tokenClient.requestAccessToken({ prompt: 'consent' });
+    } else {
+      tokenClient.requestAccessToken({ prompt: '' });
+    }
+  };
+
+  const createPicker = (token?: string) => {
+    const auth_token = token || accessToken;
+    window.gapi.load('picker', {
+      callback: () => {
+        const picker = new window.google.picker.PickerBuilder()
+          .addView(new window.google.picker.View(window.google.picker.ViewId.DOCS_VIDEOS))
+          .setOAuthToken(auth_token)
+          .setDeveloperKey(API_KEY)
+          .setCallback(pickerCallback)
+          .build();
+        picker.setVisible(true);
+      }
+    });
+  };
+
+  const pickerCallback = async (data: any) => {
+    if (data[window.google.picker.Response.ACTION] === window.google.picker.Action.PICKED) {
+      const doc = data[window.google.picker.Response.DOCUMENTS][0];
+      const fileId = doc[window.google.picker.Document.ID];
+      const fileName = doc[window.google.picker.Document.NAME];
+      
+      setIsDriveLoading(true);
+      try {
+        const response = await fetch(`https://www.googleapis.com/drive/v3/files/${fileId}?alt=media`, {
+          headers: { Authorization: `Bearer ${accessToken || data.access_token}` },
+        });
+        
+        if (!response.ok) throw new Error("Failed to download file from Drive");
+        
+        const blob = await response.blob();
+        const driveFile = new File([blob], fileName, { type: blob.type });
+        
+        setFile(driveFile);
+        setResultBlob(null);
+        setDropdownOpen(false);
+      } catch (error) {
+        console.error("Error fetching from Drive:", error);
+        alert("Error: Could not import file from Google Drive.");
+      } finally {
+        setIsDriveLoading(false);
+      }
+    } else if (data[window.google.picker.Response.ACTION] === window.google.picker.Action.CANCEL) {
+      setIsDriveLoading(false);
+    }
   };
 
   const handleFetchUrl = async () => {
@@ -207,6 +288,7 @@ export function VideoCompressor() {
       {/* Cloud SDKs */}
       <Script src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="YOUR_DROPBOX_APP_KEY" />
       <Script src="https://apis.google.com/js/api.js" />
+      <Script src="https://accounts.google.com/gsi/client" />
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 items-stretch">
         
@@ -257,13 +339,19 @@ export function VideoCompressor() {
                           },
                           { 
                             logo: (
-                              <svg viewBox="0 0 24 24" className="w-4 h-4">
-                                <path fill="#4285F4" d="M15.427 12.002l4.83-8.318H8.832l-4.83 8.318z"/>
-                                <path fill="#0F9D58" d="M8.832 15.345l4.83 8.318h9.66l-4.83-8.318z"/>
-                                <path fill="#FFC107" d="M4.002 12.002l-3.34 5.759 4.83 8.318 3.34-5.759z"/>
-                              </svg>
+                              <div className="w-4 h-4 flex items-center justify-center">
+                                {isDriveLoading ? (
+                                  <Loader2 className="w-3 h-3 text-blue-500 animate-spin" />
+                                ) : (
+                                  <svg viewBox="0 0 24 24" className="w-4 h-4">
+                                    <path fill="#4285F4" d="M15.427 12.002l4.83-8.318H8.832l-4.83 8.318z"/>
+                                    <path fill="#0F9D58" d="M8.832 15.345l4.83 8.318h9.66l-4.83-8.318z"/>
+                                    <path fill="#FFC107" d="M4.002 12.002l-3.34 5.759 4.83 8.318 3.34-5.759z"/>
+                                  </svg>
+                                )}
+                              </div>
                             ), 
-                            label: "Google Drive",
+                            label: isDriveLoading ? "Loading..." : "Google Drive",
                             action: () => handleGoogleDrive()
                           },
                           { 
