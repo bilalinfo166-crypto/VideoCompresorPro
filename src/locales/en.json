@@ -165,8 +165,8 @@
   },
   "discord": {
     "badge": "Bypass Upload Limits",
-    "title": "VideoCompressorPro for Discord",
-    "desc": "Discord has strict upload limits for non-Nitro users. Use our high-performance VideoCompressorPro to compress video for Discord (under 25MB) and make sharing in chats, communities, and team spaces easier than ever."
+    "title": "Free Video Compressor for Discord Uploads",
+    "desc": "The Discord video compressor is designed to compress large video files to meet Discord's video upload limit of 25MB while preserving the best possible quality. Quickly compress video for easy sharing, quick uploads and great video playback on desktop and mobile devices."
   },
   "visualizer": {
     "title": "The Best Way to use VideoCompressorPro",
@@ -678,7 +678,7 @@
   },
   "discord": {
     "badge": "Discord Optimization",
-    "title": "Compress for Discord 25MB Limit",
-    "desc": "Easily compress your videos to fit perfectly within Discord's file size limits without sacrificing watchability."
+    "title": "Free Video Compressor for Discord Uploads",
+    "desc": "The Discord video compressor is designed to compress large video files to meet Discord's video upload limit of 25MB while preserving the best possible quality. Quickly compress video for easy sharing, quick uploads and great video playback on desktop and mobile devices."
   }
 }
