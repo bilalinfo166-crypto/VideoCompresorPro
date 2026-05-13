@@ -83,8 +83,8 @@ export function Footer() {
     <footer className="border-t border-[var(--card-border)] bg-[var(--header-bg)] pt-10 md:pt-16 pb-6 transition-colors duration-300 safe-bottom">
       <div className="container mx-auto px-4">
 
-        {/* Brand Row — always full width on mobile */}
-        <div className="flex items-start gap-4 mb-8 pb-6 border-b border-[var(--card-border)] md:border-none md:mb-0">
+        {/* Brand Row — mobile only */}
+        <div className="flex items-start gap-4 mb-8 pb-6 border-b border-[var(--card-border)] md:hidden">
           <Link href={getLocalizedHref('/')} className="flex items-center gap-2 touch-feedback">
             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shrink-0">
               <Video className="w-5 h-5 text-white" />
