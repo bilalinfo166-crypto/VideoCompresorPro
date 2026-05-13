@@ -219,7 +219,7 @@ export function VideoCutter() {
         </div>
 
         {/* BOX B: Settings */}
-        <div className={`bg-white dark:bg-slate-800 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[320px] md:h-[600px] p-5 sm:p-8 flex flex-col transition-all duration-500 ${!file ? 'opacity-50 grayscale pointer-events-none' : 'opacity-100 grayscale-0'}`}>
+        <div className="bg-white dark:bg-slate-800 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[320px] md:h-[600px] p-5 sm:p-8 flex flex-col transition-all duration-500">
           <div className="flex items-center gap-2 mb-8 border-b border-[var(--card-border)] pb-4">
             <div className="w-8 h-8 bg-blue-500/10 rounded-lg flex items-center justify-center">
               <Settings2 className="w-4 h-4 text-blue-500" />

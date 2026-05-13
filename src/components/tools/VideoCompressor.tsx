@@ -323,7 +323,7 @@ export function VideoCompressor() {
         </div>
 
         {/* BOX B: Settings */}
-        <div className={`bg-white dark:bg-slate-800 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[320px] md:h-[600px] p-5 sm:p-8 flex flex-col transition-all duration-500 ${!file ? 'opacity-50 grayscale pointer-events-none' : 'opacity-100 grayscale-0'}`}>
+        <div className="bg-white dark:bg-slate-800 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[320px] md:h-[600px] p-5 sm:p-8 flex flex-col transition-all duration-500">
           
           {/* Tabs */}
           <div className="bg-slate-100 dark:bg-slate-800 p-1 rounded-2xl flex mb-8">
