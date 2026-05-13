@@ -22,23 +22,28 @@ import { WhyChoose } from "@/components/home/WhyChoose";
 import { SupportedFormats } from "@/components/home/SupportedFormats";
 import { CtaBanner } from "@/components/home/CtaBanner";
 
-const VideoCompressor = dynamic(
-  () => import("@/components/tools/VideoCompressor").then((m) => m.VideoCompressor),
-  {
-    ssr: false,
-    loading: () => (
-      <div className="glass-card rounded-3xl p-16 text-center border border-white/10">
-        <div className="w-16 h-16 bg-indigo-500/20 rounded-full mx-auto mb-4 animate-pulse" />
-        <div className="h-4 bg-white/10 rounded w-48 mx-auto mb-3 animate-pulse" />
-        <div className="h-3 bg-white/5 rounded w-64 mx-auto animate-pulse" />
-      </div>
-    ),
-  }
-);
+// Grouped dynamic imports for better chunking
+const ToolSection = dynamic(() => import("@/components/tools/VideoCompressor").then(m => m.VideoCompressor), { 
+  ssr: false,
+  loading: () => <div className="h-[400px] animate-pulse bg-slate-100 dark:bg-slate-800 rounded-[2.5rem]" />
+});
 
-const QualityVisualizer = dynamic(() => import("@/components/home/QualityVisualizer").then(m => m.QualityVisualizer));
-const Reviews = dynamic(() => import("@/components/home/Reviews").then(m => m.Reviews));
-const FaqSection = dynamic(() => import("@/components/home/FaqSection").then(m => m.FaqSection));
+const ExtraContent = dynamic(() => Promise.all([
+  import("@/components/home/QualityVisualizer"),
+  import("@/components/home/Reviews"),
+  import("@/components/home/FaqSection")
+]).then(([q, r, f]) => {
+  return function ExtraContent() {
+    return (
+      <>
+        <q.QualityVisualizer />
+        <r.Reviews />
+        <f.FaqSection />
+      </>
+    );
+  };
+}), { ssr: false });
+
 
 
 
@@ -103,8 +108,9 @@ export default function Home() {
 
             {/* Tool Container with Shadow */}
             <div className="relative z-20 shadow-[0_32px_64px_-12px_rgba(0,0,0,0.15)] rounded-[2.5rem]">
-              <VideoCompressor />
+              <ToolSection />
             </div>
+
           </div>
         </div>
       </section>
@@ -220,19 +226,19 @@ export default function Home() {
       <StatsStrip />
       <Features />
       <Comparison />
-      <QualityVisualizer />
       <HowItWorks />
+      
+      <ExtraContent />
+
       <AllTools />
-      <Reviews />
       <WhyChoose />
+
       <SupportedFormats />
-      <FaqSection />
-
-      <SocialShare title="Video Compressor Pro - Compress Video Online Free" />
-
-      <AuthorBlock />
-      <RelatedTools exclude="compressor" />
       <CtaBanner />
+      <RelatedTools exclude="compressor" />
+
+      <SocialShare />
+      <AuthorBlock />
     </div>
   );
 }
