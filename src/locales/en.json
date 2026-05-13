@@ -178,17 +178,17 @@
   },
   "how_it_works": {
     "title": "How Our Video Compressor Works",
-    "desc": "Reduce video size in three simple steps with our high-speed online workflow.",
+    "desc": "Use our simple, secure, and easy-to-use video compression pipeline to compress video files online with the touch of a button.",
     "step": "Step"
   },
   "steps": {
-    "title": "How to Compress Video Online",
+    "title": "How to compress video online",
     "01_title": "Choose Your Video File",
-    "01_desc": "Select the video you want to shrink from your device. Our Video Compressor supports all major formats like MP4, MOV, and AVI for fast processing.",
+    "01_desc": "Place the video file you wish to convert into a smaller file size on your device. The online video compressor is compatible with most video formats, such as MP4, MOV, AVI, MKV and others, for easy and quick video conversion.",
     "02_title": "Optimize Compression Settings",
-    "02_desc": "Select a mode to reduce video size: Basic for speed, Strong for balance, or Extreme to compress video files by up to 90% without quality loss.",
-    "03_title": "Download Compressed File",
-    "03_desc": "Once our online video compressor finishes its work, download your smaller file instantly. No waiting, no uploads, and 100% privacy guaranteed."
+    "02_desc": "Select the compression rate that best suits your needs. Compress video for email, website, Discord, social media or cloud storage without compromising video quality.",
+    "03_title": "Download Your Compressed Video",
+    "03_desc": "Instantly preview and download your optimized file. Our free video converter is used to compress video without losing quality or complicated software and without any hassle while online."
   },
   "reviews": {
     "title": "Loved by over 50M+ users",
