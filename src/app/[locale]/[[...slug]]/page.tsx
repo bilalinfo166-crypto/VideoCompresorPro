@@ -124,10 +124,9 @@ export default function LocalizedPage({ params }: LocalizedPageProps) {
       return <VideoToTextPage />;
   }
 
-  // Handle dynamic format pages (e.g., /es/compress-mp4)
+  // Handle dynamic format pages (redirect to home tool)
   if (path.startsWith("compress-")) {
-    const format = path.replace("compress-", "");
-    return <CompressFormatPage params={{ format }} />;
+    return <HomePage />;
   }
 
   // Not found

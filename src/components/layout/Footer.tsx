@@ -66,11 +66,11 @@ export function Footer() {
   ];
 
   const FORMAT_LINKS = [
-    { label: t("footer.links.compress_mp4"), href: "/compress-mp4" },
-    { label: t("footer.links.compress_avi"), href: "/compress-avi" },
-    { label: t("footer.links.compress_mov"), href: "/compress-mov" },
-    { label: t("footer.links.compress_mkv"), href: "/compress-mkv" },
-    { label: t("footer.links.compress_webm"), href: "/compress-webm" },
+    { label: t("footer.links.compress_mp4"), href: "/" },
+    { label: t("footer.links.compress_avi"), href: "/" },
+    { label: t("footer.links.compress_mov"), href: "/" },
+    { label: t("footer.links.compress_mkv"), href: "/" },
+    { label: t("footer.links.compress_webm"), href: "/" },
   ];
 
   const LEGAL_LINKS = [
