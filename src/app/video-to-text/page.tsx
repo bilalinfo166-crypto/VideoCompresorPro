@@ -81,7 +81,7 @@ export default function VideoToTextPage() {
       <Breadcrumbs items={[{ label: "AI Tools", href: "/" }, { label: "Video to Text", href: "/video-to-text" }]} />
 
       {/* ─── Hero Section ─── */}
-      <section className="relative pt-24 pb-16 overflow-hidden bg-[var(--background)]">
+      <section className="relative pt-6 pb-16 overflow-hidden bg-[var(--background)]">
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-5" />
         <div className="absolute top-20 left-1/4 w-96 h-96 bg-indigo-600/20 rounded-full blur-3xl animate-pulse" />
         <div className="absolute top-40 right-1/4 w-96 h-96 bg-violet-600/15 rounded-full blur-3xl" />

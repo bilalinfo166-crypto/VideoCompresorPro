@@ -176,7 +176,7 @@ export default function Home() {
       <Breadcrumbs items={[{ label: "Video Compressor", href: "/" }]} />
 
       {/* ─── Hero Section ─── */}
-      <section className="relative pt-12 sm:pt-16 pb-12 sm:pb-20 overflow-hidden bg-[var(--background)]">
+      <section className="relative pt-4 sm:pt-6 pb-12 sm:pb-20 overflow-hidden bg-[var(--background)]">
         {/* Subtle background patterns */}
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-[0.03] pointer-events-none" />
         {/* Premium soft glows */}
