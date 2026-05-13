@@ -81,11 +81,11 @@ export function Footer() {
   ];
 
   return (
-    <footer className="border-t border-[var(--card-border)] bg-[var(--header-bg)] pt-10 md:pt-16 pb-6 transition-colors duration-300 safe-bottom">
+    <footer className="border-t border-[var(--card-border)] bg-[var(--header-bg)] pt-8 md:pt-12 pb-4 transition-colors duration-300 safe-bottom">
       <div className="container mx-auto px-4">
 
         {/* Brand Row — mobile only */}
-        <div className="flex flex-col gap-6 mb-8 pb-6 border-b border-[var(--card-border)] md:hidden">
+        <div className="flex flex-col gap-5 mb-6 pb-6 border-b border-[var(--card-border)] md:hidden">
           <Link href={getLocalizedHref('/')} className="flex items-center gap-2 touch-feedback" aria-label="VideoCompressorPro Home">
             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shrink-0">
               <Video className="w-5 h-5 text-white" aria-hidden="true" />
@@ -93,44 +93,44 @@ export function Footer() {
             <span className="text-sm font-bold text-[var(--foreground)]">VideoCompressorPro</span>
           </Link>
           <div className="flex items-center gap-4">
-            <a href="https://www.facebook.com/profile.php?id=61589328824380" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-[var(--muted-text)] hover:text-blue-600 transition-colors" aria-label="Follow us on Facebook">
-              <Facebook className="w-5 h-5" />
+            <a href="https://www.facebook.com/profile.php?id=61589328824380" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-[var(--muted-text)] hover:text-blue-600 transition-colors" aria-label="Follow us on Facebook">
+              <Facebook className="w-4 h-4" />
             </a>
-            <a href="https://www.youtube.com/channel/UCyQ2x6JkCCqmwVKby0VipwQ" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-[var(--muted-text)] hover:text-red-600 transition-colors" aria-label="Subscribe on YouTube">
-              <Youtube className="w-5 h-5" />
+            <a href="https://www.youtube.com/channel/UCyQ2x6JkCCqmwVKby0VipwQ" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-[var(--muted-text)] hover:text-red-600 transition-colors" aria-label="Subscribe on YouTube">
+              <Youtube className="w-4 h-4" />
             </a>
-            <a href="https://www.instagram.com/videocompressorpro?igsh=MXF3aWVzaWZ3c3VkbA==" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-[var(--muted-text)] hover:text-pink-600 transition-colors" aria-label="Follow us on Instagram">
-              <Instagram className="w-5 h-5" />
+            <a href="https://www.instagram.com/videocompressorpro?igsh=MXF3aWVzaWZ3c3VkbA==" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-[var(--muted-text)] hover:text-pink-600 transition-colors" aria-label="Follow us on Instagram">
+              <Instagram className="w-4 h-4" />
             </a>
           </div>
         </div>
 
         {/* Links Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-0 md:gap-10 mb-0 md:mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-0 md:gap-10 mb-0 md:mb-10">
           {/* Brand Description — desktop only */}
           <div className="hidden md:block md:col-span-2">
-            <Link href={getLocalizedHref('/')} className="flex items-center gap-2 mb-5" aria-label="VideoCompressorPro Home">
+            <Link href={getLocalizedHref('/')} className="flex items-center gap-2 mb-4" aria-label="VideoCompressorPro Home">
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                 <Video className="w-5 h-5 text-white" aria-hidden="true" />
               </div>
               <span className="text-base font-bold text-[var(--foreground)]">VideoCompressorPro</span>
             </Link>
-            <p className="text-[var(--muted-text)] text-sm leading-relaxed max-w-xs mb-6">
+            <p className="text-[var(--muted-text)] text-sm leading-relaxed max-w-xs mb-5">
               {t("footer.desc")}
             </p>
-            <div className="flex items-center gap-6 mb-6">
-              <a href="https://www.facebook.com/profile.php?id=61589328824380" target="_blank" rel="noopener noreferrer" className="text-[var(--muted-text)] hover:text-blue-600 transition-colors" aria-label="Follow us on Facebook">
+            <div className="flex items-center gap-5 mb-5">
+              <a href="https://www.facebook.com/profile.php?id=61589328824380" target="_blank" rel="noopener noreferrer" className="text-[var(--muted-text)] hover:text-blue-600 transition-all hover:scale-110" aria-label="Follow us on Facebook">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="https://www.youtube.com/channel/UCyQ2x6JkCCqmwVKby0VipwQ" target="_blank" rel="noopener noreferrer" className="text-[var(--muted-text)] hover:text-red-600 transition-colors" aria-label="Subscribe on YouTube">
+              <a href="https://www.youtube.com/channel/UCyQ2x6JkCCqmwVKby0VipwQ" target="_blank" rel="noopener noreferrer" className="text-[var(--muted-text)] hover:text-red-600 transition-all hover:scale-110" aria-label="Subscribe on YouTube">
                 <Youtube className="w-5 h-5" />
               </a>
-              <a href="https://www.instagram.com/videocompressorpro?igsh=MXF3aWVzaWZ3c3VkbA==" target="_blank" rel="noopener noreferrer" className="text-[var(--muted-text)] hover:text-pink-600 transition-colors" aria-label="Follow us on Instagram">
+              <a href="https://www.instagram.com/videocompressorpro?igsh=MXF3aWVzaWZ3c3VkbA==" target="_blank" rel="noopener noreferrer" className="text-[var(--muted-text)] hover:text-pink-600 transition-all hover:scale-110" aria-label="Follow us on Instagram">
                 <Instagram className="w-5 h-5" />
               </a>
             </div>
-            <div className="flex items-center gap-2 text-xs text-[var(--muted-text)]">
-              <Globe className="w-4 h-4" aria-hidden="true" />
+            <div className="flex items-center gap-2 text-[11px] font-bold text-[var(--muted-text)] opacity-60 uppercase tracking-widest">
+              <Globe className="w-3.5 h-3.5" aria-hidden="true" />
               {t("footer.languages")}
             </div>
           </div>
@@ -142,18 +142,24 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-[var(--card-border)] pt-6 mt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <div className="flex flex-col items-center sm:items-start gap-1 text-center sm:text-left">
-            <p className="text-[var(--muted-text)] text-xs sm:text-sm">
-              &copy; {new Date().getFullYear()} VideoCompressorPro — {t("footer.copyright")}
-            </p>
-            <p className="text-[var(--muted-text)] text-[11px] font-medium">
-              Powered by <a href="https://ffmpeg.org/" target="_blank" rel="nofollow external" className="hover:text-indigo-400 transition-colors">FFmpeg</a>
-            </p>
-
+        <div className="border-t border-[var(--card-border)] pt-5 mt-5 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex flex-col items-center md:items-start gap-2">
+            <div className="flex items-center gap-2 text-[var(--muted-text)] text-[11px] sm:text-xs font-medium">
+              <span>&copy; {new Date().getFullYear()} VideoCompressorPro</span>
+              <span className="w-1 h-1 rounded-full bg-[var(--card-border)]" />
+              <span>{t("footer.copyright")}</span>
+            </div>
+            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800/50 border border-[var(--card-border)]">
+              <span className="text-[10px] font-bold text-[var(--muted-text)] opacity-70 uppercase tracking-tighter">Powered by</span>
+              <a href="https://ffmpeg.org/" target="_blank" rel="nofollow external" className="text-[10px] font-black text-indigo-500 hover:text-indigo-400 transition-colors uppercase">FFmpeg</a>
+            </div>
           </div>
-          <div className="flex items-center gap-2 text-[var(--muted-text)] text-xs sm:text-sm">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+
+          <div className="flex items-center gap-3 px-4 py-1.5 rounded-full bg-emerald-500/5 border border-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-[11px] font-bold transition-all hover:bg-emerald-500/10">
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
+            </span>
             {t("footer.status")}
           </div>
         </div>
