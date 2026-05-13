@@ -73,9 +73,13 @@ export function Header() {
         <div className="container mx-auto px-4">
           <div className="h-16 flex items-center justify-between gap-4">
             {/* Logo */}
-            <Link href={getLocalizedHref('/')} className="flex items-center gap-2 group shrink-0 touch-feedback">
+            <Link 
+              href={getLocalizedHref('/')} 
+              className="flex items-center gap-2 group shrink-0 touch-feedback"
+              aria-label="VideoCompressorPro Home"
+            >
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center group-hover:bg-blue-500 transition-colors">
-                <Video className="w-5 h-5 text-white" />
+                <Video className="w-5 h-5 text-white" aria-hidden="true" />
               </div>
               <span className="text-sm sm:text-base font-bold text-[var(--foreground)] truncate max-w-[120px] sm:max-w-none">
                 VideoCompressorPro
@@ -83,7 +87,7 @@ export function Header() {
             </Link>
 
             {/* Desktop Nav */}
-            <nav className="hidden lg:flex items-center gap-1">
+            <nav className="hidden lg:flex items-center gap-1" aria-label="Main Navigation">
               {TOOLS.map((tool) => (
                 <Link
                   key={tool.href}
@@ -104,9 +108,9 @@ export function Header() {
               <button
                 onClick={toggleTheme}
                 className="p-2.5 text-[var(--muted-text)] hover:text-blue-600 border border-[var(--card-border)] rounded-xl hover:bg-white/5 transition-all shadow-sm touch-feedback"
-                aria-label="Toggle theme"
+                aria-label={theme === "light" ? "Switch to dark theme" : "Switch to light theme"}
               >
-                {theme === "light" ? <Moon className="w-4 h-4" /> : <Sun className="w-4 h-4" />}
+                {theme === "light" ? <Moon className="w-4 h-4" aria-hidden="true" /> : <Sun className="w-4 h-4" aria-hidden="true" />}
               </button>
 
               {/* Language selector — Desktop only */}
@@ -115,10 +119,12 @@ export function Header() {
                   className="flex items-center gap-1.5 px-3 py-2 text-sm text-[var(--muted-text)] hover:text-blue-600 border border-[var(--card-border)] rounded-xl hover:bg-white/5 transition-all shadow-sm"
                   onMouseEnter={() => setLangOpen(true)}
                   onClick={() => setLangOpen(!langOpen)}
+                  aria-label="Select Language"
+                  aria-expanded={langOpen}
                 >
-                  <Globe className="w-4 h-4 opacity-70" />
+                  <Globe className="w-4 h-4 opacity-100" aria-hidden="true" />
                   <span className="uppercase text-xs font-bold">{language}</span>
-                  <ChevronDown className="w-3 h-3 opacity-70" />
+                  <ChevronDown className="w-3 h-3 opacity-100" aria-hidden="true" />
                 </button>
                 {langOpen && (
                   <div className="absolute top-full right-0 mt-2 w-[200px] bg-[var(--background)] rounded-2xl border border-[var(--card-border)] shadow-2xl overflow-hidden flex flex-col p-2 max-h-[70vh] overflow-y-auto custom-scrollbar">

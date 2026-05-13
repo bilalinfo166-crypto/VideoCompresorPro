@@ -89,7 +89,21 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "5zDZlNYc1BJIfkypQ4vmi0FPgB83fBYeFgqpYw9brV8",
-  }
+  },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "VideoCompressorPro",
+  },
+  formatDetection: {
+    telephone: false,
+  },
+};
+
+export const viewport = {
+  themeColor: "#6366f1",
+  width: "device-width",
+  initialScale: 1,
 };
 
 import { headers } from "next/headers";
@@ -107,8 +121,6 @@ export default function RootLayout({
     <html lang={locale} suppressHydrationWarning>
       <head>
         <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         
         {/* Google Analytics */}
         <Script

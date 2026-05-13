@@ -85,9 +85,9 @@ export function Footer() {
 
         {/* Brand Row — mobile only */}
         <div className="flex items-start gap-4 mb-8 pb-6 border-b border-[var(--card-border)] md:hidden">
-          <Link href={getLocalizedHref('/')} className="flex items-center gap-2 touch-feedback">
+          <Link href={getLocalizedHref('/')} className="flex items-center gap-2 touch-feedback" aria-label="VideoCompressorPro Home">
             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shrink-0">
-              <Video className="w-5 h-5 text-white" />
+              <Video className="w-5 h-5 text-white" aria-hidden="true" />
             </div>
             <span className="text-sm font-bold text-[var(--foreground)]">VideoCompressorPro</span>
           </Link>
@@ -97,17 +97,17 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-0 md:gap-10 mb-0 md:mb-12">
           {/* Brand Description — desktop only */}
           <div className="hidden md:block md:col-span-2">
-            <Link href={getLocalizedHref('/')} className="flex items-center gap-2 mb-5">
+            <Link href={getLocalizedHref('/')} className="flex items-center gap-2 mb-5" aria-label="VideoCompressorPro Home">
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <Video className="w-5 h-5 text-white" />
+                <Video className="w-5 h-5 text-white" aria-hidden="true" />
               </div>
               <span className="text-base font-bold text-[var(--foreground)]">VideoCompressorPro</span>
             </Link>
             <p className="text-[var(--muted-text)] text-sm leading-relaxed max-w-xs mb-6">
               {t("footer.desc")}
             </p>
-            <div className="flex items-center gap-2 text-xs text-[var(--muted-text)] opacity-70">
-              <Globe className="w-4 h-4" />
+            <div className="flex items-center gap-2 text-xs text-[var(--muted-text)]">
+              <Globe className="w-4 h-4" aria-hidden="true" />
               {t("footer.languages")}
             </div>
           </div>

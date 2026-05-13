@@ -11,7 +11,11 @@
     "done": "Done!",
     "failed": "Compression failed. Please try again or use a different file.",
     "invalid_file": "Please upload a valid video file.",
-    "go_home": "Go to VideoCompressorPro"
+    "go_home": "Go to VideoCompressorPro",
+    "quick_navigation": "Quick Navigation",
+    "share_tool": "Share this tool",
+    "copied": "Copied!",
+    "copy_link": "Copy Link"
   },
   "nav": {
     "compressor": "Video Compressor",
@@ -132,7 +136,9 @@
     "to_text_desc": "Transcribe your video audio to text automatically.",
     "open_tool": "Open tool",
     "all_free_title": "All Free Video Tools",
-    "all_free_desc": "Everything you need for video processing — all in one place, all free, all private."
+    "all_free_desc": "Everything you need for video processing — all in one place, all free, all private.",
+    "related_title": "Related Free Tools",
+    "related_desc": "Looking for more ways to edit your media? Try our other privacy-first tools."
   },
   "trusted": {
     "title": "Trusted by teams, creators, and businesses worldwide",
@@ -651,5 +657,28 @@
     "terms_privacy": "By continuing, you agree to our Terms of Service and Privacy Policy.",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
     "back_home": "Back to Home"
+  },
+  "comparison": {
+    "title": "Why Choose VideoCompressorPro?",
+    "subtitle": "Experience the next generation of video processing right in your browser.",
+    "local_title": "Local Browser Processing",
+    "speed": "Instant startup, no upload wait",
+    "privacy": "Files never leave your computer",
+    "cost": "Unlimited files, 100% free",
+    "internet": "Works even offline after load",
+    "cloud_title": "Traditional Cloud Tools",
+    "speed_cloud": "Slow uploads and queue waits",
+    "privacy_cloud": "Privacy risks on remote servers",
+    "cost_cloud": "Subscriptions and file limits",
+    "internet_cloud": "Requires constant high-speed data"
+  },
+  "visualizer": {
+    "title": "Professional Grade Compression",
+    "desc": "Our advanced engine maintains stunning visual clarity while shrinking your file size."
+  },
+  "discord": {
+    "badge": "Discord Optimization",
+    "title": "Compress for Discord 25MB Limit",
+    "desc": "Easily compress your videos to fit perfectly within Discord's file size limits without sacrificing watchability."
   }
 }

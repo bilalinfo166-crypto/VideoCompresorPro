@@ -34,14 +34,14 @@ export function Breadcrumbs({ items }: BreadcrumbProps) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <ol className="flex items-center flex-wrap gap-2 text-xs sm:text-sm font-semibold text-[var(--muted-text)]">
         <li className="flex items-center">
-          <Link href="/" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 py-1 px-2 rounded-lg hover:bg-blue-500/5">
-            <Home className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+          <Link href="/" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 py-1 px-2 rounded-lg hover:bg-blue-500/5" aria-label="Home">
+            <Home className="w-3.5 h-3.5 sm:w-4 sm:h-4" aria-hidden="true" />
             <span className="hidden sm:inline">Home</span>
           </Link>
         </li>
         {items.map((item, index) => (
           <li key={index} className="flex items-center gap-2">
-            <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-slate-400 opacity-50" />
+            <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-slate-400" aria-hidden="true" />
             <Link 
               href={item.href} 
               className={`hover:text-blue-500 transition-colors py-1 px-2 rounded-lg hover:bg-blue-500/5 ${index === items.length - 1 ? 'text-blue-600 dark:text-blue-400 font-bold' : ''}`}

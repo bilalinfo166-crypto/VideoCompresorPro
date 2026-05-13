@@ -70,7 +70,7 @@ export function SocialShare({ title }: SocialShareProps) {
             className={`flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl border border-[var(--card-border)] bg-[var(--card-bg)] text-[var(--muted-text)] font-semibold transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-0.5 flex-1 sm:flex-none min-w-[140px] ${link.color}`}
             aria-label={`Share on ${link.name}`}
           >
-            <link.icon className="w-5 h-5" />
+            <link.icon className="w-5 h-5" aria-hidden="true" />
             <span className="inline">{link.name}</span>
           </a>
         ))}
@@ -82,7 +82,7 @@ export function SocialShare({ title }: SocialShareProps) {
               : "border-[var(--card-border)] bg-[var(--card-bg)] text-[var(--foreground)] hover:bg-[var(--foreground)] hover:text-[var(--background)] hover:border-[var(--foreground)]"
           }`}
         >
-          <Link2 className="w-5 h-5" />
+          <Link2 className="w-5 h-5" aria-hidden="true" />
           <span className="inline">{copied ? copiedText : copyLinkText}</span>
         </button>
       </div>

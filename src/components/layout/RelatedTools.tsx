@@ -65,9 +65,9 @@ export function RelatedTools({ exclude }: { exclude: ToolId }) {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="mb-10 text-center">
-            <h2 className="text-3xl font-bold mb-4 text-[var(--foreground)]">Related Free Tools</h2>
+            <h2 className="text-3xl font-bold mb-4 text-[var(--foreground)]">{t("tools.related_title")}</h2>
             <p className="text-[var(--muted-text)] font-medium max-w-2xl mx-auto">
-              Looking for more ways to edit your media? Try our other privacy-first tools.
+              {t("tools.related_desc")}
             </p>
           </div>
           
@@ -80,7 +80,7 @@ export function RelatedTools({ exclude }: { exclude: ToolId }) {
                 title={t(`tools.${tool.id}_title`)}
               >
                 <div className={`w-12 h-12 ${tool.bg} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
-                  <tool.icon className={`w-6 h-6 ${tool.color}`} />
+                  <tool.icon className={`w-6 h-6 ${tool.color}`} aria-hidden="true" />
                 </div>
                 {/* Keyword Rich Anchor Text Wrapper implicitly generated via translations */}
                 <h3 className="text-xl font-bold mb-3 text-[var(--foreground)] group-hover:text-indigo-400 transition-colors">
@@ -90,7 +90,7 @@ export function RelatedTools({ exclude }: { exclude: ToolId }) {
                   {t(`tools.${tool.id}_desc`)}
                 </p>
                 <div className="absolute top-6 right-6 opacity-0 group-hover:opacity-100 transition-opacity">
-                  <Zap className="w-5 h-5 text-indigo-400" />
+                  <Zap className="w-5 h-5 text-indigo-400" aria-hidden="true" />
                 </div>
               </Link>
             ))}

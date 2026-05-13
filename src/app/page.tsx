@@ -188,7 +188,7 @@ export default function Home() {
             {/* Badge */}
             <div className="flex justify-center mb-10">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-600 dark:text-blue-400 text-sm font-bold shadow-sm">
-                <Sparkles className="w-4 h-4" />
+                <Sparkles className="w-4 h-4" aria-hidden="true" />
                 {t("common.free_forever")} · {t("common.no_uploads")}
               </div>
             </div>
@@ -214,7 +214,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto bg-slate-50 dark:bg-slate-900/40 rounded-3xl p-6 border border-[var(--card-border)]">
             <h3 className="text-sm font-bold text-[var(--muted-text)] uppercase tracking-wider mb-4 flex items-center gap-2">
-              <List className="w-4 h-4" /> {t("common.quick_navigation") || "Quick Navigation"}
+              <List className="w-4 h-4" aria-hidden="true" /> {t("common.quick_navigation")}
             </h3>
             <div className="flex flex-wrap gap-x-8 gap-y-3 text-sm font-semibold text-[var(--foreground)]">
               <a href="#how-it-works" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">How it Works</a>
@@ -573,7 +573,7 @@ export default function Home() {
             {REVIEWS.map((review) => (
               <div key={review.id} className="flex flex-col glass-card rounded-2xl p-6 sm:p-8 border border-[var(--card-border)] hover:border-indigo-500/30 hover:bg-white/5 transition-all duration-300 h-full w-[80vw] sm:w-auto shrink-0 md:shrink">
                 <div className="flex gap-1 mb-6">
-                  {[...Array(5)].map((_, j) => <Star key={j} className="w-4 h-4 fill-yellow-500 text-yellow-500" />)}
+                  {[...Array(5)].map((_, j) => <Star key={j} className="w-4 h-4 fill-yellow-500 text-yellow-500" aria-hidden="true" />)}
                 </div>
                 <div className="flex-1">
                    <p className="text-[var(--foreground)] text-base leading-relaxed mb-8 font-medium opacity-90 italic">"{t(`reviews.r${review.id}_text`)}"</p>
@@ -667,7 +667,7 @@ export default function Home() {
                 <details key={faq.id} className="group glass-card rounded-2xl border border-[var(--card-border)] hover:border-indigo-500/20 transition-all">
                   <summary className="flex items-center justify-between p-6 cursor-pointer list-none">
                     <span className="font-bold text-[var(--foreground)] pr-4">{t(`faq.q${faq.id}`)}</span>
-                    <ChevronDown className="w-5 h-5 text-[var(--muted-text)] group-open:rotate-180 transition-all duration-300 shrink-0" />
+                    <ChevronDown className="w-5 h-5 text-[var(--muted-text)] group-open:rotate-180 transition-all duration-300 shrink-0" aria-hidden="true" />
                   </summary>
                   <div className="px-6 pb-6 text-[var(--muted-text)] leading-relaxed border-t border-[var(--card-border)] pt-4 font-medium">
                     {t(`faq.a${faq.id}`)}
@@ -697,14 +697,14 @@ export default function Home() {
               <div className="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-indigo-600/20 rounded-full blur-3xl" />
               <div className="relative z-10">
                 <h2 className="text-2xl sm:text-4xl font-black mb-4 text-[var(--foreground)]">{t("cta.title")}</h2>
-                <p className="text-[var(--muted-text)] text-sm sm:text-lg mb-6 sm:mb-8 max-w-xl mx-auto font-bold opacity-90">
+                <p className="text-[var(--muted-text)] text-sm sm:text-lg mb-6 sm:mb-8 max-w-xl mx-auto font-bold">
                   {t("cta.desc")}
                 </p>
                 <Link
                   href="/"
                   className="inline-flex items-center justify-center gap-2 w-full sm:w-auto bg-indigo-600 hover:bg-indigo-500 active:scale-95 text-white px-8 py-4 rounded-xl font-black text-base sm:text-lg transition-all shadow-xl shadow-indigo-500/25 hover:scale-105 touch-feedback"
                 >
-                  <Play className="w-5 h-5 fill-current" />
+                  <Play className="w-5 h-5 fill-current" aria-hidden="true" />
                   {t("cta.button")}
                 </Link>
               </div>
