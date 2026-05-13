@@ -29,15 +29,14 @@ const ToolSection = dynamic(() => import("@/components/tools/VideoCompressor").t
   loading: () => <div className="h-[400px] animate-pulse bg-slate-100 dark:bg-slate-800 rounded-[2.5rem]" />
 });
 
-const ExtraContent = dynamic(() => Promise.all([
-  import("@/components/home/QualityVisualizer"),
+const Visualizer = dynamic(() => import("@/components/home/QualityVisualizer").then(m => m.QualityVisualizer), { ssr: false });
+const ReviewsAndFaq = dynamic(() => Promise.all([
   import("@/components/home/Reviews"),
   import("@/components/home/FaqSection")
-]).then(([q, r, f]) => {
-  return function ExtraContent() {
+]).then(([r, f]) => {
+  return function ReviewsAndFaq() {
     return (
       <>
-        <q.QualityVisualizer />
         <r.Reviews />
         <f.FaqSection />
       </>
@@ -230,7 +229,7 @@ export default function Home() {
       <Comparison />
       <HowItWorks />
       
-      <ExtraContent />
+      <Visualizer />
 
       <AllTools />
       <WhyChoose />
@@ -238,6 +237,7 @@ export default function Home() {
       <SupportedFormats />
       <CtaBanner />
       <RelatedTools exclude="compressor" />
+      <ReviewsAndFaq />
 
       <SocialShare />
       <AuthorBlock />
