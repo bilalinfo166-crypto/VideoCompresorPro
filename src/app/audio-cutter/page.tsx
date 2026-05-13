@@ -52,8 +52,22 @@ const FAQS = [
 export default function AudioCutterPage() {
   const { t } = useLanguage();
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": FAQS.map(faq => ({
+      "@type": "Question",
+      "name": t(`audio_cutter_page.q${faq.id}`),
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": t(`audio_cutter_page.a${faq.id}`)
+      }
+    }))
+  };
+
   return (
     <div className="flex flex-col transition-colors duration-300">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       {/* ─── Hero Section ─── */}
       <section className="relative pt-24 pb-16 overflow-hidden bg-[var(--background)]">
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-5" />

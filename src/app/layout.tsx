@@ -137,31 +137,40 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "SoftwareApplication",
-              "name": "VideoCompressorPro",
-              "url": "https://videocompressorpro.com",
-              "operatingSystem": "Any",
-              "applicationCategory": "MultimediaApplication",
-              "description": "Compress video files online for free with VideoCompressorPro. 100% private processing in your browser.",
-              "featureList": [
-                "Video Compression",
-                "Video Cutting",
-                "Video Cropping",
-                "Video to MP3 Extraction"
-              ],
-              "offers": {
-                "@type": "Offer",
-                "price": "0.00",
-                "priceCurrency": "USD"
+            __html: JSON.stringify([
+              {
+                "@context": "https://schema.org",
+                "@type": "SoftwareApplication",
+                "name": "VideoCompressorPro",
+                "url": "https://videocompressorpro.com",
+                "operatingSystem": "Any",
+                "applicationCategory": "MultimediaApplication",
+                "description": "Compress video files online for free with VideoCompressorPro. 100% private processing in your browser.",
+                "featureList": [
+                  "Video Compression",
+                  "Video Cutting",
+                  "Video Cropping",
+                  "Video to MP3 Extraction"
+                ],
+                "offers": {
+                  "@type": "Offer",
+                  "price": "0.00",
+                  "priceCurrency": "USD"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.9",
+                  "ratingCount": "5280"
+                }
               },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "ratingCount": "5280"
+              {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "VideoCompressorPro",
+                "url": "https://videocompressorpro.com",
+                "logo": "https://videocompressorpro.com/icon.svg"
               }
-            })
+            ])
           }}
         />
       </body>

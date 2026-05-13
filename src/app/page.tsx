@@ -152,8 +152,23 @@ const LANGUAGES = [
 
 export default function Home() {
   const { t } = useLanguage();
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": FAQS.map(faq => ({
+      "@type": "Question",
+      "name": t(`faq.q${faq.id}`),
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": t(`faq.a${faq.id}`)
+      }
+    }))
+  };
+
   return (
     <div className="flex flex-col transition-colors duration-300">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       {/* ─── Hero Section ─── */}
       <section className="relative pt-12 sm:pt-16 pb-12 sm:pb-20 overflow-hidden bg-[var(--background)]">
         {/* Subtle background patterns */}
