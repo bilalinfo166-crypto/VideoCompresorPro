@@ -115,12 +115,27 @@ export default function VideoCutterPage() {
             <h3 className="text-sm font-bold text-[var(--muted-text)] uppercase tracking-wider mb-4 flex items-center gap-2">
               <List className="w-4 h-4" /> {t("common.quick_navigation") || "Quick Navigation"}
             </h3>
-            <div className="flex flex-wrap gap-x-8 gap-y-3 text-sm font-semibold text-[var(--foreground)]">
-              <a href="#social-platforms" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Social Specs</a>
-              <a href="#features" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Key Features</a>
-              <a href="#how-to-use" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">How to Cut</a>
-              <a href="#use-cases" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Use Cases</a>
-              <a href="#faq" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">FAQ</a>
+            <div className="flex flex-wrap gap-x-10 gap-y-4 text-base font-bold text-[var(--foreground)]">
+              <a href="#social-platforms" className="hover:text-indigo-500 transition-all flex items-center gap-2 group">
+                <Layout className="w-4 h-4 text-indigo-500 group-hover:scale-110 transition-transform" />
+                <span>Social Platforms</span>
+              </a>
+              <a href="#features" className="hover:text-indigo-500 transition-all flex items-center gap-2 group">
+                <Cpu className="w-4 h-4 text-indigo-500 group-hover:scale-110 transition-transform" />
+                <span>Advanced Features</span>
+              </a>
+              <a href="#how-to-use" className="hover:text-indigo-500 transition-all flex items-center gap-2 group">
+                <MousePointer2 className="w-4 h-4 text-indigo-500 group-hover:scale-110 transition-transform" />
+                <span>How to Use</span>
+              </a>
+              <a href="#use-cases" className="hover:text-indigo-500 transition-all flex items-center gap-2 group">
+                <Globe className="w-4 h-4 text-indigo-500 group-hover:scale-110 transition-transform" />
+                <span>Real-World Examples</span>
+              </a>
+              <a href="#faq" className="hover:text-indigo-500 transition-all flex items-center gap-2 group">
+                <HelpCircle className="w-4 h-4 text-indigo-500 group-hover:scale-110 transition-transform" />
+                <span>Common Questions</span>
+              </a>
             </div>
           </div>
         </div>
