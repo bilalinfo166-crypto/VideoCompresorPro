@@ -196,8 +196,9 @@ export default function VideoCutterPage() {
       {/* ─── Features Grid ─── */}
       <section id="features" className="py-24 bg-[var(--background)]">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4 text-[var(--foreground)]">{t("cutter_page.features_title")}</h2>
+          <div className="text-center mb-16 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-extrabold mb-6 text-[var(--foreground)] tracking-tight">{t("cutter_page.features_title")}</h2>
+            <p className="text-[var(--muted-text)] font-medium text-lg leading-relaxed">{t("cutter_page.features_desc")}</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {FEATURES.map((f) => (
