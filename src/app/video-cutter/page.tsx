@@ -266,14 +266,14 @@ export default function VideoCutterPage() {
             <h2 className="text-4xl font-extrabold mb-6 text-[var(--foreground)] tracking-tight">{t("cutter_page.reviews_title")}</h2>
             <p className="text-[var(--muted-text)] font-medium text-lg leading-relaxed">{t("cutter_page.reviews_desc")}</p>
           </div>
-          <div className="columns-1 md:columns-2 lg:columns-4 gap-6 max-w-7xl mx-auto space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {REVIEWS.map((review) => (
-              <div key={review.id} className="break-inside-avoid glass-card rounded-2xl p-8 border border-[var(--card-border)] hover:border-indigo-500/30 hover:bg-white/5 transition-all duration-300">
+              <div key={review.id} className="glass-card rounded-3xl p-8 border border-[var(--card-border)] hover:border-indigo-500/30 hover:bg-white/5 transition-all duration-300 flex flex-col h-full">
                 <div className="flex gap-1 mb-6">
                   {[...Array(5)].map((_, j) => <Star key={j} className="w-4 h-4 fill-yellow-500 text-yellow-500" />)}
                 </div>
                 <p className="text-[var(--foreground)] text-xs leading-relaxed mb-8 opacity-80">"{t(`cutter_page.r${review.id}_text`)}"</p>
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4 mt-auto">
                   <Image src={review.avatar} alt={review.name} width={40} height={40} className="rounded-full ring-2 ring-white/10" />
                   <div>
                     <div className="font-bold text-[var(--foreground)] text-[10px]">{review.name}</div>
