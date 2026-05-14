@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     icon: '/icon.svg',
     apple: '/icon.svg',
   },
-  description: "Our free video compressor can compress video files online in seconds. Directly from your web browser, reduces video sizes such as MP4, MOV, AVI, MKV and more without noticeable quality loss.",
+  description: "Compress videos online for free without losing quality. Reduce MP4, MOV, AVI, and other video file sizes quickly with our secure online video compressor.",
   keywords: [
     "videocompressorpro",
     "video compressor", 
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     url: "https://videocompressorpro.com",
     siteName: "VideoCompressorPro",
     title: "VideoCompressorPro - Compress Video Online (100% Private)",
-    description: "Our free video compressor can compress video files online in seconds. Directly from your web browser, reduces video sizes without noticeable quality loss.",
+    description: "Compress videos online for free without losing quality. Reduce MP4, MOV, AVI, and other video file sizes quickly with our secure online video compressor.",
     images: [
       {
         url: "/og-image.png",
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "VideoCompressorPro - Compress Video Free",
-    description: "Compress video files online in seconds without quality loss.",
+    description: "Compress videos online for free without losing quality. Reduce MP4, MOV, AVI, and other video file sizes quickly with our secure online video compressor.",
     images: ["/og-image.png"],
   },
   robots: {
@@ -203,7 +203,7 @@ export default function RootLayout({
                 "url": "https://videocompressorpro.com",
                 "operatingSystem": "Any",
                 "applicationCategory": "MultimediaApplication",
-                "description": "Compress video files online for free with VideoCompressorPro. 100% private processing in your browser.",
+                "description": "Compress videos online for free without losing quality. Reduce MP4, MOV, AVI, and other video file sizes quickly with our secure online video compressor.",
                 "featureList": [
                   "Video Compression",
                   "Video Cutting",
