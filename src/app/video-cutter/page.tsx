@@ -317,12 +317,30 @@ export default function VideoCutterPage() {
       {/* ─── Related Tools ─── */}
       <RelatedTools exclude="cutter" />
 
-      <section className="py-20 bg-[var(--background)]">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl md:text-5xl font-extrabold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-violet-500">{t("cutter_page.cta_title")}</h2>
-          <Link href="/" className="inline-flex items-center gap-2 bg-blue-600 text-white px-12 py-5 rounded-2xl font-black text-xl hover:bg-blue-500 transition-all shadow-xl shadow-blue-500/20">
-            {t("common.go_home")} <ArrowRight className="w-5 h-5" />
-          </Link>
+      <section className="py-24 bg-[var(--background)] border-t border-[var(--card-border)]">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl md:text-6xl font-black mb-8 text-[var(--foreground)] tracking-tight">
+              {t("cutter_page.cta_title")}
+            </h2>
+            <p className="text-[var(--muted-text)] text-lg md:text-xl mb-10 leading-relaxed font-medium">
+              {t("cutter_page.cta_desc")}
+            </p>
+            <div className="flex flex-wrap justify-center gap-4 md:gap-8 mb-12 text-sm md:text-base font-bold text-indigo-400">
+              {t("cutter_page.cta_highlights").split(" ✔ ").map((h, i) => (
+                <span key={i} className="flex items-center gap-2">
+                  <CheckCircle2 className="w-5 h-5 text-indigo-500" />
+                  {h.replace("✔ ", "")}
+                </span>
+              ))}
+            </div>
+            <button 
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="px-12 py-6 bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-500 hover:to-blue-500 text-white rounded-2xl font-black text-xl transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-indigo-500/20"
+            >
+              Start Cutting Now — It's Free
+            </button>
+          </div>
         </div>
       </section>
     </div>
