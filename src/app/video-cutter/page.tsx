@@ -16,10 +16,10 @@ const VideoCutter = dynamic(
 );
 
 const SOCIAL_PLATFORMS = [
-  { name: "YouTube", icon: Youtube, color: "text-red-500", desc: "Shorts & Long-form" },
-  { name: "Instagram", icon: Instagram, color: "text-pink-500", desc: "Reels & Stories" },
-  { name: "Facebook", icon: Facebook, color: "text-blue-500", desc: "Ads & Posts" },
-  { name: "TikTok", icon: Video, color: "text-emerald-400", desc: "Vertical Videos" },
+  { id: "yt", icon: Youtube, color: "text-red-500" },
+  { id: "ig", icon: Instagram, color: "text-pink-500" },
+  { id: "fb", icon: Facebook, color: "text-blue-500" },
+  { id: "tt", icon: Video, color: "text-emerald-400" },
 ];
 
 const FEATURES = [
@@ -128,16 +128,25 @@ export default function VideoCutterPage() {
       {/* ─── Social Platforms ─── */}
       <section id="social-platforms" className="py-20 bg-[var(--background)] border-y border-[var(--card-border)] relative">
         <div className="container mx-auto px-4 relative z-10">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4 text-[var(--foreground)]">{t("cutter_page.social_title")}</h2>
-            <p className="text-[var(--muted-text)] font-medium">{t("cutter_page.social_desc")}</p>
+          <div className="text-center mb-16 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-extrabold mb-6 text-[var(--foreground)] tracking-tight">{t("cutter_page.social_title")}</h2>
+            <p className="text-[var(--muted-text)] font-medium text-lg leading-relaxed">{t("cutter_page.social_desc")}</p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
             {SOCIAL_PLATFORMS.map((p) => (
-              <div key={p.name} className="glass-card p-8 rounded-3xl border border-[var(--card-border)] flex flex-col items-center text-center group hover:bg-white/5 transition-all">
-                <p.icon className={`w-12 h-12 ${p.color} mb-4 group-hover:scale-110 transition-transform`} />
-                <h3 className="font-bold text-[var(--foreground)] mb-1">{p.name}</h3>
-                <p className="text-[10px] text-[var(--muted-text)] uppercase font-black tracking-widest">{p.desc}</p>
+              <div key={p.id} className="glass-card p-8 rounded-3xl border border-[var(--card-border)] flex flex-col items-center text-center group hover:bg-white/5 transition-all">
+                <div className="mb-6 p-4 rounded-2xl bg-white/5 group-hover:bg-white/10 transition-colors">
+                  <p.icon className={`w-10 h-10 ${p.color} group-hover:scale-110 transition-transform`} />
+                </div>
+                <h3 className="font-bold text-[var(--foreground)] mb-3 text-lg">{t(`cutter_page.${p.id}_title`)}</h3>
+                <p className="text-sm text-[var(--muted-text)] mb-6 leading-relaxed opacity-80 group-hover:opacity-100 transition-opacity">
+                  {t(`cutter_page.${p.id}_desc`)}
+                </p>
+                <div className="mt-auto pt-4 border-t border-[var(--card-border)] w-full">
+                  <p className="text-[10px] text-indigo-400 uppercase font-black tracking-widest">
+                    {t(`cutter_page.${p.id}_tags`)}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
