@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import { useLanguage } from "@/context/LanguageContext";
-import { Scissors, Zap, Shield, Sparkles, CheckCircle2, Star, ArrowRight, Play, Clock, Layout, Monitor, Smartphone, Globe, HardDrive, Youtube, Instagram, Facebook, Video, Layers, Film, Activity, ChevronDown, List } from "lucide-react";
+import { Scissors, Zap, Shield, Sparkles, CheckCircle2, Star, ArrowRight, Play, Clock, Layout, Monitor, Smartphone, Globe, HardDrive, Youtube, Instagram, Facebook, Video, Layers, Film, Activity, ChevronDown, List, Cpu, MousePointer2, HelpCircle } from "lucide-react";
 import { RelatedTools } from "@/components/layout/RelatedTools";
 import { SocialShare } from "@/components/layout/SocialShare";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
