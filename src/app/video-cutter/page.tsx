@@ -99,9 +99,17 @@ export default function VideoCutterPage() {
             <h1 className="text-center text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight text-[var(--foreground)]">
               {t("cutter_page.hero_title").split(" ")[0]} <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-violet-500 to-purple-500">{t("cutter_page.hero_title").split(" ").slice(1).join(" ")}</span>
             </h1>
-            <p className="text-center text-xl text-[var(--muted-text)] mb-12 max-w-2xl mx-auto leading-relaxed font-medium">
+            <p className="text-center text-xl text-[var(--muted-text)] mb-8 max-w-3xl mx-auto leading-relaxed font-medium">
               {t("cutter_page.hero_subtitle")}
             </p>
+            <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-12 text-sm font-bold text-indigo-400/80">
+              {t("cutter_page.hero_highlights").split(" ✔ ").map((h, i) => (
+                <span key={i} className="flex items-center gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-indigo-500/50" />
+                  {h.replace("✔ ", "")}
+                </span>
+              ))}
+            </div>
 
             <VideoCutter />
           </div>
