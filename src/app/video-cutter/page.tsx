@@ -39,18 +39,18 @@ const STEPS = [
 ];
 
 const REVIEWS = [
-  { id: 1, name: "Felix Vogel", avatar: "https://randomuser.me/api/portraits/men/40.jpg" },
-  { id: 2, name: "Sonia Rossi", avatar: "https://randomuser.me/api/portraits/women/41.jpg" },
-  { id: 3, name: "Hiroshi Tanaka", avatar: "https://randomuser.me/api/portraits/men/42.jpg" },
-  { id: 4, name: "Elena Petrov", avatar: "https://randomuser.me/api/portraits/women/43.jpg" },
-  { id: 5, name: "David Miller", avatar: "https://randomuser.me/api/portraits/men/44.jpg" },
-  { id: 6, name: "Sofia Garcia", avatar: "https://randomuser.me/api/portraits/women/45.jpg" },
-  { id: 7, name: "Jean Dupont", avatar: "https://randomuser.me/api/portraits/men/46.jpg" },
-  { id: 8, name: "Anna Schmidt", avatar: "https://randomuser.me/api/portraits/women/47.jpg" },
-  { id: 9, name: "Carlos Mendez", avatar: "https://randomuser.me/api/portraits/men/48.jpg" },
-  { id: 10, name: "Yuki Tanaka", avatar: "https://randomuser.me/api/portraits/women/49.jpg" },
-  { id: 11, name: "Liam Wilson", avatar: "https://randomuser.me/api/portraits/men/55.jpg" },
-  { id: 12, name: "Sophia Garcia", avatar: "https://randomuser.me/api/portraits/women/19.jpg" },
+  { id: 1, name: "Jason Miller", avatar: "https://randomuser.me/api/portraits/men/40.jpg" },
+  { id: 2, name: "Sophia Turner", avatar: "https://randomuser.me/api/portraits/women/41.jpg" },
+  { id: 3, name: "Ryan Brooks", avatar: "https://randomuser.me/api/portraits/men/42.jpg" },
+  { id: 4, name: "Olivia Bennett", avatar: "https://randomuser.me/api/portraits/women/43.jpg" },
+  { id: 5, name: "Daniel Scott", avatar: "https://randomuser.me/api/portraits/men/44.jpg" },
+  { id: 6, name: "Emma Collins", avatar: "https://randomuser.me/api/portraits/women/45.jpg" },
+  { id: 7, name: "Michael Reed", avatar: "https://randomuser.me/api/portraits/men/46.jpg" },
+  { id: 8, name: "Noah Parker", avatar: "https://randomuser.me/api/portraits/men/47.jpg" },
+  { id: 9, name: "Ava Mitchell", avatar: "https://randomuser.me/api/portraits/women/48.jpg" },
+  { id: 10, name: "Ethan Walker", avatar: "https://randomuser.me/api/portraits/men/49.jpg" },
+  { id: 11, name: "Isabella Carter", avatar: "https://randomuser.me/api/portraits/women/50.jpg" },
+  { id: 12, name: "Liam Anderson", avatar: "https://randomuser.me/api/portraits/men/51.jpg" },
 ];
 
 const FAQS = [
@@ -262,8 +262,9 @@ export default function VideoCutterPage() {
       {/* ─── Reviews ─── */}
       <section className="py-24 bg-[var(--background)]">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4 text-[var(--foreground)]">{t("cutter_page.reviews_title")}</h2>
+          <div className="text-center mb-16 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-extrabold mb-6 text-[var(--foreground)] tracking-tight">{t("cutter_page.reviews_title")}</h2>
+            <p className="text-[var(--muted-text)] font-medium text-lg leading-relaxed">{t("cutter_page.reviews_desc")}</p>
           </div>
           <div className="columns-1 md:columns-2 lg:columns-4 gap-6 max-w-7xl mx-auto space-y-6">
             {REVIEWS.map((review) => (
