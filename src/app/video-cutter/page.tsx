@@ -119,6 +119,7 @@ export default function VideoCutterPage() {
               <a href="#social-platforms" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Social Specs</a>
               <a href="#features" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Key Features</a>
               <a href="#how-to-use" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">How to Cut</a>
+              <a href="#use-cases" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Use Cases</a>
               <a href="#faq" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">FAQ</a>
             </div>
           </div>
@@ -229,6 +230,31 @@ export default function VideoCutterPage() {
                   <p className="text-[var(--muted-text)] text-sm leading-relaxed font-medium">{t(`cutter_page.s${s.id}_desc`)}</p>
                </div>
              ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="use-cases" className="py-24 bg-[var(--background)]">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-extrabold mb-6 text-[var(--foreground)] tracking-tight">{t("cutter_page.use_cases_title")}</h2>
+            <p className="text-[var(--muted-text)] font-medium text-lg leading-relaxed">{t("cutter_page.use_cases_desc")}</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            {[1, 2, 3, 4, 5, 6].map((id) => (
+              <div key={id} className="glass-card p-10 rounded-[32px] border border-[var(--card-border)] hover:border-indigo-500/30 transition-all flex flex-col">
+                <h3 className="text-2xl font-bold mb-4 text-[var(--foreground)]">{t(`cutter_page.u${id}_title`)}</h3>
+                <p className="text-[var(--muted-text)] text-sm leading-relaxed font-medium mb-8">{t(`cutter_page.u${id}_desc`)}</p>
+                <div className="mt-auto space-y-3">
+                  {[1, 2, 3].map((p) => (
+                    <div key={p} className="flex items-center gap-3 text-sm font-semibold text-[var(--foreground)]">
+                      <CheckCircle2 className="w-5 h-5 text-indigo-500 shrink-0" />
+                      <span>{t(`cutter_page.u${id}_p${p}`)}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
