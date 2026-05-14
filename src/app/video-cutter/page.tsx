@@ -217,7 +217,10 @@ export default function VideoCutterPage() {
       {/* ─── Steps ─── */}
       <section id="how-to-use" className="py-24 bg-[var(--background)] border-y border-[var(--card-border)]">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-16 text-[var(--foreground)]">{t("cutter_page.steps_title")}</h2>
+          <div className="max-w-3xl mx-auto mb-16">
+            <h2 className="text-4xl font-extrabold mb-6 text-[var(--foreground)] tracking-tight">{t("cutter_page.steps_title")}</h2>
+            <p className="text-[var(--muted-text)] font-medium text-lg leading-relaxed">{t("cutter_page.steps_desc")}</p>
+          </div>
           <div className="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto">
              {STEPS.map(s => (
                <div key={s.number} className="text-center group">
