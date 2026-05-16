@@ -13,44 +13,53 @@ const STATS = [
 export function TrustAndStats() {
   const { t } = useLanguage();
 
+  const LOGOS = [
+    { name: "YouTube", icon: <Play className="w-8 h-8 fill-red-500 text-red-500" /> },
+    { name: "Instagram", color: "text-slate-400/50 hover:text-white font-serif italic" },
+    { name: "Google", isGoogle: true },
+    { name: "NETFLIX", color: "text-red-600 font-black tracking-wider" },
+    { name: "Canva", color: "text-cyan-400 opacity-60 hover:opacity-100" },
+    { name: "Dropbox", icon: <Shield className="w-6 h-6 fill-current" />, color: "text-blue-500 opacity-60 hover:opacity-100" },
+    { name: "WhatsApp", color: "text-emerald-500 opacity-60 hover:opacity-100" },
+    { name: "zoom", color: "text-blue-500 opacity-60 hover:opacity-100 font-black tracking-tight" },
+    { name: "TikTok", icon: <Play className="w-6 h-6 fill-current" />, color: "text-red-600 opacity-60 hover:opacity-100" },
+    { name: "Adobe", color: "text-indigo-500 opacity-60 hover:opacity-100" },
+    { name: "Twitch", color: "text-purple-600 opacity-60 hover:opacity-100 font-black italic" },
+    { name: "LinkedIn", color: "text-blue-700 opacity-60 hover:opacity-100" },
+  ];
+
   return (
-    <section className="py-16 bg-[var(--background)] border-y border-[var(--card-border)] relative overflow-hidden">
-      {/* Background Glows */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-blue-600/5 rounded-full blur-[120px] pointer-events-none" />
-      
-      <div className="container mx-auto px-4 relative z-10">
-        {/* Logos Row - Simple & Clean */}
-        <div className="flex flex-wrap justify-center items-center gap-10 md:gap-20 mb-16 opacity-40 grayscale hover:opacity-100 transition-all duration-700">
-          <div className="flex items-center gap-2 text-xl font-black text-slate-400">
-            <Play className="w-6 h-6 fill-current text-slate-500" /> TikTok
-          </div>
-          <div className="flex items-center gap-2 text-xl font-black text-slate-400">
-            <Activity className="w-6 h-6 fill-current text-slate-500" /> Adobe
-          </div>
-          <div className="flex items-center gap-2 text-xl font-black text-slate-400">
-            <div className="w-6 h-6 bg-slate-500 rounded-sm" /> Twitch
-          </div>
-          <div className="flex items-center gap-2 text-xl font-black text-slate-400">
-            <Linkedin className="w-6 h-6 fill-current text-slate-500" /> LinkedIn
-          </div>
-          <div className="flex items-center gap-2 text-xl font-black text-slate-400">
-            <Youtube className="w-6 h-6 fill-current text-slate-500" /> YouTube
+    <section className="py-12 border-y border-[var(--card-border)] bg-[var(--background)] relative overflow-hidden">
+      <div className="container mx-auto px-4 relative z-10 mb-12">
+        <div className="text-center mb-8">
+           <h2 className="text-xl md:text-2xl font-bold text-[var(--foreground)] mb-2">{t("trusted.title")}</h2>
+           <p className="text-[var(--muted-text)] text-sm md:text-base font-medium max-w-2xl mx-auto">{t("trusted.desc")}</p>
+        </div>
+        
+        <div className="w-full max-w-5xl mx-auto mask-image-gradient-x overflow-hidden">
+          <div className="animate-marquee flex w-max items-center gap-16 md:gap-24 py-4">
+            {[...LOGOS, ...LOGOS].map((logo, i) => (
+              <div key={i} className={`flex items-center gap-2 text-2xl font-bold transition-all duration-300 ${logo.color || 'text-slate-400/50 hover:text-white'}`}>
+                {logo.icon}
+                {logo.isGoogle ? (
+                  <span className="tracking-tighter">
+                    <span className="text-blue-500">G</span><span className="text-red-500">o</span><span className="text-yellow-500">o</span><span className="text-blue-500">g</span><span className="text-green-500">l</span><span className="text-red-500">e</span>
+                  </span>
+                ) : logo.name}
+              </div>
+            ))}
           </div>
         </div>
+      </div>
 
-        {/* Divider Line like the image */}
-        <div className="w-full h-px bg-gradient-to-r from-transparent via-[var(--card-border)] to-transparent mb-16" />
-
-        {/* Stats Row */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 border-t border-[var(--card-border)] pt-12">
           {STATS.map((s) => (
-            <div key={s.label} className="text-center group">
-              <div className="text-4xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-b from-blue-500 to-indigo-600 mb-3 group-hover:scale-105 transition-transform">
-                {s.value}
+            <div key={s.label} className="text-center touch-feedback">
+              <div className="text-4xl sm:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 mb-1">
+                 {s.value}
               </div>
-              <div className="text-[var(--muted-text)] text-[10px] md:text-xs font-black uppercase tracking-[0.25em] opacity-80">
-                {t(s.label)}
-              </div>
+              <div className="text-slate-600 text-xs sm:text-sm font-bold uppercase tracking-wider">{t(s.label)}</div>
             </div>
           ))}
         </div>
