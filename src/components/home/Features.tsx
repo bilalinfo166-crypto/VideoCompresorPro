@@ -52,21 +52,23 @@ export function Features({ context }: FeaturesProps) {
             </div>
           )}
 
-          {/* Storage Feature (Default) */}
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="relative rounded-[2.5rem] overflow-hidden border border-[var(--card-border)] aspect-[4/3] shadow-2xl group">
-                <Image src="/storage-feature.png" alt="Reduce video size and save storage" fill className="object-cover group-hover:scale-105 transition-transform duration-700" sizes="(max-width: 768px) 100vw, 500px" />
+          {/* Storage Feature (Default) - Hidden when context exists to avoid duplication */}
+          {!context && (
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <div className="relative rounded-[2.5rem] overflow-hidden border border-[var(--card-border)] aspect-[4/3] shadow-2xl group">
+                  <Image src="/storage-feature.png" alt="Reduce video size and save storage" fill className="object-cover group-hover:scale-105 transition-transform duration-700" sizes="(max-width: 768px) 100vw, 500px" />
+                </div>
+              </div>
+              <div>
+                <div className="text-blue-600 dark:text-blue-400 font-bold tracking-[0.2em] uppercase text-xs mb-4">{t("storage.badge")}</div>
+                <h2 className="text-3xl md:text-4xl font-black text-[var(--foreground)] mb-6">{t("storage.title")}</h2>
+                <p className="text-[var(--muted-text)] text-lg leading-relaxed font-medium">
+                  {t("storage.desc")}
+                </p>
               </div>
             </div>
-            <div>
-              <div className="text-blue-600 dark:text-blue-400 font-bold tracking-[0.2em] uppercase text-xs mb-4">{t("storage.badge")}</div>
-              <h2 className="text-3xl md:text-4xl font-black text-[var(--foreground)] mb-6">{t("storage.title")}</h2>
-              <p className="text-[var(--muted-text)] text-lg leading-relaxed font-medium">
-                {t("storage.desc")}
-              </p>
-            </div>
-          </div>
+          )}
 
         </div>
       </div>
