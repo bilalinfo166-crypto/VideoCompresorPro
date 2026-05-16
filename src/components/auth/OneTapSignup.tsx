@@ -17,14 +17,32 @@ export function OneTapSignup() {
 
       const clientId = process.env.NEXT_PUBLIC_GOOGLE_DRIVE_CLIENT_ID || "969090107342-sb8jtobgt0eocjp039g27ubb1v981ekm.apps.googleusercontent.com";
 
+      const decodeJwt = (token: string) => {
+        try {
+          const base64Url = token.split('.')[1];
+          const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+          const jsonPayload = decodeURIComponent(atob(base64).split('').map(function(c) {
+            return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+          }).join(''));
+          return JSON.parse(jsonPayload);
+        } catch (e) {
+          return null;
+        }
+      };
+
       window.google.accounts.id.initialize({
         client_id: clientId,
         callback: (response: any) => {
-          // Handle successful login
-          localStorage.setItem("user_logged_in", "true");
-          localStorage.setItem("user_token", response.credential);
-          window.dispatchEvent(new Event("auth_change"));
-          window.location.reload(); // Refresh to update state
+          const payload = decodeJwt(response.credential);
+          if (payload) {
+            localStorage.setItem("user_logged_in", "true");
+            localStorage.setItem("user_email", payload.email);
+            localStorage.setItem("user_name", payload.name);
+            localStorage.setItem("user_image", payload.picture);
+            localStorage.setItem("user_token", response.credential);
+            window.dispatchEvent(new Event("auth_change"));
+            window.location.reload(); 
+          }
         },
         itp_support: true,
       });

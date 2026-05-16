@@ -19,11 +19,12 @@ export default function DashboardPage() {
   const { t } = useLanguage();
   const [userEmail, setUserEmail] = useState("");
   const [userName, setUserName] = useState("");
+  const [userImage, setUserImage] = useState("");
 
   useEffect(() => {
-    const email = localStorage.getItem("user_email") || "guest@example.com";
-    setUserEmail(email);
-    setUserName(email.split('@')[0]);
+    setUserEmail(localStorage.getItem("user_email") || "guest@example.com");
+    setUserName(localStorage.getItem("user_name") || "Guest User");
+    setUserImage(localStorage.getItem("user_image") || "");
   }, []);
 
   const handleLogout = () => {
@@ -74,8 +75,12 @@ export default function DashboardPage() {
           <div className="lg:col-span-4 space-y-6">
             <div className="glass-card rounded-[40px] p-8 border border-[var(--card-border)] text-center relative overflow-hidden">
                <div className="absolute top-0 left-0 right-0 h-2 bg-blue-600" />
-               <div className="w-24 h-24 bg-gradient-to-br from-blue-600 to-violet-600 rounded-3xl mx-auto mb-6 flex items-center justify-center shadow-2xl shadow-blue-600/20">
-                  <User className="w-12 h-12 text-white" />
+               <div className="w-24 h-24 bg-gradient-to-br from-blue-600 to-violet-600 rounded-3xl mx-auto mb-6 flex items-center justify-center shadow-2xl shadow-blue-600/20 overflow-hidden">
+                  {userImage ? (
+                    <img src={userImage} alt={userName} className="w-full h-full object-cover" />
+                  ) : (
+                    <User className="w-12 h-12 text-white" />
+                  )}
                </div>
                <h2 className="text-2xl font-black text-[var(--foreground)] capitalize mb-1">{userName}</h2>
                <p className="text-sm font-bold text-[var(--muted-text)] mb-8">{userEmail}</p>
