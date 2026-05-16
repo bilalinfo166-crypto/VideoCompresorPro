@@ -26,7 +26,7 @@ export const LanguageProvider: React.FC<{
       localStorage.setItem("preferred_lang", lang);
       
       const currentPath = window.location.pathname;
-      const locales = ["en", "ar", "hi", "es", "pt", "fr", "de", "it", "id", "ja", "ru", "zh", "tr", "vi", "ko", "th", "nl", "pl", "fa", "ro", "el", "uk", "sv", "he", "da", "fi", "no", "cs", "hu"];
+      const locales = ["en", "ar", "hi", "es", "pt", "fr", "de", "it", "id", "ja", "ru", "zh", "tr", "vi", "ko", "th", "nl", "pl", "fa", "ro", "el", "uk", "sv", "he", "da", "fi", "no", "cs", "hu", "tw"];
       
       let cleanPath = currentPath;
       for (const loc of locales) {

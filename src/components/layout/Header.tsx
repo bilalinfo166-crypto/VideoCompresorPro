@@ -43,6 +43,7 @@ const LANGUAGES = [
   { code: "no", label: "Norsk" },
   { code: "cs", label: "Čeština" },
   { code: "hu", label: "Magyar" },
+  { code: "tw", label: "繁體中文" },
 ];
 
 export function Header() {
