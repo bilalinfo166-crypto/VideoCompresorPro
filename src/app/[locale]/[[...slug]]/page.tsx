@@ -26,8 +26,18 @@ interface LocalizedPageProps {
 }
 
 export async function generateMetadata({ params }: LocalizedPageProps) {
-  const { locale, slug } = params;
+  let { locale, slug } = params;
   const baseUrl = 'https://videocompressorpro.com';
+  
+  // Handle root-level SEO pages (e.g., /compress-mp4)
+  // In this case, 'locale' parameter will contain the 'compress-...' slug
+  let isRootSEO = false;
+  if (locale.startsWith("compress-")) {
+    slug = [locale];
+    locale = "en";
+    isRootSEO = true;
+  }
+
   const path = slug ? slug[0] : '';
   
   let translations;
@@ -63,12 +73,21 @@ export async function generateMetadata({ params }: LocalizedPageProps) {
     title = t('tools.to_text_title');
     description = t('tools.to_text_desc');
   } else if (path.startsWith('compress-')) {
-    const format = path.replace('compress-', '').toUpperCase();
-    title = `Compress ${format} Video Online | Free ${format} Compressor`;
-    description = `Compress ${format} files online in seconds without quality loss. Use our free tool to reduce ${format} video size quickly and privately.`;
+    const realSlug = path.replace('compress-', '');
+    const data = COMPRESSOR_PAGES[realSlug];
+    if (data) {
+      title = data.title;
+      description = data.description;
+    } else {
+      const format = realSlug.toUpperCase();
+      title = `Compress ${format} Video Online | Free ${format} Compressor`;
+      description = `Compress ${format} files online in seconds without quality loss. Use our free tool to reduce ${format} video size quickly and privately.`;
+    }
   }
 
-  const fullUrl = `${baseUrl}/${locale}${path ? `/${path}` : ''}`;
+  const fullUrl = isRootSEO 
+    ? `${baseUrl}/${path}` 
+    : `${baseUrl}/${locale}${path ? `/${path}` : ''}`;
 
   return {
     title,
@@ -84,9 +103,47 @@ export async function generateMetadata({ params }: LocalizedPageProps) {
   };
 }
 
+export async function generateStaticParams() {
+  const params = [];
+
+  // 1. Root-level SEO pages: /compress-[slug]
+  for (const slug of PSEO_SLUGS) {
+    params.push({ locale: `compress-${slug}`, slug: [] });
+  }
+
+  // 2. Localized pages: /[locale]/[slug]
+  for (const locale of locales) {
+    // Localized Home: /ar
+    params.push({ locale, slug: [] });
+    
+    // Static Tools: /ar/video-cutter, etc.
+    const staticTools = ["about", "audio-cutter", "contact", "crop-video", "login", "privacy", "signup", "terms", "video-cutter", "video-to-mp3", "video-to-text"];
+    for (const tool of staticTools) {
+      params.push({ locale, slug: [tool] });
+    }
+
+    // Localized SEO pages: /ar/compress-mp4
+    for (const slug of PSEO_SLUGS) {
+      params.push({ locale, slug: [`compress-${slug}`] });
+    }
+  }
+
+  return params;
+}
+
 
 export default function LocalizedPage({ params }: LocalizedPageProps) {
-  const { locale, slug } = params;
+  let { locale, slug } = params;
+
+  // Handle root-level SEO pages (e.g., /compress-mp4)
+  if (locale.startsWith("compress-")) {
+    const realSlug = locale.replace("compress-", "");
+    const data = COMPRESSOR_PAGES[realSlug];
+    if (data) {
+      return <CompressorClient data={data} slug={realSlug} />;
+    }
+    notFound();
+  }
 
   // Validate locale
   if (!locales.includes(locale)) {
