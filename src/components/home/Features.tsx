@@ -19,38 +19,36 @@ export function Features({ context }: FeaturesProps) {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto space-y-24">
           
-          {/* Dynamic Contextual Feature */}
-          {(isDiscord || isWhatsApp || isEmail || context) && (
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="order-2 md:order-1">
-                <div className="text-blue-600 dark:text-blue-400 font-bold tracking-[0.2em] uppercase text-xs mb-4">
-                  {context ? `${context} Optimization` : "Optimized Performance"}
-                </div>
-                <h2 className="text-3xl md:text-5xl font-black text-[var(--foreground)] mb-6 leading-tight">
-                  {context 
-                    ? `Free Video Compressor for ${context} Uploads`
-                    : "Universal Video Compression for Any Platform"}
-                </h2>
-                <p className="text-[var(--muted-text)] text-lg leading-relaxed font-medium">
-                  {context 
-                    ? `Our specialized engine ensures your videos meet ${context} requirements perfectly while maintaining stunning visual quality and fast upload speeds.`
-                    : "Compress any video format with our advanced browser-based engine. No uploads, no quality loss, and instant results."}
-                </p>
+          {/* Dynamic Contextual/Default Feature */}
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="order-2 md:order-1">
+              <div className="text-blue-600 dark:text-blue-400 font-bold tracking-[0.2em] uppercase text-xs mb-4">
+                {context ? `${context} Optimization` : "Universal Optimization"}
               </div>
-              <div className="order-1 md:order-2">
-                <div className="relative rounded-[2.5rem] overflow-hidden border border-[var(--card-border)] aspect-[4/3] shadow-[0_32px_64px_-12px_rgba(0,0,0,0.15)] group">
-                  <Image 
-                    src={isDiscord ? "/discord-feature.png" : (isWhatsApp ? "/storage-feature.png" : "/privacy-illustration.png")} 
-                    alt={context ? `Compress video for ${context}` : "Video compression feature"} 
-                    fill 
-                    className="object-cover group-hover:scale-105 transition-transform duration-700" 
-                    sizes="(max-width: 768px) 100vw, 500px" 
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                </div>
+              <h2 className="text-3xl md:text-5xl font-black text-[var(--foreground)] mb-6 leading-tight">
+                {context 
+                  ? `Free Video Compressor for ${context} Uploads`
+                  : "Free Video Compressor for WhatsApp & Discord"}
+              </h2>
+              <p className="text-[var(--muted-text)] text-lg leading-relaxed font-medium">
+                {context 
+                  ? `Our specialized engine ensures your videos meet ${context} requirements perfectly while maintaining stunning visual quality.`
+                  : "Our specialized engine ensures your videos meet platform requirements perfectly while maintaining stunning visual quality and fast upload speeds."}
+              </p>
+            </div>
+            <div className="order-1 md:order-2">
+              <div className="relative rounded-[2.5rem] overflow-hidden border border-[var(--card-border)] aspect-[4/3] shadow-[0_32px_64px_-12px_rgba(0,0,0,0.15)] group">
+                <Image 
+                  src={isWhatsApp ? "/storage-feature.png" : "/discord-feature.png"} 
+                  alt={context ? `Compress video for ${context}` : "Video compression feature"} 
+                  fill 
+                  className="object-cover group-hover:scale-105 transition-transform duration-700" 
+                  sizes="(max-width: 768px) 100vw, 500px" 
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
             </div>
-          )}
+          </div>
 
           {/* Storage/Secondary Feature - Always shown but uses a different image if needed */}
           <div className="grid md:grid-cols-2 gap-12 items-center">
