@@ -137,8 +137,6 @@ export default function CompressorClient({ data, slug }: { data: SEOData, slug: 
       </section>
 
       <Features />
-      <UseCases />
-      <Comparison />
       <Visualizer />
 
       {/* FAQ with SEO Data */}
@@ -169,9 +167,16 @@ export default function CompressorClient({ data, slug }: { data: SEOData, slug: 
       
       <div className="py-20 bg-[var(--background)] border-t border-[var(--card-border)]">
          <div className="container mx-auto px-4 max-w-5xl">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-               <SocialShare />
-               <AuthorBlock />
+            <div className="flex flex-col md:flex-row gap-8 items-stretch">
+               <div className="flex-1">
+                  <AuthorBlock />
+               </div>
+               <div className="w-full md:w-80">
+                  <div className="h-full glass-card p-8 rounded-[32px] border border-[var(--card-border)] flex flex-col justify-center">
+                     <h4 className="font-black text-xs uppercase tracking-widest mb-6 text-center">Share this tool</h4>
+                     <SocialShare />
+                  </div>
+               </div>
             </div>
          </div>
       </div>
