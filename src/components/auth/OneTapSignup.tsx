@@ -15,8 +15,10 @@ export function OneTapSignup() {
 
       if (hasSeenInSession || isLoggedIn) return;
 
+      const clientId = process.env.NEXT_PUBLIC_GOOGLE_DRIVE_CLIENT_ID || "969090107342-sb8jtobgt0eocjp039g27ubb1v981ekm.apps.googleusercontent.com";
+
       window.google.accounts.id.initialize({
-        client_id: "735320161789-fjurchka2qn37vj34at1fkgspp5g2r3p.apps.googleusercontent.com",
+        client_id: clientId,
         callback: (response: any) => {
           // Handle successful login
           localStorage.setItem("user_logged_in", "true");
@@ -28,6 +30,9 @@ export function OneTapSignup() {
       });
 
       window.google.accounts.id.prompt((notification: any) => {
+        if (notification.isSkippedMoment()) {
+          console.warn("One Tap skipped:", notification.getSkippedReason());
+        }
         if (notification.isDismissedMoment()) {
           // If user clicks X, save to session so it doesn't show again in THIS tab/session
           sessionStorage.setItem("one_tap_dismissed", "true");
