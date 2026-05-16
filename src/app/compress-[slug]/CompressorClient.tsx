@@ -38,7 +38,7 @@ export default function CompressorClient({ data, slug }: { data: SEOData, slug: 
             items={[
               { label: "Home", href: "/" },
               { label: "Compressor", href: "/video-compressor" },
-              { label: slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '), active: true }
+              { label: slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '), href: `/compress-${slug}` }
             ]} 
           />
 
