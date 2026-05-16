@@ -76,16 +76,20 @@ const TOOLS: Tool[] = [
   },
 ];
 
-export function AllTools() {
+export function AllTools({ context }: { context?: string }) {
   const { t } = useLanguage();
 
   return (
     <section id="all-tools" className="py-24 bg-[var(--background)] border-y border-[var(--card-border)]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4 text-[var(--foreground)]">{t("tools.all_free_title")}</h2>
-          <p className="text-[var(--muted-text)] text-lg max-w-xl mx-auto font-medium">
-            {t("tools.all_free_desc")}
+          <h2 className="text-3xl md:text-5xl font-black mb-4 text-[var(--foreground)]">
+            {context ? `More Free Video Tools for ${context}` : t("tools.all_free_title")}
+          </h2>
+          <p className="text-[var(--muted-text)] text-lg max-w-xl mx-auto font-medium leading-relaxed">
+            {context 
+              ? `While optimizing your ${context} videos, explore our other powerful browser-based tools.`
+              : t("tools.all_free_desc")}
           </p>
         </div>
 

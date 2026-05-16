@@ -15,7 +15,7 @@ import { RelatedTools } from "@/components/layout/RelatedTools";
 import { SocialShare } from "@/components/layout/SocialShare";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { AuthorBlock } from "@/components/layout/AuthorBlock";
-import { StatsStrip } from "@/components/home/StatsStrip";
+import { TrustAndStats } from "@/components/layout/TrustAndStats";
 import { Features } from "@/components/home/Features";
 import { Comparison } from "@/components/home/Comparison";
 import { AllTools } from "@/components/home/AllTools";
@@ -40,6 +40,10 @@ const Visualizer = dynamic(() => import("@/components/home/QualityVisualizer").t
 
 export default function CompressorClient({ data, slug }: { data: SEOData, slug: string }) {
   const { t } = useLanguage();
+  const contextName = slug.includes('whatsapp') ? 'WhatsApp' : 
+                     slug.includes('discord') ? 'Discord' : 
+                     slug.includes('email') ? 'Email' : 
+                     slug.toUpperCase();
 
   return (
     <div className="flex flex-col transition-colors duration-300">
@@ -112,7 +116,7 @@ export default function CompressorClient({ data, slug }: { data: SEOData, slug: 
       </section>
 
       {/* ─── Main Structure Sections ─── */}
-      <StatsStrip />
+      <TrustAndStats />
       
       {/* How it works with SEO Data */}
       <section id="how-it-works" className="py-20 bg-[var(--background)]">
@@ -136,7 +140,7 @@ export default function CompressorClient({ data, slug }: { data: SEOData, slug: 
         </div>
       </section>
 
-      <Features />
+      <Features context={contextName} />
       <Visualizer />
 
       {/* FAQ with SEO Data */}
@@ -159,9 +163,9 @@ export default function CompressorClient({ data, slug }: { data: SEOData, slug: 
         </div>
       </section>
 
-      <AllTools />
-      <WhyChoose />
-      <SupportedFormats />
+      <AllTools context={contextName} />
+      <WhyChoose context={contextName} />
+      <SupportedFormats highlight={contextName} />
       <CtaBanner />
       <RelatedTools exclude="compressor" />
       

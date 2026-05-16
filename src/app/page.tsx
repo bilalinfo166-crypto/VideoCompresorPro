@@ -13,7 +13,7 @@ import { RelatedTools } from "@/components/layout/RelatedTools";
 import { SocialShare } from "@/components/layout/SocialShare";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { AuthorBlock } from "@/components/layout/AuthorBlock";
-import { StatsStrip } from "@/components/home/StatsStrip";
+import { TrustAndStats } from "@/components/layout/TrustAndStats";
 import { Features } from "@/components/home/Features";
 import { Comparison } from "@/components/home/Comparison";
 import { HowItWorks } from "@/components/home/HowItWorks";
@@ -150,97 +150,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─── Trusted By ─── */}
-      <section className="py-12 border-b border-[var(--card-border)] bg-[var(--background)] relative overflow-hidden">
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="text-center mb-8">
-            <h2 className="text-xl md:text-2xl font-bold text-[var(--foreground)] mb-2">{t("trusted.title")}</h2>
-            <p className="text-[var(--muted-text)] text-sm md:text-base font-medium max-w-2xl mx-auto">{t("trusted.desc")}</p>
-          </div>
-          
-          <div className="w-full max-w-5xl mx-auto mask-image-gradient-x overflow-hidden">
-            <div className="animate-marquee flex w-max items-center gap-16 md:gap-24 py-4">
-              {/* First Set */}
-              <div className="flex items-center gap-2 text-2xl font-black text-slate-400/50 hover:text-white transition-colors duration-300">
-                <Play className="w-8 h-8 fill-red-500 text-red-500" /> YouTube
-              </div>
-              <div className="text-2xl font-bold text-slate-400/50 hover:text-white transition-colors duration-300 font-serif italic">
-                Instagram
-              </div>
-              <div className="flex items-center gap-1 text-2xl font-bold text-slate-400/50 hover:text-white transition-colors duration-300 tracking-tighter">
-                <span className="text-blue-500">G</span><span className="text-red-500">o</span><span className="text-yellow-500">o</span><span className="text-blue-500">g</span><span className="text-green-500">l</span><span className="text-red-500">e</span>
-              </div>
-              <div className="text-3xl font-black text-red-600 tracking-wider hover:text-red-500 transition-colors duration-300">
-                NETFLIX
-              </div>
-              <div className="text-2xl font-bold text-cyan-400 opacity-60 hover:opacity-100 transition-colors duration-300">
-                Canva
-              </div>
-              <div className="flex items-center gap-2 text-2xl font-bold text-blue-500 opacity-60 hover:opacity-100 transition-colors duration-300">
-                <Shield className="w-6 h-6 fill-current" /> Dropbox
-              </div>
-              <div className="flex items-center gap-2 text-2xl font-bold text-emerald-500 opacity-60 hover:opacity-100 transition-colors duration-300">
-                WhatsApp
-              </div>
-              <div className="text-2xl font-black text-blue-500 opacity-60 hover:opacity-100 transition-colors duration-300 tracking-tight">
-                zoom
-              </div>
-              <div className="flex items-center gap-2 text-2xl font-bold text-red-600 opacity-60 hover:opacity-100 transition-colors duration-300">
-                <Play className="w-6 h-6 fill-current" /> TikTok
-              </div>
-              <div className="flex items-center gap-2 text-2xl font-bold text-indigo-500 opacity-60 hover:opacity-100 transition-colors duration-300">
-                Adobe
-              </div>
-              <div className="flex items-center gap-2 text-2xl font-bold text-purple-600 opacity-60 hover:opacity-100 transition-colors duration-300 font-black italic">
-                Twitch
-              </div>
-              <div className="flex items-center gap-2 text-2xl font-bold text-blue-700 opacity-60 hover:opacity-100 transition-colors duration-300">
-                LinkedIn
-              </div>
+      <TrustAndStats />
 
-              {/* Duplicate Set for infinite loop */}
-              <div className="flex items-center gap-2 text-2xl font-black text-slate-400/50 hover:text-white transition-colors duration-300">
-                <Play className="w-8 h-8 fill-red-500 text-red-500" /> YouTube
-              </div>
-              <div className="text-2xl font-bold text-slate-400/50 hover:text-white transition-colors duration-300 font-serif italic">
-                Instagram
-              </div>
-              <div className="flex items-center gap-1 text-2xl font-bold text-slate-400/50 hover:text-white transition-colors duration-300 tracking-tighter">
-                <span className="text-blue-500">G</span><span className="text-red-500">o</span><span className="text-yellow-500">o</span><span className="text-blue-500">g</span><span className="text-green-500">l</span><span className="text-red-500">e</span>
-              </div>
-              <div className="text-3xl font-black text-red-600 tracking-wider hover:text-red-500 transition-colors duration-300">
-                NETFLIX
-              </div>
-              <div className="text-2xl font-bold text-cyan-400 opacity-60 hover:opacity-100 transition-colors duration-300">
-                Canva
-              </div>
-              <div className="flex items-center gap-2 text-2xl font-bold text-blue-500 opacity-60 hover:opacity-100 transition-colors duration-300">
-                <Shield className="w-6 h-6 fill-current" /> Dropbox
-              </div>
-              <div className="flex items-center gap-2 text-2xl font-bold text-emerald-500 opacity-60 hover:opacity-100 transition-colors duration-300">
-                WhatsApp
-              </div>
-              <div className="text-2xl font-black text-blue-500 opacity-60 hover:opacity-100 transition-colors duration-300 tracking-tight">
-                zoom
-              </div>
-              <div className="flex items-center gap-2 text-2xl font-bold text-red-600 opacity-60 hover:opacity-100 transition-colors duration-300">
-                <Play className="w-6 h-6 fill-current" /> TikTok
-              </div>
-              <div className="flex items-center gap-2 text-2xl font-bold text-indigo-500 opacity-60 hover:opacity-100 transition-colors duration-300">
-                Adobe
-              </div>
-              <div className="flex items-center gap-2 text-2xl font-bold text-purple-600 opacity-60 hover:opacity-100 transition-colors duration-300 font-black italic">
-                Twitch
-              </div>
-              <div className="flex items-center gap-2 text-2xl font-bold text-blue-700 opacity-60 hover:opacity-100 transition-colors duration-300">
-                LinkedIn
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <StatsStrip />
       <Features />
       <FeatureGrid />
       <UseCases />

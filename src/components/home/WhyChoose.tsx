@@ -4,8 +4,20 @@ import Image from "next/image";
 import { Shield, CheckCircle2 } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
-export function WhyChoose() {
+interface WhyChooseProps {
+  title?: string;
+  description?: string;
+  context?: string;
+}
+
+export function WhyChoose({ title, description, context }: WhyChooseProps) {
   const { t } = useLanguage();
+
+  const displayTitle = title || (context 
+    ? `Private ${context.toUpperCase()} Compression Without Upload Risks`
+    : t("why_choose.title"));
+    
+  const displayDesc = description || t("why_choose.desc");
 
   return (
     <section className="py-24 bg-[var(--background)]">
@@ -13,15 +25,15 @@ export function WhyChoose() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-indigo-700 text-sm mb-6 font-bold">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-indigo-700 text-sm mb-6 font-bold uppercase tracking-wider">
                 <Shield className="w-4 h-4" aria-hidden="true" />
-                {t("common.privacy_first")}
+                {context ? `${context} Optimization` : t("common.privacy_first")}
               </div>
-              <h2 className="text-4xl font-black mb-6 leading-tight text-[var(--foreground)]">
-                {t("why_choose.title")}
+              <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight text-[var(--foreground)]">
+                {displayTitle}
               </h2>
               <p className="text-[var(--muted-text)] text-lg leading-relaxed mb-8 font-medium">
-                {t("why_choose.desc")}
+                {displayDesc}
               </p>
               <ul className="space-y-4">
                 {[
@@ -41,11 +53,11 @@ export function WhyChoose() {
               <div className="absolute inset-0 bg-indigo-600/20 rounded-3xl blur-3xl" />
               <Image
                 src="/privacy-illustration.png"
-                alt="Privacy illustration"
+                alt={context ? `Private ${context} compression` : "Privacy illustration"}
                 width={500}
                 height={400}
                 sizes="(max-width: 768px) 100vw, 500px"
-                className="relative z-10 rounded-2xl w-full object-cover"
+                className="relative z-10 rounded-2xl w-full object-cover shadow-2xl"
               />
             </div>
           </div>
