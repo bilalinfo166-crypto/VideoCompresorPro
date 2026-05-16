@@ -14,48 +14,41 @@ export function TrustAndStats() {
   const { t } = useLanguage();
 
   return (
-    <section className="py-20 bg-[var(--background)] border-y border-[var(--card-border)] relative overflow-hidden">
+    <section className="py-16 bg-[var(--background)] border-y border-[var(--card-border)] relative overflow-hidden">
       {/* Background Glows */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-blue-600/5 rounded-full blur-[120px] pointer-events-none" />
       
       <div className="container mx-auto px-4 relative z-10">
-        {/* Header */}
-        <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-5xl font-black mb-6 text-[var(--foreground)] tracking-tight">
-            {t("trusted.title")}
-          </h2>
-          <p className="text-[var(--muted-text)] text-lg font-medium leading-relaxed">
-            {t("trusted.desc")}
-          </p>
+        {/* Logos Row - Simple & Clean */}
+        <div className="flex flex-wrap justify-center items-center gap-10 md:gap-20 mb-16 opacity-40 grayscale hover:opacity-100 transition-all duration-700">
+          <div className="flex items-center gap-2 text-xl font-black text-slate-400">
+            <Play className="w-6 h-6 fill-current text-slate-500" /> TikTok
+          </div>
+          <div className="flex items-center gap-2 text-xl font-black text-slate-400">
+            <Activity className="w-6 h-6 fill-current text-slate-500" /> Adobe
+          </div>
+          <div className="flex items-center gap-2 text-xl font-black text-slate-400">
+            <div className="w-6 h-6 bg-slate-500 rounded-sm" /> Twitch
+          </div>
+          <div className="flex items-center gap-2 text-xl font-black text-slate-400">
+            <Linkedin className="w-6 h-6 fill-current text-slate-500" /> LinkedIn
+          </div>
+          <div className="flex items-center gap-2 text-xl font-black text-slate-400">
+            <Youtube className="w-6 h-6 fill-current text-slate-500" /> YouTube
+          </div>
         </div>
 
-        {/* Logos Row */}
-        <div className="flex flex-wrap justify-center items-center gap-12 md:gap-20 mb-24 opacity-60 grayscale hover:grayscale-0 transition-all duration-700">
-          <div className="flex items-center gap-2 text-2xl font-black text-slate-400 hover:text-[#ff0050] transition-colors">
-            <Play className="w-8 h-8 fill-current" /> TikTok
-          </div>
-          <div className="flex items-center gap-2 text-2xl font-black text-slate-400 hover:text-[#FF0000] transition-colors">
-            <Activity className="w-8 h-8 fill-current" /> Adobe
-          </div>
-          <div className="flex items-center gap-2 text-2xl font-black text-slate-400 hover:text-[#9146FF] transition-colors">
-            <Twitch className="w-8 h-8 fill-current" /> Twitch
-          </div>
-          <div className="flex items-center gap-2 text-2xl font-black text-slate-400 hover:text-[#0A66C2] transition-colors">
-            <Linkedin className="w-8 h-8 fill-current" /> LinkedIn
-          </div>
-          <div className="flex items-center gap-2 text-2xl font-black text-slate-400 hover:text-[#FF0000] transition-colors">
-            <Youtube className="w-8 h-8 fill-current" /> YouTube
-          </div>
-        </div>
+        {/* Divider Line like the image */}
+        <div className="w-full h-px bg-gradient-to-r from-transparent via-[var(--card-border)] to-transparent mb-16" />
 
         {/* Stats Row */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-12 border-t border-[var(--card-border)] pt-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
           {STATS.map((s) => (
             <div key={s.label} className="text-center group">
-              <div className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 mb-4 group-hover:scale-110 transition-transform duration-300">
+              <div className="text-4xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-b from-blue-500 to-indigo-600 mb-3 group-hover:scale-105 transition-transform">
                 {s.value}
               </div>
-              <div className="text-[var(--muted-text)] text-xs md:text-sm font-black uppercase tracking-[0.2em]">
+              <div className="text-[var(--muted-text)] text-[10px] md:text-xs font-black uppercase tracking-[0.25em] opacity-80">
                 {t(s.label)}
               </div>
             </div>
