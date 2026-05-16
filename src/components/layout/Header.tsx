@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { Video, Menu, X, Globe, ChevronDown, Scissors, Crop, Music, FileVideo, FileAudio, Sun, Moon, Type, ArrowRight } from "lucide-react";
+import { Video, Menu, X, Globe, ChevronDown, Scissors, Crop, Music, FileVideo, FileAudio, Sun, Moon, Type, ArrowRight, User, LayoutDashboard, LogOut } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import { useTheme } from "@/context/ThemeContext";
 
@@ -51,6 +51,30 @@ export function Header() {
   const [mobileLangOpen, setMobileLangOpen] = useState(false);
   const { language, setLanguage, t } = useLanguage();
   const { theme, toggleTheme } = useTheme();
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [userEmail, setUserEmail] = useState("");
+
+  useEffect(() => {
+    const checkAuth = () => {
+      const loggedIn = localStorage.getItem("user_logged_in") === "true";
+      setIsLoggedIn(loggedIn);
+      if (loggedIn) {
+        setUserEmail(localStorage.getItem("user_email") || "User");
+      }
+    };
+
+    checkAuth();
+    window.addEventListener("auth_change", checkAuth);
+    return () => window.removeEventListener("auth_change", checkAuth);
+  }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem("user_logged_in");
+    localStorage.removeItem("user_email");
+    localStorage.removeItem("user_token");
+    setIsLoggedIn(false);
+    window.location.href = "/";
+  };
 
   // Lock body scroll when drawer is open
   useEffect(() => {
@@ -147,19 +171,40 @@ export function Header() {
                 )}
               </div>
 
-              <Link
-                href={getLocalizedHref('/login')}
-                className="hidden sm:block text-xs sm:text-sm font-bold text-[var(--foreground)] hover:text-blue-600 transition-colors touch-feedback"
-              >
-                Log In
-              </Link>
+              {isLoggedIn ? (
+                <div className="hidden sm:flex items-center gap-3">
+                   <Link
+                    href={getLocalizedHref('/dashboard')}
+                    className="flex items-center gap-2 px-4 py-2 bg-blue-600/10 text-blue-600 text-sm font-bold rounded-xl hover:bg-blue-600/20 transition-all border border-blue-600/20"
+                  >
+                    <LayoutDashboard className="w-4 h-4" />
+                    Dashboard
+                  </Link>
+                  <button
+                    onClick={handleLogout}
+                    className="p-2.5 text-[var(--muted-text)] hover:text-red-500 border border-[var(--card-border)] rounded-xl hover:bg-red-500/10 transition-all shadow-sm"
+                    title="Logout"
+                  >
+                    <LogOut className="w-4 h-4" />
+                  </button>
+                </div>
+              ) : (
+                <>
+                  <Link
+                    href={getLocalizedHref('/login')}
+                    className="hidden sm:block text-xs sm:text-sm font-bold text-[var(--foreground)] hover:text-blue-600 transition-colors touch-feedback"
+                  >
+                    Log In
+                  </Link>
 
-              <Link
-                href={getLocalizedHref('/signup')}
-                className="hidden sm:inline-flex px-6 py-2.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-xl transition-all shadow-md shadow-blue-500/20 whitespace-nowrap touch-feedback"
-              >
-                Sign Up
-              </Link>
+                  <Link
+                    href={getLocalizedHref('/signup')}
+                    className="hidden sm:inline-flex px-6 py-2.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-xl transition-all shadow-md shadow-blue-500/20 whitespace-nowrap touch-feedback"
+                  >
+                    Sign Up
+                  </Link>
+                </>
+              )}
 
               {/* Mobile Hamburger */}
               <button
@@ -233,21 +278,43 @@ export function Header() {
               </div>
 
               {/* Auth Buttons */}
-              <div className="grid grid-cols-2 gap-3 pt-2 pb-4 border-t border-[var(--card-border)]">
-                <Link
-                  href={getLocalizedHref('/login')}
-                  className="flex items-center justify-center py-3.5 text-sm font-bold text-[var(--foreground)] border border-[var(--card-border)] rounded-2xl hover:bg-white/5 active:scale-95 transition-all touch-feedback"
-                  onClick={closeDrawer}
-                >
-                  Log In
-                </Link>
-                <Link
-                  href={getLocalizedHref('/signup')}
-                  className="flex items-center justify-center py-3.5 text-sm font-bold text-white bg-blue-600 rounded-2xl hover:bg-blue-500 active:scale-95 shadow-lg shadow-blue-500/20 transition-all touch-feedback"
-                  onClick={closeDrawer}
-                >
-                  Sign Up
-                </Link>
+              <div className="pt-2 pb-4 border-t border-[var(--card-border)]">
+                {isLoggedIn ? (
+                  <div className="flex flex-col gap-2">
+                    <Link
+                      href={getLocalizedHref('/dashboard')}
+                      className="flex items-center justify-center gap-2 py-4 text-sm font-bold text-white bg-blue-600 rounded-2xl hover:bg-blue-500 active:scale-95 shadow-lg shadow-blue-500/20 transition-all touch-feedback"
+                      onClick={closeDrawer}
+                    >
+                      <LayoutDashboard className="w-4 h-4" />
+                      Go to Dashboard
+                    </Link>
+                    <button
+                      onClick={() => { handleLogout(); closeDrawer(); }}
+                      className="flex items-center justify-center gap-2 py-4 text-sm font-bold text-red-500 border border-red-500/20 rounded-2xl hover:bg-red-500/5 active:scale-95 transition-all touch-feedback"
+                    >
+                      <LogOut className="w-4 h-4" />
+                      Log Out
+                    </button>
+                  </div>
+                ) : (
+                  <div className="grid grid-cols-2 gap-3">
+                    <Link
+                      href={getLocalizedHref('/login')}
+                      className="flex items-center justify-center py-3.5 text-sm font-bold text-[var(--foreground)] border border-[var(--card-border)] rounded-2xl hover:bg-white/5 active:scale-95 transition-all touch-feedback"
+                      onClick={closeDrawer}
+                    >
+                      Log In
+                    </Link>
+                    <Link
+                      href={getLocalizedHref('/signup')}
+                      className="flex items-center justify-center py-3.5 text-sm font-bold text-white bg-blue-600 rounded-2xl hover:bg-blue-500 active:scale-95 shadow-lg shadow-blue-500/20 transition-all touch-feedback"
+                      onClick={closeDrawer}
+                    >
+                      Sign Up
+                    </Link>
+                  </div>
+                )}
               </div>
 
               {/* Language Section */}
