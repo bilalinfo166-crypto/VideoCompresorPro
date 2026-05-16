@@ -36,7 +36,7 @@ export function TrustAndStats() {
            <p className="text-[var(--muted-text)] text-sm md:text-base font-medium max-w-2xl mx-auto">{t("trusted.desc")}</p>
         </div>
         
-        <div className="w-full max-w-5xl mx-auto mask-image-gradient-x overflow-hidden">
+        <div className="w-full max-w-5xl mx-auto mask-image-gradient-x overflow-hidden" dir="ltr">
           <div className="animate-marquee flex w-max items-center gap-16 md:gap-24 py-4">
             {[...LOGOS, ...LOGOS].map((logo, i) => (
               <div key={i} className={`flex items-center gap-2 text-2xl font-bold transition-all duration-300 ${logo.color || 'text-slate-400/50 hover:text-white'}`}>

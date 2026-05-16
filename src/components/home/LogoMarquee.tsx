@@ -26,7 +26,7 @@ export function LogoMarquee() {
       <div className="container mx-auto px-4 text-center mb-8">
          <h2 className="text-xl md:text-2xl font-bold text-[var(--foreground)]">{t("trusted.title")}</h2>
       </div>
-      <div className="w-full mask-image-gradient-x overflow-hidden">
+      <div className="w-full mask-image-gradient-x overflow-hidden" dir="ltr">
         <div className="animate-marquee flex w-max items-center gap-16 md:gap-24 py-4">
           {[...LOGOS, ...LOGOS].map((logo, i) => (
             <div key={i} className={`flex items-center gap-2 text-2xl font-bold transition-all duration-300 ${logo.color || 'text-slate-400/50 hover:text-white'}`}>
