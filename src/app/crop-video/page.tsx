@@ -16,10 +16,10 @@ const VideoCropper = dynamic(
 );
 
 const SOCIAL_PLATFORMS = [
-  { name: "Instagram", icon: Instagram, color: "text-pink-500", desc: "Reels & Stories" },
-  { name: "TikTok", icon: Video, color: "text-emerald-400", desc: "For You Page" },
-  { name: "YouTube", icon: Youtube, color: "text-red-500", desc: "Shorts & Videos" },
-  { name: "Facebook", icon: Facebook, color: "text-blue-500", desc: "Feed & Stories" },
+  { id: "ig", icon: Instagram, color: "text-pink-500" },
+  { id: "tt", icon: Video, color: "text-emerald-400" },
+  { id: "yt", icon: Youtube, color: "text-red-500" },
+  { id: "fb", icon: Facebook, color: "text-blue-500" },
 ];
 
 const FEATURES = [
@@ -128,17 +128,26 @@ export default function CropVideoPage() {
 
       {/* ─── Social Platforms ─── */}
       <section id="social-aspects" className="py-20 bg-[var(--background)] border-y border-[var(--card-border)] relative">
-        <div className="container mx-auto px-4 relative z-10 text-center">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4 text-[var(--foreground)]">{t("cropper_page.social_title")}</h2>
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="text-center mb-16 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-extrabold mb-6 text-[var(--foreground)] tracking-tight">{t("cropper_page.social_title")}</h2>
+            <p className="text-[var(--muted-text)] font-medium text-lg leading-relaxed">{t("cropper_page.social_desc")}</p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
             {SOCIAL_PLATFORMS.map((p) => (
-              <div key={p.name} className="glass-card p-8 rounded-3xl border border-[var(--card-border)] flex flex-col items-center text-center group hover:bg-white/5 transition-all">
-                <p.icon className={`w-12 h-12 ${p.color} mb-4 group-hover:scale-110 transition-transform`} />
-                <h3 className="font-bold text-[var(--foreground)] mb-1">{p.name}</h3>
-                <p className="text-[11px] text-[var(--muted-text)] uppercase font-black tracking-widest">{p.desc}</p>
-
+              <div key={p.id} className="glass-card p-8 rounded-3xl border border-[var(--card-border)] flex flex-col items-center text-center group hover:bg-white/5 transition-all">
+                <div className="mb-6 p-4 rounded-2xl bg-white/5 group-hover:bg-white/10 transition-colors">
+                  <p.icon className={`w-10 h-10 ${p.color} group-hover:scale-110 transition-transform`} />
+                </div>
+                <h3 className="font-bold text-[var(--foreground)] mb-3 text-lg">{t(`cropper_page.${p.id}_title`)}</h3>
+                <p className="text-sm text-[var(--muted-text)] mb-6 leading-relaxed opacity-80 group-hover:opacity-100 transition-opacity">
+                  {t(`cropper_page.${p.id}_desc`)}
+                </p>
+                <div className="mt-auto pt-4 border-t border-[var(--card-border)] w-full">
+                  <p className="text-[10px] text-indigo-400 uppercase font-black tracking-widest">
+                    {t(`cropper_page.${p.id}_tags`)}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
@@ -195,16 +204,24 @@ export default function CropVideoPage() {
 
       {/* ─── Features Grid ─── */}
       <section id="features" className="py-24 bg-[var(--background)]">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-16 text-[var(--foreground)]">{t("cropper_page.features_title")}</h2>
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-extrabold mb-6 text-[var(--foreground)] tracking-tight">{t("cropper_page.features_title")}</h2>
+            <p className="text-[var(--muted-text)] font-medium text-lg leading-relaxed">{t("cropper_page.features_desc")}</p>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {FEATURES.map((f) => (
-              <div key={f.id} className="glass-card p-10 rounded-[32px] border border-[var(--card-border)] hover:border-indigo-500/30 transition-all">
-                <div className="w-14 h-14 bg-indigo-500/10 rounded-2xl flex items-center justify-center mb-8 mx-auto">
+              <div key={f.id} className="glass-card p-10 rounded-[32px] border border-[var(--card-border)] hover:border-indigo-500/30 transition-all flex flex-col h-full">
+                <div className="w-14 h-14 bg-indigo-500/10 rounded-2xl flex items-center justify-center mb-8">
                   <f.icon className="w-7 h-7 text-indigo-500" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-[var(--foreground)]">{t(`cropper_page.f${f.id}_title`)}</h3>
-                <p className="text-[var(--muted-text)] text-sm leading-relaxed font-medium">{t(`cropper_page.f${f.id}_desc`)}</p>
+                <p className="text-[var(--muted-text)] text-sm leading-relaxed font-medium mb-8">{t(`cropper_page.f${f.id}_desc`)}</p>
+                <div className="mt-auto pt-6 border-t border-[var(--card-border)]">
+                  <p className="text-[10px] text-indigo-400 uppercase font-black tracking-widest leading-tight">
+                    {t(`cropper_page.f${f.id}_tags`)}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
@@ -214,7 +231,10 @@ export default function CropVideoPage() {
       {/* ─── Steps ─── */}
       <section id="how-to-use" className="py-24 bg-[var(--background)] border-y border-[var(--card-border)]">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-16 text-[var(--foreground)]">{t("cropper_page.steps_title")}</h2>
+          <div className="max-w-3xl mx-auto mb-16">
+            <h2 className="text-4xl font-extrabold mb-6 text-[var(--foreground)] tracking-tight">{t("cropper_page.steps_title")}</h2>
+            <p className="text-[var(--muted-text)] font-medium text-lg leading-relaxed">{t("cropper_page.steps_desc")}</p>
+          </div>
           <div className="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto">
              {STEPS.map(s => (
                <div key={s.number} className="text-center group">
