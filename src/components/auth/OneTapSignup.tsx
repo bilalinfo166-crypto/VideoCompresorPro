@@ -10,10 +10,10 @@ export function OneTapSignup() {
     const handleOneTap = () => {
       if (typeof window === "undefined" || !window.google) return;
 
-      const hasSeenInSession = sessionStorage.getItem("one_tap_dismissed");
+      const hasSeen = localStorage.getItem("one_tap_dismissed");
       const isLoggedIn = localStorage.getItem("user_logged_in");
 
-      if (hasSeenInSession || isLoggedIn) return;
+      if (hasSeen || isLoggedIn) return;
 
       const clientId = process.env.NEXT_PUBLIC_GOOGLE_DRIVE_CLIENT_ID || "969090107342-r11haf11a8q75tq03s27nqh9rd4ko5pf.apps.googleusercontent.com";
 
@@ -52,8 +52,8 @@ export function OneTapSignup() {
           console.warn("One Tap skipped:", notification.getSkippedReason());
         }
         if (notification.isDismissedMoment()) {
-          // If user clicks X, save to session so it doesn't show again in THIS tab/session
-          sessionStorage.setItem("one_tap_dismissed", "true");
+          // Save to localStorage so it doesn't show again in ANY tab
+          localStorage.setItem("one_tap_dismissed", "true");
         }
       });
     };
