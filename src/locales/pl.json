@@ -880,5 +880,112 @@
     "i6_p1": "Compress long recordings",
     "i6_p2": "Easier file transfers",
     "i6_p3": "Better storage management"
+  },
+  "pseo": {
+    "mp4": {
+      "title": "Kompresja MP4 Online - Zmniejsz Rozmiar Pliku MP4 Bez Utraty Jakości",
+      "description": "Kompresuj wideo MP4 online za darmo. Szybko zmniejsz rozmiar pliku MP4 bez znaków wodnych. Idealne do udostępniania na telefonie, przez e-mail i w mediach społecznościowych.",
+      "h1": "Szybki Kompresor Wideo MP4",
+      "heroText": "Najbardziej zaufany kompresor MP4 na świecie. Zmniejsz swoje pliki MP4 w kilka sekund, zachowując oszałamiającą jakość 1080p/4K.",
+      "introText": "MP4 to najpopularniejszy format wideo, ale pliki w wysokiej rozdzielczości mogą być ogromne. Nasz inteligentny silnik kompresji analizuje przepływność MP4, aby zapewnić idealną równowagę między rozmiarem pliku a klarownością obrazu.",
+      "features": [
+        { "title": "Bez Utraty Jakości", "desc": "Zaawansowane kodowanie libx264 gwarantuje, że Twoje MP4 pozostanie ostre." },
+        { "title": "Uniwersalne Odtwarzanie", "desc": "Skompresowane MP4 działają na wszystkich iPhone'ach, Androidach i Smart TV." },
+        { "title": "Prywatność Przede Wszystkim", "desc": "Twoje pliki nigdy nie opuszczają przeglądarki. W 100% bezpieczne przetwarzanie." }
+      ],
+      "steps": [
+        { "title": "Prześlij MP4", "desc": "Przeciągnij i upuść plik MP4 do pola kompresora." },
+        { "title": "Wybierz Rozmiar", "desc": "Wybierz żądany rozmiar wyjściowy w MB." },
+        { "title": "Kompresuj i Zapisz", "desc": "Natychmiast pobierz zoptymalizowane MP4." }
+      ],
+      "faqs": [
+        { "q": "Czy moje MP4 straci na jakości?", "a": "Nie, używamy wysokowydajnych współczynników stałej szybkości, aby utrzymać integralność wizualną." },
+        { "q": "Czy istnieje limit rozmiaru?", "a": "Możesz kompresować pliki MP4 o rozmiarze do 5 GB za darmo." }
+      ]
+    },
+    "mov": {
+      "title": "Kompresja MOV Online - Szybko Zmniejsz Wideo Apple QuickTime",
+      "description": "Kompresuj pliki MOV online. Zmniejsz rozmiar wideo Apple MOV dla szybszego udostępniania i przechowywania. Wysokiej jakości kompresja QuickTime bez znaków wodnych.",
+      "h1": "Profesjonalny Kompresor MOV",
+      "heroText": "Pliki Apple MOV są znane ze swoich dużych rozmiarów. Nasze narzędzie optymalizuje przepływność MOV dla potrzeb internetu bez poświęcania charakterystycznej jakości Apple.",
+      "introText": "Pliki QuickTime (MOV) nagrane na iPhone'ach lub komputerach Mac często zajmują gigabajty miejsca. Pomożemy Ci je błyskawicznie przekonwertować i skompresować do wydajnych formatów internetowych.",
+      "features": [
+        { "title": "Zoptymalizowane dla Apple", "desc": "Specjalnie dostrojone do plików ProRes i H.264 MOV o wysokiej przepływności." },
+        { "title": "Gotowe do Internetu", "desc": "Konwertuj ciężkie pliki MOV na lekkie wersje idealne do streamingu." },
+        { "title": "Zero Czekania", "desc": "Szybkie przetwarzanie w przeglądarce, bez konieczności przesyłania na serwer." }
+      ],
+      "steps": [
+        { "title": "Importuj MOV", "desc": "Wybierz plik .mov ze swojego komputera Mac lub iPhone'a." },
+        { "title": "Dostosuj Rozmiar", "desc": "Wybierz rozmiar docelowy dostosowany do Twoich potrzeb." },
+        { "title": "Eksportuj", "desc": "Zapisz skompresowane wideo w kilka sekund." }
+      ],
+      "faqs": [
+        { "q": "Czy mogę używać tego na iPhone?", "a": "Tak, nasze narzędzie jest w pełni kompatybilne z przeglądarką Safari na iOS w zakresie kompresji MOV." },
+        { "q": "Czy obsługuje MOV 4K?", "a": "Oczywiście, z łatwością przetwarzamy pliki MOV 4K 60 kl./s." }
+      ]
+    },
+    "video-for-whatsapp": {
+      "title": "Kompresja Wideo dla WhatsApp Online - Łatwo Przesyłaj Duże Pliki",
+      "description": "Kompresuj wideo dla WhatsApp online. Zmniejsz pliki poniżej 16 MB lub 64 MB, aby obejść limity WhatsApp. Bez znaków wodnych, 100% za darmo.",
+      "h1": "Kompresor Wideo dla WhatsApp",
+      "heroText": "Zapomnij o błędzie 'Plik jest zbyt duży' w aplikacji WhatsApp. Skompresuj swoje filmy tak, aby idealnie mieściły się w limicie 16 MB lub 64 MB.",
+      "introText": "WhatsApp ma surowe limity rozmiaru plików (16 MB dla urządzeń mobilnych, 64 MB dla wersji web). Nasze narzędzie automatycznie optymalizuje Twoje wideo, aby spełniało te limity przy zachowaniu wyraźnego obrazu.",
+      "features": [
+        { "title": "Obejdź Limity", "desc": "Automatycznie osiągnij cel 16 MB lub 64 MB dla WhatsApp." },
+        { "title": "Natychmiastowe Udostępnianie", "desc": "Skompresowane pliki są gotowe do natychmiastowego przesłania dalej w WhatsApp." },
+        { "title": "Przyjazne dla Grup", "desc": "Mniejsze pliki oznaczają szybsze przesyłanie i pobieranie w czatach grupowych." }
+      ],
+      "steps": [
+        { "title": "Wybierz Wideo", "desc": "Wybierz film, który chcesz wysłać przez WhatsApp." },
+        { "title": "Wybierz Limit", "desc": "Ustaw cel na 15 MB dla bezpieczeństwa w wersji mobilnej WhatsApp." },
+        { "title": "Pobierz i Wyślij", "desc": "Udostępnij swój film bez ostrzeżeń o przekroczeniu limitu." }
+      ],
+      "faqs": [
+        { "q": "Jaki jest limit plików w WhatsApp?", "a": "Limit mobilny to 16 MB, natomiast WhatsApp Web obsługuje do 64 MB." },
+        { "q": "Czy wideo będzie rozmazane?", "a": "Nie, optymalizujemy rozdzielczość, aby zapewnić świetny wygląd na ekranach telefonów." }
+      ]
+    },
+    "video-for-discord": {
+      "title": "Kompresja Wideo dla Discord Online - Obejdź Limit 8 MB / 25 MB",
+      "description": "Kompresuj wideo dla Discord za darmo. Zmniejsz duże filmy, aby mieściły się w limitach 8 MB (Nitro Basic) lub 25 MB. Wysokiej jakości optymalizator wideo Discord.",
+      "h1": "Kompresor Wideo dla Discord",
+      "heroText": "Masz dość komunikatów Discord Nitro? Skompresuj swoje memy i klipy, aby natychmiast mieściły się w darmowym limicie 8 MB lub 25 MB.",
+      "introText": "Limity przesyłania w Discord to koszmar każdego gracza. Niezależnie od tego, czy potrzebujesz pliku 8 MB dla darmowych użytkowników, czy 25 MB dla Nitro Basic, nasze narzędzie zapewnia wysoką jakość klipów.",
+      "features": [
+        { "title": "Przyjazne dla Nitro", "desc": "Predefiniowane ustawienia dla limitów Discord: 8 MB, 25 MB i 50 MB." },
+        { "title": "Gotowe dla Graczy", "desc": "Idealne dla klipów z gier o wysokiej liczbie klatek z OBS lub Shadowplay." },
+        { "title": "Automatyczna Zmiana Rozmiaru", "desc": "Dostosowuje wymiary, aby plik zmieścił się w małym limicie Discord." }
+      ],
+      "steps": [
+        { "title": "Prześlij Klip", "desc": "Przeciągnij swój klip z gry lub mem do pola." },
+        { "title": "Ustaw Cel 8 MB", "desc": "Użyj suwaka, aby trafić dokładnie w granicę 8 MB." },
+        { "title": "Udostępnij na Discord", "desc": "Opublikuj swój film na dowolnym kanale bez Nitro." }
+      ],
+      "faqs": [
+        { "q": "Jaki jest darmowy limit w Discord?", "a": "Discord niedawno zwiększył darmowy limit do 25 MB dla większości użytkowników, ale 8 MB jest wciąż bezpieczniejsze na niektórych serwerach." },
+        { "q": "Czy obsługuje .webm?", "a": "Tak, zalecamy .webm dla Discord, ponieważ zapewnia lepszą kompresję przy małych rozmiarach." }
+      ]
+    },
+    "video-for-email": {
+      "title": "Kompresja Wideo dla E-mail Online - Szybko Wysyłaj Duże Załączniki",
+      "description": "Kompresuj wideo dla E-mail (Gmail, Outlook, Yahoo). Zmniejsz rozmiar wideo poniżej 25 MB dla łatwych załączników. Wysyłaj duże filmy e-mailem za darmo.",
+      "h1": "Kompresor Wideo dla E-mail",
+      "heroText": "Wysyłaj filmy e-mailem bez korzystania z Google Drive czy Dropbox. Zmniejsz swoje pliki, aby mieściły się w limicie załączników e-mail 25 MB.",
+      "introText": "Większość dostawców e-mail, takich jak Gmail i Outlook, ma limit 25 MB. Nasze narzędzie optymalizuje Twoje filmy biznesowe lub klipy rodzinne, aby idealnie pasowały do wiadomości e-mail.",
+      "features": [
+        { "title": "Zgodne z Gmail", "desc": "Pozostaje poniżej limitu 25 MB dla bezproblemowych załączników." },
+        { "title": "Jakość Pro", "desc": "Zachowuje ostrość Twoich prezentacji biznesowych i samouczków." },
+        { "title": "Wieloplatformowe", "desc": "Działa we wszystkich przeglądarkach, w tym Outlook i Yahoo Mail." }
+      ],
+      "steps": [
+        { "title": "Dodaj Załącznik", "desc": "Wybierz duży plik wideo, który chcesz wysłać e-mailem." },
+        { "title": "Ustaw Limit 24 MB", "desc": "Celuj w 24 MB, aby mieć pewność, że zmieści się w limicie e-mail 25 MB." },
+        { "title": "Załącz i Wyślij", "desc": "Pobierz plik i załącz go bezpośrednio do swojego e-maila." }
+      ],
+      "faqs": [
+        { "q": "Jaki jest limit załączników w Gmail?", "a": "Gmail pozwala na maksymalnie 25 MB na e-mail. Jeśli plik jest większy, wymusza użycie linku do Google Drive." },
+        { "q": "O ile mogę zmniejszyć wideo?", "a": "Często możemy zmniejszyć wideo z 200 MB do 24 MB, zachowując przy tym bardzo dobrą jakość obrazu." }
+      ]
+    }
   }
 }

@@ -880,5 +880,112 @@
     "i6_p1": "Compress long recordings",
     "i6_p2": "Easier file transfers",
     "i6_p3": "Better storage management"
+  },
+  "pseo": {
+    "mp4": {
+      "title": "Pakkaa MP4 verkossa - Pienennä MP4-tiedostokokoa ilman laadun heikkenemistä",
+      "description": "Pakkaa MP4-videoita verkossa ilmaiseksi. Pienennä MP4-tiedostokokoa nopeasti ilman vesileimoja. Täydellinen mobiilijakoon, sähköpostiin ja sosiaaliseen mediaan.",
+      "h1": "Nopea MP4-videopakkaus",
+      "heroText": "Maailman luotetuin MP4-pakkaus. Pienennä MP4-tiedostojasi sekunneissa säilyttäen upean 1080p/4K-laadun.",
+      "introText": "MP4 on suosituin videomuoto, mutta korkean resoluution MP4-tiedostot voivat olla valtavia. Älykäs pakkausmoottorimme analysoi MP4-bittinopeutesi tarjotakseen täydellisen tasapainon tiedostokoon ja visuaalisen selkeyden välillä.",
+      "features": [
+        { "title": "Ei laadun heikkenemistä", "desc": "Edistynyt libx264-koodaus varmistaa, että MP4 pysyy terävänä." },
+        { "title": "Yleinen toisto", "desc": "Pakatut MP4-videot toimivat kaikilla iPhoneilla, Android-laitteilla ja älytelevisioilla." },
+        { "title": "Yksityisyys ensin", "desc": "Tiedostosi eivät koskaan poistu selaimestasi. 100 % turvallinen käsittely." }
+      ],
+      "steps": [
+        { "title": "Lataa MP4", "desc": "Vedä ja pudota MP4-tiedostosi pakkausruutuun." },
+        { "title": "Aseta tavoitekoko", "desc": "Valitse haluamasi tuloskoko megatavuina." },
+        { "title": "Pakkaa ja tallenna", "desc": "Lataa optimoitu MP4-videosi välittömästi." }
+      ],
+      "faqs": [
+        { "q": "Menettääkö MP4-videoni laatua?", "a": "Ei, käytämme tehokkaita vakiotaso-tekijöitä visuaalisen eheyden säilyttämiseksi." },
+        { "q": "Onko tiedostokoolla rajoitusta?", "a": "Voit pakata MP4-tiedostoja jopa 5 Gt asti ilmaiseksi." }
+      ]
+    },
+    "mov": {
+      "title": "Pakkaa MOV verkossa - Pienennä Apple QuickTime -videoita nopeasti",
+      "description": "Pakkaa MOV-tiedostoja verkossa. Pienennä Apple MOV -videoiden kokoa nopeampaa jakoa ja tallennusta varten. Korkealaatuinen QuickTime-pakkaus ilman vesileimoja.",
+      "h1": "Pro MOV -videopakkaus",
+      "heroText": "Apple MOV -tiedostot ovat tunnetusti suuria. Työkalumme optimoi MOV-bittinopeudet verkkoa varten uhraamatta Applen tunnusomaista laatua.",
+      "introText": "iPhone- tai Mac-laitteilla tallennetut QuickTime (MOV) -tiedostot vievät usein gigatavuja tilaa. Autamme sinua muuntamaan ja pakkaamaan ne välittömästi tehokkaiksi, verkkokäyttöön sopiviksi muodoiksi.",
+      "features": [
+        { "title": "Apple-optimoitu", "desc": "Erityisesti viritetty korkean bittinopeuden ProRes- ja H.264 MOV -tiedostoille." },
+        { "title": "Verkkovalmis", "desc": "Muunna tilaa vievät MOV-tiedostot suoratoistoon sopiviksi, kevyiksi versioiksi." },
+        { "title": "Ei odotusta", "desc": "Nopea selainpohjainen käsittely, palvelimelle lataamista ei vaadita." }
+      ],
+      "steps": [
+        { "title": "Tuo MOV", "desc": "Valitse .mov-tiedostosi Macista tai iPhonesta." },
+        { "title": "Säädä kokoa", "desc": "Valitse tavoitekoko, joka sopii jakotarpeisiisi." },
+        { "title": "Vie", "desc": "Tallenna pakattu videosi sekunneissa." }
+      ],
+      "faqs": [
+        { "q": "Voinko käyttää tätä iPhonessa?", "a": "Kyllä, työkalumme on täysin yhteensopiva iOS:n Safarin kanssa MOV-pakkaukseen." },
+        { "q": "Tukeeko se 4K MOV -tiedostoja?", "a": "Ehdottomasti, käsittelemme 4K 60fps MOV -tiedostot helposti." }
+      ]
+    },
+    "video-for-whatsapp": {
+      "title": "Pakkaa video WhatsAppia varten verkossa - Lähetä suuria videoita helposti",
+      "description": "Pakkaa videoita WhatsAppia varten verkossa. Pienennä tiedostot alle 16 megatavuun tai 64 megatavuun WhatsAppin jakorajoitusten ohittamiseksi. Ei vesileimoja, 100 % ilmainen.",
+      "h1": "WhatsApp-videopakkaus",
+      "heroText": "Lopeta 'Tiedosto on liian suuri' -virheiden saaminen WhatsAppissa. Pakkaa videosi sopimaan täydellisesti 16 Mt tai 64 Mt rajoihin.",
+      "introText": "WhatsAppilla on tiukat tiedostokokorajoitukset (16 Mt mobiililaitteille, 64 Mt verkkoversiolle). Työkalumme optimoi videosi automaattisesti näihin rajoihin säilyttäen sisällön selkeänä.",
+      "features": [
+        { "title": "Ohita rajoitukset", "desc": "Saavuta automaattisesti tarkka 16 Mt tai 64 Mt tavoite WhatsAppia varten." },
+        { "title": "Välitön jako", "desc": "Pakatut tiedostot ovat valmiita välittömään WhatsApp-lähetykseen." },
+        { "title": "Ryhmäystävällinen", "desc": "Pienemmät tiedostot tarkoittavat nopeampia latauksia ryhmäkeskusteluissasi." }
+      ],
+      "steps": [
+        { "title": "Valitse video", "desc": "Valitse video, jonka haluat lähettää WhatsAppissa." },
+        { "title": "Valitse raja", "desc": "Aseta tavoitteeksi 15 Mt ollaksesi varma WhatsApp-mobiiliversiossa." },
+        { "title": "Lataa ja lähetä", "desc": "Jaa videosi ilman rajoitusvaroituksia." }
+      ],
+      "faqs": [
+        { "q": "Mikä on WhatsAppin tiedostoraja?", "a": "Mobiiliraja on 16 Mt, kun taas WhatsApp Web tukee jopa 64 Mt." },
+        { "q": "Näyttääkö video sumealta?", "a": "Ei, optimoimme resoluution varmistaaksemme, että se näyttää hyvältä puhelimen näytöllä." }
+      ]
+    },
+    "video-for-discord": {
+      "title": "Pakkaa video Discordia varten verkossa - Ohita 8 Mt / 25 Mt -raja",
+      "description": "Pakkaa videoita Discordia varten ilmaiseksi. Pienennä suuret videot sopimaan 8 Mt (Nitro Basic) tai 25 Mt rajoihin. Korkealaatuinen Discord-video-optimoija.",
+      "h1": "Discord-videopakkaus",
+      "heroText": "Oletko kyllästynyt Discord Nitro -ilmoituksiin? Pakkaa meemisi ja clipsisi sopimaan alle 8 Mt tai 25 Mt ilmaisen rajan välittömästi.",
+      "introText": "Discordin latausrajoitukset ovat jokaisen pelaajan painajainen. Tarvitsitpa 8 megatavun tiedoston ilmaisille käyttäjille tai 25 megatavun tiedoston Nitro Basicille, työkalumme varmistaa, että clipsisi pysyvät korkealaatuisina.",
+      "features": [
+        { "title": "Nitro-ystävällinen", "desc": "Esiasetukset 8 Mt, 25 Mt ja 50 Mt Discord-rajoille." },
+        { "title": "Pelaajille valmis", "desc": "Täydellinen korkean FPS-pelinauhoituksille OBS:stä tai Shadowplaysta." },
+        { "title": "Automaattinen koon muutos", "desc": "Säätää mitat varmistaakseen, että tiedosto mahtuu pieneen Discord-rajaan." }
+      ],
+      "steps": [
+        { "title": "Lataa clipsi", "desc": "Vedä pelinauhoituksesi tai meemisi ruutuun." },
+        { "title": "Aseta 8 Mt tavoite", "desc": "Käytä liukusäädintä osuaksesi tarkalleen 8 Mt merkkiin." },
+        { "title": "Jaa Discordissa", "desc": "Postaa videosi mihin tahansa kanavaan ilman Nitroa." }
+      ],
+      "faqs": [
+        { "q": "Mikä on Discordin ilmainen raja?", "a": "Discord nosti äskettäin ilmaisen rajan 25 megatavuun useimmille käyttäjille, mutta 8 Mt on edelleen turvallisempi joillekin palvelimille." },
+        { "q": "Tukeeko se .webm-muotoa?", "a": "Kyllä, suosittelemme .webm-muotoa Discordiin, koska siinä on parempi pakkaus pienille kooille." }
+      ]
+    },
+    "video-for-email": {
+      "title": "Pakkaa video sähköpostia varten verkossa - Lähetä suuria liitteitä nopeasti",
+      "description": "Pakkaa videoita sähköpostia varten (Gmail, Outlook, Yahoo). Pienennä videon koko alle 25 megatavuun helppoja liitteitä varten. Lähetä suuria videoita sähköpostitse ilmaiseksi.",
+      "h1": "Sähköposti-videopakkaus",
+      "heroText": "Lähetä videoita sähköpostitse ilman Google Drivea tai Dropboxia. Pienennä tiedostosi sopimaan sähköpostin 25 megatavun liiterajaan.",
+      "introText": "Useimmilla sähköpostipalveluilla, kuten Gmaililla ja Outlookilla, on 25 megatavun raja. Työkalumme optimoi ammattimaiset videosi tai perheclipsisi sopimaan täydellisesti sähköpostin runkoon.",
+      "features": [
+        { "title": "Gmail-yhteensopiva", "desc": "Pysyy alle 25 Mt rajan saumattomia liitteitä varten." },
+        { "title": "Ammattimainen laatu", "desc": "Pitää yritysesityksesi ja opetusvideosi terävinä." },
+        { "title": "Monialustainen", "desc": "Toimii kaikilla selaimilla, mukaan lukien Outlook ja Yahoo Mail." }
+      ],
+      "steps": [
+        { "title": "Lisää liite", "desc": "Valitse suuri videotiedosto, jonka haluat lähettää sähköpostitse." },
+        { "title": "Aseta 24 Mt raja", "desc": "Tavoittele 24 megatavua varmistaaksesi, että se mahtuu 25 megatavun sähköpostirajaan." },
+        { "title": "Liitä ja lähetä", "desc": "Lataa tiedosto ja liitä se suoraan sähköpostiisi." }
+      ],
+      "faqs": [
+        { "q": "Mikä on Gmailin liitetiedostojen raja?", "a": "Gmail sallii enintään 25 Mt per sähköposti. Jos se on suurempi, se pakottaa Google Drive -linkin." },
+        { "q": "Kuinka paljon voin pienentää videota?", "a": "Usein voimme pienentää 200 Mt videon 24 megatavuun säilyttäen sen erittäin katselukelpoisena." }
+      ]
+    }
   }
 }

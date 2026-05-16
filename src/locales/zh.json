@@ -880,5 +880,112 @@
     "i6_p1": "Compress long recordings",
     "i6_p2": "Easier file transfers",
     "i6_p3": "Better storage management"
+  },
+  "pseo": {
+    "mp4": {
+      "title": "在线 MP4 压缩 - 无损缩小 MP4 文件大小",
+      "description": "免费在线压缩 MP4 视频。快速减小 MP4 文件大小，无水印。非常适合手机分享、电子邮件和社交媒体。",
+      "h1": "高速 MP4 视频压缩器",
+      "heroText": "全球最值得信赖的 MP4 压缩工具。在保持 1080p/4K 惊人画质的同时，数秒内缩小您的 MP4 文件。",
+      "introText": "MP4 是最流行的视频格式，但高分辨率文件可能非常巨大。我们的智能压缩引擎会分析您的 MP4 码率，在文件大小和视觉清晰度之间提供完美平衡。",
+      "features": [
+        { "title": "无损画质", "desc": "先进的 libx264 编码确保您的 MP4 保持锐利清晰。" },
+        { "title": "通用播放", "desc": "压缩后的 MP4 可在所有 iPhone、Android 和智能电视上运行。" },
+        { "title": "隐私优先", "desc": "您的文件永远不会离开您的浏览器。100% 安全处理。" }
+      ],
+      "steps": [
+        { "title": "上传 MP4", "desc": "将您的 MP4 文件拖放到压缩框中。" },
+        { "title": "选择大小", "desc": "选择所需的输出大小（单位：MB）。" },
+        { "title": "压缩并保存", "desc": "立即下载优化后的 MP4。" }
+      ],
+      "faqs": [
+        { "q": "我的 MP4 视频会变模糊吗？", "a": "不会，我们使用高效的恒定速率因子来保持视觉完整性。" },
+        { "q": "有文件大小限制吗？", "a": "您可以免费压缩高达 5GB 的 MP4 文件。" }
+      ]
+    },
+    "mov": {
+      "title": "在线 MOV 压缩 - 快速缩小 Apple QuickTime 视频",
+      "description": "在线压缩 MOV 文件。减小 Apple MOV 视频大小，以便更快地分享和存储。无水印的高质量 QuickTime 压缩。",
+      "h1": "专业级 MOV 视频压缩器",
+      "heroText": "Apple MOV 文件以体积大而著称。我们的工具在不牺牲 Apple 标志性画质的前提下，为网络优化 MOV 码率。",
+      "introText": "在 iPhone 或 Mac 上拍摄的 QuickTime (MOV) 文件通常占用数 GB 空间。我们帮助您立即将它们转换并压缩为高效、网络就绪的格式。",
+      "features": [
+        { "title": "Apple 优化", "desc": "专门针对高码率 ProRes 和 H.264 MOV 文件进行调优。" },
+        { "title": "网络就绪", "desc": "将笨重的 MOV 转换为适合流媒体播放的轻量版本。" },
+        { "title": "零等待", "desc": "快速的基于浏览器的处理，无需上传到服务器。" }
+      ],
+      "steps": [
+        { "title": "导入 MOV", "desc": "从您的 Mac 或 iPhone 选择 .mov 文件。" },
+        { "title": "调整大小", "desc": "选择符合您分享需求的理想大小。" },
+        { "title": "导出", "desc": "数秒内保存压缩后的视频。" }
+      ],
+      "faqs": [
+        { "q": "我可以在 iPhone 上使用吗？", "a": "是的，我们的工具与 iOS 上的 Safari 完全兼容，支持 MOV 压缩。" },
+        { "q": "支持 4K MOV 吗？", "a": "当然，我们可以轻松处理 4K 60fps 的 MOV 文件。" }
+      ]
+    },
+    "video-for-whatsapp": {
+      "title": "在线 WhatsApp 视频压缩 - 轻松发送大视频",
+      "description": "在线压缩 WhatsApp 视频。将文件缩小到 16MB 或 64MB 以下，绕过 WhatsApp 的分享限制。无水印，100% 免费。",
+      "h1": "WhatsApp 视频压缩器",
+      "heroText": "别再在 WhatsApp 上看到“文件太大”的错误提示了。将您的视频压缩到正好符合 16MB 或 64MB 的限制。",
+      "introText": "WhatsApp 有严格的文件大小限制（手机端 16MB，网页端 64MB）。我们的工具会自动优化您的视频以符合这些限制，同时保持内容清晰。",
+      "features": [
+        { "title": "绕过限制", "desc": "自动达到 WhatsApp 精确的 16MB 或 64MB 目标。" },
+        { "title": "即时分享", "desc": "压缩后的文件可以立即在 WhatsApp 上发送。" },
+        { "title": "群聊友好", "desc": "更小的文件意味着在群聊中上传和下载速度更快。" }
+      ],
+      "steps": [
+        { "title": "选择视频", "desc": "选择您想在 WhatsApp 上发送的视频。" },
+        { "title": "选择限制", "desc": "为了在手机版 WhatsApp 上安全发送，请将目标设置为 15MB。" },
+        { "title": "下载并发送", "desc": "分享您的视频，不再有任何限制警告。" }
+      ],
+      "faqs": [
+        { "q": "WhatsApp 的文件限制是多少？", "a": "手机端限制为 16MB，而 WhatsApp 网页端支持高达 64MB。" },
+        { "q": "视频会看起来模糊吗？", "a": "不会，我们会优化分辨率，确保在手机屏幕上效果出色。" }
+      ]
+    },
+    "video-for-discord": {
+      "title": "在线 Discord 视频压缩 - 绕过 8MB / 25MB 限制",
+      "description": "免费压缩 Discord 视频。缩小大型视频以符合 8MB (Nitro Basic) 或 25MB 的限制。高质量 Discord 视频优化器。",
+      "h1": "Discord 视频压缩器",
+      "heroText": "厌倦了 Discord Nitro 的提示？立即将您的表情包和剪辑压缩到 8MB 或 25MB 的免费限制以内。",
+      "introText": "Discord 的上传限制是每个玩家的噩梦。无论您是需要免费用户的 8MB 文件，还是 Nitro Basic 的 25MB 文件，我们的工具都能确保您的剪辑保持高质量。",
+      "features": [
+        { "title": "Nitro 友好", "desc": "预设 8MB、25MB 和 50MB 的 Discord 限制。" },
+        { "title": "游戏玩家必备", "desc": "非常适合来自 OBS 或 Shadowplay 的高帧率游戏剪辑。" },
+        { "title": "自动调整大小", "desc": "调整尺寸以确保文件符合 Discord 的微小限制。" }
+      ],
+      "steps": [
+        { "title": "上传剪辑", "desc": "将您的游戏剪辑或表情包拖到框中。" },
+        { "title": "设置 8MB 目标", "desc": "使用滑块精确达到 8MB 标记。" },
+        { "title": "在 Discord 上分享", "desc": "无需 Nitro 即可在任何频道发布您的视频。" }
+      ],
+      "faqs": [
+        { "q": "Discord 的免费限制是多少？", "a": "Discord 最近将大多数用户的免费限制提高到了 25MB，但对于某些服务器，8MB 仍然更安全。" },
+        { "q": "支持 .webm 吗？", "a": "是的，我们建议在 Discord 中使用 .webm，因为它在小体积下有更好的压缩效果。" }
+      ]
+    },
+    "video-for-email": {
+      "title": "在线电子邮件视频压缩 - 快速发送大附件",
+      "description": "压缩电子邮件（Gmail, Outlook, Yahoo）视频。将视频大小减小到 25MB 以下以便轻松添加附件。免费通过邮件发送大视频。",
+      "h1": "电子邮件视频压缩器",
+      "heroText": "无需使用 Google Drive 或 Dropbox 即可通过电子邮件发送视频。将您的文件缩小到符合 25MB 的电子邮件附件限制。",
+      "introText": "大多数电子邮件提供商（如 Gmail 和 Outlook）都有 25MB 的限制。我们的工具会优化您的商务视频或家庭剪辑，使其完美装入邮件。",
+      "features": [
+        { "title": "兼容 Gmail", "desc": "保持在 25MB 限制以下，实现无缝添加附件。" },
+        { "title": "专业品质", "desc": "让您的商务演示和教程保持锐利清晰。" },
+        { "title": "跨平台", "desc": "在所有浏览器（包括 Outlook 和 Yahoo Mail）上均可运行。" }
+      ],
+      "steps": [
+        { "title": "添加附件", "desc": "选择您想通过邮件发送的大视频文件。" },
+        { "title": "设置 24MB 限制", "desc": "目标设置为 24MB，以确保符合 25MB 的邮件限制。" },
+        { "title": "添加并发送", "desc": "下载文件并直接将其添加到您的电子邮件中。" }
+      ],
+      "faqs": [
+        { "q": "Gmail 的附件限制是多少？", "a": "Gmail 每封邮件允许高达 25MB 的附件。如果超过这个大小，它会强制使用 Google Drive 链接。" },
+        { "q": "我可以把视频缩小多少？", "a": "通常我们可以将 200MB 的视频缩小到 24MB，且仍保持非常好的观看效果。" }
+      ]
+    }
   }
 }

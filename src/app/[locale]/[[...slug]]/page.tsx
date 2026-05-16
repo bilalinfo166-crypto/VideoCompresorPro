@@ -75,8 +75,10 @@ export async function generateMetadata({ params }: LocalizedPageProps) {
     const realSlug = path.replace('compress-', '');
     const data = COMPRESSOR_PAGES[realSlug];
     if (data) {
-      title = data.title;
-      description = data.description;
+      const locTitle = t(`pseo.${realSlug}.title`);
+      const locDesc = t(`pseo.${realSlug}.description`);
+      title = locTitle.includes('pseo.') ? data.title : locTitle;
+      description = locDesc.includes('pseo.') ? data.description : locDesc;
     } else {
       const format = realSlug.toUpperCase();
       title = `Compress ${format} Video Online | Free ${format} Compressor`;

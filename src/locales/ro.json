@@ -880,5 +880,112 @@
     "i6_p1": "Compress long recordings",
     "i6_p2": "Easier file transfers",
     "i6_p3": "Better storage management"
+  },
+  "pseo": {
+    "mp4": {
+      "title": "Comprimare MP4 Online - Redu Dimensiunea Video MP4 Fără Pierderea Calității",
+      "description": "Comprimă videoclipuri MP4 online gratuit. Redu rapid dimensiunea fișierului MP4 fără semne de apă. Perfect pentru partajare pe mobil, e-mail și rețele sociale.",
+      "h1": "Compresor Video MP4 Rapid",
+      "heroText": "Cel mai de încredere compresor MP4 din lume. Micșorează fișierele MP4 în câteva secunde, păstrând în același timp calitatea uimitoare 1080p/4K.",
+      "introText": "MP4 este cel mai popular format video, dar fișierele de înaltă rezoluție pot fi masive. Motorul nostru inteligent de compresie analizează ratele de biți MP4 pentru a oferi echilibrul perfect între dimensiunea fișierului și claritatea vizuală.",
+      "features": [
+        { "title": "Fără Pierderea Calității", "desc": "Codificarea avansată libx264 garantează că MP4-ul tău rămâne clar." },
+        { "title": "Redare Universală", "desc": "MP4-urile comprimate funcționează pe toate iPhone-urile, Android-urile și Smart TV-urile." },
+        { "title": "Confidențialitate Totală", "desc": "Fișierele tale nu părăsesc niciodată browserul. Procesare 100% sigură." }
+      ],
+      "steps": [
+        { "title": "Încarcă MP4", "desc": "Trage și plasează fișierul MP4 în caseta compresorului." },
+        { "title": "Alege Dimensiunea", "desc": "Alege dimensiunea de ieșire dorită în MB." },
+        { "title": "Comprimă și Salvează", "desc": "Descarcă instantaneu MP4-ul optimizat." }
+      ],
+      "faqs": [
+        { "q": "Va pierde MP4-ul meu din calitate?", "a": "Nu, folosim factori de rată constantă de înaltă eficiență pentru a menține integritatea vizuală." },
+        { "q": "Există o limită de dimensiune?", "a": "Poți comprima fișiere MP4 de până la 5 GB gratuit." }
+      ]
+    },
+    "mov": {
+      "title": "Comprimare MOV Online - Micșorează Videoclipurile Apple QuickTime Rapid",
+      "description": "Comprimă fișiere MOV online. Redu dimensiunea videoclipurilor Apple MOV pentru partajare și stocare mai rapidă. Compresie QuickTime de înaltă calitate fără semne de apă.",
+      "h1": "Compresor Video MOV Pro",
+      "heroText": "Fișierele Apple MOV sunt cunoscute ca fiind masive. Instrumentul nostru optimizează ratele de biți MOV pentru web fără a sacrifica calitatea specifică Apple.",
+      "introText": "Fișierele QuickTime (MOV) capturate pe iPhone-uri sau Mac-uri ocupă adesea gigaocteți de spațiu. Te ajutăm să le convertești și să le comprimi instantaneu în formate eficiente și pregătite pentru web.",
+      "features": [
+        { "title": "Optimizat pentru Apple", "desc": "Reglat special pentru fișierele MOV ProRes și H.264 cu rată de biți ridicată." },
+        { "title": "Pregătit pentru Web", "desc": "Convertește MOV-urile voluminoase în versiuni ușoare, gata pentru streaming." },
+        { "title": "Zero Așteptare", "desc": "Procesare rapidă prin browser, nu este necesară încărcarea pe server." }
+      ],
+      "steps": [
+        { "title": "Importă MOV", "desc": "Selectează fișierul .mov de pe Mac-ul sau iPhone-ul tău." },
+        { "title": "Ajustează Dimensiunea", "desc": "Alege o dimensiune țintă care se potrivește nevoilor tale de partajare." },
+        { "title": "Exportă", "desc": "Salvează videoclipul comprimat în câteva secunde." }
+      ],
+      "faqs": [
+        { "q": "Pot folosi acest lucru pe iPhone?", "a": "Da, instrumentul nostru este complet compatibil cu Safari pe iOS pentru compresia MOV." },
+        { "q": "Suportă MOV 4K?", "a": "Absolut, gestionăm fișiere MOV 4K 60fps cu ușurință." }
+      ]
+    },
+    "video-for-whatsapp": {
+      "title": "Comprimare Video pentru WhatsApp Online - Trimite Videoclipuri Mari Ușor",
+      "description": "Comprimă videoclipuri pentru WhatsApp online. Micșorează fișierele sub 16 MB sau 64 MB pentru a ocoli limitele WhatsApp. Fără semne de apă, 100% gratuit.",
+      "h1": "Compresor Video WhatsApp",
+      "heroText": "Nu mai primi eroarea 'Fișierul este prea mare' pe WhatsApp. Comprimă-ți videoclipurile pentru a se încadra perfect în limita de 16 MB sau 64 MB.",
+      "introText": "WhatsApp are limite stricte de dimensiune a fișierelor (16 MB pentru mobil, 64 MB pentru web). Instrumentul nostru optimizează automat videoclipul tău pentru a respecta aceste limite, menținând în același timp conținutul clar.",
+      "features": [
+        { "title": "Ocolește Limitele", "desc": "Atinge automat ținta exactă de 16 MB sau 64 MB pentru WhatsApp." },
+        { "title": "Partajare Instantanee", "desc": "Fișierele comprimate sunt gata pentru trimitere imediată pe WhatsApp." },
+        { "title": "Ideal pentru Grupuri", "desc": "Fișierele mai mici înseamnă încărcări și descărcări mai rapide pentru chat-urile tale de grup." }
+      ],
+      "steps": [
+        { "title": "Alege Video", "desc": "Selectează videoclipul pe care dorești să-l trimiți pe WhatsApp." },
+        { "title": "Selectează Limita", "desc": "Setează ținta la 15 MB pentru siguranță pe WhatsApp mobil." },
+        { "title": "Descarcă și Trimite", "desc": "Partajează videoclipul tău fără avertismente de limită." }
+      ],
+      "faqs": [
+        { "q": "Care este limita de fișiere WhatsApp?", "a": "Limita mobilă este de 16 MB, în timp ce WhatsApp Web suportă până de 64 MB." },
+        { "q": "Videoclipul va fi neclar?", "a": "Nu, optimizăm rezoluția pentru a ne asigura că arată grozav pe ecranele telefoanelor." }
+      ]
+    },
+    "video-for-discord": {
+      "title": "Comprimare Video pentru Discord Online - Ocolește Limita de 8 MB / 25 MB",
+      "description": "Comprimă videoclipuri pentru Discord gratuit. Micșorează videoclipurile mari pentru a se încadra în limitele de 8 MB (Nitro Basic) sau 25 MB. Optimizator video Discord de înaltă calitate.",
+      "h1": "Compresor Video Discord",
+      "heroText": "Te-ai săturat de mesajele Discord Nitro? Comprimă-ți memeurile și clipurile pentru a se încadra sub limita gratuită de 8 MB sau 25 MB instantaneu.",
+      "introText": "Limitele de încărcare ale Discord sunt coșmarul oricărui gamer. Indiferent dacă ai nevoie de un fișier de 8 MB pentru utilizatorii gratuiti sau de 25 MB pentru Nitro Basic, instrumentul nostru garantează că clipurile tale rămân de înaltă calitate.",
+      "features": [
+        { "title": "Nitro Friendly", "desc": "Presetări pentru limitele Discord de 8 MB, 25 MB și 50 MB." },
+        { "title": "Gata pentru Gameri", "desc": "Perfect pentru clipuri de joc cu FPS ridicat din OBS sau Shadowplay." },
+        { "title": "Auto-Resize", "desc": "Ajustează dimensiunile pentru a se asigura că fișierul se încadrează în limita mică a Discord." }
+      ],
+      "steps": [
+        { "title": "Încarcă Clipul", "desc": "Trage clipul de joc sau meme-ul în casetă." },
+        { "title": "Setează Ținta la 8 MB", "desc": "Folosește glisorul pentru a atinge exact pragul de 8 MB." },
+        { "title": "Partajează pe Discord", "desc": "Postează videoclipul tău în orice canal fără Nitro." }
+      ],
+      "faqs": [
+        { "q": "Care este limita gratuită a Discord?", "a": "Discord a crescut recent limita gratuită la 25 MB pentru majoritatea utilizatorilor, dar 8 MB este încă mai sigur pentru unele servere." },
+        { "q": "Suportă .webm?", "a": "Da, recomandăm .webm pentru Discord deoarece are o compresie mai bună pentru dimensiuni mici." }
+      ]
+    },
+    "video-for-email": {
+      "title": "Comprimare Video pentru Email Online - Trimite Atașamente Mari Rapid",
+      "description": "Comprimă videoclipuri pentru Email (Gmail, Outlook, Yahoo). Redu dimensiunea videoclipului sub 25 MB pentru atașamente ușoare. Trimite videoclipuri mari prin email gratuit.",
+      "h1": "Compresor Video Email",
+      "heroText": "Trimite videoclipuri prin Email fără a folosi Google Drive sau Dropbox. Micșorează fișierele pentru a se încadra în limita de atașament a emailului de 25 MB.",
+      "introText": "Majoritatea furnizorilor de email, cum ar fi Gmail și Outlook, au o limită de 25 MB. Instrumentul nostru optimizează videoclipurile tale profesionale sau clipurile de familie pentru a se încadra perfect într-un email.",
+      "features": [
+        { "title": "Compatibil cu Gmail", "desc": "Rămâne sub limita de 25 MB pentru atașamente fără probleme." },
+        { "title": "Calitate Pro", "desc": "Păstrează prezentările și tutorialele tale de afaceri clare." },
+        { "title": "Multi-platformă", "desc": "Funcționează pe toate browserele, inclusiv Outlook și Yahoo Mail." }
+      ],
+      "steps": [
+        { "title": "Adaugă Atașament", "desc": "Selectează fișierul video mare pe care dorești să-l trimiți prin email." },
+        { "title": "Setează Limita la 24 MB", "desc": "Țintește 24 MB pentru a te asigura că se încadrează în limita de 25 MB a emailului." },
+        { "title": "Atașează și Trimite", "desc": "Descarcă fișierul și atașează-l direct la emailul tău." }
+      ],
+      "faqs": [
+        { "q": "Care este limita de atașamente a Gmail?", "a": "Gmail permite până la 25 MB per e-mail. Dacă este mai mare, forțează utilizarea unui link Google Drive." },
+        { "q": "Cât de mult pot micșora un videoclip?", "a": "Deseori putem micșora un videoclip de 200 MB la 24 MB păstrându-l într-o stare de vizionare foarte bună." }
+      ]
+    }
   }
 }

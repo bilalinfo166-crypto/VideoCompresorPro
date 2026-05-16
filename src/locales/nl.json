@@ -880,5 +880,112 @@
     "i6_p1": "Compress long recordings",
     "i6_p2": "Easier file transfers",
     "i6_p3": "Better storage management"
+  },
+  "pseo": {
+    "mp4": {
+      "title": "MP4 Comprimeren Online - Verklein MP4-bestanden Zonder Kwaliteitsverlies",
+      "description": "Comprimeer MP4-video's online gratis. Verklein de MP4-bestandsgrootte snel en zonder watermerk. Perfect voor mobiel delen, e-mail en sociale media.",
+      "h1": "Snelle MP4 Videocompressor",
+      "heroText": "De meest vertrouwde MP4-compressor ter wereld. Verklein uw MP4-bestanden in seconden met behoud van verbluffende 1080p/4K kwaliteit.",
+      "introText": "MP4 is het meest populaire videoformaat, maar MP4-bestanden met een hoge resolutie kunnen enorm zijn. Onze intelligente compressie-engine analyseert uw MP4-bitrates om de perfecte balans te bieden tussen bestandsgrootte en visuele helderheid.",
+      "features": [
+        { "title": "Geen Kwaliteitsverlies", "desc": "Geavanceerde libx264-codering zorgt ervoor dat uw MP4 scherp blijft." },
+        { "title": "Universeel Afspelen", "desc": "Gecomprimeerde MP4's werken op alle iPhones, Androids en Smart TV's." },
+        { "title": "Privacy Eerst", "desc": "Uw bestanden verlaten nooit uw browser. 100% veilige verwerking." }
+      ],
+      "steps": [
+        { "title": "MP4 Uploaden", "desc": "Sleep uw MP4-bestand naar het compressieveld." },
+        { "title": "Doelgrootte Instellen", "desc": "Kies de gewenste outputgrootte in MB." },
+        { "title": "Comprimeren & Opslaan", "desc": "Download uw geoptimaliseerde MP4 direct." }
+      ],
+      "faqs": [
+        { "q": "Verliest mijn MP4 kwaliteit?", "a": "Nee, we gebruiken hoog-efficiënte constante rate factoren om de visuele integriteit te behouden." },
+        { "q": "Is er een bestandsgrootte limiet?", "a": "U kunt MP4-bestanden tot 5GB gratis comprimeren." }
+      ]
+    },
+    "mov": {
+      "title": "MOV Comprimeren Online - Verklein Apple QuickTime Video's Snel",
+      "description": "Comprimeer MOV-bestanden online. Verklein de grootte van Apple MOV-video's voor sneller delen en opslaan. Hoge kwaliteit QuickTime compressie zonder watermerk.",
+      "h1": "Pro MOV Videocompressor",
+      "heroText": "Apple MOV-bestanden zijn berucht groot. Onze tool optimaliseert MOV-bitrates voor het web zonder de kenmerkende kwaliteit van Apple op te offeren.",
+      "introText": "QuickTime (MOV) bestanden die zijn opgenomen op iPhones of Macs nemen vaak gigabytes aan ruimte in beslag. Wij helpen u ze direct te converteren en comprimeren naar efficiënte, web-ready formaten.",
+      "features": [
+        { "title": "Geoptimaliseerd voor Apple", "desc": "Specifiek afgestemd op ProRes- en H.264 MOV-bestanden met een hoge bitrate." },
+        { "title": "Klaar voor het Web", "desc": "Converteer omvangrijke MOV's naar stream-vriendelijke, lichtgewicht versies." },
+        { "title": "Geen Wachttijd", "desc": "Snelle browser-gebaseerde verwerking, geen server-uploads nodig." }
+      ],
+      "steps": [
+        { "title": "MOV Importeren", "desc": "Selecteer uw .mov bestand vanaf uw Mac of iPhone." },
+        { "title": "Grootte Aanpassen", "desc": "Kies een doelgrootte die past bij uw behoeften." },
+        { "title": "Exporteren", "desc": "Sla uw gecomprimeerde video op in seconden." }
+      ],
+      "faqs": [
+        { "q": "Kan ik dit op iPhone gebruiken?", "a": "Ja, onze tool is volledig compatibel met Safari op iOS voor MOV-compressie." },
+        { "q": "Ondersteunt het 4K MOV?", "a": "Absoluut, we verwerken 4K 60fps MOV-bestanden met gemak." }
+      ]
+    },
+    "video-for-whatsapp": {
+      "title": "Video Comprimeren voor WhatsApp Online - Verstuur Grote Video's Eenvoudig",
+      "description": "Comprimeer video's voor WhatsApp online. Verklein bestanden tot onder 16MB of 64MB om WhatsApp-limieten te omzeilen. Geen watermerk, 100% gratis.",
+      "h1": "WhatsApp Videocompressor",
+      "heroText": "Geen 'Bestand te groot' foutmeldingen meer op WhatsApp. Comprimeer uw video's zodat ze perfect passen binnen de limiet van 16MB of 64MB.",
+      "introText": "WhatsApp hanteert strikte limieten voor bestandsgrootte (16MB voor mobiel, 64MB voor web). Onze tool optimaliseert uw video automatisch voor deze limieten terwijl de inhoud helder blijft.",
+      "features": [
+        { "title": "Limieten Omzeilen", "desc": "Bereik automatisch het exacte 16MB of 64MB doel voor WhatsApp." },
+        { "title": "Direct Delen", "desc": "Gecomprimeerde bestanden zijn klaar om direct via WhatsApp te versturen." },
+        { "title": "Groeps-vriendelijk", "desc": "Kleinere bestanden betekenen snellere uploads en downloads voor uw groepsapps." }
+      ],
+      "steps": [
+        { "title": "Kies Video", "desc": "Selecteer de video die u via WhatsApp wilt versturen." },
+        { "title": "Selecteer Limiet", "desc": "Stel het doel in op 15MB voor de zekerheid op WhatsApp mobiel." },
+        { "title": "Download & Verstuur", "desc": "Deel uw video zonder limietwaarschuwingen." }
+      ],
+      "faqs": [
+        { "q": "Wat is de WhatsApp bestandsgrootte limiet?", "a": "De mobiele limiet is 16MB, terwijl WhatsApp Web tot 64MB ondersteunt." },
+        { "q": "Wordt de video wazig?", "a": "Nee, we optimaliseren de resolutie zodat deze er geweldig uitziet op telefoonschermen." }
+      ]
+    },
+    "video-for-discord": {
+      "title": "Video Comprimeren voor Discord Online - Omzeil de 8MB/25MB Limiet",
+      "description": "Comprimeer video's voor Discord gratis. Verklein grote video's voor de 8MB (Nitro Basic) of 25MB limieten. Hoge kwaliteit Discord video-optimizer.",
+      "h1": "Discord Videocompressor",
+      "heroText": "Moe van Discord Nitro-meldingen? Comprimeer uw memes en clips direct tot onder de 8MB of 25MB gratis limiet.",
+      "introText": "Discord's uploadlimieten zijn de schrik van elke gamer. Of u nu een 8MB bestand nodig heeft voor gratis gebruikers of een 25MB bestand voor Nitro Basic, onze tool zorgt voor hoge kwaliteit.",
+      "features": [
+        { "title": "Nitro Vriendelijk", "desc": "Presets voor 8MB, 25MB en 50MB Discord-limieten." },
+        { "title": "Gamer Ready", "desc": "Perfect voor high-FPS gameplay clips van OBS of Shadowplay." },
+        { "title": "Auto-Resize", "desc": "Past afmetingen aan om te zorgen dat het bestand binnen de kleine Discord-limiet past." }
+      ],
+      "steps": [
+        { "title": "Upload Clip", "desc": "Sleep uw gameplay clip of meme naar het veld." },
+        { "title": "Stel 8MB Doel In", "desc": "Gebruik de schuifregelaar om precies de 8MB grens te raken." },
+        { "title": "Deel op Discord", "desc": "Post uw video in elk kanaal zonder Nitro." }
+      ],
+      "faqs": [
+        { "q": "Wat is de gratis limiet van Discord?", "a": "Discord heeft de gratis limiet onlangs voor de meeste gebruikers verhoogd naar 25MB, maar 8MB is nog steeds veiliger voor sommige servers." },
+        { "q": "Ondersteunt het .webm?", "a": "Ja, we raden .webm aan voor Discord omdat dit betere compressie biedt voor kleine formaten." }
+      ]
+    },
+    "video-for-email": {
+      "title": "Video Comprimeren voor E-mail Online - Verstuur Grote Bijlagen Snel",
+      "description": "Comprimeer video's voor E-mail (Gmail, Outlook, Yahoo). Verklein de videogrootte tot onder 25MB voor eenvoudige bijlagen. Verstuur grote video's gratis via e-mail.",
+      "h1": "E-mail Videocompressor",
+      "heroText": "Verstuur video's via E-mail zonder Google Drive of Dropbox te gebruiken. Verklein uw bestanden zodat ze binnen de 25MB bijlagenlimiet passen.",
+      "introText": "De meeste e-mailproviders zoals Gmail en Outlook hebben een limiet van 25MB. Onze tool optimaliseert uw professionele video's of familieclips zodat ze perfect in een e-mail passen.",
+      "features": [
+        { "title": "Gmail Compatibel", "desc": "Blijft onder de 25MB limiet voor naadloze bijlagen." },
+        { "title": "Pro-kwaliteit", "desc": "Houdt uw zakelijke presentaties en tutorials haarscherp." },
+        { "title": "Cross-Platform", "desc": "Werkt op alle browsers, inclusief Outlook en Yahoo Mail." }
+      ],
+      "steps": [
+        { "title": "Bijlage Toevoegen", "desc": "Selecteer het grote videobestand dat u wilt e-mailen." },
+        { "title": "Stel 24MB Limiet In", "desc": "Richt op 24MB om te zorgen dat het binnen de 25MB limiet past." },
+        { "title": "Bijvoegen & Verzenden", "desc": "Download het bestand en voeg het direct toe aan uw e-mail." }
+      ],
+      "faqs": [
+        { "q": "Wat is de Gmail bijlagenlimiet?", "a": "Gmail staat tot 25MB per e-mail toe. Als het groter is, dwingt het een Google Drive-link af." },
+        { "q": "Hoeveel kan ik een video verkleinen?", "a": "Vaak kunnen we een 200MB video verkleinen naar 24MB terwijl deze zeer goed bekijkbaar blijft." }
+      ]
+    }
   }
 }

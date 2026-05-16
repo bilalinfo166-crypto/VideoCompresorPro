@@ -880,5 +880,112 @@
     "i6_p1": "Compress long recordings",
     "i6_p2": "Easier file transfers",
     "i6_p3": "Better storage management"
+  },
+  "pseo": {
+    "mp4": {
+      "title": "Komprimera MP4 online - Minska MP4-filstorlek utan kvalitetsförlust",
+      "description": "Komprimera MP4-videor online gratis. Minska MP4-filstorleken snabbt utan vattenstämplar. Perfekt för mobil delning, e-post och sociala medier.",
+      "h1": "Snabb MP4-videokompressor",
+      "heroText": "Världens mest pålitliga MP4-kompressor. Krymp dina MP4-filer på några sekunder med bibehållen fantastisk 1080p/4K-kvalitet.",
+      "introText": "MP4 är det mest populära videoformatet, men högupplösta MP4-filer kan vara enorma. Vår intelligenta komprimeringsmotor analyserar dina MP4-bitrates för att ge den perfekta balansen mellan filstorlek och visuell klarhet.",
+      "features": [
+        { "title": "Ingen kvalitetsförlust", "desc": "Avancerad libx264-kodning säkerställer att din MP4 förblir skarp." },
+        { "title": "Universell uppspelning", "desc": "Komprimerade MP4-filer fungerar på alla iPhones, Androids och Smart TV:s." },
+        { "title": "Integritet först", "desc": "Dina filer lämnar aldrig din webbläsare. 100 % säker bearbetning." }
+      ],
+      "steps": [
+        { "title": "Ladda upp MP4", "desc": "Dra och släpp din MP4-fil i kompressorrutan." },
+        { "title": "Välj målstorlek", "desc": "Välj önskad utstorlek i MB." },
+        { "title": "Komprimera & Spara", "desc": "Ladda ner din optimerade MP4 omedelbart." }
+      ],
+      "faqs": [
+        { "q": "Kommer min MP4 att förlora kvalitet?", "a": "Nej, vi använder högeffektiva konstanta hastighetsfaktorer för att bibehålla visuell integritet." },
+        { "q": "Finns det en filstorleksgräns?", "a": "Du kan komprimera MP4-filer upp till 5 GB gratis." }
+      ]
+    },
+    "mov": {
+      "title": "Komprimera MOV online - Krymp Apple QuickTime-videor snabbt",
+      "description": "Komprimera MOV-filer online. Minska storleken på Apple MOV-videor för snabbare delning och lagring. Högkvalitativ QuickTime-komprimering utan vattenstämplar.",
+      "h1": "Pro MOV-videokompressor",
+      "heroText": "Apple MOV-filer är ökänt stora. Vårt verktyg optimerar MOV-bitrates för webben utan att offra Apples signaturkvalitet.",
+      "introText": "QuickTime (MOV)-filer inspelade på iPhones eller Mac-datorer tar ofta upp gigabyte av utrymme. Vi hjälper dig att konvertera och komprimera dem till effektiva, webbklara format omedelbart.",
+      "features": [
+        { "title": "Apple-optimerad", "desc": "Speciellt inställd för ProRes- och H.264 MOV-filer med hög bitrate." },
+        { "title": "Webbklar", "desc": "Konvertera skrymmande MOV-filer till strömningsbara, lätta versioner." },
+        { "title": "Noll väntetid", "desc": "Snabb webbläsarbaserad bearbetning, inga serveruppladdningar krävs." }
+      ],
+      "steps": [
+        { "title": "Importera MOV", "desc": "Välj din .mov-fil från din Mac eller iPhone." },
+        { "title": "Justera storlek", "desc": "Välj en målstorlek som passar dina delningsbehov." },
+        { "title": "Exportera", "desc": "Spara din komprimerade video på några sekunder." }
+      ],
+      "faqs": [
+        { "q": "Kan jag använda detta på iPhone?", "a": "Ja, vårt verktyg är helt kompatibelt med Safari på iOS för MOV-komprimering." },
+        { "q": "Stöder det 4K MOV?", "a": "Absolut, vi hanterar 4K 60fps MOV-filer med lätthet." }
+      ]
+    },
+    "video-for-whatsapp": {
+      "title": "Komprimera video för WhatsApp online - Skicka stora videor enkelt",
+      "description": "Komprimera videor för WhatsApp online. Krymp filer under 16 MB eller 64 MB för att kringgå WhatsApps delningsgränser. Inga vattenstämplar, 100 % gratis.",
+      "h1": "WhatsApp-videokompressor",
+      "heroText": "Sluta få felmeddelandet 'Filen är för stor' på WhatsApp. Komprimera dina videor så att de passar 16 MB- eller 64 MB-gränsen perfekt.",
+      "introText": "WhatsApp har strikta filstorleksgränser (16 MB för mobil, 64 MB för webben). Vårt verktyg optimerar automatiskt din video för att passa dessa gränser medan innehållet förblir tydligt.",
+      "features": [
+        { "title": "Kringgå gränser", "desc": "Träffa automatiskt det exakta målet på 16 MB eller 64 MB för WhatsApp." },
+        { "title": "Omedelbar delning", "desc": "Komprimerade filer är redo för omedelbar vidarebefordran i WhatsApp." },
+        { "title": "Gruppvänlig", "desc": "Mindre filer innebär snabbare uppladdningar och nedladdningar för dina gruppchattar." }
+      ],
+      "steps": [
+        { "title": "Välj video", "desc": "Välj videon du vill skicka på WhatsApp." },
+        { "title": "Välj gräns", "desc": "Sätt målet till 15 MB för att vara säker för WhatsApp mobil." },
+        { "title": "Ladda ner & Skicka", "desc": "Dela din video utan några gränsvarningar." }
+      ],
+      "faqs": [
+        { "q": "Vad är WhatsApps filgräns?", "a": "Mobilgränsen är 16 MB, medan WhatsApp Web stöder upp till 64 MB." },
+        { "q": "Kommer videon att se suddig ut?", "a": "Nej, vi optimerar upplösningen för att säkerställa att den ser bra ut på telefonskärmar." }
+      ]
+    },
+    "video-for-discord": {
+      "title": "Komprimera video för Discord online - Kringgå 8 MB/25 MB-gränsen",
+      "description": "Komprimera videor för Discord gratis. Krymp stora videor för att passa gränserna på 8 MB (Nitro Basic) eller 25 MB. Högkvalitativ Discord-videooptimerare.",
+      "h1": "Discord-videokompressor",
+      "heroText": "Trött på Discord Nitro-meddelanden? Komprimera dina memes och klipp så att de passar under den kostnadsfria gränsen på 8 MB eller 25 MB direkt.",
+      "introText": "Discords uppladdningsgränser är varje gamers mardröm. Oavsett om du behöver en 8 MB-fil för gratisanvändare eller en 25 MB-fil för Nitro Basic, ser vårt verktyg till att dina klipp förblir högkvalitativa.",
+      "features": [
+        { "title": "Nitro-vänlig", "desc": "Förinställningar för Discord-gränser på 8 MB, 25 MB och 50 MB." },
+        { "title": "Gamer-redo", "desc": "Perfekt för klipp med hög FPS från OBS eller Shadowplay." },
+        { "title": "Auto-storlek", "desc": "Justerar dimensioner för att säkerställa att filen passar den lilla Discord-gränsen." }
+      ],
+      "steps": [
+        { "title": "Ladda upp klipp", "desc": "Dra ditt gameplay-klipp eller meme till rutan." },
+        { "title": "Sätt 8 MB-mål", "desc": "Använd skjutreglaget för att träffa 8 MB-märket exakt." },
+        { "title": "Dela på Discord", "desc": "Posta din video i valfri kanal utan Nitro." }
+      ],
+      "faqs": [
+        { "q": "Vad är Discords gratisgräns?", "a": "Discord ökade nyligen gratisgränsen till 25 MB för de flesta användare, men 8 MB är fortfarande säkrare för vissa servrar." },
+        { "q": "Stöder det .webm?", "a": "Ja, vi rekommenderar .webm för Discord eftersom det har bättre komprimering för små storlekar." }
+      ]
+    },
+    "video-for-email": {
+      "title": "Komprimera video för e-post online - Skicka stora bilagor snabbt",
+      "description": "Komprimera videor för e-post (Gmail, Outlook, Yahoo). Minska videostorleken till under 25 MB för enkla bilagor. Skicka stora videor via e-post gratis.",
+      "h1": "E-post-videokompressor",
+      "heroText": "Skicka videor via e-post utan att använda Google Drive eller Dropbox. Krymp dina filer så att de passar e-postens bilagegräns på 25 MB.",
+      "introText": "De flesta e-postleverantörer som Gmail och Outlook har en gräns på 25 MB. Vårt verktyg optimerar dina professionella videor eller familjeklipp så att de passar perfekt i ett e-postmeddelande.",
+      "features": [
+        { "title": "Gmail-kompatibel", "desc": "Håller sig under gränsen på 25 MB för smidiga bilagor." },
+        { "title": "Professionell kvalitet", "desc": "Håller dina affärspresentationer och tutorials skarpa." },
+        { "title": "Cross-Platform", "desc": "Fungerar i alla webbläsare, inklusive Outlook och Yahoo Mail." }
+      ],
+      "steps": [
+        { "title": "Lägg till bilaga", "desc": "Välj den stora videofilen du vill skicka via e-post." },
+        { "title": "Sätt 24 MB-gräns", "desc": "Sikta på 24 MB för att säkerställa att den passar e-postgränsen på 25 MB." },
+        { "title": "Bifoga & Skicka", "desc": "Ladda ner filen och bifoga den direkt i din e-post." }
+      ],
+      "faqs": [
+        { "q": "Vad är Gmails bilagegräns?", "a": "Gmail tillåter upp till 25 MB per e-post. Om den är större tvingar den fram en Google Drive-länk." },
+        { "q": "Hur mycket kan jag krympa en video?", "a": "Ofta kan vi krympa en video från 200 MB till 24 MB med bibehållen bra tittarkvalitet." }
+      ]
+    }
   }
 }

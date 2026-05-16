@@ -880,5 +880,112 @@
     "i6_p1": "Compress long recordings",
     "i6_p2": "Easier file transfers",
     "i6_p3": "Better storage management"
+  },
+  "pseo": {
+    "mp4": {
+      "title": "Kompres MP4 Online - Kurangi Ukuran File MP4 Tanpa Mengurangi Kualitas",
+      "description": "Kompres video MP4 online gratis. Kurangi ukuran file MP4 dengan cepat tanpa watermark. Sempurna untuk berbagi di seluler, email, dan media sosial.",
+      "h1": "Kompresor Video MP4 Cepat",
+      "heroText": "Kompresor MP4 paling tepercaya di dunia. Kecilkan file MP4 Anda dalam hitungan detik sambil tetap menjaga kualitas 1080p/4K yang memukau.",
+      "introText": "MP4 adalah format video paling populer, tetapi file resolusi tinggi bisa berukuran sangat besar. Mesin kompresi cerdas kami menganalisis bitrate MP4 Anda untuk menawarkan keseimbangan sempurna antara ukuran file dan kejernihan visual.",
+      "features": [
+        { "title": "Tanpa Penurunan Kualitas", "desc": "Pengodean libx264 tingkat lanjut memastikan MP4 Anda tetap tajam." },
+        { "title": "Pemutaran Universal", "desc": "MP4 yang dikompresi berfungsi di semua iPhone, Android, dan Smart TV." },
+        { "title": "Privasi Diutamakan", "desc": "File Anda tidak pernah meninggalkan browser Anda. Pemrosesan 100% aman." }
+      ],
+      "steps": [
+        { "title": "Unggah MP4", "desc": "Seret dan letakkan file MP4 Anda ke dalam kotak kompresor." },
+        { "title": "Pilih Ukuran", "desc": "Pilih ukuran output yang diinginkan dalam MB." },
+        { "title": "Kompres & Simpan", "desc": "Unduh MP4 yang dioptimalkan secara instan." }
+      ],
+      "faqs": [
+        { "q": "Apakah video MP4 saya akan kehilangan kualitas?", "a": "Tidak, kami menggunakan faktor laju konstan efisiensi tinggi untuk menjaga integritas visual." },
+        { "q": "Apakah ada batasan ukuran file?", "a": "Anda dapat mengompres file MP4 hingga 5GB secara gratis." }
+      ]
+    },
+    "mov": {
+      "title": "Kompres MOV Online - Kecilkan Video Apple QuickTime dengan Cepat",
+      "description": "Kompres file MOV online. Kurangi ukuran video Apple MOV untuk berbagi dan penyimpanan yang lebih cepat. Kompresi QuickTime berkualitas tinggi tanpa watermark.",
+      "h1": "Kompresor Video MOV Pro",
+      "heroText": "File Apple MOV dikenal sangat besar. Alat kami mengoptimalkan bitrate MOV untuk web tanpa mengorbankan kualitas khas Apple.",
+      "introText": "File QuickTime (MOV) yang diambil di iPhone atau Mac sering kali menghabiskan ruang ber-gigabyte. Kami membantu Anda mengonversi dan mengompresnya secara instan ke format yang efisien dan siap untuk web.",
+      "features": [
+        { "title": "Dioptimalkan untuk Apple", "desc": "Disesuaikan khusus untuk file ProRes dan H.264 MOV dengan bitrate tinggi." },
+        { "title": "Siap untuk Web", "desc": "Ubah MOV yang berat menjadi versi ringan yang siap untuk streaming." },
+        { "title": "Tanpa Menunggu", "desc": "Pemrosesan cepat berbasis browser, tidak perlu unggah ke server." }
+      ],
+      "steps": [
+        { "title": "Impor MOV", "desc": "Pilih file .mov dari Mac atau iPhone Anda." },
+        { "title": "Sesuaikan Ukuran", "desc": "Pilih ukuran target yang sesuai dengan kebutuhan berbagi Anda." },
+        { "title": "Ekspor", "desc": "Simpan video yang dikompresi dalam hitungan detik." }
+      ],
+      "faqs": [
+        { "q": "Bisakah saya menggunakan ini di iPhone?", "a": "Ya, alat kami sepenuhnya kompatibel dengan Safari di iOS untuk kompresi MOV." },
+        { "q": "Apakah mendukung 4K MOV?", "a": "Tentu saja, kami menangani file MOV 4K 60fps dengan mudah." }
+      ]
+    },
+    "video-for-whatsapp": {
+      "title": "Kompres Video untuk WhatsApp Online - Kirim Video Besar dengan Mudah",
+      "description": "Kompres video untuk WhatsApp online. Kecilkan file hingga di bawah 16MB atau 64MB untuk melewati batas berbagi WhatsApp. Tanpa watermark, 100% gratis.",
+      "h1": "Kompresor Video WhatsApp",
+      "heroText": "Berhenti menerima pesan error 'File terlalu besar' di WhatsApp. Kompres video Anda agar pas dengan batas 16MB atau 64MB.",
+      "introText": "WhatsApp memiliki batas ukuran file yang ketat (16MB untuk seluler, 64MB untuk web). Alat kami secara otomatis mengoptimalkan video Anda agar mematuhi batas ini sambil menjaga konten tetap jelas.",
+      "features": [
+        { "title": "Lewati Batasan", "desc": "Capai target tepat 16MB atau 64MB untuk WhatsApp secara otomatis." },
+        { "title": "Berbagi Instan", "desc": "File yang dikompresi siap untuk dikirim segera di WhatsApp." },
+        { "title": "Ramah Grup", "desc": "File yang lebih kecil berarti unggah dan unduh lebih cepat untuk chat grup Anda." }
+      ],
+      "steps": [
+        { "title": "Pilih Video", "desc": "Pilih video yang ingin Anda kirim di WhatsApp." },
+        { "title": "Pilih Batas", "desc": "Atur target ke 15MB agar aman di WhatsApp seluler." },
+        { "title": "Unduh & Kirim", "desc": "Bagikan video Anda tanpa peringatan batasan." }
+      ],
+      "faqs": [
+        { "q": "Berapa batas file WhatsApp?", "a": "Batas seluler adalah 16MB, sementara WhatsApp Web mendukung hingga 64MB." },
+        { "q": "Apakah video akan terlihat buram?", "a": "Tidak, kami mengoptimalkan resolusi untuk memastikan tampilan yang bagus di layar ponsel." }
+      ]
+    },
+    "video-for-discord": {
+      "title": "Kompres Video untuk Discord Online - Lewati Batas 8MB / 25MB",
+      "description": "Kompres video untuk Discord gratis. Kecilkan video besar agar pas dengan batas 8MB (Nitro Basic) atau 25MB. Pengoptimal video Discord berkualitas tinggi.",
+      "h1": "Kompresor Video Discord",
+      "heroText": "Bosan dengan petunjuk Discord Nitro? Kompres meme dan klip Anda agar pas di bawah batas gratis 8MB atau 25MB secara instan.",
+      "introText": "Batas unggahan Discord adalah mimpi buruk setiap gamer. Baik Anda memerlukan file 8MB untuk pengguna gratis atau 25MB untuk Nitro Basic, alat kami memastikan klip Anda tetap berkualitas tinggi.",
+      "features": [
+        { "title": "Ramah Nitro", "desc": "Preset untuk batas Discord 8MB, 25MB, dan 50MB." },
+        { "title": "Siap untuk Gamer", "desc": "Sangat cocok untuk klip gameplay FPS tinggi dari OBS atau Shadowplay." },
+        { "title": "Ubah Ukuran Otomatis", "desc": "Menyesuaikan dimensi untuk memastikan file pas dengan batas kecil Discord." }
+      ],
+      "steps": [
+        { "title": "Unggah Klip", "desc": "Seret klip gameplay atau meme Anda ke dalam kotak." },
+        { "title": "Atur Target 8MB", "desc": "Gunakan slider untuk mencapai angka 8MB dengan tepat." },
+        { "title": "Bagikan di Discord", "desc": "Posting video Anda di saluran mana pun tanpa Nitro." }
+      ],
+      "faqs": [
+        { "q": "Berapa batas gratis Discord?", "a": "Discord baru-baru ini menaikkan batas gratis menjadi 25MB untuk sebagian besar pengguna, tetapi 8MB masih lebih aman untuk beberapa server." },
+        { "q": "Apakah mendukung .webm?", "a": "Ya, kami merekomendasikan .webm untuk Discord karena memiliki kompresi yang lebih baik untuk ukuran kecil." }
+      ]
+    },
+    "video-for-email": {
+      "title": "Kompres Video untuk Email Online - Kirim Lampiran Besar dengan Cepat",
+      "description": "Kompres video untuk Email (Gmail, Outlook, Yahoo). Kurangi ukuran video di bawah 25MB untuk lampiran yang mudah. Kirim video besar melalui email gratis.",
+      "h1": "Kompresor Video Email",
+      "heroText": "Kirim video melalui email tanpa menggunakan Google Drive atau Dropbox. Kecilkan file Anda agar pas dengan batas lampiran email 25MB.",
+      "introText": "Sebagian besar penyedia email seperti Gmail dan Outlook memiliki batas 25MB. Alat kami mengoptimalkan video bisnis atau klip keluarga Anda agar pas dalam email.",
+      "features": [
+        { "title": "Kompatibel dengan Gmail", "desc": "Tetap di bawah batas 25MB untuk lampiran tanpa hambatan." },
+        { "title": "Kualitas Pro", "desc": "Menjaga presentasi bisnis dan tutorial Anda tetap tajam." },
+        { "title": "Multi-Platform", "desc": "Bekerja di semua browser, termasuk Outlook dan Yahoo Mail." }
+      ],
+      "steps": [
+        { "title": "Tambah Lampiran", "desc": "Pilih file video besar yang ingin Anda kirim melalui email." },
+        { "title": "Atur Batas 24MB", "desc": "Targetkan 24MB untuk memastikan pas dengan batas email 25MB." },
+        { "title": "Lampirkan & Kirim", "desc": "Unduh file dan lampirkan langsung ke email Anda." }
+      ],
+      "faqs": [
+        { "q": "Berapa batas lampiran Gmail?", "a": "Gmail mengizinkan hingga 25MB per email. Jika lebih besar, ia akan memaksa penggunaan link Google Drive." },
+        { "q": "Seberapa banyak saya bisa mengecilkan video?", "a": "Sering kali kami dapat mengecilkan video 200MB menjadi 24MB sambil tetap menjaganya sangat layak tonton." }
+      ]
+    }
   }
 }

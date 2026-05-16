@@ -880,5 +880,112 @@
     "i6_p1": "Compress long recordings",
     "i6_p2": "Easier file transfers",
     "i6_p3": "Better storage management"
+  },
+  "pseo": {
+    "mp4": {
+      "title": "MP4 Tömörítés Online - MP4 Videó Méret Csökkentése Minőségromlás Nélkül",
+      "description": "Tömörítsen MP4 videókat online ingyen. Csökkentse gyorsan az MP4 fájlméretet vízjel nélkül. Tökéletes mobil megosztáshoz, e-mailhez és közösségi médiához.",
+      "h1": "Gyors MP4 Videó Tömörítő",
+      "heroText": "A világ legmegbízhatóbb MP4 tömörítője. Zsugorítsa össze MP4 fájljait másodpercek alatt, miközben megőrzi a lenyűgöző 1080p/4K minőséget.",
+      "introText": "Az MP4 a legnépszerűbb videóformátum, de a nagy felbontású fájlok hatalmasak lehetnek. Intelligens tömörítőmotorunk elemzi az MP4 bitrátáját, hogy tökéletes egyensúlyt kínáljon a fájlméret és a vizuális tisztaság között.",
+      "features": [
+        { "title": "Minőségromlás Nélkül", "desc": "A fejlett libx264 kódolás biztosítja, hogy az MP4 éles maradjon." },
+        { "title": "Univerzális Lejátszás", "desc": "A tömörített MP4-ek minden iPhone-on, Androidon és Smart TV-n működnek." },
+        { "title": "Adatvédelem Előtérben", "desc": "Fájljai soha nem hagyják el a böngészőt. 100% biztonságos feldolgozás." }
+      ],
+      "steps": [
+        { "title": "MP4 Feltöltése", "desc": "Húzza be az MP4 fájlt a tömörítő dobozba." },
+        { "title": "Méret Kiválasztása", "desc": "Válassza ki a kívánt kimeneti méretet MB-ban." },
+        { "title": "Tömörítés és Mentés", "desc": "Töltse le azonnal az optimalizált MP4-et." }
+      ],
+      "faqs": [
+        { "q": "Fogni fog az MP4 minősége?", "a": "Nem, nagy hatékonyságú állandó bitrátát használunk a vizuális integritás megőrzéséhez." },
+        { "q": "Van méretkorlát?", "a": "Ingyenesen akár 5 GB-os MP4 fájlokat is tömöríthet." }
+      ]
+    },
+    "mov": {
+      "title": "MOV Tömörítés Online - Apple QuickTime Videók Gyors Kicsinyítése",
+      "description": "Tömörítsen MOV fájlokat online. Csökkentse az Apple MOV videók méretét a gyorsabb megosztás és tárolás érdekében. Kiváló minőségű QuickTime tömörítés vízjel nélkül.",
+      "h1": "Pro MOV Videó Tömörítő",
+      "heroText": "Az Apple MOV fájlok köztudottan hatalmasak. Eszközünk optimalizálja a MOV bitrátáját a webhez, anélkül, hogy feláldozná az Apple jellegzetes minőségét.",
+      "introText": "Az iPhone-on vagy Mac-en rögzített QuickTime (MOV) fájlok gyakran gigabájtokat foglalnak el. Segítünk azonnal átalakítani és tömöríteni őket hatékony, webkész formátumokba.",
+      "features": [
+        { "title": "Apple-re Optimalizálva", "desc": "Kifejezetten a nagy bitrátájú ProRes és H.264 MOV fájlokhoz hangolva." },
+        { "title": "Webkész", "desc": "Alakítsa át a súlyos MOV-okat könnyű, streaming-barát verziókká." },
+        { "title": "Zéró Várakozás", "desc": "Gyors böngésző alapú feldolgozás, nincs szükség szerverre való feltöltésre." }
+      ],
+      "steps": [
+        { "title": "MOV Importálása", "desc": "Válassza ki a .mov fájlt Mac-ről vagy iPhone-ról." },
+        { "title": "Méret Beállítása", "desc": "Válasszon a megosztási igényeinek megfelelő célméretet." },
+        { "title": "Exportálás", "desc": "Mentse el a tömörített videót másodpercek alatt." }
+      ],
+      "faqs": [
+        { "q": "Használhatom ezt iPhone-on?", "a": "Igen, eszközünk teljes mértékben kompatibilis az iOS Safari böngészőjével MOV tömörítéshez." },
+        { "q": "Támogatja a 4K MOV-ot?", "a": "Természetesen, a 4K 60fps MOV fájlokat is könnyedén kezeljük." }
+      ]
+    },
+    "video-for-whatsapp": {
+      "title": "Videó Tömörítés WhatsApp-hoz Online - Nagy Videók Küldése Egyszerűen",
+      "description": "Tömörítsen videókat WhatsApp-hoz online. Csökkentse a fájlokat 16 MB vagy 64 MB alá a WhatsApp korlátozásainak kijátszásához. Vízjel nélkül, 100% ingyen.",
+      "h1": "WhatsApp Videó Tömörítő",
+      "heroText": "Felejtse el a 'Fájl túl nagy' hibaüzenetet a WhatsApp-on. Tömörítse videóit, hogy tökéletesen illeszkedjenek a 16 MB-os vagy 64 MB-os korlátba.",
+      "introText": "A WhatsApp szigorú fájlméret-korlátokkal rendelkezik (16 MB mobilra, 64 MB webre). Eszközünk automatikusan optimalizálja a videót, hogy megfeleljen ezeknek a korlátoknak, miközben a tartalom tiszta marad.",
+      "features": [
+        { "title": "Korlátok Kijátszása", "desc": "Automatikusan elérheti a pontos 16 MB-os vagy 64 MB-os célt a WhatsApp-hoz." },
+        { "title": "Azonnali Megosztás", "desc": "A tömörített fájlok készen állnak az azonnali WhatsApp továbbításra." },
+        { "title": "Csoportbarát", "desc": "A kisebb fájlok gyorsabb feltöltést és letöltést jelentenek a csoportos beszélgetésekben." }
+      ],
+      "steps": [
+        { "title": "Videó Kiválasztása", "desc": "Válassza ki a videót, amelyet WhatsApp-on szeretne elküldeni." },
+        { "title": "Korlát Kiválasztása", "desc": "Állítsa a célt 15 MB-ra a biztonság kedvéért mobil WhatsApp esetén." },
+        { "title": "Letöltés és Küldés", "desc": "Ossza meg videóját korlátozási figyelmeztetések nélkül." }
+      ],
+      "faqs": [
+        { "q": "Mi a WhatsApp fájlkorlátja?", "a": "A mobil korlát 16 MB, míg a WhatsApp Web akár 64 MB-ot is támogat." },
+        { "q": "Elmosódott lesz a videó?", "a": "Nem, optimalizáljuk a felbontást, hogy nagyszerűen mutasson a telefonok kijelzőjén." }
+      ]
+    },
+    "video-for-discord": {
+      "title": "Videó Tömörítés Discord-hoz Online - 8 MB / 25 MB Korlát Kijátszása",
+      "description": "Tömörítsen videókat Discord-hoz ingyen. Csökkentse a nagy videókat a 8 MB-os (Nitro Basic) vagy 25 MB-os korlátba. Kiváló minőségű Discord videó optimalizáló.",
+      "h1": "Discord Videó Tömörítő",
+      "heroText": "Unja már a Discord Nitro felhívásokat? Tömörítse mémjeit és klipjeit, hogy azonnal beférjenek a 8 MB-os vagy 25 MB-os ingyenes korlátba.",
+      "introText": "A Discord feltöltési korlátai minden gamer rémálmai. Akár 8 MB-os fájlra van szüksége ingyenes felhasználóként, akár 25 MB-osra Nitro Basic-hez, eszközünk biztosítja a klipek jó minőségét.",
+      "features": [
+        { "title": "Nitro Barát", "desc": "Előre beállított értékek a 8 MB-os, 25 MB-os és 50 MB-os Discord korlátokhoz." },
+        { "title": "Gamer Kész", "desc": "Tökéletes magas FPS-ű játékmenet klipekhez OBS-ből vagy Shadowplay-ből." },
+        { "title": "Auto-Méretezés", "desc": "Beállítja a méreteket, hogy a fájl biztosan beférjen a szűk Discord korlátba." }
+      ],
+      "steps": [
+        { "title": "Klip Feltöltése", "desc": "Húzza be a játékmenet klipet vagy mémet a dobozba." },
+        { "title": "8 MB Cél Beállítása", "desc": "Használja a csúszkát a pontos 8 MB-os határ eléréséhez." },
+        { "title": "Megosztás Discordon", "desc": "Posztolja videóját bármelyik csatornán Nitro nélkül." }
+      ],
+      "faqs": [
+        { "q": "Mi a Discord ingyenes korlátja?", "a": "A Discord nemrég 25 MB-ra emelte az ingyenes korlátot a legtöbb felhasználónak, de a 8 MB még mindig biztonságosabb bizonyos szervereken." },
+        { "q": "Támogatja a .webm-et?", "a": "Igen, a .webm formátumot ajánljuk Discord-hoz, mivel jobb tömörítést biztosít kis méreteknél." }
+      ]
+    },
+    "video-for-email": {
+      "title": "Videó Tömörítés E-mailhez Online - Nagy Mellékletek Gyors Küldése",
+      "description": "Tömörítsen videókat e-mailhez (Gmail, Outlook, Yahoo). Csökkentse a videó méretét 25 MB alá az egyszerű csatoláshoz. Küldjön nagy videókat e-mailben ingyen.",
+      "h1": "E-mail Videó Tömörítő",
+      "heroText": "Küldjön videókat e-mailben a Google Drive vagy Dropbox használata nélkül. Zsugorítsa össze fájljait a 25 MB-os e-mail mellékletkorlátba.",
+      "introText": "A legtöbb e-mail szolgáltató, mint a Gmail és az Outlook, 25 MB-os korláttal rendelkezik. Eszközünk optimalizálja üzleti videóit vagy családi klipjeit, hogy tökéletesen illeszkedjenek egy e-mailbe.",
+      "features": [
+        { "title": "Gmail Kompatibilis", "desc": "A 25 MB-os korlát alatt marad a zökkenőmentes csatoláshoz." },
+        { "title": "Profi Minőség", "desc": "Élesen tartja üzleti prezentációit és oktatóvideóit." },
+        { "title": "Platformfüggetlen", "desc": "Minden böngészőben működik, beleértve az Outlookot és a Yahoo Mailt is." }
+      ],
+      "steps": [
+        { "title": "Melléklet Hozzáadása", "desc": "Válassza ki a nagy videófájlt, amelyet e-mailben szeretne elküldeni." },
+        { "title": "24 MB Korlát Beállítása", "desc": "Célozza meg a 24 MB-ot, hogy biztosan beférjen a 25 MB-os korlátba." },
+        { "title": "Csatolás és Küldés", "desc": "Töltse le a fájlt, és csatolja közvetlenül az e-mailjéhez." }
+      ],
+      "faqs": [
+        { "q": "Mi a Gmail mellékletkorlátja?", "a": "A Gmail legfeljebb 25 MB-ot engedélyez e-mailenként. Ha nagyobb, Google Drive linket kényszerít ki." },
+        { "q": "Mennyire tudok kicsinyíteni egy videót?", "a": "Gyakran egy 200 MB-os videót is le tudunk csökkenteni 24 MB-ra, miközben jól nézhető marad." }
+      ]
+    }
   }
 }

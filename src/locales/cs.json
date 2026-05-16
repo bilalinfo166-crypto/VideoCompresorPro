@@ -880,5 +880,112 @@
     "i6_p1": "Compress long recordings",
     "i6_p2": "Easier file transfers",
     "i6_p3": "Better storage management"
+  },
+  "pseo": {
+    "mp4": {
+      "title": "Komprese MP4 online - Zmenšete velikost videa MP4 bez ztráty kvality",
+      "description": "Komprimujte MP4 videa online zdarma. Rychle zmenšete velikost souboru MP4 bez vodoznaků. Ideální pro sdílení v mobilu, e-mailu a na sociálních sítích.",
+      "h1": "Rychlý kompresor videa MP4",
+      "heroText": "Nejdůvěryhodnější kompresor MP4 na světě. Zmenšete své soubory MP4 během několika sekund při zachování úžasné kvality 1080p/4K.",
+      "introText": "MP4 je nejoblíbenější video formát, ale soubory ve vysokém rozlišení mohou být obrovské. Náš inteligentní kompresní engine analyzuje datové toky vašeho MP4, aby nabídl dokonalou rovnováhu mezi velikostí souboru a vizuální čistotou.",
+      "features": [
+        { "title": "Bez ztráty kvality", "desc": "Pokročilé kódování libx264 zajišťuje, že vaše MP4 zůstane ostré." },
+        { "title": "Univerzální přehrávání", "desc": "Zkomprimovaná MP4 fungují na všech iPhonech, Androidu i Smart TV." },
+        { "title": "Soukromí na prvním místě", "desc": "Vaše soubory nikdy neopustí prohlížeč. 100% bezpečné zpracování." }
+      ],
+      "steps": [
+        { "title": "Nahrát MP4", "desc": "Přetáhněte soubor MP4 do pole kompresoru." },
+        { "title": "Zvolit velikost", "desc": "Vyberte požadovanou výstupní velikost v MB." },
+        { "title": "Komprimovat a uložit", "desc": "Okamžitě stáhněte své optimalizované MP4." }
+      ],
+      "faqs": [
+        { "q": "Ztratí moje MP4 na kvalitě?", "a": "Ne, používáme vysoce účinné faktory konstantního datového toku pro zachování vizuální integrity." },
+        { "q": "Existuje limit velikosti souboru?", "a": "Zdarma můžete komprimovat soubory MP4 až do velikosti 5 GB." }
+      ]
+    },
+    "mov": {
+      "title": "Komprese MOV online - Rychle zmenšete Apple QuickTime videa",
+      "description": "Komprimujte soubory MOV online. Zmenšete velikost Apple MOV videí pro rychlejší sdílení a ukládání. Kvalitní komprese QuickTime bez vodoznaků.",
+      "h1": "Pro MOV video kompresor",
+      "heroText": "Soubory Apple MOV jsou proslulé svou velikostí. Náš nástroj optimalizuje datové toky MOV pro web, aniž by obětoval charakteristickou kvalitu Apple.",
+      "introText": "Soubory QuickTime (MOV) pořízené na iPhonech nebo Macích často zabírají gigabajty místa. Pomůžeme vám je okamžitě převést a zkomprimovat do efektivních formátů připravených pro web.",
+      "features": [
+        { "title": "Optimalizováno pro Apple", "desc": "Speciálně vyladěno pro soubory ProRes a H.264 MOV s vysokým datovým tokem." },
+        { "title": "Připraveno pro web", "desc": "Převeďte objemné soubory MOV na lehké verze vhodné pro streamování." },
+        { "title": "Nulové čekání", "desc": "Rychlé zpracování v prohlížeči, není vyžadováno nahrávání na server." }
+      ],
+      "steps": [
+        { "title": "Importovat MOV", "desc": "Vyberte soubor .mov ze svého Macu nebo iPhonu." },
+        { "title": "Upravit velikost", "desc": "Zvolte cílovou velikost, která vyhovuje vašim potřebám sdílení." },
+        { "title": "Exportovat", "desc": "Uložte své zkomprimované video během několika sekund." }
+      ],
+      "faqs": [
+        { "q": "Mohu to použít na iPhone?", "a": "Ano, náš nástroj je plně kompatibilní se Safari na iOS pro kompresi MOV." },
+        { "q": "Podporuje to 4K MOV?", "a": "Rozhodně, soubory 4K 60fps MOV zpracováváme s lehkostí." }
+      ]
+    },
+    "video-for-whatsapp": {
+      "title": "Komprese videa pro WhatsApp online - Snadné odesílání velkých videí",
+      "description": "Komprimujte videa pro WhatsApp online. Zmenšete soubory pod 16 MB nebo 64 MB pro obejití limitů WhatsApp. Bez vodoznaků, 100% zdarma.",
+      "h1": "Video kompresor pro WhatsApp",
+      "heroText": "Už žádné chyby 'Soubor je příliš velký' na WhatsAppu. Zkomprimujte svá videa tak, aby se dokonale vešla do limitu 16 MB nebo 64 MB.",
+      "introText": "WhatsApp má přísné limity velikosti souborů (16 MB pro mobilní zařízení, 64 MB pro web). Náš nástroj automaticky optimalizuje vaše video tak, aby tyto limity splňovalo při zachování čistoty obsahu.",
+      "features": [
+        { "title": "Obejití limitů", "desc": "Automaticky dosáhněte přesného cíle 16 MB nebo 64 MB pro WhatsApp." },
+        { "title": "Okamžité sdílení", "desc": "Zkomprimované soubory jsou připraveny k okamžitému odeslání přes WhatsApp." },
+        { "title": "Vhodné pro skupiny", "desc": "Menší soubory znamenají rychlejší nahrávání a stahování ve vašich skupinových chatech." }
+      ],
+      "steps": [
+        { "title": "Vybrat video", "desc": "Vyberte video, které chcete poslat přes WhatsApp." },
+        { "title": "Zvolit limit", "desc": "Nastavte cíl na 15 MB pro jistotu v mobilní verzi WhatsApp." },
+        { "title": "Stáhnout a poslat", "desc": "Sdílejte své video bez varování o limitech." }
+      ],
+      "faqs": [
+        { "q": "Jaký je limit souborů na WhatsApp?", "a": "Mobilní limit je 16 MB, zatímco WhatsApp Web podporuje až 64 MB." },
+        { "q": "Bude video rozmazané?", "a": "Ne, optimalizujeme rozlišení, aby vypadalo skvěle na obrazovkách telefonů." }
+      ]
+    },
+    "video-for-discord": {
+      "title": "Komprese videa pro Discord online - Obejděte limit 8 MB / 25 MB",
+      "description": "Komprimujte videa pro Discord zdarma. Zmenšete velká videa tak, aby se vešla do limitů 8 MB (Nitro Basic) nebo 25 MB. Kvalitní optimalizátor videa pro Discord.",
+      "h1": "Video kompresor pro Discord",
+      "heroText": "Už vás nebaví výzvy k Discord Nitro? Zkomprimujte své memy a klipy, aby se okamžitě vešly pod bezplatný limit 8 MB nebo 25 MB.",
+      "introText": "Limity nahrávání na Discordu jsou noční můrou každého hráče. Ať už potřebujete 8MB soubor pro neplatící uživatele nebo 25MB soubor pro Nitro Basic, náš nástroj zajistí vysokou kvalitu vašich klipů.",
+      "features": [
+        { "title": "Nitro Friendly", "desc": "Předvolby pro limity Discordu 8 MB, 25 MB a 50 MB." },
+        { "title": "Připraveno pro hráče", "desc": "Ideální pro herní klipy s vysokým FPS z OBS nebo Shadowplay." },
+        { "title": "Auto-Resize", "desc": "Upraví rozměry tak, aby se soubor vešel do malého limitu Discordu." }
+      ],
+      "steps": [
+        { "title": "Nahrát klip", "desc": "Přetáhněte svůj herní klip nebo meme do pole." },
+        { "title": "Nastavit cíl 8 MB", "desc": "Pomocí posuvníku trefte přesně hranici 8 MB." },
+        { "title": "Sdílet na Discordu", "desc": "Publikujte své video v jakémkoli kanálu bez Nitra." }
+      ],
+      "faqs": [
+        { "q": "Jaký je bezplatný limit Discordu?", "a": "Discord nedávno zvýšil bezplatný limit na 25 MB pro většinu uživatelů, ale 8 MB je stále jistější pro některé servery." },
+        { "q": "Podporuje to .webm?", "a": "Ano, pro Discord doporučujeme .webm, protože má lepší kompresi pro malé velikosti." }
+      ]
+    },
+    "video-for-email": {
+      "title": "Komprese videa pro e-mail online - Rychle posílejte velké přílohy",
+      "description": "Komprimujte videa pro e-mail (Gmail, Outlook, Yahoo). Zmenšete velikost videa pod 25 MB pro snadné přílohy. Posílejte velká videa e-mailem zdarma.",
+      "h1": "Video kompresor pro e-mail",
+      "heroText": "Posílejte videa e-mailem bez použití Google Drive nebo Dropboxu. Zmenšete své soubory tak, aby se vešly do limitu e-mailových příloh 25 MB.",
+      "introText": "Většina poskytovatelů e-mailu, jako je Gmail a Outlook, má limit 25 MB. Náš nástroj optimalizuje vaše pracovní videa nebo rodinné klipy tak, aby se dokonale vešly do e-mailu.",
+      "features": [
+        { "title": "Kompatibilní s Gmailem", "desc": "Zůstává pod limitem 25 MB pro bezproblémové přílohy." },
+        { "title": "Pro kvalita", "desc": "Udržuje vaše obchodní prezentace a návody ostré." },
+        { "title": "Multiplatformní", "desc": "Funguje ve všech prohlížečích, včetně Outlooku a Yahoo Mailu." }
+      ],
+      "steps": [
+        { "title": "Přidat přílohu", "desc": "Vyberte velký video soubor, který chcete poslat e-mailem." },
+        { "title": "Nastavit limit 24 MB", "desc": "Cilte na 24 MB, abyste se bezpečně vešli do limitu e-mailu 25 MB." },
+        { "title": "Přiložit a odeslat", "desc": "Stáhněte soubor a přiložte jej přímo ke svému e-mailu." }
+      ],
+      "faqs": [
+        { "q": "Jaký je limit příloh v Gmailu?", "a": "Gmail povoluje až 25 MB na e-mail. Pokud je soubor větší, vynutí odkaz na Google Drive." },
+        { "q": "O kolik mohu video zmenšit?", "a": "Často dokážeme zmenšit 200MB video na 24 MB při zachování velmi dobré kvality obrazu." }
+      ]
+    }
   }
 }

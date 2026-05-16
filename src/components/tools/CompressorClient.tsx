@@ -40,6 +40,17 @@ const Visualizer = dynamic(() => import("@/components/home/QualityVisualizer").t
 
 export default function CompressorClient({ data, slug }: { data: SEOData, slug: string }) {
   const { t } = useLanguage();
+  
+  // Try to get localized data, fallback to static English data
+  const localizedH1 = t(`pseo.${slug}.h1`);
+  const h1 = localizedH1.includes('pseo.') ? data.h1 : localizedH1;
+  
+  const localizedHero = t(`pseo.${slug}.heroText`);
+  const heroText = localizedHero.includes('pseo.') ? data.heroText : localizedHero;
+  
+  const localizedIntro = t(`pseo.${slug}.introText`);
+  const introText = localizedIntro.includes('pseo.') ? data.introText : localizedIntro;
+
   const contextName = slug.includes('whatsapp') ? 'WhatsApp' : 
                      slug.includes('discord') ? 'Discord' : 
                      slug.includes('email') ? 'Email' : 
@@ -67,16 +78,16 @@ export default function CompressorClient({ data, slug }: { data: SEOData, slug: 
             <div className="flex justify-center mb-10">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-600 dark:text-blue-400 text-sm font-bold shadow-sm">
                 <Sparkles className="w-4 h-4" aria-hidden="true" />
-                No Quality Loss · Fast Compression
+                {t("common.no_uploads")} · {t("visualizer.title").split(' ')[0]}
               </div>
             </div>
 
             {/* Headline */}
             <h1 className="text-center text-4xl sm:text-5xl md:text-7xl font-black tracking-tight mb-6 sm:mb-8 leading-[1.1] text-[var(--foreground)] px-2">
-               {data.h1}
+               {h1}
             </h1>
             <p className="text-center text-base sm:text-xl text-[var(--muted-text)] mb-10 sm:mb-16 max-w-2xl mx-auto leading-relaxed font-medium px-4">
-              {data.heroText}
+              {heroText}
             </p>
 
             {/* Tool Container */}
@@ -91,9 +102,9 @@ export default function CompressorClient({ data, slug }: { data: SEOData, slug: 
       <section className="py-20 bg-[var(--background)] border-t border-[var(--card-border)]">
         <div className="container mx-auto px-4 max-w-4xl">
            <div className="prose prose-lg prose-slate dark:prose-invert max-w-none text-center">
-              <h2 className="text-3xl sm:text-4xl font-black mb-8">{t("common.why_choose")} {slug.toUpperCase()}</h2>
+              <h2 className="text-3xl sm:text-4xl font-black mb-8">{t("common.why_choose")} {contextName}</h2>
               <p className="text-[var(--muted-text)] font-medium leading-relaxed mb-12">
-                {data.introText}
+                {introText}
               </p>
            </div>
 
@@ -101,13 +112,18 @@ export default function CompressorClient({ data, slug }: { data: SEOData, slug: 
            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
               {data.features.map((f, i) => {
                 const Icon = ICON_MAP[f.icon] || Sparkles;
+                const locTitle = t(`pseo.${slug}.features.${i}.title`);
+                const locDesc = t(`pseo.${slug}.features.${i}.desc`);
+                const title = locTitle.includes('pseo.') ? f.title : locTitle;
+                const desc = locDesc.includes('pseo.') ? f.desc : locDesc;
+
                 return (
                   <div key={i} className="p-8 rounded-[2rem] bg-slate-50/50 dark:bg-slate-900/40 border border-[var(--card-border)] hover:border-blue-500/30 transition-all group">
                     <div className="w-12 h-12 bg-blue-600/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                        <Icon className="w-6 h-6 text-blue-600" />
                     </div>
-                    <h3 className="text-lg font-black mb-2">{f.title}</h3>
-                    <p className="text-sm text-[var(--muted-text)] font-medium leading-relaxed">{f.desc}</p>
+                    <h3 className="text-lg font-black mb-2">{title}</h3>
+                    <p className="text-sm text-[var(--muted-text)] font-medium leading-relaxed">{desc}</p>
                   </div>
                 );
               })}
@@ -122,19 +138,26 @@ export default function CompressorClient({ data, slug }: { data: SEOData, slug: 
       <section id="how-it-works" className="py-20 bg-[var(--background)]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-             <h2 className="text-3xl sm:text-5xl font-black text-center mb-16">How to Compress {slug.toUpperCase()}</h2>
+             <h2 className="text-3xl sm:text-5xl font-black text-center mb-16">{t("how_it_works.title")} {contextName}</h2>
              <div className="grid grid-cols-1 gap-12">
-                {data.steps.map((s, i) => (
-                  <div key={i} className="flex flex-col sm:flex-row gap-8 items-center bg-white dark:bg-slate-900 p-8 rounded-[2.5rem] border border-[var(--card-border)] shadow-sm">
-                    <div className="w-16 h-16 rounded-2xl bg-blue-600 text-white flex items-center justify-center text-2xl font-black shrink-0">
-                      {i + 1}
+                {data.steps.map((s, i) => {
+                  const locTitle = t(`pseo.${slug}.steps.${i}.title`);
+                  const locDesc = t(`pseo.${slug}.steps.${i}.desc`);
+                  const title = locTitle.includes('pseo.') ? s.title : locTitle;
+                  const desc = locDesc.includes('pseo.') ? s.desc : locDesc;
+
+                  return (
+                    <div key={i} className="flex flex-col sm:flex-row gap-8 items-center bg-white dark:bg-slate-900 p-8 rounded-[2.5rem] border border-[var(--card-border)] shadow-sm">
+                      <div className="w-16 h-16 rounded-2xl bg-blue-600 text-white flex items-center justify-center text-2xl font-black shrink-0">
+                        {i + 1}
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-black mb-2 text-center sm:text-left">{title}</h3>
+                        <p className="text-[var(--muted-text)] font-medium leading-relaxed text-center sm:text-left">{desc}</p>
+                      </div>
                     </div>
-                    <div>
-                      <h3 className="text-xl font-black mb-2 text-center sm:text-left">{s.title}</h3>
-                      <p className="text-[var(--muted-text)] font-medium leading-relaxed text-center sm:text-left">{s.desc}</p>
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
              </div>
           </div>
         </div>
@@ -146,19 +169,26 @@ export default function CompressorClient({ data, slug }: { data: SEOData, slug: 
       {/* FAQ with SEO Data */}
       <section id="faq" className="py-20 bg-[var(--background)] border-t border-[var(--card-border)]">
         <div className="container mx-auto px-4 max-w-4xl">
-           <h2 className="text-3xl sm:text-5xl font-black text-center mb-16">FAQs for {slug.toUpperCase()}</h2>
+           <h2 className="text-3xl sm:text-5xl font-black text-center mb-16">{t("faq.title")} {contextName}</h2>
            <div className="space-y-4">
-              {data.faqs.map((faq, i) => (
-                <div key={i} className="p-8 rounded-[2rem] bg-slate-50/50 dark:bg-slate-900/40 border border-[var(--card-border)]">
-                   <h3 className="text-lg font-black mb-4 flex items-center gap-3">
-                      <div className="w-2 h-2 bg-blue-600 rounded-full" />
-                      {faq.q}
-                   </h3>
-                   <p className="text-[var(--muted-text)] font-medium leading-relaxed pl-5">
-                      {faq.a}
-                   </p>
-                </div>
-              ))}
+              {data.faqs.map((faq, i) => {
+                const locQ = t(`pseo.${slug}.faqs.${i}.q`);
+                const locA = t(`pseo.${slug}.faqs.${i}.a`);
+                const q = locQ.includes('pseo.') ? faq.q : locQ;
+                const a = locA.includes('pseo.') ? faq.a : locA;
+
+                return (
+                  <div key={i} className="p-8 rounded-[2rem] bg-slate-50/50 dark:bg-slate-900/40 border border-[var(--card-border)]">
+                     <h3 className="text-lg font-black mb-4 flex items-center gap-3">
+                        <div className="w-2 h-2 bg-blue-600 rounded-full" />
+                        {q}
+                     </h3>
+                     <p className="text-[var(--muted-text)] font-medium leading-relaxed pl-5">
+                        {a}
+                     </p>
+                  </div>
+                );
+              })}
            </div>
         </div>
       </section>
@@ -177,7 +207,7 @@ export default function CompressorClient({ data, slug }: { data: SEOData, slug: 
                </div>
                <div className="w-full md:w-80">
                   <div className="h-full glass-card p-8 rounded-[32px] border border-[var(--card-border)] flex flex-col justify-center">
-                     <h4 className="font-black text-xs uppercase tracking-widest mb-6 text-center">Share this tool</h4>
+                     <h4 className="font-black text-xs uppercase tracking-widest mb-6 text-center">{t("common.share_tool")}</h4>
                      <SocialShare />
                   </div>
                </div>

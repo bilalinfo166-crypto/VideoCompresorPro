@@ -880,5 +880,112 @@
     "i6_p1": "Compress long recordings",
     "i6_p2": "Easier file transfers",
     "i6_p3": "Better storage management"
+  },
+  "pseo": {
+    "mp4": {
+      "title": "Nén MP4 Trực Tuyến - Giảm Dung Lượng Video MP4 Không Mất Chất Lượng",
+      "description": "Nén video MP4 trực tuyến miễn phí. Giảm kích thước tệp MP4 nhanh chóng không có hình mờ. Hoàn hảo để chia sẻ trên điện thoại, email và mạng xã hội.",
+      "h1": "Trình Nén Video MP4 Tốc Độ",
+      "heroText": "Trình nén MP4 đáng tin cậy nhất thế giới. Thu nhỏ các tệp MP4 của bạn trong vài giây trong khi vẫn giữ được chất lượng 1080p/4K tuyệt vời.",
+      "introText": "MP4 là định dạng video phổ biến nhất, nhưng các tệp độ phân giải cao có thể rất lớn. Công cụ nén thông minh của chúng tôi phân tích bitrate MP4 của bạn để đưa ra sự cân bằng hoàn hảo giữa kích thước tệp và độ rõ nét của hình ảnh.",
+      "features": [
+        { "title": "Không Giảm Chất Lượng", "desc": "Mã hóa libx264 tiên tiến đảm bảo video MP4 của bạn luôn sắc nét." },
+        { "title": "Phát Được Mọi Nơi", "desc": "Các tệp MP4 đã nén hoạt động trên tất cả iPhone, Android và Smart TV." },
+        { "title": "Quyền Riêng Tư Là Trên Hết", "desc": "Tệp của bạn không bao giờ rời khỏi trình duyệt. Xử lý an toàn 100%." }
+      ],
+      "steps": [
+        { "title": "Tải Lên MP4", "desc": "Kéo và thả tệp MP4 của bạn vào hộp nén." },
+        { "title": "Chọn Kích Thước", "desc": "Chọn dung lượng đầu ra mong muốn tính bằng MB." },
+        { "title": "Nén và Lưu", "desc": "Tải xuống video MP4 đã được tối ưu hóa ngay lập tức." }
+      ],
+      "faqs": [
+        { "q": "Video MP4 của tôi có bị mờ không?", "a": "Không, chúng tôi sử dụng các yếu tố tốc độ không đổi hiệu suất cao để duy trì tính toàn vẹn của hình ảnh." },
+        { "q": "Có giới hạn kích thước tệp không?", "a": "Bạn có thể nén các tệp MP4 lên đến 5GB miễn phí." }
+      ]
+    },
+    "mov": {
+      "title": "Nén MOV Trực Tuyến - Thu Nhỏ Video Apple QuickTime Nhanh Chóng",
+      "description": "Nén tệp MOV trực tuyến. Giảm dung lượng video Apple MOV để chia sẻ và lưu trữ nhanh hơn. Nén QuickTime chất lượng cao không có hình mờ.",
+      "h1": "Trình Nén Video MOV Chuyên Nghiệp",
+      "heroText": "Các tệp Apple MOV nổi tiếng là có dung lượng lớn. Công cụ của chúng tôi tối ưu hóa bitrate MOV cho web mà không làm mất đi chất lượng đặc trưng của Apple.",
+      "introText": "Các tệp QuickTime (MOV) được quay trên iPhone hoặc Mac thường chiếm hàng gigabyte dung lượng. Chúng tôi giúp bạn chuyển đổi và nén chúng ngay lập tức sang các định dạng hiệu quả, sẵn sàng cho web.",
+      "features": [
+        { "title": "Tối Ưu Cho Apple", "desc": "Được tinh chỉnh đặc biệt cho các tệp ProRes và H.264 MOV có bitrate cao." },
+        { "title": "Sẵn Sàng Cho Web", "desc": "Biến các tệp MOV nặng nề thành các phiên bản nhẹ, sẵn sàng để phát trực tuyến." },
+        { "title": "Không Chờ Đợi", "desc": "Xử lý nhanh chóng ngay trên trình duyệt, không cần tải lên máy chủ." }
+      ],
+      "steps": [
+        { "title": "Nhập MOV", "desc": "Chọn tệp .mov từ máy Mac hoặc iPhone của bạn." },
+        { "title": "Điều Chỉnh Kích Thước", "desc": "Chọn dung lượng mục tiêu phù hợp với nhu cầu chia sẻ của bạn." },
+        { "title": "Xuất Video", "desc": "Lưu video đã nén của bạn chỉ trong vài giây." }
+      ],
+      "faqs": [
+        { "q": "Tôi có thể sử dụng công cụ này trên iPhone không?", "a": "Có, công cụ của chúng tôi hoàn toàn tương thích với Safari trên iOS để nén MOV." },
+        { "q": "Có hỗ trợ MOV 4K không?", "a": "Chắc chắn rồi, chúng tôi xử lý các tệp MOV 4K 60fps một cách dễ dàng." }
+      ]
+    },
+    "video-for-whatsapp": {
+      "title": "Nén Video Cho WhatsApp Trực Tuyến - Gửi Video Lớn Dễ Dàng",
+      "description": "Nén video cho WhatsApp trực tuyến. Thu nhỏ tệp xuống dưới 16MB hoặc 64MB để vượt qua giới hạn chia sẻ của WhatsApp. Không có hình mờ, miễn phí 100%.",
+      "h1": "Trình Nén Video Cho WhatsApp",
+      "heroText": "Ngừng nhận lỗi 'Tệp quá lớn' trên WhatsApp. Nén video của bạn để vừa khít với giới hạn 16MB hoặc 64MB.",
+      "introText": "WhatsApp có các giới hạn kích thước tệp nghiêm ngặt (16MB cho di động, 64MB cho web). Công cụ của chúng tôi tự động tối ưu hóa video của bạn để tuân thủ các giới hạn này trong khi vẫn giữ nội dung rõ nét.",
+      "features": [
+        { "title": "Vượt Qua Giới Hạn", "desc": "Tự động đạt được mục tiêu chính xác 16MB hoặc 64MB cho WhatsApp." },
+        { "title": "Chia Sẻ Tức Thì", "desc": "Các tệp đã nén sẵn sàng để gửi ngay lập tức trên WhatsApp." },
+        { "title": "Thân Thiện Với Nhóm", "desc": "Tệp nhỏ hơn có nghĩa là tải lên và tải xuống nhanh hơn trong các cuộc trò chuyện nhóm của bạn." }
+      ],
+      "steps": [
+        { "title": "Chọn Video", "desc": "Chọn video bạn muốn gửi trên WhatsApp." },
+        { "title": "Chọn Giới Hạn", "desc": "Đặt mục tiêu là 15MB để an toàn trên WhatsApp di động." },
+        { "title": "Tải Về và Gửi", "desc": "Chia sẻ video của bạn mà không có bất kỳ cảnh báo giới hạn nào." }
+      ],
+      "faqs": [
+        { "q": "Giới hạn tệp của WhatsApp là bao nhiêu?", "a": "Giới hạn di động là 16MB, trong khi WhatsApp Web hỗ trợ lên đến 64MB." },
+        { "q": "Video có bị mờ không?", "a": "Không, chúng tôi tối ưu hóa độ phân giải để đảm bảo nó trông tuyệt vời trên màn hình điện thoại." }
+      ]
+    },
+    "video-for-discord": {
+      "title": "Nén Video Cho Discord Trực Tuyến - Vượt Giới Hạn 8MB / 25MB",
+      "description": "Nén video cho Discord miễn phí. Thu nhỏ video lớn để vừa với giới hạn 8MB (Nitro Basic) hoặc 25MB. Trình tối ưu hóa video Discord chất lượng cao.",
+      "h1": "Trình Nén Video Cho Discord",
+      "heroText": "Bạn mệt mỏi với các yêu cầu nâng cấp Discord Nitro? Nén các meme và clip của bạn để vừa với giới hạn miễn phí 8MB hoặc 25MB ngay lập tức.",
+      "introText": "Giới hạn tải lên của Discord là nỗi ám ảnh của mọi game thủ. Cho dù bạn cần tệp 8MB cho người dùng miễn phí hay 25MB cho Nitro Basic, công cụ của chúng tôi đảm bảo các clip của bạn vẫn giữ được chất lượng cao.",
+      "features": [
+        { "title": "Thân Thiện Với Nitro", "desc": "Cài đặt sẵn cho các giới hạn Discord 8MB, 25MB và 50MB." },
+        { "title": "Dành Cho Game Thủ", "desc": "Hoàn hảo cho các clip gameplay FPS cao từ OBS hoặc Shadowplay." },
+        { "title": "Tự Động Đổi Kích Thước", "desc": "Điều chỉnh kích thước để đảm bảo tệp vừa với giới hạn nhỏ của Discord." }
+      ],
+      "steps": [
+        { "title": "Tải Lên Clip", "desc": "Kéo clip gameplay hoặc meme của bạn vào hộp." },
+        { "title": "Đặt Mục Tiêu 8MB", "desc": "Sử dụng thanh trượt để đạt chính xác mốc 8MB." },
+        { "title": "Chia Sẻ Trên Discord", "desc": "Đăng video của bạn lên bất kỳ kênh nào mà không cần Nitro." }
+      ],
+      "faqs": [
+        { "q": "Giới hạn miễn phí của Discord là bao nhiêu?", "a": "Discord gần đây đã tăng giới hạn miễn phí lên 25MB cho hầu hết người dùng, nhưng 8MB vẫn an toàn hơn cho một số máy chủ." },
+        { "q": "Có hỗ trợ .webm không?", "a": "Có, chúng tôi khuyên dùng .webm cho Discord vì nó có khả năng nén tốt hơn cho kích thước nhỏ." }
+      ]
+    },
+    "video-for-email": {
+      "title": "Nén Video Cho Email Trực Tuyến - Gửi Tệp Đính Kèm Lớn Nhanh Chóng",
+      "description": "Nén video cho Email (Gmail, Outlook, Yahoo). Giảm dung lượng video xuống dưới 25MB để dễ dàng đính kèm. Gửi video lớn qua email miễn phí.",
+      "h1": "Trình Nén Video Cho Email",
+      "heroText": "Gửi video qua email mà không cần sử dụng Google Drive hoặc Dropbox. Thu nhỏ các tệp của bạn để vừa với giới hạn đính kèm email 25MB.",
+      "introText": "Hầu hết các nhà cung cấp email như Gmail và Outlook đều có giới hạn 25MB. Công cụ của chúng tôi tối ưu hóa video công việc hoặc clip gia đình của bạn để vừa khít trong một email.",
+      "features": [
+        { "title": "Tương Thích Với Gmail", "desc": "Dưới mức giới hạn 25MB để đính kèm tệp mượt mà." },
+        { "title": "Chất Lượng Chuyên Nghiệp", "desc": "Giữ cho các bài thuyết trình và hướng dẫn công việc của bạn luôn sắc nét." },
+        { "title": "Đa Nền Tảng", "desc": "Hoạt động trên mọi trình duyệt, bao gồm cả Outlook và Yahoo Mail." }
+      ],
+      "steps": [
+        { "title": "Thêm Tệp Đính Kèm", "desc": "Chọn tệp video lớn bạn muốn gửi qua email." },
+        { "title": "Đặt Giới Hạn 24MB", "desc": "Nhắm mục tiêu 24MB để đảm bảo vừa với giới hạn email 25MB." },
+        { "title": "Đính Kèm và Gửi", "desc": "Tải tệp xuống và đính kèm trực tiếp vào email của bạn." }
+      ],
+      "faqs": [
+        { "q": "Giới hạn đính kèm của Gmail là bao nhiêu?", "a": "Gmail cho phép tối đa 25MB mỗi email. Nếu lớn hơn, nó sẽ buộc phải sử dụng liên kết Google Drive." },
+        { "q": "Tôi có thể thu nhỏ video bao nhiêu?", "a": "Thường thì chúng tôi có thể thu nhỏ video 200MB xuống còn 24MB mà vẫn giữ được chất lượng xem rất tốt." }
+      ]
+    }
   }
 }
