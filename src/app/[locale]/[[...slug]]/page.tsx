@@ -14,7 +14,7 @@ import TermsPage from "@/app/terms/page";
 import VideoCutterPage from "@/app/video-cutter/page";
 import VideoToMp3Page from "@/app/video-to-mp3/page";
 import VideoToTextPage from "@/app/video-to-text/page";
-import { COMPRESSOR_PAGES } from "@/data/compressor-seo";
+import { COMPRESSOR_PAGES, PSEO_SLUGS } from "@/data/compressor-seo";
 import CompressorClient from "@/components/tools/CompressorClient";
 
 interface LocalizedPageProps {
