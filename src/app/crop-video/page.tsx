@@ -40,17 +40,17 @@ const STEPS = [
 
 const REVIEWS = [
   { id: 1, name: "Marco Rossi", avatar: "https://randomuser.me/api/portraits/men/50.jpg" },
-  { id: 2, name: "Lucia Santos", avatar: "https://randomuser.me/api/portraits/women/51.jpg" },
-  { id: 3, name: "Kenji Sato", avatar: "https://randomuser.me/api/portraits/men/52.jpg" },
-  { id: 4, name: "Marta Nowak", avatar: "https://randomuser.me/api/portraits/women/53.jpg" },
-  { id: 5, name: "Lars Erikson", avatar: "https://randomuser.me/api/portraits/men/54.jpg" },
-  { id: 6, name: "Isabella Viana", avatar: "https://randomuser.me/api/portraits/women/55.jpg" },
-  { id: 7, name: "Thomas Wright", avatar: "https://randomuser.me/api/portraits/men/56.jpg" },
-  { id: 8, name: "Yuki Chen", avatar: "https://randomuser.me/api/portraits/women/57.jpg" },
-  { id: 9, name: "Mateo Lopez", avatar: "https://randomuser.me/api/portraits/men/58.jpg" },
-  { id: 10, name: "Sofie Nielsen", avatar: "https://randomuser.me/api/portraits/women/59.jpg" },
-  { id: 11, name: "Liam Wilson", avatar: "https://randomuser.me/api/portraits/men/55.jpg" },
-  { id: 12, name: "Sophia Garcia", avatar: "https://randomuser.me/api/portraits/women/19.jpg" },
+  { id: 2, name: "Marta Nowak", avatar: "https://randomuser.me/api/portraits/women/43.jpg" },
+  { id: 3, name: "Thomas Wright", avatar: "https://randomuser.me/api/portraits/men/56.jpg" },
+  { id: 4, name: "Sofie Nielsen", avatar: "https://randomuser.me/api/portraits/women/59.jpg" },
+  { id: 5, name: "Lucia Santos", avatar: "https://randomuser.me/api/portraits/women/51.jpg" },
+  { id: 6, name: "Lars Erikson", avatar: "https://randomuser.me/api/portraits/men/54.jpg" },
+  { id: 7, name: "Yuki Chen", avatar: "https://randomuser.me/api/portraits/women/57.jpg" },
+  { id: 8, name: "Liam Wilson", avatar: "https://randomuser.me/api/portraits/men/55.jpg" },
+  { id: 9, name: "Emma Clarke", avatar: "https://randomuser.me/api/portraits/women/19.jpg" },
+  { id: 10, name: "Daniel Foster", avatar: "https://randomuser.me/api/portraits/men/52.jpg" },
+  { id: 11, name: "Ava Mitchell", avatar: "https://randomuser.me/api/portraits/women/48.jpg" },
+  { id: 12, name: "Noah Bennett", avatar: "https://randomuser.me/api/portraits/men/47.jpg" },
 ];
 
 const FAQS = [
@@ -243,6 +243,96 @@ export default function CropVideoPage() {
                   <p className="text-[var(--muted-text)] text-sm leading-relaxed font-medium">{t(`cropper_page.s${s.id}_desc`)}</p>
                </div>
              ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Use Cases Section ─── */}
+      <section className="py-24 bg-[var(--background)] overflow-hidden">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-24 max-w-3xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-6 text-[var(--foreground)] tracking-tight italic">{t("cropper_page.use_cases_title")}</h2>
+            <p className="text-[var(--muted-text)] font-medium text-lg leading-relaxed">{t("cropper_page.use_cases_desc")}</p>
+          </div>
+
+          <div className="space-y-32 max-w-6xl mx-auto">
+            {/* Use Case 1 & 2 */}
+            <div className="grid md:grid-cols-2 gap-16 items-center">
+              <div className="order-2 md:order-1">
+                <div className="space-y-12">
+                  <div className="group">
+                    <h3 className="text-2xl font-bold mb-4 text-[var(--foreground)] group-hover:text-indigo-500 transition-colors">{t("cropper_page.u1_title")}</h3>
+                    <p className="text-[var(--muted-text)] leading-relaxed font-medium">{t("cropper_page.u1_desc")}</p>
+                  </div>
+                  <div className="group">
+                    <h3 className="text-2xl font-bold mb-4 text-[var(--foreground)] group-hover:text-indigo-500 transition-colors">{t("cropper_page.u2_title")}</h3>
+                    <p className="text-[var(--muted-text)] leading-relaxed font-medium">{t("cropper_page.u2_desc")}</p>
+                  </div>
+                </div>
+              </div>
+              <div className="order-1 md:order-2 relative">
+                <div className="absolute -inset-4 bg-indigo-500/10 blur-2xl rounded-full" />
+                <Image 
+                  src="/cropper_use_case_platforms_1778894008379.png" 
+                  alt="Multi-platform cropping" 
+                  width={600} 
+                  height={400} 
+                  className="relative rounded-3xl border border-[var(--card-border)] shadow-2xl"
+                />
+              </div>
+            </div>
+
+            {/* Use Case 3 & 4 */}
+            <div className="grid md:grid-cols-2 gap-16 items-center">
+              <div className="relative">
+                <div className="absolute -inset-4 bg-violet-500/10 blur-2xl rounded-full" />
+                <Image 
+                  src="/cropper_use_case_ads_1778894030365.png" 
+                  alt="Ads and mobile optimization" 
+                  width={600} 
+                  height={400} 
+                  className="relative rounded-3xl border border-[var(--card-border)] shadow-2xl"
+                />
+              </div>
+              <div>
+                <div className="space-y-12">
+                  <div className="group">
+                    <h3 className="text-2xl font-bold mb-4 text-[var(--foreground)] group-hover:text-violet-500 transition-colors">{t("cropper_page.u3_title")}</h3>
+                    <p className="text-[var(--muted-text)] leading-relaxed font-medium">{t("cropper_page.u3_desc")}</p>
+                  </div>
+                  <div className="group">
+                    <h3 className="text-2xl font-bold mb-4 text-[var(--foreground)] group-hover:text-violet-500 transition-colors">{t("cropper_page.u4_title")}</h3>
+                    <p className="text-[var(--muted-text)] leading-relaxed font-medium">{t("cropper_page.u4_desc")}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Use Case 5 & 6 */}
+            <div className="grid md:grid-cols-2 gap-16 items-center">
+              <div className="order-2 md:order-1">
+                <div className="space-y-12">
+                  <div className="group">
+                    <h3 className="text-2xl font-bold mb-4 text-[var(--foreground)] group-hover:text-blue-500 transition-colors">{t("cropper_page.u5_title")}</h3>
+                    <p className="text-[var(--muted-text)] leading-relaxed font-medium">{t("cropper_page.u5_desc")}</p>
+                  </div>
+                  <div className="group">
+                    <h3 className="text-2xl font-bold mb-4 text-[var(--foreground)] group-hover:text-blue-500 transition-colors">{t("cropper_page.u6_title")}</h3>
+                    <p className="text-[var(--muted-text)] leading-relaxed font-medium">{t("cropper_page.u6_desc")}</p>
+                  </div>
+                </div>
+              </div>
+              <div className="order-1 md:order-2 relative">
+                <div className="absolute -inset-4 bg-blue-500/10 blur-2xl rounded-full" />
+                <Image 
+                  src="/cropper_use_case_focus_1778894052443.png" 
+                  alt="Subject focus and engagement" 
+                  width={600} 
+                  height={400} 
+                  className="relative rounded-3xl border border-[var(--card-border)] shadow-2xl"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
