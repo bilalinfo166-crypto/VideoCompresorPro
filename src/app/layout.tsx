@@ -3,6 +3,7 @@ import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { OneTapSignup } from "@/components/auth/OneTapSignup";
 import { LanguageProvider } from "@/context/LanguageContext";
 import Script from "next/script";
 
@@ -183,6 +184,7 @@ export default function RootLayout({
         <ThemeProvider>
           <LanguageProvider initialLocale={locale} translations={require(`../locales/${locale}.json`)}>
             <Header />
+            <OneTapSignup />
             <main className="flex-1 pt-16">
               {children}
             </main>
