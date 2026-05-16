@@ -23,17 +23,17 @@ export function Features({ context }: FeaturesProps) {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <div className="text-blue-600 dark:text-blue-400 font-bold tracking-[0.2em] uppercase text-xs mb-4">
-                {context ? `${context} Optimization` : "Universal Optimization"}
+                {context ? `${context} Optimization` : t("discord.badge")}
               </div>
               <h2 className="text-3xl md:text-5xl font-black text-[var(--foreground)] mb-6 leading-tight">
                 {context 
                   ? `Free Video Compressor for ${context} Uploads`
-                  : "Free Video Compressor for WhatsApp & Discord"}
+                  : t("discord.title")}
               </h2>
               <p className="text-[var(--muted-text)] text-lg leading-relaxed font-medium">
                 {context 
                   ? `Our specialized engine ensures your videos meet ${context} requirements perfectly while maintaining stunning visual quality.`
-                  : "Our specialized engine ensures your videos meet platform requirements perfectly while maintaining stunning visual quality and fast upload speeds."}
+                  : t("discord.desc")}
               </p>
             </div>
             <div className="order-1 md:order-2">
