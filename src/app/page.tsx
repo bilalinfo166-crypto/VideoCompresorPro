@@ -13,7 +13,8 @@ import { RelatedTools } from "@/components/layout/RelatedTools";
 import { SocialShare } from "@/components/layout/SocialShare";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { AuthorBlock } from "@/components/layout/AuthorBlock";
-import { TrustAndStats } from "@/components/layout/TrustAndStats";
+import { LogoMarquee } from "@/components/home/LogoMarquee";
+import { StatsStrip } from "@/components/home/StatsStrip";
 import { Features } from "@/components/home/Features";
 import { Comparison } from "@/components/home/Comparison";
 import { HowItWorks } from "@/components/home/HowItWorks";
@@ -150,7 +151,8 @@ export default function Home() {
         </div>
       </section>
 
-      <TrustAndStats />
+      <LogoMarquee />
+      <StatsStrip />
 
       <Features />
       <FeatureGrid />
