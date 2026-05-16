@@ -151,6 +151,7 @@ export default function RootLayout({
     <html lang={locale} suppressHydrationWarning>
       <head>
         <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+        <Script src="https://accounts.google.com/gsi/client" strategy="beforeInteractive" />
         
         {/* Google Analytics */}
         <Script
