@@ -300,7 +300,20 @@ export function VideoCompressor() {
               onClick={() => fileInputRef.current?.click()}
             >
               {/* Sample Video Button */}
-              <button className="absolute top-4 right-4 sm:top-6 sm:right-6 px-3 sm:px-4 py-1.5 sm:py-2 bg-slate-100 dark:bg-slate-800 rounded-full text-xs font-bold text-[var(--muted-text)] hover:bg-slate-200 transition-colors border border-[var(--card-border)] touch-feedback">
+              <button 
+                onClick={(e) => {
+                  e.stopPropagation();
+                  const sampleUrl = "/demo-video.mp4";
+                  fetch(sampleUrl)
+                    .then(res => res.blob())
+                    .then(blob => {
+                      const sampleFile = new File([blob], "sample-video.mp4", { type: "video/mp4" });
+                      setFile(sampleFile);
+                    })
+                    .catch(() => alert("Could not load sample video."));
+                }}
+                className="absolute top-4 right-4 sm:top-6 sm:right-6 px-3 sm:px-4 py-1.5 sm:py-2 bg-slate-100 dark:bg-slate-800 rounded-full text-xs font-bold text-[var(--muted-text)] hover:bg-slate-200 transition-colors border border-[var(--card-border)] z-30 touch-feedback"
+              >
                 Try Sample
               </button>
 

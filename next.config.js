@@ -26,8 +26,16 @@ const nextConfig = {
         ],
       },
       {
-        // Apply strict COEP/COOP only on pages that need SharedArrayBuffer (compression tools)
+        // Root-level SEO pages: /compress-mp4
         source: "/compress-:format*",
+        headers: [
+          { key: "Cross-Origin-Embedder-Policy", value: "require-corp" },
+          { key: "Cross-Origin-Opener-Policy", value: "same-origin" },
+        ],
+      },
+      {
+        // Localized SEO pages: /en/compress-mp4
+        source: "/:locale/compress-:format*",
         headers: [
           { key: "Cross-Origin-Embedder-Policy", value: "require-corp" },
           { key: "Cross-Origin-Opener-Policy", value: "same-origin" },
