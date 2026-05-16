@@ -170,7 +170,7 @@ export default function CompressorClient({ data, slug }: { data: SEOData, slug: 
                </div>
 
                <div className="sticky top-24">
-                  <RelatedTools currentPath={`/compress-${slug}`} />
+                  <RelatedTools exclude="compressor" />
                </div>
             </div>
 
