@@ -287,10 +287,11 @@ export default function CropVideoPage() {
               <div className="order-1 md:order-2 relative">
                 <div className="absolute -inset-4 bg-indigo-500/10 blur-2xl rounded-full" />
                 <Image 
-                  src="/cropper_use_case_platforms_1778894008379.png" 
+                  src="/marketing/platforms.png" 
                   alt="Multi-platform cropping" 
                   width={600} 
                   height={400} 
+                  loading="lazy"
                   className="relative rounded-3xl border border-[var(--card-border)] shadow-2xl"
                 />
               </div>
@@ -301,10 +302,11 @@ export default function CropVideoPage() {
               <div className="relative">
                 <div className="absolute -inset-4 bg-violet-500/10 blur-2xl rounded-full" />
                 <Image 
-                  src="/cropper_use_case_ads_1778894030365.png" 
+                  src="/marketing/ads.png" 
                   alt="Ads and mobile optimization" 
                   width={600} 
                   height={400} 
+                  loading="lazy"
                   className="relative rounded-3xl border border-[var(--card-border)] shadow-2xl"
                 />
               </div>
@@ -339,10 +341,11 @@ export default function CropVideoPage() {
               <div className="order-1 md:order-2 relative">
                 <div className="absolute -inset-4 bg-blue-500/10 blur-2xl rounded-full" />
                 <Image 
-                  src="/cropper_use_case_focus_1778894052443.png" 
+                  src="/marketing/focus.png" 
                   alt="Subject focus and engagement" 
                   width={600} 
                   height={400} 
+                  loading="lazy"
                   className="relative rounded-3xl border border-[var(--card-border)] shadow-2xl"
                 />
               </div>
