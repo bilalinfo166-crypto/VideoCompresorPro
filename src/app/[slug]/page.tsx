@@ -8,19 +8,20 @@ interface Props {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const data = COMPRESSOR_PAGES[params.slug];
+  const realSlug = params.slug.startsWith('compress-') ? params.slug.replace('compress-', '') : params.slug;
+  const data = COMPRESSOR_PAGES[realSlug];
   if (!data) return {};
 
   return {
     title: data.title,
     description: data.description,
     alternates: {
-      canonical: `https://videocompressorpro.com/compress-${params.slug}`,
+      canonical: `https://videocompressorpro.com/${params.slug}`,
     },
     openGraph: {
       title: data.title,
       description: data.description,
-      url: `https://videocompressorpro.com/compress-${params.slug}`,
+      url: `https://videocompressorpro.com/${params.slug}`,
       type: "website",
     },
     twitter: {
@@ -33,13 +34,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export async function generateStaticParams() {
   return PSEO_SLUGS.map((slug) => ({
-    slug: slug,
+    slug: `compress-${slug}`,
   }));
 }
 
 export default function CompressorSEOPage({ params }: Props) {
-  const data = COMPRESSOR_PAGES[params.slug];
+  const realSlug = params.slug.startsWith('compress-') ? params.slug.replace('compress-', '') : params.slug;
+  const data = COMPRESSOR_PAGES[realSlug];
+  
   if (!data) notFound();
 
-  return <CompressorClient data={data} slug={params.slug} />;
+  return <CompressorClient data={data} slug={realSlug} />;
 }
