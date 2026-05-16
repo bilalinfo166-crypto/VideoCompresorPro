@@ -1,7 +1,7 @@
 "use client";
 
 import { useLanguage } from "@/context/LanguageContext";
-import { Play, Shield, Twitter, Twitch, Linkedin, Youtube, Adobe, Activity } from "lucide-react";
+import { Play, Shield, Twitter, Twitch, Linkedin, Youtube, Activity } from "lucide-react";
 
 const STATS = [
   { value: "50M+", label: "stats.videos_compressed" },
