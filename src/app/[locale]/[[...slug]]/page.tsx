@@ -5,7 +5,6 @@ import { locales } from "@/middleware";
 import HomePage from "@/app/page";
 import AboutPage from "@/app/about/page";
 import AudioCutterPage from "@/app/audio-cutter/page";
-import CompressFormatPage from "@/app/compress-[format]/page";
 import ContactPage from "@/app/contact/page";
 import CropVideoPage from "@/app/crop-video/page";
 import LoginPage from "@/app/login/page";
