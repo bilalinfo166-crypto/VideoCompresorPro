@@ -6,6 +6,8 @@ export const locales = [
   "el", "uk", "sv", "he", "da", "fi", "no", "cs", "hu"
 ];
 
+import { PSEO_SLUGS } from './data/compressor-seo';
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://videocompressorpro.com';
 
@@ -21,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/contact',
     '/privacy',
     '/terms',
+    ...PSEO_SLUGS.map(slug => `/compress-${slug}`),
   ];
 
   const allRoutes: MetadataRoute.Sitemap = [];
