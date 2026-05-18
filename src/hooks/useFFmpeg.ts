@@ -146,9 +146,9 @@ export function useFFmpeg() {
   }, [isLoaded, load]);
 
   /**
-   * SMART COMPRESS — Best quality + size balance for desktop
-   * Uses CRF-based VBR for maximum quality preservation.
-   * Falls back to stricter CRF if the result is still too large.
+   * SMART COMPRESS — Maximum speed + acceptable quality
+   * Key strategy: ultrafast preset + resolution scaling = 3-5x faster than any other approach in WASM
+   * Resolution is the #1 factor for speed — halving resolution = 4x less pixels to process
    */
   const smartCompress = useCallback(async (
     file: File,
@@ -157,57 +157,55 @@ export function useFFmpeg() {
     const threads = getThreadCount();
     const fileMB = fileSizeMB(file);
 
-    // Calculate ideal CRF based on compression ratio requested
+    // Calculate CRF based on compression ratio
     const ratio = targetSizeMB / fileMB;
     let crf: number;
-    if (ratio >= 0.8) crf = 22;       // Very mild compression — near original quality
-    else if (ratio >= 0.6) crf = 24;  // Light compression
-    else if (ratio >= 0.4) crf = 26;  // Moderate — good quality
-    else if (ratio >= 0.25) crf = 28; // Standard
-    else if (ratio >= 0.1) crf = 30;  // Aggressive
-    else crf = 33;                     // Very small output
+    if (ratio >= 0.8) crf = 23;
+    else if (ratio >= 0.6) crf = 26;
+    else if (ratio >= 0.4) crf = 28;
+    else if (ratio >= 0.25) crf = 30;
+    else if (ratio >= 0.1) crf = 32;
+    else crf = 35;
+
+    // Auto-scale resolution based on file size for speed
+    // Bigger file = scale down more aggressively = much faster processing
+    let scaleFilter: string;
+    if (fileMB > 500) {
+      scaleFilter = "scale='min(1280,iw)':'min(720,ih)':force_original_aspect_ratio=decrease";
+    } else if (fileMB > 200) {
+      scaleFilter = "scale='min(1920,iw)':'min(1080,ih)':force_original_aspect_ratio=decrease";
+    } else {
+      scaleFilter = "scale='min(1920,iw)':-2";
+    }
 
     const args = [
+      '-vf', scaleFilter,
       '-c:v', 'libx264',
       '-crf', `${crf}`,
-      '-preset', 'fast',          // 'fast' is 3-4x quicker than 'medium' with minimal quality loss
-      '-tune', 'film',            // Best for general video content
+      '-preset', 'ultrafast',     // FASTEST — biggest single speed improvement
+      '-tune', 'zerolatency',     // Minimizes internal buffering
       '-pix_fmt', 'yuv420p',
-      '-profile:v', 'high',
-      '-level', '4.1',
-      '-movflags', '+faststart',  // Web-optimized: starts playing before fully downloaded
+      '-profile:v', 'baseline',   // Simplest profile = fastest to encode
+      '-level', '4.0',
+      '-movflags', '+faststart',
       '-c:a', 'aac',
       '-b:a', '128k',
       '-ac', '2',
-      '-threads', `${threads}`,   // Multi-threaded for speed
+      '-threads', `${threads}`,
     ];
 
-    setStatusMsg('Analyzing video...');
-    const result = await executeCommand(file, args, 'mp4', 'video/mp4');
-
-    // If still too large (>15% over target), do a second pass with stricter CRF
-    if (result && result.size > targetSizeMB * 1024 * 1024 * 1.15) {
-      setStatusMsg('Optimizing further...');
-      setProgress(0);
-      const strictArgs = [...args];
-      const crfIdx = strictArgs.indexOf('-crf') + 1;
-      strictArgs[crfIdx] = `${Math.min(crf + 4, 36)}`;
-      const secondResult = await executeCommand(file, strictArgs, 'mp4', 'video/mp4');
-      return secondResult || result;
-    }
-
-    return result;
+    setStatusMsg('Compressing...');
+    return executeCommand(file, args, 'mp4', 'video/mp4');
   }, [executeCommand]);
 
   /**
-   * MOBILE FAST COMPRESS — optimized for low-power/touch devices
-   * Strategy: CRF28 + ultrafast + 720p scale = fastest possible output
+   * MOBILE FAST COMPRESS — 720p + ultrafast + zerolatency
    */
   const mobileFastCompress = useCallback(async (file: File): Promise<Blob | null> => {
     const args = [
       '-vf', "scale='min(1280,iw)':'min(720,ih)':force_original_aspect_ratio=decrease",
       '-c:v', 'libx264',
-      '-crf', '28',
+      '-crf', '30',
       '-preset', 'ultrafast',
       '-tune', 'zerolatency',
       '-profile:v', 'baseline',
