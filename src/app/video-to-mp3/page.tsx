@@ -28,28 +28,27 @@ const STEPS = [
   { id: 1, number: "01" },
   { id: 2, number: "02" },
   { id: 3, number: "03" },
-  { id: 4, number: "04" },
 ];
 
 const REVIEWS = [
-  { id: 1, name: "Oliver Stone", avatar: "https://randomuser.me/api/portraits/men/60.jpg" },
-  { id: 2, name: "Emma Wilson", avatar: "https://randomuser.me/api/portraits/women/61.jpg" },
-  { id: 3, name: "Ahmed Mansour", avatar: "https://randomuser.me/api/portraits/men/62.jpg" },
-  { id: 4, name: "Chloe Leblanc", avatar: "https://randomuser.me/api/portraits/women/63.jpg" },
-  { id: 5, name: "Hans Müller", avatar: "https://randomuser.me/api/portraits/men/64.jpg" },
-  { id: 6, name: "Valentina Moretti", avatar: "https://randomuser.me/api/portraits/women/65.jpg" },
-  { id: 7, name: "Park Ji-hoon", avatar: "https://randomuser.me/api/portraits/men/66.jpg" },
-  { id: 8, name: "Siti Aminah", avatar: "https://randomuser.me/api/portraits/women/67.jpg" },
-  { id: 9, name: "Lucas Dubois", avatar: "https://randomuser.me/api/portraits/men/68.jpg" },
-  { id: 10, name: "Nina Ivanova", avatar: "https://randomuser.me/api/portraits/women/69.jpg" },
-  { id: 11, name: "Liam Wilson", avatar: "https://randomuser.me/api/portraits/men/55.jpg" },
-  { id: 12, name: "Sophia Garcia", avatar: "https://randomuser.me/api/portraits/women/19.jpg" },
+  { id: 1, name: "Daniel Morris", avatar: "https://randomuser.me/api/portraits/men/60.jpg" },
+  { id: 2, name: "Emily Carter", avatar: "https://randomuser.me/api/portraits/women/61.jpg" },
+  { id: 3, name: "Ryan Walker", avatar: "https://randomuser.me/api/portraits/men/62.jpg" },
+  { id: 4, name: "Sofia Bennett", avatar: "https://randomuser.me/api/portraits/women/63.jpg" },
+  { id: 5, name: "Michael Reed", avatar: "https://randomuser.me/api/portraits/men/64.jpg" },
+  { id: 6, name: "Liam Foster", avatar: "https://randomuser.me/api/portraits/men/65.jpg" },
+  { id: 7, name: "Ava Collins", avatar: "https://randomuser.me/api/portraits/women/66.jpg" },
+  { id: 8, name: "Nathan Brooks", avatar: "https://randomuser.me/api/portraits/men/67.jpg" },
+  { id: 9, name: "Chloe Martinez", avatar: "https://randomuser.me/api/portraits/women/68.jpg" },
+  { id: 10, name: "Ethan Parker", avatar: "https://randomuser.me/api/portraits/men/69.jpg" },
+  { id: 11, name: "Grace Wilson", avatar: "https://randomuser.me/api/portraits/women/55.jpg" },
+  { id: 12, name: "Jacob Turner", avatar: "https://randomuser.me/api/portraits/men/19.jpg" },
 ];
 
 const FAQS = [
-  { id: 1 },
-  { id: 2 },
-  { id: 3 },
+  { id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }, { id: 5 },
+  { id: 6 }, { id: 7 }, { id: 8 }, { id: 9 }, { id: 10 },
+  { id: 11 }, { id: 12 }, { id: 13 }, { id: 14 }
 ];
 
 export default function VideoToMp3Page() {
@@ -108,6 +107,7 @@ export default function VideoToMp3Page() {
               <a href="#visualizer" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Visualizer</a>
               <a href="#features" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Key Features</a>
               <a href="#how-to-use" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">How to Convert</a>
+              <a href="#use-cases" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Use Cases</a>
               <a href="#faq" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">FAQ</a>
             </div>
           </div>
@@ -150,7 +150,8 @@ export default function VideoToMp3Page() {
       {/* ─── Features Grid ─── */}
       <section id="features" className="py-24 bg-[var(--background)] border-y border-[var(--card-border)]">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-16 text-[var(--foreground)] italic">{t("to_mp3_page.features_title")}</h2>
+          <h2 className="text-4xl font-bold mb-4 text-[var(--foreground)] italic">{t("to_mp3_page.features_title")}</h2>
+          <p className="text-[var(--muted-text)] text-lg mb-16 max-w-2xl mx-auto">{t("to_mp3_page.features_desc")}</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {FEATURES.map((f) => (
               <div key={f.id} className="glass-card p-10 rounded-[32px] border border-[var(--card-border)] hover:border-indigo-500/30 transition-all text-center">
@@ -158,7 +159,7 @@ export default function VideoToMp3Page() {
                   <f.icon className="w-7 h-7 text-indigo-500" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-[var(--foreground)]">{t(`to_mp3_page.f${f.id}_title`)}</h3>
-                <p className="text-[var(--muted-text)] text-sm leading-relaxed font-medium">{t(`to_mp3_page.f${f.id}_desc`)}</p>
+                <p className="text-[var(--muted-text)] text-sm leading-relaxed font-medium whitespace-pre-line">{t(`to_mp3_page.f${f.id}_desc`)}</p>
               </div>
             ))}
           </div>
@@ -168,15 +169,39 @@ export default function VideoToMp3Page() {
       {/* ─── Steps ─── */}
       <section id="how-to-use" className="py-24 bg-[var(--background)]">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-16 text-[var(--foreground)]">{t("to_mp3_page.steps_title")}</h2>
-          <div className="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+          <h2 className="text-4xl font-bold mb-4 text-[var(--foreground)]">{t("to_mp3_page.steps_title")}</h2>
+          <p className="text-[var(--muted-text)] text-lg mb-16 max-w-2xl mx-auto">{t("to_mp3_page.steps_desc")}</p>
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
              {STEPS.map(s => (
                <div key={s.number} className="text-center group">
                   <div className="text-6xl font-black text-indigo-500/10 mb-6 group-hover:text-indigo-500/20 transition-colors">{s.number}</div>
                   <h3 className="text-xl font-bold mb-4 text-[var(--foreground)]">{t(`to_mp3_page.s${s.id}_title`)}</h3>
-                  <p className="text-[var(--muted-text)] text-sm leading-relaxed font-medium">{t(`to_mp3_page.s${s.id}_desc`)}</p>
+                  <p className="text-[var(--muted-text)] text-sm leading-relaxed font-medium whitespace-pre-line">{t(`to_mp3_page.s${s.id}_desc`)}</p>
                </div>
              ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Use Cases ─── */}
+      <section id="use-cases" className="py-24 bg-[var(--background)]">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-extrabold mb-6 text-[var(--foreground)] tracking-tight">{t("to_mp3_page.use_cases_title")}</h2>
+            <p className="text-[var(--muted-text)] font-medium text-lg leading-relaxed">{t("to_mp3_page.use_cases_desc")}</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            {[1, 2, 3, 4, 5, 6].map((id) => (
+              <div key={id} className="glass-card p-10 rounded-[32px] border border-[var(--card-border)] hover:border-indigo-500/30 transition-all flex flex-col group">
+                <h3 className="text-2xl font-bold mb-4 text-[var(--foreground)] group-hover:text-indigo-400 transition-colors">{t(`to_mp3_page.u${id}_title`)}</h3>
+                <p className="text-[var(--muted-text)] text-sm leading-relaxed font-medium mb-8">{t(`to_mp3_page.u${id}_desc`)}</p>
+                <div className="mt-auto pt-6 border-t border-[var(--card-border)] w-full">
+                  <p className="text-[10px] text-indigo-400 uppercase font-black tracking-widest">
+                    {t(`to_mp3_page.u${id}_tags`)}
+                  </p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -186,6 +211,7 @@ export default function VideoToMp3Page() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4 text-[var(--foreground)]">{t("to_mp3_page.reviews_title")}</h2>
+            <p className="text-lg text-[var(--muted-text)] max-w-2xl mx-auto">{t("to_mp3_page.reviews_desc")}</p>
           </div>
           <div className="columns-1 md:columns-2 lg:columns-4 gap-6 max-w-7xl mx-auto space-y-6">
             {REVIEWS.map((review) => (
@@ -210,7 +236,8 @@ export default function VideoToMp3Page() {
       <section id="faq" className="py-24 bg-[var(--background)]">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-4xl font-bold mb-16 text-center text-[var(--foreground)] italic">{t("to_mp3_page.faq_title")}</h2>
+            <h2 className="text-4xl font-bold mb-4 text-center text-[var(--foreground)] italic">{t("to_mp3_page.faq_title")}</h2>
+            <p className="text-lg text-[var(--muted-text)] max-w-2xl mx-auto text-center mb-16">{t("to_mp3_page.faq_desc")}</p>
             <div className="space-y-4">
               {FAQS.map((faq) => (
                 <details key={faq.id} className="group glass-card rounded-2xl border border-[var(--card-border)] hover:border-indigo-500/20 transition-all">
