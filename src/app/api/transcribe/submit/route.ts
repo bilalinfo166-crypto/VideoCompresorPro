@@ -25,17 +25,21 @@ export async function POST(req: NextRequest) {
 
     const body: Record<string, unknown> = {
       audio_url,
-      speech_models: ['universal-3-pro', 'universal-2'], // Prioritizes Pro model for top languages, falls back to universal-2 for others like Urdu/Hindi
       punctuate: true,
       format_text: true,
     };
 
     if (language && language !== 'auto') {
       body.language_code = language;
-      body.speaker_labels = true;    // speaker labels work with explicit language
+      // Speaker labels only reliable in English or auto on best model without forcing it
+      if (language === 'en') {
+        body.speaker_labels = true;
+      } else {
+        body.speaker_labels = false;
+      }
     } else {
       body.language_detection = true;
-      body.speaker_labels = false;   // cannot combine speaker_labels + language_detection
+      body.speaker_labels = false; // Disable to ensure maximum language support stability
     }
 
     const response = await fetch(`${ASSEMBLYAI_BASE}/transcript`, {

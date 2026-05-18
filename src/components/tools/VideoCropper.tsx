@@ -208,7 +208,7 @@ export function VideoCropper() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 items-stretch">
         
         {/* LEFT: Interactive Preview Area */}
-        <div className="bg-white dark:bg-slate-800 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[360px] flex flex-col relative overflow-hidden group">
+        <div className="bg-white dark:bg-slate-800 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[360px] md:h-[600px] flex flex-col relative overflow-hidden group">
           {!file ? (
             <div 
               className="flex-1 flex flex-col items-center justify-center p-6 sm:p-8 cursor-pointer relative"
@@ -262,7 +262,7 @@ export function VideoCropper() {
               )}
             </div>
           ) : (
-            <div className="flex-1 flex flex-col bg-slate-50 dark:bg-slate-950 p-6 overflow-hidden">
+            <div className="flex-1 flex flex-col bg-slate-50 dark:bg-slate-950 p-6 overflow-hidden min-h-0">
               <div className="flex items-center justify-between mb-4">
                  <div className="text-sm font-bold text-[var(--foreground)] truncate max-w-[300px]">{file.name}</div>
                  <button onClick={() => setFile(null)} className="text-xs font-bold text-blue-500 hover:underline flex items-center gap-1">

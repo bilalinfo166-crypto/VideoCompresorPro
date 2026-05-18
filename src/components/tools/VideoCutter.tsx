@@ -136,7 +136,7 @@ export function VideoCutter() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 items-stretch">
         
         {/* BOX A: Upload / Preview */}
-        <div className="bg-white dark:bg-slate-800 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[360px] flex flex-col relative overflow-hidden group">
+        <div className="bg-white dark:bg-slate-800 rounded-[24px] sm:rounded-[32px] border border-[var(--card-border)] shadow-xl min-h-[360px] md:h-[600px] flex flex-col relative overflow-hidden group">
           {!file ? (
             <div 
               className="flex-1 flex flex-col items-center justify-center p-6 sm:p-8 cursor-pointer relative"
@@ -191,9 +191,9 @@ export function VideoCutter() {
               )}
             </div>
           ) : (
-            <div className="flex-1 flex flex-col p-6 overflow-hidden">
-              <div className="relative flex-1 bg-black rounded-2xl overflow-hidden shadow-2xl group flex items-center justify-center">
-                <video src={videoUrl!} className="max-w-full max-h-full" controls />
+            <div className="flex-1 flex flex-col p-6 overflow-hidden min-h-0">
+              <div className="relative bg-black rounded-2xl overflow-hidden shadow-2xl group flex items-center justify-center" style={{height: '460px'}}>
+                <video src={videoUrl!} className="w-full h-full object-contain" controls />
                 <button 
                   onClick={() => setFile(null)}
                   className="absolute top-4 right-4 p-2 bg-black/50 hover:bg-red-500 text-white rounded-full transition-all opacity-0 group-hover:opacity-100"
