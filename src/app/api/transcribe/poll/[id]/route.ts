@@ -29,7 +29,7 @@ export async function GET(
 
     if (!response.ok) {
       const text = await response.text();
-      return NextResponse.json({ error: `Poll failed: ${text}` }, { status: 502 });
+      return NextResponse.json({ error: `Poll failed: ${text}` }, { status: 400 });
     }
 
     const data = await response.json();

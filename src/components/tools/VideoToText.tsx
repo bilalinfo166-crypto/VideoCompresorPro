@@ -131,11 +131,18 @@ export const VideoToText = () => {
         headers: { 'content-type': 'application/json' },
         body: JSON.stringify({ audio_url: upload_url, language }),
       });
-      if (!submitRes.ok) {
-        const d = await submitRes.json();
-        throw new Error(d.error || 'Failed to submit transcription job');
+      
+      let submitData;
+      try {
+        submitData = await submitRes.json();
+      } catch (e) {
+        throw new Error('Server returned an invalid response (not JSON). Please try again.');
       }
-      const { transcript_id } = await submitRes.json();
+      
+      if (!submitRes.ok) {
+        throw new Error(submitData.error || 'Failed to submit transcription job');
+      }
+      const { transcript_id } = submitData;
       setProcessingStep(4);
 
       // Step 4: Poll our server until transcription is done
