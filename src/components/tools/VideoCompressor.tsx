@@ -30,7 +30,7 @@ export function VideoCompressor() {
   const [activeTab, setActiveTab] = useState<"basic" | "advanced">("basic");
   
   const fileInputRef = useRef<HTMLInputElement>(null);
-  const { isLoaded, isLoading, progress, statusMsg, load, executeCommand, mobileFastCompress } = useFFmpeg();
+  const { isLoaded, isLoading, progress, statusMsg, load, executeCommand, mobileFastCompress, smartCompress } = useFFmpeg();
   const isMobile = typeof window !== 'undefined' ? isMobileDevice() : false;
 
   const [showUrlModal, setShowUrlModal] = useState(false);
@@ -75,7 +75,7 @@ export function VideoCompressor() {
     setResultBlob(null);
     if (!isLoaded) await load();
 
-    // On mobile: use the fast mobile-optimized path (720p + CRF30 + ultrafast)
+    // Mobile: fast path
     if (isMobile && mobileFastCompress) {
       const result = await mobileFastCompress(file);
       setResultBlob(result);
@@ -83,50 +83,12 @@ export function VideoCompressor() {
       return;
     }
 
-    // Desktop: bitrate-based target size compression
-    const targetSizeBits = targetSize * 1024 * 1024 * 8;
-
-    const getDuration = (): Promise<number> => {
-      return new Promise((resolve) => {
-        const video = document.createElement('video');
-        video.preload = 'metadata';
-        video.onloadedmetadata = () => resolve(video.duration);
-        video.onerror = () => resolve(60);
-        video.src = URL.createObjectURL(file);
-      });
-    };
-
-    const duration = await getDuration();
-    const targetBitrate = Math.floor(targetSizeBits / duration);
-    const videoBitrate = Math.floor(targetBitrate * 0.9);
-    
-    const args = [
-      '-c:v', 'libx264', 
-      '-b:v', `${videoBitrate}`,
-      '-maxrate', `${videoBitrate}`,
-      '-bufsize', `${videoBitrate * 2}`,
-      '-pix_fmt', 'yuv420p',
-      '-preset', 'ultrafast',
-      '-profile:v', 'main', 
-      '-level', '4.0',
-      '-movflags', '+faststart',
-      '-c:a', 'aac', 
-      '-b:a', '128k'
-    ];
-
-    const result = await executeCommand(file, args, 'mp4', 'video/mp4');
+    // Desktop: smart CRF-based compression (fast + high quality)
+    const result = await smartCompress(file, targetSize);
     if (result) {
-      if (result.size >= file.size) {
-        const fallbackBitrate = Math.floor(videoBitrate * 0.7);
-        const fallbackArgs = [...args];
-        fallbackArgs[3] = `${fallbackBitrate}`;
-        const secondResult = await executeCommand(file, fallbackArgs);
-        setResultBlob(secondResult || result);
-      } else {
-        setResultBlob(result);
-      }
+      setResultBlob(result);
     } else {
-      alert(t("common.failed"));
+      alert(t("common.failed") || "Compression failed. Please try again.");
     }
     setIsCompressing(false);
   };
