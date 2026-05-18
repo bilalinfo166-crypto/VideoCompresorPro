@@ -25,6 +25,7 @@ export async function POST(req: NextRequest) {
 
     const body: Record<string, unknown> = {
       audio_url,
+      speech_models: ['universal-3-pro', 'universal-2'],
       punctuate: true,
       format_text: true,
     };
