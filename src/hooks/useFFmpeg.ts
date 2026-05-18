@@ -46,12 +46,14 @@ export function useFFmpeg() {
 
     setIsLoading(true);
     setStatusMsg('Loading engine...');
+
+    // Check if multi-threading is supported (requires COOP/COEP headers)
+    const hasSharedArrayBuffer = typeof SharedArrayBuffer !== 'undefined';
+
     try {
       const { FFmpeg } = await import('@ffmpeg/ffmpeg');
       const { toBlobURL } = await import('@ffmpeg/util');
 
-      // Use jsDelivr CDN (faster and more reliable than unpkg)
-      const baseURL = 'https://cdn.jsdelivr.net/npm/@ffmpeg/core@0.12.6/dist/umd';
       const ffmpeg = new FFmpeg();
       ffmpegRef.current = ffmpeg;
 
@@ -67,35 +69,45 @@ export function useFFmpeg() {
         }
       });
 
-      await ffmpeg.load({
-        coreURL: await toBlobURL(`${baseURL}/ffmpeg-core.js`, 'text/javascript'),
-        wasmURL: await toBlobURL(`${baseURL}/ffmpeg-core.wasm`, 'application/wasm'),
-      });
+      if (hasSharedArrayBuffer) {
+        // Multi-threaded core — uses all CPU cores via Web Workers (2-4x faster)
+        const mtBase = 'https://cdn.jsdelivr.net/npm/@ffmpeg/core-mt@0.12.6/dist/umd';
+        try {
+          await ffmpeg.load({
+            coreURL: await toBlobURL(`${mtBase}/ffmpeg-core.js`, 'text/javascript'),
+            wasmURL: await toBlobURL(`${mtBase}/ffmpeg-core.wasm`, 'application/wasm'),
+            workerURL: await toBlobURL(`${mtBase}/ffmpeg-core.worker.js`, 'text/javascript'),
+          });
+          setStatusMsg('');
+          setIsLoaded(true);
+          setIsLoading(false);
+          return;
+        } catch (mtError) {
+          console.warn('Multi-thread core failed, falling back to single-thread:', mtError);
+        }
+      }
+
+      // Single-threaded fallback (no SharedArrayBuffer or MT load failed)
+      const baseURL = 'https://cdn.jsdelivr.net/npm/@ffmpeg/core@0.12.6/dist/umd';
+      try {
+        await ffmpeg.load({
+          coreURL: await toBlobURL(`${baseURL}/ffmpeg-core.js`, 'text/javascript'),
+          wasmURL: await toBlobURL(`${baseURL}/ffmpeg-core.wasm`, 'application/wasm'),
+        });
+      } catch (_) {
+        // Final fallback: unpkg CDN
+        const unpkgBase = 'https://unpkg.com/@ffmpeg/core@0.12.6/dist/umd';
+        await ffmpeg.load({
+          coreURL: await toBlobURL(`${unpkgBase}/ffmpeg-core.js`, 'text/javascript'),
+          wasmURL: await toBlobURL(`${unpkgBase}/ffmpeg-core.wasm`, 'application/wasm'),
+        });
+      }
 
       setIsLoaded(true);
       setStatusMsg('');
     } catch (error) {
       console.error('Error loading FFmpeg:', error);
-      // Fallback to unpkg if jsDelivr fails
-      try {
-        const { FFmpeg } = await import('@ffmpeg/ffmpeg');
-        const { toBlobURL } = await import('@ffmpeg/util');
-        const baseURL = 'https://unpkg.com/@ffmpeg/core@0.12.6/dist/umd';
-        const ffmpeg = new FFmpeg();
-        ffmpegRef.current = ffmpeg;
-        ffmpeg.on('progress', ({ progress: p }: { progress: number }) => {
-          setProgress(Math.round(p * 100));
-        });
-        await ffmpeg.load({
-          coreURL: await toBlobURL(`${baseURL}/ffmpeg-core.js`, 'text/javascript'),
-          wasmURL: await toBlobURL(`${baseURL}/ffmpeg-core.wasm`, 'application/wasm'),
-        });
-        setIsLoaded(true);
-        setStatusMsg('');
-      } catch (fallbackError) {
-        console.error('Fallback CDN also failed:', fallbackError);
-        setStatusMsg('Load failed. Please refresh and try again.');
-      }
+      setStatusMsg('Load failed. Please refresh and try again.');
     } finally {
       setIsLoading(false);
     }
