@@ -29,9 +29,11 @@ def main():
     en_mp3_keys = set(en_data["to_mp3_page"].keys())
     en_youtube_keys = set(en_data["pseo"]["youtube"].keys())
     en_tiktok_keys = set(en_data["pseo"]["tiktok"].keys())
+    en_features_keys = set(en_data["pseo_features"].keys())
     print(f"Master English 'to_mp3_page' has {len(en_mp3_keys)} keys.")
     print(f"Master English 'pseo.youtube' has {len(en_youtube_keys)} keys.")
     print(f"Master English 'pseo.tiktok' has {len(en_tiktok_keys)} keys.")
+    print(f"Master English 'pseo_features' has {len(en_features_keys)} keys.")
     
     for filename in sorted(all_files):
         file_path = os.path.join(LOCALES_DIR, filename)
@@ -113,6 +115,17 @@ def main():
                     invalid_count += 1
                 if len(pseo_section["tiktok"].get("faqs", [])) != len(en_data["pseo"]["tiktok"]["faqs"]):
                     print(f"    [ERROR] TikTok faqs array size mismatch.")
+                    invalid_count += 1
+
+            # pseo_features check
+            if "pseo_features" not in data:
+                print(f"    [ERROR] 'pseo_features' is missing!")
+                invalid_count += 1
+            else:
+                f_keys = set(data["pseo_features"].keys())
+                missing_f = en_features_keys - f_keys
+                if missing_f:
+                    print(f"    [ERROR] Missing pseo_features keys: {missing_f}")
                     invalid_count += 1
                 
         except Exception as e:

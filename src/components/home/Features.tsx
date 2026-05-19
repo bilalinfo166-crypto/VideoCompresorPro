@@ -14,6 +14,26 @@ export function Features({ context }: FeaturesProps) {
   const isWhatsApp = context?.toLowerCase().includes("whatsapp");
   const isEmail = context?.toLowerCase().includes("email");
 
+  const badgeText = context
+    ? t("pseo_features.badge").replace("{context}", context)
+    : t("discord.badge");
+  const titleText = context
+    ? t("pseo_features.title").replace("{context}", context)
+    : t("discord.title");
+  const descText = context
+    ? t("pseo_features.desc").replace("{context}", context)
+    : t("discord.desc");
+
+  const privacyBadge = context
+    ? t("pseo_features.privacy_badge")
+    : t("storage.badge");
+  const privacyTitle = context
+    ? t("pseo_features.privacy_title")
+    : t("storage.title");
+  const privacyDesc = context
+    ? t("pseo_features.privacy_desc")
+    : t("storage.desc");
+
   return (
     <section id="features" className="py-24 relative overflow-hidden bg-[var(--background)]">
       <div className="container mx-auto px-4">
@@ -23,17 +43,13 @@ export function Features({ context }: FeaturesProps) {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <div className="text-blue-600 dark:text-blue-400 font-bold tracking-[0.2em] uppercase text-xs mb-4">
-                {context ? `${context} Optimization` : t("discord.badge")}
+                {badgeText}
               </div>
               <h2 className="text-3xl md:text-5xl font-black text-[var(--foreground)] mb-6 leading-tight">
-                {context 
-                  ? `Free Video Compressor for ${context} Uploads`
-                  : t("discord.title")}
+                {titleText}
               </h2>
               <p className="text-[var(--muted-text)] text-lg leading-relaxed font-medium">
-                {context 
-                  ? `Our specialized engine ensures your videos meet ${context} requirements perfectly while maintaining stunning visual quality.`
-                  : t("discord.desc")}
+                {descText}
               </p>
             </div>
             <div className="order-1 md:order-2">
@@ -65,15 +81,13 @@ export function Features({ context }: FeaturesProps) {
             </div>
             <div className={context ? "order-2 md:order-1" : ""}>
               <div className="text-blue-600 dark:text-blue-400 font-bold tracking-[0.2em] uppercase text-xs mb-4">
-                {context ? "Privacy First" : t("storage.badge")}
+                {privacyBadge}
               </div>
               <h2 className="text-3xl md:text-4xl font-black text-[var(--foreground)] mb-6">
-                {context ? "Secure Offline Compression" : t("storage.title")}
+                {privacyTitle}
               </h2>
               <p className="text-[var(--muted-text)] text-lg leading-relaxed font-medium">
-                {context 
-                  ? "Your privacy is our priority. Our browser-based engine processes your videos locally, ensuring no data ever leaves your device."
-                  : t("storage.desc")}
+                {privacyDesc}
               </p>
             </div>
           </div>

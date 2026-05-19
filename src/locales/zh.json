@@ -168,6 +168,14 @@
     "title": "Discord 专用压缩器",
     "desc": "以最佳视觉效果达到 25MB 的限制。"
   },
+  "pseo_features": {
+    "badge": "{context} 优化",
+    "title": "用于 {context} 上传的免费视频压缩器",
+    "desc": "我们的专业引擎可确保您的视频完美满足 {context} 要求，同时保持令人惊叹的视觉质量。",
+    "privacy_badge": "隐私第一",
+    "privacy_title": "安全离线压缩",
+    "privacy_desc": "您的隐私是我们的首要任务。我们基于浏览器的引擎在本地处理您的视频，确保没有数据离开您的设备。"
+  },
   "visualizer": {
     "title": "智能压缩",
     "desc": "最小体积，最大清晰度。"

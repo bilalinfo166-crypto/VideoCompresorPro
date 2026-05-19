@@ -168,6 +168,14 @@
     "title": "Tömörítő Discord-hoz",
     "desc": "Célozza meg a 25 MB-os korlátot a legjobb vizuális állapot mellett."
   },
+  "pseo_features": {
+    "badge": "{context} Optimalizálás",
+    "title": "Ingyenes videokompresszor {context} feltöltéshez",
+    "desc": "Speciális motorunk biztosítja, hogy videói tökéletesen megfeleljenek az {context} követelménynek, miközben megőrzi a lenyűgöző vizuális minőséget.",
+    "privacy_badge": "Privacy First",
+    "privacy_title": "Biztonságos offline tömörítés",
+    "privacy_desc": "Az Ön adatainak védelme a prioritásunk. Böngészőalapú motorunk helyben dolgozza fel videóit, így biztosítva, hogy soha ne hagyják el az adatokat az eszközről."
+  },
   "visualizer": {
     "title": "Intelligens tömörítés",
     "desc": "Minimum méret, maximum tisztaság."

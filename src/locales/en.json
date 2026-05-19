@@ -168,6 +168,14 @@
     "title": "Free Video Compressor for Discord Uploads",
     "desc": "The Discord video compressor is designed to compress large video files to meet Discord's video upload limit of 25MB while preserving the best possible quality. Quickly compress video for easy sharing, quick uploads and great video playback on desktop and mobile devices."
   },
+  "pseo_features": {
+    "badge": "{context} Optimization",
+    "title": "Free Video Compressor for {context} Uploads",
+    "desc": "Our specialized engine ensures your videos meet {context} requirements perfectly while maintaining stunning visual quality.",
+    "privacy_badge": "Privacy First",
+    "privacy_title": "Secure Offline Compression",
+    "privacy_desc": "Your privacy is our priority. Our browser-based engine processes your videos locally, ensuring no data ever leaves your device."
+  },
   "visualizer": {
     "title": "Smart Video Compression for Clear & Smaller Files",
     "desc": "The advanced video compressor helps to minimize video size without compromising video quality, including sharpness and smooth playback. Save space, share more easily, and upload video files faster with online compression without losing quality."

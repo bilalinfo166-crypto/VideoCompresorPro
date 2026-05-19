@@ -168,6 +168,14 @@
     "title": "Compresor pentru Discord",
     "desc": "Țintește limita de 25MB cu cel mai bun aspect vizual."
   },
+  "pseo_features": {
+    "badge": "{context} Optimizare",
+    "title": "Compresor video gratuit pentru {context} de încărcări",
+    "desc": "Motorul nostru specializat asigură că videoclipurile dvs. îndeplinesc perfect cerințele {context}, păstrând în același timp o calitate vizuală uimitoare.",
+    "privacy_badge": "Confidențialitatea în primul rând",
+    "privacy_title": "Compresie offline sigură",
+    "privacy_desc": "Intimitatea ta este prioritatea noastră. Motorul nostru bazat pe browser vă prelucrează videoclipurile la nivel local, asigurându-vă că nicio dată nu va părăsi dispozitivul."
+  },
   "visualizer": {
     "title": "Compresie inteligentă",
     "desc": "Dimensiune minimă, claritate maximă."

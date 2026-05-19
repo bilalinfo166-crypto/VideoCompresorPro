@@ -168,6 +168,14 @@
     "title": "Compressor voor Discord",
     "desc": "Mik op de 25MB-limiet met de best mogelijke look."
   },
+  "pseo_features": {
+    "badge": "{context} Optimalisatie",
+    "title": "Gratis videocompressor voor {context} uploads",
+    "desc": "Onze gespecialiseerde engine zorgt ervoor dat uw video's perfect voldoen aan de {context}-vereisten, terwijl de verbluffende visuele kwaliteit behouden blijft.",
+    "privacy_badge": "Privacy eerst",
+    "privacy_title": "Veilige offline compressie",
+    "privacy_desc": "Uw privacy is onze prioriteit. Onze browsergebaseerde engine verwerkt uw video's lokaal, zodat er nooit gegevens uw apparaat verlaten."
+  },
   "visualizer": {
     "title": "Slimme compressie",
     "desc": "Minimale grootte, maximale helderheid."

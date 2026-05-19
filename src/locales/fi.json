@@ -168,6 +168,14 @@
     "title": "Pakkaustyökalu Discordiin",
     "desc": "Tähtää 25 megatavun rajaan parhaalla mahdollisella visuaalisuudella."
   },
+  "pseo_features": {
+    "badge": "{context} Optimointi",
+    "title": "Ilmainen videokompressori {context} lataukselle",
+    "desc": "Erikoistunut moottorimme varmistaa, että videosi täyttävät {context} vaatimukset täydellisesti säilyttäen samalla upean visuaalisen laadun.",
+    "privacy_badge": "Privacy First",
+    "privacy_title": "Suojattu offline-pakkaus",
+    "privacy_desc": "Yksityisyytesi on meille etusijalla. Selainpohjainen moottorimme käsittelee videosi paikallisesti varmistaen, että data ei koskaan poistu laitteestasi."
+  },
   "visualizer": {
     "title": "Älykäs pakkaus",
     "desc": "Minimikoko, maksimiselkeys."

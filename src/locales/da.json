@@ -168,6 +168,14 @@
     "title": "Kompressor til Discord",
     "desc": "Sigt efter grænsen på 25 MB med det bedste visuelle udseende."
   },
+  "pseo_features": {
+    "badge": "{context} Optimering",
+    "title": "Gratis videokompressor til {context} uploads",
+    "desc": "Vores specialiserede motor sikrer, at dine videoer opfylder {context}-kravene perfekt, samtidig med at de bevarer en fantastisk visuel kvalitet.",
+    "privacy_badge": "Privatliv først",
+    "privacy_title": "Sikker offline komprimering",
+    "privacy_desc": "Dit privatliv er vores prioritet. Vores browserbaserede motor behandler dine videoer lokalt og sikrer, at ingen data nogensinde forlader din enhed."
+  },
   "visualizer": {
     "title": "Smart komprimering",
     "desc": "Minimum størrelse, maksimal klarhed."

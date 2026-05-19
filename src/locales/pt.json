@@ -168,6 +168,14 @@
     "title": "Compressor para Discord",
     "desc": "Mira no limite de 25MB com o melhor visual."
   },
+  "pseo_features": {
+    "badge": "{context} Otimização",
+    "title": "Compressor de vídeo gratuito para 12.345 uploads",
+    "desc": "Nosso mecanismo especializado garante que seus vídeos atendam perfeitamente aos requisitos {context}, mantendo uma qualidade visual impressionante.",
+    "privacy_badge": "Privacidade em primeiro lugar",
+    "privacy_title": "Compressão offline segura",
+    "privacy_desc": "Sua privacidade é nossa prioridade. Nosso mecanismo baseado em navegador processa seus vídeos localmente, garantindo que nenhum dado saia do seu dispositivo."
+  },
   "visualizer": {
     "title": "Compressão Inteligente",
     "desc": "Tamanho mínimo, nitidez máxima."

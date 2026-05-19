@@ -168,6 +168,14 @@
     "title": "Discord için Sıkıştırıcı",
     "desc": "En iyi görünümle 25MB sınırını hedefler."
   },
+  "pseo_features": {
+    "badge": "{context} Optimizasyon",
+    "title": "{context} Yükleme için Ücretsiz Video Kompresörü",
+    "desc": "Özel motorumuz, çarpıcı görsel kaliteyi korurken videolarınızın {context} gereksinimlerini mükemmel şekilde karşılamasını sağlar.",
+    "privacy_badge": "Önce Gizlilik",
+    "privacy_title": "Güvenli Çevrimdışı Sıkıştırma",
+    "privacy_desc": "Gizliliğiniz bizim önceliğimizdir. Tarayıcı tabanlı motorumuz videolarınızı yerel olarak işleyerek hiçbir verinin cihazınızdan çıkmamasını sağlar."
+  },
   "visualizer": {
     "title": "Akıllı Sıkıştırma",
     "desc": "Minimum boyut, maksimum netlik."

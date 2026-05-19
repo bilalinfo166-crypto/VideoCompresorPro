@@ -168,6 +168,14 @@
     "title": "Nén cho Discord",
     "desc": "Nhắm tới giới hạn 25MB với hình ảnh tốt nhất có thể."
   },
+  "pseo_features": {
+    "badge": "{context} Tối ưu hóa",
+    "title": "Trình nén video miễn phí cho {context} lượt tải lên",
+    "desc": "Công cụ chuyên dụng của chúng tôi đảm bảo video của bạn đáp ứng hoàn hảo {context} yêu cầu trong khi vẫn duy trì chất lượng hình ảnh tuyệt đẹp.",
+    "privacy_badge": "Quyền riêng tư là trên hết",
+    "privacy_title": "Nén ngoại tuyến an toàn",
+    "privacy_desc": "Sự riêng tư của bạn là ưu tiên của chúng tôi. Công cụ dựa trên trình duyệt của chúng tôi xử lý video của bạn cục bộ, đảm bảo không có dữ liệu nào rời khỏi thiết bị của bạn."
+  },
   "visualizer": {
     "title": "Nén thông minh",
     "desc": "Dung lượng nhỏ nhất, độ rõ nét cao nhất."

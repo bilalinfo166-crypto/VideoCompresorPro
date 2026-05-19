@@ -168,6 +168,14 @@
     "title": "Kompresor untuk Discord",
     "desc": "Targetkan batas 25MB dengan tampilan terbaik."
   },
+  "pseo_features": {
+    "badge": "{context} Optimasi",
+    "title": "Kompresor Video Gratis untuk Unggahan {context}",
+    "desc": "Mesin khusus kami memastikan video Anda memenuhi persyaratan {context} dengan sempurna sambil mempertahankan kualitas visual yang menakjubkan.",
+    "privacy_badge": "Privasi Pertama",
+    "privacy_title": "Amankan Kompresi Offline",
+    "privacy_desc": "Privasi Anda adalah prioritas kami. Mesin berbasis browser kami memproses video Anda secara lokal, memastikan tidak ada data yang keluar dari perangkat Anda."
+  },
   "visualizer": {
     "title": "Kompresi Cerdas",
     "desc": "Ukuran minimum, kejernihan maksimum."

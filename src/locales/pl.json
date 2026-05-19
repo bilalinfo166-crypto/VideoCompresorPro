@@ -168,6 +168,14 @@
     "title": "Kompresor dla Discorda",
     "desc": "Celuj w limit 25MB przy najlepszym możliwym wyglądzie."
   },
+  "pseo_features": {
+    "badge": "{context} Optymalizacja",
+    "title": "Darmowy kompresor wideo dla {context} przesłanych plików",
+    "desc": "Nasz wyspecjalizowany silnik sprawia, że ​​Twoje filmy doskonale spełniają wymagania {context}, zachowując jednocześnie oszałamiającą jakość obrazu.",
+    "privacy_badge": "Prywatność przede wszystkim",
+    "privacy_title": "Bezpieczna kompresja offline",
+    "privacy_desc": "Twoja prywatność jest naszym priorytetem. Nasz silnik oparty na przeglądarce przetwarza Twoje filmy lokalnie, zapewniając, że żadne dane nie opuszczą Twojego urządzenia."
+  },
   "visualizer": {
     "title": "Inteligentna kompresja",
     "desc": "Minimum rozmiaru, maksimum klarowności."

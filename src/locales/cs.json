@@ -168,6 +168,14 @@
     "title": "Kompresor pro Discord",
     "desc": "Cilte na limit 25 MB při nejlepším možném vzhledu."
   },
+  "pseo_features": {
+    "badge": "{context} Optimalizace",
+    "title": "Video kompresor zdarma pro {context} uploadů",
+    "desc": "Náš specializovaný engine zajišťuje, že vaše videa dokonale splňují požadavky {context} při zachování ohromující vizuální kvality.",
+    "privacy_badge": "Soukromí na prvním místě",
+    "privacy_title": "Bezpečná offline komprese",
+    "privacy_desc": "Vaše soukromí je naší prioritou. Náš modul založený na prohlížeči zpracovává vaše videa lokálně a zajišťuje, že z vašeho zařízení nikdy neopustí žádná data."
+  },
   "visualizer": {
     "title": "Chytrá komprese",
     "desc": "Minimum velikosti, maximum čistoty."
