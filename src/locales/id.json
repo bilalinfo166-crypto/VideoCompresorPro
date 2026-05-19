@@ -564,68 +564,112 @@
     "cta_title": "Ubah ukuran video sekarang."
   },
   "to_mp3_page": {
-    "hero_badge": "High Fidelity · Tanpa unggah · 100% Gratis",
+    "hero_badge": "Fidelitas Tinggi • Tanpa Unggahan • 100% Gratis",
     "hero_title": "Konverter Video ke MP3 Online",
-    "hero_subtitle": "Ekstrak trek audio berkualitas tinggi dari video Anda secara instan. Aman dan pribadi.",
-    "visualizer_title": "Konverter Terbaik",
-    "visualizer_desc": "Presisi ekstraksi tingkat studio langsung di browser Anda.",
-    "visualizer_label": "Format Output",
-    "visualizer_format": "MP3 Kualitas Tinggi (320kbps)",
-    "features_title": "Ekstraksi Elit",
-    "f1_title": "High Fidelity",
-    "f1_desc": "Dukungan bitrate hingga 320kbps untuk suara kristal.",
-    "f2_title": "Privasi Total",
-    "f2_desc": "Pemrosesan lokal. File Anda tidak pernah sampai ke kami.",
-    "f3_title": "Unduh Instan",
-    "f3_desc": "Tanpa menunggu. Dapatkan audio Anda tepat setelah ekstraksi.",
-    "f4_title": "Berbagai Format",
-    "f4_desc": "MP4, MOV, AVI ke MP3, WAV, atau OGG dengan kehati-hatian maksimal.",
-    "f5_title": "Secara Batch",
-    "f5_desc": "Konversi banyak video menjadi playlist dalam hitungan detik.",
-    "f6_title": "Tanpa Akun",
-    "f6_desc": "Akses penuh tanpa registrasi atau iklan yang mengganggu.",
-    "steps_title": "Cara Konversi",
-    "s1_title": "Unggah",
-    "s1_desc": "Pilih file video dalam format populer apa pun.",
-    "s2_title": "Konfigurasi",
-    "s2_desc": "Pilih bitrate dan format output yang diinginkan.",
-    "s3_title": "Ekstrak",
-    "s3_desc": "Pisahkan audio dengan presisi bedah secara instan.",
-    "s4_title": "Simpan",
-    "s4_desc": "Unduh dengan aman MP3 hasil pemrosesan lokal Anda.",
-    "reviews_title": "Digunakan oleh Profesional",
-    "r1_text": "Suara sempurna bahkan di monitor studio. Luar biasa.",
-    "r1_role": "Produser Musik",
-    "r2_text": "I use it to get clean audio for my podcasts from video interviews. It's consistently very reliable.",
-    "r2_role": "Professional Podcaster",
-    "r3_text": "Extremely fast extraction. I converted 10 long videos in a minute. The speed is unmatched.",
-    "r3_role": "Graduate Student",
-    "r4_text": "No distortion at all. The LAME encoder implementation here works wonders for audio fidelity.",
-    "r4_role": "Audio Engineer",
-    "r5_text": "Privacy first - my videos aren't uploaded to convert. This is essential for my sensitive interview data.",
-    "r5_role": "Investigative Journalist",
-    "r6_text": "Best way to get high-quality MP3s from my own YouTube backups. Simple, clean, and perfect.",
-    "r6_role": "Content Creator",
-    "r7_text": "Simple, clean, and no annoying ads or popups. A rare find in the world of online conversion tools.",
-    "r7_role": "Creative Freelancer",
-    "r8_text": "Supports all formats. Converted my old MKV home videos to MP3 to listen in the car easily.",
-    "r8_role": "Tech Enthusiast",
-    "r9_text": "The batch processing feature is a life-saver for my sound effects library.",
-    "r9_role": "Game Developer",
-    "r10_text": "Studio-grade audio extraction in seconds. It's my go-to tool for video sound design.",
-    "r10_role": "Sound Designer",
-    "r11_text": "Crystal clear MP3 extraction every time. I use it for my sample library and it never fails.",
-    "r11_role": "Audio Producer",
-    "r12_text": "Fastest conversion I've seen. No more waiting for servers to process my files.",
-    "r12_role": "Creative Director",
-    "faq_title": "FAQ",
-    "q1": "Bagaimana cara mengekstrak?",
-    "a1": "Muat video dan klik 'Ekstrak audio'. Selesai!",
-    "q2": "Apakah gratis?",
-    "a2": "Ya, 100% gratis dan tanpa batas.",
-    "q3": "Bitrate mana yang terbaik?",
-    "a3": "320kbps untuk kualitas maks; 128kbps untuk hemat ruang.",
-    "cta_title": "Ekstrak audio sekarang."
+    "hero_subtitle": "Konverter video ke MP3 online kami gratis dan aman, memungkinkan Anda mendapatkan trek audio dari video dalam waktu singkat. Konverter video ke Mp3 online yang paling cocok untuk musik, podcast, wawancara, ceramah, klip suara, dan media sosial.",
+    "visualizer_title": "Konverter Video ke MP3 Terbaik",
+    "visualizer_desc": "VideoCompressorPro adalah pengonversi video yang mudah digunakan dan cocok untuk pemula, baik Anda mengonversi video YouTube ke MP3, video TikTok ke MP3, atau mencari pengonversi video ke MP3 yang cocok untuk Anda. Konverter video ke MP3 online kami memungkinkan Anda mengonversi video menjadi file audio MP3 secara instan dan dengan kualitas tinggi. Ekstrak audio dengan cepat dari klip video YouTube, video TikTok, podcast, webinar, dan rekaman langsung dari browser dengan pengonversi video ke MP3 terbaik untuk mendapatkan suara dalam hitungan detik.",
+    "visualizer_label": "Format Keluaran",
+    "visualizer_format": "MP3 Berkualitas Tinggi (320kbps)",
+    "features_title": "Fitur Ekstraksi Audio Tingkat Lanjut",
+    "features_desc": "Render video ke file audio MP3 berkualitas tinggi dalam teknologi web berbasis browser yang cepat, bersih, dan modern untuk pembuat, pendengar, dan profesional.",
+    "f1_title": "Output MP3 Kualitas Studio",
+    "f1_desc": "Alat pengonversi video online ke MP3 kami yang canggih sangat cocok untuk mengekstraksi audio yang seimbang dan menonjol dari video dengan kualitas suara yang dioptimalkan, cocok untuk musik, podcast, wawancara, webinar, dan rekaman suara.\n\nKUALITAS TINGGI • AUDIO BERSIH • EKSPOR MP3",
+    "f2_title": "Konversi Berbasis Browser yang Aman",
+    "f2_desc": "Selama pemrosesan, file Anda tetap rahasia. Konverter video ke MP3 online tidak perlu mengunduh apa pun, juga tidak memerlukan aplikasi pihak ketiga.\n\nPribadi, Aman, Pemrosesan Lokal.",
+    "f3_title": "Unduhan Audio Secepat Kilat",
+    "f3_desc": "Pengalaman unduh gratis pengonversi video ke MP3 versi lengkap online kami dirancang untuk mengonversi file video ke format MP3 dalam hitungan detik, dan menyimpan audio ke perangkat Anda untuk didengarkan, diedit, streaming, atau pembuatan konten secara offline.\n\nPROSES CEPAT • UNDUHAN CEPAT",
+    "f4_title": "Mendukung sebagian besar format video populer.",
+    "f4_desc": "Konversi video ke MP3 dengan MP4, MOV, AVI, MKV, WebM, dan format video populer lainnya menggunakan alat pengonversi video ke MP3 kami.\n\nMP4 • MOV • AVI • WEBM",
+    "f5_title": "Dirancang khusus untuk Pembuat Konten",
+    "f5_desc": "Konversikan video YouTube, video TikTok, webinar, tutorial, podcast, dan konten pembuat konten ke format MP3 dengan mudah dan andal dengan pengonversi video YouTube ke MP3 kami.\n\nYOUTUBE • TIKTOK • PODCAST",
+    "f6_title": "Gratis & Mudah Digunakan",
+    "f6_desc": "Dapatkan audio dari browser apa pun tanpa memerlukan perangkat lunak yang rumit, biaya tersembunyi, pendaftaran, atau batasan tanda air. Kami memiliki pengonversi video ke MP3 instan gratis, yang berjalan di perangkat seluler dan desktop.\n\nTANPA INSTALASI • GRATIS • RAMAH PEMULA",
+    "steps_title": "Konversi Video ke MP3 Berkualitas Tinggi dalam Hitungan Detik",
+    "steps_desc": "Konverter audio video ke MP3 kami cepat dan aman, memungkinkan Anda mengekstrak audio dari video dengan cepat. Tanpa software yang rumit, tanpa pengalaman mengedit dan tanpa waktu tunggu yang lama.",
+    "s1_title": "Impor Video Anda",
+    "s1_desc": "Seret dan lepas atau pilih file video di pengonversi video ke MP3 gratis kami untuk diunggah langsung ke alat ini.\n\nUPLOAD CEPAT • FORMAT GANDA",
+    "s2_title": "Ekstrak Audio Berkualitas Tinggi",
+    "s2_desc": "Pilih format keluaran MP3 dan langsung konversi video menjadi audio bersih yang dioptimalkan untuk musik, podcast, rekaman suara, wawancara, dan konten pembuat konten tanpa biaya menggunakan pengonversi video ke MP3 gratis kami.\n\nKeluaran MP3 – audio berkualitas",
+    "s3_title": "Simpan & Gunakan Di Mana Saja",
+    "s3_desc": "Simpan file MP3 Anda segera setelah konversi dan putar secara offline, edit proyek, buat presentasi, atau publikasikan ke media sosial. Pengonversi video ke MP3 kami untuk pengalaman PC adalah pengunduhan berbasis browser, yang tidak diinstal di komputer.\n\nUNDUH INSTAN • TIDAK PERLU PERANGKAT LUNAK",
+    "use_cases_title": "Cara Orang dalam Kehidupan Nyata Menggunakan Konverter Video ke MP3 Kami",
+    "use_cases_desc": "Baik untuk penggemar musik, pelajar, pembuat konten, atau tim bisnis, pengonversi video ke MP3 online kami dirancang untuk mengubah konten video menjadi file audio portabel berkualitas tinggi untuk digunakan dalam daftar putar, pengeditan, pembelajaran, dan berbagi.",
+    "u1_title": "Simpan Musik & Pertunjukan Langsung sebagai MP3",
+    "u1_desc": "Gunakan konverter kami untuk mengonversi rekaman konser, video musik, set DJ, dan pertunjukan live menjadi audio MP3 berkualitas tinggi untuk didengarkan secara offline kapan saja.",
+    "u1_tags": "MUSIK • ACARA LANGSUNG • DAFTAR PUTAR",
+    "u2_title": "Dengarkan Podcast Di Mana Saja",
+    "u2_desc": "Konversikan video podcast ke MP3 untuk diputar saat bepergian, di kantor, saat berolahraga, atau saat membaca dan belajar tanpa kerumitan apa pun, putar audio dari video podcast tanpa membuka perangkat lunak apa pun dengan pengalaman versi lengkap unduh gratis pengonversi video ke MP3 kami.",
+    "u2_tags": "PODCAST • WAWANCARA • AUDIO SAJA",
+    "u3_title": "Ubah video pendidikan menjadi pelajaran audio.",
+    "u3_desc": "Ubah tutorial, rekaman ceramah, sesi pelatihan, dan video pendidikan menjadi MP3 untuk dipelajari kapan saja saat bepergian dengan unduhan konverter video ke MP3 kami yang aman untuk PC yang tidak memerlukan instalasi apa pun.",
+    "u3_tags": "KULIAH • KURSUS • BELAJAR AUDIO",
+    "u4_title": "Menyalin audio untuk mengedit proyek.",
+    "u4_desc": "Gunakan pengonversi video ke MP3 online kami untuk memisahkan trek audio dari video untuk sulih suara, remix, pengeditan podcast, presentasi, dan pasca produksi.",
+    "u4_tags": "PENGEDITAN • PEMBUATAN KONTEN • PRODUKSI",
+    "u5_title": "Buat Audio dari Video Media Sosial.",
+    "u5_desc": "Ekstrak suara dari video Tiktok, video YouTube, celana pendek, dan media sosial dalam beberapa detik dengan pengonversi video TikTok ke MP3 berbasis browser kami dan pengonversi video YouTube ke MP3 gratis.",
+    "u5_tags": "TIKTOK • YOUTUBE • KONTEN BERBENTUK PENDEK",
+    "u6_title": "Simpan Audio Motivasi & Pidato",
+    "u6_desc": "Konversikan video ke format audio MP3 dengan konverter audio video ke MP3 kami yang cepat sehingga Anda dapat mendengarkan pidato, video motivasi, seminar, dan materi pengembangan pribadi secara offline.",
+    "u6_tags": "PIDATO • MOTIVASI • AUDIO OFFLINE",
+    "reviews_title": "Dipercaya oleh Kreator, Pelajar & Pengguna Sehari-hari",
+    "reviews_desc": "Konverter video ke MP3 online kami digunakan setiap hari oleh banyak orang untuk menyalin musik, podcast, wawancara, ceramah, dan audio pembuat konten dengan cepat tanpa pemrograman yang menantang.",
+    "r1_text": "Saya menggunakan banyak program konversi video ke MP3 tapi ini adalah yang terbaik yang pernah saya gunakan. Ini cepat dan kualitas suaranya sangat bagus.",
+    "r1_role": "Pendengar Podcast",
+    "r2_text": "Ini adalah pengonversi YouTube ke MP3 yang hebat karena saya hanya memerlukan solusi sederhana dan tidak perlu melakukan langkah demi langkah yang rumit.",
+    "r2_role": "Koordinator Pemasaran",
+    "r3_text": "Saya sangat terkesan dengan betapa cepatnya konversinya; Saya mengunggah file MP4 berukuran besar dan mengunduh MP3 dalam hitungan detik.",
+    "r3_role": "Pembuat YouTube",
+    "r4_text": "Saya akan menggunakan pengonversi video Tiktok ke MP3 ini hampir setiap hari untuk pengeditan proyek dan konten media sosial.",
+    "r4_role": "Penyunting Video",
+    "r5_text": "Antarmuka yang bersih dan mudah digunakan dan bahkan siswa saya dapat menggunakan alat pengonversi video ke MP3 ini.",
+    "r5_role": "Instruktur Daring",
+    "r6_text": "Mencari unduhan pengonversi video ke MP3 untuk PC, tetapi alat browser ini menggantikan perangkat lunak desktop sama sekali.",
+    "r6_role": "Desainer Lepas",
+    "r7_text": "Merekam ceramah sebagai file audio kemudian dikonversi ke MP3 untuk didengarkan saat bepergian – menghemat banyak waktu belajar saya.",
+    "r7_role": "Mahasiswa Universitas",
+    "r8_text": "Mengonversi file panjang tanpa kehilangan kualitas suara, ini adalah pengonversi audio video ke MP3 yang sempurna untuk podcast.",
+    "r8_role": "Produser Audio",
+    "r9_text": "Berkat ini semuanya berfungsi langsung di browser, tanpa pengunduhan, iklan, atau langkah penyiapan yang tidak perlu.",
+    "r9_role": "Pakar Strategi Konten",
+    "r10_text": "Konverter video ke MP3 online ini sangat cepat dan mudah digunakan dan saya berhasil mengunduh audio dari video TikTok dan konten media sosial.",
+    "r10_role": "Manajer Media Sosial",
+    "r11_text": "Pengonversi video ke MP3 online gratis ini adalah alat hebat yang mengonversi video saya tanpa masalah dan meningkatkan kualitasnya – sebagian besar alat melakukan hal sebaliknya.",
+    "r11_role": "Pemilik Usaha Kecil",
+    "r12_text": "Saya menggunakan pengonversi video YouTube ke MP3 gratis ini untuk menyimpan pidato dan video petunjuk untuk didengarkan saat saya di gym.",
+    "r12_role": "Pelatih Kebugaran",
+    "faq_title": "Pertanyaan yang Sering Diajukan",
+    "faq_desc": "Pelajari cara menggunakan VideoCompressorPro untuk mengonversi video menjadi audio MP3 berkualitas tinggi.",
+    "q1": "Apa itu file MP3?",
+    "a1": "MP3 adalah salah satu format audio yang paling umum untuk musik, podcast, rekaman suara dan dapat didengarkan secara offline karena ukurannya yang kecil dan kualitas yang baik.",
+    "q2": "Apa itu pengonversi video ke MP3?",
+    "a2": "Konverter video ke MP3 online adalah alat yang membantu menghapus audio dari file video dan kemudian menyimpannya dalam format file audio MP3, yang dapat diputar di pemutar media, ponsel, tablet, dan laptop.",
+    "q3": "Format video apa yang tersedia?",
+    "a3": "Format video populer yang didukung oleh konverter Video-ke-MP3 kami meliputi MP4, MOV, AVI, MKV, WebM, MPEG, dan banyak lagi.",
+    "q4": "Apakah suara akan terdistorsi selama proses konversi?",
+    "a4": "Dioptimalkan untuk menjaga kualitas audio yang jernih dan seimbang selama ekstraksi, konverter kami ideal untuk musik, podcast, wawancara, dan konten lisan.",
+    "q5": "Apakah ada software yang perlu diinstal?",
+    "a5": "Ini tidak memerlukan instalasi. Tidak perlu mengunduh aplikasi atau aplikasi desktop yang rumit - ini berfungsi langsung di browser Anda. Ini adalah alternatif pengunduhan konverter video ke MP3 ringan untuk PC.",
+    "q6": "Bisakah Anda mengunggah video ke konverter MP3?",
+    "a6": "Ya, VideoCompressorPro diproses di browser dengan tujuan menjaga privasi dan keamanan dokumen Anda selama proses konversi.",
+    "q7": "Apakah Anda memiliki kemampuan untuk mengonversi video secara batch?",
+    "a7": "Konverter mungkin memerlukan lebih banyak kekuatan pemrosesan tergantung pada browser dan perangkat, namun konverter kami dioptimalkan untuk melakukan banyak konversi.",
+    "q8": "Apakah ada batasan ukuran file atau durasi video?",
+    "a8": "Ukuran file yang didukung terutama dibatasi oleh browser, memori perangkat, dan kekuatan pemrosesan Anda, namun video berukuran besar didukung pada sistem modern.",
+    "q9": "Apakah mungkin mengekstrak audio dari video YouTube?",
+    "a9": "Ya, pengonversi YouTube ke MP3 gratis kami dapat mengekstrak audio dari file video yang kompatibel untuk digunakan dalam podcast, ceramah, musik, wawancara, dan konten pembuat konten.",
+    "q10": "Apakah konverternya ramah seluler?",
+    "a10": "Ya, Konverter Web ke MP3 kami kompatibel dengan Android, iPhone, Tablet Android, iPad, laptop atau browser tanpa mengunduh perangkat lunak tambahan apa pun.",
+    "q11": "Apakah ada cara untuk menggunakan audio yang diekstraksi tanpa internet?",
+    "a11": "Sangat. File MP3 Anda telah dikonversi, Anda dapat mendownloadnya, dan memutarnya nanti tanpa internet!",
+    "q12": "Mengapa ini salah satu video terbaik untuk Pengonversi MP3?",
+    "a12": "VideoCompressorPro adalah kombinasi pemrosesan cepat di browser, ekspor MP3 yang bersih, penanganan yang aman, dan alat yang ramah pengguna tanpa perangkat lunak dan langganan yang rumit.",
+    "q13": "Apakah Anda mencari cara untuk mengonversi video TikTok atau media sosial ke MP3?",
+    "a13": "Ya, pengonversi video TikTok ke MP3 kami dapat mengonversi video TikTok dan video sosial, webinar, tutorial, podcast, dan banyak format video lainnya ke MP3.",
+    "q14": "Apakah pengonversi video ke MP3 ini gratis?",
+    "a14": "Ya, Anda dapat menggunakan pengunduhan gratis pengonversi video ke MP3 kami versi lengkap online gratis, tanpa biaya tersembunyi atau registrasi paksa atau instalasi rumit.",
+    "cta_title": "Ekstrak Audio Fidelitas Tinggi Secara Instan."
   },
   "audio_cutter_page": {
     "hero_badge": "Presisi · Tanpa unggah · 100% Gratis",
@@ -889,18 +933,42 @@
       "heroText": "Kompresor MP4 paling tepercaya di dunia. Kecilkan file MP4 Anda dalam hitungan detik sambil tetap menjaga kualitas 1080p/4K yang memukau.",
       "introText": "MP4 adalah format video paling populer, tetapi file resolusi tinggi bisa berukuran sangat besar. Mesin kompresi cerdas kami menganalisis bitrate MP4 Anda untuk menawarkan keseimbangan sempurna antara ukuran file dan kejernihan visual.",
       "features": [
-        { "title": "Tanpa Penurunan Kualitas", "desc": "Pengodean libx264 tingkat lanjut memastikan MP4 Anda tetap tajam." },
-        { "title": "Pemutaran Universal", "desc": "MP4 yang dikompresi berfungsi di semua iPhone, Android, dan Smart TV." },
-        { "title": "Privasi Diutamakan", "desc": "File Anda tidak pernah meninggalkan browser Anda. Pemrosesan 100% aman." }
+        {
+          "title": "Tanpa Penurunan Kualitas",
+          "desc": "Pengodean libx264 tingkat lanjut memastikan MP4 Anda tetap tajam."
+        },
+        {
+          "title": "Pemutaran Universal",
+          "desc": "MP4 yang dikompresi berfungsi di semua iPhone, Android, dan Smart TV."
+        },
+        {
+          "title": "Privasi Diutamakan",
+          "desc": "File Anda tidak pernah meninggalkan browser Anda. Pemrosesan 100% aman."
+        }
       ],
       "steps": [
-        { "title": "Unggah MP4", "desc": "Seret dan letakkan file MP4 Anda ke dalam kotak kompresor." },
-        { "title": "Pilih Ukuran", "desc": "Pilih ukuran output yang diinginkan dalam MB." },
-        { "title": "Kompres & Simpan", "desc": "Unduh MP4 yang dioptimalkan secara instan." }
+        {
+          "title": "Unggah MP4",
+          "desc": "Seret dan letakkan file MP4 Anda ke dalam kotak kompresor."
+        },
+        {
+          "title": "Pilih Ukuran",
+          "desc": "Pilih ukuran output yang diinginkan dalam MB."
+        },
+        {
+          "title": "Kompres & Simpan",
+          "desc": "Unduh MP4 yang dioptimalkan secara instan."
+        }
       ],
       "faqs": [
-        { "q": "Apakah video MP4 saya akan kehilangan kualitas?", "a": "Tidak, kami menggunakan faktor laju konstan efisiensi tinggi untuk menjaga integritas visual." },
-        { "q": "Apakah ada batasan ukuran file?", "a": "Anda dapat mengompres file MP4 hingga 5GB secara gratis." }
+        {
+          "q": "Apakah video MP4 saya akan kehilangan kualitas?",
+          "a": "Tidak, kami menggunakan faktor laju konstan efisiensi tinggi untuk menjaga integritas visual."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Anda dapat mengompres file MP4 hingga 5GB secara gratis."
+        }
       ]
     },
     "mov": {
@@ -910,18 +978,42 @@
       "heroText": "File Apple MOV dikenal sangat besar. Alat kami mengoptimalkan bitrate MOV untuk web tanpa mengorbankan kualitas khas Apple.",
       "introText": "File QuickTime (MOV) yang diambil di iPhone atau Mac sering kali menghabiskan ruang ber-gigabyte. Kami membantu Anda mengonversi dan mengompresnya secara instan ke format yang efisien dan siap untuk web.",
       "features": [
-        { "title": "Dioptimalkan untuk Apple", "desc": "Disesuaikan khusus untuk file ProRes dan H.264 MOV dengan bitrate tinggi." },
-        { "title": "Siap untuk Web", "desc": "Ubah MOV yang berat menjadi versi ringan yang siap untuk streaming." },
-        { "title": "Tanpa Menunggu", "desc": "Pemrosesan cepat berbasis browser, tidak perlu unggah ke server." }
+        {
+          "title": "Dioptimalkan untuk Apple",
+          "desc": "Disesuaikan khusus untuk file ProRes dan H.264 MOV dengan bitrate tinggi."
+        },
+        {
+          "title": "Siap untuk Web",
+          "desc": "Ubah MOV yang berat menjadi versi ringan yang siap untuk streaming."
+        },
+        {
+          "title": "Tanpa Menunggu",
+          "desc": "Pemrosesan cepat berbasis browser, tidak perlu unggah ke server."
+        }
       ],
       "steps": [
-        { "title": "Impor MOV", "desc": "Pilih file .mov dari Mac atau iPhone Anda." },
-        { "title": "Sesuaikan Ukuran", "desc": "Pilih ukuran target yang sesuai dengan kebutuhan berbagi Anda." },
-        { "title": "Ekspor", "desc": "Simpan video yang dikompresi dalam hitungan detik." }
+        {
+          "title": "Impor MOV",
+          "desc": "Pilih file .mov dari Mac atau iPhone Anda."
+        },
+        {
+          "title": "Sesuaikan Ukuran",
+          "desc": "Pilih ukuran target yang sesuai dengan kebutuhan berbagi Anda."
+        },
+        {
+          "title": "Ekspor",
+          "desc": "Simpan video yang dikompresi dalam hitungan detik."
+        }
       ],
       "faqs": [
-        { "q": "Bisakah saya menggunakan ini di iPhone?", "a": "Ya, alat kami sepenuhnya kompatibel dengan Safari di iOS untuk kompresi MOV." },
-        { "q": "Apakah mendukung 4K MOV?", "a": "Tentu saja, kami menangani file MOV 4K 60fps dengan mudah." }
+        {
+          "q": "Bisakah saya menggunakan ini di iPhone?",
+          "a": "Ya, alat kami sepenuhnya kompatibel dengan Safari di iOS untuk kompresi MOV."
+        },
+        {
+          "q": "Apakah mendukung 4K MOV?",
+          "a": "Tentu saja, kami menangani file MOV 4K 60fps dengan mudah."
+        }
       ]
     },
     "video-for-whatsapp": {
@@ -931,18 +1023,42 @@
       "heroText": "Berhenti menerima pesan error 'File terlalu besar' di WhatsApp. Kompres video Anda agar pas dengan batas 16MB atau 64MB.",
       "introText": "WhatsApp memiliki batas ukuran file yang ketat (16MB untuk seluler, 64MB untuk web). Alat kami secara otomatis mengoptimalkan video Anda agar mematuhi batas ini sambil menjaga konten tetap jelas.",
       "features": [
-        { "title": "Lewati Batasan", "desc": "Capai target tepat 16MB atau 64MB untuk WhatsApp secara otomatis." },
-        { "title": "Berbagi Instan", "desc": "File yang dikompresi siap untuk dikirim segera di WhatsApp." },
-        { "title": "Ramah Grup", "desc": "File yang lebih kecil berarti unggah dan unduh lebih cepat untuk chat grup Anda." }
+        {
+          "title": "Lewati Batasan",
+          "desc": "Capai target tepat 16MB atau 64MB untuk WhatsApp secara otomatis."
+        },
+        {
+          "title": "Berbagi Instan",
+          "desc": "File yang dikompresi siap untuk dikirim segera di WhatsApp."
+        },
+        {
+          "title": "Ramah Grup",
+          "desc": "File yang lebih kecil berarti unggah dan unduh lebih cepat untuk chat grup Anda."
+        }
       ],
       "steps": [
-        { "title": "Pilih Video", "desc": "Pilih video yang ingin Anda kirim di WhatsApp." },
-        { "title": "Pilih Batas", "desc": "Atur target ke 15MB agar aman di WhatsApp seluler." },
-        { "title": "Unduh & Kirim", "desc": "Bagikan video Anda tanpa peringatan batasan." }
+        {
+          "title": "Pilih Video",
+          "desc": "Pilih video yang ingin Anda kirim di WhatsApp."
+        },
+        {
+          "title": "Pilih Batas",
+          "desc": "Atur target ke 15MB agar aman di WhatsApp seluler."
+        },
+        {
+          "title": "Unduh & Kirim",
+          "desc": "Bagikan video Anda tanpa peringatan batasan."
+        }
       ],
       "faqs": [
-        { "q": "Berapa batas file WhatsApp?", "a": "Batas seluler adalah 16MB, sementara WhatsApp Web mendukung hingga 64MB." },
-        { "q": "Apakah video akan terlihat buram?", "a": "Tidak, kami mengoptimalkan resolusi untuk memastikan tampilan yang bagus di layar ponsel." }
+        {
+          "q": "Berapa batas file WhatsApp?",
+          "a": "Batas seluler adalah 16MB, sementara WhatsApp Web mendukung hingga 64MB."
+        },
+        {
+          "q": "Apakah video akan terlihat buram?",
+          "a": "Tidak, kami mengoptimalkan resolusi untuk memastikan tampilan yang bagus di layar ponsel."
+        }
       ]
     },
     "video-for-discord": {
@@ -952,18 +1068,42 @@
       "heroText": "Bosan dengan petunjuk Discord Nitro? Kompres meme dan klip Anda agar pas di bawah batas gratis 8MB atau 25MB secara instan.",
       "introText": "Batas unggahan Discord adalah mimpi buruk setiap gamer. Baik Anda memerlukan file 8MB untuk pengguna gratis atau 25MB untuk Nitro Basic, alat kami memastikan klip Anda tetap berkualitas tinggi.",
       "features": [
-        { "title": "Ramah Nitro", "desc": "Preset untuk batas Discord 8MB, 25MB, dan 50MB." },
-        { "title": "Siap untuk Gamer", "desc": "Sangat cocok untuk klip gameplay FPS tinggi dari OBS atau Shadowplay." },
-        { "title": "Ubah Ukuran Otomatis", "desc": "Menyesuaikan dimensi untuk memastikan file pas dengan batas kecil Discord." }
+        {
+          "title": "Ramah Nitro",
+          "desc": "Preset untuk batas Discord 8MB, 25MB, dan 50MB."
+        },
+        {
+          "title": "Siap untuk Gamer",
+          "desc": "Sangat cocok untuk klip gameplay FPS tinggi dari OBS atau Shadowplay."
+        },
+        {
+          "title": "Ubah Ukuran Otomatis",
+          "desc": "Menyesuaikan dimensi untuk memastikan file pas dengan batas kecil Discord."
+        }
       ],
       "steps": [
-        { "title": "Unggah Klip", "desc": "Seret klip gameplay atau meme Anda ke dalam kotak." },
-        { "title": "Atur Target 8MB", "desc": "Gunakan slider untuk mencapai angka 8MB dengan tepat." },
-        { "title": "Bagikan di Discord", "desc": "Posting video Anda di saluran mana pun tanpa Nitro." }
+        {
+          "title": "Unggah Klip",
+          "desc": "Seret klip gameplay atau meme Anda ke dalam kotak."
+        },
+        {
+          "title": "Atur Target 8MB",
+          "desc": "Gunakan slider untuk mencapai angka 8MB dengan tepat."
+        },
+        {
+          "title": "Bagikan di Discord",
+          "desc": "Posting video Anda di saluran mana pun tanpa Nitro."
+        }
       ],
       "faqs": [
-        { "q": "Berapa batas gratis Discord?", "a": "Discord baru-baru ini menaikkan batas gratis menjadi 25MB untuk sebagian besar pengguna, tetapi 8MB masih lebih aman untuk beberapa server." },
-        { "q": "Apakah mendukung .webm?", "a": "Ya, kami merekomendasikan .webm untuk Discord karena memiliki kompresi yang lebih baik untuk ukuran kecil." }
+        {
+          "q": "Berapa batas gratis Discord?",
+          "a": "Discord baru-baru ini menaikkan batas gratis menjadi 25MB untuk sebagian besar pengguna, tetapi 8MB masih lebih aman untuk beberapa server."
+        },
+        {
+          "q": "Apakah mendukung .webm?",
+          "a": "Ya, kami merekomendasikan .webm untuk Discord karena memiliki kompresi yang lebih baik untuk ukuran kecil."
+        }
       ]
     },
     "video-for-email": {
@@ -973,18 +1113,132 @@
       "heroText": "Kirim video melalui email tanpa menggunakan Google Drive atau Dropbox. Kecilkan file Anda agar pas dengan batas lampiran email 25MB.",
       "introText": "Sebagian besar penyedia email seperti Gmail dan Outlook memiliki batas 25MB. Alat kami mengoptimalkan video bisnis atau klip keluarga Anda agar pas dalam email.",
       "features": [
-        { "title": "Kompatibel dengan Gmail", "desc": "Tetap di bawah batas 25MB untuk lampiran tanpa hambatan." },
-        { "title": "Kualitas Pro", "desc": "Menjaga presentasi bisnis dan tutorial Anda tetap tajam." },
-        { "title": "Multi-Platform", "desc": "Bekerja di semua browser, termasuk Outlook dan Yahoo Mail." }
+        {
+          "title": "Kompatibel dengan Gmail",
+          "desc": "Tetap di bawah batas 25MB untuk lampiran tanpa hambatan."
+        },
+        {
+          "title": "Kualitas Pro",
+          "desc": "Menjaga presentasi bisnis dan tutorial Anda tetap tajam."
+        },
+        {
+          "title": "Multi-Platform",
+          "desc": "Bekerja di semua browser, termasuk Outlook dan Yahoo Mail."
+        }
       ],
       "steps": [
-        { "title": "Tambah Lampiran", "desc": "Pilih file video besar yang ingin Anda kirim melalui email." },
-        { "title": "Atur Batas 24MB", "desc": "Targetkan 24MB untuk memastikan pas dengan batas email 25MB." },
-        { "title": "Lampirkan & Kirim", "desc": "Unduh file dan lampirkan langsung ke email Anda." }
+        {
+          "title": "Tambah Lampiran",
+          "desc": "Pilih file video besar yang ingin Anda kirim melalui email."
+        },
+        {
+          "title": "Atur Batas 24MB",
+          "desc": "Targetkan 24MB untuk memastikan pas dengan batas email 25MB."
+        },
+        {
+          "title": "Lampirkan & Kirim",
+          "desc": "Unduh file dan lampirkan langsung ke email Anda."
+        }
       ],
       "faqs": [
-        { "q": "Berapa batas lampiran Gmail?", "a": "Gmail mengizinkan hingga 25MB per email. Jika lebih besar, ia akan memaksa penggunaan link Google Drive." },
-        { "q": "Seberapa banyak saya bisa mengecilkan video?", "a": "Sering kali kami dapat mengecilkan video 200MB menjadi 24MB sambil tetap menjaganya sangat layak tonton." }
+        {
+          "q": "Berapa batas lampiran Gmail?",
+          "a": "Gmail mengizinkan hingga 25MB per email. Jika lebih besar, ia akan memaksa penggunaan link Google Drive."
+        },
+        {
+          "q": "Seberapa banyak saya bisa mengecilkan video?",
+          "a": "Sering kali kami dapat mengecilkan video 200MB menjadi 24MB sambil tetap menjaganya sangat layak tonton."
+        }
+      ]
+    },
+    "youtube": {
+      "title": "Kompres Video untuk YouTube Online - Pengoptimal YouTube Cepat",
+      "description": "Kompres video untuk YouTube online secara gratis. Kurangi ukuran video dengan tetap mempertahankan kualitas 1080p dan 4K HD. Unggah lebih cepat tanpa penundaan pemrosesan.",
+      "h1": "Kompresor Video YouTube Cepat",
+      "heroText": "Unggah ke YouTube dalam hitungan detik. Kompres video 1080p dan 4K Anda sambil menjaga kualitas visual dengan ketelitian tinggi.",
+      "introText": "YouTube memproses unggahan video dalam jumlah besar, namun file yang berat dapat menyebabkan pemrosesan terhenti dan waktu tunggu yang tidak ada habisnya. Pengoptimal cerdas kami mengurangi ukuran file tanpa kehilangan resolusi atau akurasi warna.",
+      "features": [
+        {
+          "title": "Tidak Ada Kehilangan Kualitas",
+          "desc": "Kompresi libx264 tingkat lanjut menjaga kejernihan visual Anda."
+        },
+        {
+          "title": "Proses Cepat",
+          "desc": "Pemrosesan browser lokal berarti tidak ada waktu tunggu server."
+        },
+        {
+          "title": "Privasi Pertama",
+          "desc": "Video Anda tidak pernah keluar dari browser Anda. 100% aman."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Unggah Video",
+          "desc": "Seret dan lepas file video MP4, MOV, atau WebM Anda."
+        },
+        {
+          "title": "Pilih Resolusi",
+          "desc": "Pilih 1080p atau 4K agar tetap dioptimalkan untuk YouTube."
+        },
+        {
+          "title": "Kompres & Unduh",
+          "desc": "Siapkan video ringan Anda untuk diunggah secara instan."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Apakah ini akan menurunkan kualitas YouTube saya?",
+          "a": "Tidak, alat kami mengompresi file tanpa kehilangan resolusi, sehingga YouTube akan memprosesnya dalam HD/4K."
+        },
+        {
+          "q": "Apakah aman digunakan?",
+          "a": "Ya, semua pemrosesan dilakukan di dalam browser Anda, memastikan privasi total."
+        }
+      ]
+    },
+    "tiktok": {
+      "title": "Kompres Video untuk TikTok Online - Kecilkan Video untuk TikTok",
+      "description": "Kompres video untuk TikTok online gratis. Optimalkan video vertikal 9:16 agar sesuai dengan pedoman TikTok dengan sempurna. Jaga agar video Anda tetap tajam untuk FYP.",
+      "h1": "Kompresor Video TikTok",
+      "heroText": "Jadikan video Anda menonjol di FYP. Kompres klip vertikal untuk diunggah ke TikTok secara instan tanpa jeda.",
+      "introText": "TikTok menyukai video vertikal yang dimuat dengan cepat dan berkualitas tinggi. Kompresor kami mengecilkan file MP4 dan MOV Anda agar sesuai dengan pedoman seluler TikTok sekaligus menjaga transisi dan teks tetap tajam.",
+      "features": [
+        {
+          "title": "9:16 Dioptimalkan",
+          "desc": "Sempurna untuk klip vertikal, Reel Instagram, dan Celana Pendek."
+        },
+        {
+          "title": "Kualitas FYP",
+          "desc": "Menjaga resolusi video tetap tajam untuk menghindari kompresi TikTok yang buram."
+        },
+        {
+          "title": "Nol Server Lag",
+          "desc": "Tidak ada pengunggahan ke database eksternal, pemrosesan selesai secara instan."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Pilih Video",
+          "desc": "Pilih video vertikal Anda dari ponsel atau PC Anda."
+        },
+        {
+          "title": "Tetapkan Pedoman",
+          "desc": "Optimalkan bitrate Anda untuk memuat TikTok dengan cepat."
+        },
+        {
+          "title": "Simpan & Bagikan",
+          "desc": "Unduh video terkompresi dan segera posting ke TikTok."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Apakah TikTok mengompresi video?",
+          "a": "Ya, TikTok mengompresi file saat diunggah, tetapi mengompresinya terlebih dahulu dengan alat kami akan menghindari hasil yang buram."
+        },
+        {
+          "q": "Format apa yang terbaik untuk TikTok?",
+          "a": "MP4 dan MOV dalam rasio aspek vertikal 9:16 adalah format ideal untuk TikTok."
+        }
       ]
     }
   }

@@ -564,68 +564,112 @@
     "cta_title": "Videogröße jetzt anpassen."
   },
   "to_mp3_page": {
-    "hero_badge": "High Fidelity · Kein Upload · 100% Kostenlos",
-    "hero_title": "Online Video zu MP3 Konverter",
-    "hero_subtitle": "Soundtracks in hoher Qualität sofort aus Ihren Videos extrahieren. Sicher und privat.",
-    "visualizer_title": "Der beste Konverter",
-    "visualizer_desc": "Studio-Level Extraktions-Präzision direkt in Ihrem Browser.",
+    "hero_badge": "High Fidelity • Keine Uploads • 100 % kostenlos",
+    "hero_title": "Online-Video-zu-MP3-Konverter",
+    "hero_subtitle": "Unser Online-Video-zu-MP3-Konverter ist kostenlos und sicher, sodass Sie im Handumdrehen Audiospuren aus Videos erstellen können. Ein Online-Video-zu-MP3-Konverter, der sich am besten für Musik, Podcasts, Interviews, Vorträge, Sprachclips und soziale Medien eignet.",
+    "visualizer_title": "Bester Video-zu-MP3-Konverter",
+    "visualizer_desc": "VideoCompressorPro ist ein Videokonverter, der einfach zu verwenden ist und sich perfekt für Anfänger eignet, egal ob Sie ein YouTube-Video in MP3, ein TikTok-Video in MP3 konvertieren oder einen Videokonverter in MP3 suchen, der für Sie gut funktioniert. Mit unserem Online-Video-zu-MP3-Konverter können Sie Videos sofort und in hoher Qualität in MP3-Audiodateien konvertieren. Extrahieren Sie mit dem besten Video-zu-MP3-Konverter schnell Audio aus YouTube-Videoclips, TikTok-Videos, Podcasts, Webinaren und Aufzeichnungen direkt aus dem Browser, um den Ton in Sekundenschnelle zu erhalten.",
     "visualizer_label": "Ausgabeformat",
-    "visualizer_format": "Hochwertiges MP3 (320kbps)",
-    "features_title": "Elite-Extraktion",
-    "f1_title": "High Fidelity",
-    "f1_desc": "Bitrate-Support bis zu 320kbps für kristallklaren Sound.",
-    "f2_title": "Volle Privatsphäre",
-    "f2_desc": "Lokale Verarbeitung. Ihre Dateien erreichen uns nie.",
-    "f3_title": "Sofort-Download",
-    "f3_desc": "Kein Warten. Audio direkt nach der Extraktion erhalten.",
-    "f4_title": "Diverse Formate",
-    "f4_desc": "MP4, MOV, AVI zu MP3, WAV oder OGG mit höchster Sorgfalt.",
-    "f5_title": "Batch-Modus",
-    "f5_desc": "Mehrere Videos in Sekunden in eine Playlist konvertieren.",
-    "f6_title": "Ohne Account",
-    "f6_desc": "Voller Zugriff ohne Registrierung oder nervige Ads.",
-    "steps_title": "Wie konvertieren",
-    "s1_title": "Laden",
-    "s1_desc": "Videodatei in einem gängigen Format wählen.",
-    "s2_title": "Konfigurieren",
-    "s2_desc": "Bitrate und gewünschtes Ausgabeformat wählen.",
-    "s3_title": "Extrahieren",
-    "s3_desc": "Audio chirurgisch präzise sofort trennen.",
-    "s4_title": "Speichern",
-    "s4_desc": "Lokal verarbeitetes MP3 sicher herunterladen.",
-    "reviews_title": "Von Profis genutzt",
-    "r1_text": "Perfekter Sound auch auf Studiomonitoren. Exzellent.",
-    "r1_role": "Musikproduzent",
-    "r2_text": "I use it to get clean audio for my podcasts from video interviews. It's consistently very reliable.",
-    "r2_role": "Professional Podcaster",
-    "r3_text": "Extremely fast extraction. I converted 10 long videos in a minute. The speed is unmatched.",
-    "r3_role": "Graduate Student",
-    "r4_text": "No distortion at all. The LAME encoder implementation here works wonders for audio fidelity.",
-    "r4_role": "Audio Engineer",
-    "r5_text": "Privacy first - my videos aren't uploaded to convert. This is essential for my sensitive interview data.",
-    "r5_role": "Investigative Journalist",
-    "r6_text": "Best way to get high-quality MP3s from my own YouTube backups. Simple, clean, and perfect.",
-    "r6_role": "Content Creator",
-    "r7_text": "Simple, clean, and no annoying ads or popups. A rare find in the world of online conversion tools.",
-    "r7_role": "Creative Freelancer",
-    "r8_text": "Supports all formats. Converted my old MKV home videos to MP3 to listen in the car easily.",
-    "r8_role": "Tech Enthusiast",
-    "r9_text": "The batch processing feature is a life-saver for my sound effects library.",
-    "r9_role": "Game Developer",
-    "r10_text": "Studio-grade audio extraction in seconds. It's my go-to tool for video sound design.",
-    "r10_role": "Sound Designer",
-    "r11_text": "Crystal clear MP3 extraction every time. I use it for my sample library and it never fails.",
-    "r11_role": "Audio Producer",
-    "r12_text": "Fastest conversion I've seen. No more waiting for servers to process my files.",
-    "r12_role": "Creative Director",
-    "faq_title": "FAQ",
-    "q1": "Wie wird Audio extrahiert?",
-    "a1": "Video laden und auf 'Audio extrahieren' klicken. Das ist alles!",
-    "q2": "Ist es kostenlos?",
-    "a2": "Ja, 100% kostenlos und unlimitiert.",
-    "q3": "Welche Bitrate ist am besten?",
-    "a3": "320kbps für maximale Qualität; 128kbps zum Platzsparen.",
-    "cta_title": "Audio jetzt extrahieren."
+    "visualizer_format": "Hochwertiges MP3 (320 kbps)",
+    "features_title": "Erweiterte Funktionen zur Audioextraktion",
+    "features_desc": "Rendern Sie Videos in hochwertige MP3-Audiodateien mit schneller, sauberer und moderner browserbasierter Webtechnologie für Ersteller, Zuhörer und Profis.",
+    "f1_title": "MP3-Ausgabe in Studioqualität",
+    "f1_desc": "Unser hochentwickeltes Online-Video-Konverter-zu-MP3-Tool eignet sich perfekt zum Extrahieren ausgewogener und hervorstechender Audiodaten aus Videos mit optimierter Klangqualität, geeignet für Musik, Podcasts, Interviews, Webinare und Sprachaufzeichnungen.\n\nHOHE QUALITÄT • SAUBERES AUDIO • MP3-EXPORT",
+    "f2_title": "Sichere browserbasierte Konvertierung",
+    "f2_desc": "Während der Bearbeitung bleiben Ihre Dateien vertraulich. Für den Online-Video-zu-MP3-Konverter muss weder etwas heruntergeladen werden, noch sind Anwendungen von Drittanbietern erforderlich.\n\nPrivate, sichere, lokale Verarbeitung.",
+    "f3_title": "Blitzschnelle Audio-Downloads",
+    "f3_desc": "Unser kostenloser Online-Download der Vollversion unseres Video-zu-MP3-Konverters ist darauf ausgelegt, Videodateien in Sekundenschnelle in das MP3-Format zu konvertieren und den Ton auf Ihrem Gerät zu speichern, um ihn offline anzuhören, zu bearbeiten, zu streamen oder Inhalte zu erstellen.\n\nSCHNELLE VERARBEITUNG • SCHNELLE DOWNLOADS",
+    "f4_title": "Unterstützt die gängigsten Videoformate.",
+    "f4_desc": "Konvertieren Sie Videos mit MP4, MOV, AVI, MKV, WebM und anderen gängigen Videoformaten in MP3 mit unserem Video-Konverter-zu-MP3-Tool.\n\nMP4 • MOV • AVI • WEBM",
+    "f5_title": "Speziell für Content-Ersteller entwickelt",
+    "f5_desc": "Konvertieren Sie YouTube-Videos, TikTok-Videos, Webinare, Tutorials, Podcasts und Creator-Inhalte mühelos und zuverlässig in das MP3-Format mit unserem YouTube-Video-zu-MP3-Konverter.\n\nYOUTUBE • TIKTOK • PODCASTS",
+    "f6_title": "Kostenlos und einfach zu bedienen",
+    "f6_desc": "Holen Sie sich Audio aus jedem Browser, ohne komplizierte Software, versteckte Gebühren, Anmeldungen oder Wasserzeichenbeschränkungen. Wir haben einen kostenlosen Sofort-Video-zu-MP3-Konverter, der auf Mobilgeräten und Desktops läuft.\n\nKEINE INSTALLATION • KOSTENLOS • ANFÄNGERFREUNDLICH",
+    "steps_title": "Konvertieren Sie Videos in Sekundenschnelle in hochwertiges MP3",
+    "steps_desc": "Unser Video-zu-MP3-Audio-Konverter ist schnell und sicher, sodass Sie Audio schnell aus Video extrahieren können. Keine komplizierte Software, keine Bearbeitungserfahrung und keine lange Wartezeit.",
+    "s1_title": "Importieren Sie Ihr Video",
+    "s1_desc": "Ziehen Sie die Videodatei(en) per Drag-and-Drop in unseren kostenlosen Video-zu-MP3-Konverter oder wählen Sie sie aus, um sie direkt in das Tool hochzuladen.\n\nSCHNELLES HOCHLADEN • MEHRERE FORMATE",
+    "s2_title": "Hochwertiges Audio extrahieren",
+    "s2_desc": "Wählen Sie MP3-Ausgabeformate aus und konvertieren Sie Videos mit unserem kostenlosen Video-zu-MP3-Konverter sofort und kostenlos in sauberes Audio, das für Musik, Podcasts, Sprachaufnahmen, Interviews und Erstellerinhalte optimiert ist.\n\nMP3-Ausgabe – hochwertiges Audio",
+    "s3_title": "Überall speichern und verwenden",
+    "s3_desc": "Speichern Sie Ihre MP3-Datei direkt nach der Konvertierung und spielen Sie sie offline ab, bearbeiten Sie Projekte, erstellen Sie Präsentationen oder veröffentlichen Sie sie in sozialen Medien. Unser Video-zu-MP3-Konverter für PC-Erlebnisse ist ein browserbasierter Download, der nicht auf dem Computer installiert ist.\n\nSOFORTIGER DOWNLOAD • KEINE SOFTWARE ERFORDERLICH",
+    "use_cases_title": "Wie Menschen unseren Video-zu-MP3-Konverter im echten Leben nutzen",
+    "use_cases_desc": "Ob für Musikbegeisterte, Studenten, Kreative oder Geschäftsteams – unser Online-Video-zu-MP3-Konverter ist darauf ausgelegt, Videoinhalte in tragbare, hochwertige Audiodateien zur Verwendung in Wiedergabelisten, zum Bearbeiten, Lernen und Teilen umzuwandeln.",
+    "u1_title": "Speichern Sie Musik und Live-Auftritte als MP3",
+    "u1_desc": "Verwenden Sie unseren Konverter, um eine Konzertaufzeichnung, Musikvideos, DJ-Sets und Live-Auftritte in hochwertiges MP3-Audio umzuwandeln, damit Sie es jederzeit offline anhören können.",
+    "u1_tags": "MUSIK • LIVE-SHOWS • PLAYLISTEN",
+    "u2_title": "Hören Sie Podcasts überall",
+    "u2_desc": "Konvertieren Sie Podcast-Videos in MP3, um sie beim Pendeln, im Büro, beim Training oder beim Lesen und Lernen problemlos abzuspielen. Spielen Sie den Ton von Podcast-Videos ab, ohne eine Software zu öffnen, mit unserem kostenlosen Download der Vollversion für den Video-zu-MP3-Konverter.",
+    "u2_tags": "PODCASTS • INTERVIEWS • NUR AUDIO",
+    "u3_title": "Wandeln Sie Lehrvideos in Audio-Lektionen um.",
+    "u3_desc": "Wandeln Sie Tutorials, aufgezeichnete Vorträge, Coaching-Sitzungen und Lehrvideos in MP3 um, damit Sie jederzeit unterwegs lernen können – mit unserem sicheren Video-zu-MP3-Konverter-Download für den PC, der keine Installation erfordert.",
+    "u3_tags": "VORTRÄGE • KURSE • AUDIO-STUDIE",
+    "u4_title": "Kopieren von Audio zum Bearbeiten von Projekten.",
+    "u4_desc": "Nutzen Sie unseren Video-zu-MP3-Konverter online, um Audiospuren von Videos für Voiceovers, Remixes, Podcast-Bearbeitung, Präsentationen und Postproduktion zu trennen.",
+    "u4_tags": "BEARBEITUNG • INHALTSERSTELLUNG • PRODUKTION",
+    "u5_title": "Erstellen Sie Audio aus Social-Media-Videos.",
+    "u5_desc": "Extrahieren Sie in wenigen Sekunden Ton aus Tiktok-Videos, YouTube-Videos, Kurzfilmen und sozialen Medien mit unserem browserbasierten TikTok-Video-zu-MP3-Konverter und dem kostenlosen YouTube-Video-zu-MP3-Konverter.",
+    "u5_tags": "TIKTOK • YOUTUBE • KURZE INHALTE",
+    "u6_title": "Speichern Sie Motivations- und Sprachaudio",
+    "u6_desc": "Konvertieren Sie Videos mit unserem schnellen Video-zu-MP3-Audiokonverter in das MP3-Audioformat, sodass Sie Reden, Motivationsvideos, Seminare und Materialien zur persönlichen Entwicklung offline anhören können.",
+    "u6_tags": "REDEN • MOTIVATION • OFFLINE-AUDIO",
+    "reviews_title": "Kreative, Studenten und alltägliche Benutzer vertrauen darauf",
+    "reviews_desc": "Unser Online-Video-zu-MP3-Konverter wird täglich von vielen genutzt, um Musik, Podcasts, Interviews, Vorträge und Audiodateien schnell zu rippen, ohne dass die Programmierung aufwändig ist.",
+    "r1_text": "Ich habe zahlreiche Programme zur Konvertierung von Videos in MP3 verwendet, aber dieses ist das beste, das ich je verwendet habe. Es geht schnell und die Klangqualität ist wirklich großartig.",
+    "r1_role": "Podcast-Hörer",
+    "r2_text": "Dies ist ein großartiger YouTube-zu-MP3-Konverter, da ich nur eine einfache Lösung brauchte und keine komplizierte Schritt-für-Schritt-Anleitung durchführen musste.",
+    "r2_role": "Marketingkoordinator",
+    "r3_text": "Ich war wirklich beeindruckt, wie schnell es sich umwandelte; Ich habe eine große MP4-Datei hochgeladen und die MP3 in Sekundenschnelle heruntergeladen.",
+    "r3_role": "YouTube-Ersteller",
+    "r4_text": "Ich würde diesen Tiktok-Video-zu-MP3-Konverter fast täglich für die Projektbearbeitung und Social-Media-Inhalte verwenden.",
+    "r4_role": "Video-Editor",
+    "r5_text": "Saubere und benutzerfreundliche Oberfläche, und sogar meine Schüler konnten dieses Tool zum Konvertieren von Videos in MP3 verwenden.",
+    "r5_role": "Online-Lehrer",
+    "r6_text": "Auf der Suche nach einem Video-zu-MP3-Konverter zum Herunterladen für den PC, hat dieses Browser-Tool die Desktop-Software vollständig ersetzt.",
+    "r6_role": "Freiberuflicher Designer",
+    "r7_text": "Ich habe die Vorlesungen als Audiodateien aufgezeichnet und dann in MP3 konvertiert, um sie beim Pendeln anzuhören – das hat mir viel Zeit beim Lernen erspart.",
+    "r7_role": "Universitätsstudent",
+    "r8_text": "Es konvertiert lange Dateien ohne Einbußen bei der Tonqualität und ist ein perfekter Video-zu-MP3-Audiokonverter für Podcasts.",
+    "r8_role": "Audioproduzent",
+    "r9_text": "Dadurch funktioniert alles direkt im Browser, ohne unnötige Downloads, Werbung oder Einrichtungsschritte.",
+    "r9_role": "Content-Stratege",
+    "r10_text": "Dieser Online-Video-zu-MP3-Konverter ist extrem schnell und einfach zu verwenden und ich habe erfolgreich Audio von TikTok-Videos und Social-Media-Inhalten heruntergeladen.",
+    "r10_role": "Social-Media-Manager",
+    "r11_text": "Dieser kostenlose Online-Video-zu-MP3-Konverter ist ein großartiges Tool, das meine Videos problemlos konvertiert und ihre Qualität verbessert – die meisten Tools bewirken das Gegenteil.",
+    "r11_role": "Kleinunternehmer",
+    "r12_text": "Ich verwende diesen kostenlosen YouTube-Video-zu-MP3-Konverter, um Reden und Anleitungsvideos zu speichern, die ich mir im Fitnessstudio anhören kann.",
+    "r12_role": "Fitnesstrainer",
+    "faq_title": "Häufig gestellte Fragen",
+    "faq_desc": "Erfahren Sie, wie Sie mit VideoCompressorPro Videos in hochwertiges MP3-Audio konvertieren.",
+    "q1": "Was ist eine MP3-Datei?",
+    "a1": "MP3 ist eines der gängigsten Audioformate für Musik, Podcasts und Sprachaufnahmen und kann aufgrund seiner geringen Größe und guten Qualität auch offline angehört werden.",
+    "q2": "Was ist ein Video-zu-MP3-Konverter?",
+    "a2": "Ein Online-Video-zu-MP3-Konverter ist ein Tool, das dabei hilft, Audio aus einer Videodatei zu entfernen und es dann in einem MP3-Audiodateiformat zu speichern, das auf Mediaplayern, Telefonen, Tablets und Laptops abgespielt werden kann.",
+    "q3": "Welche Videoformate stehen zur Verfügung?",
+    "a3": "Zu den beliebten Videoformaten, die von unserem Video-zu-MP3-Konverter unterstützt werden, gehören MP4, MOV, AVI, MKV, WebM, MPEG und mehr.",
+    "q4": "Wird der Ton bei der Konvertierung verzerrt?",
+    "a4": "Unser Konverter ist für die Beibehaltung einer klaren und ausgewogenen Audioqualität während der Extraktion optimiert und eignet sich ideal für Musik, Podcasts, Interviews und gesprochene Inhalte.",
+    "q5": "Gibt es Software, die installiert werden muss?",
+    "a5": "Hierfür ist keine Installation erforderlich. Kein Download von Apps oder komplexen Desktop-Anwendungen erforderlich – es funktioniert direkt in Ihrem Browser. Es handelt sich um einen alternativen, leichten Video-zu-MP3-Konverter-Download für den PC.",
+    "q6": "Können Sie Videos in einen MP3-Konverter hochladen?",
+    "a6": "Ja, VideoCompressorPro wird im Browser verarbeitet, um den Datenschutz und die Sicherheit Ihrer Dokumente während des Konvertierungsprozesses zu gewährleisten.",
+    "q7": "Haben Sie die Möglichkeit, Videos stapelweise zu konvertieren?",
+    "a7": "Je nach Browser und Gerät benötigt der Konverter möglicherweise mehr Rechenleistung. Unser Konverter ist jedoch für die Durchführung mehrerer Konvertierungen optimiert.",
+    "q8": "Gibt es Einschränkungen hinsichtlich der Dateigröße oder der Videolänge?",
+    "a8": "Die unterstützte Dateigröße wird hauptsächlich durch Ihren Browser, den Gerätespeicher und die Rechenleistung begrenzt, große Videos werden jedoch auf modernen Systemen unterstützt.",
+    "q9": "Ist es möglich, den Ton aus YouTube-Videos zu extrahieren?",
+    "a9": "Ja, unser kostenloser YouTube-zu-MP3-Konverter kann den Ton aus kompatiblen Videodateien extrahieren, um ihn in Podcasts, Vorträgen, Musik, Interviews und YouTube-Inhalten zu verwenden.",
+    "q10": "Ist der Konverter mobilfreundlich?",
+    "a10": "Ja, unser Web-zu-MP3-Konverter ist mit Android, iPhone, Android-Tablet, iPad, Laptop oder Browser kompatibel, ohne dass zusätzliche Software heruntergeladen werden muss.",
+    "q11": "Gibt es eine Möglichkeit, das extrahierte Audio ohne Internet zu verwenden?",
+    "a11": "Absolut. Ihre MP3-Datei ist konvertiert, Sie können sie herunterladen und später ohne Internet abspielen!",
+    "q12": "Warum ist dies eines der besten Videos für MP3-Konverter?",
+    "a12": "VideoCompressorPro ist eine Kombination aus schneller Verarbeitung im Browser, sauberen MP3-Exporten, sicherer Handhabung und benutzerfreundlichen Tools ohne komplizierte Software und Abonnement.",
+    "q13": "Suchen Sie nach einer Möglichkeit, TikTok- oder Social-Media-Videos in MP3 zu konvertieren?",
+    "a13": "Ja, unser TikTok-Video-zu-MP3-Konverter kann TikTok-Videos und soziale Videos, Webinare, Tutorials, Podcasts und viele andere Videoformate in MP3 konvertieren.",
+    "q14": "Ist dieser Video-zu-MP3-Konverter kostenlos?",
+    "a14": "Ja, Sie können die Vollversion unseres Video-zu-MP3-Konverters kostenlos online herunterladen, ohne versteckte Kosten oder erzwungene Registrierung oder komplizierte Installation.",
+    "cta_title": "Extrahieren Sie sofort High-Fidelity-Audio."
   },
   "audio_cutter_page": {
     "hero_badge": "Präzision · Kein Upload · 100% Kostenlos",
@@ -889,18 +933,42 @@
       "heroText": "Der weltweit vertrauenswürdigste MP4-Kompressor. Verkleinern Sie Ihre MP4-Dateien in Sekunden bei gleichbleibender 1080p/4K-Qualität.",
       "introText": "MP4 ist das beliebteste Videoformat, aber hochauflösende MP4-Dateien können riesig sein. Unsere intelligente Kompressions-Engine analysiert Ihre MP4-Bitraten, um die perfekte Balance zwischen Dateigröße und visueller Klarheit zu bieten.",
       "features": [
-        { "title": "Kein Qualitätsverlust", "desc": "Die fortschrittliche libx264-Kodierung sorgt dafür, dass Ihr MP4 scharf bleibt." },
-        { "title": "Universelle Wiedergabe", "desc": "Komprimierte MP4s funktionieren auf allen iPhones, Androids und Smart-TVs." },
-        { "title": "Datenschutz zuerst", "desc": "Ihre Dateien verlassen nie Ihren Browser. 100 % sichere Verarbeitung." }
+        {
+          "title": "Kein Qualitätsverlust",
+          "desc": "Die fortschrittliche libx264-Kodierung sorgt dafür, dass Ihr MP4 scharf bleibt."
+        },
+        {
+          "title": "Universelle Wiedergabe",
+          "desc": "Komprimierte MP4s funktionieren auf allen iPhones, Androids und Smart-TVs."
+        },
+        {
+          "title": "Datenschutz zuerst",
+          "desc": "Ihre Dateien verlassen nie Ihren Browser. 100 % sichere Verarbeitung."
+        }
       ],
       "steps": [
-        { "title": "MP4 hochladen", "desc": "Ziehen Sie Ihre MP4-Datei per Drag & Drop in das Kompressorfeld." },
-        { "title": "Zielgröße festlegen", "desc": "Wählen Sie Ihre gewünschte Ausgabegröße in MB." },
-        { "title": "Komprimieren & Speichern", "desc": "Laden Sie Ihr optimiertes MP4 sofort herunter." }
+        {
+          "title": "MP4 hochladen",
+          "desc": "Ziehen Sie Ihre MP4-Datei per Drag & Drop in das Kompressorfeld."
+        },
+        {
+          "title": "Zielgröße festlegen",
+          "desc": "Wählen Sie Ihre gewünschte Ausgabegröße in MB."
+        },
+        {
+          "title": "Komprimieren & Speichern",
+          "desc": "Laden Sie Ihr optimiertes MP4 sofort herunter."
+        }
       ],
       "faqs": [
-        { "q": "Verliert mein MP4 an Qualität?", "a": "Nein, wir verwenden hocheffiziente konstante Rate-Faktoren, um die visuelle Integrität zu bewahren." },
-        { "q": "Gibt es ein Dateigrößenlimit?", "a": "Sie können MP4-Dateien bis zu 5 GB kostenlos komprimieren." }
+        {
+          "q": "Verliert mein MP4 an Qualität?",
+          "a": "Nein, wir verwenden hocheffiziente konstante Rate-Faktoren, um die visuelle Integrität zu bewahren."
+        },
+        {
+          "q": "Gibt es ein Dateigrößenlimit?",
+          "a": "Sie können MP4-Dateien bis zu 5 GB kostenlos komprimieren."
+        }
       ]
     },
     "mov": {
@@ -910,18 +978,42 @@
       "heroText": "Apple MOV-Dateien sind bekanntlich groß. Unser Tool optimiert MOV-Bitraten für das Web, ohne die typische Apple-Qualität zu opfern.",
       "introText": "QuickTime (MOV)-Dateien, die auf iPhones oder Macs aufgenommen wurden, belegen oft Gigabytes an Speicherplatz. Wir helfen Ihnen, sie sofort in effiziente, webfertige Formate zu konvertieren und zu komprimieren.",
       "features": [
-        { "title": "Apple optimiert", "desc": "Speziell abgestimmt auf hochbitratige ProRes- und H.264-MOV-Dateien." },
-        { "title": "Webfertig", "desc": "Konvertieren Sie sperrige MOVs in streamfähige, leichte Versionen." },
-        { "title": "Keine Wartezeit", "desc": "Schnelle browserbasierte Verarbeitung, keine Server-Uploads erforderlich." }
+        {
+          "title": "Apple optimiert",
+          "desc": "Speziell abgestimmt auf hochbitratige ProRes- und H.264-MOV-Dateien."
+        },
+        {
+          "title": "Webfertig",
+          "desc": "Konvertieren Sie sperrige MOVs in streamfähige, leichte Versionen."
+        },
+        {
+          "title": "Keine Wartezeit",
+          "desc": "Schnelle browserbasierte Verarbeitung, keine Server-Uploads erforderlich."
+        }
       ],
       "steps": [
-        { "title": "MOV importieren", "desc": "Wählen Sie Ihre .mov-Datei von Ihrem Mac oder iPhone aus." },
-        { "title": "Größe anpassen", "desc": "Wählen Sie eine Zielgröße, die Ihren Anforderungen entspricht." },
-        { "title": "Exportieren", "desc": "Speichern Sie Ihr komprimiertes Video in Sekunden." }
+        {
+          "title": "MOV importieren",
+          "desc": "Wählen Sie Ihre .mov-Datei von Ihrem Mac oder iPhone aus."
+        },
+        {
+          "title": "Größe anpassen",
+          "desc": "Wählen Sie eine Zielgröße, die Ihren Anforderungen entspricht."
+        },
+        {
+          "title": "Exportieren",
+          "desc": "Speichern Sie Ihr komprimiertes Video in Sekunden."
+        }
       ],
       "faqs": [
-        { "q": "Kann ich das auf dem iPhone nutzen?", "a": "Ja, unser Tool ist voll kompatibel mit Safari auf iOS für die MOV-Kompression." },
-        { "q": "Unterstützt es 4K MOV?", "a": "Absolut, wir verarbeiten 4K 60fps MOV-Dateien mit Leichtigkeit." }
+        {
+          "q": "Kann ich das auf dem iPhone nutzen?",
+          "a": "Ja, unser Tool ist voll kompatibel mit Safari auf iOS für die MOV-Kompression."
+        },
+        {
+          "q": "Unterstützt es 4K MOV?",
+          "a": "Absolut, wir verarbeiten 4K 60fps MOV-Dateien mit Leichtigkeit."
+        }
       ]
     },
     "video-for-whatsapp": {
@@ -931,18 +1023,42 @@
       "heroText": "Schluss mit dem Fehler 'Datei zu groß' bei WhatsApp. Komprimieren Sie Ihre Videos so, dass sie perfekt in das 16 MB- oder 64 MB-Limit passen.",
       "introText": "WhatsApp hat strikte Dateigrößenlimits (16 MB für Mobilgeräte, 64 MB für das Web). Unser Tool optimiert Ihr Video automatisch für diese Limits, während der Inhalt klar und ansehnlich bleibt.",
       "features": [
-        { "title": "Limits umgehen", "desc": "Erreichen Sie automatisch das exakte 16 MB- oder 64 MB-Ziel für WhatsApp." },
-        { "title": "Sofortiges Teilen", "desc": "Komprimierte Dateien sind bereit für die sofortige WhatsApp-Weiterleitung." },
-        { "title": "Gruppenfreundlich", "desc": "Kleinere Dateien bedeuten schnellere Uploads und Downloads für Ihre Gruppenchats." }
+        {
+          "title": "Limits umgehen",
+          "desc": "Erreichen Sie automatisch das exakte 16 MB- oder 64 MB-Ziel für WhatsApp."
+        },
+        {
+          "title": "Sofortiges Teilen",
+          "desc": "Komprimierte Dateien sind bereit für die sofortige WhatsApp-Weiterleitung."
+        },
+        {
+          "title": "Gruppenfreundlich",
+          "desc": "Kleinere Dateien bedeuten schnellere Uploads und Downloads für Ihre Gruppenchats."
+        }
       ],
       "steps": [
-        { "title": "Video wählen", "desc": "Wählen Sie das Video aus, das Sie über WhatsApp senden möchten." },
-        { "title": "Limit wählen", "desc": "Setzen Sie das Ziel auf 15 MB für WhatsApp Mobile." },
-        { "title": "Laden & Senden", "desc": "Teilen Sie Ihr Video ohne Limit-Warnungen." }
+        {
+          "title": "Video wählen",
+          "desc": "Wählen Sie das Video aus, das Sie über WhatsApp senden möchten."
+        },
+        {
+          "title": "Limit wählen",
+          "desc": "Setzen Sie das Ziel auf 15 MB für WhatsApp Mobile."
+        },
+        {
+          "title": "Laden & Senden",
+          "desc": "Teilen Sie Ihr Video ohne Limit-Warnungen."
+        }
       ],
       "faqs": [
-        { "q": "Was ist das WhatsApp-Dateilimit?", "a": "Das mobile Limit liegt bei 16 MB, während WhatsApp Web bis zu 64 MB unterstützt." },
-        { "q": "Wird das Video unscharf?", "a": "Nein, wir optimieren die Auflösung, damit es auf Handy-Displays großartig aussieht." }
+        {
+          "q": "Was ist das WhatsApp-Dateilimit?",
+          "a": "Das mobile Limit liegt bei 16 MB, während WhatsApp Web bis zu 64 MB unterstützt."
+        },
+        {
+          "q": "Wird das Video unscharf?",
+          "a": "Nein, wir optimieren die Auflösung, damit es auf Handy-Displays großartig aussieht."
+        }
       ]
     },
     "video-for-discord": {
@@ -952,18 +1068,42 @@
       "heroText": "Genervt von Discord Nitro-Aufforderungen? Komprimieren Sie Ihre Memes und Clips sofort für das 8 MB- oder 25 MB-Limit.",
       "introText": "Discords Upload-Limits sind der Albtraum jedes Gamers. Egal, ob Sie eine 8 MB-Datei für Gratis-Nutzer oder eine 25 MB-Datei für Nitro Basic benötigen, unser Tool sorgt dafür, dass Ihre Clips hochwertig bleiben.",
       "features": [
-        { "title": "Nitro-freundlich", "desc": "Voreinstellungen für 8 MB, 25 MB und 50 MB Discord-Limits." },
-        { "title": "Gamer-bereit", "desc": "Perfekt für High-FPS-Gameplay-Clips aus OBS oder Shadowplay." },
-        { "title": "Auto-Resize", "desc": "Passt die Dimensionen an, damit die Datei in das winzige Discord-Limit passt." }
+        {
+          "title": "Nitro-freundlich",
+          "desc": "Voreinstellungen für 8 MB, 25 MB und 50 MB Discord-Limits."
+        },
+        {
+          "title": "Gamer-bereit",
+          "desc": "Perfekt für High-FPS-Gameplay-Clips aus OBS oder Shadowplay."
+        },
+        {
+          "title": "Auto-Resize",
+          "desc": "Passt die Dimensionen an, damit die Datei in das winzige Discord-Limit passt."
+        }
       ],
       "steps": [
-        { "title": "Clip hochladen", "desc": "Ziehen Sie Ihren Gameplay-Clip oder Ihr Meme in das Feld." },
-        { "title": "8 MB Ziel setzen", "desc": "Nutzen Sie den Schieberegler, um exakt die 8 MB-Marke zu treffen." },
-        { "title": "Auf Discord teilen", "desc": "Posten Sie Ihr Video ohne Nitro in jedem Kanal." }
+        {
+          "title": "Clip hochladen",
+          "desc": "Ziehen Sie Ihren Gameplay-Clip oder Ihr Meme in das Feld."
+        },
+        {
+          "title": "8 MB Ziel setzen",
+          "desc": "Nutzen Sie den Schieberegler, um exakt die 8 MB-Marke zu treffen."
+        },
+        {
+          "title": "Auf Discord teilen",
+          "desc": "Posten Sie Ihr Video ohne Nitro in jedem Kanal."
+        }
       ],
       "faqs": [
-        { "q": "Was ist das Discord Gratis-Limit?", "a": "Discord hat das Gratis-Limit kürzlich für die meisten Nutzer auf 25 MB erhöht, aber 8 MB ist für einige Server immer noch sicherer." },
-        { "q": "Wird .webm unterstützt?", "a": "Ja, wir empfehlen .webm für Discord, da es eine bessere Kompression für kleine Größen bietet." }
+        {
+          "q": "Was ist das Discord Gratis-Limit?",
+          "a": "Discord hat das Gratis-Limit kürzlich für die meisten Nutzer auf 25 MB erhöht, aber 8 MB ist für einige Server immer noch sicherer."
+        },
+        {
+          "q": "Wird .webm unterstützt?",
+          "a": "Ja, wir empfehlen .webm für Discord, da es eine bessere Kompression für kleine Größen bietet."
+        }
       ]
     },
     "video-for-email": {
@@ -973,18 +1113,132 @@
       "heroText": "Senden Sie Videos per E-Mail ohne Google Drive oder Dropbox. Verkleinern Sie Ihre Dateien für das 25 MB-Limit von E-Mail-Anhängen.",
       "introText": "Die meisten E-Mail-Anbieter wie Gmail und Outlook haben ein 25 MB-Limit. Unser Tool optimiert Ihre professionellen Videos oder Familienclips so, dass sie perfekt in eine E-Mail passen.",
       "features": [
-        { "title": "Gmail-kompatibel", "desc": "Bleibt unter dem 25 MB-Limit für nahtlose Anhänge." },
-        { "title": "Profi-Qualität", "desc": "Ihre Business-Präsentationen und Tutorials bleiben gestochen scharf." },
-        { "title": "Plattformübergreifend", "desc": "Funktioniert in allen Browsern, einschließlich Outlook und Yahoo Mail." }
+        {
+          "title": "Gmail-kompatibel",
+          "desc": "Bleibt unter dem 25 MB-Limit für nahtlose Anhänge."
+        },
+        {
+          "title": "Profi-Qualität",
+          "desc": "Ihre Business-Präsentationen und Tutorials bleiben gestochen scharf."
+        },
+        {
+          "title": "Plattformübergreifend",
+          "desc": "Funktioniert in allen Browsern, einschließlich Outlook und Yahoo Mail."
+        }
       ],
       "steps": [
-        { "title": "Anhang hinzufügen", "desc": "Wählen Sie die große Videodatei aus, die Sie per E-Mail versenden möchten." },
-        { "title": "24 MB Ziel setzen", "desc": "Zielen Sie auf 24 MB, damit es sicher in das 25 MB-Limit passt." },
-        { "title": "Anhängen & Senden", "desc": "Laden Sie die Datei herunter und hängen Sie sie direkt an Ihre E-Mail an." }
+        {
+          "title": "Anhang hinzufügen",
+          "desc": "Wählen Sie die große Videodatei aus, die Sie per E-Mail versenden möchten."
+        },
+        {
+          "title": "24 MB Ziel setzen",
+          "desc": "Zielen Sie auf 24 MB, damit es sicher in das 25 MB-Limit passt."
+        },
+        {
+          "title": "Anhängen & Senden",
+          "desc": "Laden Sie die Datei herunter und hängen Sie sie direkt an Ihre E-Mail an."
+        }
       ],
       "faqs": [
-        { "q": "Was ist das Gmail-Limit für Anhänge?", "a": "Gmail erlaubt bis zu 25 MB pro E-Mail. Wenn es größer ist, wird ein Google Drive-Link erzwungen." },
-        { "q": "Wie stark kann ich ein Video verkleinern?", "a": "Oft können wir ein 200 MB Video auf 24 MB verkleinern, während es sehr gut ansehbar bleibt." }
+        {
+          "q": "Was ist das Gmail-Limit für Anhänge?",
+          "a": "Gmail erlaubt bis zu 25 MB pro E-Mail. Wenn es größer ist, wird ein Google Drive-Link erzwungen."
+        },
+        {
+          "q": "Wie stark kann ich ein Video verkleinern?",
+          "a": "Oft können wir ein 200 MB Video auf 24 MB verkleinern, während es sehr gut ansehbar bleibt."
+        }
+      ]
+    },
+    "youtube": {
+      "title": "Komprimieren Sie Videos für YouTube Online – Schnelles YouTube-Optimierungstool",
+      "description": "Komprimieren Sie Videos für YouTube kostenlos online. Reduzieren Sie die Videogröße und behalten Sie gleichzeitig die Qualität von 1080p und 4K HD bei. Schneller hochladen, ohne Verarbeitungsverzögerungen.",
+      "h1": "Schneller YouTube-Videokompressor",
+      "heroText": "In Sekundenschnelle auf YouTube hochladen. Komprimieren Sie Ihre 1080p- und 4K-Videos und behalten Sie dabei die exakte Hi-Fi-Bildqualität bei.",
+      "introText": "YouTube verarbeitet umfangreiche Video-Uploads, aber große Dateien können zu Verarbeitungsblockaden und endlosen Wartezeiten führen. Unser intelligenter Optimierer reduziert die Dateigröße, ohne dass Auflösungen oder Farbgenauigkeit verloren gehen.",
+      "features": [
+        {
+          "title": "Kein Qualitätsverlust",
+          "desc": "Durch die erweiterte libx264-Komprimierung bleibt Ihre visuelle Klarheit erhalten."
+        },
+        {
+          "title": "Schnelle Bearbeitung",
+          "desc": "Durch die lokale Browserverarbeitung entfallen Serverwartezeiten."
+        },
+        {
+          "title": "Datenschutz zuerst",
+          "desc": "Ihr Video verlässt niemals Ihren Browser. 100 % sicher."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Video hochladen",
+          "desc": "Ziehen Sie Ihre MP4-, MOV- oder WebM-Videodatei per Drag & Drop."
+        },
+        {
+          "title": "Wählen Sie Auflösung",
+          "desc": "Wählen Sie 1080p oder 4K, um für YouTube optimiert zu bleiben."
+        },
+        {
+          "title": "Komprimieren und herunterladen",
+          "desc": "Bereiten Sie Ihr kompaktes Video zum sofortigen Hochladen vor."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Verringert dies meine YouTube-Qualität?",
+          "a": "Nein, unser Tool komprimiert Dateien ohne Auflösungsverlust, sodass YouTube sie in HD/4K verarbeitet."
+        },
+        {
+          "q": "Ist die Verwendung sicher?",
+          "a": "Ja, die gesamte Verarbeitung erfolgt in Ihrem Browser und gewährleistet so absolute Privatsphäre."
+        }
+      ]
+    },
+    "tiktok": {
+      "title": "Video für TikTok online komprimieren – Videos für TikTok verkleinern",
+      "description": "Komprimieren Sie Videos für TikTok kostenlos online. Optimieren Sie vertikale 9:16-Videos so, dass sie perfekt den TikTok-Richtlinien entsprechen. Halten Sie Ihre Videos für das FYP gestochen scharf.",
+      "h1": "TikTok-Videokompressor",
+      "heroText": "Sorgen Sie dafür, dass Ihre Videos auf dem FYP zum Blickfang werden. Komprimieren Sie vertikale Clips, um sie sofort und ohne Verzögerung auf TikTok hochzuladen.",
+      "introText": "TikTok bevorzugt schnell ladende, qualitativ hochwertige vertikale Videos. Unser Kompressor verkleinert Ihre MP4- und MOV-Dateien, um sie an die mobilen TikTok-Richtlinien anzupassen, während Übergänge und Text perfekt scharf bleiben.",
+      "features": [
+        {
+          "title": "9:16 Optimiert",
+          "desc": "Perfekt für vertikale Clips, Instagram-Reels und Shorts."
+        },
+        {
+          "title": "FYP-Qualität",
+          "desc": "Hält die Videoauflösung scharf, um eine verschwommene TikTok-Komprimierung zu vermeiden."
+        },
+        {
+          "title": "Keine Serververzögerung",
+          "desc": "Kein Hochladen in externe Datenbanken, die Verarbeitung wird sofort abgeschlossen."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Wählen Sie Video",
+          "desc": "Wählen Sie Ihr vertikales Video von Ihrem Telefon oder PC aus."
+        },
+        {
+          "title": "Richtlinien festlegen",
+          "desc": "Optimieren Sie Ihre Bitrate für schnelles Laden von TikTok."
+        },
+        {
+          "title": "Speichern und teilen",
+          "desc": "Laden Sie das komprimierte Video herunter und posten Sie es sofort auf TikTok."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Komprimiert TikTok Videos?",
+          "a": "Ja, TikTok komprimiert Dateien beim Hochladen, aber wenn Sie sie zuerst mit unserem Tool komprimieren, werden unscharfe Ergebnisse vermieden."
+        },
+        {
+          "q": "Welches Format eignet sich am besten für TikTok?",
+          "a": "MP4 und MOV im vertikalen Seitenverhältnis 9:16 sind die idealen Formate für TikTok."
+        }
       ]
     }
   }

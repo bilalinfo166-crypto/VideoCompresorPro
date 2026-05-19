@@ -564,68 +564,112 @@
     "cta_title": "Nu video bijsnijden."
   },
   "to_mp3_page": {
-    "hero_badge": "High Fidelity · Geen uploads · 100% Gratis",
-    "hero_title": "Video naar MP3 Converter Online",
-    "hero_subtitle": "Extraheer direct hoge kwaliteit audiotracks uit je video's. Veilig en privé.",
-    "visualizer_title": "De beste converter",
-    "visualizer_desc": "Studio-niveau extractie-precisie rechtstreeks in je browser.",
-    "visualizer_label": "Output formaat",
-    "visualizer_format": "Hoge Kwaliteit MP3 (320kbps)",
-    "features_title": "Elite extractie",
-    "f1_title": "High Fidelity",
-    "f1_desc": "Bitrate ondersteuning tot 320kbps voor kristalhelder geluid.",
-    "f2_title": "Volledige privacy",
-    "f2_desc": "Lokale verwerking. Je bestanden bereiken ons nooit.",
-    "f3_title": "Directe download",
-    "f3_desc": "Geen wachttijd. Ontvang je audio direct na extractie.",
-    "f4_title": "Gevarieerde formaten",
-    "f4_desc": "MP4, MOV, AVI naar MP3, WAV of OGG met maximale zorg.",
-    "f5_title": "In batches",
-    "f5_desc": "Converteer meerdere video's in seconden naar een afspeellijst.",
-    "f6_title": "Geen account",
-    "f6_desc": "Volledige toegang zonder registraties of irritante advertenties.",
-    "steps_title": "Hoe te converteren",
-    "s1_title": "Uploaden",
-    "s1_desc": "Kies videobestand in elk populair formaat.",
-    "s2_title": "Configureren",
-    "s2_desc": "Kies bitrate en gewenst output formaat.",
-    "s3_title": "Extraheren",
-    "s3_desc": "Scheid audio onmiddellijk met chirurgische precisie.",
-    "s4_title": "Opslaan",
-    "s4_desc": "Download veilig je lokaal verwerkte MP3.",
-    "reviews_title": "Gebruikt door professionals",
-    "r1_text": "Perfect geluid, zelfs op studiomonitoren. Uitstekend.",
-    "r1_role": "Muziekproducent",
-    "r2_text": "I use it to get clean audio for my podcasts from video interviews. It's consistently very reliable.",
-    "r2_role": "Professional Podcaster",
-    "r3_text": "Extremely fast extraction. I converted 10 long videos in a minute. The speed is unmatched.",
-    "r3_role": "Graduate Student",
-    "r4_text": "No distortion at all. The LAME encoder implementation here works wonders for audio fidelity.",
-    "r4_role": "Audio Engineer",
-    "r5_text": "Privacy first - my videos aren't uploaded to convert. This is essential for my sensitive interview data.",
-    "r5_role": "Investigative Journalist",
-    "r6_text": "Best way to get high-quality MP3s from my own YouTube backups. Simple, clean, and perfect.",
-    "r6_role": "Content Creator",
-    "r7_text": "Simple, clean, and no annoying ads or popups. A rare find in the world of online conversion tools.",
-    "r7_role": "Creative Freelancer",
-    "r8_text": "Supports all formats. Converted my old MKV home videos to MP3 to listen in the car easily.",
-    "r8_role": "Tech Enthusiast",
-    "r9_text": "The batch processing feature is a life-saver for my sound effects library.",
-    "r9_role": "Game Developer",
-    "r10_text": "Studio-grade audio extraction in seconds. It's my go-to tool for video sound design.",
-    "r10_role": "Sound Designer",
-    "r11_text": "Crystal clear MP3 extraction every time. I use it for my sample library and it never fails.",
-    "r11_role": "Audio Producer",
-    "r12_text": "Fastest conversion I've seen. No more waiting for servers to process my files.",
-    "r12_role": "Creative Director",
-    "faq_title": "FAQ",
-    "q1": "Hoe te extraheren?",
-    "a1": "Laad de video en klik op 'Audio extraheren'. Dat is alles!",
-    "q2": "Is het gratis?",
-    "a2": "Ja, 100% gratis en zonder limieten.",
-    "q3": "Welke bitrate is het best?",
-    "a3": "320kbps voor max kwaliteit; 128kbps om ruimte te besparen.",
-    "cta_title": "Nu audio extraheren."
+    "hero_badge": "High Fidelity • Geen uploads • 100% gratis",
+    "hero_title": "Online video naar MP3-converter",
+    "hero_subtitle": "Onze online video naar MP3-converter is gratis en veilig, zodat u in een mum van tijd audiotracks uit video's kunt halen. Een online video naar mp3-converter die het beste werkt voor muziek, podcasts, interviews, lezingen, spraakfragmenten en sociale media.",
+    "visualizer_title": "Beste video naar MP3-converter",
+    "visualizer_desc": "VideoCompressorPro is een video-omzetter die gemakkelijk te gebruiken is en perfect voor beginners, of je nu een YouTube-video naar MP3, TikTok-video naar MP3 converteert of een video-omzetter naar MP3 zoekt die goed voor je werkt. Met onze online video naar MP3-converter kunt u video's direct en met hoge kwaliteit naar MP3-audiobestanden converteren. Extraheer snel audio uit YouTube-videoclips, TikTok-video's, podcasts, webinars en opnames rechtstreeks vanuit de browser met de beste video-naar-MP3-converter om het geluid binnen enkele seconden te krijgen.",
+    "visualizer_label": "Uitvoerformaat",
+    "visualizer_format": "Hoogwaardige MP3 (320 kbps)",
+    "features_title": "Geavanceerde audio-extractiefuncties",
+    "features_desc": "Render video naar mp3-audiobestanden van hoge kwaliteit met snelle, schone en moderne browsergebaseerde webtechnologie voor makers, luisteraars en professionals.",
+    "f1_title": "MP3-uitvoer van studiokwaliteit",
+    "f1_desc": "Onze geavanceerde online video-omzetter naar MP3-tool is perfect voor het extraheren van gebalanceerde en prominente audio uit video's met geoptimaliseerde geluidskwaliteit, geschikt voor muziek, podcasts, interviews, webinars en stemopnames.\n\nHOGE KWALITEIT • SCHONE AUDIO • MP3 EXPORT",
+    "f2_title": "Veilige browsergebaseerde conversie",
+    "f2_desc": "Tijdens de verwerking blijven uw bestanden vertrouwelijk. De online video naar MP3-converter hoeft niets te downloaden en vereist ook geen applicaties van derden.\n\nPrivé, veilige, lokale verwerking.",
+    "f3_title": "Bliksemsnelle audiodownloads",
+    "f3_desc": "Onze video naar MP3 converter gratis download volledige versie-ervaring online is ontworpen om videobestanden binnen enkele seconden naar MP3-formaat te converteren en de audio op uw apparaat op te slaan voor offline luisteren, bewerken, streamen of het maken van inhoud.\n\nSNELLE VERWERKING • SNELLE DOWNLOADS",
+    "f4_title": "Ondersteunt de meest populaire videoformaten.",
+    "f4_desc": "Converteer video's naar MP3 met MP4, MOV, AVI, MKV, WebM en andere populaire videoformaten met behulp van onze videoconverter naar MP3-tool.\n\nMP4 • MOV • AVI • WEBM",
+    "f5_title": "Speciaal ontworpen voor makers van inhoud",
+    "f5_desc": "Converteer YouTube-video's, TikTok-video's, webinars, tutorials, podcasts en content van makers moeiteloos en betrouwbaar naar MP3-formaat met onze YouTube-video naar MP3-converter.\n\nYOUTUBE • TIKTOK • PODCASTS",
+    "f6_title": "Gratis en gemakkelijk te gebruiken",
+    "f6_desc": "Haal audio uit elke browser zonder ingewikkelde software, verborgen kosten, aanmeldingen of watermerkbeperkingen. We hebben een gratis instant video naar MP3-converter, die op mobiele apparaten en desktop werkt.\n\nGEEN INSTALLATIE • GRATIS • BEGINNERSVRIENDELIJK",
+    "steps_title": "Converteer video's naar MP3 van hoge kwaliteit in seconden",
+    "steps_desc": "Onze video naar MP3-audioconverter is snel en veilig, waardoor u snel audio uit video kunt extraheren. Geen ingewikkelde software, geen montage-ervaring en geen lange wachttijd.",
+    "s1_title": "Importeer uw video",
+    "s1_desc": "Versleep of selecteer videobestand(en) in onze gratis video naar MP3-converter om rechtstreeks naar de tool te uploaden.\n\nSNEL UPLOADEN • MEERDERE FORMATEN",
+    "s2_title": "Extraheer audio van hoge kwaliteit",
+    "s2_desc": "Selecteer MP3-uitvoerformaten en converteer video direct kosteloos naar zuivere audio die is geoptimaliseerd voor muziek, podcasts, stemopnames, interviews en content van makers met behulp van onze gratis video naar MP3-converter.\n\nMP3-uitvoer – kwaliteitsaudio",
+    "s3_title": "Opslaan en overal gebruiken",
+    "s3_desc": "Sla uw MP3-bestand direct na de conversie op en speel het offline af, bewerk projecten, maak presentaties of publiceer het op sociale media. Onze video naar MP3-converter voor pc-ervaring is een browsergebaseerde download, die niet op de computer wordt geïnstalleerd.\n\nDIRECT DOWNLOADEN • GEEN SOFTWARE NODIG",
+    "use_cases_title": "Manieren in de praktijk waarop mensen onze video naar MP3-converter gebruiken",
+    "use_cases_desc": "Of het nu voor muziekliefhebbers, studenten, makers of zakelijke teams is, onze video naar MP3-converter online is ontworpen om video-inhoud om te zetten in draagbare, hoogwaardige audiobestanden voor gebruik in afspeellijsten, bewerken, leren en delen.",
+    "u1_title": "Muziek en live optredens opslaan als MP3",
+    "u1_desc": "Gebruik onze converter om concertopnamen, muziekvideo's, DJ-sets en live optredens om te zetten naar MP3-audio van hoge kwaliteit, zodat u ze op elk gewenst moment offline kunt beluisteren.",
+    "u1_tags": "MUZIEK • LIVE SHOWS • AFSPEELLIJSTEN",
+    "u2_title": "Luister overal naar podcasts",
+    "u2_desc": "Converteer podcast-video's naar MP3 om ze af te spelen tijdens het woon-werkverkeer, op kantoor, tijdens trainingen of tijdens het lezen en leren, zonder enige moeite. Speel de audio van podcast-video's af zonder software te openen met onze video naar MP3-converter, gratis download van de volledige versie.",
+    "u2_tags": "PODCASTS • INTERVIEWS • ALLEEN AUDIO",
+    "u3_title": "Converteer educatieve video's naar audiolessen.",
+    "u3_desc": "Zet tutorials, opgenomen lezingen, coachingsessies en educatieve video's om in MP3, zodat u onderweg altijd kunt leren met onze beveiligde video-naar-MP3-converterdownload voor pc waarvoor geen installatie vereist is.",
+    "u3_tags": "LEZINGEN • CURSUSSEN • STUDIEAUDIO",
+    "u4_title": "Audio kopiëren voor het bewerken van projecten.",
+    "u4_desc": "Gebruik onze video naar MP3-converter online om audiotracks van video's te scheiden voor voice-overs, remixen, podcastbewerking, presentaties en postproductie.",
+    "u4_tags": "REDACTIE • CONTENT CREATIE • PRODUCTIE",
+    "u5_title": "Maak audio van video's op sociale media.",
+    "u5_desc": "Extraheer geluid uit tiktok-video's, YouTube-video's, korte films en sociale media in een paar seconden met onze browsergebaseerde TikTok-video naar MP3-converter en de gratis YouTube-video naar MP3-converter.",
+    "u5_tags": "TIKTOK • YOUTUBE • KORTE INHOUD",
+    "u6_title": "Motivatie- en spraakaudio opslaan",
+    "u6_desc": "Converteer video naar audio MP3-formaat met onze snelle video naar MP3-audioconverter, zodat u offline naar toespraken, motiverende video's, seminars en materiaal voor persoonlijke ontwikkeling kunt luisteren.",
+    "u6_tags": "TOESPRAKEN • MOTIVATIE • OFFLINE AUDIO",
+    "reviews_title": "Vertrouwd door makers, studenten en gewone gebruikers",
+    "reviews_desc": "Onze online video naar MP3-converter wordt dagelijks door velen gebruikt om snel muziek, podcasts, interviews, lezingen en audio van de maker te rippen zonder uitdagende programmering.",
+    "r1_text": "Ik heb talloze video-naar-MP3-conversieprogramma's gebruikt, maar dit is de beste die ik ooit heb gebruikt. Het gaat snel en de geluidskwaliteit is echt geweldig.",
+    "r1_role": "Podcast-luisteraar",
+    "r2_text": "Dit is een geweldige YouTube naar MP3-converter, omdat ik alleen een eenvoudige oplossing nodig had en geen ingewikkelde stap voor stap hoefde te doen.",
+    "r2_role": "Marketingcoördinator",
+    "r3_text": "Ik was echt onder de indruk van hoe snel het werd omgezet; Ik heb een groot MP4-bestand geüpload en de MP3 binnen enkele seconden gedownload.",
+    "r3_role": "YouTube-maker",
+    "r4_text": "Ik zou deze Tiktok-video naar MP3-converter bijna elke dag gebruiken voor projectbewerking en sociale media-inhoud.",
+    "r4_role": "Video-editor",
+    "r5_text": "Schone en gemakkelijk te gebruiken interface en zelfs mijn studenten konden deze video-omzetter naar MP3-tool gebruiken.",
+    "r5_role": "Online-instructeur",
+    "r6_text": "Op zoek naar een download voor een video naar MP3-converter voor pc, maar deze browsertool heeft de desktopsoftware helemaal vervangen.",
+    "r6_role": "Freelance ontwerper",
+    "r7_text": "Ik heb de lezingen opgenomen als audiobestanden en vervolgens geconverteerd naar MP3 om naar te luisteren tijdens het woon-werkverkeer – bespaarde me veel tijd bij het studeren.",
+    "r7_role": "Universiteitsstudent",
+    "r8_text": "Door lange bestanden te converteren zonder de geluidskwaliteit te verliezen, is het een perfecte video-naar-MP3-audioconverter voor podcasts.",
+    "r8_role": "Audioproducent",
+    "r9_text": "Hierdoor werkt alles rechtstreeks in de browser, zonder onnodige downloads, advertenties of installatiestappen.",
+    "r9_role": "Contentstrateeg",
+    "r10_text": "Deze online video naar MP3-converter is extreem snel en gemakkelijk te gebruiken en ik heb met succes audio gedownload van TikTok-video's en sociale media-inhoud.",
+    "r10_role": "Socialmediamanager",
+    "r11_text": "Deze gratis online video naar MP3-converter is een geweldig hulpmiddel dat mijn video's zonder enig probleem converteert en de kwaliteit ervan heeft verbeterd – de meeste tools doen het tegenovergestelde.",
+    "r11_role": "Eigenaar van een klein bedrijf",
+    "r12_text": "Ik gebruik deze gratis YouTube-video naar MP3-converter om toespraken en instructievideo's op te slaan, zodat je ernaar kunt luisteren als ik in de sportschool ben.",
+    "r12_role": "Fitnesscoach",
+    "faq_title": "Veelgestelde vragen",
+    "faq_desc": "Leer hoe u VideoCompressorPro gebruikt om video's naar MP3-audio van hoge kwaliteit te converteren.",
+    "q1": "Wat is een MP3-bestand?",
+    "a1": "MP3 is een van de meest voorkomende audioformaten voor muziek, podcasts en stemopnames en kan offline worden beluisterd vanwege het kleine formaat en de goede kwaliteit.",
+    "q2": "Wat is een video naar MP3-converter?",
+    "a2": "Een online video-naar-MP3-converter is een hulpmiddel dat helpt bij het verwijderen van audio uit een videobestand en deze vervolgens opslaat in een MP3-audiobestandsindeling, die kan worden afgespeeld op mediaspelers, telefoons, tablets en laptops.",
+    "q3": "Welke videoformaten zijn beschikbaar?",
+    "a3": "Populaire videoformaten die door onze Video-naar-MP3-converter worden ondersteund, zijn onder meer MP4, MOV, AVI, MKV, WebM, MPEG en meer.",
+    "q4": "Zal het geluid vervormd raken tijdens het conversieproces?",
+    "a4": "Onze converter is geoptimaliseerd voor het behoud van een heldere en gebalanceerde audiokwaliteit tijdens de extractie en is ideaal voor muziek, podcasts, interviews en gesproken inhoud.",
+    "q5": "Is er software die geïnstalleerd moet worden?",
+    "a5": "Hiervoor is geen installatie vereist. Geen download van apps of complexe desktopapplicaties nodig - het werkt rechtstreeks in uw browser. Het is een alternatieve lichtgewicht video-naar-MP3-converterdownload voor pc.",
+    "q6": "Kun je video's uploaden naar een MP3-converter?",
+    "a6": "Ja, VideoCompressorPro wordt in de browser verwerkt met als doel de privacy en veiligheid van uw documenten tijdens het conversieproces te behouden.",
+    "q7": "Heeft u de mogelijkheid om video's batchgewijs te converteren?",
+    "a7": "Afhankelijk van de browser en het apparaat heeft de converter mogelijk meer verwerkingskracht nodig. Onze converter is echter geoptimaliseerd voor het uitvoeren van meerdere conversies.",
+    "q8": "Zijn er beperkingen voor de bestandsgrootte of videolengte?",
+    "a8": "De ondersteunde bestandsgrootte wordt voornamelijk beperkt door uw browser, apparaatgeheugen en verwerkingskracht, maar grote video's worden op moderne systemen ondersteund.",
+    "q9": "Is het mogelijk om de audio uit YouTube-video's te extraheren?",
+    "a9": "Ja, onze gratis YouTube naar MP3-converter kan de audio uit compatibele videobestanden extraheren voor gebruik in podcasts, lezingen, muziek, interviews en inhoud van makers.",
+    "q10": "Is de converter mobielvriendelijk?",
+    "a10": "Ja, onze Web naar MP3 Converter is compatibel met Android, iPhone, Android-tablet, iPad, laptop of browser zonder extra software te downloaden.",
+    "q11": "Is er een manier om de geëxtraheerde audio te gebruiken zonder internet?",
+    "a11": "Absoluut. Uw MP3-bestand wordt geconverteerd, u kunt het downloaden en later afspelen zonder internet!",
+    "q12": "Waarom is dit een van de beste video's voor MP3-converters?",
+    "a12": "VideoCompressorPro is een combinatie van snelle verwerking in de browser, schone MP3-exports, veilige bediening en gebruiksvriendelijke tools zonder ingewikkelde software en abonnementen.",
+    "q13": "Bent u op zoek naar een manier om TikTok- of sociale media-video's naar MP3 te converteren?",
+    "a13": "Ja, onze TikTok-video naar MP3-converter kan TikTok-video's en sociale video's, webinars, tutorials, podcasts en veel andere videoformaten naar MP3 converteren.",
+    "q14": "Is deze video naar MP3-converter gratis?",
+    "a14": "Ja, u kunt onze video naar MP3-converter gratis gebruiken en de volledige versie online gratis downloaden, zonder verborgen kosten of gedwongen registratie of ingewikkelde installatie.",
+    "cta_title": "Extraheer onmiddellijk hifi-audio."
   },
   "audio_cutter_page": {
     "hero_badge": "Precisie · Geen uploads · 100% Gratis",
@@ -889,18 +933,42 @@
       "heroText": "De meest vertrouwde MP4-compressor ter wereld. Verklein uw MP4-bestanden in seconden met behoud van verbluffende 1080p/4K kwaliteit.",
       "introText": "MP4 is het meest populaire videoformaat, maar MP4-bestanden met een hoge resolutie kunnen enorm zijn. Onze intelligente compressie-engine analyseert uw MP4-bitrates om de perfecte balans te bieden tussen bestandsgrootte en visuele helderheid.",
       "features": [
-        { "title": "Geen Kwaliteitsverlies", "desc": "Geavanceerde libx264-codering zorgt ervoor dat uw MP4 scherp blijft." },
-        { "title": "Universeel Afspelen", "desc": "Gecomprimeerde MP4's werken op alle iPhones, Androids en Smart TV's." },
-        { "title": "Privacy Eerst", "desc": "Uw bestanden verlaten nooit uw browser. 100% veilige verwerking." }
+        {
+          "title": "Geen Kwaliteitsverlies",
+          "desc": "Geavanceerde libx264-codering zorgt ervoor dat uw MP4 scherp blijft."
+        },
+        {
+          "title": "Universeel Afspelen",
+          "desc": "Gecomprimeerde MP4's werken op alle iPhones, Androids en Smart TV's."
+        },
+        {
+          "title": "Privacy Eerst",
+          "desc": "Uw bestanden verlaten nooit uw browser. 100% veilige verwerking."
+        }
       ],
       "steps": [
-        { "title": "MP4 Uploaden", "desc": "Sleep uw MP4-bestand naar het compressieveld." },
-        { "title": "Doelgrootte Instellen", "desc": "Kies de gewenste outputgrootte in MB." },
-        { "title": "Comprimeren & Opslaan", "desc": "Download uw geoptimaliseerde MP4 direct." }
+        {
+          "title": "MP4 Uploaden",
+          "desc": "Sleep uw MP4-bestand naar het compressieveld."
+        },
+        {
+          "title": "Doelgrootte Instellen",
+          "desc": "Kies de gewenste outputgrootte in MB."
+        },
+        {
+          "title": "Comprimeren & Opslaan",
+          "desc": "Download uw geoptimaliseerde MP4 direct."
+        }
       ],
       "faqs": [
-        { "q": "Verliest mijn MP4 kwaliteit?", "a": "Nee, we gebruiken hoog-efficiënte constante rate factoren om de visuele integriteit te behouden." },
-        { "q": "Is er een bestandsgrootte limiet?", "a": "U kunt MP4-bestanden tot 5GB gratis comprimeren." }
+        {
+          "q": "Verliest mijn MP4 kwaliteit?",
+          "a": "Nee, we gebruiken hoog-efficiënte constante rate factoren om de visuele integriteit te behouden."
+        },
+        {
+          "q": "Is er een bestandsgrootte limiet?",
+          "a": "U kunt MP4-bestanden tot 5GB gratis comprimeren."
+        }
       ]
     },
     "mov": {
@@ -910,18 +978,42 @@
       "heroText": "Apple MOV-bestanden zijn berucht groot. Onze tool optimaliseert MOV-bitrates voor het web zonder de kenmerkende kwaliteit van Apple op te offeren.",
       "introText": "QuickTime (MOV) bestanden die zijn opgenomen op iPhones of Macs nemen vaak gigabytes aan ruimte in beslag. Wij helpen u ze direct te converteren en comprimeren naar efficiënte, web-ready formaten.",
       "features": [
-        { "title": "Geoptimaliseerd voor Apple", "desc": "Specifiek afgestemd op ProRes- en H.264 MOV-bestanden met een hoge bitrate." },
-        { "title": "Klaar voor het Web", "desc": "Converteer omvangrijke MOV's naar stream-vriendelijke, lichtgewicht versies." },
-        { "title": "Geen Wachttijd", "desc": "Snelle browser-gebaseerde verwerking, geen server-uploads nodig." }
+        {
+          "title": "Geoptimaliseerd voor Apple",
+          "desc": "Specifiek afgestemd op ProRes- en H.264 MOV-bestanden met een hoge bitrate."
+        },
+        {
+          "title": "Klaar voor het Web",
+          "desc": "Converteer omvangrijke MOV's naar stream-vriendelijke, lichtgewicht versies."
+        },
+        {
+          "title": "Geen Wachttijd",
+          "desc": "Snelle browser-gebaseerde verwerking, geen server-uploads nodig."
+        }
       ],
       "steps": [
-        { "title": "MOV Importeren", "desc": "Selecteer uw .mov bestand vanaf uw Mac of iPhone." },
-        { "title": "Grootte Aanpassen", "desc": "Kies een doelgrootte die past bij uw behoeften." },
-        { "title": "Exporteren", "desc": "Sla uw gecomprimeerde video op in seconden." }
+        {
+          "title": "MOV Importeren",
+          "desc": "Selecteer uw .mov bestand vanaf uw Mac of iPhone."
+        },
+        {
+          "title": "Grootte Aanpassen",
+          "desc": "Kies een doelgrootte die past bij uw behoeften."
+        },
+        {
+          "title": "Exporteren",
+          "desc": "Sla uw gecomprimeerde video op in seconden."
+        }
       ],
       "faqs": [
-        { "q": "Kan ik dit op iPhone gebruiken?", "a": "Ja, onze tool is volledig compatibel met Safari op iOS voor MOV-compressie." },
-        { "q": "Ondersteunt het 4K MOV?", "a": "Absoluut, we verwerken 4K 60fps MOV-bestanden met gemak." }
+        {
+          "q": "Kan ik dit op iPhone gebruiken?",
+          "a": "Ja, onze tool is volledig compatibel met Safari op iOS voor MOV-compressie."
+        },
+        {
+          "q": "Ondersteunt het 4K MOV?",
+          "a": "Absoluut, we verwerken 4K 60fps MOV-bestanden met gemak."
+        }
       ]
     },
     "video-for-whatsapp": {
@@ -931,18 +1023,42 @@
       "heroText": "Geen 'Bestand te groot' foutmeldingen meer op WhatsApp. Comprimeer uw video's zodat ze perfect passen binnen de limiet van 16MB of 64MB.",
       "introText": "WhatsApp hanteert strikte limieten voor bestandsgrootte (16MB voor mobiel, 64MB voor web). Onze tool optimaliseert uw video automatisch voor deze limieten terwijl de inhoud helder blijft.",
       "features": [
-        { "title": "Limieten Omzeilen", "desc": "Bereik automatisch het exacte 16MB of 64MB doel voor WhatsApp." },
-        { "title": "Direct Delen", "desc": "Gecomprimeerde bestanden zijn klaar om direct via WhatsApp te versturen." },
-        { "title": "Groeps-vriendelijk", "desc": "Kleinere bestanden betekenen snellere uploads en downloads voor uw groepsapps." }
+        {
+          "title": "Limieten Omzeilen",
+          "desc": "Bereik automatisch het exacte 16MB of 64MB doel voor WhatsApp."
+        },
+        {
+          "title": "Direct Delen",
+          "desc": "Gecomprimeerde bestanden zijn klaar om direct via WhatsApp te versturen."
+        },
+        {
+          "title": "Groeps-vriendelijk",
+          "desc": "Kleinere bestanden betekenen snellere uploads en downloads voor uw groepsapps."
+        }
       ],
       "steps": [
-        { "title": "Kies Video", "desc": "Selecteer de video die u via WhatsApp wilt versturen." },
-        { "title": "Selecteer Limiet", "desc": "Stel het doel in op 15MB voor de zekerheid op WhatsApp mobiel." },
-        { "title": "Download & Verstuur", "desc": "Deel uw video zonder limietwaarschuwingen." }
+        {
+          "title": "Kies Video",
+          "desc": "Selecteer de video die u via WhatsApp wilt versturen."
+        },
+        {
+          "title": "Selecteer Limiet",
+          "desc": "Stel het doel in op 15MB voor de zekerheid op WhatsApp mobiel."
+        },
+        {
+          "title": "Download & Verstuur",
+          "desc": "Deel uw video zonder limietwaarschuwingen."
+        }
       ],
       "faqs": [
-        { "q": "Wat is de WhatsApp bestandsgrootte limiet?", "a": "De mobiele limiet is 16MB, terwijl WhatsApp Web tot 64MB ondersteunt." },
-        { "q": "Wordt de video wazig?", "a": "Nee, we optimaliseren de resolutie zodat deze er geweldig uitziet op telefoonschermen." }
+        {
+          "q": "Wat is de WhatsApp bestandsgrootte limiet?",
+          "a": "De mobiele limiet is 16MB, terwijl WhatsApp Web tot 64MB ondersteunt."
+        },
+        {
+          "q": "Wordt de video wazig?",
+          "a": "Nee, we optimaliseren de resolutie zodat deze er geweldig uitziet op telefoonschermen."
+        }
       ]
     },
     "video-for-discord": {
@@ -952,18 +1068,42 @@
       "heroText": "Moe van Discord Nitro-meldingen? Comprimeer uw memes en clips direct tot onder de 8MB of 25MB gratis limiet.",
       "introText": "Discord's uploadlimieten zijn de schrik van elke gamer. Of u nu een 8MB bestand nodig heeft voor gratis gebruikers of een 25MB bestand voor Nitro Basic, onze tool zorgt voor hoge kwaliteit.",
       "features": [
-        { "title": "Nitro Vriendelijk", "desc": "Presets voor 8MB, 25MB en 50MB Discord-limieten." },
-        { "title": "Gamer Ready", "desc": "Perfect voor high-FPS gameplay clips van OBS of Shadowplay." },
-        { "title": "Auto-Resize", "desc": "Past afmetingen aan om te zorgen dat het bestand binnen de kleine Discord-limiet past." }
+        {
+          "title": "Nitro Vriendelijk",
+          "desc": "Presets voor 8MB, 25MB en 50MB Discord-limieten."
+        },
+        {
+          "title": "Gamer Ready",
+          "desc": "Perfect voor high-FPS gameplay clips van OBS of Shadowplay."
+        },
+        {
+          "title": "Auto-Resize",
+          "desc": "Past afmetingen aan om te zorgen dat het bestand binnen de kleine Discord-limiet past."
+        }
       ],
       "steps": [
-        { "title": "Upload Clip", "desc": "Sleep uw gameplay clip of meme naar het veld." },
-        { "title": "Stel 8MB Doel In", "desc": "Gebruik de schuifregelaar om precies de 8MB grens te raken." },
-        { "title": "Deel op Discord", "desc": "Post uw video in elk kanaal zonder Nitro." }
+        {
+          "title": "Upload Clip",
+          "desc": "Sleep uw gameplay clip of meme naar het veld."
+        },
+        {
+          "title": "Stel 8MB Doel In",
+          "desc": "Gebruik de schuifregelaar om precies de 8MB grens te raken."
+        },
+        {
+          "title": "Deel op Discord",
+          "desc": "Post uw video in elk kanaal zonder Nitro."
+        }
       ],
       "faqs": [
-        { "q": "Wat is de gratis limiet van Discord?", "a": "Discord heeft de gratis limiet onlangs voor de meeste gebruikers verhoogd naar 25MB, maar 8MB is nog steeds veiliger voor sommige servers." },
-        { "q": "Ondersteunt het .webm?", "a": "Ja, we raden .webm aan voor Discord omdat dit betere compressie biedt voor kleine formaten." }
+        {
+          "q": "Wat is de gratis limiet van Discord?",
+          "a": "Discord heeft de gratis limiet onlangs voor de meeste gebruikers verhoogd naar 25MB, maar 8MB is nog steeds veiliger voor sommige servers."
+        },
+        {
+          "q": "Ondersteunt het .webm?",
+          "a": "Ja, we raden .webm aan voor Discord omdat dit betere compressie biedt voor kleine formaten."
+        }
       ]
     },
     "video-for-email": {
@@ -973,18 +1113,132 @@
       "heroText": "Verstuur video's via E-mail zonder Google Drive of Dropbox te gebruiken. Verklein uw bestanden zodat ze binnen de 25MB bijlagenlimiet passen.",
       "introText": "De meeste e-mailproviders zoals Gmail en Outlook hebben een limiet van 25MB. Onze tool optimaliseert uw professionele video's of familieclips zodat ze perfect in een e-mail passen.",
       "features": [
-        { "title": "Gmail Compatibel", "desc": "Blijft onder de 25MB limiet voor naadloze bijlagen." },
-        { "title": "Pro-kwaliteit", "desc": "Houdt uw zakelijke presentaties en tutorials haarscherp." },
-        { "title": "Cross-Platform", "desc": "Werkt op alle browsers, inclusief Outlook en Yahoo Mail." }
+        {
+          "title": "Gmail Compatibel",
+          "desc": "Blijft onder de 25MB limiet voor naadloze bijlagen."
+        },
+        {
+          "title": "Pro-kwaliteit",
+          "desc": "Houdt uw zakelijke presentaties en tutorials haarscherp."
+        },
+        {
+          "title": "Cross-Platform",
+          "desc": "Werkt op alle browsers, inclusief Outlook en Yahoo Mail."
+        }
       ],
       "steps": [
-        { "title": "Bijlage Toevoegen", "desc": "Selecteer het grote videobestand dat u wilt e-mailen." },
-        { "title": "Stel 24MB Limiet In", "desc": "Richt op 24MB om te zorgen dat het binnen de 25MB limiet past." },
-        { "title": "Bijvoegen & Verzenden", "desc": "Download het bestand en voeg het direct toe aan uw e-mail." }
+        {
+          "title": "Bijlage Toevoegen",
+          "desc": "Selecteer het grote videobestand dat u wilt e-mailen."
+        },
+        {
+          "title": "Stel 24MB Limiet In",
+          "desc": "Richt op 24MB om te zorgen dat het binnen de 25MB limiet past."
+        },
+        {
+          "title": "Bijvoegen & Verzenden",
+          "desc": "Download het bestand en voeg het direct toe aan uw e-mail."
+        }
       ],
       "faqs": [
-        { "q": "Wat is de Gmail bijlagenlimiet?", "a": "Gmail staat tot 25MB per e-mail toe. Als het groter is, dwingt het een Google Drive-link af." },
-        { "q": "Hoeveel kan ik een video verkleinen?", "a": "Vaak kunnen we een 200MB video verkleinen naar 24MB terwijl deze zeer goed bekijkbaar blijft." }
+        {
+          "q": "Wat is de Gmail bijlagenlimiet?",
+          "a": "Gmail staat tot 25MB per e-mail toe. Als het groter is, dwingt het een Google Drive-link af."
+        },
+        {
+          "q": "Hoeveel kan ik een video verkleinen?",
+          "a": "Vaak kunnen we een 200MB video verkleinen naar 24MB terwijl deze zeer goed bekijkbaar blijft."
+        }
+      ]
+    },
+    "youtube": {
+      "title": "Comprimeer video voor YouTube online - Snelle YouTube-optimalisatie",
+      "description": "Comprimeer video's voor YouTube gratis online. Verklein het videoformaat met behoud van 1080p- en 4K HD-kwaliteit. Upload sneller zonder verwerkingsvertragingen.",
+      "h1": "Snelle YouTube-videocompressor",
+      "heroText": "Upload binnen enkele seconden naar YouTube. Comprimeer uw 1080p- en 4K-video's met behoud van de exacte hifi-visuele kwaliteit.",
+      "introText": "YouTube verwerkt enorme video-uploads, maar zware bestanden kunnen ervoor zorgen dat de verwerking vastloopt en eindeloze wachttijden met zich meebrengt. Onze slimme optimalisatie verkleint de bestandsgrootte zonder verlies van resolutie of kleurnauwkeurigheid.",
+      "features": [
+        {
+          "title": "Geen kwaliteitsverlies",
+          "desc": "Geavanceerde libx264-compressie behoudt uw visuele helderheid."
+        },
+        {
+          "title": "Snelle verwerking",
+          "desc": "Lokale browserverwerking betekent geen wachttijden voor de server."
+        },
+        {
+          "title": "Privacy eerst",
+          "desc": "Je video verlaat nooit je browser. 100% veilig."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Video uploaden",
+          "desc": "Versleep uw MP4-, MOV- of WebM-videobestand."
+        },
+        {
+          "title": "Kies Resolutie",
+          "desc": "Selecteer 1080p of 4K om geoptimaliseerd te blijven voor YouTube."
+        },
+        {
+          "title": "Comprimeren en downloaden",
+          "desc": "Maak uw lichtgewicht video gereed voor onmiddellijke upload."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Zal dit mijn YouTube-kwaliteit verlagen?",
+          "a": "Nee, onze tool comprimeert bestanden zonder verlies van resolutie, dus YouTube verwerkt ze in HD/4K."
+        },
+        {
+          "q": "Is het veilig om te gebruiken?",
+          "a": "Ja, alle verwerking vindt plaats in uw browser, waardoor totale privacy wordt gegarandeerd."
+        }
+      ]
+    },
+    "tiktok": {
+      "title": "Comprimeer video voor TikTok online - Verklein video's voor TikTok",
+      "description": "Comprimeer video's voor TikTok gratis online. Optimaliseer verticale 9:16-video's zodat ze perfect bij de TikTok-richtlijnen passen. Houd uw video's scherp voor de FYP.",
+      "h1": "TikTok-videocompressor",
+      "heroText": "Laat uw video's knallen op de FYP. Comprimeer verticale clips om ze direct en zonder vertraging naar TikTok te uploaden.",
+      "introText": "TikTok geeft de voorkeur aan snel ladende verticale video's van hoge kwaliteit. Onze compressor verkleint je MP4- en MOV-bestanden zodat ze voldoen aan de mobiele richtlijnen van TikTok, terwijl overgangen en tekst perfect scherp blijven.",
+      "features": [
+        {
+          "title": "9:16 Geoptimaliseerd",
+          "desc": "Perfect voor verticale clips, Instagram-rollen en shorts."
+        },
+        {
+          "title": "FYP-kwaliteit",
+          "desc": "Houdt de videoresolutie scherp om wazige TikTok-compressie te voorkomen."
+        },
+        {
+          "title": "Geen serververtraging",
+          "desc": "Geen upload naar externe databases; de verwerking is onmiddellijk voltooid."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Selecteer Video",
+          "desc": "Kies uw verticale video vanaf uw telefoon of pc."
+        },
+        {
+          "title": "Richtlijnen instellen",
+          "desc": "Optimaliseer uw bitrate voor snel laden van TikTok."
+        },
+        {
+          "title": "Opslaan en delen",
+          "desc": "Download de gecomprimeerde video en plaats deze onmiddellijk op TikTok."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Comprimeert TikTok video's?",
+          "a": "Ja, TikTok comprimeert bestanden bij het uploaden, maar door ze eerst te comprimeren met onze tool voorkom je wazige resultaten."
+        },
+        {
+          "q": "Welk formaat is het beste voor TikTok?",
+          "a": "MP4 en MOV in verticale beeldverhouding 9:16 zijn de ideale formaten voor TikTok."
+        }
       ]
     }
   }

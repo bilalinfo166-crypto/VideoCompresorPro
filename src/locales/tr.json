@@ -564,68 +564,112 @@
     "cta_title": "Video boyutunu şimdi ayarla."
   },
   "to_mp3_page": {
-    "hero_badge": "Yüksek Sadakat · Yükleme Yok · %100 Ücretsiz",
-    "hero_title": "Online Videodan MP3'e Dönüştürücü",
-    "hero_subtitle": "Videolarınızdan anında yüksek kaliteli ses izleri çıkarın. Güvenli ve gizli.",
-    "visualizer_title": "En iyi dönüştürücü",
-    "visualizer_desc": "Doğrudan tarayıcınızda stüdyo seviyesinde çıkarma hassasiyeti.",
-    "visualizer_label": "Çıktı Formatı",
+    "hero_badge": "Yüksek Sadakat • Yükleme Yok • %100 Ücretsiz",
+    "hero_title": "Çevrimiçi Videodan MP3'e Dönüştürücü",
+    "hero_subtitle": "Çevrimiçi videodan MP3'e dönüştürücümüz ücretsiz ve güvenlidir; videolardan ses parçalarını anında almanıza olanak tanır. Müzik, podcast'ler, röportajlar, dersler, ses klipleri ve sosyal medya için en iyi sonucu veren çevrimiçi bir videodan Mp3'e dönüştürücü.",
+    "visualizer_title": "En İyi Videodan MP3'e Dönüştürücü",
+    "visualizer_desc": "VideoCompressorPro, ister bir YouTube videosunu MP3'e, TikTok videosunu MP3'e dönüştürüyor olun, ister MP3'e işinize yarayacak bir video dönüştürücü buluyor olun, kullanımı kolay ve acemiler için mükemmel bir video dönüştürücüdür. Çevrimiçi videodan MP3'e dönüştürücümüz, videoları anında ve yüksek kalitede MP3 ses dosyalarına dönüştürmenize olanak tanır. Sesi saniyeler içinde elde etmek için en iyi videodan MP3'e dönüştürücüyle YouTube video kliplerinden, TikTok videolarından, podcast'lerden, web seminerlerinden ve kayıtlardan sesi doğrudan tarayıcıdan hızla çıkarın.",
+    "visualizer_label": "Çıkış Formatı",
     "visualizer_format": "Yüksek Kaliteli MP3 (320kbps)",
-    "features_title": "Elit Çıkarma",
-    "f1_title": "Yüksek Sadakat",
-    "f1_desc": "Kristal netliğinde ses için 320kbps'ye kadar bit hızı desteği.",
-    "f2_title": "Tam Gizlilik",
-    "f2_desc": "Yerel işleme. Dosyalarınız bize asla ulaşmaz.",
-    "f3_title": "Anında İndirme",
-    "f3_desc": "Bekleme yok. Sesinizi çıkarmadan hemen sonra alın.",
-    "f4_title": "Çeşitli Formatlar",
-    "f4_desc": "En yüksek özenle MP4, MOV, AVI'den MP3, WAV veya OGG'ye.",
-    "f5_title": "Toplu Halde",
-    "f5_desc": "Birkaç videoyu saniyeler içinde bir çalma listesine dönüştürün.",
-    "f6_title": "Hesapsız",
-    "f6_desc": "Kayıt veya can sıkıcı reklamlar olmadan tam erişim.",
-    "steps_title": "Nasıl dönüştürülür",
-    "s1_title": "Yükleme",
-    "s1_desc": "Herhangi bir popüler formattaki bir video dosyasını seçin.",
-    "s2_title": "Yapılandır",
-    "s2_desc": "Bit hızını ve istenen çıktı formatını seçin.",
-    "s3_title": "Çıkar",
-    "s3_desc": "Sesi cerrahi hassasiyetle anında ayırın.",
-    "s4_title": "Kaydet",
-    "s4_desc": "Yerel olarak işlenen MP3'ünüzü güvenle indirin.",
-    "reviews_title": "Profesyoneller tarafından kullanılıyor",
-    "r1_text": "Stüdyo monitörlerinde bile mükemmel ses. Harika.",
-    "r1_role": "Müzik Yapımcısı",
-    "r2_text": "I use it to get clean audio for my podcasts from video interviews. It's consistently very reliable.",
-    "r2_role": "Professional Podcaster",
-    "r3_text": "Extremely fast extraction. I converted 10 long videos in a minute. The speed is unmatched.",
-    "r3_role": "Graduate Student",
-    "r4_text": "No distortion at all. The LAME encoder implementation here works wonders for audio fidelity.",
-    "r4_role": "Audio Engineer",
-    "r5_text": "Privacy first - my videos aren't uploaded to convert. This is essential for my sensitive interview data.",
-    "r5_role": "Investigative Journalist",
-    "r6_text": "Best way to get high-quality MP3s from my own YouTube backups. Simple, clean, and perfect.",
-    "r6_role": "Content Creator",
-    "r7_text": "Simple, clean, and no annoying ads or popups. A rare find in the world of online conversion tools.",
-    "r7_role": "Creative Freelancer",
-    "r8_text": "Supports all formats. Converted my old MKV home videos to MP3 to listen in the car easily.",
-    "r8_role": "Tech Enthusiast",
-    "r9_text": "The batch processing feature is a life-saver for my sound effects library.",
-    "r9_role": "Game Developer",
-    "r10_text": "Studio-grade audio extraction in seconds. It's my go-to tool for video sound design.",
-    "r10_role": "Sound Designer",
-    "r11_text": "Crystal clear MP3 extraction every time. I use it for my sample library and it never fails.",
-    "r11_role": "Audio Producer",
-    "r12_text": "Fastest conversion I've seen. No more waiting for servers to process my files.",
-    "r12_role": "Creative Director",
-    "faq_title": "SSS",
-    "q1": "Ses nasıl çıkarılır?",
-    "a1": "Videoyu yükleyin ve 'Ses çıkar'a tıklayın. Hepsi bu!",
-    "q2": "Ücretsiz mi?",
-    "a2": "Evet, %100 ücretsiz ve sınırsız.",
-    "q3": "Hangi bit hızı en iyisidir?",
-    "a3": "Maksimum kalite için 320kbps; yer tasarrufu için 128kbps.",
-    "cta_title": "Sesi şimdi çıkarın."
+    "features_title": "Gelişmiş Ses Çıkarma Özellikleri",
+    "features_desc": "Yaratıcılar, dinleyiciler ve profesyoneller için videoyu hızlı, temiz ve modern tarayıcı tabanlı web teknolojisiyle yüksek kaliteli MP3 ses dosyasına dönüştürün.",
+    "f1_title": "Stüdyo Kalitesinde MP3 Çıkışı",
+    "f1_desc": "Gelişmiş çevrimiçi video dönüştürücü MP3 aracımız, müzik, podcast'ler, röportajlar, web seminerleri ve ses kaydı için uygun, optimize edilmiş ses kalitesine sahip videolardan dengeli ve belirgin ses çıkarmak için mükemmeldir.\n\nYÜKSEK KALİTE • TEMİZ SES • MP3 DIŞA AKTARMA",
+    "f2_title": "Güvenli Tarayıcı Tabanlı Dönüşüm",
+    "f2_desc": "İşleme sırasında dosyalarınız gizli kalır. Çevrimiçi videodan MP3'e dönüştürücünün herhangi bir şey indirmesine veya üçüncü taraf uygulamalara ihtiyacı yoktur.\n\nÖzel, Güvenli, Yerel İşleme.",
+    "f3_title": "Işık Hızında Ses İndirme",
+    "f3_desc": "Çevrimiçi videodan MP3'e dönüştürücü ücretsiz tam sürüm indirme deneyimimiz, video dosyalarını saniyeler içinde MP3 biçimine dönüştürmek ve çevrimdışı dinleme, düzenleme, akış veya içerik oluşturma için sesi cihazınıza kaydetmek için tasarlanmıştır.\n\nHIZLI İŞLEM • HIZLI İNDİRMELER",
+    "f4_title": "En popüler video formatlarını destekler.",
+    "f4_desc": "Videoları MP3'e dönüştürme aracımızı kullanarak MP4, MOV, AVI, MKV, WebM ve diğer popüler video formatlarıyla MP3'e dönüştürün.\n\nMP4 • MOV • AVI • WEBM",
+    "f5_title": "İçerik Oluşturucular için özel olarak tasarlandı",
+    "f5_desc": "YouTube videolarını MP3'e dönüştürücümüzle YouTube videolarını, TikTok videolarını, web seminerlerini, eğitimleri, podcast'leri ve içerik oluşturucu içeriğini zahmetsiz ve güvenilir bir şekilde MP3 formatına dönüştürün.\n\nYOUTUBE • TIKTOK • PODCAST'LAR",
+    "f6_title": "Ücretsiz ve Kullanımı Kolay",
+    "f6_desc": "Karmaşık yazılımlara, gizli ücretlere, kayıt işlemlerine veya filigran kısıtlamalarına ihtiyaç duymadan herhangi bir tarayıcıdan ses alın. Mobil cihazlarda ve masaüstünde çalışan ücretsiz bir anında videodan MP3'e dönüştürücümüz var.\n\nKURULUM YOK • ÜCRETSİZ • BAŞLANGIÇ DOSTU",
+    "steps_title": "Videoları Saniyeler İçinde Yüksek Kaliteli MP3'e Dönüştürün",
+    "steps_desc": "Videodan MP3'e ses dönüştürücümüz hızlı ve güvenlidir ve videodan sesi hızlı bir şekilde çıkarmanıza olanak tanır. Karmaşık yazılım yok, düzenleme deneyimi yok ve uzun bekleme süresi yok.",
+    "s1_title": "Videonuzu İçe Aktarın",
+    "s1_desc": "Doğrudan araca yüklemek için ücretsiz video-MP3 dönüştürücümüzdeki video dosyalarını sürükleyip bırakın veya seçin.\n\nHIZLI YÜKLEME • BİRDEN ÇOK FORMAT",
+    "s2_title": "Yüksek Kaliteli Sesi Çıkarın",
+    "s2_desc": "Select MP3 output formats and instantly convert video to clean audio optimized for music, podcasts, voice recordings, interviews and creator content at no cost using our free video to MP3 converter.\n\nMP3 Çıkışı – kaliteli ses",
+    "s3_title": "Kaydet ve Her Yerde Kullan",
+    "s3_desc": "MP3 dosyanızı dönüştürmeden hemen sonra kaydedin ve çevrimdışı oynatın, projeleri düzenleyin, sunumlar oluşturun veya sosyal medyada yayınlayın. PC deneyimi için videodan MP3'e dönüştürücümüz, bilgisayarda yüklü olmayan, tarayıcı tabanlı bir indirme işlemidir.\n\nANINDA İNDİRME • YAZILIMA GEREK YOK",
+    "use_cases_title": "İnsanların Videomuzu MP3'e Dönüştürücü Olarak Kullanmasının Gerçek Hayattaki Yolları",
+    "use_cases_desc": "İster müzik meraklıları, öğrenciler, yaratıcılar veya iş ekipleri için olsun, çevrimiçi MP3 dönüştürücümüz video içeriğini oynatma listelerinde, düzenlemede, öğrenmede ve paylaşımda kullanılmak üzere taşınabilir, yüksek kaliteli ses dosyalarına dönüştürmek üzere tasarlanmıştır.",
+    "u1_title": "Müzik ve Canlı Performansları MP3 Olarak Kaydet",
+    "u1_desc": "Konser kayıtlarını, müzik videolarını, DJ setlerini ve canlı performansları istediğiniz zaman çevrimdışı dinlemek üzere yüksek kaliteli MP3 sese dönüştürmek için dönüştürücümüzü kullanın.",
+    "u1_tags": "MÜZİK • CANLI GÖSTERİLER • ÇALMA LİSTELERİ",
+    "u2_title": "Podcast'leri Her Yerden Dinleyin",
+    "u2_desc": "İşe gidip gelirken, ofiste, egzersiz sırasında veya okurken ve öğrenirken oynatmak için podcast videolarını MP3'e dönüştürün, videodan MP3'e dönüştürücü ücretsiz indirme tam sürüm deneyimimizle herhangi bir yazılımı açmadan podcast videolarındaki sesi oynatın.",
+    "u2_tags": "PODCAST'LAR • RÖPORTAJLAR • SADECE SES",
+    "u3_title": "Eğitici videoları sesli derslere dönüştürün.",
+    "u3_desc": "Herhangi bir kurulum gerektirmeyen PC için güvenli videodan MP3'e dönüştürücü indirme özelliğimizle, hareket halindeyken istediğiniz zaman öğrenmek için öğreticileri, kaydedilmiş dersleri, koçluk oturumlarını ve eğitim videolarını MP3'e dönüştürün.",
+    "u3_tags": "DERSLER • KURSLAR • ÇALIŞMA SESLERİ",
+    "u4_title": "Projeleri düzenlemek için ses kopyalama.",
+    "u4_desc": "Seslendirme, remiksleme, podcast düzenleme, sunumlar ve post prodüksiyon amacıyla ses parçalarını videolardan ayırmak için çevrimiçi videodan MP3'e dönüştürücümüzü kullanın.",
+    "u4_tags": "DÜZENLEME • İÇERİK OLUŞTURMA • ÜRETİM",
+    "u5_title": "Sosyal Medya Videolarından Ses Oluşturun.",
+    "u5_desc": "Tarayıcı tabanlı TikTok videodan MP3'e dönüştürücümüz ve ücretsiz YouTube videosundan MP3'e dönüştürücümüzle tiktok videolarından, YouTube videolarından, şortlardan ve sosyal medyadan sesi birkaç saniye içinde çıkarın.",
+    "u5_tags": "TIKTOK • YOUTUBE • KISA FORM İÇERİK",
+    "u6_title": "Motivasyon ve Konuşma Seslerini Kaydet",
+    "u6_desc": "Hızlı videodan MP3'e ses dönüştürücümüzle videoyu ses MP3 formatına dönüştürün; böylece konuşmaları, motivasyon videolarını, seminerleri ve kişisel gelişim materyallerini çevrimdışı dinleyebilirsiniz.",
+    "u6_tags": "KONUŞMALAR • MOTİVASYON • ÇEVRİMDIŞI SES",
+    "reviews_title": "İçerik Oluşturucuların, Öğrencilerin ve Günlük Kullanıcıların Güvendiği",
+    "reviews_desc": "Çevrimiçi videodan MP3'e dönüştürücümüz, birçok kişi tarafından günlük olarak müzik, podcast'ler, röportajlar, dersler ve içerik oluşturucunun sesini zorlu programlamaya gerek kalmadan hızlı bir şekilde kopyalamak için kullanılır.",
+    "r1_text": "Çok sayıda videodan MP3'e dönüştürme programı kullandım ama bu şimdiye kadar kullandıklarım arasında en iyisi. Hızlıdır ve ses kalitesi gerçekten mükemmeldir.",
+    "r1_role": "Podcast Dinleyici",
+    "r2_text": "Bu harika bir YouTube'dan MP3'e dönüştürücü çünkü yalnızca basit bir çözüme ihtiyacım vardı ve adım adım karmaşık bir çözüme ihtiyacım yoktu.",
+    "r2_role": "Pazarlama Koordinatörü",
+    "r3_text": "Bu kadar hızlı dönüşmesinden gerçekten etkilendim; Büyük bir MP4 dosyası yükledim ve MP3'ü saniyeler içinde indirdim.",
+    "r3_role": "YouTube İçerik Oluşturucusu",
+    "r4_text": "Bu Tiktok videosunu MP3'e dönüştürücüyü neredeyse her gün proje düzenleme ve sosyal medya içeriği için kullanırdım.",
+    "r4_role": "Video Düzenleyici",
+    "r5_text": "Temiz ve kullanımı kolay arayüz ve öğrencilerim bile bu video dönüştürücüyü MP3 aracına kullanabilir.",
+    "r5_role": "Çevrimiçi Eğitmen",
+    "r6_text": "PC için videodan MP3'e dönüştürücü indirmeyi arıyorum, ancak bu tarayıcı aracı tamamen masaüstü yazılımının yerini aldı.",
+    "r6_role": "Serbest Tasarımcı",
+    "r7_text": "Dersleri ses dosyaları olarak kaydettim ve işe gidip gelirken dinlemek için MP3'e dönüştürdüm; çalışmaktan bana çok zaman kazandırdı.",
+    "r7_role": "Üniversite Öğrencisi",
+    "r8_text": "Uzun dosyaları ses kalitesini kaybetmeden dönüştüren bu program, podcast'ler için mükemmel bir videodan MP3'e ses dönüştürücüsüdür.",
+    "r8_role": "Ses Yapımcısı",
+    "r9_text": "Bu sayede her şey gereksiz indirmeler, reklamlar veya kurulum adımları olmadan doğrudan tarayıcıda çalışır.",
+    "r9_role": "İçerik Stratejisti",
+    "r10_text": "Bu çevrimiçi videodan MP3'e dönüştürücü son derece hızlı ve kullanımı kolaydır ve TikTok videolarından ve sosyal medya içeriğinden başarıyla ses indirdim.",
+    "r10_role": "Sosyal Medya Yöneticisi",
+    "r11_text": "Bu ücretsiz çevrimiçi videodan MP3'e dönüştürücü, videolarımı sorunsuz bir şekilde dönüştüren ve kalitelerini artıran harika bir araçtır; çoğu araç bunun tersini yapar.",
+    "r11_role": "Küçük İşletme Sahibi",
+    "r12_text": "Spor salonundayken dinlemek üzere konuşmaları ve nasıl yapılır videolarını kaydetmek için bu ücretsiz YouTube videosunu MP3'e dönüştürücüyü kullanıyorum.",
+    "r12_role": "Fitness Antrenörü",
+    "faq_title": "Sıkça Sorulan Sorular",
+    "faq_desc": "Videoları yüksek kaliteli MP3 sese dönüştürmek için VideoCompressorPro'yu nasıl kullanacağınızı öğrenin.",
+    "q1": "MP3 dosyası nedir?",
+    "a1": "MP3, müzik, podcast'ler, ses kayıtları için en yaygın ses formatlarından biridir ve küçük boyutu ve kaliteli olması nedeniyle çevrimdışı olarak dinlenebilmektedir.",
+    "q2": "Videodan MP3'e dönüştürücü nedir?",
+    "a2": "Çevrimiçi videodan MP3'e dönüştürücü, bir video dosyasından sesin kaldırılmasına yardımcı olan ve ardından bunu medya oynatıcılarda, telefonlarda, tabletlerde ve dizüstü bilgisayarlarda oynatılabilen MP3 ses dosyası biçiminde saklayan bir araçtır.",
+    "q3": "Hangi video formatları mevcut?",
+    "a3": "Videodan MP3'e dönüştürücümüzün desteklediği popüler video formatları arasında MP4, MOV, AVI, MKV, WebM, MPEG ve daha fazlası bulunur.",
+    "q4": "Dönüştürme işlemi sırasında ses bozulacak mı?",
+    "a4": "Çıkarma sırasında net ve dengeli ses kalitesini korumak için optimize edilen dönüştürücümüz müzik, podcast'ler, röportajlar ve sözlü içerik için idealdir.",
+    "q5": "Kurulması gereken bir yazılım var mı?",
+    "a5": "Bu bir kurulum gerektirmeyecektir. Uygulamaların veya karmaşık masaüstü uygulamalarının indirilmesi gerekmez; doğrudan tarayıcınızda çalışır. PC için MP3 dönüştürücü indirmeye alternatif hafif bir videodur.",
+    "q6": "Videoları bir MP3 dönüştürücüye yükleyebilir misiniz?",
+    "a6": "Evet, VideoCompressorPro, dönüştürme işlemi sırasında belgelerinizin gizliliğini ve güvenliğini korumak amacıyla tarayıcıda işlenir.",
+    "q7": "Videoları toplu dönüştürme olanağınız var mı?",
+    "a7": "Dönüştürücü, tarayıcıya ve cihaza bağlı olarak daha fazla işlem gücüne ihtiyaç duyabilir, ancak dönüştürücümüz birden fazla dönüştürme yapmak üzere optimize edilmiştir.",
+    "q8": "Herhangi bir dosya boyutu veya video uzunluğu kısıtlaması var mı?",
+    "a8": "Desteklenen dosya boyutu öncelikle tarayıcınız, cihazınızın belleği ve işlem gücü ile sınırlıdır, ancak büyük videolar modern sistemlerde desteklenir.",
+    "q9": "Sesi YouTube videolarından çıkarmak mümkün mü?",
+    "a9": "Evet, ücretsiz YouTube'dan MP3'e dönüştürücümüz, podcast'lerde, derslerde, müzikte, röportajlarda ve içerik oluşturucu içeriğinde kullanılmak üzere uyumlu video dosyalarından ses çıkarabilir.",
+    "q10": "Dönüştürücü mobil uyumlu mu?",
+    "a10": "Evet, Web'den MP3'e Dönüştürücümüz herhangi bir ek yazılım indirmeye gerek kalmadan Android, iPhone, Android Tablet, iPad, dizüstü bilgisayar veya tarayıcıyla uyumludur.",
+    "q11": "Çıkarılan sesi internet olmadan kullanmanın bir yolu var mı?",
+    "a11": "Kesinlikle. MP3 dosyanız dönüştürülür, indirebilir ve daha sonra internet olmadan çalabilirsiniz!",
+    "q12": "Bu neden MP3 Dönüştürücüler için en iyi videolardan biri?",
+    "a12": "VideoCompressorPro, tarayıcıda hızlı işlem yapma, temiz MP3 dışa aktarma, güvenli kullanım ve karmaşık yazılım ve abonelik gerektirmeyen kullanıcı dostu araçların birleşimidir.",
+    "q13": "TikTok veya sosyal medya videolarını MP3'e dönüştürmenin bir yolunu mu arıyorsunuz?",
+    "a13": "Evet, TikTok videodan MP3'e dönüştürücümüz, TikTok videolarını ve sosyal videoları, web seminerlerini, eğitimleri, podcast'leri ve diğer birçok video formatını MP3'e dönüştürebilir.",
+    "q14": "Bu video MP3'e dönüştürücü ücretsiz mi?",
+    "a14": "Evet, videomuzu MP3'e dönüştürücü ücretsiz olarak tam sürümü çevrimiçi olarak ücretsiz olarak, gizli maliyetler veya zorunlu kayıt veya karmaşık kurulum olmadan kullanabilirsiniz.",
+    "cta_title": "Yüksek Kaliteli Sesi Anında Çıkarın."
   },
   "audio_cutter_page": {
     "hero_badge": "Hassasiyet · Yükleme Yok · %100 Ücretsiz",
@@ -889,18 +933,42 @@
       "heroText": "Dünyanın en güvenilir MP4 sıkıştırıcısı. Çarpıcı 1080p/4K kalitesini korurken MP4 dosyalarınızı saniyeler içinde küçültün.",
       "introText": "MP4 en popüler video formatıdır ancak yüksek çözünürlüklü dosyalar devasa olabilir. Akıllı sıkıştırma motorumuz, dosya boyutu ile görsel netlik arasındaki mükemmel dengeyi sunmak için MP4 bit hızlarınızı analiz eder.",
       "features": [
-        { "title": "Kalite Kaybı Yok", "desc": "Gelişmiş libx264 kodlaması MP4'ünüzün keskin kalmasını sağlar." },
-        { "title": "Evrensel Oynatma", "desc": "Sıkıştırılmış MP4'ler tüm iPhone, Android ve Akıllı TV'lerde çalışır." },
-        { "title": "Önce Gizlilik", "desc": "Dosyalarınız asla tarayıcınızdan çıkmaz. %100 güvenli işlem." }
+        {
+          "title": "Kalite Kaybı Yok",
+          "desc": "Gelişmiş libx264 kodlaması MP4'ünüzün keskin kalmasını sağlar."
+        },
+        {
+          "title": "Evrensel Oynatma",
+          "desc": "Sıkıştırılmış MP4'ler tüm iPhone, Android ve Akıllı TV'lerde çalışır."
+        },
+        {
+          "title": "Önce Gizlilik",
+          "desc": "Dosyalarınız asla tarayıcınızdan çıkmaz. %100 güvenli işlem."
+        }
       ],
       "steps": [
-        { "title": "MP4 Yükle", "desc": "MP4 dosyanızı sürükleyip sıkıştırıcı kutusuna bırakın." },
-        { "title": "Boyut Seç", "desc": "MB cinsinden istediğiniz çıktı boyutunu seçin." },
-        { "title": "Sıkıştır ve Kaydet", "desc": "Optimize edilmiş MP4'ünüzü anında indirin." }
+        {
+          "title": "MP4 Yükle",
+          "desc": "MP4 dosyanızı sürükleyip sıkıştırıcı kutusuna bırakın."
+        },
+        {
+          "title": "Boyut Seç",
+          "desc": "MB cinsinden istediğiniz çıktı boyutunu seçin."
+        },
+        {
+          "title": "Sıkıştır ve Kaydet",
+          "desc": "Optimize edilmiş MP4'ünüzü anında indirin."
+        }
       ],
       "faqs": [
-        { "q": "MP4 kalitem düşer mi?", "a": "Hayır, görsel bütünlüğü korumak için yüksek verimli sabit oran faktörleri kullanıyoruz." },
-        { "q": "Boyut sınırı var mı?", "a": "5 GB'a kadar olan MP4 dosyalarını ücretsiz olarak sıkıştırabilirsiniz." }
+        {
+          "q": "MP4 kalitem düşer mi?",
+          "a": "Hayır, görsel bütünlüğü korumak için yüksek verimli sabit oran faktörleri kullanıyoruz."
+        },
+        {
+          "q": "Boyut sınırı var mı?",
+          "a": "5 GB'a kadar olan MP4 dosyalarını ücretsiz olarak sıkıştırabilirsiniz."
+        }
       ]
     },
     "mov": {
@@ -910,18 +978,42 @@
       "heroText": "Apple MOV dosyaları büyük boyutlarıyla bilinir. Aracımız, Apple'ın imza kalitesinden ödün vermeden MOV bit hızlarını web için optimize eder.",
       "introText": "iPhone veya Mac'lerde çekilen QuickTime (MOV) dosyaları genellikle gigabaytlarca yer kaplar. Bunları anında verimli, web uyumlu formatlara dönüştürmenize ve sıkıştırmanıza yardımcı oluyoruz.",
       "features": [
-        { "title": "Apple Optimize Edildi", "desc": "Yüksek bit hızlı ProRes ve H.264 MOV dosyaları için özel olarak ayarlandı." },
-        { "title": "Web Uyumlu", "desc": "Hantal MOV'ları akışa uygun, hafif versiyonlara dönüştürün." },
-        { "title": "Sıfır Bekleme", "desc": "Hızlı tarayıcı tabanlı işlem, sunucuya yükleme gerekmez." }
+        {
+          "title": "Apple Optimize Edildi",
+          "desc": "Yüksek bit hızlı ProRes ve H.264 MOV dosyaları için özel olarak ayarlandı."
+        },
+        {
+          "title": "Web Uyumlu",
+          "desc": "Hantal MOV'ları akışa uygun, hafif versiyonlara dönüştürün."
+        },
+        {
+          "title": "Sıfır Bekleme",
+          "desc": "Hızlı tarayıcı tabanlı işlem, sunucuya yükleme gerekmez."
+        }
       ],
       "steps": [
-        { "title": "MOV İçe Aktar", "desc": ".mov dosyanızı Mac veya iPhone'unuzdan seçin." },
-        { "title": "Boyutu Ayarla", "desc": "Paylaşım ihtiyaçlarınıza uygun bir hedef boyut seçin." },
-        { "title": "Dışa Aktar", "desc": "Sıkıştırılmış videonuzu saniyeler içinde kaydedin." }
+        {
+          "title": "MOV İçe Aktar",
+          "desc": ".mov dosyanızı Mac veya iPhone'unuzdan seçin."
+        },
+        {
+          "title": "Boyutu Ayarla",
+          "desc": "Paylaşım ihtiyaçlarınıza uygun bir hedef boyut seçin."
+        },
+        {
+          "title": "Dışa Aktar",
+          "desc": "Sıkıştırılmış videonuzu saniyeler içinde kaydedin."
+        }
       ],
       "faqs": [
-        { "q": "Bunu iPhone'da kullanabilir miyim?", "a": "Evet, aracımız MOV sıkıştırma için iOS'taki Safari ile tam uyumludur." },
-        { "q": "4K MOV desteği var mı?", "a": "Kesinlikle, 4K 60fps MOV dosyalarını kolaylıkla işliyoruz." }
+        {
+          "q": "Bunu iPhone'da kullanabilir miyim?",
+          "a": "Evet, aracımız MOV sıkıştırma için iOS'taki Safari ile tam uyumludur."
+        },
+        {
+          "q": "4K MOV desteği var mı?",
+          "a": "Kesinlikle, 4K 60fps MOV dosyalarını kolaylıkla işliyoruz."
+        }
       ]
     },
     "video-for-whatsapp": {
@@ -931,18 +1023,42 @@
       "heroText": "WhatsApp'ta 'Dosya çok büyük' hatası almayı bırakın. Videolarınızı 16MB veya 64MB sınırına tam uyacak şekilde sıkıştırın.",
       "introText": "WhatsApp'ın katı dosya boyutu sınırları vardır (mobil için 16MB, web için 64MB). Aracımız, içeriği net tutarken videonuzu bu sınırlara uyacak şekilde otomatik olarak optimize eder.",
       "features": [
-        { "title": "Limitleri Aşın", "desc": "WhatsApp için tam 16MB veya 64MB hedefine otomatik olarak ulaşın." },
-        { "title": "Anında Paylaşım", "desc": "Sıkıştırılmış dosyalar anında WhatsApp iletilmeye hazırdır." },
-        { "title": "Grup Dostu", "desc": "Daha küçük dosyalar, grup sohbetlerinizde daha hızlı yükleme ve indirme demektir." }
+        {
+          "title": "Limitleri Aşın",
+          "desc": "WhatsApp için tam 16MB veya 64MB hedefine otomatik olarak ulaşın."
+        },
+        {
+          "title": "Anında Paylaşım",
+          "desc": "Sıkıştırılmış dosyalar anında WhatsApp iletilmeye hazırdır."
+        },
+        {
+          "title": "Grup Dostu",
+          "desc": "Daha küçük dosyalar, grup sohbetlerinizde daha hızlı yükleme ve indirme demektir."
+        }
       ],
       "steps": [
-        { "title": "Video Seç", "desc": "WhatsApp üzerinden göndermek istediğiniz videoyu seçin." },
-        { "title": "Limit Seç", "desc": "Mobil WhatsApp'ta güvende olmak için hedefi 15MB olarak ayarlayın." },
-        { "title": "İndir ve Gönder", "desc": "Videonuzu limit uyarısı olmadan paylaşın." }
+        {
+          "title": "Video Seç",
+          "desc": "WhatsApp üzerinden göndermek istediğiniz videoyu seçin."
+        },
+        {
+          "title": "Limit Seç",
+          "desc": "Mobil WhatsApp'ta güvende olmak için hedefi 15MB olarak ayarlayın."
+        },
+        {
+          "title": "İndir ve Gönder",
+          "desc": "Videonuzu limit uyarısı olmadan paylaşın."
+        }
       ],
       "faqs": [
-        { "q": "WhatsApp dosya sınırı nedir?", "a": "Mobil sınır 16MB, WhatsApp Web ise 64MB'a kadar destekler." },
-        { "q": "Video bulanık görünür mü?", "a": "Hayır, telefon ekranlarında harika görünmesini sağlamak için çözünürlüğü optimize ediyoruz." }
+        {
+          "q": "WhatsApp dosya sınırı nedir?",
+          "a": "Mobil sınır 16MB, WhatsApp Web ise 64MB'a kadar destekler."
+        },
+        {
+          "q": "Video bulanık görünür mü?",
+          "a": "Hayır, telefon ekranlarında harika görünmesini sağlamak için çözünürlüğü optimize ediyoruz."
+        }
       ]
     },
     "video-for-discord": {
@@ -952,18 +1068,42 @@
       "heroText": "Discord Nitro uyarılarından bıktınız mı? Meme'lerinizi ve kliplerinizi anında 8MB veya 25MB ücretsiz sınırının altına sığacak şekilde sıkıştırın.",
       "introText": "Discord'un yükleme sınırları her oyuncunun kabusudur. Ücretsiz kullanıcılar için 8MB veya Nitro Basic için 25MB dosyaya ihtiyacınız olsun, aracımız kliplerinizin yüksek kaliteli kalmasını sağlar.",
       "features": [
-        { "title": "Nitro Dostu", "desc": "8MB, 25MB ve 50MB Discord sınırları için hazır ayarlar." },
-        { "title": "Oyuncular İçin", "desc": "OBS veya Shadowplay'den gelen yüksek FPS'li oyun klipleri için mükemmel." },
-        { "title": "Otomatik Boyutlandırma", "desc": "Dosyanın küçük Discord sınırına sığmasını sağlamak için boyutları ayarlar." }
+        {
+          "title": "Nitro Dostu",
+          "desc": "8MB, 25MB ve 50MB Discord sınırları için hazır ayarlar."
+        },
+        {
+          "title": "Oyuncular İçin",
+          "desc": "OBS veya Shadowplay'den gelen yüksek FPS'li oyun klipleri için mükemmel."
+        },
+        {
+          "title": "Otomatik Boyutlandırma",
+          "desc": "Dosyanın küçük Discord sınırına sığmasını sağlamak için boyutları ayarlar."
+        }
       ],
       "steps": [
-        { "title": "Klip Yükle", "desc": "Oyun klibinizi veya meme'inizi kutuya sürükleyin." },
-        { "title": "8MB Hedefini Ayarla", "desc": "Tam 8MB işaretini vurmak için kaydırıcıyı kullanın." },
-        { "title": "Discord'da Paylaş", "desc": "Videonuzu Nitro olmadan herhangi bir kanalda yayınlayın." }
+        {
+          "title": "Klip Yükle",
+          "desc": "Oyun klibinizi veya meme'inizi kutuya sürükleyin."
+        },
+        {
+          "title": "8MB Hedefini Ayarla",
+          "desc": "Tam 8MB işaretini vurmak için kaydırıcıyı kullanın."
+        },
+        {
+          "title": "Discord'da Paylaş",
+          "desc": "Videonuzu Nitro olmadan herhangi bir kanalda yayınlayın."
+        }
       ],
       "faqs": [
-        { "q": "Discord ücretsiz sınırı nedir?", "a": "Discord kısa süre önce çoğu kullanıcı için ücretsiz sınırı 25MB'a çıkardı, ancak 8MB bazı sunucular için hala daha güvenlidir." },
-        { "q": ".webm destekliyor mu?", "a": "Evet, küçük boyutlarda daha iyi sıkıştırma sağladığı için Discord için .webm öneriyoruz." }
+        {
+          "q": "Discord ücretsiz sınırı nedir?",
+          "a": "Discord kısa süre önce çoğu kullanıcı için ücretsiz sınırı 25MB'a çıkardı, ancak 8MB bazı sunucular için hala daha güvenlidir."
+        },
+        {
+          "q": ".webm destekliyor mu?",
+          "a": "Evet, küçük boyutlarda daha iyi sıkıştırma sağladığı için Discord için .webm öneriyoruz."
+        }
       ]
     },
     "video-for-email": {
@@ -973,18 +1113,132 @@
       "heroText": "Google Drive veya Dropbox kullanmadan e-postayla video gönderin. Dosyalarınızı 25MB e-posta eki sınırına sığacak şekilde küçültün.",
       "introText": "Gmail ve Outlook gibi çoğu e-posta sağlayıcısının 25MB sınırı vardır. Aracımız, iş videolarınızı veya aile kliplerinizi bir e-postaya tam sığacak şekilde optimize eder.",
       "features": [
-        { "title": "Gmail Uyumlu", "desc": "Sorunsuz ekler için 25MB sınırının altında kalır." },
-        { "title": "Pro Kalite", "desc": "İş sunumlarınızı ve eğitimlerinizi keskin tutar." },
-        { "title": "Çoklu Platform", "desc": "Outlook ve Yahoo Mail dahil tüm tarayıcılarda çalışır." }
+        {
+          "title": "Gmail Uyumlu",
+          "desc": "Sorunsuz ekler için 25MB sınırının altında kalır."
+        },
+        {
+          "title": "Pro Kalite",
+          "desc": "İş sunumlarınızı ve eğitimlerinizi keskin tutar."
+        },
+        {
+          "title": "Çoklu Platform",
+          "desc": "Outlook ve Yahoo Mail dahil tüm tarayıcılarda çalışır."
+        }
       ],
       "steps": [
-        { "title": "Ek Ekle", "desc": "E-postayla göndermek istediğiniz büyük video dosyasını seçin." },
-        { "title": "24MB Sınırı Ayarla", "desc": "25MB e-posta sınırına sığmasını sağlamak için 24MB'ı hedefleyin." },
-        { "title": "Ekle ve Gönder", "desc": "Dosyayı indirin ve doğrudan e-postanıza ekleyin." }
+        {
+          "title": "Ek Ekle",
+          "desc": "E-postayla göndermek istediğiniz büyük video dosyasını seçin."
+        },
+        {
+          "title": "24MB Sınırı Ayarla",
+          "desc": "25MB e-posta sınırına sığmasını sağlamak için 24MB'ı hedefleyin."
+        },
+        {
+          "title": "Ekle ve Gönder",
+          "desc": "Dosyayı indirin ve doğrudan e-postanıza ekleyin."
+        }
       ],
       "faqs": [
-        { "q": "Gmail ek sınırı nedir?", "a": "Gmail, e-posta başına 25MB'a kadar izin verir. Daha büyükse, bir Google Drive bağlantısını zorunlu kılar." },
-        { "q": "Bir videoyu ne kadar küçültebilirim?", "a": "Genellikle 200MB'lık bir videoyu, çok iyi izlenebilir halde tutarak 24MB'a düşürebiliriz." }
+        {
+          "q": "Gmail ek sınırı nedir?",
+          "a": "Gmail, e-posta başına 25MB'a kadar izin verir. Daha büyükse, bir Google Drive bağlantısını zorunlu kılar."
+        },
+        {
+          "q": "Bir videoyu ne kadar küçültebilirim?",
+          "a": "Genellikle 200MB'lık bir videoyu, çok iyi izlenebilir halde tutarak 24MB'a düşürebiliriz."
+        }
+      ]
+    },
+    "youtube": {
+      "title": "Çevrimiçi YouTube için Videoyu Sıkıştırın - Hızlı YouTube Optimize Edici",
+      "description": "YouTube için videoları çevrimiçi olarak ücretsiz sıkıştırın. 1080p ve 4K HD kalitesini korurken video boyutunu küçültün. İşleme gecikmeleri olmadan daha hızlı yükleyin.",
+      "h1": "Hızlı YouTube Video Sıkıştırıcı",
+      "heroText": "Saniyeler içinde YouTube'a yükleyin. Tam yüksek kaliteli görsel kaliteyi korurken 1080p ve 4K videolarınızı sıkıştırın.",
+      "introText": "YouTube çok büyük video yüklemelerini işler, ancak ağır dosyalar işlemenin kilitlenmesine ve sonsuz bekleme sürelerine neden olabilir. Akıllı optimize edicimiz, çözünürlükleri veya renk doğruluğunu kaybetmeden dosya boyutunu küçültür.",
+      "features": [
+        {
+          "title": "Kalite Kaybı Yok",
+          "desc": "Gelişmiş libx264 sıkıştırması görsel netliğinizi korur."
+        },
+        {
+          "title": "Hızlı İşleme",
+          "desc": "Yerel tarayıcı işleme, sunucu bekleme süresinin olmadığı anlamına gelir."
+        },
+        {
+          "title": "Önce Gizlilik",
+          "desc": "Videonuz tarayıcınızdan asla ayrılmaz. %100 güvenli."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Video Yükle",
+          "desc": "MP4, MOV veya WebM video dosyanızı sürükleyip bırakın."
+        },
+        {
+          "title": "Çözünürlüğü Seçin",
+          "desc": "YouTube için optimize edilmiş halde kalmak için 1080p veya 4K'yı seçin."
+        },
+        {
+          "title": "Sıkıştır ve İndir",
+          "desc": "Hafif videonuzu anında yüklemeye hazırlayın."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Bu, YouTube kalitemi düşürür mü?",
+          "a": "Hayır, aracımız dosyaları çözünürlük kaybı olmadan sıkıştırdığından YouTube bunları HD/4K olarak işleyecektir."
+        },
+        {
+          "q": "Kullanımı güvenli mi?",
+          "a": "Evet, tüm işlemler tarayıcınızın içinde gerçekleştirilir ve tam gizlilik sağlanır."
+        }
+      ]
+    },
+    "tiktok": {
+      "title": "TikTok Çevrimiçi için Videoyu Sıkıştırın - TikTok için Videoları Küçült",
+      "description": "TikTok için videoları çevrimiçi olarak ücretsiz sıkıştırın. Dikey 9:16 videoları TikTok kurallarına mükemmel şekilde uyacak şekilde optimize edin. Videolarınızı FYP için canlı tutun.",
+      "h1": "TikTok Video Sıkıştırıcı",
+      "heroText": "Videolarınızın FYP'de öne çıkmasını sağlayın. Sıfır gecikmeyle anında TikTok'a yüklemek için dikey klipleri sıkıştırın.",
+      "introText": "TikTok hızlı yüklenen, yüksek kaliteli dikey videoları tercih ediyor. Sıkıştırıcımız MP4 ve MOV dosyalarınızı TikTok mobil kurallarına uyacak şekilde küçültürken geçişleri ve metni mükemmel derecede keskin tutar.",
+      "features": [
+        {
+          "title": "9:16 Optimize Edildi",
+          "desc": "Dikey klipler, Instagram Reels ve Shorts için mükemmeldir."
+        },
+        {
+          "title": "FYP Kalitesi",
+          "desc": "Bulanık TikTok sıkıştırmasını önlemek için video çözünürlüğünü keskin tutar."
+        },
+        {
+          "title": "Sıfır Sunucu Gecikmesi",
+          "desc": "Harici veritabanlarına yükleme yapılmaz, işlem anında tamamlanır."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Videoyu Seçin",
+          "desc": "Telefonunuzdan veya PC'nizden dikey videonuzu seçin."
+        },
+        {
+          "title": "Yönergeleri Ayarlayın",
+          "desc": "Hızlı TikTok yüklemesi için bit hızınızı optimize edin."
+        },
+        {
+          "title": "Kaydet ve Paylaş",
+          "desc": "Sıkıştırılmış videoyu indirin ve hemen TikTok'ta yayınlayın."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "TikTok videoları sıkıştırıyor mu?",
+          "a": "Evet, TikTok dosyaları yükleme sırasında sıkıştırır ancak bunları önce aracımızla sıkıştırmak bulanık sonuçları önler."
+        },
+        {
+          "q": "TikTok için en iyi format hangisidir?",
+          "a": "Dikey 9:16 en boy oranındaki MP4 ve MOV, TikTok için ideal formatlardır."
+        }
       ]
     }
   }

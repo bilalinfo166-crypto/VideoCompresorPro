@@ -564,68 +564,112 @@
     "cta_title": "Thay đổi kích thước video ngay."
   },
   "to_mp3_page": {
-    "hero_badge": "Độ trung thực cao · Không tải lên · Miễn phí 100%",
-    "hero_title": "Chuyển đổi Video sang MP3 trực tuyến",
-    "hero_subtitle": "Trích xuất âm thanh chất lượng cao từ video của bạn ngay lập tức. An toàn và riêng tư.",
-    "visualizer_title": "Bộ chuyển đổi tốt nhất",
-    "visualizer_desc": "Độ chính xác trích xuất cấp độ phòng thu ngay trong trình duyệt.",
+    "hero_badge": "Độ trung thực cao • Không cần tải lên • Miễn phí 100%",
+    "hero_title": "Trình chuyển đổi video sang MP3 trực tuyến",
+    "hero_subtitle": "Công cụ chuyển đổi video sang MP3 trực tuyến của chúng tôi hoàn toàn miễn phí và an toàn, cho phép bạn tải các bản âm thanh từ video ngay lập tức. Công cụ chuyển đổi video sang Mp3 trực tuyến hoạt động tốt nhất cho âm nhạc, podcast, phỏng vấn, bài giảng, clip thoại và mạng xã hội.",
+    "visualizer_title": "Trình chuyển đổi video sang MP3 tốt nhất",
+    "visualizer_desc": "VideoCompressorPro là một công cụ chuyển đổi video dễ sử dụng và hoàn hảo cho người mới sử dụng, cho dù bạn đang chuyển đổi video YouTube sang MP3, video TikTok sang MP3 hay đang tìm một công cụ chuyển đổi video sang MP3 phù hợp với mình. Công cụ chuyển đổi video sang MP3 trực tuyến của chúng tôi cho phép bạn chuyển đổi video thành tệp âm thanh MP3 ngay lập tức với chất lượng cao. Nhanh chóng trích xuất âm thanh từ các video clip YouTube, video TikTok, podcast, hội thảo trên web và bản ghi âm trực tiếp từ trình duyệt bằng trình chuyển đổi video sang MP3 tốt nhất để thu được âm thanh trong vài giây.",
     "visualizer_label": "Định dạng đầu ra",
-    "visualizer_format": "MP3 Chất lượng cao (320kbps)",
-    "features_title": "Trích xuất đẳng cấp",
-    "f1_title": "Độ trung thực cao",
-    "f1_desc": "Hỗ trợ bitrate lên đến 320kbps cho âm thanh trong trẻo.",
-    "f2_title": "Riêng tư tuyệt đối",
-    "f2_desc": "Xử lý cục bộ. Tệp của bạn không bao giờ đến chỗ chúng tôi.",
-    "f3_title": "Tải về tức thì",
-    "f3_desc": "Không phải chờ đợi. Nhận âm thanh ngay sau khi trích xuất.",
-    "f4_title": "Định dạng đa dạng",
-    "f4_desc": "Chuyển MP4, MOV, AVI sang MP3, WAV hoặc OGG một cách cẩn thận.",
-    "f5_title": "Theo lô",
-    "f5_desc": "Chuyển đổi nhiều video thành một danh sách phát trong vài giây.",
-    "f6_title": "Không cần tài khoản",
-    "f6_desc": "Truy cập đầy đủ không cần đăng ký hay quảng cáo gây phiền nhiễu.",
-    "steps_title": "Cách chuyển đổi",
-    "s1_title": "Tải lên",
-    "s1_desc": "Chọn tệp video ở bất kỳ định dạng phổ biến nào.",
-    "s2_title": "Cấu hình",
-    "s2_desc": "Chọn bitrate và định dạng đầu ra mong muốn.",
-    "s3_title": "Trích xuất",
-    "s3_desc": "Tách âm thanh với độ chính xác cao ngay lập tức.",
-    "s4_title": "Lưu lại",
-    "s4_desc": "Tải về an toàn tệp MP3 đã được xử lý cục bộ của bạn.",
-    "reviews_title": "Được các chuyên gia sử dụng",
-    "r1_text": "Âm thanh hoàn hảo ngay cả trên loa kiểm âm phòng thu. Tuyệt vời.",
-    "r1_role": "Nhà sản xuất âm nhạc",
-    "r2_text": "I use it to get clean audio for my podcasts from video interviews. It's consistently very reliable.",
-    "r2_role": "Professional Podcaster",
-    "r3_text": "Extremely fast extraction. I converted 10 long videos in a minute. The speed is unmatched.",
-    "r3_role": "Graduate Student",
-    "r4_text": "No distortion at all. The LAME encoder implementation here works wonders for audio fidelity.",
-    "r4_role": "Audio Engineer",
-    "r5_text": "Privacy first - my videos aren't uploaded to convert. This is essential for my sensitive interview data.",
-    "r5_role": "Investigative Journalist",
-    "r6_text": "Best way to get high-quality MP3s from my own YouTube backups. Simple, clean, and perfect.",
-    "r6_role": "Content Creator",
-    "r7_text": "Simple, clean, and no annoying ads or popups. A rare find in the world of online conversion tools.",
-    "r7_role": "Creative Freelancer",
-    "r8_text": "Supports all formats. Converted my old MKV home videos to MP3 to listen in the car easily.",
-    "r8_role": "Tech Enthusiast",
-    "r9_text": "The batch processing feature is a life-saver for my sound effects library.",
-    "r9_role": "Game Developer",
-    "r10_text": "Studio-grade audio extraction in seconds. It's my go-to tool for video sound design.",
-    "r10_role": "Sound Designer",
-    "r11_text": "Crystal clear MP3 extraction every time. I use it for my sample library and it never fails.",
-    "r11_role": "Audio Producer",
-    "r12_text": "Fastest conversion I've seen. No more waiting for servers to process my files.",
-    "r12_role": "Creative Director",
-    "faq_title": "FAQ",
-    "q1": "Làm thế nào để trích xuất?",
-    "a1": "Tải video lên và nhấp vào 'Trích xuất âm thanh'. Thế là xong!",
-    "q2": "Nó có miễn phí không?",
-    "a2": "Có, miễn phí 100% và không giới hạn.",
-    "q3": "Bitrate nào là tốt nhất?",
-    "a3": "320kbps cho chất lượng tối đa; 128kbps để tiết kiệm không gian.",
-    "cta_title": "Trích xuất âm thanh ngay."
+    "visualizer_format": "MP3 chất lượng cao (320kbps)",
+    "features_title": "Tính năng trích xuất âm thanh nâng cao",
+    "features_desc": "Kết xuất video thành tệp âm thanh MP3 chất lượng cao bằng công nghệ web dựa trên trình duyệt hiện đại, nhanh chóng và rõ ràng dành cho người sáng tạo, người nghe và chuyên gia.",
+    "f1_title": "Đầu ra MP3 chất lượng phòng thu",
+    "f1_desc": "Công cụ chuyển đổi video trực tuyến phức tạp sang MP3 của chúng tôi là công cụ hoàn hảo để trích xuất âm thanh cân bằng và nổi bật từ video với chất lượng âm thanh được tối ưu hóa, phù hợp với âm nhạc, podcast, phỏng vấn, hội thảo trên web và ghi âm giọng nói.\n\nCHẤT LƯỢNG CAO • ÂM THANH SẠCH • XUẤT MP3",
+    "f2_title": "Chuyển đổi dựa trên trình duyệt an toàn",
+    "f2_desc": "Trong quá trình xử lý, các tập tin của bạn vẫn được giữ bí mật. Công cụ chuyển đổi video sang MP3 trực tuyến không cần tải xuống bất cứ thứ gì và cũng không yêu cầu ứng dụng của bên thứ ba.\n\nRiêng tư, an toàn, xử lý cục bộ.",
+    "f3_title": "Tải xuống âm thanh nhanh như chớp",
+    "f3_desc": "Trải nghiệm tải xuống miễn phí phiên bản đầy đủ trực tuyến của công cụ chuyển đổi video sang MP3 của chúng tôi được thiết kế để chuyển đổi các tệp video sang định dạng MP3 trong vài giây và lưu âm thanh vào thiết bị của bạn để nghe, chỉnh sửa, phát trực tuyến hoặc tạo nội dung ngoại tuyến.\n\nXỬ LÝ NHANH CHÓNG • TẢI XUỐNG NHANH",
+    "f4_title": "Hỗ trợ hầu hết các định dạng video phổ biến.",
+    "f4_desc": "Chuyển đổi video sang MP3 bằng MP4, MOV, AVI, MKV, WebM và các định dạng video phổ biến khác bằng công cụ chuyển đổi video sang MP3 của chúng tôi.\n\nMP4 • MOV • AVI • WEBM",
+    "f5_title": "Được thiết kế dành riêng cho Người sáng tạo nội dung",
+    "f5_desc": "Chuyển đổi video YouTube, video TikTok, hội thảo trên web, hướng dẫn, podcast và nội dung của người sáng tạo sang định dạng MP3 một cách dễ dàng và đáng tin cậy bằng trình chuyển đổi video YouTube sang MP3 của chúng tôi.\n\nYOUTUBE • TIKTOK • PODCAST",
+    "f6_title": "Miễn phí và dễ sử dụng",
+    "f6_desc": "Nhận âm thanh từ bất kỳ trình duyệt nào mà không cần phần mềm phức tạp, phí ẩn, đăng ký hoặc hạn chế hình mờ. Chúng tôi có công cụ chuyển đổi video sang MP3 tức thì miễn phí, chạy trên thiết bị di động và máy tính để bàn.\n\nKHÔNG CÀI ĐẶT • MIỄN PHÍ • THÂN THIỆN VỚI NGƯỜI MỚI BẮT ĐẦU",
+    "steps_title": "Chuyển đổi video sang MP3 chất lượng cao trong vài giây",
+    "steps_desc": "Công cụ chuyển đổi video sang âm thanh MP3 của chúng tôi rất nhanh và an toàn, cho phép bạn trích xuất âm thanh từ video một cách nhanh chóng. Không cần phần mềm phức tạp, không cần kinh nghiệm chỉnh sửa và không phải chờ đợi lâu.",
+    "s1_title": "Nhập video của bạn",
+    "s1_desc": "Kéo và thả hoặc chọn (các) tệp video trong trình chuyển đổi video sang MP3 miễn phí của chúng tôi để tải trực tiếp vào công cụ.\n\nTẢI LÊN NHANH CHÓNG • NHIỀU ĐỊNH DẠNG",
+    "s2_title": "Trích xuất âm thanh chất lượng cao",
+    "s2_desc": "Chọn định dạng đầu ra MP3 và chuyển đổi video ngay lập tức thành âm thanh trong trẻo được tối ưu hóa cho âm nhạc, podcast, ghi âm giọng nói, phỏng vấn và nội dung của người sáng tạo mà không mất phí bằng cách sử dụng công cụ chuyển đổi video sang MP3 miễn phí của chúng tôi.\n\nĐầu ra MP3 – âm thanh chất lượng",
+    "s3_title": "Lưu và sử dụng mọi nơi",
+    "s3_desc": "Lưu tệp MP3 của bạn ngay sau khi chuyển đổi và phát ngoại tuyến, chỉnh sửa dự án, tạo bản trình bày hoặc xuất bản lên mạng xã hội. Công cụ chuyển đổi video sang MP3 của chúng tôi dành cho trải nghiệm PC là một bản tải xuống dựa trên trình duyệt, không được cài đặt trên máy tính.\n\nTẢI XUỐNG NGAY LẬP TỨC • KHÔNG CẦN PHẦN MỀM",
+    "use_cases_title": "Những cách thực tế mà mọi người sử dụng Trình chuyển đổi video sang MP3 của chúng tôi",
+    "use_cases_desc": "Cho dù đó là dành cho những người đam mê âm nhạc, sinh viên, người sáng tạo hay nhóm kinh doanh, công cụ chuyển đổi video sang MP3 trực tuyến của chúng tôi được thiết kế để chuyển nội dung video thành tệp âm thanh di động, chất lượng cao để sử dụng trong danh sách phát, chỉnh sửa, học tập và chia sẻ.",
+    "u1_title": "Lưu nhạc và biểu diễn trực tiếp dưới dạng MP3",
+    "u1_desc": "Sử dụng công cụ chuyển đổi của chúng tôi để chuyển đổi bản ghi âm buổi hòa nhạc, video nhạc, bộ DJ và buổi biểu diễn trực tiếp sang âm thanh MP3 chất lượng cao để nghe ngoại tuyến bất cứ lúc nào.",
+    "u1_tags": "ÂM NHẠC • CHƯƠNG TRÌNH TRỰC TIẾP • DANH SÁCH PHÁT",
+    "u2_title": "Nghe Podcast mọi nơi",
+    "u2_desc": "Chuyển đổi video podcast sang MP3 để phát trong khi đi làm, trong văn phòng, trong khi tập luyện hoặc trong khi đọc và học mà không gặp bất kỳ rắc rối nào, phát âm thanh từ video podcast mà không cần mở bất kỳ phần mềm nào với trải nghiệm phiên bản đầy đủ tải xuống miễn phí chuyển đổi video sang MP3 của chúng tôi.",
+    "u2_tags": "PODCASTS • PHỎNG VẤN • CHỈ CÓ ÂM THANH",
+    "u3_title": "Chuyển đổi video giáo dục thành bài học âm thanh.",
+    "u3_desc": "Chuyển các hướng dẫn, bài giảng được ghi lại, các buổi huấn luyện và video giáo dục thành MP3 để học bất cứ lúc nào khi đang di chuyển với bản tải xuống trình chuyển đổi video sang MP3 an toàn của chúng tôi dành cho PC mà không cần bất kỳ cài đặt nào.",
+    "u3_tags": "BÀI GIẢNG • KHÓA HỌC • ÂM THANH HỌC",
+    "u4_title": "Sao chép âm thanh để chỉnh sửa dự án.",
+    "u4_desc": "Sử dụng công cụ chuyển đổi video sang MP3 trực tuyến của chúng tôi để tách các bản âm thanh khỏi video để lồng tiếng, phối lại, chỉnh sửa podcast, thuyết trình và sản xuất bài đăng.",
+    "u4_tags": "CHỈNH SỬA • TẠO NỘI DUNG • SẢN XUẤT",
+    "u5_title": "Tạo âm thanh từ video truyền thông xã hội.",
+    "u5_desc": "Trích xuất âm thanh từ video tiktok, video YouTube, video ngắn và mạng xã hội trong vài giây bằng trình chuyển đổi video TikTok sang MP3 dựa trên trình duyệt của chúng tôi và trình chuyển đổi video YouTube sang MP3 miễn phí.",
+    "u5_tags": "TIKTOK • YOUTUBE • NỘI DUNG NGẮN",
+    "u6_title": "Lưu Âm thanh Động lực & Lời nói",
+    "u6_desc": "Chuyển đổi video sang định dạng âm thanh MP3 bằng công cụ chuyển đổi video sang âm thanh MP3 nhanh chóng của chúng tôi để bạn có thể nghe các bài phát biểu, video tạo động lực, hội thảo và tài liệu phát triển cá nhân ngoại tuyến.",
+    "u6_tags": "BÀI PHÁT LUẬN • ĐỘNG LỰC • ÂM THANH NGOẠI TUYẾN",
+    "reviews_title": "Được người sáng tạo, sinh viên và người dùng hàng ngày tin cậy",
+    "reviews_desc": "Công cụ chuyển đổi video sang MP3 trực tuyến của chúng tôi được nhiều người sử dụng hàng ngày để trích xuất nhạc, podcast, phỏng vấn, bài giảng và âm thanh của người sáng tạo một cách nhanh chóng mà không cần lập trình khó khăn.",
+    "r1_text": "Tôi đã sử dụng nhiều chương trình chuyển đổi video sang MP3 nhưng đây là chương trình tốt nhất tôi từng sử dụng. Nó nhanh chóng và chất lượng âm thanh thực sự tuyệt vời.",
+    "r1_role": "Trình nghe podcast",
+    "r2_text": "Đây là một công cụ chuyển đổi YouTube sang MP3 tuyệt vời vì tôi chỉ cần một giải pháp đơn giản và không cần thực hiện từng bước phức tạp.",
+    "r2_role": "Điều phối viên Tiếp thị",
+    "r3_text": "Tôi thực sự ấn tượng với tốc độ chuyển đổi của nó; Tôi đã tải lên một tệp MP4 lớn và tải xuống MP3 trong vài giây.",
+    "r3_role": "Người sáng tạo trên YouTube",
+    "r4_text": "Tôi sẽ sử dụng công cụ chuyển đổi video Tiktok sang MP3 này hầu như mỗi ngày để chỉnh sửa dự án và nội dung mạng xã hội.",
+    "r4_role": "Trình chỉnh sửa video",
+    "r5_text": "Giao diện rõ ràng và dễ sử dụng và ngay cả học sinh của tôi cũng có thể sử dụng công cụ chuyển đổi video sang MP3 này.",
+    "r5_role": "Giảng viên trực tuyến",
+    "r6_text": "Đang tìm kiếm phần mềm tải xuống trình chuyển đổi video sang MP3 cho PC, nhưng công cụ trình duyệt này đã thay thế hoàn toàn phần mềm máy tính để bàn.",
+    "r6_role": "Nhà thiết kế tự do",
+    "r7_text": "Ghi âm bài giảng dưới dạng file audio sau đó chuyển sang MP3 để nghe khi di chuyển – giúp tôi tiết kiệm được rất nhiều thời gian học tập.",
+    "r7_role": "Sinh Viên Đại Học",
+    "r8_text": "Chuyển đổi các tệp dài mà không làm giảm chất lượng âm thanh, đây là công cụ chuyển đổi video sang âm thanh MP3 hoàn hảo cho podcast.",
+    "r8_role": "Nhà sản xuất âm thanh",
+    "r9_text": "Nhờ đó, mọi thứ hoạt động trực tiếp trong trình duyệt mà không cần bất kỳ tải xuống, quảng cáo hoặc bước thiết lập không cần thiết nào.",
+    "r9_role": "Nhà chiến lược nội dung",
+    "r10_text": "Công cụ chuyển đổi video sang MP3 trực tuyến này cực kỳ nhanh chóng và dễ sử dụng và tôi đã tải xuống thành công âm thanh từ video TikTok và nội dung mạng xã hội.",
+    "r10_role": "Quản lý truyền thông xã hội",
+    "r11_text": "Công cụ chuyển đổi video sang MP3 trực tuyến miễn phí này là một công cụ tuyệt vời giúp chuyển đổi video của tôi mà không gặp vấn đề gì và đã nâng cao chất lượng của chúng – hầu hết các công cụ đều làm điều ngược lại.",
+    "r11_role": "Chủ doanh nghiệp nhỏ",
+    "r12_text": "Tôi sử dụng công cụ chuyển đổi video YouTube sang MP3 miễn phí này để lưu các bài phát biểu và video hướng dẫn để nghe khi tôi ở phòng tập thể dục.",
+    "r12_role": "Huấn luyện viên thể hình",
+    "faq_title": "Câu hỏi thường gặp",
+    "faq_desc": "Tìm hiểu cách sử dụng VideoCompressorPro để chuyển đổi video sang âm thanh MP3 chất lượng cao.",
+    "q1": "Tập tin MP3 là gì?",
+    "a1": "MP3 là một trong những định dạng âm thanh phổ biến nhất cho âm nhạc, podcast, ghi âm giọng nói và nó có thể được nghe ngoại tuyến do kích thước nhỏ và chất lượng tốt.",
+    "q2": "Công cụ chuyển đổi video sang MP3 là gì?",
+    "a2": "Trình chuyển đổi video sang MP3 trực tuyến là một công cụ giúp xóa âm thanh khỏi tệp video và sau đó lưu trữ nó ở định dạng tệp âm thanh MP3, có thể phát trên trình phát đa phương tiện, điện thoại, máy tính bảng và máy tính xách tay.",
+    "q3": "Những định dạng video nào có sẵn?",
+    "a3": "Các định dạng video phổ biến được trình chuyển đổi Video-to-MP3 của chúng tôi hỗ trợ bao gồm MP4, MOV, AVI, MKV, WebM, MPEG và hơn thế nữa.",
+    "q4": "Âm thanh có bị méo trong quá trình chuyển đổi không?",
+    "a4": "Được tối ưu hóa để duy trì chất lượng âm thanh rõ ràng và cân bằng trong quá trình trích xuất, bộ chuyển đổi của chúng tôi lý tưởng cho âm nhạc, podcast, cuộc phỏng vấn và nội dung nói.",
+    "q5": "Có phần mềm nào cần phải cài đặt không?",
+    "a5": "Điều này sẽ không yêu cầu cài đặt. Không cần tải xuống ứng dụng hoặc ứng dụng máy tính để bàn phức tạp - nó hoạt động trực tiếp trong trình duyệt của bạn. Đây là một giải pháp tải xuống chuyển đổi video sang MP3 nhẹ thay thế cho PC.",
+    "q6": "Bạn có thể tải video lên trình chuyển đổi MP3 không?",
+    "a6": "Có, VideoCompressorPro được xử lý trong trình duyệt với mục đích duy trì quyền riêng tư và bảo mật cho tài liệu của bạn trong quá trình chuyển đổi.",
+    "q7": "Bạn có khả năng chuyển đổi hàng loạt video không?",
+    "a7": "Trình chuyển đổi có thể cần nhiều sức mạnh xử lý hơn tùy thuộc vào trình duyệt và thiết bị, tuy nhiên, trình chuyển đổi của chúng tôi được tối ưu hóa để thực hiện nhiều chuyển đổi.",
+    "q8": "Có bất kỳ hạn chế nào về kích thước tệp hoặc độ dài video không?",
+    "a8": "Kích thước tệp được hỗ trợ chủ yếu bị giới hạn bởi trình duyệt, bộ nhớ thiết bị và khả năng xử lý của bạn nhưng các video lớn được hỗ trợ trên các hệ thống hiện đại.",
+    "q9": "Có thể trích xuất âm thanh từ video YouTube không?",
+    "a9": "Có, trình chuyển đổi YouTube sang MP3 miễn phí của chúng tôi có thể trích xuất âm thanh từ các tệp video tương thích để sử dụng trong podcast, bài giảng, âm nhạc, cuộc phỏng vấn và nội dung của người sáng tạo.",
+    "q10": "Bộ chuyển đổi có thân thiện với thiết bị di động không?",
+    "a10": "Có, Trình chuyển đổi Web sang MP3 của chúng tôi tương thích với Android, iPhone, Máy tính bảng Android, iPad, máy tính xách tay hoặc trình duyệt mà không cần tải xuống bất kỳ phần mềm bổ sung nào.",
+    "q11": "Có cách nào để sử dụng âm thanh được trích xuất mà không cần internet không?",
+    "a11": "Tuyệt đối. Tệp MP3 của bạn đã được chuyển đổi, bạn có thể tải xuống và phát sau mà không cần internet!",
+    "q12": "Tại sao đây là một trong những video tốt nhất dành cho Bộ chuyển đổi MP3?",
+    "a12": "VideoCompressorPro là sự kết hợp giữa xử lý nhanh trong trình duyệt, xuất MP3 sạch, xử lý an toàn và các công cụ thân thiện với người dùng mà không cần đăng ký và phần mềm phức tạp.",
+    "q13": "Bạn đang tìm cách chuyển đổi video TikTok hoặc video mạng xã hội sang MP3?",
+    "a13": "Có, trình chuyển đổi video TikTok sang MP3 của chúng tôi có thể chuyển đổi video TikTok và video xã hội, hội thảo trên web, hướng dẫn, podcast và nhiều định dạng video khác sang MP3.",
+    "q14": "Bộ chuyển đổi video sang MP3 này có miễn phí không?",
+    "a14": "Có, bạn có thể sử dụng phiên bản đầy đủ trực tuyến miễn phí của chúng tôi để tải xuống trình chuyển đổi video sang MP3 miễn phí mà không phải trả phí ẩn hay bắt buộc phải đăng ký hay cài đặt phức tạp.",
+    "cta_title": "Trích xuất âm thanh có độ trung thực cao ngay lập tức."
   },
   "audio_cutter_page": {
     "hero_badge": "Chính xác · Không tải lên · Miễn phí 100%",
@@ -889,18 +933,42 @@
       "heroText": "Trình nén MP4 đáng tin cậy nhất thế giới. Thu nhỏ các tệp MP4 của bạn trong vài giây trong khi vẫn giữ được chất lượng 1080p/4K tuyệt vời.",
       "introText": "MP4 là định dạng video phổ biến nhất, nhưng các tệp độ phân giải cao có thể rất lớn. Công cụ nén thông minh của chúng tôi phân tích bitrate MP4 của bạn để đưa ra sự cân bằng hoàn hảo giữa kích thước tệp và độ rõ nét của hình ảnh.",
       "features": [
-        { "title": "Không Giảm Chất Lượng", "desc": "Mã hóa libx264 tiên tiến đảm bảo video MP4 của bạn luôn sắc nét." },
-        { "title": "Phát Được Mọi Nơi", "desc": "Các tệp MP4 đã nén hoạt động trên tất cả iPhone, Android và Smart TV." },
-        { "title": "Quyền Riêng Tư Là Trên Hết", "desc": "Tệp của bạn không bao giờ rời khỏi trình duyệt. Xử lý an toàn 100%." }
+        {
+          "title": "Không Giảm Chất Lượng",
+          "desc": "Mã hóa libx264 tiên tiến đảm bảo video MP4 của bạn luôn sắc nét."
+        },
+        {
+          "title": "Phát Được Mọi Nơi",
+          "desc": "Các tệp MP4 đã nén hoạt động trên tất cả iPhone, Android và Smart TV."
+        },
+        {
+          "title": "Quyền Riêng Tư Là Trên Hết",
+          "desc": "Tệp của bạn không bao giờ rời khỏi trình duyệt. Xử lý an toàn 100%."
+        }
       ],
       "steps": [
-        { "title": "Tải Lên MP4", "desc": "Kéo và thả tệp MP4 của bạn vào hộp nén." },
-        { "title": "Chọn Kích Thước", "desc": "Chọn dung lượng đầu ra mong muốn tính bằng MB." },
-        { "title": "Nén và Lưu", "desc": "Tải xuống video MP4 đã được tối ưu hóa ngay lập tức." }
+        {
+          "title": "Tải Lên MP4",
+          "desc": "Kéo và thả tệp MP4 của bạn vào hộp nén."
+        },
+        {
+          "title": "Chọn Kích Thước",
+          "desc": "Chọn dung lượng đầu ra mong muốn tính bằng MB."
+        },
+        {
+          "title": "Nén và Lưu",
+          "desc": "Tải xuống video MP4 đã được tối ưu hóa ngay lập tức."
+        }
       ],
       "faqs": [
-        { "q": "Video MP4 của tôi có bị mờ không?", "a": "Không, chúng tôi sử dụng các yếu tố tốc độ không đổi hiệu suất cao để duy trì tính toàn vẹn của hình ảnh." },
-        { "q": "Có giới hạn kích thước tệp không?", "a": "Bạn có thể nén các tệp MP4 lên đến 5GB miễn phí." }
+        {
+          "q": "Video MP4 của tôi có bị mờ không?",
+          "a": "Không, chúng tôi sử dụng các yếu tố tốc độ không đổi hiệu suất cao để duy trì tính toàn vẹn của hình ảnh."
+        },
+        {
+          "q": "Có giới hạn kích thước tệp không?",
+          "a": "Bạn có thể nén các tệp MP4 lên đến 5GB miễn phí."
+        }
       ]
     },
     "mov": {
@@ -910,18 +978,42 @@
       "heroText": "Các tệp Apple MOV nổi tiếng là có dung lượng lớn. Công cụ của chúng tôi tối ưu hóa bitrate MOV cho web mà không làm mất đi chất lượng đặc trưng của Apple.",
       "introText": "Các tệp QuickTime (MOV) được quay trên iPhone hoặc Mac thường chiếm hàng gigabyte dung lượng. Chúng tôi giúp bạn chuyển đổi và nén chúng ngay lập tức sang các định dạng hiệu quả, sẵn sàng cho web.",
       "features": [
-        { "title": "Tối Ưu Cho Apple", "desc": "Được tinh chỉnh đặc biệt cho các tệp ProRes và H.264 MOV có bitrate cao." },
-        { "title": "Sẵn Sàng Cho Web", "desc": "Biến các tệp MOV nặng nề thành các phiên bản nhẹ, sẵn sàng để phát trực tuyến." },
-        { "title": "Không Chờ Đợi", "desc": "Xử lý nhanh chóng ngay trên trình duyệt, không cần tải lên máy chủ." }
+        {
+          "title": "Tối Ưu Cho Apple",
+          "desc": "Được tinh chỉnh đặc biệt cho các tệp ProRes và H.264 MOV có bitrate cao."
+        },
+        {
+          "title": "Sẵn Sàng Cho Web",
+          "desc": "Biến các tệp MOV nặng nề thành các phiên bản nhẹ, sẵn sàng để phát trực tuyến."
+        },
+        {
+          "title": "Không Chờ Đợi",
+          "desc": "Xử lý nhanh chóng ngay trên trình duyệt, không cần tải lên máy chủ."
+        }
       ],
       "steps": [
-        { "title": "Nhập MOV", "desc": "Chọn tệp .mov từ máy Mac hoặc iPhone của bạn." },
-        { "title": "Điều Chỉnh Kích Thước", "desc": "Chọn dung lượng mục tiêu phù hợp với nhu cầu chia sẻ của bạn." },
-        { "title": "Xuất Video", "desc": "Lưu video đã nén của bạn chỉ trong vài giây." }
+        {
+          "title": "Nhập MOV",
+          "desc": "Chọn tệp .mov từ máy Mac hoặc iPhone của bạn."
+        },
+        {
+          "title": "Điều Chỉnh Kích Thước",
+          "desc": "Chọn dung lượng mục tiêu phù hợp với nhu cầu chia sẻ của bạn."
+        },
+        {
+          "title": "Xuất Video",
+          "desc": "Lưu video đã nén của bạn chỉ trong vài giây."
+        }
       ],
       "faqs": [
-        { "q": "Tôi có thể sử dụng công cụ này trên iPhone không?", "a": "Có, công cụ của chúng tôi hoàn toàn tương thích với Safari trên iOS để nén MOV." },
-        { "q": "Có hỗ trợ MOV 4K không?", "a": "Chắc chắn rồi, chúng tôi xử lý các tệp MOV 4K 60fps một cách dễ dàng." }
+        {
+          "q": "Tôi có thể sử dụng công cụ này trên iPhone không?",
+          "a": "Có, công cụ của chúng tôi hoàn toàn tương thích với Safari trên iOS để nén MOV."
+        },
+        {
+          "q": "Có hỗ trợ MOV 4K không?",
+          "a": "Chắc chắn rồi, chúng tôi xử lý các tệp MOV 4K 60fps một cách dễ dàng."
+        }
       ]
     },
     "video-for-whatsapp": {
@@ -931,18 +1023,42 @@
       "heroText": "Ngừng nhận lỗi 'Tệp quá lớn' trên WhatsApp. Nén video của bạn để vừa khít với giới hạn 16MB hoặc 64MB.",
       "introText": "WhatsApp có các giới hạn kích thước tệp nghiêm ngặt (16MB cho di động, 64MB cho web). Công cụ của chúng tôi tự động tối ưu hóa video của bạn để tuân thủ các giới hạn này trong khi vẫn giữ nội dung rõ nét.",
       "features": [
-        { "title": "Vượt Qua Giới Hạn", "desc": "Tự động đạt được mục tiêu chính xác 16MB hoặc 64MB cho WhatsApp." },
-        { "title": "Chia Sẻ Tức Thì", "desc": "Các tệp đã nén sẵn sàng để gửi ngay lập tức trên WhatsApp." },
-        { "title": "Thân Thiện Với Nhóm", "desc": "Tệp nhỏ hơn có nghĩa là tải lên và tải xuống nhanh hơn trong các cuộc trò chuyện nhóm của bạn." }
+        {
+          "title": "Vượt Qua Giới Hạn",
+          "desc": "Tự động đạt được mục tiêu chính xác 16MB hoặc 64MB cho WhatsApp."
+        },
+        {
+          "title": "Chia Sẻ Tức Thì",
+          "desc": "Các tệp đã nén sẵn sàng để gửi ngay lập tức trên WhatsApp."
+        },
+        {
+          "title": "Thân Thiện Với Nhóm",
+          "desc": "Tệp nhỏ hơn có nghĩa là tải lên và tải xuống nhanh hơn trong các cuộc trò chuyện nhóm của bạn."
+        }
       ],
       "steps": [
-        { "title": "Chọn Video", "desc": "Chọn video bạn muốn gửi trên WhatsApp." },
-        { "title": "Chọn Giới Hạn", "desc": "Đặt mục tiêu là 15MB để an toàn trên WhatsApp di động." },
-        { "title": "Tải Về và Gửi", "desc": "Chia sẻ video của bạn mà không có bất kỳ cảnh báo giới hạn nào." }
+        {
+          "title": "Chọn Video",
+          "desc": "Chọn video bạn muốn gửi trên WhatsApp."
+        },
+        {
+          "title": "Chọn Giới Hạn",
+          "desc": "Đặt mục tiêu là 15MB để an toàn trên WhatsApp di động."
+        },
+        {
+          "title": "Tải Về và Gửi",
+          "desc": "Chia sẻ video của bạn mà không có bất kỳ cảnh báo giới hạn nào."
+        }
       ],
       "faqs": [
-        { "q": "Giới hạn tệp của WhatsApp là bao nhiêu?", "a": "Giới hạn di động là 16MB, trong khi WhatsApp Web hỗ trợ lên đến 64MB." },
-        { "q": "Video có bị mờ không?", "a": "Không, chúng tôi tối ưu hóa độ phân giải để đảm bảo nó trông tuyệt vời trên màn hình điện thoại." }
+        {
+          "q": "Giới hạn tệp của WhatsApp là bao nhiêu?",
+          "a": "Giới hạn di động là 16MB, trong khi WhatsApp Web hỗ trợ lên đến 64MB."
+        },
+        {
+          "q": "Video có bị mờ không?",
+          "a": "Không, chúng tôi tối ưu hóa độ phân giải để đảm bảo nó trông tuyệt vời trên màn hình điện thoại."
+        }
       ]
     },
     "video-for-discord": {
@@ -952,18 +1068,42 @@
       "heroText": "Bạn mệt mỏi với các yêu cầu nâng cấp Discord Nitro? Nén các meme và clip của bạn để vừa với giới hạn miễn phí 8MB hoặc 25MB ngay lập tức.",
       "introText": "Giới hạn tải lên của Discord là nỗi ám ảnh của mọi game thủ. Cho dù bạn cần tệp 8MB cho người dùng miễn phí hay 25MB cho Nitro Basic, công cụ của chúng tôi đảm bảo các clip của bạn vẫn giữ được chất lượng cao.",
       "features": [
-        { "title": "Thân Thiện Với Nitro", "desc": "Cài đặt sẵn cho các giới hạn Discord 8MB, 25MB và 50MB." },
-        { "title": "Dành Cho Game Thủ", "desc": "Hoàn hảo cho các clip gameplay FPS cao từ OBS hoặc Shadowplay." },
-        { "title": "Tự Động Đổi Kích Thước", "desc": "Điều chỉnh kích thước để đảm bảo tệp vừa với giới hạn nhỏ của Discord." }
+        {
+          "title": "Thân Thiện Với Nitro",
+          "desc": "Cài đặt sẵn cho các giới hạn Discord 8MB, 25MB và 50MB."
+        },
+        {
+          "title": "Dành Cho Game Thủ",
+          "desc": "Hoàn hảo cho các clip gameplay FPS cao từ OBS hoặc Shadowplay."
+        },
+        {
+          "title": "Tự Động Đổi Kích Thước",
+          "desc": "Điều chỉnh kích thước để đảm bảo tệp vừa với giới hạn nhỏ của Discord."
+        }
       ],
       "steps": [
-        { "title": "Tải Lên Clip", "desc": "Kéo clip gameplay hoặc meme của bạn vào hộp." },
-        { "title": "Đặt Mục Tiêu 8MB", "desc": "Sử dụng thanh trượt để đạt chính xác mốc 8MB." },
-        { "title": "Chia Sẻ Trên Discord", "desc": "Đăng video của bạn lên bất kỳ kênh nào mà không cần Nitro." }
+        {
+          "title": "Tải Lên Clip",
+          "desc": "Kéo clip gameplay hoặc meme của bạn vào hộp."
+        },
+        {
+          "title": "Đặt Mục Tiêu 8MB",
+          "desc": "Sử dụng thanh trượt để đạt chính xác mốc 8MB."
+        },
+        {
+          "title": "Chia Sẻ Trên Discord",
+          "desc": "Đăng video của bạn lên bất kỳ kênh nào mà không cần Nitro."
+        }
       ],
       "faqs": [
-        { "q": "Giới hạn miễn phí của Discord là bao nhiêu?", "a": "Discord gần đây đã tăng giới hạn miễn phí lên 25MB cho hầu hết người dùng, nhưng 8MB vẫn an toàn hơn cho một số máy chủ." },
-        { "q": "Có hỗ trợ .webm không?", "a": "Có, chúng tôi khuyên dùng .webm cho Discord vì nó có khả năng nén tốt hơn cho kích thước nhỏ." }
+        {
+          "q": "Giới hạn miễn phí của Discord là bao nhiêu?",
+          "a": "Discord gần đây đã tăng giới hạn miễn phí lên 25MB cho hầu hết người dùng, nhưng 8MB vẫn an toàn hơn cho một số máy chủ."
+        },
+        {
+          "q": "Có hỗ trợ .webm không?",
+          "a": "Có, chúng tôi khuyên dùng .webm cho Discord vì nó có khả năng nén tốt hơn cho kích thước nhỏ."
+        }
       ]
     },
     "video-for-email": {
@@ -973,18 +1113,132 @@
       "heroText": "Gửi video qua email mà không cần sử dụng Google Drive hoặc Dropbox. Thu nhỏ các tệp của bạn để vừa với giới hạn đính kèm email 25MB.",
       "introText": "Hầu hết các nhà cung cấp email như Gmail và Outlook đều có giới hạn 25MB. Công cụ của chúng tôi tối ưu hóa video công việc hoặc clip gia đình của bạn để vừa khít trong một email.",
       "features": [
-        { "title": "Tương Thích Với Gmail", "desc": "Dưới mức giới hạn 25MB để đính kèm tệp mượt mà." },
-        { "title": "Chất Lượng Chuyên Nghiệp", "desc": "Giữ cho các bài thuyết trình và hướng dẫn công việc của bạn luôn sắc nét." },
-        { "title": "Đa Nền Tảng", "desc": "Hoạt động trên mọi trình duyệt, bao gồm cả Outlook và Yahoo Mail." }
+        {
+          "title": "Tương Thích Với Gmail",
+          "desc": "Dưới mức giới hạn 25MB để đính kèm tệp mượt mà."
+        },
+        {
+          "title": "Chất Lượng Chuyên Nghiệp",
+          "desc": "Giữ cho các bài thuyết trình và hướng dẫn công việc của bạn luôn sắc nét."
+        },
+        {
+          "title": "Đa Nền Tảng",
+          "desc": "Hoạt động trên mọi trình duyệt, bao gồm cả Outlook và Yahoo Mail."
+        }
       ],
       "steps": [
-        { "title": "Thêm Tệp Đính Kèm", "desc": "Chọn tệp video lớn bạn muốn gửi qua email." },
-        { "title": "Đặt Giới Hạn 24MB", "desc": "Nhắm mục tiêu 24MB để đảm bảo vừa với giới hạn email 25MB." },
-        { "title": "Đính Kèm và Gửi", "desc": "Tải tệp xuống và đính kèm trực tiếp vào email của bạn." }
+        {
+          "title": "Thêm Tệp Đính Kèm",
+          "desc": "Chọn tệp video lớn bạn muốn gửi qua email."
+        },
+        {
+          "title": "Đặt Giới Hạn 24MB",
+          "desc": "Nhắm mục tiêu 24MB để đảm bảo vừa với giới hạn email 25MB."
+        },
+        {
+          "title": "Đính Kèm và Gửi",
+          "desc": "Tải tệp xuống và đính kèm trực tiếp vào email của bạn."
+        }
       ],
       "faqs": [
-        { "q": "Giới hạn đính kèm của Gmail là bao nhiêu?", "a": "Gmail cho phép tối đa 25MB mỗi email. Nếu lớn hơn, nó sẽ buộc phải sử dụng liên kết Google Drive." },
-        { "q": "Tôi có thể thu nhỏ video bao nhiêu?", "a": "Thường thì chúng tôi có thể thu nhỏ video 200MB xuống còn 24MB mà vẫn giữ được chất lượng xem rất tốt." }
+        {
+          "q": "Giới hạn đính kèm của Gmail là bao nhiêu?",
+          "a": "Gmail cho phép tối đa 25MB mỗi email. Nếu lớn hơn, nó sẽ buộc phải sử dụng liên kết Google Drive."
+        },
+        {
+          "q": "Tôi có thể thu nhỏ video bao nhiêu?",
+          "a": "Thường thì chúng tôi có thể thu nhỏ video 200MB xuống còn 24MB mà vẫn giữ được chất lượng xem rất tốt."
+        }
+      ]
+    },
+    "youtube": {
+      "title": "Nén video cho YouTube trực tuyến - Trình tối ưu hóa YouTube nhanh",
+      "description": "Nén video cho YouTube trực tuyến miễn phí. Giảm kích thước video trong khi vẫn duy trì chất lượng 1080p và 4K HD. Tải lên nhanh hơn mà không bị chậm trễ khi xử lý.",
+      "h1": "Trình nén video YouTube nhanh",
+      "heroText": "Tải lên YouTube trong vài giây. Nén video 1080p và 4K của bạn trong khi vẫn giữ được chất lượng hình ảnh có độ trung thực cao.",
+      "introText": "YouTube xử lý các lượt tải video lớn lên nhưng các tệp nặng có thể khiến quá trình xử lý bị treo và thời gian chờ đợi vô tận. Trình tối ưu hóa thông minh của chúng tôi giúp giảm kích thước tệp mà không làm mất độ phân giải hoặc độ chính xác của màu sắc.",
+      "features": [
+        {
+          "title": "Không giảm chất lượng",
+          "desc": "Tính năng nén libx264 nâng cao duy trì hình ảnh rõ nét của bạn."
+        },
+        {
+          "title": "Xử lý nhanh",
+          "desc": "Xử lý trình duyệt cục bộ có nghĩa là không có thời gian chờ đợi của máy chủ."
+        },
+        {
+          "title": "Quyền riêng tư đầu tiên",
+          "desc": "Video của bạn không bao giờ rời khỏi trình duyệt của bạn. An toàn 100%."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Tải Video lên",
+          "desc": "Kéo và thả tệp video MP4, MOV hoặc WebM của bạn."
+        },
+        {
+          "title": "Chọn Độ phân giải",
+          "desc": "Chọn 1080p hoặc 4K để luôn được tối ưu hóa cho YouTube."
+        },
+        {
+          "title": "Nén và tải xuống",
+          "desc": "Chuẩn bị sẵn video nhẹ của bạn để tải lên ngay lập tức."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Điều này có làm giảm chất lượng YouTube của tôi không?",
+          "a": "Không, công cụ của chúng tôi nén tệp mà không làm mất độ phân giải, vì vậy YouTube sẽ xử lý tệp ở chế độ HD/4K."
+        },
+        {
+          "q": "Có an toàn khi sử dụng không?",
+          "a": "Có, tất cả quá trình xử lý được thực hiện bên trong trình duyệt của bạn, đảm bảo quyền riêng tư hoàn toàn."
+        }
+      ]
+    },
+    "tiktok": {
+      "title": "Nén video cho TikTok trực tuyến - Thu nhỏ video cho TikTok",
+      "description": "Nén video cho TikTok trực tuyến miễn phí. Tối ưu hóa video dọc 9:16 để phù hợp hoàn hảo với các nguyên tắc của TikTok. Giữ video của bạn sắc nét cho FYP.",
+      "h1": "Máy nén video TikTok",
+      "heroText": "Làm cho video của bạn nổi bật trên FYP. Nén các clip dọc để tải lên TikTok ngay lập tức mà không có độ trễ.",
+      "introText": "TikTok ưa thích các video dọc có tốc độ tải nhanh, chất lượng cao. Trình nén của chúng tôi sẽ thu nhỏ các tệp MP4 và MOV của bạn để phù hợp với các nguyên tắc dành cho thiết bị di động của TikTok trong khi vẫn giữ cho các phần chuyển tiếp và văn bản trở nên sắc nét hoàn hảo.",
+      "features": [
+        {
+          "title": "9:16 Tối ưu hóa",
+          "desc": "Hoàn hảo cho các clip dọc, Câu chuyện trên Instagram và Video ngắn."
+        },
+        {
+          "title": "Chất lượng FYP",
+          "desc": "Giữ độ phân giải video sắc nét để tránh nén TikTok bị mờ."
+        },
+        {
+          "title": "Máy chủ không bị lag",
+          "desc": "Không tải lên cơ sở dữ liệu bên ngoài, quá trình xử lý hoàn tất ngay lập tức."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Chọn Video",
+          "desc": "Chọn video dọc của bạn từ điện thoại hoặc PC."
+        },
+        {
+          "title": "Đặt nguyên tắc",
+          "desc": "Tối ưu hóa tốc độ bit của bạn để tải TikTok nhanh."
+        },
+        {
+          "title": "Lưu & Chia sẻ",
+          "desc": "Tải video nén và đăng lên TikTok ngay lập tức."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "TikTok có nén video không?",
+          "a": "Có, TikTok nén các tệp khi tải lên nhưng việc nén chúng trước bằng công cụ của chúng tôi sẽ tránh được kết quả bị mờ."
+        },
+        {
+          "q": "Định dạng nào là tốt nhất cho TikTok?",
+          "a": "MP4 và MOV ở tỷ lệ khung hình dọc 9:16 là các định dạng lý tưởng cho TikTok."
+        }
       ]
     }
   }

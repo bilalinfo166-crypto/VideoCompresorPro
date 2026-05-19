@@ -564,68 +564,112 @@
     "cta_title": "Videó átméretezése most."
   },
   "to_mp3_page": {
-    "hero_badge": "High Fidelity · Nincs feltöltés · 100% Ingyenes",
-    "hero_title": "Online videó MP3 konvertáló",
-    "hero_subtitle": "Nyerjen ki kiváló minőségű hangsávokat videóiból azonnal. Biztonságos és privát.",
-    "visualizer_title": "A legjobb konvertáló",
-    "visualizer_desc": "Stúdiószintű kinyerési pontosság közvetlenül a böngészőjében.",
+    "hero_badge": "High Fidelity • Nincs feltöltés • 100%-ban ingyenes",
+    "hero_title": "Online Video to MP3 Converter",
+    "hero_subtitle": "Online videó MP3 konvertálónk ingyenes és biztonságos, lehetővé téve, hogy pillanatok alatt hangsávokat kapjon a videókból. Online videó MP3 konvertáló, amely a legjobban működik zenéhez, podcastokhoz, interjúkhoz, előadásokhoz, hangklipekhez és közösségi médiához.",
+    "visualizer_title": "Legjobb Video MP3 konverter",
+    "visualizer_desc": "A VideoCompressorPro egy könnyen használható videokonvertáló, amely tökéletes a kezdők számára, függetlenül attól, hogy YouTube-videót konvertál MP3-ba, TikTok-videót MP3-ba, vagy keres egy olyan videó konvertálót MP3-ba, amely jól működik az Ön számára. Online video MP3 konverterünk lehetővé teszi, hogy videókat azonnal és kiváló minőségben MP3 audio fájlokká konvertáljon. Gyorsan kivonhatja a hangot a YouTube-videóklipekből, TikTok-videókból, podcastokból, webináriumokból és felvételekből közvetlenül a böngészőből a legjobb videó MP3 konverterrel, hogy másodpercek alatt megkapja a hangot.",
     "visualizer_label": "Kimeneti formátum",
-    "visualizer_format": "Kiváló minőségű MP3 (320kbps)",
-    "features_title": "Elit kinyerés",
-    "f1_title": "High Fidelity",
-    "f1_desc": "Akár 320kbps bitráta támogatása a kristálytiszta hangzásért.",
-    "f2_title": "Teljes adatvédelem",
-    "f2_desc": "Helyi feldolgozás. Fájljai soha nem jutnak el hozzánk.",
-    "f3_title": "Azonnali letöltés",
-    "f3_desc": "Nincs várakozás. Kapja meg a hangot közvetlenül a kinyerés után.",
-    "f4_title": "Változatos formátumok",
-    "f4_desc": "MP4, MOV, AVI fájlok MP3, WAV vagy OGG formátumba konvertálása maximális odafigyeléssel.",
-    "f5_title": "Kötegelve",
-    "f5_desc": "Konvertáljon több videót lejátszási listává másodpercek alatt.",
-    "f6_title": "Nincs szükség fiókra",
-    "f6_desc": "Teljes hozzáférés regisztráció vagy zavaró hirdetések nélkül.",
-    "steps_title": "Hogyan kell konvertálni",
-    "s1_title": "Feltöltés",
-    "s1_desc": "Válasszon videófájlt bármilyen népszerű formátumban.",
-    "s2_title": "Konfigurálás",
-    "s2_desc": "Válassza ki a bitrátát és a kívánt kimeneti formátumot.",
-    "s3_title": "Kinyerés",
-    "s3_desc": "Válassza szét a hangot sebészi pontossággal azonnal.",
-    "s4_title": "Mentés",
-    "s4_desc": "Töltse le biztonságosan a helyben feldolgozott MP3 fájlját.",
-    "reviews_title": "Szakemberek által használt",
-    "r1_text": "Tökéletes hangzás még stúdiómonitorokon is. Kiváló.",
-    "r1_role": "Zenei producer",
-    "r2_text": "I use it to get clean audio for my podcasts from video interviews. It's consistently very reliable.",
-    "r2_role": "Professional Podcaster",
-    "r3_text": "Extremely fast extraction. I converted 10 long videos in a minute. The speed is unmatched.",
-    "r3_role": "Graduate Student",
-    "r4_text": "No distortion at all. The LAME encoder implementation here works wonders for audio fidelity.",
-    "r4_role": "Audio Engineer",
-    "r5_text": "Privacy first - my videos aren't uploaded to convert. This is essential for my sensitive interview data.",
-    "r5_role": "Investigative Journalist",
-    "r6_text": "Best way to get high-quality MP3s from my own YouTube backups. Simple, clean, and perfect.",
-    "r6_role": "Content Creator",
-    "r7_text": "Simple, clean, and no annoying ads or popups. A rare find in the world of online conversion tools.",
-    "r7_role": "Creative Freelancer",
-    "r8_text": "Supports all formats. Converted my old MKV home videos to MP3 to listen in the car easily.",
-    "r8_role": "Tech Enthusiast",
-    "r9_text": "The batch processing feature is a life-saver for my sound effects library.",
-    "r9_role": "Game Developer",
-    "r10_text": "Studio-grade audio extraction in seconds. It's my go-to tool for video sound design.",
-    "r10_role": "Sound Designer",
-    "r11_text": "Crystal clear MP3 extraction every time. I use it for my sample library and it never fails.",
-    "r11_role": "Audio Producer",
-    "r12_text": "Fastest conversion I've seen. No more waiting for servers to process my files.",
-    "r12_role": "Creative Director",
-    "faq_title": "GYIK",
-    "q1": "Hogyan kell kinyerni?",
-    "a1": "Töltse be a videót és kattintson a 'Hang kinyerése' gombra. Ennyi!",
-    "q2": "Ingyenes?",
-    "a2": "Igen, 100% ingyenes és korlátlan.",
-    "q3": "Melyik bitráta a legjobb?",
-    "a3": "320kbps a max minőséghez; 128kbps a helymegtakarításhoz.",
-    "cta_title": "Hang kinyerése most."
+    "visualizer_format": "Kiváló minőségű MP3 (320 kbps)",
+    "features_title": "Speciális hangkivonási szolgáltatások",
+    "features_desc": "Renderelje le a videót kiváló minőségű MP3 hangfájlba gyors, tiszta és modern böngészőalapú webtechnológiával az alkotók, hallgatók és szakemberek számára.",
+    "f1_title": "Stúdió minőségű MP3 kimenet",
+    "f1_desc": "Kifinomult online videokonvertáló MP3-ba eszközünk tökéletes a kiegyensúlyozott és kiemelkedő hang kinyerésére videókból optimalizált hangminőséggel, amely alkalmas zenéhez, podcastokhoz, interjúkhoz, webináriumokhoz és hangrögzítéshez.\n\nKIVÁLÓ MINŐSÉG • TISZTA HANG • MP3 EXPORT",
+    "f2_title": "Biztonságos böngésző alapú átalakítás",
+    "f2_desc": "A feldolgozás során a fájlok bizalmasak maradnak. Az online videó MP3 konverterhez nem kell semmit letöltenie, és nem igényel harmadik féltől származó alkalmazásokat sem.\n\nPrivát, biztonságos, helyi feldolgozás.",
+    "f3_title": "Villámgyors hangletöltések",
+    "f3_desc": "Az ingyenesen letölthető videó MP3 konverter teljes verziójának online élményét arra tervezték, hogy a videofájlokat másodpercek alatt MP3 formátumba konvertálja, és a hangot az eszközére mentse offline hallgatáshoz, szerkesztéshez, streaminghez vagy tartalomkészítéshez.\n\nGYORS FELDOLGOZÁS • GYORS LETÖLTÉSEK",
+    "f4_title": "Támogatja a legnépszerűbb videó formátumokat.",
+    "f4_desc": "Konvertálja a videókat MP3 formátumba MP4, MOV, AVI, MKV, WebM és más népszerű videoformátumok segítségével a videó konvertáló eszközünkkel MP3-ba.\n\nMP4 • MOV • AVI • WEBM",
+    "f5_title": "Kifejezetten tartalomkészítők számára készült",
+    "f5_desc": "Könnyedén és megbízhatóan konvertálhat YouTube-videókat, TikTok-videókat, webináriumokat, oktatóanyagokat, podcastokat és alkotói tartalmakat MP3 formátumba YouTube-videóinkkal MP3-ba konvertálónkkal.\n\nYOUTUBE • TIKTOK • PODCASTOK",
+    "f6_title": "Ingyenes és könnyen használható",
+    "f6_desc": "Szerezzen ki hangot bármely böngészőből bonyolult szoftver, rejtett díjak, regisztrációk vagy vízjel korlátozások nélkül. Ingyenes azonnali videó MP3 konverterünk van, amely mobil eszközökön és asztali számítógépeken is fut.\n\nTELEPÍTÉS NINCS • INGYENES • KEZDŐ BARÁT",
+    "steps_title": "Videók konvertálása kiváló minőségű MP3 formátumba másodpercek alatt",
+    "steps_desc": "Videó MP3 audio konverterünk gyors és biztonságos, lehetővé téve a hang gyors kinyerését a videóból. Nincs bonyolult szoftver, nincs szerkesztési tapasztalat és nincs hosszú várakozási idő.",
+    "s1_title": "Videó importálása",
+    "s1_desc": "Húzza át vagy válasszon videofájl(oka)t az ingyenes videó MP3 konverterünkben, hogy közvetlenül az eszközbe töltse fel.\n\nGYORS FELTÖLTÉS • TÖBB FORMÁTUM",
+    "s2_title": "Kiváló minőségű hang kinyerése",
+    "s2_desc": "Válasszon MP3 kimeneti formátumokat, és ingyenes videó MP3 konverterünk segítségével azonnal konvertálja a videót tiszta hanggá, amely zenére, podcastokra, hangfelvételekre, interjúkra és alkotói tartalmakra optimalizált.\n\nMP3 kimenet – minőségi hang",
+    "s3_title": "Mentés és használat bárhol",
+    "s3_desc": "Mentse el MP3 fájlját közvetlenül a konvertálás után, és játssza le offline módban, szerkesszen projekteket, készítsen prezentációkat vagy tegye közzé a közösségi médiában. Videó MP3 konverterünk PC-re egy böngésző alapú letöltés, amely nincs telepítve a számítógépre.\n\nAZONNALI LETÖLTÉS • NINCS SZÜKSÉG SZOFTVERRE",
+    "use_cases_title": "Valós módok, ahogyan az emberek használják Video MP3 konverterünket",
+    "use_cases_desc": "Legyen szó zenerajongókról, diákokról, alkotókról vagy üzleti csapatokról, az online videó MP3 konvertálónk célja, hogy a videotartalmat hordozható, kiváló minőségű hangfájlokká alakítsa, amelyeket lejátszási listákban, szerkesztésben, tanulásban és megosztásban használhat.",
+    "u1_title": "Zene és élő előadások mentése MP3 formátumban",
+    "u1_desc": "Használja konverterünket a koncertfelvételek, zenei videók, DJ szettek és élő előadások konvertálásához kiváló minőségű MP3 hanggá, hogy bármikor offline hallgathasson.",
+    "u1_tags": "ZENE • ÉLŐ MŰSOROK • LEJÁTSZÁSI LISTÁK",
+    "u2_title": "Hallgassa meg a podcastokat bárhol",
+    "u2_desc": "Konvertálja a podcast videókat MP3 formátumba, hogy lejátszhassa őket ingázás közben, az irodában, edzés közben, vagy olvasás és tanulás közben. Lejátszhatja a podcast videók hangját anélkül, hogy bármilyen szoftvert megnyitna a videó MP3 konverterünk ingyenesen letölthető teljes verziójával.",
+    "u2_tags": "PODCASTOK • INTERJÚK • CSAK AUDIO",
+    "u3_title": "Alakítsa át az oktatási videókat hangleckékké.",
+    "u3_desc": "Változtassa át az oktatóanyagokat, a rögzített előadásokat, a tréningeket és az oktatóvideókat MP3 formátumba, hogy útközben bármikor tanulhasson biztonságos, telepítést nem igénylő, PC-re letölthető videó MP3 konverterünkkel.",
+    "u3_tags": "ELŐADÁSOK • TANFOLYAMOK • TANULMÁNYI AUDIO",
+    "u4_title": "Hang másolása projektek szerkesztéséhez.",
+    "u4_desc": "Használja online videó MP3 konvertálónkat, hogy elválaszthassa a hangsávokat a videóktól hangfelvételek, remixelés, podcast szerkesztés, prezentációk és utómunkálatok céljából.",
+    "u4_tags": "SZERKESZTÉS • TARTALOMKÉSZÍTÉS • GYÁRTÁS",
+    "u5_title": "Készítsen hangot a közösségi média videókból.",
+    "u5_desc": "Böngésző alapú TikTok videó MP3 konverterünkkel és ingyenes YouTube videó MP3 konverterünkkel pár másodperc alatt kivonhatja a hangot tiktok videókból, YouTube videókból, rövidfilmekből és közösségi médiából.",
+    "u5_tags": "TIKTOK • YOUTUBE • RÖVID TARTALOM",
+    "u6_title": "Motivációs és beszédhang mentése",
+    "u6_desc": "Konvertálja a videót audio MP3 formátumba gyors videó MP3 audió konverterünkkel, hogy offline hallgathasson beszédeket, motivációs videókat, szemináriumokat és személyes fejlődési anyagokat.",
+    "u6_tags": "BESZÉDEK • MOTIVÁCIÓ • OFFLINE AUDIO",
+    "reviews_title": "Alkotók, hallgatók és mindennapi felhasználók megbíznak benne",
+    "reviews_desc": "Online video-MP3 konverterünket sokan naponta használják zenék, podcastok, interjúk, előadások és alkotói hanganyag gyors, programozási kihívások nélküli rippelésére.",
+    "r1_text": "Számos videó MP3 konvertáló programot használtam, de ez a legjobb, amit valaha használtam. Gyors és a hangminőség is nagyon jó.",
+    "r1_role": "Podcast-hallgató",
+    "r2_text": "Ez egy nagyszerű YouTube-MP3 konverter, mivel csak egy egyszerű megoldásra volt szükségem, és nem kellett bonyolult lépésről lépésre csinálnom.",
+    "r2_role": "Marketing koordinátor",
+    "r3_text": "Nagyon lenyűgözött, hogy milyen gyorsan átalakult; Feltöltöttem egy nagy MP4 fájlt, és másodpercek alatt letöltöttem az MP3-at.",
+    "r3_role": "YouTube Alkotó",
+    "r4_text": "Szinte minden nap használnám ezt a Tiktok videót MP3-ba konvertáló projektek szerkesztéséhez és közösségi média tartalmakhoz.",
+    "r4_role": "Videószerkesztő",
+    "r5_text": "Tiszta és könnyen használható felület, és még a diákjaim is használhatják ezt a videó konvertáló MP3 eszközt.",
+    "r5_role": "Online oktató",
+    "r6_text": "Videó MP3 konverter letöltést keresek PC-re, de ez a böngészőeszköz teljesen átvette az asztali szoftver helyét.",
+    "r6_role": "Szabadúszó tervező",
+    "r7_text": "Hangfájlként rögzítettem az előadásokat, majd MP3 formátumba konvertáltam, hogy ingázás közben is meghallgathassam – sok tanulási időt megspóroltam.",
+    "r7_role": "Egyetemi hallgató",
+    "r8_text": "Hosszú fájlok konvertálása a hangminőség elvesztése nélkül, tökéletes videó MP3 audio konvertáló podcastokhoz.",
+    "r8_role": "Audio producer",
+    "r9_text": "Ennek köszönhetően minden közvetlenül a böngészőben működik, felesleges letöltések, hirdetések vagy beállítási lépések nélkül.",
+    "r9_role": "Tartalomszakértő",
+    "r10_text": "Ez az online videó MP3 konvertáló rendkívül gyors és könnyen használható, és sikeresen letöltöttem a hangot a TikTok videókból és a közösségi média tartalmakból.",
+    "r10_role": "Social Media Manager",
+    "r11_text": "Ez az ingyenes online videó MP3 konvertáló nagyszerű eszköz, amely probléma nélkül konvertálja a videóimat, és javítja azok minőségét – a legtöbb eszköz ennek az ellenkezőjét teszi.",
+    "r11_role": "Kisvállalkozás tulajdonosa",
+    "r12_text": "Ezzel az ingyenes YouTube-videó MP3 konverterrel beszédeket és útmutató videókat menthetek, amelyeket meghallgathatok, amikor az edzőteremben vagyok.",
+    "r12_role": "Fitness edző",
+    "faq_title": "Gyakran Ismételt Kérdések",
+    "faq_desc": "Tanulja meg a VideoCompressorPro használatával videókat kiváló minőségű MP3 hanggá konvertálni.",
+    "q1": "Mi az MP3 fájl?",
+    "a1": "Az MP3 az egyik legelterjedtebb zenei, podcast- és hangfelvételi hangformátum, amely kis méretének és jó minőségének köszönhetően offline is hallgatható.",
+    "q2": "Mi az a videó MP3 konverter?",
+    "a2": "Az online video-MP3 konverter egy olyan eszköz, amely segít eltávolítani a hangot egy videofájlból, majd MP3 audiofájl formátumban tárolja, amely lejátszható médialejátszókon, telefonokon, táblagépeken és laptopokon.",
+    "q3": "Milyen videoformátumok érhetők el?",
+    "a3": "A Video-MP3 konverter által támogatott népszerű videoformátumok közé tartozik az MP4, MOV, AVI, MKV, WebM, MPEG és még sok más.",
+    "q4": "A hang torz lesz az átalakítás során?",
+    "a4": "A kinyerés során a tiszta és kiegyensúlyozott hangminőség megőrzésére optimalizált konverterünk ideális zenéhez, podcastokhoz, interjúkhoz és beszélt tartalmakhoz.",
+    "q5": "Van olyan szoftver amit telepíteni kell?",
+    "a5": "Ez nem igényel telepítést. Nincs szükség alkalmazások vagy összetett asztali alkalmazások letöltésére – közvetlenül a böngészőben működik. Ez egy alternatív, könnyű videó MP3 konverter letöltése PC-re.",
+    "q6": "Tudsz videókat feltölteni MP3 konverterre?",
+    "a6": "Igen, a VideoCompressorPro feldolgozása a böngészőben történik azzal a céllal, hogy a konvertálási folyamat során megőrizze dokumentumai adatvédelmét és biztonságát.",
+    "q7": "Lehetőséged van videók kötegelt konvertálására?",
+    "a7": "A konverternek a böngészőtől és az eszköztől függően több feldolgozási teljesítményre lehet szüksége, azonban a konverterünk több konverzió elvégzésére van optimalizálva.",
+    "q8": "Vannak korlátozások a fájl méretére vagy a videó hosszára?",
+    "a8": "A támogatott fájlméretet elsősorban a böngésző, az eszköz memóriája és a feldolgozási teljesítmény korlátozza, de a nagyméretű videókat a modern rendszerek támogatják.",
+    "q9": "Ki lehet kinyerni a hangot a YouTube videókból?",
+    "a9": "Igen, ingyenes YouTube-MP3 konverterünk képes kivonni a hangot a kompatibilis videofájlokból podcastokhoz, előadásokhoz, zenéhez, interjúkhoz és alkotói tartalmakhoz.",
+    "q10": "Mobilbarát az átalakító?",
+    "a10": "Igen, a Web to MP3 Converter kompatibilis Androiddal, iPhone-nal, Android táblagéppel, iPaddel, laptoppal vagy böngészővel további szoftver letöltése nélkül.",
+    "q11": "Van-e mód a kivont hanganyag használatára internet nélkül?",
+    "a11": "Teljesen. Az MP3 fájl konvertálva van, letöltheti, és később internet nélkül is lejátszhatja!",
+    "q12": "Miért ez az egyik legjobb videó az MP3 konverterekhez?",
+    "a12": "A VideoCompressorPro a gyors böngészőben történő feldolgozás, a tiszta MP3 export, a biztonságos kezelés és a felhasználóbarát eszközök kombinációja bonyolult szoftver és előfizetés nélkül.",
+    "q13": "Módot keresel a TikTok vagy a közösségi média videók MP3 formátumba konvertálására?",
+    "a13": "Igen, a TikTok videó MP3 konvertálónk képes TikTok videókat és közösségi videókat, webináriumokat, oktatóanyagokat, podcastokat és sok más videóformátumot MP3 formátummá konvertálni.",
+    "q14": "Ez a videó MP3 konverter ingyenes?",
+    "a14": "Igen, használhatja videó MP3 konverterünket, ingyenesen letöltheti a teljes verziót online ingyen, rejtett költségek, kényszerregisztráció vagy bonyolult telepítés nélkül.",
+    "cta_title": "Azonnal bontsa ki a High-Fidelity hangot."
   },
   "audio_cutter_page": {
     "hero_badge": "Pontosság · Nincs feltöltés · 100% Ingyenes",
@@ -889,18 +933,42 @@
       "heroText": "A világ legmegbízhatóbb MP4 tömörítője. Zsugorítsa össze MP4 fájljait másodpercek alatt, miközben megőrzi a lenyűgöző 1080p/4K minőséget.",
       "introText": "Az MP4 a legnépszerűbb videóformátum, de a nagy felbontású fájlok hatalmasak lehetnek. Intelligens tömörítőmotorunk elemzi az MP4 bitrátáját, hogy tökéletes egyensúlyt kínáljon a fájlméret és a vizuális tisztaság között.",
       "features": [
-        { "title": "Minőségromlás Nélkül", "desc": "A fejlett libx264 kódolás biztosítja, hogy az MP4 éles maradjon." },
-        { "title": "Univerzális Lejátszás", "desc": "A tömörített MP4-ek minden iPhone-on, Androidon és Smart TV-n működnek." },
-        { "title": "Adatvédelem Előtérben", "desc": "Fájljai soha nem hagyják el a böngészőt. 100% biztonságos feldolgozás." }
+        {
+          "title": "Minőségromlás Nélkül",
+          "desc": "A fejlett libx264 kódolás biztosítja, hogy az MP4 éles maradjon."
+        },
+        {
+          "title": "Univerzális Lejátszás",
+          "desc": "A tömörített MP4-ek minden iPhone-on, Androidon és Smart TV-n működnek."
+        },
+        {
+          "title": "Adatvédelem Előtérben",
+          "desc": "Fájljai soha nem hagyják el a böngészőt. 100% biztonságos feldolgozás."
+        }
       ],
       "steps": [
-        { "title": "MP4 Feltöltése", "desc": "Húzza be az MP4 fájlt a tömörítő dobozba." },
-        { "title": "Méret Kiválasztása", "desc": "Válassza ki a kívánt kimeneti méretet MB-ban." },
-        { "title": "Tömörítés és Mentés", "desc": "Töltse le azonnal az optimalizált MP4-et." }
+        {
+          "title": "MP4 Feltöltése",
+          "desc": "Húzza be az MP4 fájlt a tömörítő dobozba."
+        },
+        {
+          "title": "Méret Kiválasztása",
+          "desc": "Válassza ki a kívánt kimeneti méretet MB-ban."
+        },
+        {
+          "title": "Tömörítés és Mentés",
+          "desc": "Töltse le azonnal az optimalizált MP4-et."
+        }
       ],
       "faqs": [
-        { "q": "Fogni fog az MP4 minősége?", "a": "Nem, nagy hatékonyságú állandó bitrátát használunk a vizuális integritás megőrzéséhez." },
-        { "q": "Van méretkorlát?", "a": "Ingyenesen akár 5 GB-os MP4 fájlokat is tömöríthet." }
+        {
+          "q": "Fogni fog az MP4 minősége?",
+          "a": "Nem, nagy hatékonyságú állandó bitrátát használunk a vizuális integritás megőrzéséhez."
+        },
+        {
+          "q": "Van méretkorlát?",
+          "a": "Ingyenesen akár 5 GB-os MP4 fájlokat is tömöríthet."
+        }
       ]
     },
     "mov": {
@@ -910,18 +978,42 @@
       "heroText": "Az Apple MOV fájlok köztudottan hatalmasak. Eszközünk optimalizálja a MOV bitrátáját a webhez, anélkül, hogy feláldozná az Apple jellegzetes minőségét.",
       "introText": "Az iPhone-on vagy Mac-en rögzített QuickTime (MOV) fájlok gyakran gigabájtokat foglalnak el. Segítünk azonnal átalakítani és tömöríteni őket hatékony, webkész formátumokba.",
       "features": [
-        { "title": "Apple-re Optimalizálva", "desc": "Kifejezetten a nagy bitrátájú ProRes és H.264 MOV fájlokhoz hangolva." },
-        { "title": "Webkész", "desc": "Alakítsa át a súlyos MOV-okat könnyű, streaming-barát verziókká." },
-        { "title": "Zéró Várakozás", "desc": "Gyors böngésző alapú feldolgozás, nincs szükség szerverre való feltöltésre." }
+        {
+          "title": "Apple-re Optimalizálva",
+          "desc": "Kifejezetten a nagy bitrátájú ProRes és H.264 MOV fájlokhoz hangolva."
+        },
+        {
+          "title": "Webkész",
+          "desc": "Alakítsa át a súlyos MOV-okat könnyű, streaming-barát verziókká."
+        },
+        {
+          "title": "Zéró Várakozás",
+          "desc": "Gyors böngésző alapú feldolgozás, nincs szükség szerverre való feltöltésre."
+        }
       ],
       "steps": [
-        { "title": "MOV Importálása", "desc": "Válassza ki a .mov fájlt Mac-ről vagy iPhone-ról." },
-        { "title": "Méret Beállítása", "desc": "Válasszon a megosztási igényeinek megfelelő célméretet." },
-        { "title": "Exportálás", "desc": "Mentse el a tömörített videót másodpercek alatt." }
+        {
+          "title": "MOV Importálása",
+          "desc": "Válassza ki a .mov fájlt Mac-ről vagy iPhone-ról."
+        },
+        {
+          "title": "Méret Beállítása",
+          "desc": "Válasszon a megosztási igényeinek megfelelő célméretet."
+        },
+        {
+          "title": "Exportálás",
+          "desc": "Mentse el a tömörített videót másodpercek alatt."
+        }
       ],
       "faqs": [
-        { "q": "Használhatom ezt iPhone-on?", "a": "Igen, eszközünk teljes mértékben kompatibilis az iOS Safari böngészőjével MOV tömörítéshez." },
-        { "q": "Támogatja a 4K MOV-ot?", "a": "Természetesen, a 4K 60fps MOV fájlokat is könnyedén kezeljük." }
+        {
+          "q": "Használhatom ezt iPhone-on?",
+          "a": "Igen, eszközünk teljes mértékben kompatibilis az iOS Safari böngészőjével MOV tömörítéshez."
+        },
+        {
+          "q": "Támogatja a 4K MOV-ot?",
+          "a": "Természetesen, a 4K 60fps MOV fájlokat is könnyedén kezeljük."
+        }
       ]
     },
     "video-for-whatsapp": {
@@ -931,18 +1023,42 @@
       "heroText": "Felejtse el a 'Fájl túl nagy' hibaüzenetet a WhatsApp-on. Tömörítse videóit, hogy tökéletesen illeszkedjenek a 16 MB-os vagy 64 MB-os korlátba.",
       "introText": "A WhatsApp szigorú fájlméret-korlátokkal rendelkezik (16 MB mobilra, 64 MB webre). Eszközünk automatikusan optimalizálja a videót, hogy megfeleljen ezeknek a korlátoknak, miközben a tartalom tiszta marad.",
       "features": [
-        { "title": "Korlátok Kijátszása", "desc": "Automatikusan elérheti a pontos 16 MB-os vagy 64 MB-os célt a WhatsApp-hoz." },
-        { "title": "Azonnali Megosztás", "desc": "A tömörített fájlok készen állnak az azonnali WhatsApp továbbításra." },
-        { "title": "Csoportbarát", "desc": "A kisebb fájlok gyorsabb feltöltést és letöltést jelentenek a csoportos beszélgetésekben." }
+        {
+          "title": "Korlátok Kijátszása",
+          "desc": "Automatikusan elérheti a pontos 16 MB-os vagy 64 MB-os célt a WhatsApp-hoz."
+        },
+        {
+          "title": "Azonnali Megosztás",
+          "desc": "A tömörített fájlok készen állnak az azonnali WhatsApp továbbításra."
+        },
+        {
+          "title": "Csoportbarát",
+          "desc": "A kisebb fájlok gyorsabb feltöltést és letöltést jelentenek a csoportos beszélgetésekben."
+        }
       ],
       "steps": [
-        { "title": "Videó Kiválasztása", "desc": "Válassza ki a videót, amelyet WhatsApp-on szeretne elküldeni." },
-        { "title": "Korlát Kiválasztása", "desc": "Állítsa a célt 15 MB-ra a biztonság kedvéért mobil WhatsApp esetén." },
-        { "title": "Letöltés és Küldés", "desc": "Ossza meg videóját korlátozási figyelmeztetések nélkül." }
+        {
+          "title": "Videó Kiválasztása",
+          "desc": "Válassza ki a videót, amelyet WhatsApp-on szeretne elküldeni."
+        },
+        {
+          "title": "Korlát Kiválasztása",
+          "desc": "Állítsa a célt 15 MB-ra a biztonság kedvéért mobil WhatsApp esetén."
+        },
+        {
+          "title": "Letöltés és Küldés",
+          "desc": "Ossza meg videóját korlátozási figyelmeztetések nélkül."
+        }
       ],
       "faqs": [
-        { "q": "Mi a WhatsApp fájlkorlátja?", "a": "A mobil korlát 16 MB, míg a WhatsApp Web akár 64 MB-ot is támogat." },
-        { "q": "Elmosódott lesz a videó?", "a": "Nem, optimalizáljuk a felbontást, hogy nagyszerűen mutasson a telefonok kijelzőjén." }
+        {
+          "q": "Mi a WhatsApp fájlkorlátja?",
+          "a": "A mobil korlát 16 MB, míg a WhatsApp Web akár 64 MB-ot is támogat."
+        },
+        {
+          "q": "Elmosódott lesz a videó?",
+          "a": "Nem, optimalizáljuk a felbontást, hogy nagyszerűen mutasson a telefonok kijelzőjén."
+        }
       ]
     },
     "video-for-discord": {
@@ -952,18 +1068,42 @@
       "heroText": "Unja már a Discord Nitro felhívásokat? Tömörítse mémjeit és klipjeit, hogy azonnal beférjenek a 8 MB-os vagy 25 MB-os ingyenes korlátba.",
       "introText": "A Discord feltöltési korlátai minden gamer rémálmai. Akár 8 MB-os fájlra van szüksége ingyenes felhasználóként, akár 25 MB-osra Nitro Basic-hez, eszközünk biztosítja a klipek jó minőségét.",
       "features": [
-        { "title": "Nitro Barát", "desc": "Előre beállított értékek a 8 MB-os, 25 MB-os és 50 MB-os Discord korlátokhoz." },
-        { "title": "Gamer Kész", "desc": "Tökéletes magas FPS-ű játékmenet klipekhez OBS-ből vagy Shadowplay-ből." },
-        { "title": "Auto-Méretezés", "desc": "Beállítja a méreteket, hogy a fájl biztosan beférjen a szűk Discord korlátba." }
+        {
+          "title": "Nitro Barát",
+          "desc": "Előre beállított értékek a 8 MB-os, 25 MB-os és 50 MB-os Discord korlátokhoz."
+        },
+        {
+          "title": "Gamer Kész",
+          "desc": "Tökéletes magas FPS-ű játékmenet klipekhez OBS-ből vagy Shadowplay-ből."
+        },
+        {
+          "title": "Auto-Méretezés",
+          "desc": "Beállítja a méreteket, hogy a fájl biztosan beférjen a szűk Discord korlátba."
+        }
       ],
       "steps": [
-        { "title": "Klip Feltöltése", "desc": "Húzza be a játékmenet klipet vagy mémet a dobozba." },
-        { "title": "8 MB Cél Beállítása", "desc": "Használja a csúszkát a pontos 8 MB-os határ eléréséhez." },
-        { "title": "Megosztás Discordon", "desc": "Posztolja videóját bármelyik csatornán Nitro nélkül." }
+        {
+          "title": "Klip Feltöltése",
+          "desc": "Húzza be a játékmenet klipet vagy mémet a dobozba."
+        },
+        {
+          "title": "8 MB Cél Beállítása",
+          "desc": "Használja a csúszkát a pontos 8 MB-os határ eléréséhez."
+        },
+        {
+          "title": "Megosztás Discordon",
+          "desc": "Posztolja videóját bármelyik csatornán Nitro nélkül."
+        }
       ],
       "faqs": [
-        { "q": "Mi a Discord ingyenes korlátja?", "a": "A Discord nemrég 25 MB-ra emelte az ingyenes korlátot a legtöbb felhasználónak, de a 8 MB még mindig biztonságosabb bizonyos szervereken." },
-        { "q": "Támogatja a .webm-et?", "a": "Igen, a .webm formátumot ajánljuk Discord-hoz, mivel jobb tömörítést biztosít kis méreteknél." }
+        {
+          "q": "Mi a Discord ingyenes korlátja?",
+          "a": "A Discord nemrég 25 MB-ra emelte az ingyenes korlátot a legtöbb felhasználónak, de a 8 MB még mindig biztonságosabb bizonyos szervereken."
+        },
+        {
+          "q": "Támogatja a .webm-et?",
+          "a": "Igen, a .webm formátumot ajánljuk Discord-hoz, mivel jobb tömörítést biztosít kis méreteknél."
+        }
       ]
     },
     "video-for-email": {
@@ -973,18 +1113,132 @@
       "heroText": "Küldjön videókat e-mailben a Google Drive vagy Dropbox használata nélkül. Zsugorítsa össze fájljait a 25 MB-os e-mail mellékletkorlátba.",
       "introText": "A legtöbb e-mail szolgáltató, mint a Gmail és az Outlook, 25 MB-os korláttal rendelkezik. Eszközünk optimalizálja üzleti videóit vagy családi klipjeit, hogy tökéletesen illeszkedjenek egy e-mailbe.",
       "features": [
-        { "title": "Gmail Kompatibilis", "desc": "A 25 MB-os korlát alatt marad a zökkenőmentes csatoláshoz." },
-        { "title": "Profi Minőség", "desc": "Élesen tartja üzleti prezentációit és oktatóvideóit." },
-        { "title": "Platformfüggetlen", "desc": "Minden böngészőben működik, beleértve az Outlookot és a Yahoo Mailt is." }
+        {
+          "title": "Gmail Kompatibilis",
+          "desc": "A 25 MB-os korlát alatt marad a zökkenőmentes csatoláshoz."
+        },
+        {
+          "title": "Profi Minőség",
+          "desc": "Élesen tartja üzleti prezentációit és oktatóvideóit."
+        },
+        {
+          "title": "Platformfüggetlen",
+          "desc": "Minden böngészőben működik, beleértve az Outlookot és a Yahoo Mailt is."
+        }
       ],
       "steps": [
-        { "title": "Melléklet Hozzáadása", "desc": "Válassza ki a nagy videófájlt, amelyet e-mailben szeretne elküldeni." },
-        { "title": "24 MB Korlát Beállítása", "desc": "Célozza meg a 24 MB-ot, hogy biztosan beférjen a 25 MB-os korlátba." },
-        { "title": "Csatolás és Küldés", "desc": "Töltse le a fájlt, és csatolja közvetlenül az e-mailjéhez." }
+        {
+          "title": "Melléklet Hozzáadása",
+          "desc": "Válassza ki a nagy videófájlt, amelyet e-mailben szeretne elküldeni."
+        },
+        {
+          "title": "24 MB Korlát Beállítása",
+          "desc": "Célozza meg a 24 MB-ot, hogy biztosan beférjen a 25 MB-os korlátba."
+        },
+        {
+          "title": "Csatolás és Küldés",
+          "desc": "Töltse le a fájlt, és csatolja közvetlenül az e-mailjéhez."
+        }
       ],
       "faqs": [
-        { "q": "Mi a Gmail mellékletkorlátja?", "a": "A Gmail legfeljebb 25 MB-ot engedélyez e-mailenként. Ha nagyobb, Google Drive linket kényszerít ki." },
-        { "q": "Mennyire tudok kicsinyíteni egy videót?", "a": "Gyakran egy 200 MB-os videót is le tudunk csökkenteni 24 MB-ra, miközben jól nézhető marad." }
+        {
+          "q": "Mi a Gmail mellékletkorlátja?",
+          "a": "A Gmail legfeljebb 25 MB-ot engedélyez e-mailenként. Ha nagyobb, Google Drive linket kényszerít ki."
+        },
+        {
+          "q": "Mennyire tudok kicsinyíteni egy videót?",
+          "a": "Gyakran egy 200 MB-os videót is le tudunk csökkenteni 24 MB-ra, miközben jól nézhető marad."
+        }
+      ]
+    },
+    "youtube": {
+      "title": "Videó tömörítése a YouTube Online számára – Gyors YouTube-optimalizáló",
+      "description": "Tömörítsen videókat a YouTube-hoz online ingyen. Csökkentse a videó méretét az 1080p és a 4K HD minőség megőrzése mellett. Feltöltés gyorsabban, feldolgozási késedelem nélkül.",
+      "h1": "Gyors YouTube videokompresszor",
+      "heroText": "Feltöltés a YouTube-ra másodpercek alatt. Tömörítse össze 1080p és 4K videóit, miközben megőrzi a pontos, nagy felbontású képminőséget.",
+      "introText": "A YouTube hatalmas videófeltöltéseket dolgoz fel, de a nehéz fájlok feldolgozási leállást és végtelen várakozási időt okozhatnak. Intelligens optimalizálónk csökkenti a fájlméretet a felbontás vagy a színpontosság elvesztése nélkül.",
+      "features": [
+        {
+          "title": "Nincs minőségromlás",
+          "desc": "A fejlett libx264 tömörítés megőrzi a vizuális tisztaságot."
+        },
+        {
+          "title": "Gyors feldolgozás",
+          "desc": "A helyi böngészőfeldolgozás azt jelenti, hogy nincs várakozási idő a szerveren."
+        },
+        {
+          "title": "Első az adatvédelem",
+          "desc": "A videó soha nem hagyja el a böngészőt. 100%-ban biztonságos."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Videó feltöltése",
+          "desc": "Húzza át az MP4, MOV vagy WebM videofájlt."
+        },
+        {
+          "title": "Válassza a Felbontás",
+          "desc": "Válaszd az 1080p vagy a 4K felbontást, hogy YouTube-ra optimalizálva maradj."
+        },
+        {
+          "title": "Tömörítés és letöltés",
+          "desc": "Készítse elő könnyű videóját az azonnali feltöltésre."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Ez rontja a YouTube minőségemet?",
+          "a": "Nem, eszközünk a felbontás elvesztése nélkül tömöríti a fájlokat, így a YouTube HD/4K minőségben dolgozza fel azokat."
+        },
+        {
+          "q": "Biztonságos a használata?",
+          "a": "Igen, minden feldolgozás a böngészőben történik, biztosítva a teljes adatvédelmet."
+        }
+      ]
+    },
+    "tiktok": {
+      "title": "Videó tömörítése a TikTok Online számára – Videók zsugorítása a TikTok számára",
+      "description": "Videók tömörítése a TikTok számára online ingyen. Optimalizálja a függőleges 9:16-os videókat, hogy tökéletesen illeszkedjenek a TikTok irányelveihez. Legyen éles videóid a FYP előtt.",
+      "h1": "TikTok Video Compressor",
+      "heroText": "Tedd láthatóvá a videóidat az FYP-n. Tömörítse össze a függőleges klipeket, hogy azonnal, nulla késleltetéssel töltse fel a TikTok-ba.",
+      "introText": "A TikTok a gyorsan betöltődő, jó minőségű függőleges videókat részesíti előnyben. Tömörítőnk zsugorítja az MP4- és MOV-fájlokat, hogy illeszkedjenek a TikTok mobil irányelveihez, miközben az átmenetek és a szöveg tökéletesen éles marad.",
+      "features": [
+        {
+          "title": "9:16 Optimalizált",
+          "desc": "Tökéletes függőleges klipekhez, Instagram-tekercsekhez és rövidnadrágokhoz."
+        },
+        {
+          "title": "FYP minőség",
+          "desc": "Élesen tartja a videó felbontását, hogy elkerülje az elmosódott TikTok-tömörítést."
+        },
+        {
+          "title": "Zero Server Lag",
+          "desc": "Nem kell feltölteni külső adatbázisokba, a feldolgozás azonnal befejeződik."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Válassza a Videó",
+          "desc": "Válassza ki a függőleges videót telefonjáról vagy számítógépéről."
+        },
+        {
+          "title": "Irányelvek meghatározása",
+          "desc": "Optimalizálja bitsebességét a TikTok gyors betöltéséhez."
+        },
+        {
+          "title": "Mentés és megosztás",
+          "desc": "Töltse le a tömörített videót, és azonnal tegye közzé a TikTokon."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "A TikTok tömöríti a videókat?",
+          "a": "Igen, a TikTok feltöltéskor tömöríti a fájlokat, de az eszközünkkel végzett tömörítéssel elkerülhető az elmosódott eredmény."
+        },
+        {
+          "q": "Melyik formátum a legjobb a TikTok számára?",
+          "a": "Az MP4 és a MOV függőleges 9:16 képarányban ideális formátumok a TikTok számára."
+        }
       ]
     }
   }

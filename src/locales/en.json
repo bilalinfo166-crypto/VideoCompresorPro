@@ -1030,6 +1030,48 @@
         { "q": "What is the Gmail attachment limit?", "a": "Gmail allows up to 25MB per email. If it's larger, it forces a Google Drive link." },
         { "q": "How much can I shrink a video?", "a": "Often, we can shrink a 200MB video to 25MB while keeping it very watchable." }
       ]
+    },
+    "youtube": {
+      "title": "Compress Video for YouTube Online - Fast YouTube Optimizer",
+      "description": "Compress videos for YouTube online for free. Reduce video size while maintaining 1080p and 4K HD quality. Upload faster without processing delays.",
+      "h1": "Fast YouTube Video Compressor",
+      "heroText": "Upload to YouTube in seconds. Compress your 1080p and 4K videos while keeping the exact high-fidelity visual quality.",
+      "introText": "YouTube processes massive video uploads, but heavy files can cause processing hangs and endless wait times. Our smart optimizer reduces file size without losing resolutions or color accuracy.",
+      "features": [
+        { "title": "No Quality Loss", "desc": "Advanced libx264 compression maintains your visual clarity." },
+        { "title": "Fast Processing", "desc": "Local browser processing means no server wait times." },
+        { "title": "Privacy First", "desc": "Your video never leaves your browser. 100% secure." }
+      ],
+      "steps": [
+        { "title": "Upload Video", "desc": "Drag and drop your MP4, MOV, or WebM video file." },
+        { "title": "Choose Resolution", "desc": "Select 1080p or 4K to stay optimized for YouTube." },
+        { "title": "Compress & Download", "desc": "Get your lightweight video ready for instant upload." }
+      ],
+      "faqs": [
+        { "q": "Will this lower my YouTube quality?", "a": "No, our tool compresses files without losing resolution, so YouTube will process it in HD/4K." },
+        { "q": "Is it safe to use?", "a": "Yes, all processing is done inside your browser, ensuring total privacy." }
+      ]
+    },
+    "tiktok": {
+      "title": "Compress Video for TikTok Online - Shrink Videos for TikTok",
+      "description": "Compress videos for TikTok online for free. Optimize vertical 9:16 videos to fit TikTok guidelines perfectly. Keep your videos crisp for the FYP.",
+      "h1": "TikTok Video Compressor",
+      "heroText": "Make your videos pop on the FYP. Compress vertical clips to upload to TikTok instantly with zero lag.",
+      "introText": "TikTok favors fast-loading, high-quality vertical videos. Our compressor shrinks your MP4 and MOV files to fit TikTok mobile guidelines while keeping transitions and text perfectly sharp.",
+      "features": [
+        { "title": "9:16 Optimized", "desc": "Perfect for vertical clips, Instagram Reels, and Shorts." },
+        { "title": "FYP Quality", "desc": "Keeps video resolution sharp to avoid blurry TikTok compression." },
+        { "title": "Zero Server Lag", "desc": "No uploading to external databases, processing completes instantly." }
+      ],
+      "steps": [
+        { "title": "Select Video", "desc": "Choose your vertical video from your phone or PC." },
+        { "title": "Set Guidelines", "desc": "Optimize your bitrate for fast TikTok loading." },
+        { "title": "Save & Share", "desc": "Download the compressed video and post to TikTok immediately." }
+      ],
+      "faqs": [
+        { "q": "Does TikTok compress videos?", "a": "Yes, TikTok compresses files on upload, but compressing them first with our tool avoids blurry results." },
+        { "q": "What format is best for TikTok?", "a": "MP4 and MOV in vertical 9:16 aspect ratio are the ideal formats for TikTok." }
+      ]
     }
   }
 }

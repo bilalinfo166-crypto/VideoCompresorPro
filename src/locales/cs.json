@@ -564,68 +564,112 @@
     "cta_title": "Změnit rozměry videa nyní."
   },
   "to_mp3_page": {
-    "hero_badge": "High Fidelity · Bez nahrávání · 100% Zdarma",
-    "hero_title": "Online převodník videa do MP3",
-    "hero_subtitle": "Okamžitě extrahujte vysoce kvalitní zvukové stopy z vašich videí. Bezpečně a soukromě.",
-    "visualizer_title": "Nejlepší převodník",
-    "visualizer_desc": "Studiová úroveň přesnosti extrakce přímo ve vašem prohlížeči.",
+    "hero_badge": "Vysoká věrnost • Žádné nahrávání • 100 % zdarma",
+    "hero_title": "Online Video to MP3 Converter",
+    "hero_subtitle": "Náš online převodník videa na MP3 je bezplatný a bezpečný, což vám umožní rychle získat zvukové stopy z videí. Online převodník videa na Mp3, který nejlépe funguje pro hudbu, podcasty, rozhovory, přednášky, hlasové klipy a sociální média.",
+    "visualizer_title": "Nejlepší převodník videa do MP3",
+    "visualizer_desc": "VideoCompressorPro je video konvertor, který se snadno používá a je ideální pro nováčky, ať už převádíte video z YouTube do MP3, video TikTok do MP3 nebo hledáte konvertor videa do MP3, který vám bude dobře fungovat. Náš online převodník videa na MP3 vám umožňuje převádět videa do zvukových souborů MP3 okamžitě a ve vysoké kvalitě. Rychle extrahujte zvuk z videoklipů YouTube, videí TikTok, podcastů, webových seminářů a nahrávek přímo z prohlížeče pomocí nejlepšího převodníku videa na MP3, abyste získali zvuk během několika sekund.",
     "visualizer_label": "Výstupní formát",
-    "visualizer_format": "Vysoce kvalitní MP3 (320kbps)",
-    "features_title": "Elitní extrakce",
-    "f1_title": "High Fidelity",
-    "f1_desc": "Podpora bitrate až 320kbps pro křišťálový zvuk.",
-    "f2_title": "Úplné soukromí",
-    "f2_desc": "Lokální zpracování. Vaše soubory se k nám nikdy nedostanou.",
-    "f3_title": "Okamžité stažení",
-    "f3_desc": "Žádné čekání. Získejte své audio hned po extrakci.",
-    "f4_title": "Různé formáty",
-    "f4_desc": "MP4, MOV, AVI do MP3, WAV nebo OGG s nejvyšší péčí.",
-    "f5_title": "Dávkově",
-    "f5_desc": "Během několika sekund převeďte více videí na playlist.",
-    "f6_title": "Bez účtu",
-    "f6_desc": "Plný přístup bez registrace nebo otravných reklam.",
-    "steps_title": "Jak převést",
-    "s1_title": "Nahrát",
-    "s1_desc": "Vyberte video soubor v libovolném populárním formátu.",
-    "s2_title": "Konfigurovat",
-    "s2_desc": "Zvolte bitrate a požadovaný výstupní formát.",
-    "s3_title": "Extrahovat",
-    "s3_desc": "Okamžitě oddělte audio s chirurgickou přesností.",
-    "s4_title": "Uložit",
-    "s4_desc": "Bezpečně stáhněte své lokálně zpracované MP3.",
-    "reviews_title": "Používáno profesionály",
-    "r1_text": "Perfektní zvuk i na studiových monitorech. Výborné.",
-    "r1_role": "Hudební producent",
-    "r2_text": "I use it to get clean audio for my podcasts from video interviews. It's consistently very reliable.",
-    "r2_role": "Professional Podcaster",
-    "r3_text": "Extremely fast extraction. I converted 10 long videos in a minute. The speed is unmatched.",
-    "r3_role": "Graduate Student",
-    "r4_text": "No distortion at all. The LAME encoder implementation here works wonders for audio fidelity.",
-    "r4_role": "Audio Engineer",
-    "r5_text": "Privacy first - my videos aren't uploaded to convert. This is essential for my sensitive interview data.",
-    "r5_role": "Investigative Journalist",
-    "r6_text": "Best way to get high-quality MP3s from my own YouTube backups. Simple, clean, and perfect.",
-    "r6_role": "Content Creator",
-    "r7_text": "Simple, clean, and no annoying ads or popups. A rare find in the world of online conversion tools.",
-    "r7_role": "Creative Freelancer",
-    "r8_text": "Supports all formats. Converted my old MKV home videos to MP3 to listen in the car easily.",
-    "r8_role": "Tech Enthusiast",
-    "r9_text": "The batch processing feature is a life-saver for my sound effects library.",
-    "r9_role": "Game Developer",
-    "r10_text": "Studio-grade audio extraction in seconds. It's my go-to tool for video sound design.",
-    "r10_role": "Sound Designer",
-    "r11_text": "Crystal clear MP3 extraction every time. I use it for my sample library and it never fails.",
-    "r11_role": "Audio Producer",
-    "r12_text": "Fastest conversion I've seen. No more waiting for servers to process my files.",
-    "r12_role": "Creative Director",
-    "faq_title": "FAQ",
-    "q1": "Jak extrahovat?",
-    "a1": "Načtěte video a klikněte na 'Extrahovat audio'. To je vše!",
-    "q2": "Je to zdarma?",
-    "a2": "Ano, 100% zdarma a bez limitů.",
-    "q3": "Který bitrate je nejlepší?",
-    "a3": "320kbps pro max. kvalitu; 128kbps pro úsporu místa.",
-    "cta_title": "Extrahovat audio nyní."
+    "visualizer_format": "Vysoce kvalitní MP3 (320 kbps)",
+    "features_title": "Pokročilé funkce pro extrakci zvuku",
+    "features_desc": "Vykreslujte video do vysoce kvalitního zvukového souboru MP3 v rychlé, čisté a moderní webové technologii založené na prohlížeči pro tvůrce, posluchače a profesionály.",
+    "f1_title": "Výstup MP3 ve studiové kvalitě",
+    "f1_desc": "Náš sofistikovaný online nástroj pro převod videa do formátu MP3 je perfektní pro extrahování vyváženého a výrazného zvuku z videí s optimalizovanou kvalitou zvuku, vhodnou pro hudbu, podcasty, rozhovory, webináře a hlasové nahrávky.\n\nVYSOKÁ KVALITA • ČISTÝ ZVUK • EXPORT MP3",
+    "f2_title": "Bezpečná konverze založená na prohlížeči",
+    "f2_desc": "Během zpracování zůstávají vaše soubory důvěrné. Online převodník videa na MP3 nepotřebuje nic stahovat ani nevyžaduje aplikace třetích stran.\n\nSoukromé, zabezpečené, místní zpracování.",
+    "f3_title": "Bleskově rychlé stahování zvuku",
+    "f3_desc": "Náš online konvertor videa na MP3 ke stažení plné verze je navržen tak, aby během několika sekund převedl video soubory do formátu MP3 a uložil zvuk do vašeho zařízení pro offline poslech, úpravy, streamování nebo vytváření obsahu.\n\nRYCHLÉ ZPRACOVÁNÍ • RYCHLÉ STAŽENÍ",
+    "f4_title": "Podporuje většinu populárních video formátů.",
+    "f4_desc": "Převeďte videa do MP3 pomocí MP4, MOV, AVI, MKV, WebM a dalších populárních video formátů pomocí našeho nástroje pro převod videa do MP3.\n\nMP4 • MOV • AVI • WEBM",
+    "f5_title": "Navrženo speciálně pro tvůrce obsahu",
+    "f5_desc": "Převádějte videa z YouTube, videa TikTok, webináře, výukové programy, podcasty a obsah tvůrců do formátu MP3 bez námahy a spolehlivě pomocí našeho převaděče videí YouTube na MP3.\n\nYOUTUBE • TIKTOK • PODCASTY",
+    "f6_title": "Zdarma a snadné použití",
+    "f6_desc": "Získejte zvuk z jakéhokoli prohlížeče bez nutnosti složitého softwaru, skrytých poplatků, registrací nebo omezení vodoznaku. Máme zdarma okamžitý převod videa na MP3, který běží na mobilních zařízeních a stolních počítačích.\n\nŽÁDNÁ INSTALACE • ZDARMA • PŘÁTELSKÝ PRO ZAČÁTEČNÍKY",
+    "steps_title": "Převeďte videa na vysoce kvalitní MP3 během několika sekund",
+    "steps_desc": "Náš audio převodník videa na MP3 je rychlý a bezpečný a umožňuje vám rychle extrahovat zvuk z videa. Žádný složitý software, žádné zkušenosti s úpravami a žádná dlouhá čekací doba.",
+    "s1_title": "Importujte své video",
+    "s1_desc": "Přetáhněte nebo vyberte video soubor(y) v našem bezplatném převodníku videa na MP3 a nahrajte je přímo do nástroje.\n\nRYCHLÉ NAHRÁVÁNÍ • VÍCE FORMÁTŮ",
+    "s2_title": "Extrahujte vysoce kvalitní zvuk",
+    "s2_desc": "Vyberte si výstupní formáty MP3 a okamžitě převádějte video na čistý zvuk optimalizovaný pro hudbu, podcasty, hlasové nahrávky, rozhovory a obsah tvůrců zdarma pomocí našeho bezplatného převodníku videa na MP3.\n\nVýstup MP3 – kvalitní zvuk",
+    "s3_title": "Uložit a použít kdekoli",
+    "s3_desc": "Uložte svůj soubor MP3 ihned po převodu a přehrávejte jej offline, upravujte projekty, vytvářejte prezentace nebo publikujte na sociálních sítích. Náš konvertor videa na MP3 pro PC je stažen z prohlížeče, který není nainstalován v počítači.\n\nOKAMŽITÉ STAŽENÍ • NENÍ VYŽADOVÁN ŽÁDNÝ SOFTWARE",
+    "use_cases_title": "Skutečné způsoby, jak lidé používají náš převodník videa do MP3",
+    "use_cases_desc": "Ať už je to pro hudební nadšence, studenty, tvůrce nebo obchodní týmy, náš online převodník videa na MP3 je navržen tak, aby transformoval video obsah na přenosné, vysoce kvalitní zvukové soubory pro použití v seznamech skladeb, úpravách, učení a sdílení.",
+    "u1_title": "Uložit hudbu a živá vystoupení jako MP3",
+    "u1_desc": "Pomocí našeho konvertoru převeďte koncertní nahrávku, hudební videa, DJ sety a živá vystoupení na vysoce kvalitní zvuk MP3 pro offline poslech kdykoli.",
+    "u1_tags": "HUDBA • ŽIVÉ PŘEDSTAVENÍ • SEZNAMY SKLADEB",
+    "u2_title": "Poslouchejte podcasty kdekoli",
+    "u2_desc": "Převádějte podcastová videa do MP3 pro přehrávání při dojíždění, v kanceláři, při cvičení nebo při čtení a učení bez jakýchkoli potíží přehrávejte zvuk z podcastových videí bez otevírání jakéhokoli softwaru pomocí našeho převaděče videa na MP3, který si zdarma stáhnete plnou verzi.",
+    "u2_tags": "PODCASTY • ROZHOVORY • POUZE AUDIO",
+    "u3_title": "Převeďte vzdělávací videa na zvukové lekce.",
+    "u3_desc": "Proměňte výukové programy, nahrané přednášky, koučovací sezení a vzdělávací videa na MP3 pro učení kdykoli na cestách pomocí našeho zabezpečeného konvertoru videa na MP3 ke stažení pro PC, který nevyžaduje žádnou instalaci.",
+    "u3_tags": "PŘEDNÁŠKY • KURZY • STUDIUM AUDIO",
+    "u4_title": "Kopírování zvuku pro úpravy projektů.",
+    "u4_desc": "Použijte náš online převodník videa na MP3 k oddělení zvukových stop od videí pro komentáře, remixování, úpravy podcastů, prezentace a postprodukci.",
+    "u4_tags": "EDITACE • TVORBA OBSAHU • VÝROBA",
+    "u5_title": "Vytvářejte zvuk z videí na sociálních sítích.",
+    "u5_desc": "Extrahujte zvuk z videí tiktok, videí YouTube, krátkých filmů a sociálních médií během několika sekund pomocí našeho převodníku videa TikTok na MP3 v prohlížeči a bezplatného převodníku videa z YouTube na MP3.",
+    "u5_tags": "TIKTOK • YOUTUBE • KRÁTKÝ OBSAH",
+    "u6_title": "Uložit motivační a řečový zvuk",
+    "u6_desc": "Převeďte video do zvukového formátu MP3 pomocí našeho rychlého převodníku videa na zvuk MP3, abyste mohli poslouchat projevy, motivační videa, semináře a materiály pro osobní rozvoj offline.",
+    "u6_tags": "PROJEVY • MOTIVACE • OFFLINE AUDIO",
+    "reviews_title": "Důvěryhodné od tvůrců, studentů a každodenních uživatelů",
+    "reviews_desc": "Náš online převodník videa na MP3 je denně využíván mnoha lidmi k rychlému kopírování hudby, podcastů, rozhovorů, přednášek a vytváření zvuku bez náročného programování.",
+    "r1_text": "Použil jsem mnoho programů pro převod videa do MP3, ale tento je nejlepší, jaký jsem kdy použil. Je to rychlé a kvalita zvuku je opravdu skvělá.",
+    "r1_role": "Posluchač podcastů",
+    "r2_text": "Toto je skvělý konvertor YouTube na MP3, protože jsem potřeboval pouze jednoduché řešení a nemusel jsem dělat složité krok za krokem.",
+    "r2_role": "Marketingový koordinátor",
+    "r3_text": "Opravdu mě ohromilo, jak rychle se to konvertovalo; Nahrál jsem velký soubor MP4 a stáhl jsem MP3 během několika sekund.",
+    "r3_role": "Tvůrce YouTube",
+    "r4_text": "Tento převodník videa Tiktok na MP3 bych používal téměř každý den pro úpravy projektů a obsah sociálních médií.",
+    "r4_role": "Editor videa",
+    "r5_text": "Čisté a snadno použitelné rozhraní a dokonce i moji studenti mohli používat tento nástroj pro převod videa do MP3.",
+    "r5_role": "Online instruktor",
+    "r6_text": "Hledali jste stažení konvertoru videa na MP3 pro PC, ale tento nástroj prohlížeče zcela nahradil stolní software.",
+    "r6_role": "Návrhář na volné noze",
+    "r7_text": "Přednášky jsem nahrál jako audio soubory a poté převedl do MP3, abych je mohl poslouchat při dojíždění – ušetřilo mi to spoustu času při studiu.",
+    "r7_role": "Vysokoškolský student",
+    "r8_text": "Převod dlouhých souborů bez ztráty kvality zvuku je dokonalým převodníkem zvuku z videa do MP3 pro podcasty.",
+    "r8_role": "Audio producent",
+    "r9_text": "Díky tomu vše funguje přímo v prohlížeči, bez zbytečných stahování, reklam a nastavovacích kroků.",
+    "r9_role": "Obsahový stratég",
+    "r10_text": "Tento online převodník videa na MP3 je extrémně rychlý a snadno použitelný a úspěšně jsem stáhl zvuk z videí TikTok a obsahu sociálních médií.",
+    "r10_role": "Správce sociálních sítí",
+    "r11_text": "Tento bezplatný online převodník videa na MP3 je skvělý nástroj, který bez problémů převádí moje videa a zlepšil jejich kvalitu – většina nástrojů dělá opak.",
+    "r11_role": "Vlastník malého podniku",
+    "r12_text": "Tento bezplatný převodník videa z YouTube na MP3 používám k ukládání projevů a videí s návody k poslechu, když jsem v tělocvičně.",
+    "r12_role": "Fitness trenér",
+    "faq_title": "Často kladené otázky",
+    "faq_desc": "Naučte se používat VideoCompressorPro k převodu videí na vysoce kvalitní zvuk MP3.",
+    "q1": "Co je soubor MP3?",
+    "a1": "MP3 je jedním z nejběžnějších zvukových formátů pro hudbu, podcasty, hlasové nahrávky a lze jej poslouchat offline díky své malé velikosti a dobré kvalitě.",
+    "q2": "Co je to převodník videa na MP3?",
+    "a2": "Online převodník videa na MP3 je nástroj, který pomáhá při odstraňování zvuku z video souboru a poté jej ukládá ve formátu zvukového souboru MP3, který lze přehrávat na přehrávačích médií, telefonech, tabletech a noteboocích.",
+    "q3": "Jaké formáty videa jsou k dispozici?",
+    "a3": "Mezi oblíbené video formáty podporované naším převodníkem videa na MP3 patří MP4, MOV, AVI, MKV, WebM, MPEG a další.",
+    "q4": "Bude zvuk v procesu převodu zkreslený?",
+    "a4": "Náš konvertor, optimalizovaný pro zachování čisté a vyvážené kvality zvuku během extrakce, je ideální pro hudbu, podcasty, rozhovory a mluvený obsah.",
+    "q5": "Existuje software, který je třeba nainstalovat?",
+    "a5": "To nebude vyžadovat instalaci. Není potřeba žádné stahování aplikací nebo složitých desktopových aplikací – funguje přímo ve vašem prohlížeči. Jedná se o alternativní odlehčený převodník videa na MP3 ke stažení pro PC.",
+    "q6": "Můžete nahrávat videa do MP3 konvertoru?",
+    "a6": "Ano, VideoCompressorPro se zpracovává v prohlížeči za účelem zachování soukromí a bezpečnosti vašich dokumentů během procesu převodu.",
+    "q7": "Máte možnost dávkově převádět videa?",
+    "a7": "Převaděč může potřebovat vyšší výpočetní výkon v závislosti na prohlížeči a zařízení, náš převodník je však optimalizován pro provádění více převodů.",
+    "q8": "Existují nějaká omezení velikosti souboru nebo délky videa?",
+    "a8": "Podporovaná velikost souboru je omezena především vaším prohlížečem, pamětí zařízení a výkonem zpracování, ale moderní systémy podporují velká videa.",
+    "q9": "Je možné extrahovat zvuk z videí YouTube?",
+    "a9": "Ano, náš bezplatný převaděč YouTube na MP3 dokáže extrahovat zvuk z kompatibilních video souborů pro použití v podcastech, přednáškách, hudbě, rozhovorech a obsahu pro tvůrce.",
+    "q10": "Je převodník vhodný pro mobilní zařízení?",
+    "a10": "Ano, náš Web to MP3 Converter je kompatibilní se systémem Android, iPhone, Android Tablet, iPad, notebook nebo prohlížeč bez stahování dalšího softwaru.",
+    "q11": "Existuje nějaký způsob, jak použít extrahovaný zvuk bez internetu?",
+    "a11": "Absolutně. Váš soubor MP3 je převeden, můžete si jej stáhnout a přehrát později bez internetu!",
+    "q12": "Proč je toto jedno z nejlepších videí pro konvertory MP3?",
+    "a12": "VideoCompressorPro je kombinací rychlého zpracování v prohlížeči, čistých exportů MP3, bezpečné manipulace a uživatelsky přívětivých nástrojů bez složitého softwaru a předplatného.",
+    "q13": "Hledáte způsob, jak převést TikTok nebo videa ze sociálních médií na MP3?",
+    "a13": "Ano, náš převodník videa TikTok na MP3 dokáže převést videa TikTok a sociální videa, webináře, návody, podcasty a spoustu dalších video formátů do MP3.",
+    "q14": "Je tento převodník videa na MP3 zdarma?",
+    "a14": "Ano, můžete použít náš převodník videa na MP3 ke stažení zdarma plnou verzi online zdarma, bez skrytých nákladů nebo nucené registrace nebo složité instalace.",
+    "cta_title": "Okamžitě extrahujte vysoce věrný zvuk."
   },
   "audio_cutter_page": {
     "hero_badge": "Přesnost · Bez nahrávání · 100% Zdarma",
@@ -889,18 +933,42 @@
       "heroText": "Nejdůvěryhodnější kompresor MP4 na světě. Zmenšete své soubory MP4 během několika sekund při zachování úžasné kvality 1080p/4K.",
       "introText": "MP4 je nejoblíbenější video formát, ale soubory ve vysokém rozlišení mohou být obrovské. Náš inteligentní kompresní engine analyzuje datové toky vašeho MP4, aby nabídl dokonalou rovnováhu mezi velikostí souboru a vizuální čistotou.",
       "features": [
-        { "title": "Bez ztráty kvality", "desc": "Pokročilé kódování libx264 zajišťuje, že vaše MP4 zůstane ostré." },
-        { "title": "Univerzální přehrávání", "desc": "Zkomprimovaná MP4 fungují na všech iPhonech, Androidu i Smart TV." },
-        { "title": "Soukromí na prvním místě", "desc": "Vaše soubory nikdy neopustí prohlížeč. 100% bezpečné zpracování." }
+        {
+          "title": "Bez ztráty kvality",
+          "desc": "Pokročilé kódování libx264 zajišťuje, že vaše MP4 zůstane ostré."
+        },
+        {
+          "title": "Univerzální přehrávání",
+          "desc": "Zkomprimovaná MP4 fungují na všech iPhonech, Androidu i Smart TV."
+        },
+        {
+          "title": "Soukromí na prvním místě",
+          "desc": "Vaše soubory nikdy neopustí prohlížeč. 100% bezpečné zpracování."
+        }
       ],
       "steps": [
-        { "title": "Nahrát MP4", "desc": "Přetáhněte soubor MP4 do pole kompresoru." },
-        { "title": "Zvolit velikost", "desc": "Vyberte požadovanou výstupní velikost v MB." },
-        { "title": "Komprimovat a uložit", "desc": "Okamžitě stáhněte své optimalizované MP4." }
+        {
+          "title": "Nahrát MP4",
+          "desc": "Přetáhněte soubor MP4 do pole kompresoru."
+        },
+        {
+          "title": "Zvolit velikost",
+          "desc": "Vyberte požadovanou výstupní velikost v MB."
+        },
+        {
+          "title": "Komprimovat a uložit",
+          "desc": "Okamžitě stáhněte své optimalizované MP4."
+        }
       ],
       "faqs": [
-        { "q": "Ztratí moje MP4 na kvalitě?", "a": "Ne, používáme vysoce účinné faktory konstantního datového toku pro zachování vizuální integrity." },
-        { "q": "Existuje limit velikosti souboru?", "a": "Zdarma můžete komprimovat soubory MP4 až do velikosti 5 GB." }
+        {
+          "q": "Ztratí moje MP4 na kvalitě?",
+          "a": "Ne, používáme vysoce účinné faktory konstantního datového toku pro zachování vizuální integrity."
+        },
+        {
+          "q": "Existuje limit velikosti souboru?",
+          "a": "Zdarma můžete komprimovat soubory MP4 až do velikosti 5 GB."
+        }
       ]
     },
     "mov": {
@@ -910,18 +978,42 @@
       "heroText": "Soubory Apple MOV jsou proslulé svou velikostí. Náš nástroj optimalizuje datové toky MOV pro web, aniž by obětoval charakteristickou kvalitu Apple.",
       "introText": "Soubory QuickTime (MOV) pořízené na iPhonech nebo Macích často zabírají gigabajty místa. Pomůžeme vám je okamžitě převést a zkomprimovat do efektivních formátů připravených pro web.",
       "features": [
-        { "title": "Optimalizováno pro Apple", "desc": "Speciálně vyladěno pro soubory ProRes a H.264 MOV s vysokým datovým tokem." },
-        { "title": "Připraveno pro web", "desc": "Převeďte objemné soubory MOV na lehké verze vhodné pro streamování." },
-        { "title": "Nulové čekání", "desc": "Rychlé zpracování v prohlížeči, není vyžadováno nahrávání na server." }
+        {
+          "title": "Optimalizováno pro Apple",
+          "desc": "Speciálně vyladěno pro soubory ProRes a H.264 MOV s vysokým datovým tokem."
+        },
+        {
+          "title": "Připraveno pro web",
+          "desc": "Převeďte objemné soubory MOV na lehké verze vhodné pro streamování."
+        },
+        {
+          "title": "Nulové čekání",
+          "desc": "Rychlé zpracování v prohlížeči, není vyžadováno nahrávání na server."
+        }
       ],
       "steps": [
-        { "title": "Importovat MOV", "desc": "Vyberte soubor .mov ze svého Macu nebo iPhonu." },
-        { "title": "Upravit velikost", "desc": "Zvolte cílovou velikost, která vyhovuje vašim potřebám sdílení." },
-        { "title": "Exportovat", "desc": "Uložte své zkomprimované video během několika sekund." }
+        {
+          "title": "Importovat MOV",
+          "desc": "Vyberte soubor .mov ze svého Macu nebo iPhonu."
+        },
+        {
+          "title": "Upravit velikost",
+          "desc": "Zvolte cílovou velikost, která vyhovuje vašim potřebám sdílení."
+        },
+        {
+          "title": "Exportovat",
+          "desc": "Uložte své zkomprimované video během několika sekund."
+        }
       ],
       "faqs": [
-        { "q": "Mohu to použít na iPhone?", "a": "Ano, náš nástroj je plně kompatibilní se Safari na iOS pro kompresi MOV." },
-        { "q": "Podporuje to 4K MOV?", "a": "Rozhodně, soubory 4K 60fps MOV zpracováváme s lehkostí." }
+        {
+          "q": "Mohu to použít na iPhone?",
+          "a": "Ano, náš nástroj je plně kompatibilní se Safari na iOS pro kompresi MOV."
+        },
+        {
+          "q": "Podporuje to 4K MOV?",
+          "a": "Rozhodně, soubory 4K 60fps MOV zpracováváme s lehkostí."
+        }
       ]
     },
     "video-for-whatsapp": {
@@ -931,18 +1023,42 @@
       "heroText": "Už žádné chyby 'Soubor je příliš velký' na WhatsAppu. Zkomprimujte svá videa tak, aby se dokonale vešla do limitu 16 MB nebo 64 MB.",
       "introText": "WhatsApp má přísné limity velikosti souborů (16 MB pro mobilní zařízení, 64 MB pro web). Náš nástroj automaticky optimalizuje vaše video tak, aby tyto limity splňovalo při zachování čistoty obsahu.",
       "features": [
-        { "title": "Obejití limitů", "desc": "Automaticky dosáhněte přesného cíle 16 MB nebo 64 MB pro WhatsApp." },
-        { "title": "Okamžité sdílení", "desc": "Zkomprimované soubory jsou připraveny k okamžitému odeslání přes WhatsApp." },
-        { "title": "Vhodné pro skupiny", "desc": "Menší soubory znamenají rychlejší nahrávání a stahování ve vašich skupinových chatech." }
+        {
+          "title": "Obejití limitů",
+          "desc": "Automaticky dosáhněte přesného cíle 16 MB nebo 64 MB pro WhatsApp."
+        },
+        {
+          "title": "Okamžité sdílení",
+          "desc": "Zkomprimované soubory jsou připraveny k okamžitému odeslání přes WhatsApp."
+        },
+        {
+          "title": "Vhodné pro skupiny",
+          "desc": "Menší soubory znamenají rychlejší nahrávání a stahování ve vašich skupinových chatech."
+        }
       ],
       "steps": [
-        { "title": "Vybrat video", "desc": "Vyberte video, které chcete poslat přes WhatsApp." },
-        { "title": "Zvolit limit", "desc": "Nastavte cíl na 15 MB pro jistotu v mobilní verzi WhatsApp." },
-        { "title": "Stáhnout a poslat", "desc": "Sdílejte své video bez varování o limitech." }
+        {
+          "title": "Vybrat video",
+          "desc": "Vyberte video, které chcete poslat přes WhatsApp."
+        },
+        {
+          "title": "Zvolit limit",
+          "desc": "Nastavte cíl na 15 MB pro jistotu v mobilní verzi WhatsApp."
+        },
+        {
+          "title": "Stáhnout a poslat",
+          "desc": "Sdílejte své video bez varování o limitech."
+        }
       ],
       "faqs": [
-        { "q": "Jaký je limit souborů na WhatsApp?", "a": "Mobilní limit je 16 MB, zatímco WhatsApp Web podporuje až 64 MB." },
-        { "q": "Bude video rozmazané?", "a": "Ne, optimalizujeme rozlišení, aby vypadalo skvěle na obrazovkách telefonů." }
+        {
+          "q": "Jaký je limit souborů na WhatsApp?",
+          "a": "Mobilní limit je 16 MB, zatímco WhatsApp Web podporuje až 64 MB."
+        },
+        {
+          "q": "Bude video rozmazané?",
+          "a": "Ne, optimalizujeme rozlišení, aby vypadalo skvěle na obrazovkách telefonů."
+        }
       ]
     },
     "video-for-discord": {
@@ -952,18 +1068,42 @@
       "heroText": "Už vás nebaví výzvy k Discord Nitro? Zkomprimujte své memy a klipy, aby se okamžitě vešly pod bezplatný limit 8 MB nebo 25 MB.",
       "introText": "Limity nahrávání na Discordu jsou noční můrou každého hráče. Ať už potřebujete 8MB soubor pro neplatící uživatele nebo 25MB soubor pro Nitro Basic, náš nástroj zajistí vysokou kvalitu vašich klipů.",
       "features": [
-        { "title": "Nitro Friendly", "desc": "Předvolby pro limity Discordu 8 MB, 25 MB a 50 MB." },
-        { "title": "Připraveno pro hráče", "desc": "Ideální pro herní klipy s vysokým FPS z OBS nebo Shadowplay." },
-        { "title": "Auto-Resize", "desc": "Upraví rozměry tak, aby se soubor vešel do malého limitu Discordu." }
+        {
+          "title": "Nitro Friendly",
+          "desc": "Předvolby pro limity Discordu 8 MB, 25 MB a 50 MB."
+        },
+        {
+          "title": "Připraveno pro hráče",
+          "desc": "Ideální pro herní klipy s vysokým FPS z OBS nebo Shadowplay."
+        },
+        {
+          "title": "Auto-Resize",
+          "desc": "Upraví rozměry tak, aby se soubor vešel do malého limitu Discordu."
+        }
       ],
       "steps": [
-        { "title": "Nahrát klip", "desc": "Přetáhněte svůj herní klip nebo meme do pole." },
-        { "title": "Nastavit cíl 8 MB", "desc": "Pomocí posuvníku trefte přesně hranici 8 MB." },
-        { "title": "Sdílet na Discordu", "desc": "Publikujte své video v jakémkoli kanálu bez Nitra." }
+        {
+          "title": "Nahrát klip",
+          "desc": "Přetáhněte svůj herní klip nebo meme do pole."
+        },
+        {
+          "title": "Nastavit cíl 8 MB",
+          "desc": "Pomocí posuvníku trefte přesně hranici 8 MB."
+        },
+        {
+          "title": "Sdílet na Discordu",
+          "desc": "Publikujte své video v jakémkoli kanálu bez Nitra."
+        }
       ],
       "faqs": [
-        { "q": "Jaký je bezplatný limit Discordu?", "a": "Discord nedávno zvýšil bezplatný limit na 25 MB pro většinu uživatelů, ale 8 MB je stále jistější pro některé servery." },
-        { "q": "Podporuje to .webm?", "a": "Ano, pro Discord doporučujeme .webm, protože má lepší kompresi pro malé velikosti." }
+        {
+          "q": "Jaký je bezplatný limit Discordu?",
+          "a": "Discord nedávno zvýšil bezplatný limit na 25 MB pro většinu uživatelů, ale 8 MB je stále jistější pro některé servery."
+        },
+        {
+          "q": "Podporuje to .webm?",
+          "a": "Ano, pro Discord doporučujeme .webm, protože má lepší kompresi pro malé velikosti."
+        }
       ]
     },
     "video-for-email": {
@@ -973,18 +1113,132 @@
       "heroText": "Posílejte videa e-mailem bez použití Google Drive nebo Dropboxu. Zmenšete své soubory tak, aby se vešly do limitu e-mailových příloh 25 MB.",
       "introText": "Většina poskytovatelů e-mailu, jako je Gmail a Outlook, má limit 25 MB. Náš nástroj optimalizuje vaše pracovní videa nebo rodinné klipy tak, aby se dokonale vešly do e-mailu.",
       "features": [
-        { "title": "Kompatibilní s Gmailem", "desc": "Zůstává pod limitem 25 MB pro bezproblémové přílohy." },
-        { "title": "Pro kvalita", "desc": "Udržuje vaše obchodní prezentace a návody ostré." },
-        { "title": "Multiplatformní", "desc": "Funguje ve všech prohlížečích, včetně Outlooku a Yahoo Mailu." }
+        {
+          "title": "Kompatibilní s Gmailem",
+          "desc": "Zůstává pod limitem 25 MB pro bezproblémové přílohy."
+        },
+        {
+          "title": "Pro kvalita",
+          "desc": "Udržuje vaše obchodní prezentace a návody ostré."
+        },
+        {
+          "title": "Multiplatformní",
+          "desc": "Funguje ve všech prohlížečích, včetně Outlooku a Yahoo Mailu."
+        }
       ],
       "steps": [
-        { "title": "Přidat přílohu", "desc": "Vyberte velký video soubor, který chcete poslat e-mailem." },
-        { "title": "Nastavit limit 24 MB", "desc": "Cilte na 24 MB, abyste se bezpečně vešli do limitu e-mailu 25 MB." },
-        { "title": "Přiložit a odeslat", "desc": "Stáhněte soubor a přiložte jej přímo ke svému e-mailu." }
+        {
+          "title": "Přidat přílohu",
+          "desc": "Vyberte velký video soubor, který chcete poslat e-mailem."
+        },
+        {
+          "title": "Nastavit limit 24 MB",
+          "desc": "Cilte na 24 MB, abyste se bezpečně vešli do limitu e-mailu 25 MB."
+        },
+        {
+          "title": "Přiložit a odeslat",
+          "desc": "Stáhněte soubor a přiložte jej přímo ke svému e-mailu."
+        }
       ],
       "faqs": [
-        { "q": "Jaký je limit příloh v Gmailu?", "a": "Gmail povoluje až 25 MB na e-mail. Pokud je soubor větší, vynutí odkaz na Google Drive." },
-        { "q": "O kolik mohu video zmenšit?", "a": "Často dokážeme zmenšit 200MB video na 24 MB při zachování velmi dobré kvality obrazu." }
+        {
+          "q": "Jaký je limit příloh v Gmailu?",
+          "a": "Gmail povoluje až 25 MB na e-mail. Pokud je soubor větší, vynutí odkaz na Google Drive."
+        },
+        {
+          "q": "O kolik mohu video zmenšit?",
+          "a": "Často dokážeme zmenšit 200MB video na 24 MB při zachování velmi dobré kvality obrazu."
+        }
+      ]
+    },
+    "youtube": {
+      "title": "Komprimujte video pro YouTube online – Rychlý optimalizátor YouTube",
+      "description": "Komprimujte videa pro YouTube online zdarma. Zmenšete velikost videa při zachování kvality 1080p a 4K HD. Rychlejší nahrávání bez zpoždění při zpracování.",
+      "h1": "Rychlý video kompresor YouTube",
+      "heroText": "Nahrajte na YouTube během několika sekund. Komprimujte svá videa v rozlišení 1080p a 4K při zachování přesné vizuální kvality s vysokou věrností.",
+      "introText": "YouTube zpracovává masivní nahrávání videa, ale těžké soubory mohou způsobit zablokování zpracování a nekonečné čekací doby. Náš inteligentní optimalizátor snižuje velikost souboru bez ztráty rozlišení nebo přesnosti barev.",
+      "features": [
+        {
+          "title": "Žádná ztráta kvality",
+          "desc": "Pokročilá komprese libx264 zachovává vaši vizuální čistotu."
+        },
+        {
+          "title": "Rychlé zpracování",
+          "desc": "Zpracování místního prohlížeče znamená žádné čekací doby serveru."
+        },
+        {
+          "title": "Soukromí na prvním místě",
+          "desc": "Vaše video nikdy neopustí váš prohlížeč. 100% bezpečné."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Nahrát video",
+          "desc": "Přetáhněte video soubor MP4, MOV nebo WebM."
+        },
+        {
+          "title": "Vyberte Rozlišení",
+          "desc": "Vyberte 1080p nebo 4K, abyste zůstali optimalizovaní pro YouTube."
+        },
+        {
+          "title": "Komprimovat a stáhnout",
+          "desc": "Připravte své odlehčené video k okamžitému nahrání."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Sníží to kvalitu mé YouTube?",
+          "a": "Ne, náš nástroj komprimuje soubory bez ztráty rozlišení, takže je YouTube zpracuje v HD/4K."
+        },
+        {
+          "q": "Je bezpečné používat?",
+          "a": "Ano, veškeré zpracování probíhá uvnitř vašeho prohlížeče, což zajišťuje naprosté soukromí."
+        }
+      ]
+    },
+    "tiktok": {
+      "title": "Komprimujte video pro TikTok Online – Shrink Videa pro TikTok",
+      "description": "Komprimujte videa pro TikTok online zdarma. Optimalizujte vertikální videa s poměrem stran 9:16, aby dokonale odpovídala pokynům TikTok. Udržujte svá videa ostrá pro FYP.",
+      "h1": "Video kompresor TikTok",
+      "heroText": "Udělejte ze svých videí reklamu na FYP. Komprimujte vertikální klipy a nahrajte je na TikTok okamžitě s nulovým zpožděním.",
+      "introText": "TikTok upřednostňuje rychlé načítání vysoce kvalitních vertikálních videí. Náš kompresor zmenší vaše soubory MP4 a MOV tak, aby odpovídaly pokynům pro mobilní zařízení TikTok, přičemž přechody a text budou dokonale ostré.",
+      "features": [
+        {
+          "title": "9:16 Optimalizováno",
+          "desc": "Ideální pro vertikální klipy, instagramové kotouče a šortky."
+        },
+        {
+          "title": "Kvalita FYP",
+          "desc": "Udržuje rozlišení videa ostré, aby se zabránilo rozmazané kompresi TikTok."
+        },
+        {
+          "title": "Zero Server Lag",
+          "desc": "Žádné nahrávání do externích databází, zpracování je dokončeno okamžitě."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Vybrat video",
+          "desc": "Vyberte si vertikální video z telefonu nebo PC."
+        },
+        {
+          "title": "Nastavit pokyny",
+          "desc": "Optimalizujte svůj datový tok pro rychlé načítání TikTok."
+        },
+        {
+          "title": "Uložit a sdílet",
+          "desc": "Stáhněte si komprimované video a okamžitě jej zveřejněte na TikTok."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Komprimuje TikTok videa?",
+          "a": "Ano, TikTok komprimuje soubory při nahrávání, ale jejich první komprimací pomocí našeho nástroje se vyhnete rozmazaným výsledkům."
+        },
+        {
+          "q": "Jaký formát je pro TikTok nejlepší?",
+          "a": "MP4 a MOV ve vertikálním poměru stran 9:16 jsou ideální formáty pro TikTok."
+        }
       ]
     }
   }

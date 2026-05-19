@@ -564,68 +564,112 @@
     "cta_title": "立即调整视频大小。"
   },
   "to_mp3_page": {
-    "hero_badge": "高保真 · 无需上传 · 100% 免费",
-    "hero_title": "在线视频转 MP3 转换器",
-    "hero_subtitle": "立即从视频中提取高质量音轨。安全且私密。",
-    "visualizer_title": "最好的转换器",
-    "visualizer_desc": "直接在浏览器中实现录音室级的提取精度。",
+    "hero_badge": "高保真度•无需上传•100% 免费",
+    "hero_title": "在线视频到 MP3 转换器",
+    "hero_subtitle": "我们的在线视频到 MP3 转换器是免费且安全的，让您可以立即从视频中获取音轨。一款在线视频到 Mp3 转换器，最适合音乐、播客、采访、讲座、语音剪辑和社交媒体。",
+    "visualizer_title": "最佳视频到 MP3 转换器",
+    "visualizer_desc": "VideoCompressorPro 是一款易于使用且非常适合新手的视频转换器，无论您是将 YouTube 视频转换为 MP3、TikTok 视频转换为 MP3，还是寻找适合您的 MP3 视频转换器。我们的在线视频到 MP3 转换器可让您立即将视频转换为高品质的 MP3 音频文件。使用最好的视频到 MP3 转换器，直接从浏览器快速从 YouTube 视频剪辑、TikTok 视频、播客、网络研讨会和录音中提取音频，在几秒钟内获得声音。",
     "visualizer_label": "输出格式",
-    "visualizer_format": "高质量 MP3 (320kbps)",
-    "features_title": "精英提取",
-    "f1_title": "高保真",
-    "f1_desc": "支持高达 320kbps 的比特率，音质纯净。",
-    "f2_title": "完全隐私",
-    "f2_desc": "本地处理。您的文件绝不会传给我们。",
-    "f3_title": "立即下载",
-    "f3_desc": "无需等待。提取完成后立即获取音频。",
-    "f4_title": "多样格式",
-    "f4_desc": "支持 MP4, MOV, AVI 转 MP3, WAV 或 OGG。",
-    "f5_title": "批量模式",
-    "f5_desc": "几秒钟内将多个视频转换为播放列表。",
-    "f6_title": "无需账号",
-    "f6_desc": "无须注册，无烦人广告，全功能访问。",
-    "steps_title": "如何转换",
-    "s1_title": "加载",
-    "s1_desc": "选择任何流行格式的视频文件。",
-    "s2_title": "配置",
-    "s2_desc": "选择比特率和所需的输出格式。",
-    "s3_title": "提取",
-    "s3_desc": "立即以极其精确的方式分离音频。",
-    "s4_title": "保存",
-    "s4_desc": "安全下载本地处理的 MP3。",
-    "reviews_title": "专业人士使用",
-    "r1_text": "即使在录音室监听器上音质也非常完美。棒极了。",
-    "r1_role": "音乐制作人",
-    "r2_text": "I use it to get clean audio for my podcasts from video interviews. It's consistently very reliable.",
-    "r2_role": "Professional Podcaster",
-    "r3_text": "Extremely fast extraction. I converted 10 long videos in a minute. The speed is unmatched.",
-    "r3_role": "Graduate Student",
-    "r4_text": "No distortion at all. The LAME encoder implementation here works wonders for audio fidelity.",
-    "r4_role": "Audio Engineer",
-    "r5_text": "Privacy first - my videos aren't uploaded to convert. This is essential for my sensitive interview data.",
-    "r5_role": "Investigative Journalist",
-    "r6_text": "Best way to get high-quality MP3s from my own YouTube backups. Simple, clean, and perfect.",
-    "r6_role": "Content Creator",
-    "r7_text": "Simple, clean, and no annoying ads or popups. A rare find in the world of online conversion tools.",
-    "r7_role": "Creative Freelancer",
-    "r8_text": "Supports all formats. Converted my old MKV home videos to MP3 to listen in the car easily.",
-    "r8_role": "Tech Enthusiast",
-    "r9_text": "The batch processing feature is a life-saver for my sound effects library.",
-    "r9_role": "Game Developer",
-    "r10_text": "Studio-grade audio extraction in seconds. It's my go-to tool for video sound design.",
-    "r10_role": "Sound Designer",
-    "r11_text": "Crystal clear MP3 extraction every time. I use it for my sample library and it never fails.",
-    "r11_role": "Audio Producer",
-    "r12_text": "Fastest conversion I've seen. No more waiting for servers to process my files.",
-    "r12_role": "Creative Director",
+    "visualizer_format": "高品质 MP3 (320kbps)",
+    "features_title": "高级音频提取功能",
+    "features_desc": "为创作者、听众和专业人士提供快速、简洁、基于浏览器的现代 Web 技术，将视频渲染为高质量 MP3 音频文件。",
+    "f1_title": "录音室品质的 MP3 输出",
+    "f1_desc": "我们先进的在线视频转换器到 MP3 工具非常适合从视频中提取平衡且突出的音频，并具有优化的音质，适用于音乐、播客、采访、网络研讨会和录音。\n\n高品质• 干净的音频• MP3 导出",
+    "f2_title": "基于浏览器的安全转换",
+    "f2_desc": "在处理过程中，您的文件将保持机密。在线视频到 MP3 转换器不需要下载任何东西，也不需要第三方应用程序。\n\n私密、安全、本地处理。",
+    "f3_title": "闪电般快速的音频下载",
+    "f3_desc": "我们的视频到 MP3 转换器免费下载完整版在线体验旨在在几秒钟内将视频文件转换为 MP3 格式，并将音频保存到您的设备以供离线收听、编辑、流式传输或内容创建。\n\n快速处理 • 快速下载",
+    "f4_title": "支持最流行的视频格式。",
+    "f4_desc": "使用我们的 MP3 视频转换器工具，将视频转换为 MP4、MOV、AVI、MKV、WebM 和其他流行视频格式的 MP3。\n\nMP4 • MOV • AVI • WEBM",
+    "f5_title": "专为内容创作者设计",
+    "f5_desc": "使用我们的 YouTube 视频到 MP3 转换器，轻松可靠地将 YouTube 视频、TikTok 视频、网络研讨会、教程、播客和创作者内容转换为 MP3 格式。\n\nYouTube • TIKTOK • 播客",
+    "f6_title": "免费且易于使用",
+    "f6_desc": "从任何浏览器获取音频，无需复杂的软件、隐藏费用、注册或水印限制。我们有一个免费的即时视频到 MP3 转换器，可以在移动设备和桌面上运行。\n\n无需安装 • 免费 • 适合初学者",
+    "steps_title": "在几秒钟内将视频转换为高品质 MP3",
+    "steps_desc": "我们的视频到 MP3 音频转换器快速且安全，让您可以快速从视频中提取音频。无需复杂的软件，无需编辑经验，无需漫长的等待时间。",
+    "s1_title": "导入您的视频",
+    "s1_desc": "在我们的免费视频 MP3 转换器中拖放或选择视频文件，以直接上传到该工具中。\n\n快速上传 • 多种格式",
+    "s2_title": "提取高质量音频",
+    "s2_desc": "使用我们的免费视频到 MP3 转换器，选择 MP3 输出格式并立即将视频转换为针对音乐、播客、录音、采访和创作者内容进行优化的干净音频。\n\nMP3 输出 – 优质音频",
+    "s3_title": "保存并随处使用",
+    "s3_desc": "转换后立即保存 MP3 文件并离线播放、编辑项目、创建演示文稿或发布到社交媒体。我们用于 PC 体验的视频到 MP3 转换器是基于浏览器的下载，未安装在计算机上。\n\n即时下载 • 无需软件",
+    "use_cases_title": "人们在现实生活中使用我们的视频转 MP3 转换器的方式",
+    "use_cases_desc": "无论是音乐爱好者、学生、创作者还是商业团队，我们的在线视频到 MP3 转换器都旨在将视频内容转换为便携式、高质量的音频文件，以用于播放列表、编辑、学习和共享。",
+    "u1_title": "将音乐和现场表演另存为 MP3",
+    "u1_desc": "使用我们的转换器将音乐会录音、音乐视频、DJ 集和现场表演转换为高品质 MP3 音频，以便随时离线收听。",
+    "u1_tags": "音乐• 现场表演• 播放列表",
+    "u2_title": "随时随地收听播客",
+    "u2_desc": "将播客视频转换为 MP3，以便在通勤、办公室、锻炼期间或阅读和学习时播放，无需任何麻烦即可使用我们的视频到 MP3 转换器免费下载完整版体验，播放播客视频中的音频，而无需打开任何软件。",
+    "u2_tags": "播客 • 采访 • 仅音频",
+    "u3_title": "将教育视频转换为音频课程。",
+    "u3_desc": "使用我们的安全视频到 MP3 转换器下载，无需任何安装，即可将教程、录制的讲座、辅导课程和教育视频转换为 MP3，以便随时随地学习。",
+    "u3_tags": "讲座 • 课程 • 学习音频",
+    "u4_title": "复制音频以编辑项目。",
+    "u4_desc": "使用我们的在线视频到 MP3 转换器将音轨从视频中分离出来，以进行配音、混音、播客编辑、演示和后期制作。",
+    "u4_tags": "编辑• 内容创建• 制作",
+    "u5_title": "从社交媒体视频制作音频。",
+    "u5_desc": "使用我们基于浏览器的 TikTok 视频到 MP3 转换器和免费的 YouTube 视频到 MP3 转换器，只需几秒钟即可从 tiktok 视频、YouTube 视频、短片和社交媒体中提取声音。",
+    "u5_tags": "TIKTOK • YOUTUBE • 简短内容",
+    "u6_title": "保存励志和演讲音频",
+    "u6_desc": "使用我们的快速视频到 MP3 音频转换器将视频转换为音频 MP3 格式，以便您可以离线收听演讲、励志视频、研讨会和个人发展材料。",
+    "u6_tags": "演讲• 动机• 离线音频",
+    "reviews_title": "深受创作者、学生和日常用户的信赖",
+    "reviews_desc": "许多人每天都使用我们的在线视频到 MP3 转换器来快速翻录音乐、播客、采访、讲座和创作者音频，而无需进行具有挑战性的编程。",
+    "r1_text": "我使用过很多视频到 MP3 转换程序，但这是我用过的最好的一个。它速度很快，而且音质真的很棒。",
+    "r1_role": "播客听众",
+    "r2_text": "这是一个很棒的 youTube 到 MP3 转换器，因为我只需要一个简单的解决方案，不需要一步一步进行复杂的操作。",
+    "r2_role": "营销协调员",
+    "r3_text": "它的转换速度给我留下了深刻的印象。我上传了一个大的 MP4 文件并在几秒钟内下载了 MP3。",
+    "r3_role": "YouTube 创作者",
+    "r4_text": "我几乎每天都会使用这个 Tiktok 视频到 MP3 转换器来进行项目编辑和社交媒体内容。",
+    "r4_role": "视频编辑器",
+    "r5_text": "干净且易于使用的界面，甚至我的学生也可以使用这个视频转换器到 MP3 工具。",
+    "r5_role": "在线讲师",
+    "r6_text": "正在寻找适用于 PC 的视频到 MP3 转换器下载，但这个浏览器工具完全取代了桌面软件。",
+    "r6_role": "自由设计师",
+    "r7_text": "将讲座录制为音频文件，然后转换为 MP3，以便在上下班时收听 - 节省了我很多学习时间。",
+    "r7_role": "大学生",
+    "r8_text": "它可以在不损失音质的情况下转换长文件，是适用于播客的完美视频到 MP3 音频转换器。",
+    "r8_role": "音频制作人",
+    "r9_text": "因此，一切都可以直接在浏览器中运行，无需任何不必要的下载、广告或设置步骤。",
+    "r9_role": "内容策略师",
+    "r10_text": "这个在线视频到 MP3 转换器非常快速且易于使用，我成功地从 TikTok 视频和社交媒体内容下载了音频。",
+    "r10_role": "社交媒体经理",
+    "r11_text": "这个免费的在线视频到 MP3 转换器是一个很棒的工具，可以毫无问题地转换我的视频并提高其质量 - 大多数工具的作用相反。",
+    "r11_role": "小企业主",
+    "r12_text": "我使用这个免费的 YouTube 视频到 MP3 转换器来保存演讲和操作视频，以便在健身房时收听。",
+    "r12_role": "健身教练",
     "faq_title": "常见问题",
-    "q1": "如何提取音频？",
-    "a1": "加载视频并点击“提取音频”。就这么简单！",
-    "q2": "是免费的吗？",
-    "a2": "是的，100% 免费且无限制。",
-    "q3": "哪种比特率最好？",
-    "a3": "最高质量用 320kbps；节省空间用 128kbps。",
-    "cta_title": "立即提取音频。"
+    "faq_desc": "了解如何使用 VideoCompressorPro 将视频转换为高品质 MP3 音频。",
+    "q1": "什么是 MP3 文件？",
+    "a1": "MP3 是音乐、播客、录音最常见的音频格式之一，由于其体积小、质量好，可以离线收听。",
+    "q2": "什么是视频 MP3 转换器？",
+    "a2": "在线视频到 MP3 转换器是一种工具，可帮助从视频文件中删除音频，然后将其存储为 MP3 音频文件格式，可以在媒体播放器、手机、平板电脑和笔记本电脑上播放。",
+    "q3": "有哪些视频格式可用？",
+    "a3": "我们的视频到 MP3 转换器支持的流行视频格式包括 MP4、MOV、AVI、MKV、WebM、MPEG 等。",
+    "q4": "转换过程中声音会失真吗？",
+    "a4": "我们的转换器经过优化，可在提取过程中保持清晰、平衡的音频质量，是音乐、播客、采访和口语内容的理想选择。",
+    "q5": "有没有需要安装的软件？",
+    "a5": "这不需要安装。无需下载应用程序或复杂的桌面应用程序 - 它可以直接在您的浏览器中运行。它是适用于 PC 的替代轻量级视频 MP3 转换器下载。",
+    "q6": "您可以将视频上传到 MP3 转换器吗？",
+    "a6": "是的，VideoCompressorPro 在浏览器中进行处理，目的是在转换过程中维护文档的隐私和安全。",
+    "q7": "您有能力批量转换视频吗？",
+    "a7": "根据浏览器和设备的不同，转换器可能需要更多的处理能力，但是，我们的转换器针对进行多次转换进行了优化。",
+    "q8": "文件大小或视频长度有限制吗？",
+    "a8": "支持的文件大小主要受浏览器、设备内存和处理能力的限制，但现代系统支持大视频。",
+    "q9": "是否可以从 YouTube 视频中提取音频？",
+    "a9": "是的，我们的免费 YouTube 到 MP3 转换器可以从兼容的视频文件中提取音频，用于播客、讲座、音乐、采访和创作者内容。",
+    "q10": "转换器适合移动设备吗？",
+    "a10": "是的，我们的 Web 到 MP3 转换器与 Android、iPhone、Android 平板电脑、iPad、笔记本电脑或浏览器兼容，无需下载任何其他软件。",
+    "q11": "有没有办法在没有互联网的情况下使用提取的音频？",
+    "a11": "绝对地。您的 MP3 文件已转换，您可以下载它，稍后无需互联网即可播放！",
+    "q12": "为什么这是 MP3 转换器的最佳视频之一？",
+    "a12": "VideoCompressorPro 结合了浏览器中的快速处理、干净的 MP3 导出、安全处理和用户友好的工具，无需复杂的软件和订阅。",
+    "q13": "您是否正在寻找将 TikTok 或社交媒体视频转换为 MP3 的方法？",
+    "a13": "是的，我们的 TikTok 视频到 MP3 转换器可以将 TikTok 视频和社交视频、网络研讨会、教程、播客和许多其他视频格式转换为 MP3。",
+    "q14": "这个视频到 MP3 转换器是免费的吗？",
+    "a14": "是的，您可以使用我们的视频到 MP3 转换器免费在线下载完整版本，没有隐藏费用或强制注册或复杂的安装。",
+    "cta_title": "立即提取高保真音频。"
   },
   "audio_cutter_page": {
     "hero_badge": "精准 · 无需上传 · 100% 免费",
@@ -889,18 +933,42 @@
       "heroText": "全球最值得信赖的 MP4 压缩工具。在保持 1080p/4K 惊人画质的同时，数秒内缩小您的 MP4 文件。",
       "introText": "MP4 是最流行的视频格式，但高分辨率文件可能非常巨大。我们的智能压缩引擎会分析您的 MP4 码率，在文件大小和视觉清晰度之间提供完美平衡。",
       "features": [
-        { "title": "无损画质", "desc": "先进的 libx264 编码确保您的 MP4 保持锐利清晰。" },
-        { "title": "通用播放", "desc": "压缩后的 MP4 可在所有 iPhone、Android 和智能电视上运行。" },
-        { "title": "隐私优先", "desc": "您的文件永远不会离开您的浏览器。100% 安全处理。" }
+        {
+          "title": "无损画质",
+          "desc": "先进的 libx264 编码确保您的 MP4 保持锐利清晰。"
+        },
+        {
+          "title": "通用播放",
+          "desc": "压缩后的 MP4 可在所有 iPhone、Android 和智能电视上运行。"
+        },
+        {
+          "title": "隐私优先",
+          "desc": "您的文件永远不会离开您的浏览器。100% 安全处理。"
+        }
       ],
       "steps": [
-        { "title": "上传 MP4", "desc": "将您的 MP4 文件拖放到压缩框中。" },
-        { "title": "选择大小", "desc": "选择所需的输出大小（单位：MB）。" },
-        { "title": "压缩并保存", "desc": "立即下载优化后的 MP4。" }
+        {
+          "title": "上传 MP4",
+          "desc": "将您的 MP4 文件拖放到压缩框中。"
+        },
+        {
+          "title": "选择大小",
+          "desc": "选择所需的输出大小（单位：MB）。"
+        },
+        {
+          "title": "压缩并保存",
+          "desc": "立即下载优化后的 MP4。"
+        }
       ],
       "faqs": [
-        { "q": "我的 MP4 视频会变模糊吗？", "a": "不会，我们使用高效的恒定速率因子来保持视觉完整性。" },
-        { "q": "有文件大小限制吗？", "a": "您可以免费压缩高达 5GB 的 MP4 文件。" }
+        {
+          "q": "我的 MP4 视频会变模糊吗？",
+          "a": "不会，我们使用高效的恒定速率因子来保持视觉完整性。"
+        },
+        {
+          "q": "有文件大小限制吗？",
+          "a": "您可以免费压缩高达 5GB 的 MP4 文件。"
+        }
       ]
     },
     "mov": {
@@ -910,18 +978,42 @@
       "heroText": "Apple MOV 文件以体积大而著称。我们的工具在不牺牲 Apple 标志性画质的前提下，为网络优化 MOV 码率。",
       "introText": "在 iPhone 或 Mac 上拍摄的 QuickTime (MOV) 文件通常占用数 GB 空间。我们帮助您立即将它们转换并压缩为高效、网络就绪的格式。",
       "features": [
-        { "title": "Apple 优化", "desc": "专门针对高码率 ProRes 和 H.264 MOV 文件进行调优。" },
-        { "title": "网络就绪", "desc": "将笨重的 MOV 转换为适合流媒体播放的轻量版本。" },
-        { "title": "零等待", "desc": "快速的基于浏览器的处理，无需上传到服务器。" }
+        {
+          "title": "Apple 优化",
+          "desc": "专门针对高码率 ProRes 和 H.264 MOV 文件进行调优。"
+        },
+        {
+          "title": "网络就绪",
+          "desc": "将笨重的 MOV 转换为适合流媒体播放的轻量版本。"
+        },
+        {
+          "title": "零等待",
+          "desc": "快速的基于浏览器的处理，无需上传到服务器。"
+        }
       ],
       "steps": [
-        { "title": "导入 MOV", "desc": "从您的 Mac 或 iPhone 选择 .mov 文件。" },
-        { "title": "调整大小", "desc": "选择符合您分享需求的理想大小。" },
-        { "title": "导出", "desc": "数秒内保存压缩后的视频。" }
+        {
+          "title": "导入 MOV",
+          "desc": "从您的 Mac 或 iPhone 选择 .mov 文件。"
+        },
+        {
+          "title": "调整大小",
+          "desc": "选择符合您分享需求的理想大小。"
+        },
+        {
+          "title": "导出",
+          "desc": "数秒内保存压缩后的视频。"
+        }
       ],
       "faqs": [
-        { "q": "我可以在 iPhone 上使用吗？", "a": "是的，我们的工具与 iOS 上的 Safari 完全兼容，支持 MOV 压缩。" },
-        { "q": "支持 4K MOV 吗？", "a": "当然，我们可以轻松处理 4K 60fps 的 MOV 文件。" }
+        {
+          "q": "我可以在 iPhone 上使用吗？",
+          "a": "是的，我们的工具与 iOS 上的 Safari 完全兼容，支持 MOV 压缩。"
+        },
+        {
+          "q": "支持 4K MOV 吗？",
+          "a": "当然，我们可以轻松处理 4K 60fps 的 MOV 文件。"
+        }
       ]
     },
     "video-for-whatsapp": {
@@ -931,18 +1023,42 @@
       "heroText": "别再在 WhatsApp 上看到“文件太大”的错误提示了。将您的视频压缩到正好符合 16MB 或 64MB 的限制。",
       "introText": "WhatsApp 有严格的文件大小限制（手机端 16MB，网页端 64MB）。我们的工具会自动优化您的视频以符合这些限制，同时保持内容清晰。",
       "features": [
-        { "title": "绕过限制", "desc": "自动达到 WhatsApp 精确的 16MB 或 64MB 目标。" },
-        { "title": "即时分享", "desc": "压缩后的文件可以立即在 WhatsApp 上发送。" },
-        { "title": "群聊友好", "desc": "更小的文件意味着在群聊中上传和下载速度更快。" }
+        {
+          "title": "绕过限制",
+          "desc": "自动达到 WhatsApp 精确的 16MB 或 64MB 目标。"
+        },
+        {
+          "title": "即时分享",
+          "desc": "压缩后的文件可以立即在 WhatsApp 上发送。"
+        },
+        {
+          "title": "群聊友好",
+          "desc": "更小的文件意味着在群聊中上传和下载速度更快。"
+        }
       ],
       "steps": [
-        { "title": "选择视频", "desc": "选择您想在 WhatsApp 上发送的视频。" },
-        { "title": "选择限制", "desc": "为了在手机版 WhatsApp 上安全发送，请将目标设置为 15MB。" },
-        { "title": "下载并发送", "desc": "分享您的视频，不再有任何限制警告。" }
+        {
+          "title": "选择视频",
+          "desc": "选择您想在 WhatsApp 上发送的视频。"
+        },
+        {
+          "title": "选择限制",
+          "desc": "为了在手机版 WhatsApp 上安全发送，请将目标设置为 15MB。"
+        },
+        {
+          "title": "下载并发送",
+          "desc": "分享您的视频，不再有任何限制警告。"
+        }
       ],
       "faqs": [
-        { "q": "WhatsApp 的文件限制是多少？", "a": "手机端限制为 16MB，而 WhatsApp 网页端支持高达 64MB。" },
-        { "q": "视频会看起来模糊吗？", "a": "不会，我们会优化分辨率，确保在手机屏幕上效果出色。" }
+        {
+          "q": "WhatsApp 的文件限制是多少？",
+          "a": "手机端限制为 16MB，而 WhatsApp 网页端支持高达 64MB。"
+        },
+        {
+          "q": "视频会看起来模糊吗？",
+          "a": "不会，我们会优化分辨率，确保在手机屏幕上效果出色。"
+        }
       ]
     },
     "video-for-discord": {
@@ -952,18 +1068,42 @@
       "heroText": "厌倦了 Discord Nitro 的提示？立即将您的表情包和剪辑压缩到 8MB 或 25MB 的免费限制以内。",
       "introText": "Discord 的上传限制是每个玩家的噩梦。无论您是需要免费用户的 8MB 文件，还是 Nitro Basic 的 25MB 文件，我们的工具都能确保您的剪辑保持高质量。",
       "features": [
-        { "title": "Nitro 友好", "desc": "预设 8MB、25MB 和 50MB 的 Discord 限制。" },
-        { "title": "游戏玩家必备", "desc": "非常适合来自 OBS 或 Shadowplay 的高帧率游戏剪辑。" },
-        { "title": "自动调整大小", "desc": "调整尺寸以确保文件符合 Discord 的微小限制。" }
+        {
+          "title": "Nitro 友好",
+          "desc": "预设 8MB、25MB 和 50MB 的 Discord 限制。"
+        },
+        {
+          "title": "游戏玩家必备",
+          "desc": "非常适合来自 OBS 或 Shadowplay 的高帧率游戏剪辑。"
+        },
+        {
+          "title": "自动调整大小",
+          "desc": "调整尺寸以确保文件符合 Discord 的微小限制。"
+        }
       ],
       "steps": [
-        { "title": "上传剪辑", "desc": "将您的游戏剪辑或表情包拖到框中。" },
-        { "title": "设置 8MB 目标", "desc": "使用滑块精确达到 8MB 标记。" },
-        { "title": "在 Discord 上分享", "desc": "无需 Nitro 即可在任何频道发布您的视频。" }
+        {
+          "title": "上传剪辑",
+          "desc": "将您的游戏剪辑或表情包拖到框中。"
+        },
+        {
+          "title": "设置 8MB 目标",
+          "desc": "使用滑块精确达到 8MB 标记。"
+        },
+        {
+          "title": "在 Discord 上分享",
+          "desc": "无需 Nitro 即可在任何频道发布您的视频。"
+        }
       ],
       "faqs": [
-        { "q": "Discord 的免费限制是多少？", "a": "Discord 最近将大多数用户的免费限制提高到了 25MB，但对于某些服务器，8MB 仍然更安全。" },
-        { "q": "支持 .webm 吗？", "a": "是的，我们建议在 Discord 中使用 .webm，因为它在小体积下有更好的压缩效果。" }
+        {
+          "q": "Discord 的免费限制是多少？",
+          "a": "Discord 最近将大多数用户的免费限制提高到了 25MB，但对于某些服务器，8MB 仍然更安全。"
+        },
+        {
+          "q": "支持 .webm 吗？",
+          "a": "是的，我们建议在 Discord 中使用 .webm，因为它在小体积下有更好的压缩效果。"
+        }
       ]
     },
     "video-for-email": {
@@ -973,18 +1113,132 @@
       "heroText": "无需使用 Google Drive 或 Dropbox 即可通过电子邮件发送视频。将您的文件缩小到符合 25MB 的电子邮件附件限制。",
       "introText": "大多数电子邮件提供商（如 Gmail 和 Outlook）都有 25MB 的限制。我们的工具会优化您的商务视频或家庭剪辑，使其完美装入邮件。",
       "features": [
-        { "title": "兼容 Gmail", "desc": "保持在 25MB 限制以下，实现无缝添加附件。" },
-        { "title": "专业品质", "desc": "让您的商务演示和教程保持锐利清晰。" },
-        { "title": "跨平台", "desc": "在所有浏览器（包括 Outlook 和 Yahoo Mail）上均可运行。" }
+        {
+          "title": "兼容 Gmail",
+          "desc": "保持在 25MB 限制以下，实现无缝添加附件。"
+        },
+        {
+          "title": "专业品质",
+          "desc": "让您的商务演示和教程保持锐利清晰。"
+        },
+        {
+          "title": "跨平台",
+          "desc": "在所有浏览器（包括 Outlook 和 Yahoo Mail）上均可运行。"
+        }
       ],
       "steps": [
-        { "title": "添加附件", "desc": "选择您想通过邮件发送的大视频文件。" },
-        { "title": "设置 24MB 限制", "desc": "目标设置为 24MB，以确保符合 25MB 的邮件限制。" },
-        { "title": "添加并发送", "desc": "下载文件并直接将其添加到您的电子邮件中。" }
+        {
+          "title": "添加附件",
+          "desc": "选择您想通过邮件发送的大视频文件。"
+        },
+        {
+          "title": "设置 24MB 限制",
+          "desc": "目标设置为 24MB，以确保符合 25MB 的邮件限制。"
+        },
+        {
+          "title": "添加并发送",
+          "desc": "下载文件并直接将其添加到您的电子邮件中。"
+        }
       ],
       "faqs": [
-        { "q": "Gmail 的附件限制是多少？", "a": "Gmail 每封邮件允许高达 25MB 的附件。如果超过这个大小，它会强制使用 Google Drive 链接。" },
-        { "q": "我可以把视频缩小多少？", "a": "通常我们可以将 200MB 的视频缩小到 24MB，且仍保持非常好的观看效果。" }
+        {
+          "q": "Gmail 的附件限制是多少？",
+          "a": "Gmail 每封邮件允许高达 25MB 的附件。如果超过这个大小，它会强制使用 Google Drive 链接。"
+        },
+        {
+          "q": "我可以把视频缩小多少？",
+          "a": "通常我们可以将 200MB 的视频缩小到 24MB，且仍保持非常好的观看效果。"
+        }
+      ]
+    },
+    "youtube": {
+      "title": "压缩 YouTube 视频在线 - 快速 YouTube 优化器",
+      "description": "免费在线压缩 YouTube 视频。减小视频大小，同时保持 1080p 和 4K 高清质量。上传速度更快，无处理延迟。",
+      "h1": "快速 YouTube 视频压缩器",
+      "heroText": "只需几秒钟即可上传到 YouTube。压缩 1080p 和 4K 视频，同时保持精确的高保真视觉质量。",
+      "introText": "YouTube 处理大量视频上传，但大文件可能会导致处理挂起和无休止的等待时间。我们的智能优化器可以减小文件大小，而不会损失分辨率或颜色准确性。",
+      "features": [
+        {
+          "title": "无质量损失",
+          "desc": "先进的 libx264 压缩可保持您的视觉清晰度。"
+        },
+        {
+          "title": "快速处理",
+          "desc": "本地浏览器处理意味着没有服务器等待时间。"
+        },
+        {
+          "title": "隐私第一",
+          "desc": "您的视频永远不会离开您的浏览器。 100% 安全。"
+        }
+      ],
+      "steps": [
+        {
+          "title": "上传视频",
+          "desc": "拖放 MP4、MOV 或 WebM 视频文件。"
+        },
+        {
+          "title": "选择分辨率",
+          "desc": "选择 1080p 或 4K 以保持针对 YouTube 的优化。"
+        },
+        {
+          "title": "压缩并下载",
+          "desc": "准备好您的轻量级视频，以便即时上传。"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "这会降低我的 YouTube 质量吗？",
+          "a": "不会，我们的工具会在不损失分辨率的情况下压缩文件，因此 YouTube 将以 HD/4K 格式处理它。"
+        },
+        {
+          "q": "使用安全吗？",
+          "a": "是的，所有处理都在您的浏览器内完成，确保完全隐私。"
+        }
+      ]
+    },
+    "tiktok": {
+      "title": "在线压缩 TikTok 视频 - 缩小 TikTok 视频",
+      "description": "免费在线压缩 TikTok 视频。优化垂直 9:16 视频，使其完美符合 TikTok 准则。在五年计划中保持您的视频清晰。",
+      "h1": "TikTok 视频压缩器",
+      "heroText": "让您的视频在五年计划中流行。压缩垂直剪辑以零延迟立即上传到 TikTok。",
+      "introText": "TikTok 青睐加载速度快、高质量的垂直视频。我们的压缩器可缩小您的 MP4 和 MOV 文件以适应 TikTok 移动指南，同时保持过渡和文本完美清晰。",
+      "features": [
+        {
+          "title": "9:16 优化",
+          "desc": "非常适合垂直剪辑、Instagram 卷轴和短裤。"
+        },
+        {
+          "title": "五年计划质量",
+          "desc": "保持视频分辨率清晰，避免 TikTok 压缩模糊。"
+        },
+        {
+          "title": "零服务器延迟",
+          "desc": "无需上传到外部数据库，处理立即完成。"
+        }
+      ],
+      "steps": [
+        {
+          "title": "选择视频",
+          "desc": "从手机或电脑中选择垂直视频。"
+        },
+        {
+          "title": "设定指导方针",
+          "desc": "优化比特率以实现 TikTok 的快速加载。"
+        },
+        {
+          "title": "保存并分享",
+          "desc": "下载压缩视频并立即发布到 TikTok。"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "TikTok 会压缩视频吗？",
+          "a": "是的，TikTok 在上传时压缩文件，但首先使用我们的工具压缩它们可以避免模糊的结果。"
+        },
+        {
+          "q": "什么格式最适合 TikTok？",
+          "a": "垂直宽高比为 9:16 的 MP4 和 MOV 是 TikTok 的理想格式。"
+        }
       ]
     }
   }

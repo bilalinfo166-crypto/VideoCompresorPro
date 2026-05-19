@@ -564,68 +564,112 @@
     "cta_title": "Redimensionează video acum."
   },
   "to_mp3_page": {
-    "hero_badge": "Înaltă fidelitate · Fără încărcare · 100% Gratuit",
-    "hero_title": "Convertor Video în MP3 online",
-    "hero_subtitle": "Extrage piste audio de înaltă calitate din videoclipurile tale instantaneu. Sigur și privat.",
-    "visualizer_title": "Cel mai bun convertor",
-    "visualizer_desc": "Precizie de extracție la nivel de studio direct în browserul tău.",
-    "visualizer_label": "Format ieșire",
-    "visualizer_format": "MP3 de înaltă calitate (320kbps)",
-    "features_title": "Extracție de elită",
-    "f1_title": "Înaltă fidelitate",
-    "f1_desc": "Suport bitrate de până la 320kbps pentru un sunet de cristal.",
-    "f2_title": "Confidențialitate totală",
-    "f2_desc": "Procesare locală. Fișierele tale nu ajung niciodată la noi.",
-    "f3_title": "Descărcare instantanee",
-    "f3_desc": "Fără așteptare. Primește audio imediat după extracție.",
-    "f4_title": "Formate variate",
-    "f4_desc": "MP4, MOV, AVI în MP3, WAV sau OGG cu cea mai mare grijă.",
-    "f5_title": "În loturi",
-    "f5_desc": "Convertește mai multe videoclipuri într-o listă de redare în secunde.",
-    "f6_title": "Fără cont",
-    "f6_desc": "Acces complet fără înregistrare sau reclame enervante.",
-    "steps_title": "Cum se convertește",
-    "s1_title": "Încarcă",
-    "s1_desc": "Alege un fișier video în orice format popular.",
-    "s2_title": "Configurează",
-    "s2_desc": "Alege bitrate-ul și formatul de ieșire dorit.",
-    "s3_title": "Extrage",
-    "s3_desc": "Separă audio cu precizie chirurgicală instantaneu.",
-    "s4_title": "Salvează",
-    "s4_desc": "Descarcă în siguranță MP3-ul tău procesat local.",
-    "reviews_title": "Folosit de profesioniști",
-    "r1_text": "Sunet perfect chiar și pe monitoare de studio. Excelent.",
-    "r1_role": "Producător muzical",
-    "r2_text": "I use it to get clean audio for my podcasts from video interviews. It's consistently very reliable.",
-    "r2_role": "Professional Podcaster",
-    "r3_text": "Extremely fast extraction. I converted 10 long videos in a minute. The speed is unmatched.",
-    "r3_role": "Graduate Student",
-    "r4_text": "No distortion at all. The LAME encoder implementation here works wonders for audio fidelity.",
-    "r4_role": "Audio Engineer",
-    "r5_text": "Privacy first - my videos aren't uploaded to convert. This is essential for my sensitive interview data.",
-    "r5_role": "Investigative Journalist",
-    "r6_text": "Best way to get high-quality MP3s from my own YouTube backups. Simple, clean, and perfect.",
-    "r6_role": "Content Creator",
-    "r7_text": "Simple, clean, and no annoying ads or popups. A rare find in the world of online conversion tools.",
-    "r7_role": "Creative Freelancer",
-    "r8_text": "Supports all formats. Converted my old MKV home videos to MP3 to listen in the car easily.",
-    "r8_role": "Tech Enthusiast",
-    "r9_text": "The batch processing feature is a life-saver for my sound effects library.",
-    "r9_role": "Game Developer",
-    "r10_text": "Studio-grade audio extraction in seconds. It's my go-to tool for video sound design.",
-    "r10_role": "Sound Designer",
-    "r11_text": "Crystal clear MP3 extraction every time. I use it for my sample library and it never fails.",
-    "r11_role": "Audio Producer",
-    "r12_text": "Fastest conversion I've seen. No more waiting for servers to process my files.",
-    "r12_role": "Creative Director",
-    "faq_title": "FAQ",
-    "q1": "Cum se extrage?",
-    "a1": "Încarcă video și dă clic pe 'Extrage audio'. Asta e tot!",
-    "q2": "Este gratuit?",
-    "a2": "Da, 100% gratuit și fără limite.",
-    "q3": "Care bitrate este mai bun?",
-    "a3": "320kbps pentru calitate maximă; 128kbps pentru economie de spațiu.",
-    "cta_title": "Extrage audio acum."
+    "hero_badge": "Fidelitate ridicată • Fără încărcări • 100% gratuit",
+    "hero_title": "Convertor video online în MP3",
+    "hero_subtitle": "Convertorul nostru video online în MP3 este gratuit și sigur, permițându-vă să obțineți piese audio din videoclipuri în cel mai scurt timp. Un convertor online de video în Mp3 care funcționează cel mai bine pentru muzică, podcasturi, interviuri, prelegeri, clipuri vocale și rețele sociale.",
+    "visualizer_title": "Cel mai bun convertor video în MP3",
+    "visualizer_desc": "VideoCompressorPro este un convertor video ușor de utilizat și perfect pentru începători, indiferent dacă convertiți un videoclip YouTube în MP3, video TikTok în MP3 sau găsiți un convertor video în MP3 care funcționează bine pentru dvs. Convertorul nostru video online în MP3 vă permite să convertiți videoclipuri în fișiere audio MP3 instantaneu și la o calitate înaltă. Extrageți rapid audio din clipuri video YouTube, videoclipuri TikTok, podcasturi, seminarii web și înregistrări direct din browser cu cel mai bun convertor video în MP3 pentru a obține sunetul în câteva secunde.",
+    "visualizer_label": "Format de ieșire",
+    "visualizer_format": "MP3 de înaltă calitate (320 kbps)",
+    "features_title": "Funcții avansate de extracție audio",
+    "features_desc": "Redați videoclipurile în fișiere audio MP3 de înaltă calitate în tehnologie web rapidă, curată și modernă bazată pe browser pentru creatori, ascultători și profesioniști.",
+    "f1_title": "Ieșire MP3 de calitate Studio",
+    "f1_desc": "Instrumentul nostru sofisticat de conversie video online în MP3 este perfect pentru extragerea sunetului echilibrat și proeminent din videoclipuri cu o calitate optimizată a sunetului, potrivit pentru muzică, podcasturi, interviuri, seminarii web și înregistrări vocale.\n\nDE ÎNALTĂ CALITATE • AUDIO CURAT • EXPORT MP3",
+    "f2_title": "Conversie securizată bazată pe browser",
+    "f2_desc": "În timpul procesării, fișierele dumneavoastră rămân confidențiale. Convertorul video online în MP3 nu trebuie să descarce nimic și nici nu necesită aplicații terțe.\n\nPrivat, Securizat, Procesare locală.",
+    "f3_title": "Descărcări audio fulgerătoare",
+    "f3_desc": "Experiența noastră online de descărcare gratuită a versiunii complete a convertorului video în MP3 este concepută pentru a converti fișierele video în format MP3 în câteva secunde și pentru a salva sunetul pe dispozitivul dvs. pentru ascultare offline, editare, streaming sau creare de conținut.\n\nPROCESARE RAPIDĂ • DESCĂRCĂRI RAPIDE",
+    "f4_title": "Acceptă cele mai populare formate video.",
+    "f4_desc": "Convertiți videoclipuri în MP3 cu MP4, MOV, AVI, MKV, WebM și alte formate video populare folosind instrumentul nostru de conversie video în MP3.\n\nMP4 • MOV • AVI • WEBM",
+    "f5_title": "Proiectat special pentru creatorii de conținut",
+    "f5_desc": "Convertiți videoclipuri YouTube, videoclipuri TikTok, seminarii web, tutoriale, podcasturi și conținutul creatorilor în format MP3, fără efort și fiabil, cu convertorul nostru video YouTube în MP3.\n\nYOUTUBE • TIKTOK • PODCASTURI",
+    "f6_title": "Gratuit și ușor de utilizat",
+    "f6_desc": "Obțineți audio din orice browser fără a fi nevoie de software complicat, taxe ascunse, înscrieri sau restricții de filigran. Avem un convertor video instantaneu în MP3 gratuit, care rulează pe dispozitive mobile și desktop.\n\nFĂRĂ INSTALARE • GRATUIT • PRIETENOS ÎNcepătorilor",
+    "steps_title": "Convertiți videoclipuri în MP3 de înaltă calitate în câteva secunde",
+    "steps_desc": "Convertorul nostru video în audio MP3 este rapid și sigur, permițându-vă să extrageți rapid sunetul din video. Fără software complicat, fără experiență de editare și fără timp lung de așteptare.",
+    "s1_title": "Importați videoclipul dvs.",
+    "s1_desc": "Trageți și plasați sau selectați fișierele video în convertorul nostru gratuit de video în MP3 pentru a le încărca direct în instrument.\n\nÎNCĂRCARE RAPIDĂ • FORMATE MULTIPLE",
+    "s2_title": "Extrage audio de înaltă calitate",
+    "s2_desc": "Selectați formate de ieșire MP3 și convertiți instantaneu videoclipuri în sunet curat optimizat pentru muzică, podcasturi, înregistrări vocale, interviuri și conținut pentru creatori, fără costuri, folosind convertorul nostru gratuit de video în MP3.\n\nIeșire MP3 – audio de calitate",
+    "s3_title": "Salvați și utilizați oriunde",
+    "s3_desc": "Salvați fișierul MP3 imediat după conversie și redați-l offline, editați proiecte, creați prezentări sau publicați-l pe rețelele sociale. Convertorul nostru video în MP3 pentru experiența PC este o descărcare bazată pe browser, care nu este instalată pe computer.\n\nDESCARCARE INSTANT • NU ESTE NECESAR SOFTWARE",
+    "use_cases_title": "Modalități reale în care oamenii folosesc convertorul nostru video în MP3",
+    "use_cases_desc": "Fie că este vorba de pasionați de muzică, studenți, creatori sau echipe de afaceri, convertorul nostru online de video în MP3 este conceput pentru a transforma conținutul video în fișiere audio portabile, de înaltă calitate, pentru a fi utilizate în liste de redare, editare, învățare și partajare.",
+    "u1_title": "Salvați muzica și spectacolele live ca MP3",
+    "u1_desc": "Utilizați convertorul nostru pentru a converti o înregistrare a unui concert, videoclipuri muzicale, seturi DJ și spectacole live în audio MP3 de înaltă calitate pentru ascultare offline oricând.",
+    "u1_tags": "MUZICA • EMISIUNE LIVE • LISTE DE REDARE",
+    "u2_title": "Ascultă podcasturi oriunde",
+    "u2_desc": "Convertiți videoclipuri podcast în MP3 pentru a le reda în timpul navetei, la birou, în timpul antrenamentelor sau în timp ce citiți și învățați, redați audio din videoclipurile podcast fără a deschide niciun software cu experiența noastră de descărcare gratuită a versiunii complete a convertorului video în MP3.",
+    "u2_tags": "PODCASTURI • INTERVIURI • DOAR AUDIO",
+    "u3_title": "Transformați videoclipuri educaționale în lecții audio.",
+    "u3_desc": "Transformați tutorialele, prelegerile înregistrate, sesiunile de instruire și videoclipurile educaționale în MP3 pentru a învăța oricând din mers cu descărcarea noastră securizată de convertor video în MP3 pentru computer, care nu necesită nicio instalare.",
+    "u3_tags": "PRELEGE • CURSURI • STUDIU AUDIO",
+    "u4_title": "Copierea audio pentru editarea proiectelor.",
+    "u4_desc": "Utilizați convertorul nostru video în MP3 online pentru a separa melodiile audio de videoclipuri pentru voce off, remixare, editare podcast, prezentări și post-producție.",
+    "u4_tags": "EDITARE • CREARE CONȚINUT • PRODUCȚIE",
+    "u5_title": "Realizați sunet din videoclipurile din rețelele sociale.",
+    "u5_desc": "Extrageți sunetul din videoclipuri TikTok, videoclipuri YouTube, scurtmetraje și rețelele sociale în câteva secunde cu convertorul nostru video TikTok în MP3 bazat pe browser și convertorul gratuit de video YouTube în MP3.",
+    "u5_tags": "TIKTOK • YOUTUBE • CONȚINUT SCURT",
+    "u6_title": "Salvați sunetul motivațional și vorbire",
+    "u6_desc": "Conversia video în format audio MP3 cu convertorul nostru rapid video în audio MP3, astfel încât să puteți asculta discursuri, videoclipuri motivaționale, seminarii și materiale de dezvoltare personală offline.",
+    "u6_tags": "DISCURSĂRI • MOTIVAȚIE • AUDIO OFFLINE",
+    "reviews_title": "De încredere de către creatori, studenți și utilizatori de zi cu zi",
+    "reviews_desc": "Convertorul nostru video online în MP3 este folosit zilnic de mulți pentru a extrage rapid muzică, podcasturi, interviuri, prelegeri și sunetul creatorilor, fără programare dificilă.",
+    "r1_text": "Am folosit numeroase programe de conversie video în MP3, dar acesta este cel mai bun pe care l-am folosit vreodată. Este rapid și calitatea sunetului este foarte bună.",
+    "r1_role": "Ascultător de podcast",
+    "r2_text": "Acesta este un convertor excelent de la YouTube la MP3, deoarece aveam nevoie doar de o soluție simplă și nu trebuia să fac un pas cu pas complicat.",
+    "r2_role": "Coordonator de marketing",
+    "r3_text": "Chiar am fost impresionat de cât de repede s-a convertit; Am încărcat un fișier MP4 mare și am descărcat MP3-ul în câteva secunde.",
+    "r3_role": "Creator YouTube",
+    "r4_text": "Aș folosi acest convertor video Tiktok în MP3 aproape în fiecare zi pentru editarea proiectelor și conținutul rețelelor sociale.",
+    "r4_role": "Editor video",
+    "r5_text": "Interfață curată și ușor de utilizat și chiar și studenții mei ar putea folosi acest instrument de convertor video în MP3.",
+    "r5_role": "Instructor online",
+    "r6_text": "În căutarea unui convertor video în MP3 descărcat pentru computer, dar acest instrument de browser a luat locul software-ului desktop cu totul.",
+    "r6_role": "Designer independent",
+    "r7_text": "Am înregistrat prelegerile ca fișiere audio, apoi au fost convertite în MP3 pentru a le asculta în timpul navetei – mi-a economisit mult timp la studiu.",
+    "r7_role": "Student universitar",
+    "r8_text": "Convertind fișiere lungi fără a pierde calitatea sunetului, este un convertor perfect video în audio MP3 pentru podcasturi.",
+    "r8_role": "Producător audio",
+    "r9_text": "Datorită acestui lucru, totul funcționează direct în browser, fără descărcări inutile, anunțuri sau pași de configurare.",
+    "r9_role": "Strategist de conținut",
+    "r10_text": "Acest convertor video online în MP3 este extrem de rapid și ușor de utilizat și am descărcat cu succes audio din videoclipurile TikTok și conținutul din rețelele sociale.",
+    "r10_role": "Social Media Manager",
+    "r11_text": "Acest convertor online gratuit de video în MP3 este un instrument grozav care îmi convertește videoclipurile fără nicio problemă și le-a îmbunătățit calitatea - majoritatea instrumentelor fac opusul.",
+    "r11_role": "Proprietar de afaceri mici",
+    "r12_text": "Folosesc acest convertor gratuit de video YouTube în MP3 pentru a salva discursuri și videoclipuri cu instrucțiuni pe care să le ascult atunci când sunt la sală.",
+    "r12_role": "Antrenor de fitness",
+    "faq_title": "Întrebări frecvente",
+    "faq_desc": "Aflați cum să utilizați VideoCompressorPro pentru a converti videoclipuri în audio MP3 de înaltă calitate.",
+    "q1": "Ce este un fișier MP3?",
+    "a1": "MP3 este unul dintre cele mai comune formate audio pentru muzică, podcasturi, înregistrări vocale și poate fi ascultat offline datorită dimensiunilor reduse și calității bune.",
+    "q2": "Ce este un convertor video în MP3?",
+    "a2": "Un convertor online video în MP3 este un instrument care ajută la eliminarea sunetului dintr-un fișier video și apoi îl stochează într-un format de fișier audio MP3, care poate fi redat pe playere media, telefoane, tablete și laptopuri.",
+    "q3": "Ce formate video sunt disponibile?",
+    "a3": "Formatele video populare acceptate de convertorul nostru Video-to-MP3 includ MP4, MOV, AVI, MKV, WebM, MPEG și multe altele.",
+    "q4": "Va fi sunetul distorsionat în procesul de conversie?",
+    "a4": "Optimizat pentru păstrarea calității audio clare și echilibrate în timpul extracției, convertorul nostru este ideal pentru muzică, podcasturi, interviuri și conținut vorbit.",
+    "q5": "Există software care trebuie instalat?",
+    "a5": "Acest lucru nu va necesita o instalare. Nu este necesară descărcarea de aplicații sau aplicații desktop complexe - funcționează direct în browser. Este o alternativă de descărcare video ușoară la convertorul MP3 pentru computer.",
+    "q6": "Puteți încărca videoclipuri într-un convertor MP3?",
+    "a6": "Da, VideoCompressorPro este procesat în browser cu scopul de a menține confidențialitatea și securitatea documentelor dumneavoastră în timpul procesului de conversie.",
+    "q7": "Aveți posibilitatea de a converti videoclipuri în loturi?",
+    "a7": "Convertorul poate avea nevoie de mai multă putere de procesare, în funcție de browser și dispozitiv, cu toate acestea, convertorul nostru este optimizat pentru a face mai multe conversii.",
+    "q8": "Există restricții privind dimensiunea fișierului sau durata videoclipului?",
+    "a8": "Mărimea fișierului acceptată este limitată în primul rând de browser, memoria dispozitivului și puterea de procesare, dar videoclipurile mari sunt acceptate pe sistemele moderne.",
+    "q9": "Este posibil să extrageți sunetul din videoclipurile de pe YouTube?",
+    "a9": "Da, convertorul nostru gratuit YouTube în MP3 poate extrage sunetul din fișiere video compatibile pentru utilizare în podcasturi, prelegeri, muzică, interviuri și conținut pentru creatori.",
+    "q10": "Convertorul este prietenos cu dispozitivele mobile?",
+    "a10": "Da, convertorul nostru Web în MP3 este compatibil cu Android, iPhone, tabletă Android, iPad, laptop sau browser fără a descărca niciun software suplimentar.",
+    "q11": "Există vreo modalitate de a folosi sunetul extras fără internet?",
+    "a11": "Absolut. Fișierul tău MP3 este convertit, îl poți descărca și reda mai târziu fără internet!",
+    "q12": "De ce este acesta unul dintre cele mai bune videoclipuri pentru convertoare MP3?",
+    "a12": "VideoCompressorPro este o combinație de procesare rapidă în browser, exporturi MP3 curate, manipulare sigură și instrumente ușor de utilizat, fără software complicat și abonament.",
+    "q13": "Căutați o modalitate de a converti videoclipurile TikTok sau din rețelele sociale în MP3?",
+    "a13": "Da, convertorul nostru video TikTok în MP3 poate converti videoclipuri TikTok și videoclipuri sociale, webinarii, tutoriale, podcasturi și o mulțime de alte formate video în MP3.",
+    "q14": "Acest convertor video în MP3 este gratuit?",
+    "a14": "Da, puteți folosi versiunea completă a convertorului nostru video în MP3, descărcare gratuită online, fără costuri ascunse sau înregistrare forțată sau instalare complicată.",
+    "cta_title": "Extrage instantaneu audio de înaltă fidelitate."
   },
   "audio_cutter_page": {
     "hero_badge": "Precizie · Fără încărcare · 100% Gratuit",
@@ -889,18 +933,42 @@
       "heroText": "Cel mai de încredere compresor MP4 din lume. Micșorează fișierele MP4 în câteva secunde, păstrând în același timp calitatea uimitoare 1080p/4K.",
       "introText": "MP4 este cel mai popular format video, dar fișierele de înaltă rezoluție pot fi masive. Motorul nostru inteligent de compresie analizează ratele de biți MP4 pentru a oferi echilibrul perfect între dimensiunea fișierului și claritatea vizuală.",
       "features": [
-        { "title": "Fără Pierderea Calității", "desc": "Codificarea avansată libx264 garantează că MP4-ul tău rămâne clar." },
-        { "title": "Redare Universală", "desc": "MP4-urile comprimate funcționează pe toate iPhone-urile, Android-urile și Smart TV-urile." },
-        { "title": "Confidențialitate Totală", "desc": "Fișierele tale nu părăsesc niciodată browserul. Procesare 100% sigură." }
+        {
+          "title": "Fără Pierderea Calității",
+          "desc": "Codificarea avansată libx264 garantează că MP4-ul tău rămâne clar."
+        },
+        {
+          "title": "Redare Universală",
+          "desc": "MP4-urile comprimate funcționează pe toate iPhone-urile, Android-urile și Smart TV-urile."
+        },
+        {
+          "title": "Confidențialitate Totală",
+          "desc": "Fișierele tale nu părăsesc niciodată browserul. Procesare 100% sigură."
+        }
       ],
       "steps": [
-        { "title": "Încarcă MP4", "desc": "Trage și plasează fișierul MP4 în caseta compresorului." },
-        { "title": "Alege Dimensiunea", "desc": "Alege dimensiunea de ieșire dorită în MB." },
-        { "title": "Comprimă și Salvează", "desc": "Descarcă instantaneu MP4-ul optimizat." }
+        {
+          "title": "Încarcă MP4",
+          "desc": "Trage și plasează fișierul MP4 în caseta compresorului."
+        },
+        {
+          "title": "Alege Dimensiunea",
+          "desc": "Alege dimensiunea de ieșire dorită în MB."
+        },
+        {
+          "title": "Comprimă și Salvează",
+          "desc": "Descarcă instantaneu MP4-ul optimizat."
+        }
       ],
       "faqs": [
-        { "q": "Va pierde MP4-ul meu din calitate?", "a": "Nu, folosim factori de rată constantă de înaltă eficiență pentru a menține integritatea vizuală." },
-        { "q": "Există o limită de dimensiune?", "a": "Poți comprima fișiere MP4 de până la 5 GB gratuit." }
+        {
+          "q": "Va pierde MP4-ul meu din calitate?",
+          "a": "Nu, folosim factori de rată constantă de înaltă eficiență pentru a menține integritatea vizuală."
+        },
+        {
+          "q": "Există o limită de dimensiune?",
+          "a": "Poți comprima fișiere MP4 de până la 5 GB gratuit."
+        }
       ]
     },
     "mov": {
@@ -910,18 +978,42 @@
       "heroText": "Fișierele Apple MOV sunt cunoscute ca fiind masive. Instrumentul nostru optimizează ratele de biți MOV pentru web fără a sacrifica calitatea specifică Apple.",
       "introText": "Fișierele QuickTime (MOV) capturate pe iPhone-uri sau Mac-uri ocupă adesea gigaocteți de spațiu. Te ajutăm să le convertești și să le comprimi instantaneu în formate eficiente și pregătite pentru web.",
       "features": [
-        { "title": "Optimizat pentru Apple", "desc": "Reglat special pentru fișierele MOV ProRes și H.264 cu rată de biți ridicată." },
-        { "title": "Pregătit pentru Web", "desc": "Convertește MOV-urile voluminoase în versiuni ușoare, gata pentru streaming." },
-        { "title": "Zero Așteptare", "desc": "Procesare rapidă prin browser, nu este necesară încărcarea pe server." }
+        {
+          "title": "Optimizat pentru Apple",
+          "desc": "Reglat special pentru fișierele MOV ProRes și H.264 cu rată de biți ridicată."
+        },
+        {
+          "title": "Pregătit pentru Web",
+          "desc": "Convertește MOV-urile voluminoase în versiuni ușoare, gata pentru streaming."
+        },
+        {
+          "title": "Zero Așteptare",
+          "desc": "Procesare rapidă prin browser, nu este necesară încărcarea pe server."
+        }
       ],
       "steps": [
-        { "title": "Importă MOV", "desc": "Selectează fișierul .mov de pe Mac-ul sau iPhone-ul tău." },
-        { "title": "Ajustează Dimensiunea", "desc": "Alege o dimensiune țintă care se potrivește nevoilor tale de partajare." },
-        { "title": "Exportă", "desc": "Salvează videoclipul comprimat în câteva secunde." }
+        {
+          "title": "Importă MOV",
+          "desc": "Selectează fișierul .mov de pe Mac-ul sau iPhone-ul tău."
+        },
+        {
+          "title": "Ajustează Dimensiunea",
+          "desc": "Alege o dimensiune țintă care se potrivește nevoilor tale de partajare."
+        },
+        {
+          "title": "Exportă",
+          "desc": "Salvează videoclipul comprimat în câteva secunde."
+        }
       ],
       "faqs": [
-        { "q": "Pot folosi acest lucru pe iPhone?", "a": "Da, instrumentul nostru este complet compatibil cu Safari pe iOS pentru compresia MOV." },
-        { "q": "Suportă MOV 4K?", "a": "Absolut, gestionăm fișiere MOV 4K 60fps cu ușurință." }
+        {
+          "q": "Pot folosi acest lucru pe iPhone?",
+          "a": "Da, instrumentul nostru este complet compatibil cu Safari pe iOS pentru compresia MOV."
+        },
+        {
+          "q": "Suportă MOV 4K?",
+          "a": "Absolut, gestionăm fișiere MOV 4K 60fps cu ușurință."
+        }
       ]
     },
     "video-for-whatsapp": {
@@ -931,18 +1023,42 @@
       "heroText": "Nu mai primi eroarea 'Fișierul este prea mare' pe WhatsApp. Comprimă-ți videoclipurile pentru a se încadra perfect în limita de 16 MB sau 64 MB.",
       "introText": "WhatsApp are limite stricte de dimensiune a fișierelor (16 MB pentru mobil, 64 MB pentru web). Instrumentul nostru optimizează automat videoclipul tău pentru a respecta aceste limite, menținând în același timp conținutul clar.",
       "features": [
-        { "title": "Ocolește Limitele", "desc": "Atinge automat ținta exactă de 16 MB sau 64 MB pentru WhatsApp." },
-        { "title": "Partajare Instantanee", "desc": "Fișierele comprimate sunt gata pentru trimitere imediată pe WhatsApp." },
-        { "title": "Ideal pentru Grupuri", "desc": "Fișierele mai mici înseamnă încărcări și descărcări mai rapide pentru chat-urile tale de grup." }
+        {
+          "title": "Ocolește Limitele",
+          "desc": "Atinge automat ținta exactă de 16 MB sau 64 MB pentru WhatsApp."
+        },
+        {
+          "title": "Partajare Instantanee",
+          "desc": "Fișierele comprimate sunt gata pentru trimitere imediată pe WhatsApp."
+        },
+        {
+          "title": "Ideal pentru Grupuri",
+          "desc": "Fișierele mai mici înseamnă încărcări și descărcări mai rapide pentru chat-urile tale de grup."
+        }
       ],
       "steps": [
-        { "title": "Alege Video", "desc": "Selectează videoclipul pe care dorești să-l trimiți pe WhatsApp." },
-        { "title": "Selectează Limita", "desc": "Setează ținta la 15 MB pentru siguranță pe WhatsApp mobil." },
-        { "title": "Descarcă și Trimite", "desc": "Partajează videoclipul tău fără avertismente de limită." }
+        {
+          "title": "Alege Video",
+          "desc": "Selectează videoclipul pe care dorești să-l trimiți pe WhatsApp."
+        },
+        {
+          "title": "Selectează Limita",
+          "desc": "Setează ținta la 15 MB pentru siguranță pe WhatsApp mobil."
+        },
+        {
+          "title": "Descarcă și Trimite",
+          "desc": "Partajează videoclipul tău fără avertismente de limită."
+        }
       ],
       "faqs": [
-        { "q": "Care este limita de fișiere WhatsApp?", "a": "Limita mobilă este de 16 MB, în timp ce WhatsApp Web suportă până de 64 MB." },
-        { "q": "Videoclipul va fi neclar?", "a": "Nu, optimizăm rezoluția pentru a ne asigura că arată grozav pe ecranele telefoanelor." }
+        {
+          "q": "Care este limita de fișiere WhatsApp?",
+          "a": "Limita mobilă este de 16 MB, în timp ce WhatsApp Web suportă până de 64 MB."
+        },
+        {
+          "q": "Videoclipul va fi neclar?",
+          "a": "Nu, optimizăm rezoluția pentru a ne asigura că arată grozav pe ecranele telefoanelor."
+        }
       ]
     },
     "video-for-discord": {
@@ -952,18 +1068,42 @@
       "heroText": "Te-ai săturat de mesajele Discord Nitro? Comprimă-ți memeurile și clipurile pentru a se încadra sub limita gratuită de 8 MB sau 25 MB instantaneu.",
       "introText": "Limitele de încărcare ale Discord sunt coșmarul oricărui gamer. Indiferent dacă ai nevoie de un fișier de 8 MB pentru utilizatorii gratuiti sau de 25 MB pentru Nitro Basic, instrumentul nostru garantează că clipurile tale rămân de înaltă calitate.",
       "features": [
-        { "title": "Nitro Friendly", "desc": "Presetări pentru limitele Discord de 8 MB, 25 MB și 50 MB." },
-        { "title": "Gata pentru Gameri", "desc": "Perfect pentru clipuri de joc cu FPS ridicat din OBS sau Shadowplay." },
-        { "title": "Auto-Resize", "desc": "Ajustează dimensiunile pentru a se asigura că fișierul se încadrează în limita mică a Discord." }
+        {
+          "title": "Nitro Friendly",
+          "desc": "Presetări pentru limitele Discord de 8 MB, 25 MB și 50 MB."
+        },
+        {
+          "title": "Gata pentru Gameri",
+          "desc": "Perfect pentru clipuri de joc cu FPS ridicat din OBS sau Shadowplay."
+        },
+        {
+          "title": "Auto-Resize",
+          "desc": "Ajustează dimensiunile pentru a se asigura că fișierul se încadrează în limita mică a Discord."
+        }
       ],
       "steps": [
-        { "title": "Încarcă Clipul", "desc": "Trage clipul de joc sau meme-ul în casetă." },
-        { "title": "Setează Ținta la 8 MB", "desc": "Folosește glisorul pentru a atinge exact pragul de 8 MB." },
-        { "title": "Partajează pe Discord", "desc": "Postează videoclipul tău în orice canal fără Nitro." }
+        {
+          "title": "Încarcă Clipul",
+          "desc": "Trage clipul de joc sau meme-ul în casetă."
+        },
+        {
+          "title": "Setează Ținta la 8 MB",
+          "desc": "Folosește glisorul pentru a atinge exact pragul de 8 MB."
+        },
+        {
+          "title": "Partajează pe Discord",
+          "desc": "Postează videoclipul tău în orice canal fără Nitro."
+        }
       ],
       "faqs": [
-        { "q": "Care este limita gratuită a Discord?", "a": "Discord a crescut recent limita gratuită la 25 MB pentru majoritatea utilizatorilor, dar 8 MB este încă mai sigur pentru unele servere." },
-        { "q": "Suportă .webm?", "a": "Da, recomandăm .webm pentru Discord deoarece are o compresie mai bună pentru dimensiuni mici." }
+        {
+          "q": "Care este limita gratuită a Discord?",
+          "a": "Discord a crescut recent limita gratuită la 25 MB pentru majoritatea utilizatorilor, dar 8 MB este încă mai sigur pentru unele servere."
+        },
+        {
+          "q": "Suportă .webm?",
+          "a": "Da, recomandăm .webm pentru Discord deoarece are o compresie mai bună pentru dimensiuni mici."
+        }
       ]
     },
     "video-for-email": {
@@ -973,18 +1113,132 @@
       "heroText": "Trimite videoclipuri prin Email fără a folosi Google Drive sau Dropbox. Micșorează fișierele pentru a se încadra în limita de atașament a emailului de 25 MB.",
       "introText": "Majoritatea furnizorilor de email, cum ar fi Gmail și Outlook, au o limită de 25 MB. Instrumentul nostru optimizează videoclipurile tale profesionale sau clipurile de familie pentru a se încadra perfect într-un email.",
       "features": [
-        { "title": "Compatibil cu Gmail", "desc": "Rămâne sub limita de 25 MB pentru atașamente fără probleme." },
-        { "title": "Calitate Pro", "desc": "Păstrează prezentările și tutorialele tale de afaceri clare." },
-        { "title": "Multi-platformă", "desc": "Funcționează pe toate browserele, inclusiv Outlook și Yahoo Mail." }
+        {
+          "title": "Compatibil cu Gmail",
+          "desc": "Rămâne sub limita de 25 MB pentru atașamente fără probleme."
+        },
+        {
+          "title": "Calitate Pro",
+          "desc": "Păstrează prezentările și tutorialele tale de afaceri clare."
+        },
+        {
+          "title": "Multi-platformă",
+          "desc": "Funcționează pe toate browserele, inclusiv Outlook și Yahoo Mail."
+        }
       ],
       "steps": [
-        { "title": "Adaugă Atașament", "desc": "Selectează fișierul video mare pe care dorești să-l trimiți prin email." },
-        { "title": "Setează Limita la 24 MB", "desc": "Țintește 24 MB pentru a te asigura că se încadrează în limita de 25 MB a emailului." },
-        { "title": "Atașează și Trimite", "desc": "Descarcă fișierul și atașează-l direct la emailul tău." }
+        {
+          "title": "Adaugă Atașament",
+          "desc": "Selectează fișierul video mare pe care dorești să-l trimiți prin email."
+        },
+        {
+          "title": "Setează Limita la 24 MB",
+          "desc": "Țintește 24 MB pentru a te asigura că se încadrează în limita de 25 MB a emailului."
+        },
+        {
+          "title": "Atașează și Trimite",
+          "desc": "Descarcă fișierul și atașează-l direct la emailul tău."
+        }
       ],
       "faqs": [
-        { "q": "Care este limita de atașamente a Gmail?", "a": "Gmail permite până la 25 MB per e-mail. Dacă este mai mare, forțează utilizarea unui link Google Drive." },
-        { "q": "Cât de mult pot micșora un videoclip?", "a": "Deseori putem micșora un videoclip de 200 MB la 24 MB păstrându-l într-o stare de vizionare foarte bună." }
+        {
+          "q": "Care este limita de atașamente a Gmail?",
+          "a": "Gmail permite până la 25 MB per e-mail. Dacă este mai mare, forțează utilizarea unui link Google Drive."
+        },
+        {
+          "q": "Cât de mult pot micșora un videoclip?",
+          "a": "Deseori putem micșora un videoclip de 200 MB la 24 MB păstrându-l într-o stare de vizionare foarte bună."
+        }
+      ]
+    },
+    "youtube": {
+      "title": "Comprimați videoclipuri pentru YouTube online - Fast YouTube Optimizer",
+      "description": "Comprimați videoclipuri pentru YouTube online gratuit. Reduceți dimensiunea videoclipului, păstrând în același timp calitatea 1080p și 4K HD. Încărcați mai rapid, fără întârzieri de procesare.",
+      "h1": "Rapid YouTube Video Compresor",
+      "heroText": "Încărcați pe YouTube în câteva secunde. Comprimați-vă videoclipurile 1080p și 4K, păstrând în același timp calitatea vizuală de înaltă fidelitate.",
+      "introText": "YouTube procesează încărcări masive de videoclipuri, dar fișierele grele pot cauza blocări de procesare și timpi de așteptare nesfârșiti. Optimizatorul nostru inteligent reduce dimensiunea fișierului fără a pierde rezoluțiile sau acuratețea culorilor.",
+      "features": [
+        {
+          "title": "Fără pierderi de calitate",
+          "desc": "Compresia avansată libx264 vă menține claritatea vizuală."
+        },
+        {
+          "title": "Procesare rapidă",
+          "desc": "Procesarea locală a browserului înseamnă că nu există timpi de așteptare pe server."
+        },
+        {
+          "title": "În primul rând, confidențialitatea",
+          "desc": "Videoclipul dvs. nu iese niciodată din browser. 100% sigur."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Încărcați videoclipul",
+          "desc": "Trageți și plasați fișierul video MP4, MOV sau WebM."
+        },
+        {
+          "title": "Alegeți Rezoluție",
+          "desc": "Selectați 1080p sau 4K pentru a rămâne optimizat pentru YouTube."
+        },
+        {
+          "title": "Comprimați și descărcați",
+          "desc": "Pregătește-ți videoclipul ușor pentru încărcare instantanee."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Acest lucru îmi va reduce calitatea YouTube?",
+          "a": "Nu, instrumentul nostru comprimă fișierele fără a pierde rezoluția, așa că YouTube le va procesa în HD/4K."
+        },
+        {
+          "q": "Este sigur de utilizat?",
+          "a": "Da, toată prelucrarea se face în interiorul browserului dumneavoastră, asigurând confidențialitate totală."
+        }
+      ]
+    },
+    "tiktok": {
+      "title": "Comprimați videoclipuri pentru TikTok online - Reduceți videoclipuri pentru TikTok",
+      "description": "Comprimați gratuit videoclipuri pentru TikTok online. Optimizați videoclipurile verticale 9:16 pentru a se potrivi perfect cu regulile TikTok. Păstrați-vă videoclipurile clare pentru FYP.",
+      "h1": "Compresor video TikTok",
+      "heroText": "Faceți videoclipurile dvs. să apară pe FYP. Comprimați clipurile verticale pentru a le încărca pe TikTok instantaneu, fără întârziere.",
+      "introText": "TikTok preferă videoclipurile verticale cu încărcare rapidă și de înaltă calitate. Compresorul nostru micșorează fișierele MP4 și MOV pentru a se potrivi regulilor TikTok pentru dispozitive mobile, păstrând în același timp tranzițiile și textul perfect clare.",
+      "features": [
+        {
+          "title": "9:16 Optimizat",
+          "desc": "Perfect pentru clipuri verticale, role Instagram și pantaloni scurți."
+        },
+        {
+          "title": "Calitate FYP",
+          "desc": "Menține rezoluția video clară pentru a evita compresia TikTok neclară."
+        },
+        {
+          "title": "Zero Server Lag",
+          "desc": "Fără încărcare în baze de date externe, procesarea se finalizează instantaneu."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Selectați Video",
+          "desc": "Alegeți videoclipul vertical de pe telefon sau computer."
+        },
+        {
+          "title": "Setați liniile directoare",
+          "desc": "Optimizați-vă rata de biți pentru încărcare rapidă TikTok."
+        },
+        {
+          "title": "Salvați și distribuiți",
+          "desc": "Descărcați videoclipul comprimat și postați imediat pe TikTok."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "TikTok comprimă videoclipurile?",
+          "a": "Da, TikTok comprimă fișierele la încărcare, dar comprimarea lor mai întâi cu instrumentul nostru evită rezultatele neclare."
+        },
+        {
+          "q": "Ce format este cel mai bun pentru TikTok?",
+          "a": "MP4 și MOV în raport de aspect vertical 9:16 sunt formatele ideale pentru TikTok."
+        }
       ]
     }
   }

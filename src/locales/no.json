@@ -564,68 +564,112 @@
     "cta_title": "Endre størrelse på video nå."
   },
   "to_mp3_page": {
-    "hero_badge": "High Fidelity · Ingen opplasting · 100% Gratis",
-    "hero_title": "Online video til MP3-konverter",
-    "hero_subtitle": "Trekk ut høykvalitets lydspor fra videoene dine umiddelbart. Sikkert og privat.",
-    "visualizer_title": "Beste konverter",
-    "visualizer_desc": "Uttrekks-presisjon på studionivå direkte i nettleseren din.",
+    "hero_badge": "High Fidelity • Ingen opplastinger • 100 % gratis",
+    "hero_title": "Online Video til MP3 Converter",
+    "hero_subtitle": "Vår online video til MP3-konvertering er gratis og sikker, slik at du kan få lydspor fra videoer på kort tid. En online video til Mp3-konverterer som fungerer best for musikk, podcaster, intervjuer, forelesninger, stemmeklipp og sosiale medier.",
+    "visualizer_title": "Beste video til MP3-konvertering",
+    "visualizer_desc": "VideoCompressorPro er en videokonverterer som er enkel å bruke og perfekt for nybegynnere, enten du konverterer en YouTube-video til MP3, TikTok-video til MP3, eller finner en videokonverter til MP3 som fungerer bra for deg. Vår online video til MP3-konverter lar deg konvertere videoer til MP3-lydfiler umiddelbart og med høy kvalitet. Trekk ut lyd raskt fra YouTube-videoklipp, TikTok-videoer, podcaster, webinarer og opptak direkte fra nettleseren med den beste video til MP3-konverteren for å få lyden på sekunder.",
     "visualizer_label": "Utdataformat",
-    "visualizer_format": "Høykvalitets MP3 (320kbps)",
-    "features_title": "Elite uttrekk",
-    "f1_title": "High Fidelity",
-    "f1_desc": "Støtte for bitrate opptil 320kbps for en krystallklar lyd.",
-    "f2_title": "Total integritet",
-    "f2_desc": "Lokal behandling. Filene dine når aldri oss.",
-    "f3_title": "Umiddelbar nedlasting",
-    "f3_desc": "Ingen ventetid. Få lyden din rett etter uttrekk.",
-    "f4_title": "Varierte formater",
-    "f4_desc": "MP4, MOV, AVI til MP3, WAV eller OGG med største omhu.",
-    "f5_title": "I batch",
-    "f5_desc": "Konverter flere videoer til en spilleliste på få sekunder.",
-    "f6_title": "Ingen konto",
-    "f6_desc": "Full tilgang uten registrering eller irriterende annonser.",
-    "steps_title": "Hvordan konvertere",
-    "s1_title": "Last opp",
-    "s1_desc": "Velg en videofil i et hvilket som helst populært format.",
-    "s2_title": "Konfigurer",
-    "s2_desc": "Velg bitrate og ønsket utdataformat.",
-    "s3_title": "Trekk ut",
-    "s3_desc": "Separer lyd med kirurgisk presisjon umiddelbart.",
-    "s4_title": "Lagre",
-    "s4_desc": "Last ned din lokalt behandlede MP3 på en sikker måte.",
-    "reviews_title": "Brukt av profesjonelle",
-    "r1_text": "Perfekt lyd selv på studiomonitorer. Utmerket.",
-    "r1_role": "Musikkprodusent",
-    "r2_text": "I use it to get clean audio for my podcasts from video interviews. It's consistently very reliable.",
-    "r2_role": "Professional Podcaster",
-    "r3_text": "Extremely fast extraction. I converted 10 long videos in a minute. The speed is unmatched.",
-    "r3_role": "Graduate Student",
-    "r4_text": "No distortion at all. The LAME encoder implementation here works wonders for audio fidelity.",
-    "r4_role": "Audio Engineer",
-    "r5_text": "Privacy first - my videos aren't uploaded to convert. This is essential for my sensitive interview data.",
-    "r5_role": "Investigative Journalist",
-    "r6_text": "Best way to get high-quality MP3s from my own YouTube backups. Simple, clean, and perfect.",
-    "r6_role": "Content Creator",
-    "r7_text": "Simple, clean, and no annoying ads or popups. A rare find in the world of online conversion tools.",
-    "r7_role": "Creative Freelancer",
-    "r8_text": "Supports all formats. Converted my old MKV home videos to MP3 to listen in the car easily.",
-    "r8_role": "Tech Enthusiast",
-    "r9_text": "The batch processing feature is a life-saver for my sound effects library.",
-    "r9_role": "Game Developer",
-    "r10_text": "Studio-grade audio extraction in seconds. It's my go-to tool for video sound design.",
-    "r10_role": "Sound Designer",
-    "r11_text": "Crystal clear MP3 extraction every time. I use it for my sample library and it never fails.",
-    "r11_role": "Audio Producer",
-    "r12_text": "Fastest conversion I've seen. No more waiting for servers to process my files.",
-    "r12_role": "Creative Director",
-    "faq_title": "FAQ",
-    "q1": "Hvordan trekkes lyd ut?",
-    "a1": "Last opp videoen og klikk på 'Trekk ut lyd'. Det er det hele!",
-    "q2": "Er det gratis?",
-    "a2": "Ja, 100% gratis og uten grenser.",
-    "q3": "Hvilken bitrate er best?",
-    "a3": "320kbps for max kvalitet; 128kbps for å spare plass.",
-    "cta_title": "Trekk ut lyd nå."
+    "visualizer_format": "MP3 av høy kvalitet (320 kbps)",
+    "features_title": "Avanserte lydutvinningsfunksjoner",
+    "features_desc": "Gjengi video til MP3-lydfiler av høy kvalitet i rask, ren og moderne nettleserbasert nettteknologi for skapere, lyttere og profesjonelle.",
+    "f1_title": "MP3-utgang i studiokvalitet",
+    "f1_desc": "Vår sofistikerte online videokonvertering til MP3-verktøy er perfekt for å trekke ut balansert og fremtredende lyd fra videoer med optimert lydkvalitet, egnet for musikk, podcaster, intervjuer, webinarer og stemmeopptak.\n\nHØY KVALITET • REN LYD • MP3 EKSPORT",
+    "f2_title": "Sikker nettleserbasert konvertering",
+    "f2_desc": "Under behandlingen forblir filene dine konfidensielle. Den elektroniske video til MP3-konvertereren trenger ikke å laste ned noe, og den krever heller ikke tredjepartsapplikasjoner.\n\nPrivat, sikker, lokal behandling.",
+    "f3_title": "Lynrask lydnedlasting",
+    "f3_desc": "Vår video til MP3-konverterer gratis nedlasting fullversjonsopplevelse på nettet er designet for å konvertere videofiler til MP3-format på sekunder, og lagre lyden til enheten din for offline lytting, redigering, streaming eller innholdsoppretting.\n\nRASK BEHANDLING • HURTIGE NEDLASTNINGER",
+    "f4_title": "Støtter de mest populære videoformatene.",
+    "f4_desc": "Konverter videoer til MP3 med MP4, MOV, AVI, MKV, WebM og andre populære videoformater ved å bruke vårt videokonverteringsverktøy til MP3.\n\nMP4 • MOV • AVI • WEBM",
+    "f5_title": "Designet spesielt for innholdsskapere",
+    "f5_desc": "Konverter YouTube-videoer, TikTok-videoer, webinarer, opplæringsprogrammer, podcaster og skaperinnhold til MP3-format enkelt og pålitelig med vår YouTube-video til MP3-konvertering.\n\nYOUTUBE • TIKTOK • PODKASTER",
+    "f6_title": "Gratis og enkel å bruke",
+    "f6_desc": "Få lyd ut av hvilken som helst nettleser uten behov for komplisert programvare, skjulte avgifter, registreringer eller vannmerkebegrensninger. Vi har en umiddelbar video til MP3-konvertering gratis, som kjører på mobile enheter og skrivebord.\n\nINGEN INSTALLASJON • GRATIS • NYBEGYNNERVENNLIG",
+    "steps_title": "Konverter videoer til høykvalitets MP3 på sekunder",
+    "steps_desc": "Vår video til MP3-lydkonverterer er rask og sikker, slik at du raskt kan trekke ut lyd fra video. Ingen komplisert programvare, ingen redigeringserfaring og ingen lang ventetid.",
+    "s1_title": "Importer videoen din",
+    "s1_desc": "Dra og slipp eller velg videofil(er) i vår gratis video til MP3-konverter for å laste opp direkte til verktøyet.\n\nRASK OPPLASTING • FLERE FORMATER",
+    "s2_title": "Pakk ut høykvalitetslyd",
+    "s2_desc": "Velg MP3-utdataformater og konverter umiddelbart video til ren lyd optimalisert for musikk, podcaster, stemmeopptak, intervjuer og skaperinnhold uten kostnad ved å bruke vår gratis video til MP3-konvertering.\n\nMP3-utgang – kvalitetslyd",
+    "s3_title": "Lagre og bruk hvor som helst",
+    "s3_desc": "Lagre MP3-filen din rett etter konvertering og spill den offline, rediger prosjekter, lag presentasjoner eller publiser på sosiale medier. Vår video til MP3-konverterer for PC-opplevelse er en nettleserbasert nedlasting, som ikke er installert på datamaskinen.\n\nUmiddelbar NEDLASTING • INGEN PROGRAMVARE KREVES",
+    "use_cases_title": "Virkelige måter folk bruker vår video til MP3-konvertering på",
+    "use_cases_desc": "Enten det er for musikkentusiaster, studenter, skapere eller forretningsteam, er vår video til MP3-konvertering på nettet designet for å transformere videoinnhold til bærbare, høykvalitets lydfiler for bruk i spillelister, redigering, læring og deling.",
+    "u1_title": "Lagre musikk og liveopptredener som MP3",
+    "u1_desc": "Bruk konverteren vår til å konvertere et konsertopptak, musikkvideoer, DJ-sett og liveopptredener til høykvalitets MP3-lyd for offline lytting når som helst.",
+    "u1_tags": "MUSIKK • LIVE SHOW • SPILLELISTER",
+    "u2_title": "Lytt til podcaster hvor som helst",
+    "u2_desc": "Konverter podcast-videoer til MP3 for å spille av mens du pendler, på kontoret, under treningsøkter, eller mens du leser og lærer uten problemer, spill av lyden fra podcast-videoer uten å åpne noen programvare med vår gratis nedlasting av fullversjonsopplevelse for video til MP3-konvertering.",
+    "u2_tags": "PODKASTER • INTERVJUER • KUN LYD",
+    "u3_title": "Konverter pedagogiske videoer til lydleksjoner.",
+    "u3_desc": "Gjør opplæringsprogrammer, innspilte forelesninger, veiledningsøkter og pedagogiske videoer til MP3 for læring når som helst på farten med vår sikre video til MP3-konverteringsnedlasting for PC som ikke krever noen installasjon.",
+    "u3_tags": "FOREDRAG • KURS • STUDIELYD",
+    "u4_title": "Kopiering av lyd for redigering av prosjekter.",
+    "u4_desc": "Bruk vår video til MP3-konvertering online for å skille lydspor fra videoer for voiceovers, remiksing, podcastredigering, presentasjoner og postproduksjon.",
+    "u4_tags": "REDIGERING • OPPRETTING AV INNHOLD • PRODUKSJON",
+    "u5_title": "Lag lyd fra sosiale medievideoer.",
+    "u5_desc": "Trekk ut lyd fra tiktok-videoer, YouTube-videoer, shorts og sosiale medier på noen få sekunder med vår nettleserbaserte TikTok-video til MP3-konverter og gratis YouTube-video til MP3-konverter.",
+    "u5_tags": "TIKTOK • YOUTUBE • KORTFORMET INNHOLD",
+    "u6_title": "Lagre motiverende og talelyd",
+    "u6_desc": "Konverter video til lyd MP3-format med vår raske video til MP3-lydkonverter, slik at du kan lytte til taler, motiverende videoer, seminarer og personlig utviklingsmateriell offline.",
+    "u6_tags": "TALER • MOTIVASJON • OFFLINE AUDIO",
+    "reviews_title": "Klarert av skapere, studenter og hverdagsbrukere",
+    "reviews_desc": "Vår online video til MP3-konvertering brukes daglig av mange til å rippe musikk, podcaster, intervjuer, forelesninger og skaperlyd raskt uten utfordrende programmering.",
+    "r1_text": "Jeg brukte mange video til MP3-konverteringsprogrammer, men dette er det beste jeg noen gang har brukt. Det er raskt og lydkvaliteten er virkelig flott.",
+    "r1_role": "Podcastlytter",
+    "r2_text": "Dette er en flott YouTube til MP3-konverterer da jeg bare trengte en enkel løsning og ikke trengte å gjøre en komplisert trinnvis.",
+    "r2_role": "Markedskoordinator",
+    "r3_text": "Jeg var virkelig imponert over hvor raskt den konverterte; Jeg lastet opp en stor MP4-fil og lastet ned MP3-en på sekunder.",
+    "r3_role": "YouTube Creator",
+    "r4_text": "Jeg ville brukt denne Tiktok-video til MP3-konverteren nesten hver dag for prosjektredigering og innhold på sosiale medier.",
+    "r4_role": "Videoredigerer",
+    "r5_text": "Rent og brukervennlig grensesnitt, og til og med elevene mine kunne bruke dette videokonverteringsverktøyet til MP3.",
+    "r5_role": "Online instruktør",
+    "r6_text": "Ser etter en video til MP3-konverteringsnedlasting for PC, men dette nettleserverktøyet tok plassen til skrivebordsprogramvare.",
+    "r6_role": "Frilansdesigner",
+    "r7_text": "Spilte inn forelesningene som lydfiler og deretter konvertert til MP3 for å lytte til mens jeg pendler – sparte meg for mye tid på å studere.",
+    "r7_role": "Universitetsstudent",
+    "r8_text": "Konvertering av lange filer uten å miste lydkvaliteten, det er en perfekt video til MP3-lydkonverter for podcaster.",
+    "r8_role": "Lydprodusent",
+    "r9_text": "Takket være dette fungerer alt direkte i nettleseren, uten unødvendige nedlastinger, annonser eller oppsettstrinn.",
+    "r9_role": "Innholdsstrateg",
+    "r10_text": "Denne online video til MP3-konvertereren er ekstremt rask og enkel å bruke, og jeg lastet ned lyd fra TikTok-videoer og innhold på sosiale medier.",
+    "r10_role": "Social Media Manager",
+    "r11_text": "Denne gratis online video til MP3-konverteren er et flott verktøy som konverterer videoene mine uten problemer og har forbedret kvaliteten deres – de fleste verktøyene gjør det motsatte.",
+    "r11_role": "Småbedriftseier",
+    "r12_text": "Jeg bruker denne gratis YouTube-video til MP3-konverteren for å lagre taler og videoer for å lytte til når jeg er på treningsstudioet.",
+    "r12_role": "Fitness Coach",
+    "faq_title": "Ofte stilte spørsmål",
+    "faq_desc": "Lær hvordan du bruker VideoCompressorPro til å konvertere videoer til høykvalitets MP3-lyd.",
+    "q1": "Hva er en MP3-fil?",
+    "a1": "MP3 er et av de vanligste lydformatene for musikk, podcaster, stemmeopptak og det kan lyttes offline på grunn av sin lille størrelse og gode kvalitet.",
+    "q2": "Hva er en video til MP3-konvertering?",
+    "a2": "En online video til MP3-konverterer er et verktøy som hjelper til med å fjerne lyd fra en videofil og deretter lagre den i et MP3-lydfilformat, som kan spilles av på mediespillere, telefoner, nettbrett og bærbare datamaskiner.",
+    "q3": "Hvilke videoformater er tilgjengelige?",
+    "a3": "Populære videoformater som støttes av vår video-til-MP3-konverter inkluderer MP4, MOV, AVI, MKV, WebM, MPEG og mer.",
+    "q4": "Vil lyden bli forvrengt under konverteringsprosessen?",
+    "a4": "Konverteren vår er optimalisert for å bevare klar og balansert lydkvalitet under utvinning, og er ideell for musikk, podcaster, intervjuer og taleinnhold.",
+    "q5": "Er det programvare som må installeres?",
+    "a5": "Dette vil ikke kreve en installasjon. Ingen nedlasting av apper eller komplekse skrivebordsapplikasjoner kreves - det fungerer direkte i nettleseren din. Det er en alternativ lett video til MP3-konverteringsnedlasting for PC.",
+    "q6": "Kan du laste opp videoer til en MP3-konverter?",
+    "a6": "Ja, VideoCompressorPro behandles i nettleseren med det formål å opprettholde personvernet og sikkerheten til dokumentene dine under konverteringsprosessen.",
+    "q7": "Har du muligheten til å batchkonvertere videoer?",
+    "a7": "Konverteren kan trenge mer prosessorkraft avhengig av nettleseren og enheten, men konverteren vår er optimalisert for å utføre flere konverteringer.",
+    "q8": "Er det noen begrensninger for filstørrelse eller videolengde?",
+    "a8": "Støttet filstørrelse er hovedsakelig begrenset av nettleseren din, enhetsminne og prosessorkraft, men store videoer støttes på moderne systemer.",
+    "q9": "Er det mulig å trekke ut lyden fra YouTube-videoer?",
+    "a9": "Ja, vår gratis YouTube til MP3-konvertering kan trekke ut lyden fra kompatible videofiler for bruk i podcaster, forelesninger, musikk, intervjuer og skaperinnhold.",
+    "q10": "Er omformeren mobilvennlig?",
+    "a10": "Ja, vår Web til MP3-konvertering er kompatibel med Android, iPhone, Android-nettbrett, iPad, bærbar PC eller nettleser uten å laste ned tilleggsprogramvare.",
+    "q11": "Er det noen måte å bruke den utpakkede lyden uten internett?",
+    "a11": "Absolutt. MP3-filen din er konvertert, du kan laste den ned og spille den av senere uten internett!",
+    "q12": "Hvorfor er dette en av de beste videoene for MP3-konverterere?",
+    "a12": "VideoCompressorPro er en kombinasjon av rask behandling i nettleseren, ren MP3-eksport, sikker håndtering og brukervennlige verktøy uten komplisert programvare og abonnement.",
+    "q13": "Leter du etter en måte å konvertere TikTok- eller sosiale medier-videoer til MP3?",
+    "a13": "Ja, vår TikTok-video til MP3-konverter kan konvertere TikTok-videoer og sosiale videoer, webinarer, opplæringsprogrammer, podcaster og mange andre videoformater til MP3.",
+    "q14": "Er denne video til MP3-konverteren gratis?",
+    "a14": "Ja, du kan bruke vår video til MP3-konverterer gratis nedlasting fullversjon online gratis, uten skjulte kostnader eller tvungen registrering eller komplisert installasjon.",
+    "cta_title": "Trekk ut High-Fidelity-lyd umiddelbart."
   },
   "audio_cutter_page": {
     "hero_badge": "Presisjon · Ingen opplasting · 100% Gratis",
@@ -889,18 +933,42 @@
       "heroText": "Verdens mest pålitelige MP4-kompressor. Krymp MP4-filene dine på sekunder mens du beholder fantastisk 1080p/4K-kvalitet.",
       "introText": "MP4 er det mest populære videoformatet, men høyoppløselige MP4-filer kan være enorme. Vår intelligente komprimeringsmotor analyserer MP4-bitratene dine for å gi den perfekte balansen mellom filstørrelse og visuell klarhet.",
       "features": [
-        { "title": "Ingen kvalitetstap", "desc": "Avansert libx264-koding sikrer at MP4-en din forblir skarp." },
-        { "title": "Universell avspilling", "desc": "Komprimerte MP4-er fungerer på alle iPhone-, Android- og Smart-TVer." },
-        { "title": "Personvern først", "desc": "Filene dine forlater aldri nettleseren din. 100 % sikker behandling." }
+        {
+          "title": "Ingen kvalitetstap",
+          "desc": "Avansert libx264-koding sikrer at MP4-en din forblir skarp."
+        },
+        {
+          "title": "Universell avspilling",
+          "desc": "Komprimerte MP4-er fungerer på alle iPhone-, Android- og Smart-TVer."
+        },
+        {
+          "title": "Personvern først",
+          "desc": "Filene dine forlater aldri nettleseren din. 100 % sikker behandling."
+        }
       ],
       "steps": [
-        { "title": "Last opp MP4", "desc": "Dra og slipp MP4-filen din i kompressorboksen." },
-        { "title": "Velg målstørrelse", "desc": "Velg ønsket utgangsstørrelse i MB." },
-        { "title": "Komprimer og lagre", "desc": "Last ned din optimaliserte MP4 umiddelbart." }
+        {
+          "title": "Last opp MP4",
+          "desc": "Dra og slipp MP4-filen din i kompressorboksen."
+        },
+        {
+          "title": "Velg målstørrelse",
+          "desc": "Velg ønsket utgangsstørrelse i MB."
+        },
+        {
+          "title": "Komprimer og lagre",
+          "desc": "Last ned din optimaliserte MP4 umiddelbart."
+        }
       ],
       "faqs": [
-        { "q": "Vil min MP4 miste kvalitet?", "a": "Nei, vi bruker høyeffektive konstante rate-faktorer for å opprettholde visuell integritet." },
-        { "q": "Er det en filstørrelsesgrense?", "a": "Du kan komprimere MP4-filer opp til 5 GB gratis." }
+        {
+          "q": "Vil min MP4 miste kvalitet?",
+          "a": "Nei, vi bruker høyeffektive konstante rate-faktorer for å opprettholde visuell integritet."
+        },
+        {
+          "q": "Er det en filstørrelsesgrense?",
+          "a": "Du kan komprimere MP4-filer opp til 5 GB gratis."
+        }
       ]
     },
     "mov": {
@@ -910,18 +978,42 @@
       "heroText": "Apple MOV-filer er beryktet store. Verktøyet vårt optimaliserer MOV-bitrater for nettet uten å ofre Apples signaturkvalitet.",
       "introText": "QuickTime (MOV)-filer tatt opp på iPhone eller Mac tar ofte opp gigabyte med plass. Vi hjelper deg med å konvertere og komprimere dem til effektive, nettklare formater umiddelbart.",
       "features": [
-        { "title": "Apple-optimalisert", "desc": "Spesielt tilpasset for ProRes- og H.264 MOV-filer med høy bitrate." },
-        { "title": "Nettklar", "desc": "Konverter tunge MOV-er til strømbare, lette versjoner." },
-        { "title": "Null ventetid", "desc": "Rask nettleserbasert behandling, ingen serveropplastinger kreves." }
+        {
+          "title": "Apple-optimalisert",
+          "desc": "Spesielt tilpasset for ProRes- og H.264 MOV-filer med høy bitrate."
+        },
+        {
+          "title": "Nettklar",
+          "desc": "Konverter tunge MOV-er til strømbare, lette versjoner."
+        },
+        {
+          "title": "Null ventetid",
+          "desc": "Rask nettleserbasert behandling, ingen serveropplastinger kreves."
+        }
       ],
       "steps": [
-        { "title": "Importer MOV", "desc": "Velg din .mov-fil fra din Mac eller iPhone." },
-        { "title": "Juster størrelse", "desc": "Velg en målstørrelse som passer dine delingsbehov." },
-        { "title": "Eksporter", "desc": "Lagre din komprimerte video på sekunder." }
+        {
+          "title": "Importer MOV",
+          "desc": "Velg din .mov-fil fra din Mac eller iPhone."
+        },
+        {
+          "title": "Juster størrelse",
+          "desc": "Velg en målstørrelse som passer dine delingsbehov."
+        },
+        {
+          "title": "Eksporter",
+          "desc": "Lagre din komprimerte video på sekunder."
+        }
       ],
       "faqs": [
-        { "q": "Kan jeg bruke dette på iPhone?", "a": "Ja, verktøyet vårt er fullt kompatibelt med Safari på iOS for MOV-komprimering." },
-        { "q": "Støtter den 4K MOV?", "a": "Absolutt, vi håndterer 4K 60fps MOV-filer med letthet." }
+        {
+          "q": "Kan jeg bruke dette på iPhone?",
+          "a": "Ja, verktøyet vårt er fullt kompatibelt med Safari på iOS for MOV-komprimering."
+        },
+        {
+          "q": "Støtter den 4K MOV?",
+          "a": "Absolutt, vi håndterer 4K 60fps MOV-filer med letthet."
+        }
       ]
     },
     "video-for-whatsapp": {
@@ -931,18 +1023,42 @@
       "heroText": "Slutt å få feilmeldingen 'Filen er for stor' på WhatsApp. Komprimer videoene dine slik at de passer perfekt til 16 MB- eller 64 MB-grensen.",
       "introText": "WhatsApp har strenge filstørrelsesgrenser (16 MB for mobil, 64 MB for web). Verktøyet vårt optimaliserer automatisk videoen din for å passe til disse grensene mens innholdet forblir tydelig.",
       "features": [
-        { "title": "Omgå grenser", "desc": "Treff automatisk det nøyaktige målet på 16 MB eller 64 MB for WhatsApp." },
-        { "title": "Umiddelbar deling", "desc": "Komprimerte filer er klare for umiddelbar videresending på WhatsApp." },
-        { "title": "Gruppevennlig", "desc": "Mindre filer betyr raskere opplastinger og nedlastinger for gruppechattene dine." }
+        {
+          "title": "Omgå grenser",
+          "desc": "Treff automatisk det nøyaktige målet på 16 MB eller 64 MB for WhatsApp."
+        },
+        {
+          "title": "Umiddelbar deling",
+          "desc": "Komprimerte filer er klare for umiddelbar videresending på WhatsApp."
+        },
+        {
+          "title": "Gruppevennlig",
+          "desc": "Mindre filer betyr raskere opplastinger og nedlastinger for gruppechattene dine."
+        }
       ],
       "steps": [
-        { "title": "Velg video", "desc": "Velg videoen du vil sende på WhatsApp." },
-        { "title": "Velg grense", "desc": "Sett målet til 15 MB for å være trygg for WhatsApp mobil." },
-        { "title": "Last ned og send", "desc": "Del videoen din uten grenseadvarsler." }
+        {
+          "title": "Velg video",
+          "desc": "Velg videoen du vil sende på WhatsApp."
+        },
+        {
+          "title": "Velg grense",
+          "desc": "Sett målet til 15 MB for å være trygg for WhatsApp mobil."
+        },
+        {
+          "title": "Last ned og send",
+          "desc": "Del videoen din uten grenseadvarsler."
+        }
       ],
       "faqs": [
-        { "q": "Hva er WhatsApps filgrense?", "a": "Mobilgrensen er 16 MB, mens WhatsApp Web støtter opptil 64 MB." },
-        { "q": "Vil videoen se uskarp ut?", "a": "Nei, vi optimaliserer oppløsningen for å sikre at den ser bra ut på telefonskjermer." }
+        {
+          "q": "Hva er WhatsApps filgrense?",
+          "a": "Mobilgrensen er 16 MB, mens WhatsApp Web støtter opptil 64 MB."
+        },
+        {
+          "q": "Vil videoen se uskarp ut?",
+          "a": "Nei, vi optimaliserer oppløsningen for å sikre at den ser bra ut på telefonskjermer."
+        }
       ]
     },
     "video-for-discord": {
@@ -952,18 +1068,42 @@
       "heroText": "Lei av Discord Nitro-forespørsler? Komprimer memene og klippene dine slik at de passer under gratisgrensen på 8 MB eller 25 MB umiddelbart.",
       "introText": "Discords opplastingsgrenser er marerittet for enhver gamer. Enten du trenger en 8 MB-fil for gratisbrukere eller en 25 MB-fil for Nitro Basic, sørger verktøyet vårt for at klippene dine forblir av høy kvalitet.",
       "features": [
-        { "title": "Nitro-vennlig", "desc": "Forhåndsinnstillinger for Discord-grenser på 8 MB, 25 MB og 50 MB." },
-        { "title": "Gamer-klar", "desc": "Perfekt for spillklipp med høy FPS fra OBS eller Shadowplay." },
-        { "title": "Auto-størrelse", "desc": "Justerer dimensjoner for å sikre at filen passer den lille Discord-grensen." }
+        {
+          "title": "Nitro-vennlig",
+          "desc": "Forhåndsinnstillinger for Discord-grenser på 8 MB, 25 MB og 50 MB."
+        },
+        {
+          "title": "Gamer-klar",
+          "desc": "Perfekt for spillklipp med høy FPS fra OBS eller Shadowplay."
+        },
+        {
+          "title": "Auto-størrelse",
+          "desc": "Justerer dimensjoner for å sikre at filen passer den lille Discord-grensen."
+        }
       ],
       "steps": [
-        { "title": "Last opp klipp", "desc": "Dra spillklippet eller memet ditt inn i boksen." },
-        { "title": "Sett 8 MB-mål", "desc": "Bruk glidebryteren for å treffe 8 MB-merket nøyaktig." },
-        { "title": "Del på Discord", "desc": "Legg ut videoen din i hvilken som helst kanal uten Nitro." }
+        {
+          "title": "Last opp klipp",
+          "desc": "Dra spillklippet eller memet ditt inn i boksen."
+        },
+        {
+          "title": "Sett 8 MB-mål",
+          "desc": "Bruk glidebryteren for å treffe 8 MB-merket nøyaktig."
+        },
+        {
+          "title": "Del på Discord",
+          "desc": "Legg ut videoen din i hvilken som helst kanal uten Nitro."
+        }
       ],
       "faqs": [
-        { "q": "Hva er Discords gratisgrense?", "a": "Discord økte nylig gratisgrensen til 25 MB for de fleste brukere, men 8 MB er fortsatt tryggere for noen servere." },
-        { "q": "Støtter den .webm?", "a": "Ja, vi anbefaler .webm for Discord da det har bedre komprimering for små størrelser." }
+        {
+          "q": "Hva er Discords gratisgrense?",
+          "a": "Discord økte nylig gratisgrensen til 25 MB for de fleste brukere, men 8 MB er fortsatt tryggere for noen servere."
+        },
+        {
+          "q": "Støtter den .webm?",
+          "a": "Ja, vi anbefaler .webm for Discord da det har bedre komprimering for små størrelser."
+        }
       ]
     },
     "video-for-email": {
@@ -973,18 +1113,132 @@
       "heroText": "Send videoer via e-post uten å bruke Google Drive eller Dropbox. Krymp filene dine slik at de passer e-postens vedleggsgrense på 25 MB.",
       "introText": "De fleste e-postleverandører som Gmail og Outlook har en grense på 25 MB. Verktøyet vårt optimaliserer dine profesjonelle videoer eller familieklipp slik at de passer perfekt i en e-post.",
       "features": [
-        { "title": "Gmail-kompatibel", "desc": "Holder seg under grensen på 25 MB for sømløse vedlegg." },
-        { "title": "Profesjonell kvalitet", "desc": "Holder forretningspresentasjonene og veiledningene dine skarpe." },
-        { "title": "Cross-Platform", "desc": "Fungerer i alle nettlesere, inkludert Outlook og Yahoo Mail." }
+        {
+          "title": "Gmail-kompatibel",
+          "desc": "Holder seg under grensen på 25 MB for sømløse vedlegg."
+        },
+        {
+          "title": "Profesjonell kvalitet",
+          "desc": "Holder forretningspresentasjonene og veiledningene dine skarpe."
+        },
+        {
+          "title": "Cross-Platform",
+          "desc": "Fungerer i alle nettlesere, inkludert Outlook og Yahoo Mail."
+        }
       ],
       "steps": [
-        { "title": "Legg til vedlegg", "desc": "Velg den store videofilen du vil sende på e-post." },
-        { "title": "Sett 24 MB-grense", "desc": "Sikt på 24 MB for å sikre at den passer e-postgrensen på 25 MB." },
-        { "title": "Legg ved og send", "desc": "Last ned filen og legg den ved direkte i e-posten din." }
+        {
+          "title": "Legg til vedlegg",
+          "desc": "Velg den store videofilen du vil sende på e-post."
+        },
+        {
+          "title": "Sett 24 MB-grense",
+          "desc": "Sikt på 24 MB for å sikre at den passer e-postgrensen på 25 MB."
+        },
+        {
+          "title": "Legg ved og send",
+          "desc": "Last ned filen og legg den ved direkte i e-posten din."
+        }
       ],
       "faqs": [
-        { "q": "Hva er Gmails vedleggsgrense?", "a": "Gmail tillater opptil 25 MB per e-post. Hvis den er større, tvinger den frem en Google Drive-kobling." },
-        { "q": "Hvor mye kan jeg krympe en video?", "a": "Ofte kan vi krympe en video fra 200 MB til 24 MB mens vi beholder god kvalitet." }
+        {
+          "q": "Hva er Gmails vedleggsgrense?",
+          "a": "Gmail tillater opptil 25 MB per e-post. Hvis den er større, tvinger den frem en Google Drive-kobling."
+        },
+        {
+          "q": "Hvor mye kan jeg krympe en video?",
+          "a": "Ofte kan vi krympe en video fra 200 MB til 24 MB mens vi beholder god kvalitet."
+        }
+      ]
+    },
+    "youtube": {
+      "title": "Komprimer video for YouTube Online - Rask YouTube Optimizer",
+      "description": "Komprimer videoer for YouTube online gratis. Reduser videostørrelsen mens du opprettholder 1080p og 4K HD-kvalitet. Last opp raskere uten behandlingsforsinkelser.",
+      "h1": "Rask YouTube-videokompressor",
+      "heroText": "Last opp til YouTube på sekunder. Komprimer 1080p- og 4K-videoene dine mens du beholder den nøyaktige visuelle kvaliteten.",
+      "introText": "YouTube behandler massive videoopplastinger, men tunge filer kan føre til behandlingsstopp og uendelige ventetider. Vår smarte optimizer reduserer filstørrelsen uten å miste oppløsninger eller fargenøyaktighet.",
+      "features": [
+        {
+          "title": "Ingen kvalitetstap",
+          "desc": "Avansert libx264-komprimering opprettholder din visuelle klarhet."
+        },
+        {
+          "title": "Rask behandling",
+          "desc": "Lokal nettleserbehandling betyr ingen ventetider på serveren."
+        },
+        {
+          "title": "Personvern først",
+          "desc": "Videoen din forlater aldri nettleseren din. 100% sikker."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Last opp video",
+          "desc": "Dra og slipp MP4-, MOV- eller WebM-videofilen."
+        },
+        {
+          "title": "Velg Oppløsning",
+          "desc": "Velg 1080p eller 4K for å holde deg optimalisert for YouTube."
+        },
+        {
+          "title": "Komprimer og last ned",
+          "desc": "Gjør den lette videoen klar for umiddelbar opplasting."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Vil dette redusere YouTube-kvaliteten min?",
+          "a": "Nei, verktøyet vårt komprimerer filer uten å miste oppløsning, så YouTube vil behandle det i HD/4K."
+        },
+        {
+          "q": "Er det trygt å bruke?",
+          "a": "Ja, all behandling gjøres i nettleseren din, noe som sikrer fullstendig personvern."
+        }
+      ]
+    },
+    "tiktok": {
+      "title": "Komprimer video for TikTok Online - Krymp videoer for TikTok",
+      "description": "Komprimer videoer for TikTok online gratis. Optimaliser vertikale 9:16-videoer for å passe TikTok-retningslinjene perfekt. Hold videoene dine skarpe for FYP.",
+      "h1": "TikTok videokompressor",
+      "heroText": "Få videoene dine til å vises på FYP. Komprimer vertikale klipp for å laste opp til TikTok umiddelbart med null etterslep.",
+      "introText": "TikTok favoriserer hurtiglastende vertikale videoer av høy kvalitet. Kompressoren vår krymper MP4- og MOV-filene dine for å passe TikTok-mobilretningslinjene samtidig som overganger og tekst holdes perfekt skarpe.",
+      "features": [
+        {
+          "title": "9:16 Optimalisert",
+          "desc": "Perfekt for vertikale klipp, Instagram-ruller og shorts."
+        },
+        {
+          "title": "FYP kvalitet",
+          "desc": "Holder videooppløsningen skarp for å unngå uskarp TikTok-komprimering."
+        },
+        {
+          "title": "Null serverforsinkelse",
+          "desc": "Ingen opplasting til eksterne databaser, behandlingen fullføres umiddelbart."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Velg Video",
+          "desc": "Velg vertikal video fra telefonen eller PC-en."
+        },
+        {
+          "title": "Angi retningslinjer",
+          "desc": "Optimaliser bithastigheten din for rask TikTok-lasting."
+        },
+        {
+          "title": "Lagre og del",
+          "desc": "Last ned den komprimerte videoen og legg ut på TikTok umiddelbart."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Komprimerer TikTok videoer?",
+          "a": "Ja, TikTok komprimerer filer ved opplasting, men å komprimere dem først med verktøyet vårt unngår uskarpe resultater."
+        },
+        {
+          "q": "Hvilket format er best for TikTok?",
+          "a": "MP4 og MOV i vertikalt 9:16 sideforhold er de ideelle formatene for TikTok."
+        }
       ]
     }
   }

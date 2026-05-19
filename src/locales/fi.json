@@ -564,68 +564,112 @@
     "cta_title": "Muuta videon kokoa nyt."
   },
   "to_mp3_page": {
-    "hero_badge": "High Fidelity · Ei latausta palvelimelle · 100 % ilmainen",
-    "hero_title": "Videon MP3-muunnin verkossa",
-    "hero_subtitle": "Irrota korkealaatuiset ääniraidat videoistasi välittömästi. Turvallinen ja yksityinen.",
-    "visualizer_title": "Paras muunnin",
-    "visualizer_desc": "Studiotason irrotustarkkuus suoraan selaimessasi.",
+    "hero_badge": "High Fidelity • Ei latauksia • 100 % ilmainen",
+    "hero_title": "Online Video MP3 Converter",
+    "hero_subtitle": "Online-video-MP3-muuntimemme on ilmainen ja turvallinen, joten voit saada ääniraitoja videoista hetkessä. Online-video-mp3-muunnin, joka toimii parhaiten musiikin, podcastien, haastattelujen, luentojen, äänileikkeiden ja sosiaalisessa mediassa.",
+    "visualizer_title": "Paras Video MP3 Converter",
+    "visualizer_desc": "VideoCompressorPro on helppokäyttöinen videomuunnin, joka on täydellinen aloittelijoille, olitpa sitten muuntamassa YouTube-videota MP3-muotoon, TikTok-videota MP3-muotoon tai etsimässä sinulle hyvin toimivaa videomuunninta MP3-muotoon. Online-video-MP3-muuntimemme avulla voit muuntaa videoita MP3-äänitiedostoiksi välittömästi ja laadukkaasti. Poimi nopeasti ääntä YouTube-videoleikkeistä, TikTok-videoista, podcasteista, webinaareista ja tallenteista suoraan selaimesta parhaan videon MP3-muuntimella saadaksesi äänen sekunneissa.",
     "visualizer_label": "Tulostusmuoto",
-    "visualizer_format": "Korkealaatuinen MP3 (320 kbps)",
-    "features_title": "Huippuluokan irrotus",
-    "f1_title": "High Fidelity",
-    "f1_desc": "Tuki jopa 320 kbps bittinopeudelle kristallinkirkasta ääntä varten.",
-    "f2_title": "Täysi yksityisyys",
-    "f2_desc": "Paikallinen käsittely. Tiedostosi eivät koskaan päädy meille.",
-    "f3_title": "Välitön lataus",
-    "f3_desc": "Ei odottelua. Saat äänen heti irrottamisen jälkeen.",
-    "f4_title": "Eri muodot",
-    "f4_desc": "MP4, MOV, AVI muunnetaan MP3-, WAV- tai OGG-muotoon suurella huolella.",
-    "f5_title": "Erissä",
-    "f5_desc": "Muunna useita videoita soittolistaksi sekunneissa.",
-    "f6_title": "Ei tiliä",
-    "f6_desc": "Täysi pääsy ilman rekisteröitymistä tai ärsyttäviä mainoksia.",
-    "steps_title": "Kuinka muuntaa",
-    "s1_title": "Lataa",
-    "s1_desc": "Valitse videotiedosto missä tahansa yleisessä muodossa.",
-    "s2_title": "Määritä",
-    "s2_desc": "Valitse bittinopeus ja haluamasi tulostusmuoto.",
-    "s3_title": "Irrota",
-    "s3_desc": "Erottele ääni kirurgisella tarkkuudella välittömästi.",
-    "s4_title": "Tallenna",
-    "s4_desc": "Lataa paikallisesti käsitelty MP3-tiedostosi turvallisesti.",
-    "reviews_title": "Ammattilaisten käyttämä",
-    "r1_text": "Täydellinen ääni jopa studiomonitoreilla. Erinomaista.",
-    "r1_role": "Musiikkituottaja",
-    "r2_text": "I use it to get clean audio for my podcasts from video interviews. It's consistently very reliable.",
-    "r2_role": "Professional Podcaster",
-    "r3_text": "Extremely fast extraction. I converted 10 long videos in a minute. The speed is unmatched.",
-    "r3_role": "Graduate Student",
-    "r4_text": "No distortion at all. The LAME encoder implementation here works wonders for audio fidelity.",
-    "r4_role": "Audio Engineer",
-    "r5_text": "Privacy first - my videos aren't uploaded to convert. This is essential for my sensitive interview data.",
-    "r5_role": "Investigative Journalist",
-    "r6_text": "Best way to get high-quality MP3s from my own YouTube backups. Simple, clean, and perfect.",
-    "r6_role": "Content Creator",
-    "r7_text": "Simple, clean, and no annoying ads or popups. A rare find in the world of online conversion tools.",
-    "r7_role": "Creative Freelancer",
-    "r8_text": "Supports all formats. Converted my old MKV home videos to MP3 to listen in the car easily.",
-    "r8_role": "Tech Enthusiast",
-    "r9_text": "The batch processing feature is a life-saver for my sound effects library.",
-    "r9_role": "Game Developer",
-    "r10_text": "Studio-grade audio extraction in seconds. It's my go-to tool for video sound design.",
-    "r10_role": "Sound Designer",
-    "r11_text": "Crystal clear MP3 extraction every time. I use it for my sample library and it never fails.",
-    "r11_role": "Audio Producer",
-    "r12_text": "Fastest conversion I've seen. No more waiting for servers to process my files.",
-    "r12_role": "Creative Director",
-    "faq_title": "UKK",
-    "q1": "Miten ääni irrotetaan?",
-    "a1": "Lataa video ja napsauta 'Irrota ääni'. Siinä se!",
-    "q2": "Onko se ilmainen?",
-    "a2": "Kyllä, 100 % ilmainen ja ilman rajoituksia.",
-    "q3": "Mikä bittinopeus on paras?",
-    "a3": "320 kbps parhaan laadun saamiseksi; 128 kbps tilan säästämiseksi.",
-    "cta_title": "Irrota ääni nyt."
+    "visualizer_format": "Laadukas MP3 (320 kbps)",
+    "features_title": "Kehittyneet äänenpoistoominaisuudet",
+    "features_desc": "Renderöi video laadukkaaksi MP3-äänitiedostoksi nopealla, puhtaalla ja modernilla selainpohjaisella verkkoteknologialla tekijöille, kuuntelijoille ja ammattilaisille.",
+    "f1_title": "Studio-laatuinen MP3-lähtö",
+    "f1_desc": "Kehittynyt online-videomuunnin MP3-muotoon on täydellinen tasapainoisen ja näkyvän äänen poimimiseen videoista optimoidulla äänenlaadulla, joka soveltuu musiikkiin, podcasteihin, haastatteluihin, webinaareihin ja äänen tallentamiseen.\n\nKORKEA LAATU • PUHDAS ÄÄNI • MP3 VIENTI",
+    "f2_title": "Suojattu selainpohjainen muunnos",
+    "f2_desc": "Käsittelyn aikana tiedostosi pysyvät luottamuksellisina. Online-videon MP3-muuntimen ei tarvitse ladata mitään, eikä se vaadi kolmannen osapuolen sovelluksia.\n\nYksityinen, suojattu, paikallinen käsittely.",
+    "f3_title": "Salamannopeat äänilataukset",
+    "f3_desc": "Video-MP3-muuntimen ilmainen lataus täysversiomme verkossa on suunniteltu muuttamaan videotiedostot MP3-muotoon sekunneissa ja tallentamaan ääni laitteellesi offline-kuuntelua, editointia, suoratoistoa tai sisällön luomista varten.\n\nNOPEA KÄSITTELY • PIKALAATUKSET",
+    "f4_title": "Tukee suosituimpia videomuotoja.",
+    "f4_desc": "Muunna videoita MP3-muotoon MP4-, MOV-, AVI-, MKV-, WebM- ja muiden suosittujen videoformaattien avulla käyttämällä videonmuunninta MP3-työkalullemme.\n\nMP4 • MOV • AVI • WEBM",
+    "f5_title": "Suunniteltu erityisesti sisällöntuottajille",
+    "f5_desc": "Muunna YouTube-videoita, TikTok-videoita, webinaareja, opetusohjelmia, podcasteja ja sisällöntuottajasisältöä MP3-muotoon vaivattomasti ja luotettavasti YouTube-videoiden MP3-muuntimellamme.\n\nYOUTUBE • TIKTOK • PODCASTIT",
+    "f6_title": "Ilmainen ja helppokäyttöinen",
+    "f6_desc": "Hanki ääni mistä tahansa selaimesta ilman monimutkaisia ​​ohjelmistoja, piilomaksuja, kirjautumisia tai vesileimarajoituksia. Meillä on ilmainen pikavideo-MP3-muunnin, joka toimii mobiililaitteilla ja työpöydällä.\n\nEI ASENNUSTA • ILMAISEKSI • ALOITTAJAN YSTÄVÄLLINEN",
+    "steps_title": "Muunna videot korkealaatuiseksi MP3:ksi sekunneissa",
+    "steps_desc": "Video-MP3-äänimuuntimemme on nopea ja turvallinen, joten voit poimia ääntä videosta nopeasti. Ei monimutkaisia ​​ohjelmistoja, ei muokkauskokemusta eikä pitkää odotusaikaa.",
+    "s1_title": "Tuo videosi",
+    "s1_desc": "Vedä ja pudota tai valitse videotiedosto(t) ilmaisesta video-MP3-muuntimestamme ladataksesi suoraan työkaluun.\n\nNOPEA LATAUS • USEITA MUOTOJA",
+    "s2_title": "Poimi korkealaatuista ääntä",
+    "s2_desc": "Valitse MP3-lähtömuotoja ja muunna video välittömästi puhtaaksi ääneksi, joka on optimoitu musiikille, podcasteille, äänitallenteille, haastatteluille ja sisällöntuottajasisällölle maksutta käyttämällä ilmaista video-MP3-muunninta.\n\nMP3-lähtö – laadukas ääni",
+    "s3_title": "Tallenna ja käytä missä tahansa",
+    "s3_desc": "Tallenna MP3-tiedostosi heti muuntamisen jälkeen ja toista se offline-tilassa, muokkaa projekteja, luo esityksiä tai julkaise sosiaalisessa mediassa. Video MP3 -muuntimemme PC:lle on selainpohjainen lataus, jota ei ole asennettu tietokoneelle.\n\nVÄLILATTAUS • OHJELMISTOA EI TARVITA",
+    "use_cases_title": "Tosielämän tapoja, joilla ihmiset käyttävät video-MP3-muunnintamme",
+    "use_cases_desc": "Olipa kyseessä musiikin ystäville, opiskelijoille, sisällöntuottajille tai yritystiimeille, online-video-MP3-muuntimemme on suunniteltu muuntamaan videosisältö kannettaviksi, korkealaatuisiksi äänitiedostoiksi käytettäväksi soittolistoissa, editoinnissa, oppimisessa ja jakamisessa.",
+    "u1_title": "Tallenna musiikkia ja live-esityksiä MP3-muodossa",
+    "u1_desc": "Käytä muuntimemme muuntaaksesi konserttitallenteen, musiikkivideot, DJ-setit ja live-esitykset korkealaatuiseksi MP3-ääneksi offline-kuunteluun milloin tahansa.",
+    "u1_tags": "MUSIIKKI • LIVE-ESITYS • SOITTOLISTAT",
+    "u2_title": "Kuuntele podcasteja missä tahansa",
+    "u2_desc": "Muunna podcast-videot MP3-muotoon toistamista varten työmatkalla, toimistossa, harjoittelun aikana tai lukiessasi ja oppiessasi vaivatta. Toista podcast-videoiden ääni ilman ohjelmistoa avaamatta videon MP3-muuntimemme ilmaisella täysversiolla.",
+    "u2_tags": "PODCASTIT • HAASTATTELUT • VAIN AUDIO",
+    "u3_title": "Muunna opetusvideot äänitunteiksi.",
+    "u3_desc": "Muuta opetusohjelmat, tallennetut luennot, valmennustilaisuudet ja opetusvideot MP3-muotoon, jotta voit oppia milloin tahansa liikkeellä ollessasi turvallisella PC:lle ladattavalla video-MP3-muuntimella, joka ei vaadi asennusta.",
+    "u3_tags": "LUENTOT • KURSSIT • TUTKIMUSÄÄNI",
+    "u4_title": "Äänen kopioiminen projektien editointia varten.",
+    "u4_desc": "Käytä video-MP3-muunninta verkossa erottelemaan ääniraitoja videoista selostuksia, remiksausta, podcast-editointia, esityksiä ja jälkituotantoa varten.",
+    "u4_tags": "EDITOIMINTA • SISÄLLÖN LUOMINEN • TUOTANTO",
+    "u5_title": "Tee ääntä sosiaalisen median videoista.",
+    "u5_desc": "Poimi ääni tiktok-videoista, YouTube-videoista, shortseista ja sosiaalisesta mediasta muutamassa sekunnissa selainpohjaisella TikTok-video-MP3-muuntimellamme ja ilmaisella YouTube-video-MP3-muuntimella.",
+    "u5_tags": "TIKTOK • YOUTUBE • LYHYT SISÄLTÖ",
+    "u6_title": "Tallenna motivaatio- ja puheäänet",
+    "u6_desc": "Muunna video audio-MP3-muotoon nopealla video-MP3-äänimuuntimellamme, jotta voit kuunnella puheita, motivaatiovideoita, seminaareja ja henkilökohtaisen kehityksen materiaalia offline-tilassa.",
+    "u6_tags": "PUHUET • MOTIVOINTI • OFFLINE AUDIO",
+    "reviews_title": "Luojat, opiskelijat ja jokapäiväiset käyttäjät luottavat",
+    "reviews_desc": "Monet käyttävät online-video-MP3-muunnintamme päivittäin musiikin, podcastien, haastattelujen, luentojen ja sisällöntuottajien äänen kopioimiseen nopeasti ilman haastavaa ohjelmointia.",
+    "r1_text": "Käytin lukuisia videoiden MP3-muunnosohjelmia, mutta tämä on paras, mitä olen koskaan käyttänyt. Se on nopea ja äänenlaatu on todella hyvä.",
+    "r1_role": "Podcast-kuuntelija",
+    "r2_text": "Tämä on loistava YouTube-MP3-muunnin, koska tarvitsin vain yksinkertaisen ratkaisun, eikä minun tarvinnut tehdä monimutkaista askel askeleelta.",
+    "r2_role": "Markkinointikoordinaattori",
+    "r3_text": "Olin todella vaikuttunut siitä, kuinka nopeasti se muuttui; Latasin suuren MP4-tiedoston ja latasin MP3:n sekunneissa.",
+    "r3_role": "YouTube Creator",
+    "r4_text": "Käyttäisin tätä Tiktok-video-MP3-muunninta melkein joka päivä projektien editointiin ja sosiaalisen median sisältöön.",
+    "r4_role": "Videoeditori",
+    "r5_text": "Puhdas ja helppokäyttöinen käyttöliittymä, ja jopa opiskelijani voisivat käyttää tätä videomuunninta MP3-työkaluksi.",
+    "r5_role": "Online-ohjaaja",
+    "r6_text": "Etsin videon MP3-muuntimen latausta PC:lle, mutta tämä selaintyökalu korvasi kokonaan työpöytäohjelmiston.",
+    "r6_role": "Freelance-suunnittelija",
+    "r7_text": "Nauhoitin luennot äänitiedostoina ja muunnin sitten MP3:ksi kuunneltavaksi työmatkalla – säästin paljon opiskeluaikaa.",
+    "r7_role": "Yliopisto-opiskelija",
+    "r8_text": "Se muuntaa pitkiä tiedostoja menettämättä äänenlaatua. Se on täydellinen videon MP3-äänimuunnin podcasteille.",
+    "r8_role": "Audiotuottaja",
+    "r9_text": "Tämän ansiosta kaikki toimii suoraan selaimessa ilman tarpeettomia latauksia, mainoksia tai asennusvaiheita.",
+    "r9_role": "Sisältöstrategi",
+    "r10_text": "Tämä online-videon MP3-muunnin on erittäin nopea ja helppokäyttöinen, ja latasin onnistuneesti äänen TikTok-videoista ja sosiaalisen median sisällöstä.",
+    "r10_role": "Social Media Manager",
+    "r11_text": "Tämä ilmainen online-videon MP3-muunnin on loistava työkalu, joka muuntaa videoni ilman ongelmia ja on parantanut niiden laatua – useimmat työkalut tekevät päinvastoin.",
+    "r11_role": "Pienyrityksen omistaja",
+    "r12_text": "Käytän tätä ilmaista YouTube-video-MP3-muunninta puheiden ja ohjevideoiden tallentamiseen kuntosalilla kuunneltavaksi.",
+    "r12_role": "Kuntovalmentaja",
+    "faq_title": "Usein kysytyt kysymykset",
+    "faq_desc": "Opi käyttämään VideoCompressorProa videoiden muuntamiseen korkealaatuiseksi MP3-ääneksi.",
+    "q1": "Mikä on MP3-tiedosto?",
+    "a1": "MP3 on yksi yleisimmistä musiikin, podcastien ja äänitallenteiden ääniformaateista ja sitä voi kuunnella offline-tilassa pienen koon ja hyvän laadun ansiosta.",
+    "q2": "Mikä on videon MP3-muunnin?",
+    "a2": "Online-videon MP3-muunnin on työkalu, joka auttaa poistamaan ääntä videotiedostosta ja tallentamaan sen sitten MP3-äänitiedostomuotoon, jota voidaan toistaa mediasoittimissa, puhelimissa, tableteissa ja kannettavissa tietokoneissa.",
+    "q3": "Mitä videomuotoja on saatavilla?",
+    "a3": "Suosittuja videomuotoja, joita Video-MP3-muuntimemme tukee, ovat MP4, MOV, AVI, MKV, WebM, MPEG ja paljon muuta.",
+    "q4": "Vääristyykö ääni muunnoksen aikana?",
+    "a4": "Optimoitu säilyttämään selkeän ja tasapainoisen äänenlaadun purkamisen aikana, muuntimemme on ihanteellinen musiikille, podcasteille, haastatteluille ja puhesisällölle.",
+    "q5": "Onko ohjelmisto, joka pitää asentaa?",
+    "a5": "Tämä ei vaadi asennusta. Sovelluksia tai monimutkaisia ​​työpöytäsovelluksia ei vaadita - se toimii suoraan selaimessasi. Se on vaihtoehtoinen kevyt video-MP3-muunnin lataus PC:lle.",
+    "q6": "Voitko ladata videoita MP3-muuntimeen?",
+    "a6": "Kyllä, VideoCompressorPro käsitellään selaimessa tarkoituksena säilyttää asiakirjojen yksityisyys ja turvallisuus muunnosprosessin aikana.",
+    "q7": "Onko sinulla kyky muuntaa videoita erässä?",
+    "a7": "Muunnin saattaa tarvita enemmän prosessointitehoa selaimesta ja laitteesta riippuen, mutta muuntimemme on optimoitu useiden muunnosten tekemiseen.",
+    "q8": "Onko tiedostokokoa tai videon pituutta koskevia rajoituksia?",
+    "a8": "Tuettua tiedostokokoa rajoittavat ensisijaisesti selaimesi, laitteen muisti ja prosessointiteho, mutta suuria videoita tuetaan nykyaikaisissa järjestelmissä.",
+    "q9": "Onko mahdollista poimia ääntä YouTube-videoista?",
+    "a9": "Kyllä, ilmainen YouTube-MP3-muuntimemme voi poimia äänen yhteensopivista videotiedostoista käytettäväksi podcasteissa, luennoissa, musiikissa, haastatteluissa ja sisällöntuottajien sisällössä.",
+    "q10": "Onko muuntaja mobiiliystävällinen?",
+    "a10": "Kyllä, Web to MP3 Converter on yhteensopiva Androidin, iPhonen, Android-tabletin, iPadin, kannettavan tietokoneen tai selaimen kanssa ilman lisäohjelmistojen lataamista.",
+    "q11": "Onko mitään tapaa käyttää purettua ääntä ilman Internetiä?",
+    "a11": "Täysin. MP3-tiedostosi on muunnettu, voit ladata sen ja toistaa sen myöhemmin ilman Internetiä!",
+    "q12": "Miksi tämä on yksi parhaista videoista MP3-muuntimille?",
+    "a12": "VideoCompressorPro on yhdistelmä nopeaa käsittelyä selaimessa, puhdasta MP3-vientiä, turvallista käsittelyä ja käyttäjäystävällisiä työkaluja ilman monimutkaisia ​​ohjelmistoja ja tilauksia.",
+    "q13": "Etsitkö tapaa muuntaa TikTok- tai sosiaalisen median videot MP3-muotoon?",
+    "a13": "Kyllä, TikTok-videon MP3-muuntimemme voi muuntaa TikTok-videoita ja sosiaalisia videoita, webinaareja, opetusohjelmia, podcasteja ja monia muita videomuotoja MP3-muotoon.",
+    "q14": "Onko tämä video MP3-muunnin ilmainen?",
+    "a14": "Kyllä, voit ladata videon MP3-muuntimemme ilmaiseksi täysversion verkosta ilmaiseksi, ilman piilokuluja tai pakollista rekisteröintiä tai monimutkaista asennusta.",
+    "cta_title": "Poimi korkealaatuinen ääni välittömästi."
   },
   "audio_cutter_page": {
     "hero_badge": "Tarkkuus · Ei latausta palvelimelle · 100 % ilmainen",
@@ -889,18 +933,42 @@
       "heroText": "Maailman luotetuin MP4-pakkaus. Pienennä MP4-tiedostojasi sekunneissa säilyttäen upean 1080p/4K-laadun.",
       "introText": "MP4 on suosituin videomuoto, mutta korkean resoluution MP4-tiedostot voivat olla valtavia. Älykäs pakkausmoottorimme analysoi MP4-bittinopeutesi tarjotakseen täydellisen tasapainon tiedostokoon ja visuaalisen selkeyden välillä.",
       "features": [
-        { "title": "Ei laadun heikkenemistä", "desc": "Edistynyt libx264-koodaus varmistaa, että MP4 pysyy terävänä." },
-        { "title": "Yleinen toisto", "desc": "Pakatut MP4-videot toimivat kaikilla iPhoneilla, Android-laitteilla ja älytelevisioilla." },
-        { "title": "Yksityisyys ensin", "desc": "Tiedostosi eivät koskaan poistu selaimestasi. 100 % turvallinen käsittely." }
+        {
+          "title": "Ei laadun heikkenemistä",
+          "desc": "Edistynyt libx264-koodaus varmistaa, että MP4 pysyy terävänä."
+        },
+        {
+          "title": "Yleinen toisto",
+          "desc": "Pakatut MP4-videot toimivat kaikilla iPhoneilla, Android-laitteilla ja älytelevisioilla."
+        },
+        {
+          "title": "Yksityisyys ensin",
+          "desc": "Tiedostosi eivät koskaan poistu selaimestasi. 100 % turvallinen käsittely."
+        }
       ],
       "steps": [
-        { "title": "Lataa MP4", "desc": "Vedä ja pudota MP4-tiedostosi pakkausruutuun." },
-        { "title": "Aseta tavoitekoko", "desc": "Valitse haluamasi tuloskoko megatavuina." },
-        { "title": "Pakkaa ja tallenna", "desc": "Lataa optimoitu MP4-videosi välittömästi." }
+        {
+          "title": "Lataa MP4",
+          "desc": "Vedä ja pudota MP4-tiedostosi pakkausruutuun."
+        },
+        {
+          "title": "Aseta tavoitekoko",
+          "desc": "Valitse haluamasi tuloskoko megatavuina."
+        },
+        {
+          "title": "Pakkaa ja tallenna",
+          "desc": "Lataa optimoitu MP4-videosi välittömästi."
+        }
       ],
       "faqs": [
-        { "q": "Menettääkö MP4-videoni laatua?", "a": "Ei, käytämme tehokkaita vakiotaso-tekijöitä visuaalisen eheyden säilyttämiseksi." },
-        { "q": "Onko tiedostokoolla rajoitusta?", "a": "Voit pakata MP4-tiedostoja jopa 5 Gt asti ilmaiseksi." }
+        {
+          "q": "Menettääkö MP4-videoni laatua?",
+          "a": "Ei, käytämme tehokkaita vakiotaso-tekijöitä visuaalisen eheyden säilyttämiseksi."
+        },
+        {
+          "q": "Onko tiedostokoolla rajoitusta?",
+          "a": "Voit pakata MP4-tiedostoja jopa 5 Gt asti ilmaiseksi."
+        }
       ]
     },
     "mov": {
@@ -910,18 +978,42 @@
       "heroText": "Apple MOV -tiedostot ovat tunnetusti suuria. Työkalumme optimoi MOV-bittinopeudet verkkoa varten uhraamatta Applen tunnusomaista laatua.",
       "introText": "iPhone- tai Mac-laitteilla tallennetut QuickTime (MOV) -tiedostot vievät usein gigatavuja tilaa. Autamme sinua muuntamaan ja pakkaamaan ne välittömästi tehokkaiksi, verkkokäyttöön sopiviksi muodoiksi.",
       "features": [
-        { "title": "Apple-optimoitu", "desc": "Erityisesti viritetty korkean bittinopeuden ProRes- ja H.264 MOV -tiedostoille." },
-        { "title": "Verkkovalmis", "desc": "Muunna tilaa vievät MOV-tiedostot suoratoistoon sopiviksi, kevyiksi versioiksi." },
-        { "title": "Ei odotusta", "desc": "Nopea selainpohjainen käsittely, palvelimelle lataamista ei vaadita." }
+        {
+          "title": "Apple-optimoitu",
+          "desc": "Erityisesti viritetty korkean bittinopeuden ProRes- ja H.264 MOV -tiedostoille."
+        },
+        {
+          "title": "Verkkovalmis",
+          "desc": "Muunna tilaa vievät MOV-tiedostot suoratoistoon sopiviksi, kevyiksi versioiksi."
+        },
+        {
+          "title": "Ei odotusta",
+          "desc": "Nopea selainpohjainen käsittely, palvelimelle lataamista ei vaadita."
+        }
       ],
       "steps": [
-        { "title": "Tuo MOV", "desc": "Valitse .mov-tiedostosi Macista tai iPhonesta." },
-        { "title": "Säädä kokoa", "desc": "Valitse tavoitekoko, joka sopii jakotarpeisiisi." },
-        { "title": "Vie", "desc": "Tallenna pakattu videosi sekunneissa." }
+        {
+          "title": "Tuo MOV",
+          "desc": "Valitse .mov-tiedostosi Macista tai iPhonesta."
+        },
+        {
+          "title": "Säädä kokoa",
+          "desc": "Valitse tavoitekoko, joka sopii jakotarpeisiisi."
+        },
+        {
+          "title": "Vie",
+          "desc": "Tallenna pakattu videosi sekunneissa."
+        }
       ],
       "faqs": [
-        { "q": "Voinko käyttää tätä iPhonessa?", "a": "Kyllä, työkalumme on täysin yhteensopiva iOS:n Safarin kanssa MOV-pakkaukseen." },
-        { "q": "Tukeeko se 4K MOV -tiedostoja?", "a": "Ehdottomasti, käsittelemme 4K 60fps MOV -tiedostot helposti." }
+        {
+          "q": "Voinko käyttää tätä iPhonessa?",
+          "a": "Kyllä, työkalumme on täysin yhteensopiva iOS:n Safarin kanssa MOV-pakkaukseen."
+        },
+        {
+          "q": "Tukeeko se 4K MOV -tiedostoja?",
+          "a": "Ehdottomasti, käsittelemme 4K 60fps MOV -tiedostot helposti."
+        }
       ]
     },
     "video-for-whatsapp": {
@@ -931,18 +1023,42 @@
       "heroText": "Lopeta 'Tiedosto on liian suuri' -virheiden saaminen WhatsAppissa. Pakkaa videosi sopimaan täydellisesti 16 Mt tai 64 Mt rajoihin.",
       "introText": "WhatsAppilla on tiukat tiedostokokorajoitukset (16 Mt mobiililaitteille, 64 Mt verkkoversiolle). Työkalumme optimoi videosi automaattisesti näihin rajoihin säilyttäen sisällön selkeänä.",
       "features": [
-        { "title": "Ohita rajoitukset", "desc": "Saavuta automaattisesti tarkka 16 Mt tai 64 Mt tavoite WhatsAppia varten." },
-        { "title": "Välitön jako", "desc": "Pakatut tiedostot ovat valmiita välittömään WhatsApp-lähetykseen." },
-        { "title": "Ryhmäystävällinen", "desc": "Pienemmät tiedostot tarkoittavat nopeampia latauksia ryhmäkeskusteluissasi." }
+        {
+          "title": "Ohita rajoitukset",
+          "desc": "Saavuta automaattisesti tarkka 16 Mt tai 64 Mt tavoite WhatsAppia varten."
+        },
+        {
+          "title": "Välitön jako",
+          "desc": "Pakatut tiedostot ovat valmiita välittömään WhatsApp-lähetykseen."
+        },
+        {
+          "title": "Ryhmäystävällinen",
+          "desc": "Pienemmät tiedostot tarkoittavat nopeampia latauksia ryhmäkeskusteluissasi."
+        }
       ],
       "steps": [
-        { "title": "Valitse video", "desc": "Valitse video, jonka haluat lähettää WhatsAppissa." },
-        { "title": "Valitse raja", "desc": "Aseta tavoitteeksi 15 Mt ollaksesi varma WhatsApp-mobiiliversiossa." },
-        { "title": "Lataa ja lähetä", "desc": "Jaa videosi ilman rajoitusvaroituksia." }
+        {
+          "title": "Valitse video",
+          "desc": "Valitse video, jonka haluat lähettää WhatsAppissa."
+        },
+        {
+          "title": "Valitse raja",
+          "desc": "Aseta tavoitteeksi 15 Mt ollaksesi varma WhatsApp-mobiiliversiossa."
+        },
+        {
+          "title": "Lataa ja lähetä",
+          "desc": "Jaa videosi ilman rajoitusvaroituksia."
+        }
       ],
       "faqs": [
-        { "q": "Mikä on WhatsAppin tiedostoraja?", "a": "Mobiiliraja on 16 Mt, kun taas WhatsApp Web tukee jopa 64 Mt." },
-        { "q": "Näyttääkö video sumealta?", "a": "Ei, optimoimme resoluution varmistaaksemme, että se näyttää hyvältä puhelimen näytöllä." }
+        {
+          "q": "Mikä on WhatsAppin tiedostoraja?",
+          "a": "Mobiiliraja on 16 Mt, kun taas WhatsApp Web tukee jopa 64 Mt."
+        },
+        {
+          "q": "Näyttääkö video sumealta?",
+          "a": "Ei, optimoimme resoluution varmistaaksemme, että se näyttää hyvältä puhelimen näytöllä."
+        }
       ]
     },
     "video-for-discord": {
@@ -952,18 +1068,42 @@
       "heroText": "Oletko kyllästynyt Discord Nitro -ilmoituksiin? Pakkaa meemisi ja clipsisi sopimaan alle 8 Mt tai 25 Mt ilmaisen rajan välittömästi.",
       "introText": "Discordin latausrajoitukset ovat jokaisen pelaajan painajainen. Tarvitsitpa 8 megatavun tiedoston ilmaisille käyttäjille tai 25 megatavun tiedoston Nitro Basicille, työkalumme varmistaa, että clipsisi pysyvät korkealaatuisina.",
       "features": [
-        { "title": "Nitro-ystävällinen", "desc": "Esiasetukset 8 Mt, 25 Mt ja 50 Mt Discord-rajoille." },
-        { "title": "Pelaajille valmis", "desc": "Täydellinen korkean FPS-pelinauhoituksille OBS:stä tai Shadowplaysta." },
-        { "title": "Automaattinen koon muutos", "desc": "Säätää mitat varmistaakseen, että tiedosto mahtuu pieneen Discord-rajaan." }
+        {
+          "title": "Nitro-ystävällinen",
+          "desc": "Esiasetukset 8 Mt, 25 Mt ja 50 Mt Discord-rajoille."
+        },
+        {
+          "title": "Pelaajille valmis",
+          "desc": "Täydellinen korkean FPS-pelinauhoituksille OBS:stä tai Shadowplaysta."
+        },
+        {
+          "title": "Automaattinen koon muutos",
+          "desc": "Säätää mitat varmistaakseen, että tiedosto mahtuu pieneen Discord-rajaan."
+        }
       ],
       "steps": [
-        { "title": "Lataa clipsi", "desc": "Vedä pelinauhoituksesi tai meemisi ruutuun." },
-        { "title": "Aseta 8 Mt tavoite", "desc": "Käytä liukusäädintä osuaksesi tarkalleen 8 Mt merkkiin." },
-        { "title": "Jaa Discordissa", "desc": "Postaa videosi mihin tahansa kanavaan ilman Nitroa." }
+        {
+          "title": "Lataa clipsi",
+          "desc": "Vedä pelinauhoituksesi tai meemisi ruutuun."
+        },
+        {
+          "title": "Aseta 8 Mt tavoite",
+          "desc": "Käytä liukusäädintä osuaksesi tarkalleen 8 Mt merkkiin."
+        },
+        {
+          "title": "Jaa Discordissa",
+          "desc": "Postaa videosi mihin tahansa kanavaan ilman Nitroa."
+        }
       ],
       "faqs": [
-        { "q": "Mikä on Discordin ilmainen raja?", "a": "Discord nosti äskettäin ilmaisen rajan 25 megatavuun useimmille käyttäjille, mutta 8 Mt on edelleen turvallisempi joillekin palvelimille." },
-        { "q": "Tukeeko se .webm-muotoa?", "a": "Kyllä, suosittelemme .webm-muotoa Discordiin, koska siinä on parempi pakkaus pienille kooille." }
+        {
+          "q": "Mikä on Discordin ilmainen raja?",
+          "a": "Discord nosti äskettäin ilmaisen rajan 25 megatavuun useimmille käyttäjille, mutta 8 Mt on edelleen turvallisempi joillekin palvelimille."
+        },
+        {
+          "q": "Tukeeko se .webm-muotoa?",
+          "a": "Kyllä, suosittelemme .webm-muotoa Discordiin, koska siinä on parempi pakkaus pienille kooille."
+        }
       ]
     },
     "video-for-email": {
@@ -973,18 +1113,132 @@
       "heroText": "Lähetä videoita sähköpostitse ilman Google Drivea tai Dropboxia. Pienennä tiedostosi sopimaan sähköpostin 25 megatavun liiterajaan.",
       "introText": "Useimmilla sähköpostipalveluilla, kuten Gmaililla ja Outlookilla, on 25 megatavun raja. Työkalumme optimoi ammattimaiset videosi tai perheclipsisi sopimaan täydellisesti sähköpostin runkoon.",
       "features": [
-        { "title": "Gmail-yhteensopiva", "desc": "Pysyy alle 25 Mt rajan saumattomia liitteitä varten." },
-        { "title": "Ammattimainen laatu", "desc": "Pitää yritysesityksesi ja opetusvideosi terävinä." },
-        { "title": "Monialustainen", "desc": "Toimii kaikilla selaimilla, mukaan lukien Outlook ja Yahoo Mail." }
+        {
+          "title": "Gmail-yhteensopiva",
+          "desc": "Pysyy alle 25 Mt rajan saumattomia liitteitä varten."
+        },
+        {
+          "title": "Ammattimainen laatu",
+          "desc": "Pitää yritysesityksesi ja opetusvideosi terävinä."
+        },
+        {
+          "title": "Monialustainen",
+          "desc": "Toimii kaikilla selaimilla, mukaan lukien Outlook ja Yahoo Mail."
+        }
       ],
       "steps": [
-        { "title": "Lisää liite", "desc": "Valitse suuri videotiedosto, jonka haluat lähettää sähköpostitse." },
-        { "title": "Aseta 24 Mt raja", "desc": "Tavoittele 24 megatavua varmistaaksesi, että se mahtuu 25 megatavun sähköpostirajaan." },
-        { "title": "Liitä ja lähetä", "desc": "Lataa tiedosto ja liitä se suoraan sähköpostiisi." }
+        {
+          "title": "Lisää liite",
+          "desc": "Valitse suuri videotiedosto, jonka haluat lähettää sähköpostitse."
+        },
+        {
+          "title": "Aseta 24 Mt raja",
+          "desc": "Tavoittele 24 megatavua varmistaaksesi, että se mahtuu 25 megatavun sähköpostirajaan."
+        },
+        {
+          "title": "Liitä ja lähetä",
+          "desc": "Lataa tiedosto ja liitä se suoraan sähköpostiisi."
+        }
       ],
       "faqs": [
-        { "q": "Mikä on Gmailin liitetiedostojen raja?", "a": "Gmail sallii enintään 25 Mt per sähköposti. Jos se on suurempi, se pakottaa Google Drive -linkin." },
-        { "q": "Kuinka paljon voin pienentää videota?", "a": "Usein voimme pienentää 200 Mt videon 24 megatavuun säilyttäen sen erittäin katselukelpoisena." }
+        {
+          "q": "Mikä on Gmailin liitetiedostojen raja?",
+          "a": "Gmail sallii enintään 25 Mt per sähköposti. Jos se on suurempi, se pakottaa Google Drive -linkin."
+        },
+        {
+          "q": "Kuinka paljon voin pienentää videota?",
+          "a": "Usein voimme pienentää 200 Mt videon 24 megatavuun säilyttäen sen erittäin katselukelpoisena."
+        }
+      ]
+    },
+    "youtube": {
+      "title": "Pakkaa video YouTube Onlineen - Nopea YouTube-optimointityökalu",
+      "description": "Pakkaa videoita YouTubeen verkossa ilmaiseksi. Pienennä videon kokoa säilyttäen samalla 1080p ja 4K HD -laatu. Lataa nopeammin ilman käsittelyviiveitä.",
+      "h1": "Nopea YouTube-videokompressori",
+      "heroText": "Lataa YouTubeen sekunneissa. Pakkaa 1080p- ja 4K-videosi säilyttäen samalla tarkan korkealaatuisen visuaalisen laadun.",
+      "introText": "YouTube käsittelee valtavia videolatauksia, mutta raskaat tiedostot voivat aiheuttaa käsittelyn keskeytyksiä ja loputtomia odotusaikoja. Älykäs optimoijamme pienentää tiedostokokoa menettämättä resoluutiota tai väritarkkuutta.",
+      "features": [
+        {
+          "title": "Ei laadun heikkenemistä",
+          "desc": "Edistynyt libx264-pakkaus säilyttää visuaalisen selkeyden."
+        },
+        {
+          "title": "Nopea käsittely",
+          "desc": "Paikallinen selainkäsittely tarkoittaa, että palvelimen odotusaikoja ei ole."
+        },
+        {
+          "title": "Yksityisyys ensin",
+          "desc": "Videosi ei koskaan poistu selaimeltasi. 100% varma."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Lataa video",
+          "desc": "Vedä ja pudota MP4-, MOV- tai WebM-videotiedosto."
+        },
+        {
+          "title": "Valitse resoluutio",
+          "desc": "Valitse 1080p tai 4K pysyäksesi optimoituna YouTubea varten."
+        },
+        {
+          "title": "Pakkaa ja lataa",
+          "desc": "Valmistele kevyt videosi välitöntä latausta varten."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Alentaako tämä YouTube-laatuani?",
+          "a": "Ei, työkalumme pakkaa tiedostot resoluutiota menettämättä, joten YouTube käsittelee ne HD/4K-laatuisena."
+        },
+        {
+          "q": "Onko turvallista käyttää?",
+          "a": "Kyllä, kaikki käsittely tapahtuu selaimesi sisällä, mikä takaa täydellisen yksityisyyden."
+        }
+      ]
+    },
+    "tiktok": {
+      "title": "Pakkaa video TikTok Onlinelle - Pienennä videoita TikTokille",
+      "description": "Pakkaa videoita TikTokille verkossa ilmaiseksi. Optimoi pystysuuntaiset 9:16-videot, jotta ne sopivat täydellisesti TikTokin ohjeisiin. Pidä videosi terävinä FYP:tä varten.",
+      "h1": "TikTok-videokompressori",
+      "heroText": "Saa videosi näkymään FYP:ssä. Pakkaa pystysuuntaiset leikkeet ladataksesi TikTokiin välittömästi ilman viivettä.",
+      "introText": "TikTok suosii nopeasti latautuvia, korkealaatuisia pystysuuntaisia ​​videoita. Kompressorimme kutistaa MP4- ja MOV-tiedostosi TikTok-mobiiliohjeiden mukaiseksi pitäen samalla siirtymät ja tekstin täydellisen terävinä.",
+      "features": [
+        {
+          "title": "9:16 Optimoitu",
+          "desc": "Täydellinen pystysuuntaisille klipeille, Instagram-keloille ja shortseille."
+        },
+        {
+          "title": "FYP-laatu",
+          "desc": "Pitää videon resoluution terävänä välttääkseen epäselvän TikTok-pakkauksen."
+        },
+        {
+          "title": "Nolla palvelinviive",
+          "desc": "Ei lataamista ulkoisiin tietokantoihin, käsittely valmistuu välittömästi."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Valitse Video",
+          "desc": "Valitse pystysuuntainen video puhelimesta tai tietokoneesta."
+        },
+        {
+          "title": "Aseta ohjeet",
+          "desc": "Optimoi bittinopeus nopeaa TikTokin latausta varten."
+        },
+        {
+          "title": "Tallenna ja jaa",
+          "desc": "Lataa pakattu video ja lähetä heti TikTokiin."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Pakkaako TikTok videoita?",
+          "a": "Kyllä, TikTok pakkaa tiedostot latauksen yhteydessä, mutta pakkaamalla ne ensin työkalullamme vältyt epäselviltä tuloksilta."
+        },
+        {
+          "q": "Mikä muoto on paras TikTokille?",
+          "a": "MP4 ja MOV pystysuorassa 9:16-kuvasuhteessa ovat ihanteellisia muotoja TikTokille."
+        }
       ]
     }
   }
