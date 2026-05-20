@@ -51,6 +51,12 @@ const REVIEWS = [
   { id: 1, name: "Emma Thompson", avatar: "https://randomuser.me/api/portraits/women/10.jpg" },
   { id: 2, name: "Julian Rossi", avatar: "https://randomuser.me/api/portraits/men/11.jpg" },
   { id: 3, name: "Sophia Chen", avatar: "https://randomuser.me/api/portraits/women/12.jpg" },
+  { id: 4, name: "Marcus Lee", avatar: "https://randomuser.me/api/portraits/men/14.jpg" },
+  { id: 5, name: "Rachel Kim", avatar: "https://randomuser.me/api/portraits/women/15.jpg" },
+  { id: 6, name: "Daniel Brooks", avatar: "https://randomuser.me/api/portraits/men/16.jpg" },
+  { id: 7, name: "Isabella Cruz", avatar: "https://randomuser.me/api/portraits/women/17.jpg" },
+  { id: 8, name: "Nathan Cole", avatar: "https://randomuser.me/api/portraits/men/18.jpg" },
+  { id: 9, name: "Olivia Vance", avatar: "https://randomuser.me/api/portraits/women/19.jpg" },
 ];
 
 const FAQS = [
@@ -249,6 +255,7 @@ export default function VideoToTextPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4 text-[var(--foreground)]">{t("to_text_page.reviews_title")}</h2>
+            <p className="text-[var(--muted-text)] text-base max-w-2xl mx-auto leading-relaxed">{t("to_text_page.reviews_desc")}</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {REVIEWS.map((review) => (
@@ -263,7 +270,7 @@ export default function VideoToTextPage() {
                   <Image src={review.avatar} alt={review.name} width={40} height={40} className="rounded-full ring-2 ring-white/10" />
                   <div>
                     <div className="font-bold text-[var(--foreground)] text-xs">{review.name}</div>
-                    <div className="text-[10px] text-[var(--muted-text)] font-bold uppercase tracking-wider">{review.id === 1 ? "Content Creator" : review.id === 2 ? "Journalist" : "Student"}</div>
+                    <div className="text-[10px] text-[var(--muted-text)] font-bold uppercase tracking-wider">{t(`to_text_page.r${review.id}_role`)}</div>
                   </div>
                 </div>
               </div>
