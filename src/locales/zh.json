@@ -680,9 +680,9 @@
     "cta_title": "立即提取高保真音频。"
   },
   "audio_cutter_page": {
-    "hero_badge": "精准 · 无需上传 · 100% 免费",
-    "hero_title": "在线音频裁剪",
-    "hero_subtitle": "以毫秒级精度裁剪音频文件。快速、私密且免费。",
+    "hero_badge": "精确音频提取 • 无需上传 • 100% 免费",
+    "hero_title": "视频到音频转换器",
+    "hero_subtitle": "使用我们快速安全的视频到音频转换器从任何视频中获取高质量音频。将播客、音乐、采访、讲座、录音、社交媒体帖子等的视频转换为音频，所有这些都可以通过您的浏览器进行。",
     "visualizer_title": "波形精度",
     "visualizer_desc": "隔离声音并轻松创建铃声。",
     "visualizer_label": "Trim Clip",
