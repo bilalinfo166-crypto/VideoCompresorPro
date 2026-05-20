@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Video to Text Converter - AI Video Transcription Free",
-  description: "VideoCompressorPro offers a user-friendly and easy-to-use video to text conversion solution, from a YouTube video to text, to an AI video to text conversion, or even a secure online video to text converter without software installation.",
+  title: "Video to Text Converter Online Free | AI Transcription",
+  description: "video to text converter online free with AI transcription. Generate captions, subtitles, and transcripts fast and securely.",
   keywords: [
     "video to text",
     "video to text converter",
@@ -17,15 +17,15 @@ export const metadata: Metadata = {
     canonical: "https://videocompressorpro.com/video-to-text",
   },
   openGraph: {
-    title: "Video to Text Converter - AI Video Transcription Free",
-    description: "VideoCompressorPro offers a user-friendly and easy-to-use video to text conversion solution, from a YouTube video to text, to an AI video to text conversion, or even a secure online video to text converter without software installation.",
+    title: "Video to Text Converter Online Free | AI Transcription",
+    description: "video to text converter online free with AI transcription. Generate captions, subtitles, and transcripts fast and securely.",
     url: "https://videocompressorpro.com/video-to-text",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Video to Text Converter - AI Video Transcription Free",
-    description: "VideoCompressorPro offers a user-friendly and easy-to-use video to text conversion solution, from a YouTube video to text, to an AI video to text conversion, or even a secure online video to text converter without software installation.",
+    title: "Video to Text Converter Online Free | AI Transcription",
+    description: "video to text converter online free with AI transcription. Generate captions, subtitles, and transcripts fast and securely.",
   }
 };
 
