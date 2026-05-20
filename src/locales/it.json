@@ -1337,6 +1337,321 @@
           "a": "MP4 e MOV in formato verticale 9:16 sono i formati ideali per TikTok."
         }
       ]
+    },
+    "avi": {
+      "title": "Comprimi AVI online: riduci le dimensioni del file AVI senza perdita di qualità",
+      "description": "Comprimi video AVI online gratuitamente. Riduci rapidamente le dimensioni del file AVI con la compressione audio-video ad alta efficienza. Nessuna perdita di qualità, strumento sicuro basato su browser.",
+      "h1": "Compressore video AVI veloce",
+      "heroText": "Riduci i file AVI pesanti in pochi secondi. Mantieni perfetti i tuoi video AVI di alta qualità risparmiando fino all'80% di spazio di archiviazione.",
+      "introText": "I file AVI sono noti per la loro alta qualità video, ma possono essere incredibilmente pesanti e occupare molto spazio di archiviazione. Il nostro compressore browser intelligente ottimizza i bitrate AVI e li trasmette in streaming senza sforzo.",
+      "features": [
+        {
+          "title": "Nessuna perdita di qualità",
+          "desc": "La codifica avanzata libx264 garantisce che il tuo AVI rimanga nitido."
+        },
+        {
+          "title": "Alta compressione",
+          "desc": "Riduce il sovraccarico del contenitore AVI fino all'80%."
+        },
+        {
+          "title": "La privacy prima di tutto",
+          "desc": "I tuoi file non lasciano mai il tuo browser. Elaborazione sicura al 100%."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Carica AVI",
+          "desc": "Trascina e rilascia il tuo file AVI nella casella del compressore."
+        },
+        {
+          "title": "Imposta dimensione target",
+          "desc": "Scegli la dimensione di output desiderata in MB."
+        },
+        {
+          "title": "Comprimi e salva",
+          "desc": "Scarica subito il tuo AVI ottimizzato."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Il mio AVI perderà qualità?",
+          "a": "No, il nostro strumento mantiene un'elevata chiarezza visiva regolando i bitrate dei contenitori senza perdite."
+        },
+        {
+          "q": "Esiste un limite alla dimensione del file?",
+          "a": "Puoi comprimere file AVI fino a 5 GB gratuitamente."
+        }
+      ]
+    },
+    "mkv": {
+      "title": "Comprimi MKV online: riduci i file MKV senza perdita di qualità",
+      "description": "Comprimi video MKV online gratuitamente. Riduci le dimensioni pesanti dei file MKV preservando l'audio multitraccia e i flussi di sottotitoli. Strumento browser sicuro e veloce.",
+      "h1": "Compressore video MKV professionale",
+      "heroText": "Ridimensiona facilmente filmati e registrazioni MKV di grandi dimensioni. Riduci le dimensioni del contenitore MKV in pochi secondi con conservazione visiva ad alta fedeltà.",
+      "introText": "MKV è un potente contenitore che spesso ospita film ad alta definizione con più tracce audio. Il nostro compressore riduce i file MKV pesanti senza eliminare le tracce o i sottotitoli essenziali.",
+      "features": [
+        {
+          "title": "Conservazione dell'HD",
+          "desc": "Mantiene la piena risoluzione e la chiarezza del video ad alta definizione."
+        },
+        {
+          "title": "Multitraccia pronto",
+          "desc": "Comprime il flusso video mantenendo intatta la mappatura audio/sottotitoli."
+        },
+        {
+          "title": "Elaborazione locale",
+          "desc": "Nessun caricamento sul server significa un'elaborazione immediata e sicura al 100%."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Importa MKV",
+          "desc": "Seleziona il tuo file MKV pesante dalla memoria locale."
+        },
+        {
+          "title": "Scegli Dimensioni output",
+          "desc": "Definisci la dimensione del file di destinazione in MB."
+        },
+        {
+          "title": "Esporta MKV",
+          "desc": "Salva istantaneamente il tuo video MKV compresso."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Supporta file MKV 4K?",
+          "a": "Sì, gestiamo file MKV raw e 4K catturati da fotocamere o streaming."
+        },
+        {
+          "q": "I miei file sono caricati?",
+          "a": "No, tutta la compressione avviene localmente all'interno del tuo browser."
+        }
+      ]
+    },
+    "webm": {
+      "title": "Comprimi WebM Online: ottimizza i video WebM per HTML5",
+      "description": "Comprimi video WebM online gratuitamente. Riduci le dimensioni del file WebM per un caricamento più rapido del sito Web e l'ottimizzazione del flusso Web HTML5. Veloce e sicuro.",
+      "h1": "Compressore video WebM HTML5",
+      "heroText": "Ottimizza i file WebM per prestazioni del sito Web ad alta velocità. Riduci le dimensioni del file per migliorare la velocità di caricamento del sito Web e l'esperienza utente.",
+      "introText": "WebM è il formato standard per i video Web HTML5 moderni e ad alta velocità. Il nostro ottimizzatore ottimizza i bitrate della codifica WebM per fornire file assolutamente leggeri e pronti per il web.",
+      "features": [
+        {
+          "title": "Ottimizzato per il Web",
+          "desc": "Progettato specificamente per gli sviluppatori web e tempi di caricamento rapidi del sito."
+        },
+        {
+          "title": "Supporto VP8/VP9",
+          "desc": "Supporta pienamente i moderni codec video VP8 e VP9."
+        },
+        {
+          "title": "Elaborazione sicura",
+          "desc": "L'esecuzione del browser locale mantiene le tue risorse web private al 100%."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Carica WebM",
+          "desc": "Trascina e rilascia le tue risorse WebM nello strumento."
+        },
+        {
+          "title": "Seleziona la dimensione target",
+          "desc": "Imposta la dimensione di output ideale per ridurre al minimo i tempi di caricamento della pagina."
+        },
+        {
+          "title": "Salva file ottimizzato",
+          "desc": "Scarica immediatamente il tuo WebM in streaming."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Posso comprimere WebM con trasparenza?",
+          "a": "Sì, il nostro compressore preserva la trasparenza del canale alfa nei file WebM."
+        },
+        {
+          "q": "Perché dovrei comprimere WebM per i siti Web?",
+          "a": "I file video più piccoli migliorano i punteggi PageSpeed ​​e la fidelizzazione degli utenti."
+        }
+      ]
+    },
+    "video-for-instagram": {
+      "title": "Comprimi video per Instagram online - Ottimizzatore di bobine e storie",
+      "description": "Comprimi video per Instagram online gratuitamente. Riduci reel, storie e post per adattarli perfettamente ai limiti di caricamento di Instagram senza sfocatura della qualità.",
+      "h1": "Compressore video Instagram",
+      "heroText": "Evita caricamenti sfocati su Instagram. Comprimi i tuoi reel, IGTV e storie per soddisfare le rigorose specifiche di Instagram con perfetta chiarezza.",
+      "introText": "Instagram comprime automaticamente i caricamenti di video non elaborati, spesso risultando in reel pixelati o sfocati. Precomprimendo con il nostro strumento, mantieni la qualità visiva HD sul feed.",
+      "features": [
+        {
+          "title": "Bobine ottimizzate",
+          "desc": "Perfetto per le specifiche di layout verticale 9:16 e i caricamenti di Reels."
+        },
+        {
+          "title": "Qualità dell'alimentazione HD",
+          "desc": "Forza l'algoritmo di Instagram a mantenere il tuo video nitido."
+        },
+        {
+          "title": "Ottimizzato per dispositivi mobili",
+          "desc": "Comprimi direttamente dal tuo browser iPhone o Android."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Carica video Instagram",
+          "desc": "Seleziona la tua bobina verticale o il file del post."
+        },
+        {
+          "title": "Applica la preimpostazione HD",
+          "desc": "Ottimizza i bitrate per adattarli alle specifiche standard di Instagram."
+        },
+        {
+          "title": "Scarica e pubblica",
+          "desc": "Esporta e carica su Instagram con una qualità straordinaria."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Qual è il formato migliore per Instagram?",
+          "a": "MP4 con codec H.264 e audio AAC è il formato ideale per i caricamenti su Instagram."
+        },
+        {
+          "q": "Perché Instagram rende il mio video sfocato?",
+          "a": "Se il tuo file è troppo pesante, Instagram lo comprime in modo aggressivo. La precompressione lo mantiene croccante."
+        }
+      ]
+    },
+    "video-for-slack": {
+      "title": "Comprimi video per Slack Online: condividi velocemente video di grandi dimensioni",
+      "description": "Comprimi video per Slack online. Riduci i file entro i limiti di caricamento gratuiti di Slack per una rapida condivisione in team. Riduttore di dimensioni video Slack di alta qualità.",
+      "h1": "Compressore video lento",
+      "heroText": "Condividi video nei canali Slack senza raggiungere i limiti di caricamento. Riduci i tuoi clip MP4 e MOV per una comunicazione rapida.",
+      "introText": "Slack prevede un limite rigoroso alle dimensioni dei file per gli spazi di lavoro gratuiti. Il nostro strumento ottimizza clip di lavoro, registrazioni di schermate e tutorial in modo che vengano caricati istantaneamente su qualsiasi canale.",
+      "features": [
+        {
+          "title": "Compatibile con il gioco lento",
+          "desc": "Riduci facilmente le clip entro il limite di caricamento gratuito di Slack."
+        },
+        {
+          "title": "Condivisione veloce",
+          "desc": "File più piccoli significano caricamenti e riproduzioni più veloci per i membri del team."
+        },
+        {
+          "title": "100% confidenziale",
+          "desc": "L'elaborazione sicura del browser garantisce che i file di lavoro rimangano privati."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Scegli Video Slack",
+          "desc": "Seleziona la clip di lavoro o il video dimostrativo."
+        },
+        {
+          "title": "Riduci dimensione file",
+          "desc": "Riducilo al di sotto del limite di file Slack."
+        },
+        {
+          "title": "Carica sul canale",
+          "desc": "Scarica e condividi direttamente nella tua chat di Slack."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Qual è il limite di file su Slack?",
+          "a": "Gli spazi di lavoro Slack gratuiti hanno un limite di file di 1 GB, ma i caricamenti sono molto più veloci se mantenuti piccoli."
+        },
+        {
+          "q": "Posso comprimere le registrazioni dello schermo?",
+          "a": "Sì, supportiamo la compressione delle acquisizioni di schermate MP4, WebM e MOV."
+        }
+      ]
+    },
+    "video-for-teams": {
+      "title": "Comprimi video per MS Teams: condividi video di grandi dimensioni in Teams",
+      "description": "Comprimi video per Microsoft Teams online. Riduci le registrazioni e le presentazioni di riunioni pesanti per aggirare i limiti di condivisione file di Teams. Gratuito e veloce.",
+      "h1": "Compressore video di Microsoft Teams",
+      "heroText": "Condividi presentazioni e registrazioni pesanti in Microsoft Teams. Comprimi i video per adattarli perfettamente ai limiti della chat e del canale di Teams.",
+      "introText": "Microsoft Teams è vitale per la collaborazione aziendale, ma la condivisione di video grezzi pesanti può essere lenta. Il nostro strumento riduce le dimensioni del video in modo da poter collaborare istantaneamente e senza problemi.",
+      "features": [
+        {
+          "title": "Squadre ottimizzate",
+          "desc": "Presentazioni ridotte per adattarsi alla posta elettronica aziendale o alla chat di Teams."
+        },
+        {
+          "title": "Alta definizione",
+          "desc": "Mantiene le diapositive e il testo della presentazione perfettamente leggibili."
+        },
+        {
+          "title": "Sicurezza aziendale",
+          "desc": "La compressione del browser locale significa nessuna perdita di dati aziendali."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Selezionare Registrazione squadre",
+          "desc": "Importa l'acquisizione o la demo della riunione."
+        },
+        {
+          "title": "Scegli Dimensioni output",
+          "desc": "Imposta un obiettivo leggero per una facile condivisione."
+        },
+        {
+          "title": "Scarica e condividi",
+          "desc": "Ottieni il tuo file ottimizzato e invialo su Teams."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Il testo della mia presentazione rimarrà leggibile?",
+          "a": "Sì, diamo priorità alla chiarezza del testo in modo che le diapositive rimangano nitide."
+        },
+        {
+          "q": "È sicuro per i file aziendali?",
+          "a": "Sì, nessun file viene caricato su nessun server. Tutta l'elaborazione è locale."
+        }
+      ]
+    },
+    "video-for-facebook": {
+      "title": "Comprimi video per Facebook - Riduci video per il caricamento su FB",
+      "description": "Comprimi video per Facebook online gratuitamente. Riduci le dimensioni dei file di post FB, annunci e video di copertina senza perdita di qualità. Strumento browser veloce.",
+      "h1": "Compressore video di Facebook",
+      "heroText": "Ottimizza i tuoi video per i feed e gli annunci di Facebook. Riduci i file MP4 per caricarli più velocemente e mantenere la qualità del feed ad alta definizione.",
+      "introText": "I video a caricamento lento su Facebook danneggiano il coinvolgimento e le conversioni degli annunci. La precompressione dei tuoi video di Facebook migliora i tempi di caricamento e garantisce un'elevata fidelizzazione degli spettatori.",
+      "features": [
+        {
+          "title": "Annuncio ottimizzato",
+          "desc": "Riduce le dimensioni dei file degli annunci per una consegna più rapida e frequenze di rimbalzo inferiori."
+        },
+        {
+          "title": "Copertina pronta",
+          "desc": "Specifiche perfette per i video di copertina della pagina Facebook."
+        },
+        {
+          "title": "Elaborazione istantanea",
+          "desc": "Codifica diretta del browser, nessun ritardo nel caricamento del server."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Carica video su Facebook",
+          "desc": "Trascina e rilascia il tuo post o video pubblicitario."
+        },
+        {
+          "title": "Applica le linee guida di FB",
+          "desc": "Ottimizza i bitrate per i feed social standard."
+        },
+        {
+          "title": "Esporta e carica",
+          "desc": "Scarica il tuo file leggero e pubblicalo su Facebook."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Qual è il limite di dimensione del file Facebook?",
+          "a": "Facebook supporta fino a 10 GB, ma i video piccoli hanno prestazioni molto migliori."
+        },
+        {
+          "q": "Supporta gli annunci di Facebook?",
+          "a": "Sì, il nostro strumento è altamente raccomandato per ottimizzare le risorse delle campagne pubblicitarie di Facebook."
+        }
+      ]
     }
   }
 }

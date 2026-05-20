@@ -1337,6 +1337,321 @@
           "a": "MP4 och MOV i vertikalt 9:16 bildförhållande är de idealiska formaten för TikTok."
         }
       ]
+    },
+    "avi": {
+      "title": "Komprimera AVI Online - Minska AVI-filstorleken utan kvalitetsförlust",
+      "description": "Komprimera AVI-videor online gratis. Minska AVI-filstorleken snabbt med högeffektiv ljud- och videokomprimering. Ingen kvalitetsförlust, säkert webbläsarbaserat verktyg.",
+      "h1": "Snabb AVI-videokompressor",
+      "heroText": "Krymp tunga AVI-filer på några sekunder. Se till att dina AVI-videor av hög kvalitet ser perfekta ut samtidigt som du sparar upp till 80 % lagringsutrymme.",
+      "introText": "AVI-filer är kända för sin höga videokvalitet, men de kan vara otroligt tunga och ta upp enorm lagring. Vår smarta webbläsarkompressor optimerar AVI-bithastigheter och streamar dem utan ansträngning.",
+      "features": [
+        {
+          "title": "Ingen kvalitetsförlust",
+          "desc": "Avancerad libx264-kodning säkerställer att din AVI förblir skarp."
+        },
+        {
+          "title": "Hög kompression",
+          "desc": "Minskar AVI-containerns overhead med upp till 80 %."
+        },
+        {
+          "title": "Sekretess först",
+          "desc": "Dina filer lämnar aldrig din webbläsare. 100 % säker bearbetning."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Ladda upp AVI",
+          "desc": "Dra och släpp din AVI-fil i kompressorrutan."
+        },
+        {
+          "title": "Ställ in målstorlek",
+          "desc": "Välj önskad utdatastorlek i MB."
+        },
+        {
+          "title": "Komprimera och spara",
+          "desc": "Ladda ner din optimerade AVI direkt."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Kommer min AVI att tappa kvalitet?",
+          "a": "Nej, vårt verktyg bibehåller hög visuell klarhet genom att justera behållarens bithastigheter utan förlust."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Du kan komprimera AVI-filer upp till 5 GB gratis."
+        }
+      ]
+    },
+    "mkv": {
+      "title": "Komprimera MKV Online - Krympa MKV-filer utan kvalitetsförlust",
+      "description": "Komprimera MKV-videor online gratis. Minska tunga MKV-filstorlekar samtidigt som du bevarar ljud- och undertextströmmar med flera spår. Säkert och snabbt webbläsarverktyg.",
+      "h1": "Pro MKV videokompressor",
+      "heroText": "Förminska enkelt stora MKV-filmer och inspelningar. Krymp MKV-behållarens storlek på några sekunder med högfientlig visuell bevarande.",
+      "introText": "MKV är en kraftfull behållare som ofta innehåller högupplösta filmer med flera ljudspår. Vår kompressor krymper tunga MKV-filer utan att ta bort dina viktiga spår eller undertexter.",
+      "features": [
+        {
+          "title": "HD-bevarande",
+          "desc": "Behåller full upplösning och högupplöst videoskärpa."
+        },
+        {
+          "title": "Multi-Track Ready",
+          "desc": "Komprimerar videoströmmen samtidigt som ljud/undertextmappningen behålls intakt."
+        },
+        {
+          "title": "Lokal bearbetning",
+          "desc": "Noll serveruppladdningar betyder 100 % säker och omedelbar bearbetning."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Importera MKV",
+          "desc": "Välj din tunga MKV-fil från din lokala lagring."
+        },
+        {
+          "title": "Välj Utdatastorlek",
+          "desc": "Definiera din målfilstorlek i MB."
+        },
+        {
+          "title": "Exportera MKV",
+          "desc": "Spara din komprimerade MKV-video direkt."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Stöder den 4K MKV-filer?",
+          "a": "Ja, vi hanterar rå- och 4K MKV-filer som tagits från kameror eller streaming."
+        },
+        {
+          "q": "Är mina filer uppladdade?",
+          "a": "Nej, all komprimering sker lokalt i din webbläsare."
+        }
+      ]
+    },
+    "webm": {
+      "title": "Komprimera WebM Online - Optimera WebM-videor för HTML5",
+      "description": "Komprimera WebM-videor online gratis. Minska WebM-filstorleken för snabbare webbladdning och HTML5-webbströmsoptimering. Snabbt och säkert.",
+      "h1": "HTML5 WebM Video Compressor",
+      "heroText": "Optimera WebM-filer för höghastighetswebbplatsprestanda. Minska filstorleken för att förbättra webbplatsens laddningshastigheter och användarupplevelsen.",
+      "introText": "WebM är standardformatet för modern, höghastighets HTML5-webbvideo. Vår optimerare finjusterar WebM-kodningsbithastigheterna för att tillhandahålla de absolut lättaste webbförberedda filerna.",
+      "features": [
+        {
+          "title": "Webboptimerad",
+          "desc": "Designad speciellt för webbutvecklare och snabba laddningstider."
+        },
+        {
+          "title": "Stöd för VP8/VP9",
+          "desc": "Stöder fullt ut moderna VP8 och VP9 video codecs."
+        },
+        {
+          "title": "Säker bearbetning",
+          "desc": "Exekvering av lokal webbläsare håller dina webbtillgångar 100 % privata."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Ladda upp WebM",
+          "desc": "Dra och släpp dina WebM-tillgångar i verktyget."
+        },
+        {
+          "title": "Välj målstorlek",
+          "desc": "Ställ in den idealiska utskriftsstorleken för att minimera sidladdningstiderna."
+        },
+        {
+          "title": "Spara optimerad fil",
+          "desc": "Ladda ner din streambara WebM direkt."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Kan jag komprimera WebM med transparens?",
+          "a": "Ja, vår kompressor bevarar alfakanaltransparens i WebM-filer."
+        },
+        {
+          "q": "Varför ska jag komprimera WebM för webbplatser?",
+          "a": "Mindre videofiler förbättrar PageSpeed-resultaten och behåller användarna."
+        }
+      ]
+    },
+    "video-for-instagram": {
+      "title": "Komprimera video för Instagram Online - Reels & Stories Optimizer",
+      "description": "Komprimera videor för Instagram online gratis. Krymp rullar, berättelser och inlägg för att passa Instagrams uppladdningsgränser perfekt utan kvalitetsoskärpa.",
+      "h1": "Instagram videokompressor",
+      "heroText": "Undvik suddiga uppladdningar på Instagram. Komprimera dina rullar, IGTV och berättelser för att träffa Instagrams strikta specifikationer med perfekt tydlighet.",
+      "introText": "Instagram komprimerar automatiskt råvideouppladdningar, vilket ofta resulterar i pixlade eller suddiga hjul. Genom att förkomprimera med vårt verktyg bibehåller du HD visuell kvalitet på flödet.",
+      "features": [
+        {
+          "title": "Rullar optimerade",
+          "desc": "Perfekt för vertikala 9:16 layoutspecifikationer och uppladdningar av hjul."
+        },
+        {
+          "title": "HD-matningskvalitet",
+          "desc": "Tvingar Instagrams algoritm att hålla din video skarp."
+        },
+        {
+          "title": "Mobilvänlig",
+          "desc": "Komprimera direkt från din iPhone eller Android webbläsare."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Ladda upp Instagram-video",
+          "desc": "Välj din vertikala rulle eller postfil."
+        },
+        {
+          "title": "Använd HD Preset",
+          "desc": "Optimera bithastigheter för att matcha Instagrams standardspecifikation."
+        },
+        {
+          "title": "Ladda ner och publicera",
+          "desc": "Exportera och ladda upp till Instagram med fantastisk kvalitet."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Vilket är det bästa formatet för Instagram?",
+          "a": "MP4 med H.264-codec och AAC-ljud är det idealiska formatet för Instagram-uppladdningar."
+        },
+        {
+          "q": "Varför gör Instagram min video suddig?",
+          "a": "Om din fil är för tung komprimerar Instagram den aggressivt. Att förkomprimera den håller den skarp."
+        }
+      ]
+    },
+    "video-for-slack": {
+      "title": "Komprimera video för Slack Online - Dela stora videor snabbt",
+      "description": "Komprimera videor för Slack online. Krympa filer under Slacks gratis uppladdningsgränser för snabb teamdelning. Högkvalitativ Slack-videostorleksreducering.",
+      "h1": "Slack videokompressor",
+      "heroText": "Dela videor i Slack-kanaler utan att nå uppladdningsgränserna. Krymp dina MP4- och MOV-klipp för snabb kommunikation.",
+      "introText": "Slack har en strikt filstorleksgräns för lediga arbetsytor. Vårt verktyg optimerar arbetsklipp, skärminspelningar och handledningar så att de laddas upp direkt till vilken kanal som helst.",
+      "features": [
+        {
+          "title": "Slack-kompatibel",
+          "desc": "Förminska enkelt klipp under den kostnadsfria uppladdningsgränsen för Slack."
+        },
+        {
+          "title": "Snabb delning",
+          "desc": "Mindre filer innebär snabbare uppladdningar och snabbare uppspelningar för teammedlemmar."
+        },
+        {
+          "title": "100 % konfidentiellt",
+          "desc": "Säker webbläsarbearbetning säkerställer att arbetsfiler förblir privata."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Välj Slack Video",
+          "desc": "Välj arbetsklippet eller demovideon."
+        },
+        {
+          "title": "Minska filstorleken",
+          "desc": "Krymp den under Slack-filgränsen."
+        },
+        {
+          "title": "Ladda upp till kanal",
+          "desc": "Ladda ner och dela direkt i din Slack-chatt."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Vad är filgränsen på Slack?",
+          "a": "Slappfria arbetsytor har en filgräns på 1 GB, men uppladdningar är mycket snabbare när de hålls små."
+        },
+        {
+          "q": "Kan jag komprimera skärminspelningar?",
+          "a": "Ja, vi stöder komprimering av MP4-, WebM- och MOV-skärmdumpar."
+        }
+      ]
+    },
+    "video-for-teams": {
+      "title": "Komprimera video för MS Teams - Dela stora videor i team",
+      "description": "Komprimera videor för Microsoft Teams online. Krymp tunga mötesinspelningar och presentationer för att kringgå Teams fildelningsgränser. Gratis och snabbt.",
+      "h1": "Microsoft Teams videokompressor",
+      "heroText": "Dela tunga presentationer och inspelningar i Microsoft Teams. Komprimera videor så att de passar Teams chatt- och kanalgränser perfekt.",
+      "introText": "Microsoft Teams är avgörande för företagssamarbete, men att dela tunga råvideor kan vara långsamt. Vårt verktyg krymper videostorleken så att du kan samarbeta omedelbart och smidigt.",
+      "features": [
+        {
+          "title": "Lag optimerade",
+          "desc": "Nedskala presentationer för att passa företagets e-post eller Teams-chatt."
+        },
+        {
+          "title": "High Definition",
+          "desc": "Håller presentationsbilder och text perfekt läsbar."
+        },
+        {
+          "title": "Enterprise Security",
+          "desc": "Komprimering av lokal webbläsare innebär inga företagsdataläckor."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Välj Laginspelning",
+          "desc": "Importera din mötesinspelning eller demo."
+        },
+        {
+          "title": "Välj Utdatastorlek",
+          "desc": "Sätt ett lätt mål för enkel delning."
+        },
+        {
+          "title": "Ladda ner och dela",
+          "desc": "Skaffa din optimerade fil och skicka den till Teams."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Kommer min presentationstext att förbli läsbar?",
+          "a": "Ja, vi prioriterar textens tydlighet så att bilderna förblir skarpa."
+        },
+        {
+          "q": "Är det säkert för företagsfiler?",
+          "a": "Ja, inga filer laddas upp till någon server. All bearbetning är lokal."
+        }
+      ]
+    },
+    "video-for-facebook": {
+      "title": "Komprimera video för Facebook - Krymp videor för FB Ladda upp",
+      "description": "Komprimera videor för Facebook online gratis. Minska filstorleken på FB-inlägg, annonser och omslagsvideor utan kvalitetsförlust. Snabbt webbläsarverktyg.",
+      "h1": "Facebooks videokompressor",
+      "heroText": "Optimera dina videor för Facebook-flöden och annonser. Krymp MP4-filer för att laddas snabbare och behålla högupplöst matningskvalitet.",
+      "introText": "Långsamt laddade videor på Facebook skadar engagemang och annonskonverteringar. Att förkomprimera dina Facebook-videor förbättrar laddningstiderna och garanterar hög tittarebehållning.",
+      "features": [
+        {
+          "title": "Annonsoptimerad",
+          "desc": "Minskar storleken på annonsfilen för snabbare leverans och lägre avvisningsfrekvens."
+        },
+        {
+          "title": "Omslag klar",
+          "desc": "Perfekta specifikationer för omslagsvideor på Facebook-sidan."
+        },
+        {
+          "title": "Direkt bearbetning",
+          "desc": "Direkt webbläsarkodning, inga serveruppladdningsförseningar."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Ladda upp Facebook-video",
+          "desc": "Dra och släpp ditt inlägg eller annonsvideo."
+        },
+        {
+          "title": "Tillämpa FB-riktlinjer",
+          "desc": "Optimera bithastigheter för vanliga sociala flöden."
+        },
+        {
+          "title": "Exportera och ladda upp",
+          "desc": "Ladda ner din lätta fil och lägg upp på Facebook."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Vad är Facebooks filstorleksgräns?",
+          "a": "Facebook stöder upp till 10 GB, men små videor presterar mycket bättre."
+        },
+        {
+          "q": "Stöder det Facebook-annonser?",
+          "a": "Ja, vårt verktyg rekommenderas starkt för att optimera Facebook-annonskampanjtillgångar."
+        }
+      ]
     }
   }
 }

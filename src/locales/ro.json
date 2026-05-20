@@ -1337,6 +1337,321 @@
           "a": "MP4 și MOV în raport de aspect vertical 9:16 sunt formatele ideale pentru TikTok."
         }
       ]
+    },
+    "avi": {
+      "title": "Comprimați AVI Online - Reduceți dimensiunea fișierului AVI fără pierderea calității",
+      "description": "Comprimați videoclipuri AVI online gratuit. Reduceți rapid dimensiunea fișierului AVI cu compresie audio-video de înaltă eficiență. Fără pierderi de calitate, instrument securizat bazat pe browser.",
+      "h1": "Compresor video AVI rapid",
+      "heroText": "Reduceți fișierele AVI grele în câteva secunde. Păstrați videoclipurile dvs. AVI de înaltă calitate arătând perfect în timp ce economisiți până la 80% spațiu de stocare.",
+      "introText": "Fișierele AVI sunt cunoscute pentru calitatea lor video înaltă, dar pot fi incredibil de grele și pot ocupa spațiu de stocare masiv. Compresorul nostru inteligent de browser optimizează ratele de biți AVI și le transmite fără efort.",
+      "features": [
+        {
+          "title": "Fără pierderi de calitate",
+          "desc": "Codarea avansată libx264 vă asigură că AVI rămâne clar."
+        },
+        {
+          "title": "Compresie ridicată",
+          "desc": "Reduce supraîncărcarea containerului AVI cu până la 80%."
+        },
+        {
+          "title": "În primul rând, confidențialitatea",
+          "desc": "Fișierele tale nu părăsesc browserul. Procesare 100% sigură."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Încărcați AVI",
+          "desc": "Trageți și plasați fișierul AVI în caseta compresorului."
+        },
+        {
+          "title": "Setați dimensiunea țintă",
+          "desc": "Alegeți dimensiunea dorită de ieșire în MB."
+        },
+        {
+          "title": "Comprimați și salvați",
+          "desc": "Descărcați instantaneu AVI optimizat."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "AVI-ul meu își va pierde calitatea?",
+          "a": "Nu, instrumentul nostru menține o claritate vizuală ridicată prin ajustarea ratei de biți a containerului fără pierderi."
+        },
+        {
+          "q": "Există o limită de dimensiune a fișierului?",
+          "a": "Puteți comprima gratuit fișiere AVI de până la 5 GB."
+        }
+      ]
+    },
+    "mkv": {
+      "title": "Comprimați MKV online - Reduceți fișierele MKV fără pierderea calității",
+      "description": "Comprimați videoclipuri MKV online gratuit. Reduceți dimensiunile mari ale fișierelor MKV, păstrând în același timp fluxurile audio și subtitrarea cu mai multe piste. Instrument de browser sigur și rapid.",
+      "h1": "Compresor video Pro MKV",
+      "heroText": "Reduceți cu ușurință filmele și înregistrările MKV mari. Reduceți dimensiunea containerului MKV în câteva secunde, cu o conservare vizuală de înaltă fidelitate.",
+      "introText": "MKV este un container puternic care găzduiește adesea filme de înaltă definiție cu mai multe piese audio. Compresorul nostru micșorează fișierele MKV grele fără a vă elimina piesele sau subtitrările esențiale.",
+      "features": [
+        {
+          "title": "Conservare HD",
+          "desc": "Păstrează rezoluția completă și claritatea video de înaltă definiție."
+        },
+        {
+          "title": "Pregătit pentru mai multe piese",
+          "desc": "Comprimă fluxul video păstrând intactă maparea audio/subtitrare."
+        },
+        {
+          "title": "Procesare locală",
+          "desc": "Zero încărcări de server înseamnă procesare 100% sigură și imediată."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Import MKV",
+          "desc": "Selectați fișierul MKV greu din spațiul de stocare local."
+        },
+        {
+          "title": "Alegeți dimensiunea de ieșire",
+          "desc": "Definiți dimensiunea fișierului țintă în MB."
+        },
+        {
+          "title": "Export MKV",
+          "desc": "Salvați instantaneu videoclipul MKV comprimat."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Suportă fișiere 4K MKV?",
+          "a": "Da, gestionăm fișiere raw și 4K MKV capturate de pe camere sau în flux."
+        },
+        {
+          "q": "Fișierele mele sunt încărcate?",
+          "a": "Nu, toată compresia are loc local în interiorul browserului."
+        }
+      ]
+    },
+    "webm": {
+      "title": "Comprimați WebM Online - Optimizați videoclipurile WebM pentru HTML5",
+      "description": "Comprimați videoclipuri WebM online gratuit. Reduceți dimensiunea fișierului WebM pentru o încărcare mai rapidă a site-ului și optimizarea fluxului web HTML5. Rapid și sigur.",
+      "h1": "HTML5 WebM Video Compresor",
+      "heroText": "Optimizați fișierele WebM pentru performanța site-ului de mare viteză. Reduceți dimensiunea fișierului pentru a îmbunătăți viteza de încărcare a site-ului web și experiența utilizatorului.",
+      "introText": "WebM este formatul standard pentru videoclipuri web HTML5 moderne, de mare viteză. Optimizatorul nostru ajustează ratele de biți de codificare WebM pentru a oferi cele mai ușoare fișiere gata pentru web.",
+      "features": [
+        {
+          "title": "Web optimizat",
+          "desc": "Proiectat special pentru dezvoltatorii web și timpi de încărcare rapidi ai site-ului."
+        },
+        {
+          "title": "Suport VP8/VP9",
+          "desc": "Suportă pe deplin codecuri video moderne VP8 și VP9."
+        },
+        {
+          "title": "Procesare sigură",
+          "desc": "Execuția locală a browserului vă păstrează activele web 100% private."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Încărcați WebM",
+          "desc": "Trageți și plasați materialele dvs. WebM în instrument."
+        },
+        {
+          "title": "Selectați dimensiunea țintă",
+          "desc": "Setați dimensiunea ideală de ieșire pentru a minimiza timpii de încărcare a paginii."
+        },
+        {
+          "title": "Salvați fișierul optimizat",
+          "desc": "Descărcați instantaneu WebM-ul dvs. care poate fi transmis în flux."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Pot comprima WebM cu transparență?",
+          "a": "Da, compresorul nostru păstrează transparența canalului alfa în fișierele WebM."
+        },
+        {
+          "q": "De ce ar trebui să comprim WebM pentru site-uri web?",
+          "a": "Fișierele video mai mici îmbunătățesc scorurile PageSpeed ​​și păstrarea utilizatorilor."
+        }
+      ]
+    },
+    "video-for-instagram": {
+      "title": "Comprimați videoclipul pentru Instagram online - Optimizator Reels & Stories",
+      "description": "Comprimați videoclipuri pentru Instagram online gratuit. Reduceți rulourile, poveștile și postările pentru a se potrivi perfect cu limitele de încărcare ale Instagram, fără neclaritate de calitate.",
+      "h1": "Compresor video Instagram",
+      "heroText": "Evitați încărcările neclare pe Instagram. Comprimați-vă Reels, IGTV și Stories pentru a atinge specificațiile stricte ale Instagram cu o claritate perfectă.",
+      "introText": "Instagram comprimă automat încărcările video brute, rezultând adesea în Reele pixelate sau neclare. Prin precomprimarea cu instrumentul nostru, mențineți calitatea vizuală HD pe flux.",
+      "features": [
+        {
+          "title": "Mulinete optimizate",
+          "desc": "Perfect pentru specificații de aspect vertical 9:16 și încărcări de role."
+        },
+        {
+          "title": "Calitatea feedului HD",
+          "desc": "Forțează algoritmul Instagram să-ți păstreze videoclipul clar."
+        },
+        {
+          "title": "Mobile Friendly",
+          "desc": "Comprimați direct din browserul iPhone sau Android."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Încărcați videoclipul Instagram",
+          "desc": "Selectați fișierul vertical Reel sau post."
+        },
+        {
+          "title": "Aplicați HD Preset",
+          "desc": "Optimizați ratele de biți pentru a se potrivi cu specificațiile standard Instagram."
+        },
+        {
+          "title": "Descărcați și postați",
+          "desc": "Exportați și încărcați pe Instagram cu o calitate uimitoare."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Care este cel mai bun format pentru Instagram?",
+          "a": "MP4 cu codec H.264 și audio AAC este formatul ideal pentru încărcările pe Instagram."
+        },
+        {
+          "q": "De ce Instagram îmi face videoclipul neclar?",
+          "a": "Dacă fișierul tău este prea greu, Instagram îl comprimă agresiv. Precomprimarea acestuia o menține crocantă."
+        }
+      ]
+    },
+    "video-for-slack": {
+      "title": "Comprimați videoclipuri pentru Slack online - Partajați rapid videoclipuri mari",
+      "description": "Comprimați videoclipuri pentru Slack online. Reduceți fișierele în limitele de încărcare gratuită Slack pentru partajarea rapidă în echipă. Reductor de dimensiune video Slack de înaltă calitate.",
+      "h1": "Slack Video Compressor",
+      "heroText": "Partajați videoclipuri pe canalele Slack fără a atinge limitele de încărcare. Reduceți clipurile MP4 și MOV pentru o comunicare rapidă.",
+      "introText": "Slack are o limită strictă de dimensiune a fișierelor pentru spațiile de lucru gratuite. Instrumentul nostru optimizează clipurile de lucru, înregistrările de ecran și tutorialele, astfel încât acestea să se încarce instantaneu pe orice canal.",
+      "features": [
+        {
+          "title": "Compatibil Slack",
+          "desc": "Reduceți cu ușurință clipurile sub limita de încărcare gratuită Slack."
+        },
+        {
+          "title": "Partajare rapidă",
+          "desc": "Fișierele mai mici înseamnă încărcări mai rapide și redări mai rapide pentru membrii echipei."
+        },
+        {
+          "title": "100% confidențial",
+          "desc": "Procesarea securizată prin browser asigură ca fișierele de lucru să rămână private."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Alegeți Slack Video",
+          "desc": "Selectați clipul de lucru sau videoclipul demonstrativ."
+        },
+        {
+          "title": "Reduceți dimensiunea fișierului",
+          "desc": "Reduceți-l sub limita de fișiere Slack."
+        },
+        {
+          "title": "Încărcați pe canal",
+          "desc": "Descărcați și distribuiți direct în chatul dvs. Slack."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Care este limita de fișiere pe Slack?",
+          "a": "Spațiile de lucru fără Slack au o limită de fișiere de 1 GB, dar încărcările sunt mult mai rapide atunci când sunt păstrate mici."
+        },
+        {
+          "q": "Pot comprima înregistrările de pe ecran?",
+          "a": "Da, acceptăm comprimarea capturilor de ecran MP4, WebM și MOV."
+        }
+      ]
+    },
+    "video-for-teams": {
+      "title": "Comprimați videoclipuri pentru echipe MS - Partajați videoclipuri mari în echipe",
+      "description": "Comprimați videoclipuri online pentru Microsoft Teams. Reduceți înregistrările și prezentările intense ale întâlnirilor pentru a ocoli limitele de partajare a fișierelor Teams. Gratuit și rapid.",
+      "h1": "Microsoft Teams Video Compresor",
+      "heroText": "Partajați prezentări și înregistrări grele în Microsoft Teams. Comprimați videoclipurile pentru a se potrivi perfect cu limitele chatului și canalului Teams.",
+      "introText": "Microsoft Teams este vital pentru colaborarea corporativă, dar partajarea videoclipurilor grele brute poate fi lentă. Instrumentul nostru micșorează dimensiunea videoclipului, astfel încât să puteți colabora instantaneu și fără probleme.",
+      "features": [
+        {
+          "title": "Echipe optimizate",
+          "desc": "Reduceți prezentările pentru a se potrivi e-mailului corporativ sau chat-ului Teams."
+        },
+        {
+          "title": "Înaltă definiție",
+          "desc": "Păstrează diapozitivele de prezentare și textul perfect lizibile."
+        },
+        {
+          "title": "Securitatea întreprinderii",
+          "desc": "Comprimarea browserului local înseamnă că nu există scurgeri de date corporative."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Selectați Înregistrare echipe",
+          "desc": "Importați captura sau demonstrația întâlnirii."
+        },
+        {
+          "title": "Alegeți dimensiunea de ieșire",
+          "desc": "Stabiliți o țintă ușoară pentru partajare ușoară."
+        },
+        {
+          "title": "Descărcați și distribuiți",
+          "desc": "Obțineți fișierul optimizat și trimiteți-l pe Teams."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Textul meu de prezentare va rămâne lizibil?",
+          "a": "Da, acordăm prioritate clarității textului, astfel încât diapozitivele să rămână clare."
+        },
+        {
+          "q": "Este sigur pentru fișierele companiei?",
+          "a": "Da, niciun fișier nu este încărcat pe niciun server. Toată prelucrarea este locală."
+        }
+      ]
+    },
+    "video-for-facebook": {
+      "title": "Comprimați videoclipuri pentru Facebook - Reduceți videoclipurile pentru încărcare pe FB",
+      "description": "Comprimați videoclipuri pentru Facebook online gratuit. Reduceți dimensiunea fișierului postărilor FB, reclamelor și videoclipurilor de copertă fără pierderi de calitate. Instrument de browser rapid.",
+      "h1": "Facebook Video Compresor",
+      "heroText": "Optimizați-vă videoclipurile pentru feeduri și anunțuri Facebook. Reduceți fișierele MP4 pentru a se încărca mai rapid și pentru a păstra calitatea feedului de înaltă definiție.",
+      "introText": "Încărcarea lentă a videoclipurilor de pe Facebook a afectat implicarea și conversiile reclamelor. Precomprimarea videoclipurilor tale de pe Facebook îmbunătățește timpii de încărcare și garantează o reținere ridicată a spectatorilor.",
+      "features": [
+        {
+          "title": "Anunț optimizat",
+          "desc": "Reduce dimensiunile fișierelor publicitare pentru livrare mai rapidă și rate de respingere mai mici."
+        },
+        {
+          "title": "Coperta gata",
+          "desc": "Specificații perfecte pentru videoclipurile de copertă a paginii de Facebook."
+        },
+        {
+          "title": "Procesare instantanee",
+          "desc": "Codare directă în browser, fără întârzieri de încărcare pe server."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Încarcă videoclipul Facebook",
+          "desc": "Trageți și plasați postarea sau videoclipul publicitar."
+        },
+        {
+          "title": "Aplicați liniile directoare FB",
+          "desc": "Optimizați ratele de biți pentru fluxurile sociale standard."
+        },
+        {
+          "title": "Exportați și încărcați",
+          "desc": "Descărcați fișierul ușor și postați pe Facebook."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Care este limita de dimensiune a fișierului Facebook?",
+          "a": "Facebook acceptă până la 10 GB, dar videoclipurile mici funcționează mult mai bine."
+        },
+        {
+          "q": "Acceptă reclamele Facebook?",
+          "a": "Da, instrumentul nostru este foarte recomandat pentru a optimiza activele campaniei Facebook Ad."
+        }
+      ]
     }
   }
 }

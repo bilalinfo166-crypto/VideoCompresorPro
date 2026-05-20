@@ -1337,6 +1337,321 @@
           "a": "Dikey 9:16 en boy oranındaki MP4 ve MOV, TikTok için ideal formatlardır."
         }
       ]
+    },
+    "avi": {
+      "title": "AVI Çevrimiçi Sıkıştırın - Kalite Kaybı Olmadan AVI Dosya Boyutunu Azaltın",
+      "description": "AVI videolarını çevrimiçi olarak ücretsiz sıkıştırın. Yüksek verimli ses-video sıkıştırmayla AVI dosya boyutunu hızla küçültün. Kalite kaybı yok, güvenli tarayıcı tabanlı araç.",
+      "h1": "Hızlı AVI Video Kompresörü",
+      "heroText": "Ağır AVI dosyalarını saniyeler içinde küçültün. Depolama alanından %80'e kadar tasarruf ederken yüksek kaliteli AVI videolarınızın mükemmel görünmesini sağlayın.",
+      "introText": "AVI dosyaları yüksek video kaliteleriyle bilinir, ancak inanılmaz derecede ağır olabilirler ve çok büyük depolama alanı kaplayabilirler. Akıllı tarayıcı sıkıştırıcımız AVI bit hızlarını optimize eder ve bunları zahmetsizce yayınlar.",
+      "features": [
+        {
+          "title": "Kalite Kaybı Yok",
+          "desc": "Gelişmiş libx264 kodlaması, AVI'nizin net kalmasını sağlar."
+        },
+        {
+          "title": "Yüksek Sıkıştırma",
+          "desc": "AVI konteynerinin yükünü %80'e kadar azaltır."
+        },
+        {
+          "title": "Önce Gizlilik",
+          "desc": "Dosyalarınız tarayıcınızdan asla ayrılmaz. %100 güvenli işlem."
+        }
+      ],
+      "steps": [
+        {
+          "title": "AVI'yi yükle",
+          "desc": "AVI dosyanızı sıkıştırıcı kutusuna sürükleyip bırakın."
+        },
+        {
+          "title": "Hedef Boyutunu Ayarla",
+          "desc": "İstediğiniz çıktı boyutunu MB cinsinden seçin."
+        },
+        {
+          "title": "Sıkıştır ve Kaydet",
+          "desc": "Optimize edilmiş AVI'nizi anında indirin."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "AVI'm kaliteyi kaybedecek mi?",
+          "a": "Hayır, aracımız konteyner bit hızlarını kayıpsız bir şekilde ayarlayarak yüksek görsel netliği korur."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "AVI dosyalarını 5 GB'a kadar ücretsiz olarak sıkıştırabilirsiniz."
+        }
+      ]
+    },
+    "mkv": {
+      "title": "MKV Online'ı Sıkıştırın - MKV Dosyalarını Kalite Kaybı Olmadan Küçült",
+      "description": "MKV videolarını çevrimiçi olarak ücretsiz sıkıştırın. Çok kanallı ses ve altyazı akışlarını korurken ağır MKV dosya boyutlarını azaltın. Güvenli ve hızlı tarayıcı aracı.",
+      "h1": "Pro MKV Video Kompresörü",
+      "heroText": "Büyük MKV filmlerinin ve kayıtlarının boyutunu kolayca küçültün. Yüksek kaliteli görsel korumayla MKV konteyner boyutunu saniyeler içinde küçültün.",
+      "introText": "MKV, genellikle birden fazla ses parçasına sahip yüksek çözünürlüklü filmleri barındıran güçlü bir kapsayıcıdır. Kompresörümüz, önemli parçalarınızı veya altyazılarınızı ortadan kaldırmadan ağır MKV dosyalarını küçültür.",
+      "features": [
+        {
+          "title": "HD Koruma",
+          "desc": "Tam çözünürlüğü ve yüksek çözünürlüklü video netliğini korur."
+        },
+        {
+          "title": "Çok Kanallı Hazır",
+          "desc": "Ses/altyazı eşlemesini olduğu gibi korurken video akışını sıkıştırır."
+        },
+        {
+          "title": "Yerel İşleme",
+          "desc": "Sıfır sunucu yüklemesi, %100 güvenli ve anında işlem anlamına gelir."
+        }
+      ],
+      "steps": [
+        {
+          "title": "MKV'yi içe aktar",
+          "desc": "Ağır MKV dosyanızı yerel depolama alanınızdan seçin."
+        },
+        {
+          "title": "Çıktı Boyutunu Seçin",
+          "desc": "Hedef dosya boyutunuzu MB cinsinden tanımlayın."
+        },
+        {
+          "title": "MKV'yi dışa aktar",
+          "desc": "Sıkıştırılmış MKV videonuzu anında kaydedin."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "4K MKV dosyalarını destekliyor mu?",
+          "a": "Evet, kameralardan veya akıştan yakalanan ham ve 4K MKV dosyalarını işliyoruz."
+        },
+        {
+          "q": "Dosyalarım yüklendi mi?",
+          "a": "Hayır, sıkıştırmanın tamamı tarayıcınızın içinde yerel olarak gerçekleşir."
+        }
+      ]
+    },
+    "webm": {
+      "title": "WebM Online'ı Sıkıştırın - HTML5 için WebM Videolarını Optimize Edin",
+      "description": "WebM videolarını çevrimiçi olarak ücretsiz sıkıştırın. Daha hızlı web sitesi yüklemesi ve HTML5 web akışı optimizasyonu için WebM dosya boyutunu azaltın. Hızlı ve güvenli.",
+      "h1": "HTML5 WebM Video Kompresörü",
+      "heroText": "Yüksek hızlı web sitesi performansı için WebM dosyalarını optimize edin. Web sitesi yükleme hızlarını ve kullanıcı deneyimini iyileştirmek için dosya boyutunu küçültün.",
+      "introText": "WebM, modern, yüksek hızlı HTML5 web videosu için standart formattır. Optimize edicimiz, web'e hazır en hafif dosyaları sağlamak için WebM kodlama bit hızlarına ince ayar yapar.",
+      "features": [
+        {
+          "title": "Web İçin Optimize Edilmiş",
+          "desc": "Web geliştiricileri ve hızlı site yükleme süreleri için özel olarak tasarlanmıştır."
+        },
+        {
+          "title": "VP8/VP9 Desteği",
+          "desc": "Modern VP8 ve VP9 video codec bileşenlerini tamamen destekler."
+        },
+        {
+          "title": "Güvenli İşleme",
+          "desc": "Yerel tarayıcı yürütme, web varlıklarınızı %100 gizli tutar."
+        }
+      ],
+      "steps": [
+        {
+          "title": "WebM'yi Yükle",
+          "desc": "WebM varlıklarınızı araca sürükleyip bırakın."
+        },
+        {
+          "title": "Hedef Boyutunu Seçin",
+          "desc": "Sayfa yükleme sürelerini en aza indirmek için ideal çıktı boyutunu ayarlayın."
+        },
+        {
+          "title": "Optimize Edilmiş Dosyayı Kaydet",
+          "desc": "Yayınlanabilir WebM'nizi anında indirin."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "WebM'yi şeffaflıkla sıkıştırabilir miyim?",
+          "a": "Evet, sıkıştırıcımız WebM dosyalarındaki alfa kanalı şeffaflığını korur."
+        },
+        {
+          "q": "Web siteleri için neden WebM'yi sıkıştırmalıyım?",
+          "a": "Daha küçük video dosyaları PageSpeed ​​puanlarını ve kullanıcıyı elde tutma oranını artırır."
+        }
+      ]
+    },
+    "video-for-instagram": {
+      "title": "Instagram Çevrimiçi için Videoyu Sıkıştırın - Makaralar ve Hikayeler Optimize Edici",
+      "description": "Instagram için videoları çevrimiçi olarak ücretsiz sıkıştırın. Makaraları, Hikayeleri ve gönderileri kalite bulanıklığı olmadan Instagram'ın yükleme sınırlarına mükemmel şekilde uyacak şekilde küçültün.",
+      "h1": "Instagram Video Sıkıştırıcı",
+      "heroText": "Instagram'da bulanık yüklemelerden kaçının. Instagram'ın katı özelliklerine mükemmel netlikte ulaşmak için Makaralarınızı, IGTV'nizi ve Hikayelerinizi sıkıştırın.",
+      "introText": "Instagram, ham video yüklemelerini otomatik olarak sıkıştırır ve bu da genellikle pikselli veya bulanık Makaralarla sonuçlanır. Aracımızla ön sıkıştırma yaparak yayında HD görsel kalitesini korursunuz.",
+      "features": [
+        {
+          "title": "Makaralar Optimize Edildi",
+          "desc": "Dikey 9:16 düzen özellikleri ve Makara yüklemeleri için mükemmeldir."
+        },
+        {
+          "title": "HD Besleme Kalitesi",
+          "desc": "Videonuzu keskin tutmak için Instagram'ın algoritmasını zorlar."
+        },
+        {
+          "title": "Mobil Uyumlu",
+          "desc": "Doğrudan iPhone veya Android tarayıcınızdan sıkıştırın."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Instagram Videosu Yükle",
+          "desc": "Dikey Reel veya post dosyanızı seçin."
+        },
+        {
+          "title": "HD Ön Ayarını Uygula",
+          "desc": "Bit hızlarını Instagram'ın standart özelliklerine uyacak şekilde optimize edin."
+        },
+        {
+          "title": "İndirin ve Gönderin",
+          "desc": "Çarpıcı kalitede dışa aktarın ve Instagram'a yükleyin."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Instagram için en iyi format hangisidir?",
+          "a": "H.264 codec'li ve AAC sesli MP4, Instagram yüklemeleri için ideal formattır."
+        },
+        {
+          "q": "Instagram neden videomu bulanıklaştırıyor?",
+          "a": "Dosyanız çok ağırsa Instagram onu ​​agresif bir şekilde sıkıştırır. Ön sıkıştırma, gevrek kalmasını sağlar."
+        }
+      ]
+    },
+    "video-for-slack": {
+      "title": "Slack Online için Videoyu Sıkıştırın - Büyük Videoları Hızlı Paylaşın",
+      "description": "Çevrimiçi Slack için videoları sıkıştırın. Hızlı ekip paylaşımı için dosyaları Slack'in ücretsiz yükleme limitlerinin altına küçültün. Yüksek kaliteli Slack video boyutu küçültücü.",
+      "h1": "Slack Video Kompresörü",
+      "heroText": "Yükleme sınırlarına ulaşmadan videoları Slack kanallarında paylaşın. Hızlı iletişim için MP4 ve MOV kliplerinizi küçültün.",
+      "introText": "Slack'in ücretsiz çalışma alanları için katı bir dosya boyutu sınırı vardır. Aracımız çalışma kliplerini, ekran kayıtlarını ve eğitimleri optimize ederek bunların herhangi bir kanala anında yüklenmesini sağlar.",
+      "features": [
+        {
+          "title": "Gevşek Uyumlu",
+          "desc": "Ücretsiz Slack yükleme limiti altında kliplerin boyutunu kolayca küçültün."
+        },
+        {
+          "title": "Hızlı Paylaşım",
+          "desc": "Daha küçük dosyalar, ekip üyeleri için daha hızlı yükleme ve daha hızlı oynatma anlamına gelir."
+        },
+        {
+          "title": "%100 Gizli",
+          "desc": "Güvenli tarayıcı işleme, çalışma dosyalarının gizli kalmasını sağlar."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Slack Videoyu Seçin",
+          "desc": "Çalışma klibini veya demo videosunu seçin."
+        },
+        {
+          "title": "Dosya Boyutunu Küçült",
+          "desc": "Slack dosya sınırının altına küçültün."
+        },
+        {
+          "title": "Kanala Yükle",
+          "desc": "Doğrudan Slack sohbetinizde indirin ve paylaşın."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Slack'te dosya sınırı nedir?",
+          "a": "Slack'siz çalışma alanlarının dosya sınırı 1 GB'tır ancak yüklemeler küçük tutulduğunda çok daha hızlıdır."
+        },
+        {
+          "q": "Ekran kayıtlarını sıkıştırabilir miyim?",
+          "a": "Evet, MP4, WebM ve MOV ekran görüntülerinin sıkıştırılmasını destekliyoruz."
+        }
+      ]
+    },
+    "video-for-teams": {
+      "title": "MS Ekipleri için Videoyu Sıkıştırın - Ekiplerde Büyük Videoları Paylaşın",
+      "description": "Microsoft Teams için videoları çevrimiçi sıkıştırın. Teams dosya paylaşımı sınırlarını aşmak için yoğun toplantı kayıtlarını ve sunumları küçültün. Ücretsiz ve hızlı.",
+      "h1": "Microsoft Teams Video Sıkıştırıcı",
+      "heroText": "Microsoft Teams'de yoğun sunumları ve kayıtları paylaşın. Videoları Teams sohbet ve kanal sınırlarına mükemmel şekilde uyacak şekilde sıkıştırın.",
+      "introText": "Microsoft Teams kurumsal işbirliği için hayati öneme sahiptir ancak yoğun ham videoların paylaşılması yavaş olabilir. Aracımız, anında ve sorunsuz bir şekilde işbirliği yapabilmeniz için video boyutunu küçültür.",
+      "features": [
+        {
+          "title": "Ekipler Optimize Edildi",
+          "desc": "Sunumların ölçeğini kurumsal e-postaya veya Teams sohbetine uyacak şekilde küçültün."
+        },
+        {
+          "title": "Yüksek Tanımlı",
+          "desc": "Sunum slaytlarını ve metni mükemmel şekilde okunaklı tutar."
+        },
+        {
+          "title": "Kurumsal Güvenlik",
+          "desc": "Yerel tarayıcı sıkıştırması, kurumsal veri sızıntısının olmaması anlamına gelir."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Ekip Kaydını Seçin",
+          "desc": "Toplantı kaydınızı veya demonuzu içe aktarın."
+        },
+        {
+          "title": "Çıktı Boyutunu Seçin",
+          "desc": "Kolay paylaşım için hafif bir hedef belirleyin."
+        },
+        {
+          "title": "İndirin ve Paylaşın",
+          "desc": "Optimize edilmiş dosyanızı alın ve Teams'e gönderin."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Sunum metnim okunabilir durumda kalacak mı?",
+          "a": "Evet, slaytların net kalması için metin netliğine öncelik veriyoruz."
+        },
+        {
+          "q": "Şirket dosyaları için güvenli mi?",
+          "a": "Evet, hiçbir sunucuya dosya yüklenmemektedir. Tüm işlemler yereldir."
+        }
+      ]
+    },
+    "video-for-facebook": {
+      "title": "Facebook için Videoyu Sıkıştır - FB Yüklemesi için Videoları Küçült",
+      "description": "Facebook için videoları çevrimiçi olarak ücretsiz sıkıştırın. FB gönderilerinin, reklamlarının ve kapak videolarının dosya boyutunu kalite kaybı olmadan azaltın. Hızlı tarayıcı aracı.",
+      "h1": "Facebook Video Sıkıştırıcı",
+      "heroText": "Videolarınızı Facebook yayınları ve Reklamlar için optimize edin. Daha hızlı yüklemek ve yüksek çözünürlüklü besleme kalitesini korumak için MP4 dosyalarını küçültün.",
+      "introText": "Facebook'ta yavaş yüklenen videolar etkileşime ve reklam dönüşümlerine zarar verir. Facebook videolarınızın önceden sıkıştırılması, yükleme sürelerini iyileştirir ve yüksek düzeyde izleyici tutmayı garanti eder.",
+      "features": [
+        {
+          "title": "Reklam Optimize Edildi",
+          "desc": "Daha hızlı teslimat ve daha düşük hemen çıkma oranları için reklam dosyası boyutlarını azaltır."
+        },
+        {
+          "title": "Kapak Hazır",
+          "desc": "Facebook sayfası kapak videoları için mükemmel özellikler."
+        },
+        {
+          "title": "Anında İşleme",
+          "desc": "Doğrudan tarayıcı kodlaması, sunucu yükleme gecikmesi yok."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Facebook Videosu Yükle",
+          "desc": "Gönderinizi veya reklam videonuzu sürükleyip bırakın."
+        },
+        {
+          "title": "FB Yönergelerini Uygulayın",
+          "desc": "Standart sosyal yayınlar için bit hızlarını optimize edin."
+        },
+        {
+          "title": "Dışa Aktarma ve Yükleme",
+          "desc": "Hafif dosyanızı indirin ve Facebook'ta yayınlayın."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Facebook dosya boyutu sınırı nedir?",
+          "a": "Facebook 10 GB'a kadar destekler ancak küçük videolar çok daha iyi performans gösterir."
+        },
+        {
+          "q": "Facebook Reklamlarını destekliyor mu?",
+          "a": "Evet, aracımız Facebook Reklam kampanyası varlıklarını optimize etmek için şiddetle tavsiye edilir."
+        }
+      ]
     }
   }
 }

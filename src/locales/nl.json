@@ -1337,6 +1337,321 @@
           "a": "MP4 en MOV in verticale beeldverhouding 9:16 zijn de ideale formaten voor TikTok."
         }
       ]
+    },
+    "avi": {
+      "title": "AVI online comprimeren - AVI-bestandsgrootte verkleinen zonder kwaliteitsverlies",
+      "description": "Comprimeer AVI-video's gratis online. Verklein de AVI-bestandsgrootte snel met uiterst efficiënte audio-videocompressie. Geen kwaliteitsverlies, veilige browsergebaseerde tool.",
+      "h1": "Snelle AVI-videocompressor",
+      "heroText": "Verklein zware AVI-bestanden in enkele seconden. Zorg ervoor dat uw hoogwaardige AVI-video's er perfect uitzien en bespaar tot 80% opslagruimte.",
+      "introText": "AVI-bestanden staan ​​bekend om hun hoge videokwaliteit, maar ze kunnen ongelooflijk zwaar zijn en enorme opslagruimte in beslag nemen. Onze slimme browsercompressor optimaliseert AVI-bitrates en streamt ze moeiteloos.",
+      "features": [
+        {
+          "title": "Geen kwaliteitsverlies",
+          "desc": "Geavanceerde libx264-codering zorgt ervoor dat uw AVI helder blijft."
+        },
+        {
+          "title": "Hoge compressie",
+          "desc": "Vermindert de overhead van AVI-containers tot 80%."
+        },
+        {
+          "title": "Privacy eerst",
+          "desc": "Uw bestanden verlaten uw browser nooit. 100% veilige verwerking."
+        }
+      ],
+      "steps": [
+        {
+          "title": "AVI uploaden",
+          "desc": "Sleep uw AVI-bestand naar de compressorbox."
+        },
+        {
+          "title": "Doelgrootte instellen",
+          "desc": "Kies het gewenste uitvoerformaat in MB."
+        },
+        {
+          "title": "Comprimeren en opslaan",
+          "desc": "Download direct uw geoptimaliseerde AVI."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Zal mijn AVI kwaliteit verliezen?",
+          "a": "Nee, onze tool behoudt een hoge visuele helderheid door de bitrates van containers zonder verlies aan te passen."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "U kunt AVI-bestanden tot 5 GB gratis comprimeren."
+        }
+      ]
+    },
+    "mkv": {
+      "title": "MKV online comprimeren - MKV-bestanden verkleinen zonder kwaliteitsverlies",
+      "description": "Comprimeer MKV-video's gratis online. Verklein de grootte van zware MKV-bestanden met behoud van meersporige audio- en ondertitelstreams. Veilige en snelle browsertool.",
+      "h1": "Pro MKV-videocompressor",
+      "heroText": "Verklein eenvoudig grote MKV-films en -opnamen. Verklein de MKV-containergrootte in enkele seconden met high-fidelity visuele conservering.",
+      "introText": "MKV is een krachtige container die vaak high-definition films met meerdere audiotracks bevat. Onze compressor verkleint zware MKV-bestanden zonder uw essentiële nummers of ondertitels weg te halen.",
+      "features": [
+        {
+          "title": "HD-behoud",
+          "desc": "Behoudt de volledige resolutie en high-definition videohelderheid."
+        },
+        {
+          "title": "Klaar voor meerdere nummers",
+          "desc": "Comprimeert de videostream terwijl de toewijzing van audio/ondertiteling intact blijft."
+        },
+        {
+          "title": "Lokale verwerking",
+          "desc": "Geen serveruploads betekenen 100% veilige en onmiddellijke verwerking."
+        }
+      ],
+      "steps": [
+        {
+          "title": "MKV importeren",
+          "desc": "Selecteer uw zware MKV-bestand uit uw lokale opslag."
+        },
+        {
+          "title": "Kies Uitvoerformaat",
+          "desc": "Definieer uw doelbestandsgrootte in MB."
+        },
+        {
+          "title": "MKV exporteren",
+          "desc": "Sla uw gecomprimeerde MKV-video direct op."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Ondersteunt het 4K MKV-bestanden?",
+          "a": "Ja, we verwerken onbewerkte en 4K MKV-bestanden die zijn vastgelegd met camera's of streaming."
+        },
+        {
+          "q": "Worden mijn bestanden geüpload?",
+          "a": "Nee, alle compressie gebeurt lokaal in uw browser."
+        }
+      ]
+    },
+    "webm": {
+      "title": "WebM online comprimeren - WebM-video's optimaliseren voor HTML5",
+      "description": "Comprimeer WebM-video's gratis online. Verklein de WebM-bestandsgrootte voor sneller laden van websites en HTML5-webstreamoptimalisatie. Snel en veilig.",
+      "h1": "HTML5 WebM-videocompressor",
+      "heroText": "Optimaliseer WebM-bestanden voor snelle websiteprestaties. Verklein de bestandsgrootte om de laadsnelheid van de website en de gebruikerservaring te verbeteren.",
+      "introText": "WebM is het standaardformaat voor moderne, snelle HTML5-webvideo. Onze optimalisatie verfijnt de WebM-coderingsbitrates om de absoluut lichtste webklare bestanden te leveren.",
+      "features": [
+        {
+          "title": "Webgeoptimaliseerd",
+          "desc": "Speciaal ontworpen voor webontwikkelaars en snelle laadtijden van de site."
+        },
+        {
+          "title": "VP8/VP9-ondersteuning",
+          "desc": "Ondersteunt volledig moderne VP8- en VP9-videocodecs."
+        },
+        {
+          "title": "Veilige verwerking",
+          "desc": "Lokale browseruitvoering houdt uw webitems 100% privé."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Upload WebM",
+          "desc": "Sleep uw WebM-middelen naar de tool."
+        },
+        {
+          "title": "Selecteer Doelgrootte",
+          "desc": "Stel het ideale uitvoerformaat in om de laadtijden van pagina's te minimaliseren."
+        },
+        {
+          "title": "Geoptimaliseerd bestand opslaan",
+          "desc": "Download uw streambare WebM onmiddellijk."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Kan ik WebM transparant comprimeren?",
+          "a": "Ja, onze compressor behoudt de alfakanaaltransparantie in WebM-bestanden."
+        },
+        {
+          "q": "Waarom zou ik WebM voor websites comprimeren?",
+          "a": "Kleinere videobestanden verbeteren de PageSpeed-scores en het behoud van gebruikers."
+        }
+      ]
+    },
+    "video-for-instagram": {
+      "title": "Video voor Instagram online comprimeren - Reels & Stories Optimizer",
+      "description": "Comprimeer video's voor Instagram gratis online. Verklein rollen, verhalen en berichten zodat ze perfect passen bij de uploadlimieten van Instagram, zonder kwaliteitsvervaging.",
+      "h1": "Instagram-videocompressor",
+      "heroText": "Vermijd wazige uploads op Instagram. Comprimeer je Reels, IGTV en Stories om met perfecte helderheid aan de strikte specificaties van Instagram te voldoen.",
+      "introText": "Instagram comprimeert onbewerkte video-uploads automatisch, wat vaak resulteert in korrelige of wazige rollen. Door vooraf te comprimeren met onze tool, behoudt u de visuele HD-kwaliteit op de feed.",
+      "features": [
+        {
+          "title": "Rollen geoptimaliseerd",
+          "desc": "Perfect voor verticale 9:16-indelingsspecificaties en uploads van rollen."
+        },
+        {
+          "title": "HD-feedkwaliteit",
+          "desc": "Dwingt het algoritme van Instagram om je video scherp te houden."
+        },
+        {
+          "title": "Mobielvriendelijk",
+          "desc": "Direct comprimeren vanaf uw iPhone- of Android-browser."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Upload Instagram-video",
+          "desc": "Selecteer uw verticale haspel of postbestand."
+        },
+        {
+          "title": "HD-voorinstelling",
+          "desc": "toepassen Optimaliseer bitrates zodat deze overeenkomen met de standaardspecificaties van Instagram."
+        },
+        {
+          "title": "Downloaden en plaatsen",
+          "desc": "Exporteer en upload naar Instagram met verbluffende kwaliteit."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Wat is het beste formaat voor Instagram?",
+          "a": "MP4 met H.264-codec en AAC-audio is het ideale formaat voor Instagram-uploads."
+        },
+        {
+          "q": "Waarom maakt Instagram mijn video wazig?",
+          "a": "Als je bestand te zwaar is, comprimeert Instagram het agressief. Door het vooraf te comprimeren, blijft het knapperig."
+        }
+      ]
+    },
+    "video-for-slack": {
+      "title": "Comprimeer video voor Slack online - Deel snel grote video's",
+      "description": "Comprimeer video's voor Slack online. Verklein bestanden onder de gratis uploadlimieten van Slack voor snel delen met teams. Slack-videoformaatverkleiner van hoge kwaliteit.",
+      "h1": "Slack-videocompressor",
+      "heroText": "Deel video's in Slack-kanalen zonder de uploadlimieten te bereiken. Verklein uw MP4- en MOV-clips voor snelle communicatie.",
+      "introText": "Slack heeft een strikte limiet voor de bestandsgrootte voor gratis werkruimten. Onze tool optimaliseert werkclips, schermopnamen en tutorials, zodat ze direct naar elk kanaal kunnen worden geüpload.",
+      "features": [
+        {
+          "title": "Slack-compatibel",
+          "desc": "Verklein clips eenvoudig onder de gratis Slack-uploadlimiet."
+        },
+        {
+          "title": "Snel delen",
+          "desc": "Kleinere bestanden betekenen snellere uploads en snellere weergaven voor teamleden."
+        },
+        {
+          "title": "100% vertrouwelijk",
+          "desc": "Veilige browserverwerking zorgt ervoor dat werkbestanden privé blijven."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Kies Slack-video",
+          "desc": "Selecteer de werkclip of demovideo."
+        },
+        {
+          "title": "Bestandsgrootte verkleinen",
+          "desc": "Verklein het tot onder de Slack-bestandslimiet."
+        },
+        {
+          "title": "Uploaden naar kanaal",
+          "desc": "Download en deel rechtstreeks in uw Slack-chat."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Wat is de bestandslimiet op Slack?",
+          "a": "Slack-free werkruimten hebben een bestandslimiet van 1 GB, maar uploads zijn veel sneller als ze klein worden gehouden."
+        },
+        {
+          "q": "Kan ik schermopnamen comprimeren?",
+          "a": "Ja, we ondersteunen het comprimeren van MP4-, WebM- en MOV-schermopnamen."
+        }
+      ]
+    },
+    "video-for-teams": {
+      "title": "Video comprimeren voor MS Teams - Deel grote video's in teams",
+      "description": "Comprimeer video's voor Microsoft Teams online. Verklein zware vergaderingsopnamen en presentaties om de limieten voor het delen van bestanden in Teams te omzeilen. Gratis en snel.",
+      "h1": "Microsoft Teams-videocompressor",
+      "heroText": "Deel zware presentaties en opnames in Microsoft Teams. Comprimeer video's zodat ze perfect passen bij Teams-chat- en kanaallimieten.",
+      "introText": "Microsoft Teams is essentieel voor zakelijke samenwerking, maar het delen van zware onbewerkte video's kan traag zijn. Onze tool verkleint het videoformaat, zodat u direct en soepel kunt samenwerken.",
+      "features": [
+        {
+          "title": "Teams geoptimaliseerd",
+          "desc": "Verklein presentaties zodat ze passen bij zakelijke e-mail of Teams-chat."
+        },
+        {
+          "title": "Hoge definitie",
+          "desc": "Houdt presentatiedia's en tekst perfect leesbaar."
+        },
+        {
+          "title": "Bedrijfsbeveiliging",
+          "desc": "Lokale browsercompressie betekent dat er geen bedrijfsdatalekken ontstaan."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Selecteer Teams opnemen",
+          "desc": "Importeer uw vergaderingsopname of demo."
+        },
+        {
+          "title": "Kies Uitvoergrootte",
+          "desc": "Stel een lichtgewicht doel in, zodat u eenvoudig kunt delen."
+        },
+        {
+          "title": "Downloaden en delen",
+          "desc": "Haal uw geoptimaliseerde bestand op en verzend het naar Teams."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Blijft mijn presentatietekst leesbaar?",
+          "a": "Ja, we geven prioriteit aan teksthelderheid, zodat dia's scherp blijven."
+        },
+        {
+          "q": "Is het veilig voor bedrijfsbestanden?",
+          "a": "Ja, er worden geen bestanden naar een server geüpload. Alle verwerking is lokaal."
+        }
+      ]
+    },
+    "video-for-facebook": {
+      "title": "Video comprimeren voor Facebook - Video's verkleinen voor FB Uploaden",
+      "description": "Comprimeer video's voor Facebook gratis online. Verklein de bestandsgrootte van FB-berichten, advertenties en covervideo's zonder kwaliteitsverlies. Snelle browsertool.",
+      "h1": "Facebook-videocompressor",
+      "heroText": "Optimaliseer uw video's voor Facebook-feeds en advertenties. Verklein MP4-bestanden om sneller te laden en de hoge-definitie-feedkwaliteit te behouden.",
+      "introText": "Langzaam ladende video's op Facebook hebben een negatieve invloed op de betrokkenheid en advertentieconversies. Het vooraf comprimeren van uw Facebook-video's verbetert de laadtijden en garandeert een hoge kijkersloyaliteit.",
+      "features": [
+        {
+          "title": "Advertentie geoptimaliseerd",
+          "desc": "Verkleint de advertentiebestandsgrootte voor snellere levering en lagere bouncepercentages."
+        },
+        {
+          "title": "Omslag klaar",
+          "desc": "Perfecte specificaties voor omslagvideo's op Facebook-pagina's."
+        },
+        {
+          "title": "Onmiddellijke verwerking",
+          "desc": "Directe browsercodering, geen vertragingen bij het uploaden van de server."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Facebook-video uploaden",
+          "desc": "Versleep uw bericht of advertentievideo."
+        },
+        {
+          "title": "FB-richtlijnen toepassen",
+          "desc": "Optimaliseer bitrates voor standaard sociale feeds."
+        },
+        {
+          "title": "Exporteren en uploaden",
+          "desc": "Download uw lichtgewicht bestand en plaats het op Facebook."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Wat is de limiet voor de bestandsgrootte van Facebook?",
+          "a": "Facebook ondersteunt maximaal 10 GB, maar kleine video's presteren veel beter."
+        },
+        {
+          "q": "Ondersteunt het Facebook-advertenties?",
+          "a": "Ja, onze tool wordt ten zeerste aanbevolen om de activa van Facebook-advertentiecampagnes te optimaliseren."
+        }
+      ]
     }
   }
 }

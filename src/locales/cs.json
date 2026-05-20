@@ -1337,6 +1337,321 @@
           "a": "MP4 a MOV ve vertikálním poměru stran 9:16 jsou ideální formáty pro TikTok."
         }
       ]
+    },
+    "avi": {
+      "title": "Komprimujte AVI online – zmenšete velikost souboru AVI bez ztráty kvality",
+      "description": "Komprimujte AVI videa online zdarma. Rychle zmenšete velikost souboru AVI pomocí vysoce účinné komprese zvuku a videa. Bez ztráty kvality, bezpečný nástroj založený na prohlížeči.",
+      "h1": "Rychlý AVI video kompresor",
+      "heroText": "Zmenšete těžké soubory AVI během několika sekund. Zajistěte, aby vaše vysoce kvalitní videa ve formátu AVI vypadala perfektně, a přitom ušetříte až 80 % úložného prostoru.",
+      "introText": "Soubory AVI jsou známé svou vysokou kvalitou videa, ale mohou být neuvěřitelně těžké a zabírají obrovské úložiště. Náš inteligentní kompresor prohlížeče optimalizuje datové toky AVI a bez námahy je streamuje.",
+      "features": [
+        {
+          "title": "Žádná ztráta kvality",
+          "desc": "Pokročilé kódování libx264 zajišťuje, že vaše AVI zůstane ostré."
+        },
+        {
+          "title": "Vysoká komprese",
+          "desc": "Snižuje režii kontejneru AVI až o 80 %."
+        },
+        {
+          "title": "Soukromí na prvním místě",
+          "desc": "Vaše soubory nikdy neopustí váš prohlížeč. 100% bezpečné zpracování."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Nahrát AVI",
+          "desc": "Přetáhněte soubor AVI do krabice kompresoru."
+        },
+        {
+          "title": "Nastavit cílovou velikost",
+          "desc": "Vyberte požadovanou výstupní velikost v MB."
+        },
+        {
+          "title": "Komprimovat a uložit",
+          "desc": "Stáhněte si své optimalizované AVI okamžitě."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Ztratí moje AVI kvalitu?",
+          "a": "Ne, náš nástroj zachovává vysokou vizuální čistotu bezztrátovou úpravou datových toků kontejneru."
+        },
+        {
+          "q": "Je nějaký limit velikosti souboru?",
+          "a": "Zdarma můžete komprimovat soubory AVI až na 5 GB."
+        }
+      ]
+    },
+    "mkv": {
+      "title": "Komprimujte MKV online – zmenšete soubory MKV bez ztráty kvality",
+      "description": "Komprimujte MKV videa online zdarma. Snižte velké velikosti souborů MKV při zachování vícestopého zvuku a toků titulků. Bezpečný a rychlý nástroj prohlížeče.",
+      "h1": "Pro MKV Video Compressor",
+      "heroText": "Snadno zmenšete velké MKV filmy a nahrávky. Zmenšete velikost kontejneru MKV během několika sekund s vysoce věrným vizuálním zachováním.",
+      "introText": "MKV je výkonný kontejner, který často obsahuje filmy ve vysokém rozlišení s více zvukovými stopami. Náš kompresor zmenšuje těžké soubory MKV, aniž by odstranil vaše základní skladby nebo titulky.",
+      "features": [
+        {
+          "title": "Zachování HD",
+          "desc": "Zachovává plné rozlišení a čistotu videa ve vysokém rozlišení."
+        },
+        {
+          "title": "Připraveno pro více stop",
+          "desc": "Komprimuje tok videa a zachovává mapování zvuku/titulků nedotčené."
+        },
+        {
+          "title": "Místní zpracování",
+          "desc": "Nulové nahrávání na server znamená 100% bezpečné a okamžité zpracování."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Importovat MKV",
+          "desc": "Vyberte svůj těžký soubor MKV z místního úložiště."
+        },
+        {
+          "title": "Zvolte výstupní velikost",
+          "desc": "Definujte velikost cílového souboru v MB."
+        },
+        {
+          "title": "Export MKV",
+          "desc": "Okamžitě uložte komprimované video MKV."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Podporuje 4K MKV soubory?",
+          "a": "Ano, zpracováváme raw a 4K MKV soubory zachycené z kamer nebo streamování."
+        },
+        {
+          "q": "Jsou moje soubory nahrané?",
+          "a": "Ne, veškerá komprese probíhá lokálně uvnitř vašeho prohlížeče."
+        }
+      ]
+    },
+    "webm": {
+      "title": "Compress WebM Online – Optimalizace videí WebM pro HTML5",
+      "description": "Komprimujte videa WebM online zdarma. Zmenšete velikost souboru WebM pro rychlejší načítání webových stránek a optimalizaci webového streamu HTML5. Rychlé a bezpečné.",
+      "h1": "HTML5 WebM Video Compressor",
+      "heroText": "Optimalizujte soubory WebM pro vysokorychlostní výkon webových stránek. Zmenšením velikosti souboru zvýšíte rychlost načítání webových stránek a uživatelskou zkušenost.",
+      "introText": "WebM je standardní formát pro moderní, vysokorychlostní HTML5 webové video. Náš optimalizátor dolaďuje datové toky kódování WebM, aby poskytoval absolutně nejlehčí soubory připravené pro web.",
+      "features": [
+        {
+          "title": "Optimalizovaný web",
+          "desc": "Navrženo speciálně pro webové vývojáře a rychlé načítání stránek."
+        },
+        {
+          "title": "Podpora VP8/VP9",
+          "desc": "Plně podporuje moderní video kodeky VP8 a VP9."
+        },
+        {
+          "title": "Bezpečné zpracování",
+          "desc": "Spuštění místního prohlížeče udržuje vaše webové prostředky 100% soukromé."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Nahrát WebM",
+          "desc": "Přetáhněte svá aktiva WebM do nástroje."
+        },
+        {
+          "title": "Vyberte cílovou velikost",
+          "desc": "Nastavte ideální výstupní velikost, abyste minimalizovali dobu načítání stránky."
+        },
+        {
+          "title": "Uložit optimalizovaný soubor",
+          "desc": "Stáhněte si svůj streamovatelný WebM okamžitě."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Mohu komprimovat WebM s průhledností?",
+          "a": "Ano, náš kompresor zachovává transparentnost alfa kanálu v souborech WebM."
+        },
+        {
+          "q": "Proč bych měl komprimovat WebM pro webové stránky?",
+          "a": "Menší video soubory zlepšují skóre PageSpeed ​​a udržení uživatelů."
+        }
+      ]
+    },
+    "video-for-instagram": {
+      "title": "Komprimujte video pro Instagram online – Optimalizátor rolí a příběhů",
+      "description": "Komprimujte videa pro Instagram online zdarma. Zmenšete role, příběhy a příspěvky tak, aby dokonale odpovídaly limitům Instagramu pro nahrávání bez kvalitního rozmazání.",
+      "h1": "Instagram Video Compressor",
+      "heroText": "Vyhněte se rozmazanému nahrávání na Instagramu. Komprimujte své kotouče, IGTV a příběhy, abyste s dokonalou čistotou dosáhli přísných specifikací Instagramu.",
+      "introText": "Instagram automaticky komprimuje nezpracovaná videa, což má často za následek pixelované nebo rozmazané role. Předběžnou komprimací pomocí našeho nástroje zachováte HD vizuální kvalitu zdroje.",
+      "features": [
+        {
+          "title": "Navijáky Optimalizované",
+          "desc": "Perfektní pro vertikální specifikace rozvržení 9:16 a nahrávání rolí."
+        },
+        {
+          "title": "HD kvalita zdroje",
+          "desc": "Přinutí algoritmus Instagramu, aby udržoval vaše video ostré."
+        },
+        {
+          "title": "Mobilní",
+          "desc": "Komprimujte přímo z prohlížeče iPhone nebo Android."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Nahrát video na Instagram",
+          "desc": "Vyberte svůj vertikální soubor cívky nebo příspěvku."
+        },
+        {
+          "title": "Použít předvolbu HD",
+          "desc": "Optimalizujte datové toky tak, aby odpovídaly standardní specifikaci Instagramu."
+        },
+        {
+          "title": "Stáhnout a odeslat",
+          "desc": "Exportujte a nahrávejte na Instagram v ohromující kvalitě."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Jaký je nejlepší formát pro Instagram?",
+          "a": "MP4 s kodekem H.264 a zvukem AAC je ideální formát pro nahrávání na Instagram."
+        },
+        {
+          "q": "Proč má Instagram moje video rozmazané?",
+          "a": "Pokud je váš soubor příliš těžký, Instagram jej agresivně zkomprimuje. Předběžná komprese jej udržuje svěží."
+        }
+      ]
+    },
+    "video-for-slack": {
+      "title": "Komprimujte video pro Slack Online – rychle sdílejte velká videa",
+      "description": "Komprimujte videa pro Slack online. Zmenšete soubory v rámci limitů bezplatného nahrávání Slack pro rychlé týmové sdílení. Vysoce kvalitní redukce velikosti videa Slack.",
+      "h1": "Slack Video Compressor",
+      "heroText": "Sdílejte videa na kanálech Slack, aniž byste dosáhli limitů nahrávání. Zmenšete své klipy MP4 a MOV pro rychlou komunikaci.",
+      "introText": "Slack má přísný limit velikosti souboru pro volné pracovní prostory. Náš nástroj optimalizuje pracovní klipy, nahrávky obrazovky a výukové programy, takže je lze okamžitě nahrát do libovolného kanálu.",
+      "features": [
+        {
+          "title": "Slack kompatibilní",
+          "desc": "Snadno zmenšete klipy pod limit bezplatného nahrávání Slack."
+        },
+        {
+          "title": "Rychlé sdílení",
+          "desc": "Menší soubory znamenají rychlejší nahrávání a rychlejší přehrávání pro členy týmu."
+        },
+        {
+          "title": "100% důvěrné",
+          "desc": "Zabezpečené zpracování v prohlížeči zajišťuje, že pracovní soubory zůstanou soukromé."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Vyberte Slack Video",
+          "desc": "Vyberte pracovní klip nebo ukázkové video."
+        },
+        {
+          "title": "Zmenšit velikost souboru",
+          "desc": "Zmenšete jej pod limit souboru Slack."
+        },
+        {
+          "title": "Nahrát do kanálu",
+          "desc": "Stahujte a sdílejte přímo ve svém chatu Slack."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Jaký je limit souborů na Slacku?",
+          "a": "Pracovní prostory bez slacků mají souborový limit 1 GB, ale nahrávání je mnohem rychlejší, když jsou malé."
+        },
+        {
+          "q": "Mohu komprimovat záznamy obrazovky?",
+          "a": "Ano, podporujeme kompresi snímků obrazovky MP4, WebM a MOV."
+        }
+      ]
+    },
+    "video-for-teams": {
+      "title": "Komprimujte video pro MS Teams – sdílejte velká videa v Teams",
+      "description": "Komprimujte videa pro Microsoft Teams online. Zmenšete náročné nahrávky schůzek a prezentace, abyste obešli limity sdílení souborů Teams. Zdarma a rychle.",
+      "h1": "Kompresor videa Microsoft Teams",
+      "heroText": "Sdílejte náročné prezentace a nahrávky v Microsoft Teams. Komprimujte videa tak, aby dokonale vyhovovala limitům chatu a kanálu Teams.",
+      "introText": "Microsoft Teams je nezbytný pro podnikovou spolupráci, ale sdílení těžkých nezpracovaných videí může být pomalé. Náš nástroj zmenšuje velikost videa, takže můžete okamžitě a plynule spolupracovat.",
+      "features": [
+        {
+          "title": "Optimalizované týmy",
+          "desc": "Zmenšete prezentace, aby se vešly do firemního e-mailu nebo chatu v Teams."
+        },
+        {
+          "title": "Vysoké rozlišení",
+          "desc": "Udržuje snímky prezentace a text dokonale čitelné."
+        },
+        {
+          "title": "Podniková bezpečnost",
+          "desc": "Místní komprese prohlížeče znamená žádné úniky podnikových dat."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Vyberte záznam týmů",
+          "desc": "Importujte záznam nebo ukázku schůzky."
+        },
+        {
+          "title": "Zvolte výstupní velikost",
+          "desc": "Nastavte si lehký cíl pro snadné sdílení."
+        },
+        {
+          "title": "Stáhnout a sdílet",
+          "desc": "Získejte svůj optimalizovaný soubor a odešlete jej do Teams."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Zůstane můj text prezentace čitelný?",
+          "a": "Ano, upřednostňujeme čistotu textu, aby snímky zůstaly ostré."
+        },
+        {
+          "q": "Je to bezpečné pro firemní soubory?",
+          "a": "Ano, na žádný server se neodesílají žádné soubory. Veškeré zpracování je lokální."
+        }
+      ]
+    },
+    "video-for-facebook": {
+      "title": "Compress Video for Facebook - Shrink Videos for FB Upload",
+      "description": "Komprimujte videa pro Facebook online zdarma. Zmenšete velikost souborů FB příspěvků, reklam a krycích videí bez ztráty kvality. Rychlý prohlížečový nástroj.",
+      "h1": "Facebook Video Compressor",
+      "heroText": "Optimalizujte svá videa pro zdroje Facebooku a reklamy. Zmenšením souborů MP4 se načítají rychleji a zachováte kvalitu podávání ve vysokém rozlišení.",
+      "introText": "Pomalé načítání videí na Facebooku poškozuje zapojení a konverze reklam. Předběžná komprese vašich videí na Facebooku zkracuje dobu načítání a zaručuje vysokou míru udržení diváků.",
+      "features": [
+        {
+          "title": "Optimalizovaná reklama",
+          "desc": "Zmenšuje velikost souborů reklamy pro rychlejší zobrazování a nižší míru okamžitého opuštění."
+        },
+        {
+          "title": "Kryt připraven",
+          "desc": "Perfektní specifikace pro videa na titulní stránce Facebook."
+        },
+        {
+          "title": "Okamžité zpracování",
+          "desc": "Přímé kódování prohlížeče, žádné zpoždění při nahrávání serveru."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Nahrát video na Facebook",
+          "desc": "Přetáhněte příspěvek nebo reklamní video."
+        },
+        {
+          "title": "Použijte FB Pokyny",
+          "desc": "Optimalizujte přenosové rychlosti pro standardní sociální kanály."
+        },
+        {
+          "title": "Export & Upload",
+          "desc": "Stáhněte si svůj odlehčený soubor a zveřejněte jej na Facebooku."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Jaký je limit velikosti souboru na Facebooku?",
+          "a": "Facebook podporuje až 10 GB, ale malá videa fungují mnohem lépe."
+        },
+        {
+          "q": "Podporuje reklamy na Facebooku?",
+          "a": "Ano, náš nástroj důrazně doporučujeme k optimalizaci prostředků reklamních kampaní na Facebooku."
+        }
+      ]
     }
   }
 }

@@ -1337,6 +1337,321 @@
           "a": "MP4 ja MOV pystysuorassa 9:16-kuvasuhteessa ovat ihanteellisia muotoja TikTokille."
         }
       ]
+    },
+    "avi": {
+      "title": "Pakkaa AVI Online - Pienennä AVI-tiedoston kokoa ilman laadun heikkenemistä",
+      "description": "Pakkaa AVI-videoita verkossa ilmaiseksi. Pienennä AVI-tiedoston kokoa nopeasti tehokkaalla audio-video-pakkauksella. Ei laadun heikkenemistä, turvallinen selainpohjainen työkalu.",
+      "h1": "Nopea AVI-videokompressori",
+      "heroText": "Pienennä raskaat AVI-tiedostot sekunneissa. Pidä korkealaatuiset AVI-videosi näyttävinä ja säästät jopa 80 % tallennustilaa.",
+      "introText": "AVI-tiedostot tunnetaan korkeasta videolaadustaan, mutta ne voivat olla uskomattoman raskaita ja viedä valtavasti tallennustilaa. Älykäs selainkompressorimme optimoi AVI-bittinopeudet ja suoratoistaa ne vaivattomasti.",
+      "features": [
+        {
+          "title": "Ei laadun heikkenemistä",
+          "desc": "Edistyksellinen libx264-koodaus varmistaa, että AVI pysyy terävänä."
+        },
+        {
+          "title": "Korkea puristus",
+          "desc": "Vähentää AVI-kontin ylimääräisiä kustannuksia jopa 80 %."
+        },
+        {
+          "title": "Yksityisyys ensin",
+          "desc": "Tiedostosi eivät koskaan poistu selaimesta. 100 % turvallinen käsittely."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Lataa AVI",
+          "desc": "Vedä ja pudota AVI-tiedostosi pakkauslaatikkoon."
+        },
+        {
+          "title": "Aseta tavoitekoko",
+          "desc": "Valitse haluamasi tulostuskoko megatavuina."
+        },
+        {
+          "title": "Pakkaa ja tallenna",
+          "desc": "Lataa optimoitu AVI heti."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Menettääkö AVI-laatuni?",
+          "a": "Ei, työkalumme säilyttää korkean visuaalisen selkeyden säätämällä säilön bittinopeuksia häviöttömästi."
+        },
+        {
+          "q": "Onko tiedostokokorajoitusta?",
+          "a": "Voit pakata AVI-tiedostoja jopa 5 Gt ilmaiseksi."
+        }
+      ]
+    },
+    "mkv": {
+      "title": "Pakkaa MKV Online - Pienennä MKV-tiedostoja ilman laadun heikkenemistä",
+      "description": "Pakkaa MKV-videoita verkossa ilmaiseksi. Pienennä raskaita MKV-tiedostokokoja säilyttäen samalla moniraidan ääni- ja tekstitysvirrat. Turvallinen ja nopea selaintyökalu.",
+      "h1": "Pro MKV -videokompressori",
+      "heroText": "Pienennä helposti suuria MKV-elokuvia ja -tallenteita. Pienennä MKV-säiliön kokoa sekunneissa korkealaatuisen visuaalisen säilytyksen avulla.",
+      "introText": "MKV on tehokas kontti, joka sisältää usein teräväpiirtoelokuvia, joissa on useita ääniraitoja. Kompressorimme kutistaa raskaat MKV-tiedostot poistamatta tärkeitä kappaleita tai tekstityksiä.",
+      "features": [
+        {
+          "title": "HD-säilytys",
+          "desc": "Säilyttää täyden resoluution ja teräväpiirtovideon selkeyden."
+        },
+        {
+          "title": "Multi-Track Ready",
+          "desc": "Pakkaa videovirran pitäen ääni-/tekstityskartoituksen ennallaan."
+        },
+        {
+          "title": "Paikallinen käsittely",
+          "desc": "Nolla palvelinlatausta tarkoittaa 100 % turvallista ja välitöntä käsittelyä."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Tuo MKV",
+          "desc": "Valitse raskas MKV-tiedosto paikallisesta tallennustilasta."
+        },
+        {
+          "title": "Valitse tulostuskoko",
+          "desc": "Määritä kohdetiedostokoko megatavuina."
+        },
+        {
+          "title": "Vie MKV",
+          "desc": "Tallenna pakattu MKV-videosi välittömästi."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Tukeeko se 4K MKV -tiedostoja?",
+          "a": "Kyllä, käsittelemme raaka- ja 4K MKV-tiedostoja, jotka on kaapattu kameroista tai suoratoistosta."
+        },
+        {
+          "q": "Onko tiedostoni ladattu?",
+          "a": "Ei, kaikki pakkaus tapahtuu selaimesi sisällä paikallisesti."
+        }
+      ]
+    },
+    "webm": {
+      "title": "Pakkaa WebM Online - Optimoi WebM-videot HTML5:lle",
+      "description": "Pakkaa WebM-videoita verkossa ilmaiseksi. Pienennä WebM-tiedoston kokoa nopeuttaaksesi verkkosivustojen latautumista ja HTML5-verkkovirran optimointia. Nopea ja turvallinen.",
+      "h1": "HTML5 WebM Video Compressor",
+      "heroText": "Optimoi WebM-tiedostot nopeaa verkkosivuston suorituskykyä varten. Pienennä tiedostokokoa parantaaksesi verkkosivuston latausnopeuksia ja käyttökokemusta.",
+      "introText": "WebM on nykyaikaisen, nopean HTML5-verkkovideon vakiomuoto. Optimoijamme hienosäätää WebM-koodauksen bittinopeudet tarjotakseen ehdottoman kevyimpiä verkkovalmiita tiedostoja.",
+      "features": [
+        {
+          "title": "Web Optimoitu",
+          "desc": "Suunniteltu erityisesti verkkokehittäjille ja nopeille sivuston latausajoille."
+        },
+        {
+          "title": "VP8/VP9 tuki",
+          "desc": "Tukee täysin nykyaikaisia ​​VP8- ja VP9-videokoodekkeja."
+        },
+        {
+          "title": "Suojattu käsittely",
+          "desc": "Paikallinen selaimen suoritus pitää verkkosisältösi 100 % yksityisenä."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Lataa WebM",
+          "desc": "Vedä ja pudota WebM-sisältösi työkaluun."
+        },
+        {
+          "title": "Valitse kohdekoko",
+          "desc": "Aseta ihanteellinen tulostuskoko sivun latausaikojen minimoimiseksi."
+        },
+        {
+          "title": "Tallenna optimoitu tiedosto",
+          "desc": "Lataa suoratoistokelpoinen WebM välittömästi."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Voinko pakata WebM:n läpinäkyvyydellä?",
+          "a": "Kyllä, kompressorimme säilyttää alfakanavan läpinäkyvyyden WebM-tiedostoissa."
+        },
+        {
+          "q": "Miksi minun pitäisi pakata WebM verkkosivustoille?",
+          "a": "Pienemmät videotiedostot parantavat PageSpeed-pisteitä ja käyttäjien pysyvyyttä."
+        }
+      ]
+    },
+    "video-for-instagram": {
+      "title": "Pakkaa video Instagram Onlineen - Kelojen ja tarinoiden optimointi",
+      "description": "Pakkaa videoita Instagramiin verkossa ilmaiseksi. Pienennä keloja, tarinoita ja julkaisuja niin, että ne sopivat Instagramin latausrajoihin täydellisesti ilman laadun hämärtymistä.",
+      "h1": "Instagram-videokompressori",
+      "heroText": "Vältä epäselviä latauksia Instagramissa. Pakkaa rullasi, IGTV:si ja tarinasi saavuttaaksesi Instagramin tiukat tiedot täydellisesti.",
+      "introText": "Instagram pakkaa automaattisesti raa'at videolataukset, mikä usein johtaa pikselöityihin tai epäselviin keloihin. Esipakkauksella työkalullamme säilytät syötteen HD-visuaalisen laadun.",
+      "features": [
+        {
+          "title": "Kelat optimoitu",
+          "desc": "Täydellinen pystysuoraan 9:16 asetteluun ja rullien latauksiin."
+        },
+        {
+          "title": "HD-syötteen laatu",
+          "desc": "Pakottaa Instagramin algoritmin pitämään videosi terävänä."
+        },
+        {
+          "title": "Mobiiliystävällinen",
+          "desc": "Pakkaa suoraan iPhone- tai Android-selaimesta."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Lataa Instagram-video",
+          "desc": "Valitse pystysuora kela tai postitiedosto."
+        },
+        {
+          "title": "Käytä HD-esiasetusta",
+          "desc": "Optimoi bittinopeudet vastaamaan Instagramin standarditietoja."
+        },
+        {
+          "title": "Lataa ja lähetä",
+          "desc": "Vie ja lataa Instagramiin upealla laadulla."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Mikä on paras muoto Instagramille?",
+          "a": "MP4 H.264-koodekilla ja AAC-äänellä on ihanteellinen muoto Instagram-latauksille."
+        },
+        {
+          "q": "Miksi Instagram tekee videostani epäselvän?",
+          "a": "Jos tiedostosi on liian painava, Instagram pakkaa sen aggressiivisesti. Esipuristamalla se pysyy raikkaana."
+        }
+      ]
+    },
+    "video-for-slack": {
+      "title": "Pakkaa video Slack Onlinelle - Jaa suuria videoita nopeasti",
+      "description": "Pakkaa Slackin videoita verkossa. Pienennä tiedostoja Slackin ilmaisten latausrajoitusten alle nopeaa tiimin jakamista varten. Korkealaatuinen Slack-videon koon pienennys.",
+      "h1": "Slack Video Compressor",
+      "heroText": "Jaa videoita Slack-kanavilla ylittämättä latausrajoja. Pienennä MP4- ja MOV-leikkeet nopeaa viestintää varten.",
+      "introText": "Slackilla on tiukka tiedostokokorajoitus ilmaisille työtiloille. Työkalumme optimoi työleikkeet, näyttötallenteet ja opetusohjelmat niin, että ne ladataan välittömästi mille tahansa kanavalle.",
+      "features": [
+        {
+          "title": "Slack-yhteensopiva",
+          "desc": "Pienennä leikkeiden kokoa helposti ilmaisen Slackin latausrajan alle."
+        },
+        {
+          "title": "Nopea jakaminen",
+          "desc": "Pienemmät tiedostot tarkoittavat nopeampaa latausta ja nopeampaa toistoa tiimin jäsenille."
+        },
+        {
+          "title": "100 % luottamuksellinen",
+          "desc": "Suojattu selainkäsittely varmistaa, että työtiedostot pysyvät yksityisinä."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Valitse Slack Video",
+          "desc": "Valitse työleike tai esittelyvideo."
+        },
+        {
+          "title": "Pienennä tiedoston kokoa",
+          "desc": "Pienennä se Slack-tiedostorajan alapuolelle."
+        },
+        {
+          "title": "Lataa kanavalle",
+          "desc": "Lataa ja jaa suoraan Slack-chatissasi."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Mikä on Slackin tiedostorajoitus?",
+          "a": "Slack-vapaiden työtilojen tiedostorajoitus on 1 Gt, mutta lataukset ovat paljon nopeampia, kun ne pidetään pieninä."
+        },
+        {
+          "q": "Voinko pakata näyttötallenteet?",
+          "a": "Kyllä, tuemme MP4-, WebM- ja MOV-kuvakaappausten pakkaamista."
+        }
+      ]
+    },
+    "video-for-teams": {
+      "title": "Pakkaa video MS Teamsille - Jaa suuria videoita tiimeissä",
+      "description": "Pakkaa videoita Microsoft Teamsille verkossa. Pienennä raskaita kokoustallenteita ja esityksiä ohittaaksesi Teamsin tiedostojen jakorajat. Ilmainen ja nopea.",
+      "h1": "Microsoft Teams Video Compressor",
+      "heroText": "Jaa raskaat esitykset ja tallenteet Microsoft Teamsissa. Pakkaa videot niin, että ne sopivat täydellisesti Teamsin keskusteluihin ja kanavarajoihin.",
+      "introText": "Microsoft Teams on elintärkeä yritysyhteistyölle, mutta raskaiden raakavideoiden jakaminen voi olla hidasta. Työkalumme pienentää videon kokoa, jotta voit tehdä yhteistyötä välittömästi ja sujuvasti.",
+      "features": [
+        {
+          "title": "Teams Optimized",
+          "desc": "Pienennä esitykset yrityksen sähköpostiin tai Teams-chatiin sopivaksi."
+        },
+        {
+          "title": "Teräväpiirto",
+          "desc": "Pitää esityksen diat ja tekstin täydellisesti luettavissa."
+        },
+        {
+          "title": "Enterprise Security",
+          "desc": "Paikallinen selaimen pakkaus tarkoittaa, ettei yritystietovuotoja."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Valitse Teams Recording",
+          "desc": "Tuo kokouskaappaus tai demo."
+        },
+        {
+          "title": "Valitse tulostuskoko",
+          "desc": "Aseta kevyt kohde jakamista varten."
+        },
+        {
+          "title": "Lataa ja jaa",
+          "desc": "Hanki optimoitu tiedosto ja lähetä se Teamsiin."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Pysyykö esitykseni teksti luettavissa?",
+          "a": "Kyllä, asetamme tekstin selkeyden etusijalle, jotta diat pysyvät terävinä."
+        },
+        {
+          "q": "Onko se turvallista yritystiedostoille?",
+          "a": "Kyllä, tiedostoja ei ladata millekään palvelimelle. Kaikki käsittely on paikallista."
+        }
+      ]
+    },
+    "video-for-facebook": {
+      "title": "Pakkaa video Facebookille - Pienennä videoita FB-latausta varten",
+      "description": "Pakkaa videoita Facebookiin verkossa ilmaiseksi. Pienennä FB-viestien, mainosten ja kansivideoiden tiedostokokoa laadun heikkenemättä. Nopea selaintyökalu.",
+      "h1": "Facebook Video Compressor",
+      "heroText": "Optimoi videosi Facebook-syötteitä ja mainoksia varten. Kutista MP4-tiedostoja latautuaksesi nopeammin ja säilyttääksesi teräväpiirton syötteen laadun.",
+      "introText": "Hitaasti latautuvat videot Facebookissa vahingoittavat sitoutumista ja mainosten konversioita. Facebook-videoidesi esipakkaus parantaa latausaikoja ja takaa korkean katsojamäärän.",
+      "features": [
+        {
+          "title": "Mainos optimoitu",
+          "desc": "Pienentää mainostiedostojen kokoa nopeamman toimituksen ja alhaisemman poistumisprosentin vuoksi."
+        },
+        {
+          "title": "Kansi valmis",
+          "desc": "Täydelliset tiedot Facebook-sivun kansivideoille."
+        },
+        {
+          "title": "Pikakäsittely",
+          "desc": "Suora selainkoodaus, ei palvelimen latausviiveitä."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Lataa Facebook-video",
+          "desc": "Vedä ja pudota viestisi tai mainosvideosi."
+        },
+        {
+          "title": "Noudata FB-ohjeita",
+          "desc": "Optimoi bittinopeudet tavallisille sosiaalisille syötteille."
+        },
+        {
+          "title": "Vie ja lataa",
+          "desc": "Lataa kevyt tiedosto ja julkaise se Facebookissa."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Mikä on Facebook-tiedoston kokorajoitus?",
+          "a": "Facebook tukee jopa 10 Gt, mutta pienet videot toimivat paljon paremmin."
+        },
+        {
+          "q": "Tukeeko se Facebook-mainoksia?",
+          "a": "Kyllä, työkalumme on erittäin suositeltavaa Facebook-mainoskampanjan resurssien optimointiin."
+        }
+      ]
     }
   }
 }

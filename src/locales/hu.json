@@ -1337,6 +1337,321 @@
           "a": "Az MP4 és a MOV függőleges 9:16 képarányban ideális formátumok a TikTok számára."
         }
       ]
+    },
+    "avi": {
+      "title": "AVI online tömörítése – Csökkentse az AVI fájl méretét minőségromlás nélkül",
+      "description": "Ingyenesen tömörítse az AVI-videókat online. Csökkentse gyorsan az AVI fájl méretét a nagy hatékonyságú audio-video tömörítéssel. Nincs minőségromlás, biztonságos böngésző alapú eszköz.",
+      "h1": "Fast AVI Video Compressor",
+      "heroText": "Zsugorítsa össze a nehéz AVI fájlokat másodpercek alatt. A kiváló minőségű AVI-videók tökéletes megjelenését biztosítják, miközben akár 80%-os tárhelyet takarítanak meg.",
+      "introText": "Az AVI-fájlok kiváló videóminőségükről ismertek, de hihetetlenül nehezek lehetnek, és hatalmas tárhelyet foglalnak el. Intelligens böngésző tömörítőnk optimalizálja az AVI bitrátát, és könnyedén továbbítja azokat.",
+      "features": [
+        {
+          "title": "Nincs minőségromlás",
+          "desc": "A fejlett libx264 kódolás biztosítja, hogy az AVI éles maradjon."
+        },
+        {
+          "title": "Magas tömörítés",
+          "desc": "Akár 80%-kal csökkenti az AVI tároló rezsijét."
+        },
+        {
+          "title": "Első az adatvédelem",
+          "desc": "A fájlok soha nem hagyják el a böngészőt. 100%-ban biztonságos feldolgozás."
+        }
+      ],
+      "steps": [
+        {
+          "title": "AVI feltöltése",
+          "desc": "Húzza át az AVI fájlt a tömörítő dobozba."
+        },
+        {
+          "title": "Célméret beállítása",
+          "desc": "Válassza ki a kívánt kimeneti méretet MB-ban."
+        },
+        {
+          "title": "Tömörítés és mentés",
+          "desc": "Azonnal töltse le optimalizált AVI-ját."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Az AVI-m minősége romlik?",
+          "a": "Nem, eszközünk nagy vizuális tisztaságot biztosít a konténer bitsebességének veszteségmentes beállításával."
+        },
+        {
+          "q": "Van-e fájlméret korlátozás?",
+          "a": "Ingyenesen tömörítheti az AVI fájlokat 5 GB-ig."
+        }
+      ]
+    },
+    "mkv": {
+      "title": "MKV online tömörítése - MKV fájlok zsugorítása minőségromlás nélkül",
+      "description": "MKV videók online tömörítése ingyen. Csökkentse a nehéz MKV-fájlok méretét, miközben megőrzi a többsávos hang- és feliratfolyamokat. Biztonságos és gyors böngésző eszköz.",
+      "h1": "Pro MKV Video Compressor",
+      "heroText": "Egyszerűen csökkentheti a nagyméretű MKV filmeket és felvételeket. Csökkentse az MKV tartály méretét másodpercek alatt a nagy pontosságú vizuális megőrzéssel.",
+      "introText": "Az MKV egy nagy teljesítményű konténer, amely gyakran tartalmaz nagyfelbontású filmeket több hangsávval. Tömörítőnk zsugorítja a nehéz MKV fájlokat anélkül, hogy eltávolítaná a lényeges számokat vagy feliratokat.",
+      "features": [
+        {
+          "title": "HD megőrzés",
+          "desc": "Megőrzi a teljes felbontást és a nagy felbontású videó tisztaságát."
+        },
+        {
+          "title": "Multi-Track Ready",
+          "desc": "Tömöríti a videofolyamot, miközben érintetlenül tartja a hang-/feliratleképezést."
+        },
+        {
+          "title": "Helyi feldolgozás",
+          "desc": "A nulla szerverfeltöltés 100%-ban biztonságos és azonnali feldolgozást jelent."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Import MKV",
+          "desc": "Válassza ki a nehéz MKV fájlt a helyi tárhelyről."
+        },
+        {
+          "title": "Válassza ki a kimeneti méretet",
+          "desc": "Határozza meg a célfájl méretét MB-ban."
+        },
+        {
+          "title": "Export MKV",
+          "desc": "Azonnal mentse el tömörített MKV-videóját."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Támogatja a 4K MKV fájlokat?",
+          "a": "Igen, kezelünk nyers és 4K MKV fájlokat, amelyeket kamerákkal vagy streameléssel rögzítettek."
+        },
+        {
+          "q": "Fel vannak töltve a fájljaim?",
+          "a": "Nem, minden tömörítés helyileg a böngészőben történik."
+        }
+      ]
+    },
+    "webm": {
+      "title": "WebM Online tömörítése – WebM-videók optimalizálása HTML5-höz",
+      "description": "WebM videók online tömörítése ingyen. Csökkentse a WebM fájl méretét a gyorsabb webhelybetöltés és a HTML5 webes adatfolyam optimalizálása érdekében. Gyors és biztonságos.",
+      "h1": "HTML5 WebM Video Compressor",
+      "heroText": "Optimalizálja a WebM-fájlokat a nagy sebességű webhelyteljesítmény érdekében. Csökkentse a fájlméretet a webhely betöltési sebességének és a felhasználói élmény javítása érdekében.",
+      "introText": "A WebM a modern, nagy sebességű HTML5 webvideók szabványos formátuma. Optimalizálónk finomhangolja a WebM kódolási bitrátát, hogy az abszolút legkönnyebb webre alkalmas fájlokat biztosítsa.",
+      "features": [
+        {
+          "title": "Web Optimalizált",
+          "desc": "Kifejezetten webfejlesztőknek és gyors webhelybetöltési időknek készült."
+        },
+        {
+          "title": "VP8/VP9 támogatás",
+          "desc": "Teljes mértékben támogatja a modern VP8 és VP9 videokodekeket."
+        },
+        {
+          "title": "Biztonságos feldolgozás",
+          "desc": "A helyi böngésző futtatása 100%-ban privátban tartja webes eszközeit."
+        }
+      ],
+      "steps": [
+        {
+          "title": "WebM feltöltése",
+          "desc": "Húzza át a WebM-eszközöket az eszközbe."
+        },
+        {
+          "title": "Válassza ki a célméretet",
+          "desc": "Állítsa be az ideális kimeneti méretet az oldalbetöltési idő minimalizálása érdekében."
+        },
+        {
+          "title": "Optimalizált fájl mentése",
+          "desc": "Azonnal töltse le streamelhető WebM-jét."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Tömöríthetem a WebM-et átlátszósággal?",
+          "a": "Igen, a tömörítőnk megőrzi az alfa-csatorna átláthatóságát a WebM-fájlokban."
+        },
+        {
+          "q": "Miért tömörítsem a WebM-et webhelyekhez?",
+          "a": "A kisebb videofájlok javítják a PageSpeed ​​pontszámát és a felhasználók megtartását."
+        }
+      ]
+    },
+    "video-for-instagram": {
+      "title": "Videó tömörítése az Instagram Online számára – Reels & Stories Optimizer",
+      "description": "Videók tömörítése az Instagramhoz online ingyen. Zsugorítsa össze a tekercseket, történeteket és bejegyzéseket, hogy tökéletesen illeszkedjenek az Instagram feltöltési korlátaihoz, minőségi elmosódás nélkül.",
+      "h1": "Instagram Video Compressor",
+      "heroText": "Kerülje el az elmosódott feltöltéseket az Instagramon. Tömörítse össze tekercseit, IGTV-jét és történeteit, hogy tökéletes tisztasággal találja meg az Instagram szigorú specifikációit.",
+      "introText": "Az Instagram automatikusan tömöríti a nyers videófeltöltéseket, ami gyakran pixeles vagy elmosódott tekercseket eredményez. Az eszközünkkel végzett előtömörítéssel HD képminőséget tart fenn a feeden.",
+      "features": [
+        {
+          "title": "Orsók optimalizálva",
+          "desc": "Tökéletes függőleges 9:16-os elrendezéshez és orsók feltöltéséhez."
+        },
+        {
+          "title": "HD feed minőség",
+          "desc": "Kényszeríti az Instagram algoritmusát, hogy a videó éles legyen."
+        },
+        {
+          "title": "Mobilbarát",
+          "desc": "Tömörítse közvetlenül iPhone vagy Android böngészőjéből."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Instagram-videó feltöltése",
+          "desc": "Válassza ki a függőleges tekercset vagy a bejegyzésfájlt."
+        },
+        {
+          "title": "HD Preset alkalmazása",
+          "desc": "Optimalizálja a bitrátát, hogy megfeleljen az Instagram szabványos specifikációinak."
+        },
+        {
+          "title": "Letöltés és közzététel",
+          "desc": "Exportáld és töltsd fel az Instagramba lenyűgöző minőségben."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Melyik a legjobb formátum az Instagram számára?",
+          "a": "Az MP4 H.264 kodekkel és AAC hanggal az ideális formátum az Instagram-feltöltésekhez."
+        },
+        {
+          "q": "Miért teszi homályossá az Instagram a videómat?",
+          "a": "Ha a fájl túl nehéz, az Instagram agresszíven tömöríti azt. Előzetes tömörítéssel ropogós marad."
+        }
+      ]
+    },
+    "video-for-slack": {
+      "title": "Videó tömörítése a Slack Online-hoz – Nagy videók gyors megosztása",
+      "description": "Videók tömörítése a Slack online számára. Csökkentse a fájlokat a Slack ingyenes feltöltési korlátai alatt a gyors csapatmegosztás érdekében. Kiváló minőségű Slack videó méret csökkentő.",
+      "h1": "Slack Video Compressor",
+      "heroText": "Ossza meg videókat a Slack-csatornákon a feltöltési korlátok elérése nélkül. Csökkentse MP4 és MOV klipjeit a gyors kommunikáció érdekében.",
+      "introText": "A Slack szigorú fájlméret-korlátozást ír elő az ingyenes munkaterületekre. Eszközünk optimalizálja a munkaklipeket, képernyőfelvételeket és oktatóanyagokat, így azok azonnal feltölthetők bármely csatornára.",
+      "features": [
+        {
+          "title": "Slack kompatibilis",
+          "desc": "Egyszerűen csökkentheti a klipek méretét az ingyenes Slack feltöltési korlát alá."
+        },
+        {
+          "title": "Gyors megosztás",
+          "desc": "A kisebb fájlok gyorsabb feltöltést és gyorsabb lejátszást jelentenek a csapattagok számára."
+        },
+        {
+          "title": "100%-ban bizalmas",
+          "desc": "A biztonságos böngészőfeldolgozás biztosítja, hogy a munkafájlok privátak maradjanak."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Válassza a Slack Video",
+          "desc": "Válassza ki a munkaklipet vagy a bemutatóvideót."
+        },
+        {
+          "title": "Fájlméret csökkentése",
+          "desc": "Csökkentse a Slack fájlkorlát alá."
+        },
+        {
+          "title": "Feltöltés a csatornára",
+          "desc": "Töltse le és ossza meg közvetlenül a Slack chatben."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Mi a Slack fájlkorlátja?",
+          "a": "A laza szabad munkaterületek fájlkorlátja 1 GB, de a feltöltések sokkal gyorsabbak, ha kicsiben tartják őket."
+        },
+        {
+          "q": "Tömöríthetem a képernyőfelvételeket?",
+          "a": "Igen, támogatjuk az MP4, WebM és MOV képernyőképek tömörítését."
+        }
+      ]
+    },
+    "video-for-teams": {
+      "title": "Videó tömörítése MS Teams számára – Nagy videók megosztása csapatokban",
+      "description": "Tömörítsen videókat a Microsoft Teams számára online. Csökkentse a nehéz értekezletek felvételeit és prezentációit, hogy megkerülje a Teams fájlmegosztási korlátait. Ingyenes és gyors.",
+      "h1": "Microsoft Teams Video Compressor",
+      "heroText": "Ossza meg nehéz prezentációit és felvételeit a Microsoft Teamsben. Tömörítse a videókat, hogy tökéletesen illeszkedjenek a Teams csevegési és csatornakorlátaihoz.",
+      "introText": "A Microsoft Teams elengedhetetlen a vállalati együttműködéshez, de a nehéz nyers videók megosztása lassú lehet. Eszközünk csökkenti a videó méretét, így azonnal és zökkenőmentesen dolgozhat együtt.",
+      "features": [
+        {
+          "title": "Teams Optimized",
+          "desc": "Lekicsinyített prezentációk a vállalati e-mailekhez vagy a Teams chathez."
+        },
+        {
+          "title": "Nagy felbontású",
+          "desc": "Tökéletesen olvashatóan tartja a prezentáció diákjait és szövegét."
+        },
+        {
+          "title": "Vállalati biztonság",
+          "desc": "A helyi böngésző tömörítése azt jelenti, hogy nem szivárognak ki vállalati adatok."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Válassza a Teams Recording",
+          "desc": "Importálja a találkozó rögzítését vagy bemutatóját."
+        },
+        {
+          "title": "Válassza ki a kimeneti méretet",
+          "desc": "Állítson be egy könnyű célt az egyszerű megosztáshoz."
+        },
+        {
+          "title": "Letöltés és megosztás",
+          "desc": "Szerezze be az optimalizált fájlt, és küldje el a Teamsbe."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Olvasható marad a bemutatóm szövege?",
+          "a": "Igen, előnyben részesítjük a szöveg tisztaságát, hogy a diák éles maradjon."
+        },
+        {
+          "q": "Biztonságos a céges akták számára?",
+          "a": "Igen, nincs fájl feltöltve egyetlen szerverre sem. Minden feldolgozás helyi."
+        }
+      ]
+    },
+    "video-for-facebook": {
+      "title": "Videó tömörítése a Facebookhoz – Videók zsugorítása FB-feltöltéshez",
+      "description": "Tömörítsen videókat a Facebookhoz online ingyen. Csökkentse az FB-bejegyzések, hirdetések és borítóvideók fájlméretét minőségromlás nélkül. Gyors böngésző eszköz.",
+      "h1": "Facebook Video Compressor",
+      "heroText": "Optimalizálja videóit Facebook-hírcsatornákhoz és hirdetésekhez. Csökkentse az MP4 fájlokat a gyorsabb betöltéshez és a nagyfelbontású feed minőségének megőrzéséhez.",
+      "introText": "A Facebookon lassan betöltődő videók rontják az elköteleződést és a hirdetéskonverziókat. A Facebook-videók előtömörítése javítja a betöltési időt, és garantálja a magas nézői megtartást.",
+      "features": [
+        {
+          "title": "Hirdetés optimalizálva",
+          "desc": "Csökkenti a hirdetésfájlok méretét a gyorsabb megjelenítés és az alacsonyabb visszafordulási arány érdekében."
+        },
+        {
+          "title": "Borító kész",
+          "desc": "Tökéletes specifikációk a Facebook oldal borítóvideóihoz."
+        },
+        {
+          "title": "Azonnali feldolgozás",
+          "desc": "Közvetlen böngészőkódolás, nincs szerver feltöltési késés."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Facebook-videó feltöltése",
+          "desc": "Húzza át a bejegyzést vagy a hirdetési videót."
+        },
+        {
+          "title": "Alkalmazza az FB irányelveit",
+          "desc": "Optimalizálja a bitrátát a szabványos közösségi hírcsatornákhoz."
+        },
+        {
+          "title": "Exportálás és feltöltés",
+          "desc": "Töltse le a könnyű fájlt, és tegye közzé a Facebookon."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Mi a Facebook-fájl méretkorlátja?",
+          "a": "A Facebook akár 10 GB-ot is támogat, de a kis videók sokkal jobban teljesítenek."
+        },
+        {
+          "q": "Támogatja a Facebook hirdetéseket?",
+          "a": "Igen, eszközünket erősen ajánljuk a Facebook hirdetési kampányok eszközeinek optimalizálásához."
+        }
+      ]
     }
   }
 }

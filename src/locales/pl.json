@@ -1337,6 +1337,321 @@
           "a": "MP4 i MOV w pionowych proporcjach 9:16 to idealne formaty dla TikTok."
         }
       ]
+    },
+    "avi": {
+      "title": "Kompresuj AVI online — zmniejsz rozmiar pliku AVI bez utraty jakości",
+      "description": "Kompresuj filmy AVI online za darmo. Szybko zmniejsz rozmiar pliku AVI dzięki wysokowydajnej kompresji audio-wideo. Bez utraty jakości, bezpieczne narzędzie oparte na przeglądarce.",
+      "h1": "Szybki kompresor wideo AVI",
+      "heroText": "Zmniejsz duże pliki AVI w ciągu kilku sekund. Zachowaj doskonały wygląd wysokiej jakości filmów AVI, oszczędzając do 80% miejsca na dysku.",
+      "introText": "Pliki AVI są znane z wysokiej jakości wideo, ale mogą być niewiarygodnie ciężkie i zajmować dużo miejsca. Nasz inteligentny kompresor przeglądarki optymalizuje przepływność AVI i przesyła je bez wysiłku.",
+      "features": [
+        {
+          "title": "Bez utraty jakości",
+          "desc": "Zaawansowane kodowanie libx264 gwarantuje, że Twój plik AVI pozostanie wyraźny."
+        },
+        {
+          "title": "Wysoka kompresja",
+          "desc": "Zmniejsza obciążenie kontenera AVI nawet o 80%."
+        },
+        {
+          "title": "Najpierw prywatność",
+          "desc": "Twoje pliki nigdy nie opuszczają przeglądarki. 100% bezpieczne przetwarzanie."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Prześlij plik AVI",
+          "desc": "Przeciągnij i upuść plik AVI do okna kompresora."
+        },
+        {
+          "title": "Ustaw rozmiar docelowy",
+          "desc": "Wybierz żądany rozmiar wyjściowy w MB."
+        },
+        {
+          "title": "Kompresuj i zapisuj",
+          "desc": "Natychmiast pobierz zoptymalizowany plik AVI."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Czy mój plik AVI straci jakość?",
+          "a": "Nie, nasze narzędzie utrzymuje wysoką klarowność wizualną, dostosowując bezstratnie przepływność kontenera."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Możesz bezpłatnie kompresować pliki AVI do 5 GB."
+        }
+      ]
+    },
+    "mkv": {
+      "title": "Kompresuj MKV Online — zmniejszaj pliki MKV bez utraty jakości",
+      "description": "Kompresuj filmy MKV online za darmo. Zmniejsz duże rozmiary plików MKV, zachowując wielościeżkowe strumienie audio i napisów. Bezpieczne i szybkie narzędzie przeglądarki.",
+      "h1": "Kompresor wideo Pro MKV",
+      "heroText": "Z łatwością zmniejszaj duże filmy i nagrania MKV. Zmniejsz rozmiar kontenera MKV w ciągu kilku sekund, zachowując jakość wizualną.",
+      "introText": "MKV to potężny kontener, w którym często znajdują się filmy w wysokiej rozdzielczości z wieloma ścieżkami audio. Nasz kompresor zmniejsza duże pliki MKV bez usuwania najważniejszych ścieżek i napisów.",
+      "features": [
+        {
+          "title": "Konserwacja HD",
+          "desc": "Zachowuje pełną rozdzielczość i klarowność wideo w wysokiej rozdzielczości."
+        },
+        {
+          "title": "Gotowość do obsługi wielu ścieżek",
+          "desc": "Kompresuje strumień wideo, zachowując nienaruszone mapowanie audio/napisów."
+        },
+        {
+          "title": "Przetwarzanie lokalne",
+          "desc": "Zero przesyłania plików na serwer oznacza 100% bezpieczeństwo i natychmiastowe przetwarzanie."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Importuj MKV",
+          "desc": "Wybierz ciężki plik MKV z lokalnej pamięci."
+        },
+        {
+          "title": "Wybierz Rozmiar wyjściowy",
+          "desc": "Zdefiniuj docelowy rozmiar pliku w MB."
+        },
+        {
+          "title": "Eksportuj MKV",
+          "desc": "Natychmiast zapisuj skompresowany film MKV."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Czy obsługuje pliki 4K MKV?",
+          "a": "Tak, obsługujemy pliki surowe i 4K MKV przechwycone z kamer lub przesyłane strumieniowo."
+        },
+        {
+          "q": "Czy moje pliki zostały przesłane?",
+          "a": "Nie, cała kompresja odbywa się lokalnie w przeglądarce."
+        }
+      ]
+    },
+    "webm": {
+      "title": "Kompresuj WebM Online — Optymalizuj filmy WebM pod kątem HTML5",
+      "description": "Kompresuj filmy WebM online za darmo. Zmniejsz rozmiar pliku WebM, aby przyspieszyć ładowanie witryny i optymalizację strumienia internetowego HTML5. Szybko i bezpiecznie.",
+      "h1": "Kompresor wideo HTML5 WebM",
+      "heroText": "Optymalizuj pliki WebM pod kątem dużej szybkości działania witryny. Zmniejsz rozmiar pliku, aby poprawić prędkość ładowania witryny i wygodę użytkownika.",
+      "introText": "WebM to standardowy format nowoczesnego, szybkiego wideo internetowego HTML5. Nasz optymalizator dostraja szybkość transmisji bitów kodowania WebM, aby zapewnić absolutnie najlżejsze pliki gotowe do publikacji w Internecie.",
+      "features": [
+        {
+          "title": "Zoptymalizowany dla sieci",
+          "desc": "Zaprojektowany specjalnie dla twórców stron internetowych i zapewnia szybki czas ładowania witryny."
+        },
+        {
+          "title": "Obsługa VP8/VP9",
+          "desc": "W pełni obsługuje nowoczesne kodeki wideo VP8 i VP9."
+        },
+        {
+          "title": "Bezpieczne przetwarzanie",
+          "desc": "Wykonanie w lokalnej przeglądarce zapewnia 100% prywatności Twoich zasobów internetowych."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Prześlij WebM",
+          "desc": "Przeciągnij i upuść zasoby WebM do narzędzia."
+        },
+        {
+          "title": "Wybierz Rozmiar docelowy",
+          "desc": "Ustaw idealny rozmiar wyjściowy, aby zminimalizować czas ładowania strony."
+        },
+        {
+          "title": "Zapisz zoptymalizowany plik",
+          "desc": "Natychmiast pobierz swój strumieniowy WebM."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Czy mogę skompresować WebM z przezroczystością?",
+          "a": "Tak, nasz kompresor zachowuje przezroczystość kanału alfa w plikach WebM."
+        },
+        {
+          "q": "Dlaczego powinienem kompresować WebM dla stron internetowych?",
+          "a": "Mniejsze pliki wideo poprawiają wyniki PageSpeed ​​i utrzymanie użytkowników."
+        }
+      ]
+    },
+    "video-for-instagram": {
+      "title": "Kompresuj wideo dla Instagram Online - Optymalizator rolek i historii",
+      "description": "Kompresuj filmy na Instagram online za darmo. Zmniejsz klisze, historie i posty, aby idealnie dopasować je do limitów przesyłania na Instagramie, bez rozmycia jakości.",
+      "h1": "Kompresor wideo na Instagramie",
+      "heroText": "Unikaj niewyraźnych filmów na Instagramie. Kompresuj swoje Reels, IGTV i Stories, aby spełnić rygorystyczne wymagania Instagrama z doskonałą przejrzystością.",
+      "introText": "Instagram automatycznie kompresuje przesyłane nieprzetworzone wideo, co często skutkuje rozpikselowaniem lub rozmyciem szpul. Dzięki wstępnej kompresji za pomocą naszego narzędzia możesz zachować jakość obrazu HD w kanale.",
+      "features": [
+        {
+          "title": "Kołowrotki zoptymalizowane",
+          "desc": "Idealny do specyfikacji układu pionowego 9:16 i przesyłania rolek."
+        },
+        {
+          "title": "Jakość kanału HD",
+          "desc": "Wymusza algorytm Instagrama, aby Twój film był ostry."
+        },
+        {
+          "title": "Przyjazny dla urządzeń mobilnych",
+          "desc": "Kompresuj bezpośrednio z przeglądarki iPhone'a lub Androida."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Prześlij film na Instagram",
+          "desc": "Wybierz pionową rolkę lub plik pocztowy."
+        },
+        {
+          "title": "Zastosuj ustawienie wstępne HD",
+          "desc": "Zoptymalizuj przepływność, aby dopasować ją do standardowej specyfikacji Instagrama."
+        },
+        {
+          "title": "Pobierz i opublikuj",
+          "desc": "Eksportuj i przesyłaj na Instagram w oszałamiającej jakości."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Jaki jest najlepszy format na Instagramie?",
+          "a": "MP4 z kodekiem H.264 i dźwiękiem AAC to idealny format do przesyłania na Instagram."
+        },
+        {
+          "q": "Dlaczego Instagram sprawia, że ​​mój film jest rozmazany?",
+          "a": "Jeśli Twój plik jest zbyt ciężki, Instagram kompresuje go agresywnie. Dzięki wstępnemu skompresowaniu pozostaje ostry."
+        }
+      ]
+    },
+    "video-for-slack": {
+      "title": "Kompresuj wideo dla Slack Online — szybko udostępniaj duże filmy",
+      "description": "Kompresuj filmy dla Slacka online. Zmniejsz pliki w ramach limitów bezpłatnego przesyłania Slacka, aby szybko udostępniać pliki w zespole. Wysokiej jakości reduktor rozmiaru wideo Slack.",
+      "h1": "Kompresor wideo Slack",
+      "heroText": "Udostępniaj filmy na kanałach Slack bez przekraczania limitów przesyłania. Zmniejsz pliki MP4 i MOV, aby zapewnić szybką komunikację.",
+      "introText": "Slack ma ścisły limit rozmiaru plików dla bezpłatnych obszarów roboczych. Nasze narzędzie optymalizuje klipy robocze, nagrania ekranu i samouczki, dzięki czemu można je natychmiast przesyłać na dowolny kanał.",
+      "features": [
+        {
+          "title": "Kompatybilny ze Slackiem",
+          "desc": "Z łatwością zmniejsz rozmiar klipów w ramach bezpłatnego limitu przesyłania w Slacku."
+        },
+        {
+          "title": "Szybkie udostępnianie",
+          "desc": "Mniejsze pliki oznaczają szybsze przesyłanie i szybsze odtwarzanie dla członków zespołu."
+        },
+        {
+          "title": "100% poufne",
+          "desc": "Bezpieczne przetwarzanie w przeglądarce gwarantuje, że pliki służbowe pozostaną prywatne."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Wybierz Slack Video",
+          "desc": "Wybierz klip roboczy lub film demonstracyjny."
+        },
+        {
+          "title": "Zmniejsz rozmiar pliku",
+          "desc": "Zmniejsz go poniżej limitu pliku Slack."
+        },
+        {
+          "title": "Prześlij na kanał",
+          "desc": "Pobierz i udostępnij bezpośrednio na czacie Slack."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Jaki jest limit plików na Slacku?",
+          "a": "W obszarach roboczych wolnych od Slack limit plików wynosi 1 GB, ale przesyłanie jest znacznie szybsze, jeśli są małe."
+        },
+        {
+          "q": "Czy mogę kompresować nagrania ekranu?",
+          "a": "Tak, obsługujemy kompresję zrzutów ekranu w formacie MP4, WebM i MOV."
+        }
+      ]
+    },
+    "video-for-teams": {
+      "title": "Kompresuj wideo dla zespołów MS — udostępniaj duże filmy w zespołach",
+      "description": "Kompresuj filmy dla Microsoft Teams online. Zmniejsz duże nagrania spotkań i prezentacje, aby ominąć limity udostępniania plików w aplikacji Teams. Za darmo i szybko.",
+      "h1": "Kompresor wideo Microsoft Teams",
+      "heroText": "Udostępniaj ciężkie prezentacje i nagrania w Microsoft Teams. Kompresuj filmy, aby idealnie dopasować je do limitów czatu i kanałów w aplikacji Teams.",
+      "introText": "Usługa Microsoft Teams jest niezbędna do współpracy korporacyjnej, ale udostępnianie ciężkich, nieprzetworzonych plików wideo może być powolne. Nasze narzędzie zmniejsza rozmiar wideo, dzięki czemu możesz współpracować natychmiast i płynnie.",
+      "features": [
+        {
+          "title": "Zespoły zoptymalizowane",
+          "desc": "Zmniejsz skalę prezentacji, aby dopasować ją do firmowej poczty e-mail lub czatu w aplikacji Teams."
+        },
+        {
+          "title": "Wysoka rozdzielczość",
+          "desc": "Utrzymuje slajdy prezentacji i tekst w doskonałej czytelności."
+        },
+        {
+          "title": "Bezpieczeństwo przedsiębiorstwa",
+          "desc": "Kompresja lokalnej przeglądarki oznacza brak wycieków danych korporacyjnych."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Wybierz opcję Nagrywanie w aplikacji Teams",
+          "desc": "Zaimportuj nagranie lub wersję demonstracyjną spotkania."
+        },
+        {
+          "title": "Wybierz Rozmiar wyjściowy",
+          "desc": "Ustaw lekki cel, aby ułatwić udostępnianie."
+        },
+        {
+          "title": "Pobierz i udostępnij",
+          "desc": "Pobierz zoptymalizowany plik i wyślij go do aplikacji Teams."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Czy tekst mojej prezentacji pozostanie czytelny?",
+          "a": "Tak, kładziemy nacisk na przejrzystość tekstu, aby slajdy pozostały ostre."
+        },
+        {
+          "q": "Czy jest to bezpieczne dla plików firmowych?",
+          "a": "Tak, żadne pliki nie są przesyłane na żaden serwer. Całe przetwarzanie ma charakter lokalny."
+        }
+      ]
+    },
+    "video-for-facebook": {
+      "title": "Kompresuj wideo na Facebooku — zmniejszaj filmy do przesyłania na FB",
+      "description": "Kompresuj filmy na Facebooku online za darmo. Zmniejsz rozmiar plików postów na FB, reklam i filmów w tle bez utraty jakości. Szybkie narzędzie przeglądarki.",
+      "h1": "Kompresor wideo na Facebooku",
+      "heroText": "Zoptymalizuj swoje filmy pod kątem kanałów i reklam na Facebooku. Zmniejsz pliki MP4, aby szybciej się wczytywać i zachować jakość treści w wysokiej rozdzielczości.",
+      "introText": "Wolno ładujące się filmy na Facebooku szkodzą zaangażowaniu i konwersjom reklam. Wstępna kompresja filmów na Facebooku skraca czas ładowania i gwarantuje wysoką retencję widzów.",
+      "features": [
+        {
+          "title": "Zoptymalizowane pod reklamy",
+          "desc": "Zmniejsza rozmiar plików reklam, zapewniając szybszą dostawę i niższy współczynnik odrzuceń."
+        },
+        {
+          "title": "Okładka gotowa",
+          "desc": "Doskonałe parametry dla filmów z okładek stron na Facebooku."
+        },
+        {
+          "title": "Natychmiastowe przetwarzanie",
+          "desc": "Bezpośrednie kodowanie przeglądarki, brak opóźnień w przesyłaniu serwera."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Prześlij film z Facebooka",
+          "desc": "Przeciągnij i upuść swój post lub film reklamowy."
+        },
+        {
+          "title": "Zastosuj wytyczne FB",
+          "desc": "Optymalizuj przepływność dla standardowych kanałów społecznościowych."
+        },
+        {
+          "title": "Eksportuj i przesyłaj",
+          "desc": "Pobierz swój lekki plik i opublikuj go na Facebooku."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Jaki jest limit rozmiaru pliku na Facebooku?",
+          "a": "Facebook obsługuje do 10 GB, ale małe filmy działają znacznie lepiej."
+        },
+        {
+          "q": "Czy obsługuje reklamy na Facebooku?",
+          "a": "Tak, zdecydowanie polecamy nasze narzędzie do optymalizacji zasobów kampanii reklamowej na Facebooku."
+        }
+      ]
     }
   }
 }

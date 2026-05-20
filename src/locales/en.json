@@ -1171,6 +1171,153 @@
         { "q": "Does TikTok compress videos?", "a": "Yes, TikTok compresses files on upload, but compressing them first with our tool avoids blurry results." },
         { "q": "What format is best for TikTok?", "a": "MP4 and MOV in vertical 9:16 aspect ratio are the ideal formats for TikTok." }
       ]
+    },
+    "avi": {
+      "title": "Compress AVI Online - Reduce AVI File Size Without Quality Loss",
+      "description": "Compress AVI videos online for free. Reduce AVI file size quickly with high-efficiency audio-video compression. No quality loss, secure browser-based tool.",
+      "h1": "Fast AVI Video Compressor",
+      "heroText": "Shrink heavy AVI files in seconds. Keep your high-quality AVI videos looking perfect while saving up to 80% storage space.",
+      "introText": "AVI files are known for their high video quality, but they can be incredibly heavy and take up massive storage. Our smart browser compressor optimizes AVI bitrates and streams them effortlessly.",
+      "features": [
+        { "title": "No Quality Loss", "desc": "Advanced libx264 encoding ensures your AVI stays crisp." },
+        { "title": "High Compression", "desc": "Reduces AVI container overhead by up to 80%." },
+        { "title": "Privacy First", "desc": "Your files never leave your browser. 100% secure processing." }
+      ],
+      "steps": [
+        { "title": "Upload AVI", "desc": "Drag and drop your AVI file into the compressor box." },
+        { "title": "Set Target Size", "desc": "Choose your desired output size in MB." },
+        { "title": "Compress & Save", "desc": "Download your optimized AVI instantly." }
+      ],
+      "faqs": [
+        { "q": "Will my AVI lose quality?", "a": "No, our tool maintains high visual clarity by adjusting container bitrates losslessly." },
+        { "q": "Is there a file size limit?", "a": "You can compress AVI files up to 5GB for free." }
+      ]
+    },
+    "mkv": {
+      "title": "Compress MKV Online - Shrink MKV Files Without Quality Loss",
+      "description": "Compress MKV videos online for free. Reduce heavy MKV file sizes while preserving multi-track audio and subtitle streams. Secure and fast browser tool.",
+      "h1": "Pro MKV Video Compressor",
+      "heroText": "Easily downsize large MKV movies and recordings. Shrink MKV container size in seconds with high-fidelity visual preservation.",
+      "introText": "MKV is a powerful container that often houses high-definition movies with multiple audio tracks. Our compressor shrinks heavy MKV files without stripping away your essential tracks or subtitles.",
+      "features": [
+        { "title": "HD Preservation", "desc": "Retains full resolution and high-definition video clarity." },
+        { "title": "Multi-Track Ready", "desc": "Compresses the video stream while keeping audio/subtitle mapping intact." },
+        { "title": "Local Processing", "desc": "Zero server uploads mean 100% secure and immediate processing." }
+      ],
+      "steps": [
+        { "title": "Import MKV", "desc": "Select your heavy MKV file from your local storage." },
+        { "title": "Choose Output Size", "desc": "Define your target file size in MB." },
+        { "title": "Export MKV", "desc": "Save your compressed MKV video instantly." }
+      ],
+      "faqs": [
+        { "q": "Does it support 4K MKV files?", "a": "Yes, we handle raw and 4K MKV files captured from cameras or streaming." },
+        { "q": "Are my files uploaded?", "a": "No, all compression happens inside your browser locally." }
+      ]
+    },
+    "webm": {
+      "title": "Compress WebM Online - Optimize WebM Videos for HTML5",
+      "description": "Compress WebM videos online for free. Reduce WebM file size for faster website loading and HTML5 web stream optimization. Fast and secure.",
+      "h1": "HTML5 WebM Video Compressor",
+      "heroText": "Optimize WebM files for high-speed website performance. Reduce file size to improve website load speeds and user experience.",
+      "introText": "WebM is the standard format for modern, high-speed HTML5 web video. Our optimizer fine-tunes WebM encoding bitrates to provide the absolute lightest web-ready files.",
+      "features": [
+        { "title": "Web Optimized", "desc": "Designed specifically for web developers and fast site load times." },
+        { "title": "VP8/VP9 Support", "desc": "Fully supports modern VP8 and VP9 video codecs." },
+        { "title": "Secure Processing", "desc": "Local browser execution keeps your web assets 100% private." }
+      ],
+      "steps": [
+        { "title": "Upload WebM", "desc": "Drag and drop your WebM assets into the tool." },
+        { "title": "Select Target Size", "desc": "Set the ideal output size to minimize page load times." },
+        { "title": "Save Optimized File", "desc": "Download your streamable WebM instantly." }
+      ],
+      "faqs": [
+        { "q": "Can I compress WebM with transparency?", "a": "Yes, our compressor preserves alpha channel transparency in WebM files." },
+        { "q": "Why should I compress WebM for websites?", "a": "Smaller video files improve PageSpeed scores and user retention." }
+      ]
+    },
+    "video-for-instagram": {
+      "title": "Compress Video for Instagram Online - Reels & Stories Optimizer",
+      "description": "Compress videos for Instagram online for free. Shrink Reels, Stories, and posts to fit Instagram's upload limits perfectly without quality blur.",
+      "h1": "Instagram Video Compressor",
+      "heroText": "Avoid blurry uploads on Instagram. Compress your Reels, IGTV, and Stories to hit Instagram's strict specs with perfect clarity.",
+      "introText": "Instagram automatically compresses raw video uploads, often resulting in pixelated or blurry Reels. By pre-compressing with our tool, you maintain HD visual quality on the feed.",
+      "features": [
+        { "title": "Reels Optimized", "desc": "Perfect for vertical 9:16 layout specs and Reels uploads." },
+        { "title": "HD Feed Quality", "desc": "Forces Instagram's algorithm to keep your video sharp." },
+        { "title": "Mobile Friendly", "desc": "Compress directly from your iPhone or Android browser." }
+      ],
+      "steps": [
+        { "title": "Upload Instagram Video", "desc": "Select your vertical Reel or post file." },
+        { "title": "Apply HD Preset", "desc": "Optimize bitrates to match Instagram's standard spec." },
+        { "title": "Download & Post", "desc": "Export and upload to Instagram with stunning quality." }
+      ],
+      "faqs": [
+        { "q": "What is the best format for Instagram?", "a": "MP4 with H.264 codec and AAC audio is the ideal format for Instagram uploads." },
+        { "q": "Why does Instagram make my video blurry?", "a": "If your file is too heavy, Instagram compresses it aggressively. Pre-compressing it keeps it crisp." }
+      ]
+    },
+    "video-for-slack": {
+      "title": "Compress Video for Slack Online - Share Large Videos Fast",
+      "description": "Compress videos for Slack online. Shrink files under Slack's free upload limits for fast team sharing. High quality Slack video size reducer.",
+      "h1": "Slack Video Compressor",
+      "heroText": "Share videos in Slack channels without reaching the upload limits. Shrink your MP4 and MOV clips for quick communication.",
+      "introText": "Slack has a strict file size limit for free workspaces. Our tool optimizes work clips, screen recordings, and tutorials so they upload instantly to any channel.",
+      "features": [
+        { "title": "Slack Compatible", "desc": "Easily downsize clips under the free Slack upload limit." },
+        { "title": "Fast Sharing", "desc": "Smaller files mean faster uploads and quicker playbacks for team members." },
+        { "title": "100% Confidential", "desc": "Secure browser processing ensures work files stay private." }
+      ],
+      "steps": [
+        { "title": "Choose Slack Video", "desc": "Select the work clip or demo video." },
+        { "title": "Reduce File Size", "desc": "Shrink it below the Slack file limit." },
+        { "title": "Upload to Channel", "desc": "Download and share directly in your Slack chat." }
+      ],
+      "faqs": [
+        { "q": "What is the file limit on Slack?", "a": "Slack free workspaces have a file limit of 1GB, but uploads are much faster when kept small." },
+        { "q": "Can I compress screen recordings?", "a": "Yes, we support compressing MP4, WebM, and MOV screen captures." }
+      ]
+    },
+    "video-for-teams": {
+      "title": "Compress Video for MS Teams - Share Large Videos in Teams",
+      "description": "Compress videos for Microsoft Teams online. Shrink heavy meeting recordings and presentations to bypass Teams file share limits. Free and fast.",
+      "h1": "Microsoft Teams Video Compressor",
+      "heroText": "Share heavy presentations and recordings in Microsoft Teams. Compress videos to fit Teams chat and channel limits perfectly.",
+      "introText": "Microsoft Teams is vital for corporate collaboration, but sharing heavy raw videos can be slow. Our tool shrinks video size so you can collaborate instantly and smoothly.",
+      "features": [
+        { "title": "Teams Optimized", "desc": "Downscale presentations to fit corporate email or Teams chat." },
+        { "title": "High Definition", "desc": "Keeps presentation slides and text perfectly legible." },
+        { "title": "Enterprise Security", "desc": "Local browser compression means no corporate data leaks." }
+      ],
+      "steps": [
+        { "title": "Select Teams Recording", "desc": "Import your meeting capture or demo." },
+        { "title": "Choose Output Size", "desc": "Set a lightweight target for easy sharing." },
+        { "title": "Download & Share", "desc": "Get your optimized file and send it on Teams." }
+      ],
+      "faqs": [
+        { "q": "Will my presentation text remain readable?", "a": "Yes, we prioritize text clarity so slides stay sharp." },
+        { "q": "Is it safe for company files?", "a": "Yes, no files are uploaded to any server. All processing is local." }
+      ]
+    },
+    "video-for-facebook": {
+      "title": "Compress Video for Facebook - Shrink Videos for FB Upload",
+      "description": "Compress videos for Facebook online for free. Reduce file size of FB posts, ads, and cover videos without quality loss. Fast browser tool.",
+      "h1": "Facebook Video Compressor",
+      "heroText": "Optimize your videos for Facebook feeds and Ads. Shrink MP4 files to load faster and retain high-definition feed quality.",
+      "introText": "Slow-loading videos on Facebook hurt engagement and ad conversions. Pre-compressing your Facebook videos improves loading times and guarantees high viewer retention.",
+      "features": [
+        { "title": "Ad Optimized", "desc": "Reduces ad file sizes for faster delivery and lower bounce rates." },
+        { "title": "Cover Ready", "desc": "Perfect specs for Facebook page cover videos." },
+        { "title": "Instant Processing", "desc": "Direct browser encoding, no server upload delays." }
+      ],
+      "steps": [
+        { "title": "Upload Facebook Video", "desc": "Drag and drop your post or ad video." },
+        { "title": "Apply FB Guidelines", "desc": "Optimize bitrates for standard social feeds." },
+        { "title": "Export & Upload", "desc": "Download your lightweight file and post on Facebook." }
+      ],
+      "faqs": [
+        { "q": "What is the Facebook file size limit?", "a": "Facebook supports up to 10GB, but small videos perform much better." },
+        { "q": "Does it support Facebook Ads?", "a": "Yes, our tool is highly recommended to optimize Facebook Ad campaign assets." }
+      ]
     }
   }
 }

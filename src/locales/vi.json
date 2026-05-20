@@ -1337,6 +1337,321 @@
           "a": "MP4 và MOV ở tỷ lệ khung hình dọc 9:16 là các định dạng lý tưởng cho TikTok."
         }
       ]
+    },
+    "avi": {
+      "title": "Nén AVI Trực Tuyến - Giảm Kích Thước Tệp AVI Mà Không Làm Giảm Chất Lượng",
+      "description": "Nén video AVI trực tuyến miễn phí. Giảm kích thước tệp AVI một cách nhanh chóng bằng tính năng nén âm thanh-video hiệu quả cao. Không giảm chất lượng, công cụ dựa trên trình duyệt an toàn.",
+      "h1": "Máy nén video AVI nhanh",
+      "heroText": "Thu nhỏ các tập tin AVI nặng trong vài giây. Giữ cho video AVI chất lượng cao của bạn trông thật hoàn hảo đồng thời tiết kiệm tới 80% dung lượng lưu trữ.",
+      "introText": "Các tệp AVI được biết đến với chất lượng video cao nhưng chúng có thể cực kỳ nặng và chiếm dung lượng lớn. Trình nén trình duyệt thông minh của chúng tôi tối ưu hóa tốc độ bit AVI và truyền phát chúng một cách dễ dàng.",
+      "features": [
+        {
+          "title": "Không giảm chất lượng",
+          "desc": "Mã hóa libx264 nâng cao đảm bảo AVI của bạn luôn sắc nét."
+        },
+        {
+          "title": "Nén cao",
+          "desc": "Giảm chi phí sử dụng container AVI tới 80%."
+        },
+        {
+          "title": "Quyền riêng tư đầu tiên",
+          "desc": "Các tập tin của bạn không bao giờ rời khỏi trình duyệt của bạn. Xử lý an toàn 100%."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Tải lên AVI",
+          "desc": "Kéo và thả tệp AVI của bạn vào hộp máy nén."
+        },
+        {
+          "title": "Đặt kích thước mục tiêu",
+          "desc": "Chọn kích thước đầu ra mong muốn của bạn tính bằng MB."
+        },
+        {
+          "title": "Nén và lưu",
+          "desc": "Tải xuống AVI được tối ưu hóa của bạn ngay lập tức."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "AVI của tôi có bị giảm chất lượng không?",
+          "a": "Không, công cụ của chúng tôi duy trì độ rõ nét hình ảnh cao bằng cách điều chỉnh tốc độ bit của vùng chứa một cách dễ dàng."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Bạn có thể nén miễn phí các tệp AVI lên tới 5GB."
+        }
+      ]
+    },
+    "mkv": {
+      "title": "Nén MKV Trực Tuyến - Thu Nhỏ Tệp MKV Không Giảm Chất Lượng",
+      "description": "Nén video MKV trực tuyến miễn phí. Giảm kích thước tệp MKV nặng trong khi vẫn giữ được luồng âm thanh và phụ đề nhiều bản nhạc. Công cụ trình duyệt an toàn và nhanh chóng.",
+      "h1": "Máy nén video MKV chuyên nghiệp",
+      "heroText": "Dễ dàng giảm kích thước phim và bản ghi MKV lớn. Thu nhỏ kích thước vùng chứa MKV trong vài giây với khả năng bảo toàn hình ảnh có độ trung thực cao.",
+      "introText": "MKV là một bộ chứa mạnh mẽ thường chứa các bộ phim độ phân giải cao với nhiều bản âm thanh. Máy nén của chúng tôi thu nhỏ các tệp MKV nặng mà không loại bỏ các bản nhạc hoặc phụ đề cần thiết của bạn.",
+      "features": [
+        {
+          "title": "Bảo quản HD",
+          "desc": "Giữ lại độ phân giải đầy đủ và độ rõ nét của video độ phân giải cao."
+        },
+        {
+          "title": "Sẵn sàng nhiều bản nhạc",
+          "desc": "Nén luồng video trong khi vẫn giữ nguyên ánh xạ âm thanh/phụ đề."
+        },
+        {
+          "title": "Xử lý cục bộ",
+          "desc": "Không tải lên máy chủ có nghĩa là xử lý ngay lập tức và an toàn 100%."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Nhập khẩu MKV",
+          "desc": "Chọn tệp MKV nặng từ bộ nhớ cục bộ của bạn."
+        },
+        {
+          "title": "Chọn Kích thước đầu ra",
+          "desc": "Xác định kích thước tệp mục tiêu của bạn bằng MB."
+        },
+        {
+          "title": "Xuất khẩu MKV",
+          "desc": "Lưu video MKV đã nén của bạn ngay lập tức."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Nó có hỗ trợ các tập tin MKV 4K không?",
+          "a": "Có, chúng tôi xử lý các tệp MKV thô và 4K được quay từ máy ảnh hoặc phát trực tuyến."
+        },
+        {
+          "q": "Các tập tin của tôi có được tải lên không?",
+          "a": "Không, tất cả quá trình nén diễn ra cục bộ bên trong trình duyệt của bạn."
+        }
+      ]
+    },
+    "webm": {
+      "title": "Nén WebM Trực tuyến - Tối ưu hóa Video WebM cho HTML5",
+      "description": "Nén video WebM trực tuyến miễn phí. Giảm kích thước tệp WebM để tải trang web nhanh hơn và tối ưu hóa luồng web HTML5. Nhanh chóng và an toàn.",
+      "h1": "Máy nén video HTML5 WebM",
+      "heroText": "Tối ưu hóa các tệp WebM để có hiệu suất trang web tốc độ cao. Giảm kích thước tệp để cải thiện tốc độ tải trang web và trải nghiệm người dùng.",
+      "introText": "WebM là định dạng chuẩn cho video web HTML5 tốc độ cao, hiện đại. Trình tối ưu hóa của chúng tôi tinh chỉnh tốc độ bit mã hóa WebM để cung cấp các tệp sẵn sàng cho web nhẹ nhất.",
+      "features": [
+        {
+          "title": "Tối ưu hóa web",
+          "desc": "Được thiết kế dành riêng cho các nhà phát triển web và thời gian tải trang nhanh."
+        },
+        {
+          "title": "Hỗ trợ VP8/VP9",
+          "desc": "Hỗ trợ đầy đủ codec video VP8 và VP9 hiện đại."
+        },
+        {
+          "title": "Xử lý an toàn",
+          "desc": "Việc thực thi trình duyệt cục bộ giúp tài sản web của bạn được riêng tư 100%."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Tải lên WebM",
+          "desc": "Kéo và thả nội dung WebM của bạn vào công cụ."
+        },
+        {
+          "title": "Chọn Kích thước mục tiêu",
+          "desc": "Đặt kích thước đầu ra lý tưởng để giảm thiểu thời gian tải trang."
+        },
+        {
+          "title": "Lưu tệp được tối ưu hóa",
+          "desc": "Tải xuống WebM có thể phát trực tuyến của bạn ngay lập tức."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Tôi có thể nén WebM với độ trong suốt không?",
+          "a": "Có, trình nén của chúng tôi duy trì tính minh bạch của kênh alpha trong các tệp WebM."
+        },
+        {
+          "q": "Tại sao nên nén WebM cho website?",
+          "a": "Tệp video nhỏ hơn sẽ cải thiện điểm Tốc độ trang và tỷ lệ giữ chân người dùng."
+        }
+      ]
+    },
+    "video-for-instagram": {
+      "title": "Nén video cho Instagram trực tuyến - Trình tối ưu hóa câu chuyện & câu chuyện",
+      "description": "Nén video cho Instagram trực tuyến miễn phí. Thu nhỏ các câu chuyện, câu chuyện và bài đăng để phù hợp hoàn hảo với giới hạn tải lên của Instagram mà không làm mờ chất lượng.",
+      "h1": "Trình nén video Instagram",
+      "heroText": "Tránh tải lên mờ trên Instagram. Nén Câu chuyện, IGTV và Câu chuyện của bạn để đạt được các thông số kỹ thuật nghiêm ngặt của Instagram với độ rõ nét hoàn hảo.",
+      "introText": "Instagram tự động nén các video tải lên thô, thường dẫn đến các Câu chuyện bị pixel hoặc mờ. Bằng cách nén trước bằng công cụ của chúng tôi, bạn sẽ duy trì được chất lượng hình ảnh HD trên nguồn cấp dữ liệu.",
+      "features": [
+        {
+          "title": "Cuộn phim được tối ưu hóa",
+          "desc": "Hoàn hảo cho thông số bố cục 9:16 theo chiều dọc và tải lên Câu chuyện."
+        },
+        {
+          "title": "Chất lượng nguồn cấp dữ liệu HD",
+          "desc": "Buộc thuật toán của Instagram giữ cho video của bạn luôn sắc nét."
+        },
+        {
+          "title": "Thân thiện với thiết bị di động",
+          "desc": "Nén trực tiếp từ trình duyệt iPhone hoặc Android của bạn."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Tải lên video Instagram",
+          "desc": "Chọn Câu chuyện dọc hoặc tệp bài đăng của bạn."
+        },
+        {
+          "title": "Áp dụng cài sẵn HD",
+          "desc": "Tối ưu hóa tốc độ bit để phù hợp với thông số kỹ thuật tiêu chuẩn của Instagram."
+        },
+        {
+          "title": "Tải xuống và đăng",
+          "desc": "Xuất và tải lên Instagram với chất lượng tuyệt đẹp."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Định dạng tốt nhất cho Instagram là gì?",
+          "a": "MP4 với codec H.264 và âm thanh AAC là định dạng lý tưởng để tải lên Instagram."
+        },
+        {
+          "q": "Tại sao Instagram làm video của tôi bị mờ?",
+          "a": "Nếu tệp của bạn quá nặng, Instagram sẽ nén nó mạnh mẽ. Nén trước nó giữ cho nó sắc nét."
+        }
+      ]
+    },
+    "video-for-slack": {
+      "title": "Nén video cho Slack trực tuyến - Chia sẻ video lớn nhanh chóng",
+      "description": "Nén video cho Slack trực tuyến. Thu nhỏ tệp theo giới hạn tải lên miễn phí của Slack để chia sẻ nhóm nhanh chóng. Trình giảm kích thước video Slack chất lượng cao.",
+      "h1": "Máy nén video Slack",
+      "heroText": "Chia sẻ video trong các kênh Slack mà không đạt đến giới hạn tải lên. Thu nhỏ các clip MP4 và MOV của bạn để liên lạc nhanh chóng.",
+      "introText": "Slack có giới hạn kích thước tệp nghiêm ngặt đối với không gian làm việc miễn phí. Công cụ của chúng tôi tối ưu hóa các clip công việc, bản ghi màn hình và hướng dẫn để tải chúng lên bất kỳ kênh nào ngay lập tức.",
+      "features": [
+        {
+          "title": "Tương thích lỏng lẻo",
+          "desc": "Dễ dàng giảm kích thước clip theo giới hạn tải lên Slack miễn phí."
+        },
+        {
+          "title": "Chia sẻ nhanh",
+          "desc": "Các tệp nhỏ hơn có nghĩa là các thành viên trong nhóm tải lên nhanh hơn và phát lại nhanh hơn."
+        },
+        {
+          "title": "Bảo mật 100%",
+          "desc": "Quá trình xử lý trình duyệt an toàn đảm bảo các tệp công việc luôn ở chế độ riêng tư."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Chọn Video Slack",
+          "desc": "Chọn clip công việc hoặc video demo."
+        },
+        {
+          "title": "Giảm kích thước tệp",
+          "desc": "Thu nhỏ nó xuống dưới giới hạn tệp Slack."
+        },
+        {
+          "title": "Tải lên kênh",
+          "desc": "Tải xuống và chia sẻ trực tiếp trong cuộc trò chuyện Slack của bạn."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Giới hạn tệp trên Slack là bao nhiêu?",
+          "a": "Không gian làm việc miễn phí của Slack có giới hạn tệp là 1GB nhưng tải lên sẽ nhanh hơn nhiều khi được giữ ở kích thước nhỏ."
+        },
+        {
+          "q": "Tôi có thể nén bản ghi màn hình không?",
+          "a": "Có, chúng tôi hỗ trợ nén ảnh chụp màn hình MP4, WebM và MOV."
+        }
+      ]
+    },
+    "video-for-teams": {
+      "title": "Nén Video cho MS Teams - Chia sẻ video lớn trong nhóm",
+      "description": "Nén video cho Microsoft Teams trực tuyến. Thu nhỏ các bản ghi và bản trình bày có dung lượng lớn trong cuộc họp để vượt qua giới hạn chia sẻ tệp của Teams. Miễn phí và nhanh chóng.",
+      "h1": "Trình nén video của Microsoft Teams",
+      "heroText": "Chia sẻ các bản trình bày và bản ghi nặng trong Microsoft Teams. Nén video để phù hợp hoàn hảo với giới hạn kênh và trò chuyện của Teams.",
+      "introText": "Microsoft Teams rất quan trọng cho sự cộng tác của công ty nhưng việc chia sẻ các video thô có dung lượng lớn có thể bị chậm. Công cụ của chúng tôi thu nhỏ kích thước video để bạn có thể cộng tác ngay lập tức và suôn sẻ.",
+      "features": [
+        {
+          "title": "Đội được tối ưu hóa",
+          "desc": "Thu nhỏ bản trình bày để phù hợp với email công ty hoặc trò chuyện nhóm."
+        },
+        {
+          "title": "Độ nét cao",
+          "desc": "Giữ cho các slide thuyết trình và văn bản hoàn toàn dễ đọc."
+        },
+        {
+          "title": "Bảo mật doanh nghiệp",
+          "desc": "Nén trình duyệt cục bộ có nghĩa là không rò rỉ dữ liệu của công ty."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Chọn Ghi nhóm",
+          "desc": "Nhập bản chụp hoặc bản demo cuộc họp của bạn."
+        },
+        {
+          "title": "Chọn Kích thước đầu ra",
+          "desc": "Đặt mục tiêu nhẹ để chia sẻ dễ dàng."
+        },
+        {
+          "title": "Tải xuống và chia sẻ",
+          "desc": "Nhận tệp được tối ưu hóa của bạn và gửi nó trên Teams."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Liệu văn bản trình bày của tôi vẫn có thể đọc được?",
+          "a": "Có, chúng tôi ưu tiên độ rõ ràng của văn bản để các trang trình bày luôn sắc nét."
+        },
+        {
+          "q": "Nó có an toàn cho các tập tin của công ty không?",
+          "a": "Có, không có tập tin nào được tải lên bất kỳ máy chủ nào. Tất cả quá trình xử lý là cục bộ."
+        }
+      ]
+    },
+    "video-for-facebook": {
+      "title": "Nén Video Cho Facebook - Thu Nhỏ Video Để Tải Lên FB",
+      "description": "Nén video cho Facebook trực tuyến miễn phí. Giảm kích thước tệp của bài đăng, quảng cáo và video bìa FB mà không làm giảm chất lượng. Công cụ trình duyệt nhanh.",
+      "h1": "Máy nén video Facebook",
+      "heroText": "Tối ưu hóa video của bạn cho nguồn cấp dữ liệu và Quảng cáo trên Facebook. Thu nhỏ tệp MP4 để tải nhanh hơn và duy trì chất lượng nguồn cấp dữ liệu có độ phân giải cao.",
+      "introText": "Video tải chậm trên Facebook làm ảnh hưởng đến mức độ tương tác và chuyển đổi quảng cáo. Việc nén trước video trên Facebook của bạn sẽ cải thiện thời gian tải và đảm bảo tỷ lệ giữ chân người xem cao.",
+      "features": [
+        {
+          "title": "Quảng cáo được tối ưu hóa",
+          "desc": "Giảm kích thước tệp quảng cáo để phân phối nhanh hơn và tỷ lệ thoát thấp hơn."
+        },
+        {
+          "title": "Bìa đã sẵn sàng",
+          "desc": "Thông số kỹ thuật hoàn hảo cho video bìa trang Facebook."
+        },
+        {
+          "title": "Xử lý tức thời",
+          "desc": "Mã hóa trình duyệt trực tiếp, không có sự chậm trễ khi tải lên máy chủ."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Tải lên video Facebook",
+          "desc": "Kéo và thả bài đăng hoặc video quảng cáo của bạn."
+        },
+        {
+          "title": "Áp dụng Nguyên tắc FB",
+          "desc": "Tối ưu hóa tốc độ bit cho các nguồn cấp dữ liệu xã hội tiêu chuẩn."
+        },
+        {
+          "title": "Xuất & Tải lên",
+          "desc": "Tải xuống tệp nhẹ của bạn và đăng lên Facebook."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Giới hạn kích thước tệp Facebook là gì?",
+          "a": "Facebook hỗ trợ tối đa 10GB nhưng video nhỏ hoạt động tốt hơn nhiều."
+        },
+        {
+          "q": "Nó có hỗ trợ Quảng cáo Facebook không?",
+          "a": "Có, chúng tôi khuyên bạn nên sử dụng công cụ này để tối ưu hóa nội dung chiến dịch Quảng cáo trên Facebook."
+        }
+      ]
     }
   }
 }

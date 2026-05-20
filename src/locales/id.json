@@ -1337,6 +1337,321 @@
           "a": "MP4 dan MOV dalam rasio aspek vertikal 9:16 adalah format ideal untuk TikTok."
         }
       ]
+    },
+    "avi": {
+      "title": "Kompres AVI Online - Kurangi Ukuran File AVI Tanpa Kehilangan Kualitas",
+      "description": "Kompres video AVI online secara gratis. Kurangi ukuran file AVI dengan cepat dengan kompresi audio-video efisiensi tinggi. Tidak ada penurunan kualitas, alat berbasis browser yang aman.",
+      "h1": "Kompresor Video AVI Cepat",
+      "heroText": "Kecilkan file AVI yang berat dalam hitungan detik. Jaga agar video AVI berkualitas tinggi Anda terlihat sempurna sekaligus menghemat ruang penyimpanan hingga 80%.",
+      "introText": "File AVI terkenal dengan kualitas videonya yang tinggi, namun bisa sangat berat dan memakan ruang penyimpanan yang besar. Kompresor browser cerdas kami mengoptimalkan bitrate AVI dan mengalirkannya dengan mudah.",
+      "features": [
+        {
+          "title": "Tidak Ada Kehilangan Kualitas",
+          "desc": "Pengkodean libx264 tingkat lanjut memastikan AVI Anda tetap tajam."
+        },
+        {
+          "title": "Kompresi Tinggi",
+          "desc": "Mengurangi overhead kontainer AVI hingga 80%."
+        },
+        {
+          "title": "Privasi Pertama",
+          "desc": "File Anda tidak pernah meninggalkan browser Anda. Pemrosesan aman 100%."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Unggah AVI",
+          "desc": "Seret dan letakkan file AVI Anda ke dalam kotak kompresor."
+        },
+        {
+          "title": "Tetapkan Ukuran Target",
+          "desc": "Pilih ukuran keluaran yang Anda inginkan dalam MB."
+        },
+        {
+          "title": "Kompres & Simpan",
+          "desc": "Unduh AVI Anda yang dioptimalkan secara instan."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Apakah AVI saya akan kehilangan kualitasnya?",
+          "a": "Tidak, alat kami mempertahankan kejernihan visual yang tinggi dengan menyesuaikan bitrate kontainer tanpa kehilangan."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Anda dapat mengompres file AVI hingga 5GB secara gratis."
+        }
+      ]
+    },
+    "mkv": {
+      "title": "Kompres MKV Online - Kecilkan File MKV Tanpa Kehilangan Kualitas",
+      "description": "Kompres video MKV online gratis. Kurangi ukuran file MKV yang berat sambil mempertahankan aliran audio multi-track dan subtitle. Alat browser yang aman dan cepat.",
+      "h1": "Kompresor Video Pro MKV",
+      "heroText": "Perkecil ukuran film dan rekaman MKV berukuran besar dengan mudah. Kecilkan ukuran wadah MKV dalam hitungan detik dengan pelestarian visual dengan ketelitian tinggi.",
+      "introText": "MKV adalah wadah kuat yang sering kali menampung film definisi tinggi dengan banyak trek audio. Kompresor kami mengecilkan file MKV yang berat tanpa menghilangkan trek atau subtitle penting Anda.",
+      "features": [
+        {
+          "title": "Pelestarian HD",
+          "desc": "Mempertahankan resolusi penuh dan kejernihan video definisi tinggi."
+        },
+        {
+          "title": "Siap Multi-Track",
+          "desc": "Mengompresi aliran video sambil menjaga pemetaan audio/subtitel tetap utuh."
+        },
+        {
+          "title": "Pemrosesan Lokal",
+          "desc": "Nol unggahan server berarti 100% aman dan pemrosesan segera."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Impor MKV",
+          "desc": "Pilih file MKV berat Anda dari penyimpanan lokal Anda."
+        },
+        {
+          "title": "Pilih Ukuran Keluaran",
+          "desc": "Tentukan ukuran file target Anda dalam MB."
+        },
+        {
+          "title": "Ekspor MKV",
+          "desc": "Simpan video MKV terkompresi Anda secara instan."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Apakah ini mendukung file 4K MKV?",
+          "a": "Ya, kami menangani file mentah dan 4K MKV yang diambil dari kamera atau streaming."
+        },
+        {
+          "q": "Apakah file saya sudah diunggah?",
+          "a": "Tidak, semua kompresi terjadi di dalam browser Anda secara lokal."
+        }
+      ]
+    },
+    "webm": {
+      "title": "Kompres WebM Online - Optimalkan Video WebM untuk HTML5",
+      "description": "Kompres video WebM online secara gratis. Kurangi ukuran file WebM untuk memuat situs web lebih cepat dan pengoptimalan aliran web HTML5. Cepat dan aman.",
+      "h1": "Kompresor Video WebM HTML5",
+      "heroText": "Optimalkan file WebM untuk kinerja situs web berkecepatan tinggi. Kurangi ukuran file untuk meningkatkan kecepatan memuat situs web dan pengalaman pengguna.",
+      "introText": "WebM adalah format standar untuk video web HTML5 modern dan berkecepatan tinggi. Pengoptimal kami menyempurnakan bitrate pengkodean WebM untuk menyediakan file siap web yang paling ringan.",
+      "features": [
+        {
+          "title": "Dioptimalkan Web",
+          "desc": "Dirancang khusus untuk pengembang web dan waktu muat situs yang cepat."
+        },
+        {
+          "title": "Dukungan VP8/VP9",
+          "desc": "Sepenuhnya mendukung codec video VP8 dan VP9 modern."
+        },
+        {
+          "title": "Pemrosesan Aman",
+          "desc": "Eksekusi browser lokal menjaga aset web Anda 100% pribadi."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Unggah WebM",
+          "desc": "Seret dan lepas aset WebM Anda ke alat tersebut."
+        },
+        {
+          "title": "Pilih Ukuran Target",
+          "desc": "Tetapkan ukuran keluaran ideal untuk meminimalkan waktu muat halaman."
+        },
+        {
+          "title": "Simpan File yang Dioptimalkan",
+          "desc": "Unduh WebM Anda yang dapat dialirkan secara instan."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Bisakah saya mengompresi WebM dengan transparansi?",
+          "a": "Ya, kompresor kami menjaga transparansi saluran alfa dalam file WebM."
+        },
+        {
+          "q": "Mengapa saya harus mengompresi WebM untuk situs web?",
+          "a": "File video yang lebih kecil meningkatkan skor PageSpeed ​​dan retensi pengguna."
+        }
+      ]
+    },
+    "video-for-instagram": {
+      "title": "Kompres Video untuk Instagram Online - Pengoptimal Reel & Cerita",
+      "description": "Kompres video untuk Instagram online gratis. Kecilkan Reel, Cerita, dan postingan agar sesuai dengan batas unggahan Instagram dengan sempurna tanpa kualitas buram.",
+      "h1": "Kompresor Video Instagram",
+      "heroText": "Hindari unggahan buram di Instagram. Kompres Reel, IGTV, dan Stories Anda untuk mencapai spesifikasi ketat Instagram dengan kejelasan sempurna.",
+      "introText": "Instagram secara otomatis mengompresi unggahan video mentah, yang sering kali menghasilkan Reel yang berpiksel atau buram. Dengan melakukan pra-kompresi menggunakan alat kami, Anda menjaga kualitas visual HD pada feed.",
+      "features": [
+        {
+          "title": "Gulungan Dioptimalkan",
+          "desc": "Sempurna untuk spesifikasi tata letak 9:16 vertikal dan unggahan Reel."
+        },
+        {
+          "title": "Kualitas Umpan HD",
+          "desc": "Memaksa algoritma Instagram untuk menjaga video Anda tetap tajam."
+        },
+        {
+          "title": "Ramah Seluler",
+          "desc": "Kompres langsung dari browser iPhone atau Android Anda."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Unggah Video Instagram",
+          "desc": "Pilih Reel vertikal atau file posting Anda."
+        },
+        {
+          "title": "Terapkan Preset HD",
+          "desc": "Optimalkan bitrate agar sesuai dengan spesifikasi standar Instagram."
+        },
+        {
+          "title": "Unduh & Posting",
+          "desc": "Ekspor dan unggah ke Instagram dengan kualitas menakjubkan."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Apa format terbaik untuk Instagram?",
+          "a": "MP4 dengan codec H.264 dan audio AAC adalah format ideal untuk unggahan Instagram."
+        },
+        {
+          "q": "Mengapa Instagram membuat video saya buram?",
+          "a": "Jika file Anda terlalu berat, Instagram akan mengompresnya secara agresif. Pra-kompresi membuatnya tetap renyah."
+        }
+      ]
+    },
+    "video-for-slack": {
+      "title": "Kompres Video untuk Slack Online - Bagikan Video Besar dengan Cepat",
+      "description": "Kompres video untuk Slack online. Kecilkan file di bawah batas unggahan gratis Slack untuk berbagi tim dengan cepat. Peredam ukuran video Slack berkualitas tinggi.",
+      "h1": "Kompresor Video Kendur",
+      "heroText": "Bagikan video di saluran Slack tanpa mencapai batas unggahan. Kecilkan klip MP4 dan MOV Anda untuk komunikasi cepat.",
+      "introText": "Slack memiliki batasan ukuran file yang ketat untuk ruang kerja gratis. Alat kami mengoptimalkan klip kerja, rekaman layar, dan tutorial sehingga dapat diunggah secara instan ke saluran mana pun.",
+      "features": [
+        {
+          "title": "Kompatibel dengan Slack",
+          "desc": "Perkecil ukuran klip dengan mudah di bawah batas unggahan Slack gratis."
+        },
+        {
+          "title": "Berbagi Cepat",
+          "desc": "File yang lebih kecil berarti pengunggahan yang lebih cepat dan pemutaran yang lebih cepat bagi anggota tim."
+        },
+        {
+          "title": "100% Rahasia",
+          "desc": "Pemrosesan browser yang aman memastikan file kerja tetap pribadi."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Pilih Video Kendur",
+          "desc": "Pilih klip kerja atau video demo."
+        },
+        {
+          "title": "Kurangi Ukuran File",
+          "desc": "Kecilkan di bawah batas file Slack."
+        },
+        {
+          "title": "Unggah ke Saluran",
+          "desc": "Unduh dan bagikan langsung di obrolan Slack Anda."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Berapa batas file di Slack?",
+          "a": "Ruang kerja bebas kendur memiliki batas file sebesar 1 GB, namun pengunggahan jauh lebih cepat jika ukurannya tetap kecil."
+        },
+        {
+          "q": "Bisakah saya mengompresi rekaman layar?",
+          "a": "Ya, kami mendukung kompresi tangkapan layar MP4, WebM, dan MOV."
+        }
+      ]
+    },
+    "video-for-teams": {
+      "title": "Kompres Video untuk MS Teams - Bagikan Video Besar di Teams",
+      "description": "Kompres video untuk Microsoft Teams online. Kecilkan rekaman rapat dan presentasi yang berat untuk melewati batas berbagi file Teams. Gratis dan cepat.",
+      "h1": "Kompresor Video Microsoft Teams",
+      "heroText": "Bagikan presentasi dan rekaman berat di Microsoft Teams. Kompres video agar sesuai dengan batas obrolan dan saluran Teams dengan sempurna.",
+      "introText": "Microsoft Teams sangat penting untuk kolaborasi perusahaan, tetapi berbagi video mentah yang berat bisa jadi lambat. Alat kami memperkecil ukuran video sehingga Anda dapat berkolaborasi secara instan dan lancar.",
+      "features": [
+        {
+          "title": "Tim Dioptimalkan",
+          "desc": "Turunkan skala presentasi agar sesuai dengan email perusahaan atau obrolan Teams."
+        },
+        {
+          "title": "Definisi Tinggi",
+          "desc": "Membuat slide dan teks presentasi tetap terbaca dengan sempurna."
+        },
+        {
+          "title": "Keamanan Perusahaan",
+          "desc": "Kompresi browser lokal berarti tidak ada kebocoran data perusahaan."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Pilih Rekaman Tim",
+          "desc": "Impor rekaman atau demo rapat Anda."
+        },
+        {
+          "title": "Pilih Ukuran Keluaran",
+          "desc": "Tetapkan target yang ringan agar mudah dibagikan."
+        },
+        {
+          "title": "Unduh & Bagikan",
+          "desc": "Dapatkan file Anda yang dioptimalkan dan kirimkan ke Teams."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Akankah teks presentasi saya tetap dapat dibaca?",
+          "a": "Ya, kami mengutamakan kejelasan teks agar slide tetap tajam."
+        },
+        {
+          "q": "Apakah aman untuk file perusahaan?",
+          "a": "Ya, tidak ada file yang diunggah ke server mana pun. Semua pemrosesan bersifat lokal."
+        }
+      ]
+    },
+    "video-for-facebook": {
+      "title": "Kompres Video untuk Facebook - Kecilkan Video untuk Unggahan FB",
+      "description": "Kompres video untuk Facebook online secara gratis. Kurangi ukuran file postingan FB, iklan, dan video sampul tanpa kehilangan kualitas. Alat peramban cepat.",
+      "h1": "Kompresor Video Facebook",
+      "heroText": "Optimalkan video Anda untuk umpan Facebook dan Iklan. Kecilkan file MP4 agar memuat lebih cepat dan mempertahankan kualitas feed definisi tinggi.",
+      "introText": "Video yang dimuat dengan lambat di Facebook merusak keterlibatan dan konversi iklan. Pra-kompresi video Facebook Anda meningkatkan waktu pemuatan dan menjamin retensi pemirsa yang tinggi.",
+      "features": [
+        {
+          "title": "Iklan Dioptimalkan",
+          "desc": "Mengurangi ukuran file iklan untuk pengiriman lebih cepat dan rasio pentalan lebih rendah."
+        },
+        {
+          "title": "Sampul Siap",
+          "desc": "Spesifikasi sempurna untuk video sampul halaman Facebook."
+        },
+        {
+          "title": "Pemrosesan Instan",
+          "desc": "Pengodean browser langsung, tidak ada penundaan pengunggahan server."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Unggah Video Facebook",
+          "desc": "Tarik dan lepas postingan atau video iklan Anda."
+        },
+        {
+          "title": "Terapkan Pedoman FB",
+          "desc": "Optimalkan bitrate untuk feed sosial standar."
+        },
+        {
+          "title": "Ekspor & Unggah",
+          "desc": "Unduh file ringan Anda dan posting di Facebook."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Berapa batas ukuran file Facebook?",
+          "a": "Facebook mendukung hingga 10GB, tetapi video kecil berperforma jauh lebih baik."
+        },
+        {
+          "q": "Apakah itu mendukung Iklan Facebook?",
+          "a": "Ya, alat kami sangat disarankan untuk mengoptimalkan aset kampanye Iklan Facebook."
+        }
+      ]
     }
   }
 }
