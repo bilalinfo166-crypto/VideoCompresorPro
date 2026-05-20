@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
 import { 
-  Scissors, Crop, Music, FileVideo, FileText, ArrowRight 
+  Scissors, Crop, Music, FileVideo, FileText, ArrowRight, FileAudio
 } from "lucide-react";
 
 interface Tool {
@@ -56,13 +56,13 @@ const TOOLS: Tool[] = [
     border: "border-pink-500/20",
   },
   {
-    icon: Scissors,
-    title: "tools.audio_cutter_title",
-    description: "tools.audio_cutter_desc",
-    href: "/audio-cutter",
-    color: "text-rose-400",
-    bg: "bg-rose-500/10",
-    border: "border-rose-500/20",
+    icon: FileAudio,
+    title: "nav.audio",
+    description: "audio_cutter_page.features_desc",
+    href: "/video-to-audio",
+    color: "text-amber-500",
+    bg: "bg-amber-500/10",
+    border: "border-amber-500/20",
   },
   {
     icon: FileText,

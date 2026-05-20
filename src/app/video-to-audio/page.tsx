@@ -83,7 +83,7 @@ export default function AudioCutterPage() {
     <div className="flex flex-col transition-colors duration-300">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       
-      <Breadcrumbs items={[{ label: "Audio Tools", href: "/" }, { label: "Audio Cutter", href: "/audio-cutter" }]} />
+      <Breadcrumbs items={[{ label: "Audio Tools", href: "/" }, { label: "Video to Audio", href: "/video-to-audio" }]} />
 
       {/* ─── Hero Section ─── */}
       <section className="relative pt-6 pb-16 overflow-hidden bg-[var(--background)]">
@@ -256,7 +256,7 @@ export default function AudioCutterPage() {
       <AuthorBlock />
 
       {/* ─── Related Tools ─── */}
-      <RelatedTools exclude="audio_cutter" />
+      <RelatedTools exclude="video_to_audio" />
 
       <section className="py-20 bg-[var(--background)]">
         <div className="container mx-auto px-4 text-center">

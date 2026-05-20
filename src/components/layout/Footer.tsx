@@ -72,7 +72,7 @@ export function Footer() {
     { label: t("footer.links.video_cutter"), href: "/video-cutter" },
     { label: t("footer.links.crop_video"), href: "/crop-video" },
     { label: t("footer.links.video_to_mp3"), href: "/video-to-mp3" },
-    { label: t("footer.links.audio_cutter"), href: "/audio-cutter" },
+    { label: t("nav.audio"), href: "/video-to-audio" },
   ];
 
   const FORMAT_LINKS = [

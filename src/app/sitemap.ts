@@ -16,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/video-cutter',
     '/crop-video',
     '/video-to-mp3',
-    '/audio-cutter',
+    '/video-to-audio',
     '/video-to-text',
     '/blog',
     '/about',

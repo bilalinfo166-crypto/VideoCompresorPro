@@ -4,7 +4,7 @@ import { locales } from "@/middleware";
 // Import all existing page components
 import HomePage from "@/app/page";
 import AboutPage from "@/app/about/page";
-import AudioCutterPage from "@/app/audio-cutter/page";
+import AudioCutterPage from "@/app/video-to-audio/page";
 import ContactPage from "@/app/contact/page";
 import CropVideoPage from "@/app/crop-video/page";
 import LoginPage from "@/app/login/page";
@@ -65,9 +65,9 @@ export async function generateMetadata({ params }: LocalizedPageProps) {
   } else if (path === 'video-to-mp3') {
     title = t('tools.to_mp3_title');
     description = t('tools.to_mp3_desc');
-  } else if (path === 'audio-cutter') {
-    title = t('tools.audio_cutter_title');
-    description = t('tools.audio_cutter_desc');
+  } else if (path === 'video-to-audio') {
+    title = t('nav.audio');
+    description = t('audio_cutter_page.features_desc');
   } else if (path === 'video-to-text') {
     title = t('tools.to_text_title');
     description = t('tools.to_text_desc');
@@ -118,7 +118,7 @@ export async function generateStaticParams() {
     params.push({ locale, slug: [] });
     
     // Static Tools: /ar/video-cutter, etc.
-    const staticTools = ["about", "audio-cutter", "contact", "crop-video", "login", "privacy", "signup", "terms", "video-cutter", "video-to-mp3", "video-to-text"];
+    const staticTools = ["about", "contact", "crop-video", "login", "privacy", "signup", "terms", "video-cutter", "video-to-audio", "video-to-mp3", "video-to-text"];
     for (const tool of staticTools) {
       params.push({ locale, slug: [tool] });
     }
@@ -162,7 +162,7 @@ export default function LocalizedPage({ params }: LocalizedPageProps) {
   switch (path) {
     case "about":
       return <AboutPage />;
-    case "audio-cutter":
+    case "video-to-audio":
       return <AudioCutterPage />;
     case "contact":
       return <ContactPage />;

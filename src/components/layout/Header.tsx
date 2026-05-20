@@ -10,7 +10,7 @@ const TOOLS = [
   { label: "nav.cutter", href: "/video-cutter", icon: Scissors, color: "text-violet-500", bg: "bg-violet-500/10" },
   { label: "nav.cropper", href: "/crop-video", icon: Crop, color: "text-purple-500", bg: "bg-purple-500/10" },
   { label: "nav.mp3", href: "/video-to-mp3", icon: Music, color: "text-pink-500", bg: "bg-pink-500/10" },
-  { label: "nav.audio", href: "/audio-cutter", icon: FileAudio, color: "text-rose-500", bg: "bg-rose-500/10" },
+  { label: "nav.audio", href: "/video-to-audio", icon: FileAudio, color: "text-rose-500", bg: "bg-rose-500/10" },
   { label: "nav.to_text", href: "/video-to-text", icon: Type, color: "text-cyan-500", bg: "bg-cyan-500/10" },
 ];
 
