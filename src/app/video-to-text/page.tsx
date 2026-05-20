@@ -126,7 +126,8 @@ export default function VideoToTextPage() {
       {/* ─── Features Grid ─── */}
       <section id="features" className="py-24 bg-[var(--background)] border-y border-[var(--card-border)]">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-16 text-[var(--foreground)]">{t("to_text_page.features_title")}</h2>
+          <h2 className="text-4xl font-bold mb-4 text-[var(--foreground)] italic">{t("to_text_page.features_title")}</h2>
+          <p className="text-[var(--muted-text)] text-base mb-16 max-w-2xl mx-auto leading-relaxed">{t("to_text_page.features_desc")}</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {FEATURES.map((f) => (
               <div key={f.id} className="glass-card p-10 rounded-[32px] border border-[var(--card-border)] hover:border-indigo-500/30 transition-all group">
@@ -134,7 +135,7 @@ export default function VideoToTextPage() {
                   <f.icon className="w-7 h-7 text-indigo-500" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-[var(--foreground)]">{t(`to_text_page.f${f.id}_title`)}</h3>
-                <p className="text-[var(--muted-text)] text-sm leading-relaxed font-medium">{t(`to_text_page.f${f.id}_desc`)}</p>
+                <p className="text-[var(--muted-text)] text-sm leading-relaxed font-medium whitespace-pre-line">{t(`to_text_page.f${f.id}_desc`)}</p>
               </div>
             ))}
           </div>
