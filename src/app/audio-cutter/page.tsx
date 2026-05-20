@@ -173,14 +173,15 @@ export default function AudioCutterPage() {
       {/* ─── Steps ─── */}
       <section id="how-to-use" className="py-24 bg-[var(--background)]">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-16 text-[var(--foreground)]">{t("audio_cutter_page.steps_title")}</h2>
+          <h2 className="text-4xl font-bold mb-4 text-[var(--foreground)]">{t("audio_cutter_page.steps_title")}</h2>
+          <p className="text-[var(--muted-text)] text-base mb-16 max-w-2xl mx-auto leading-relaxed">{t("audio_cutter_page.steps_desc")}</p>
           <div className="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto">
              {STEPS.map(s => (
-               <div key={s.number} className="text-center group">
-                  <div className="text-6xl font-black text-indigo-500/10 mb-6 group-hover:text-indigo-500/20 transition-colors">{s.number}</div>
-                  <h3 className="text-xl font-bold mb-4 text-[var(--foreground)]">{t(`audio_cutter_page.s${s.id}_title`)}</h3>
-                  <p className="text-[var(--muted-text)] text-sm leading-relaxed font-medium">{t(`audio_cutter_page.s${s.id}_desc`)}</p>
-               </div>
+                <div key={s.number} className="text-center group">
+                   <div className="text-6xl font-black text-indigo-500/10 mb-6 group-hover:text-indigo-500/20 transition-colors">{s.number}</div>
+                   <h3 className="text-xl font-bold mb-4 text-[var(--foreground)]">{t(`audio_cutter_page.s${s.id}_title`)}</h3>
+                   <p className="text-[var(--muted-text)] text-sm leading-relaxed font-medium whitespace-pre-line">{t(`audio_cutter_page.s${s.id}_desc`)}</p>
+                </div>
              ))}
           </div>
         </div>
