@@ -18,7 +18,8 @@ import {
   MessageSquare,
   FileText,
   ChevronDown,
-  List
+  List,
+  X
 } from "lucide-react";
 import { RelatedTools } from "@/components/layout/RelatedTools";
 import { SocialShare } from "@/components/layout/SocialShare";
@@ -56,6 +57,14 @@ const FAQS = [
   { id: 1 },
   { id: 2 },
   { id: 3 },
+];
+
+const COMPARISON_ROWS = [
+  { id: "privacy", icon: Shield },
+  { id: "speed", icon: Zap },
+  { id: "cost", icon: Star },
+  { id: "install", icon: Globe },
+  { id: "accuracy", icon: CheckCircle2 }
 ];
 
 export default function VideoToTextPage() {
@@ -116,6 +125,7 @@ export default function VideoToTextPage() {
             </h3>
             <div className="flex flex-wrap gap-x-8 gap-y-3 text-sm font-semibold text-[var(--foreground)]">
               <a href="#features" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Key Features</a>
+              <a href="#comparison-table" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">How We Compare</a>
               <a href="#how-to-use" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">How to Transcribe</a>
               <a href="#faq" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">FAQ</a>
             </div>
@@ -124,7 +134,7 @@ export default function VideoToTextPage() {
       </section>
 
       {/* ─── Features Grid ─── */}
-      <section id="features" className="py-24 bg-[var(--background)] border-y border-[var(--card-border)]">
+      <section id="features" className="py-24 bg-[var(--background)] border-t border-[var(--card-border)]">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4 text-[var(--foreground)] italic">{t("to_text_page.features_title")}</h2>
           <p className="text-[var(--muted-text)] text-base mb-16 max-w-2xl mx-auto leading-relaxed">{t("to_text_page.features_desc")}</p>
@@ -138,6 +148,81 @@ export default function VideoToTextPage() {
                 <p className="text-[var(--muted-text)] text-sm leading-relaxed font-medium whitespace-pre-line">{t(`to_text_page.f${f.id}_desc`)}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Comparison Table ─── */}
+      <section id="comparison-table" className="py-24 bg-[var(--background)] border-y border-[var(--card-border)]">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4 text-[var(--foreground)]">{t("to_text_page.table_title")}</h2>
+            <p className="text-[var(--muted-text)] text-base max-w-2xl mx-auto leading-relaxed">{t("to_text_page.table_desc")}</p>
+          </div>
+
+          <div className="max-w-5xl mx-auto overflow-hidden rounded-[2rem] border border-[var(--card-border)] shadow-2xl shadow-indigo-500/5 bg-white/5 dark:bg-slate-900/40 backdrop-blur-md">
+            <div className="overflow-x-auto">
+              <table className="w-full text-left border-collapse min-w-[700px]">
+                <thead>
+                  <tr className="border-b border-[var(--card-border)] bg-indigo-500/5">
+                    <th className="p-6 text-sm font-bold text-[var(--foreground)] uppercase tracking-wider w-[25%]">{t("to_text_page.th_feature")}</th>
+                    <th className="p-6 text-sm font-bold text-indigo-500 dark:text-indigo-400 uppercase tracking-wider w-[35%] bg-indigo-500/5 border-x border-[var(--card-border)]">
+                      <span className="flex items-center gap-2">
+                        <Sparkles className="w-4 h-4 text-indigo-500 animate-pulse" />
+                        VideoCompressorPro
+                      </span>
+                    </th>
+                    <th className="p-6 text-sm font-bold text-[var(--muted-text)] uppercase tracking-wider w-[20%]">Cloud AI Tools</th>
+                    <th className="p-6 text-sm font-bold text-[var(--muted-text)] uppercase tracking-wider w-[20%]">Manual Agency</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-[var(--card-border)]">
+                  {COMPARISON_ROWS.map((row) => (
+                    <tr key={row.id} className="hover:bg-slate-50/50 dark:hover:bg-slate-800/10 transition-colors group">
+                      {/* Feature Name */}
+                      <td className="p-6 font-bold text-[var(--foreground)] flex items-center gap-3">
+                        <div className="w-8 h-8 rounded-lg bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-500 group-hover:scale-110 transition-transform">
+                          <row.icon className="w-4 h-4" />
+                        </div>
+                        <span className="text-sm">{t(`to_text_page.row_${row.id}_title`)}</span>
+                      </td>
+
+                      {/* VideoCompressorPro (Our Tool) */}
+                      <td className="p-6 text-sm font-semibold text-[var(--foreground)] bg-indigo-500/5 border-x border-[var(--card-border)] relative">
+                        <div className="flex items-center gap-2">
+                          <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
+                          <span>{t(`to_text_page.row_${row.id}_val1`)}</span>
+                        </div>
+                      </td>
+
+                      {/* Cloud AI Tools */}
+                      <td className="p-6 text-sm font-medium text-[var(--muted-text)]">
+                        <div className="flex items-center gap-2">
+                          {row.id === "privacy" || row.id === "cost" ? (
+                            <X className="w-4 h-4 text-red-500 shrink-0" />
+                          ) : (
+                            <CheckCircle2 className="w-4 h-4 text-amber-500 shrink-0" />
+                          )}
+                          <span>{t(`to_text_page.row_${row.id}_val2`)}</span>
+                        </div>
+                      </td>
+
+                      {/* Manual Agency */}
+                      <td className="p-6 text-sm font-medium text-[var(--muted-text)]">
+                        <div className="flex items-center gap-2">
+                          {row.id === "privacy" || row.id === "speed" || row.id === "cost" || row.id === "install" ? (
+                            <X className="w-4 h-4 text-red-500 shrink-0" />
+                          ) : (
+                            <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
+                          )}
+                          <span>{t(`to_text_page.row_${row.id}_val3`)}</span>
+                        </div>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </section>
