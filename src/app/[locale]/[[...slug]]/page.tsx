@@ -71,8 +71,10 @@ export async function generateMetadata({ params }: LocalizedPageProps) {
     title = locTitle.includes('audio_cutter_page.') ? 'Video to Audio Converter - Extract Audio from Video Online' : locTitle;
     description = locDesc.includes('audio_cutter_page.') ? 'Video to audio converter online free. Extract MP3 from MP4, YouTube, and TikTok videos instantly with secure processing.' : locDesc;
   } else if (path === 'video-to-text') {
-    title = t('tools.to_text_title');
-    description = t('tools.to_text_desc');
+    const locTitle = t('to_text_page.meta_title');
+    const locDesc = t('to_text_page.meta_description');
+    title = locTitle.includes('to_text_page.') ? 'Video to Text Converter - AI Video Transcription Free' : locTitle;
+    description = locDesc.includes('to_text_page.') ? 'VideoCompressorPro offers a user-friendly and easy-to-use video to text conversion solution, from a YouTube video to text, to an AI video to text conversion, or even a secure online video to text converter without software installation.' : locDesc;
   } else if (path.startsWith('compress-')) {
     const realSlug = path.replace('compress-', '');
     const data = COMPRESSOR_PAGES[realSlug];
