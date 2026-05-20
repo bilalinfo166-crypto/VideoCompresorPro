@@ -32,24 +32,35 @@ const STEPS = [
 ];
 
 const REVIEWS = [
-  { id: 1, name: "Klaus Wagner", avatar: "https://randomuser.me/api/portraits/men/70.jpg" },
-  { id: 2, name: "Sarah Connor", avatar: "https://randomuser.me/api/portraits/women/71.jpg" },
-  { id: 3, name: "Luca Bianchi", avatar: "https://randomuser.me/api/portraits/men/72.jpg" },
-  { id: 4, name: "Inaya Khan", avatar: "https://randomuser.me/api/portraits/women/73.jpg" },
-  { id: 5, name: "Anders Holm", avatar: "https://randomuser.me/api/portraits/men/74.jpg" },
-  { id: 6, name: "Mariana Silva", avatar: "https://randomuser.me/api/portraits/women/75.jpg" },
-  { id: 7, name: "Steve Baker", avatar: "https://randomuser.me/api/portraits/men/76.jpg" },
-  { id: 8, name: "Lin Zhao", avatar: "https://randomuser.me/api/portraits/women/77.jpg" },
-  { id: 9, name: "Erik Berg", avatar: "https://randomuser.me/api/portraits/men/78.jpg" },
-  { id: 10, name: "Freja Olsen", avatar: "https://randomuser.me/api/portraits/women/79.jpg" },
-  { id: 11, name: "Liam Wilson", avatar: "https://randomuser.me/api/portraits/men/55.jpg" },
-  { id: 12, name: "Sophia Garcia", avatar: "https://randomuser.me/api/portraits/women/19.jpg" },
+  { id: 1, name: "Daniel Brooks", avatar: "https://randomuser.me/api/portraits/men/70.jpg" },
+  { id: 2, name: "Sophie Turner", avatar: "https://randomuser.me/api/portraits/women/71.jpg" },
+  { id: 3, name: "Kevin Moore", avatar: "https://randomuser.me/api/portraits/men/72.jpg" },
+  { id: 4, name: "Maria Jensen", avatar: "https://randomuser.me/api/portraits/women/73.jpg" },
+  { id: 5, name: "Alex Rivera", avatar: "https://randomuser.me/api/portraits/men/74.jpg" },
+  { id: 6, name: "Hannah Lee", avatar: "https://randomuser.me/api/portraits/women/75.jpg" },
+  { id: 7, name: "Chris Nolan", avatar: "https://randomuser.me/api/portraits/men/76.jpg" },
+  { id: 8, name: "Lina Zhao", avatar: "https://randomuser.me/api/portraits/women/77.jpg" },
+  { id: 9, name: "Mark Evans", avatar: "https://randomuser.me/api/portraits/men/78.jpg" },
+  { id: 10, name: "Rachel Kim", avatar: "https://randomuser.me/api/portraits/women/79.jpg" },
+  { id: 11, name: "Jason Reed", avatar: "https://randomuser.me/api/portraits/men/55.jpg" },
+  { id: 12, name: "Emily Carter", avatar: "https://randomuser.me/api/portraits/women/19.jpg" },
 ];
 
 const FAQS = [
   { id: 1 },
   { id: 2 },
   { id: 3 },
+  { id: 4 },
+  { id: 5 },
+  { id: 6 },
+  { id: 7 },
+  { id: 8 },
+  { id: 9 },
+  { id: 10 },
+  { id: 11 },
+  { id: 12 },
+  { id: 13 },
+  { id: 14 },
 ];
 
 export default function AudioCutterPage() {
@@ -193,6 +204,7 @@ export default function AudioCutterPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4 text-[var(--foreground)]">{t("audio_cutter_page.reviews_title")}</h2>
+            <p className="text-[var(--muted-text)] text-base max-w-2xl mx-auto leading-relaxed">{t("audio_cutter_page.reviews_desc")}</p>
           </div>
           <div className="columns-1 md:columns-2 lg:columns-4 gap-6 max-w-7xl mx-auto space-y-6">
             {REVIEWS.map((review) => (
