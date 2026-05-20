@@ -84,7 +84,7 @@ def main():
     with open(ENGLISH_FILE, 'r', encoding='utf-8') as f:
         en_data = json.load(f)
         
-    keys_to_translate = ["hero_badge", "hero_title", "hero_subtitle"]
+    keys_to_translate = ["visualizer_title", "visualizer_desc"]
     en_items = [(k, en_data["audio_cutter_page"][k]) for k in keys_to_translate]
     
     all_files = [f for f in os.listdir(LOCALES_DIR) if f.endswith('.json') and f != 'en.json']
