@@ -66,8 +66,10 @@ export async function generateMetadata({ params }: LocalizedPageProps) {
     title = t('tools.to_mp3_title');
     description = t('tools.to_mp3_desc');
   } else if (path === 'video-to-audio') {
-    title = t('nav.audio');
-    description = t('audio_cutter_page.features_desc');
+    const locTitle = t('audio_cutter_page.meta_title');
+    const locDesc = t('audio_cutter_page.meta_description');
+    title = locTitle.includes('audio_cutter_page.') ? 'Video to Audio Converter - Extract Audio from Video Online' : locTitle;
+    description = locDesc.includes('audio_cutter_page.') ? 'Video to audio converter online free. Extract MP3 from MP4, YouTube, and TikTok videos instantly with secure processing.' : locDesc;
   } else if (path === 'video-to-text') {
     title = t('tools.to_text_title');
     description = t('tools.to_text_desc');
