@@ -366,8 +366,10 @@ export default function CropVideoPage() {
                 <div className="flex gap-1 mb-6">
                   {[...Array(5)].map((_, j) => <Star key={j} className="w-4 h-4 fill-yellow-500 text-yellow-500" />)}
                 </div>
-                <p className="text-[var(--foreground)] text-xs leading-relaxed mb-8 opacity-80">"{t(`cropper_page.r${review.id}_text`)}"</p>
-                <div className="flex items-center gap-4 mt-auto">
+                <div className="flex-1">
+                  <p className="text-[var(--foreground)] text-xs leading-relaxed mb-8 opacity-80">"{t(`cropper_page.r${review.id}_text`)}"</p>
+                </div>
+                <div className="flex items-center gap-4 mt-auto pt-6 border-t border-[var(--card-border)]">
                   <Image src={review.avatar} alt={review.name} width={40} height={40} className="rounded-full ring-2 ring-white/10" />
                   <div>
                     <div className="font-bold text-[var(--foreground)] text-[12px]">{review.name}</div>
