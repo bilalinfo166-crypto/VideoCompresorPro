@@ -122,12 +122,12 @@
     "audio_failed": "Kutting mislyktes. Sjekk tidsformatet (TT:MM:SS)."
   },
   "tools": {
-    "compressor_title": "VideoCompressorPro",
-    "compressor_desc": "Komprimer video online og reduser størrelsen med opptil 90% uten kvalitetstap. Prøv vår gratis programvare for MP4, MOV, AVI, MKV og flere.",
-    "cutter_title": "Videokutter",
-    "cutter_desc": "Kutt videoene dine raskt med en enkel online-editor. Fjern uønskede deler og rediger videoer for sosiale medier på få sekunder.",
-    "cropper_title": "Beskjær video",
-    "cropper_desc": "Endre størrelse på videoer for TikTok, Instagram Reels, YouTube Shorts. Juster formatet profesjonelt.",
+    "compressor_title": "Videokompressor",
+    "compressor_desc": "Optimaliser videostørrelsen, samt kvaliteten for visning og deling, lagring, nettsteder og opplastinger av sosiale medier. Fungerer med MP4, MOV, AVI, MKV og flere populære filformater.\n\nKOMPRESSER • OPTIMER • REDUSER FILSTØRRELSE",
+    "cutter_title": "Online Video Cutter",
+    "cutter_desc": "Trim lange opptak, fjern uvedkommende deler og lag kortere klipp for YouTube, TikTok, Instagram Reels, veiledninger, presentasjoner og skaperinnhold.\n\nKlipp • DELE • REDIG VIDEOKLIPP",
+    "cropper_title": "Video Cropper",
+    "cropper_desc": "Bruk ferdige forhåndsinnstillinger for sosiale medier for å endre størrelsen på videoer for å passe vertikalt, kvadratisk eller widescreen-format. Ideell for TikTok, Shorts, Instagram, Facebook og mobiloptimalisert innhold.\n\nBESKILLING • ENDRE STØRRELSE • KLAR FOR SOSIALE MEDIER",
     "to_mp3_title": "Video til MP3",
     "to_mp3_desc": "Trekk ut høykvalitets lyd for podkaster, musikk og opptak. Lytt offline hvor som helst.",
     "audio_cutter_title": "Lydkutter",
@@ -137,8 +137,8 @@
     "open_tool": "Åpne verktøy",
     "all_free_title": "Alle gratis videoverktøy på ett sted",
     "all_free_desc": "Alle dine behov for komprimering, redigering og konvertering på én rask og sikker plattform.",
-    "related_title": "Relaterte verktøy",
-    "related_desc": "Leter du etter andre måter å redigere filene dine på? Prøv våre andre personvernfokuserte verktøy."
+    "related_title": "Relaterte gratis video- og lydverktøy",
+    "related_desc": "Se flere nettleserbaserte applikasjoner fra VideoCompressorPro, optimalisert for hastighet, sikkerhet og problemfri mediekonvertering uten nedlasting og komplisert programvare."
   },
   "trusted": {
     "title": "Millioner av mennesker stoler på vår kompressor",

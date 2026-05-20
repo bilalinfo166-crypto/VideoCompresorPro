@@ -122,12 +122,12 @@
     "audio_failed": "Schneiden fehlgeschlagen. Zeitformat (HH:MM:SS) prüfen."
   },
   "tools": {
-    "compressor_title": "VideoCompressorPro",
-    "compressor_desc": "Videos online komprimieren und Größe um bis zu 90% reduzieren ohne Qualitätsverlust. Kostenlos für MP4, MOV, AVI, MKV und mehr.",
-    "cutter_title": "Video schneiden",
-    "cutter_desc": "Videos schnell mit einem einfachen Online-Editor schneiden. Unerwünschte Teile entfernen und Social Media Videos in Sekunden erstellen.",
-    "cropper_title": "Video zuschneiden",
-    "cropper_desc": "Video-Größe für TikTok, Instagram Reels, YouTube Shorts anpassen. Seitenverhältnis professionell einstellen.",
+    "compressor_title": "Videokompressor",
+    "compressor_desc": "Optimieren Sie die Videogröße sowie die Qualität für die Anzeige und Weitergabe, Speicherung, Websites und Social-Media-Uploads. Funktioniert mit MP4, MOV, AVI, MKV und weiteren gängigen Dateiformaten.\n\nKOMPRIMIEREN • OPTIMIEREN • DATEIGRÖSSE REDUZIEREN",
+    "cutter_title": "Online-Video-Cutter",
+    "cutter_desc": "Schneiden Sie lange Aufnahmen zu, entfernen Sie überflüssige Teile und erstellen Sie kürzere Clips für YouTube, TikTok, Instagram Reels, Tutorials, Präsentationen und Erstellerinhalte.\n\nSCHNEIDEN • TEILEN • VIDEOCLIPS BEARBEITEN",
+    "cropper_title": "Video-Cropper",
+    "cropper_desc": "Verwenden Sie vorgefertigte Social-Media-Voreinstellungen, um die Größe von Videos an das vertikale, quadratische oder Breitbildformat anzupassen. Ideal für TikTok, Shorts, Instagram, Facebook und für Mobilgeräte optimierte Inhalte.\n\nZUSCHNEIDEN • GRÖSSE ÄNDERN • BEREIT FÜR SOCIAL MEDIA",
     "to_mp3_title": "Video zu MP3",
     "to_mp3_desc": "Hochwertiges Audio für Podcasts, Musik und Aufnahmen extrahieren. Überall offline anhören.",
     "audio_cutter_title": "Audio schneiden",
@@ -137,8 +137,8 @@
     "open_tool": "Tool öffnen",
     "all_free_title": "Alle kostenlosen Video-Tools an einem Ort",
     "all_free_desc": "Alles für Kompression, Bearbeitung und Konvertierung auf einer schnellen und sicheren Plattform.",
-    "related_title": "Ähnliche Tools",
-    "related_desc": "Suchen Sie nach anderen Bearbeitungswegen? Testen Sie unsere anderen datenschutzfokussierten Tools."
+    "related_title": "Verwandte kostenlose Video- und Audio-Tools",
+    "related_desc": "Sehen Sie sich weitere browserbasierte Anwendungen von VideoCompressorPro an, die für Geschwindigkeit, Sicherheit und problemlose Medienkonvertierung ohne Download und komplizierte Software optimiert sind."
   },
   "trusted": {
     "title": "Millionen vertrauen unserem Kompressor",

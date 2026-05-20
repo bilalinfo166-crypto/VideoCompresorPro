@@ -122,12 +122,12 @@
     "audio_failed": "Cutting failed. Please ensure the time format is correct (HH:MM:SS)."
   },
   "tools": {
-    "compressor_title": "VideoCompressorPro",
-    "compressor_desc": "Compress videos online and cut video size up to 90% without loss in quality. Try out our free web video compressor software that supports MP4, MOV, AVI, MKV and other video formats to get your videos to upload quickly and share easily.",
-    "cutter_title": "Video Cutter",
-    "cutter_desc": "Trim and cut videos quickly with an easy-to-use online editor. Trim out unwanted footage, cut clips to length and edit videos to share on social media, websites or presentations in seconds.",
-    "cropper_title": "Crop Video",
-    "cropper_desc": "Resize and crop videos for TikTok, Instagram Reels, YouTube Shorts and more. Easily adjust aspect ratio and maintain professional looking video footage.",
+    "compressor_title": "Video Compressor",
+    "compressor_desc": "Optimize video size, as well as quality for viewing and sharing, storage, websites and social media uploads. Works with MP4, MOV, AVI, MKV and more popular file formats.\n\nCOMPRESS • OPTIMIZE • REDUCE FILE SIZE",
+    "cutter_title": "Online Video Cutter",
+    "cutter_desc": "Trim long recordings, remove extraneous parts and make shorter clips for YouTube, TikTok, Instagram Reels, tutorials, presentations, and creator content.\n\nCUT • SPLIT • EDIT VIDEO CLIPS",
+    "cropper_title": "Video Cropper",
+    "cropper_desc": "Use ready-made social media presets to resize videos to fit vertical, square or widescreen format. Ideal for TikTok, Shorts, Instagram, Facebook and mobile-optimized content.\n\nCROP • RESIZE • SOCIAL MEDIA READY",
     "to_mp3_title": "Video to MP3",
     "to_mp3_desc": "Get a good audio output from videos in no time. Extract audio from video files for podcasts, music clips, voice recordings and to listen without need for an internet connection.",
     "audio_cutter_title": "Audio Cutter",
@@ -137,8 +137,8 @@
     "open_tool": "Open tool",
     "all_free_title": "All-in-One Free Video Tools",
     "all_free_desc": "All your video compression, media editing, format conversion and optimization needs in one fast, secure and easy-to-use online platform.",
-    "related_title": "Related Free Tools",
-    "related_desc": "Looking for more ways to edit your media? Try our other privacy-first tools."
+    "related_title": "Related Free Video & Audio Tools",
+    "related_desc": "See additional browser-based applications from VideoCompressorPro, optimized for speed, security and hassle free media conversion without download and complicated software."
   },
   "trusted": {
     "title": "Million of trust on our online video compressor",

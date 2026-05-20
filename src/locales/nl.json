@@ -122,12 +122,12 @@
     "audio_failed": "Knippen mislukt. Controleer het tijdsformaat (HH:MM:SS)."
   },
   "tools": {
-    "compressor_title": "VideoCompressorPro",
-    "compressor_desc": "Comprimeer video's online en verklein de bestandsgrootte tot 90% zonder kwaliteitsverlies. Probeer onze gratis software voor MP4, MOV, AVI, MKV en meer.",
-    "cutter_title": "Video Knippen",
-    "cutter_desc": "Trim video's snel met een eenvoudige online editor. Verwijder ongewenste delen en bewerk video's voor sociale media in seconden.",
-    "cropper_title": "Video Bijsnijden",
-    "cropper_desc": "Pas het formaat van video's aan voor TikTok, Instagram Reels, YouTube Shorts en meer. Beheer beeldverhoudingen professioneel.",
+    "compressor_title": "Videocompressor",
+    "compressor_desc": "Optimaliseer het videoformaat en de kwaliteit voor bekijken en delen, opslag, websites en uploads op sociale media. Werkt met MP4, MOV, AVI, MKV en meer populaire bestandsformaten.\n\nCOMPRESSEREN • OPTIMALISEREN • VERMINDEREN BESTANDSGROOTTE",
+    "cutter_title": "Online videosnijder",
+    "cutter_desc": "Knip lange opnames bij, verwijder overbodige delen en maak kortere clips voor YouTube, TikTok, Instagram Reels, tutorials, presentaties en content van makers.\n\nSNIJDEN • SPLITTEN • VIDEOCLIPS BEWERKEN",
+    "cropper_title": "Videobijsnijden",
+    "cropper_desc": "Gebruik kant-en-klare voorinstellingen voor sociale media om het formaat van video's aan te passen zodat ze in een verticaal, vierkant of breedbeeldformaat passen. Ideaal voor TikTok, Shorts, Instagram, Facebook en voor mobiel geoptimaliseerde inhoud.\n\nBIJSNIJDEN • GROOTTE AANPASSEN • SOCIAL MEDIA KLAAR",
     "to_mp3_title": "Video naar MP3",
     "to_mp3_desc": "Extraheer hoge kwaliteit audio voor podcasts, muziek en opnames. Luister offline zonder internet.",
     "audio_cutter_title": "Audio Knippen",
@@ -137,8 +137,8 @@
     "open_tool": "Tool openen",
     "all_free_title": "Alles-in-één gratis video tools",
     "all_free_desc": "Al je compressie-, bewerkings- en conversiebehoeften op één snel en veilig platform.",
-    "related_title": "Gerelateerde tools",
-    "related_desc": "Op zoek naar andere manieren om je bestanden te bewerken? Probeer onze privacy-gerichte tools."
+    "related_title": "Gerelateerde gratis video- en audiohulpmiddelen",
+    "related_desc": "Bekijk aanvullende browsergebaseerde applicaties van VideoCompressorPro, geoptimaliseerd voor snelheid, veiligheid en probleemloze mediaconversie zonder download en ingewikkelde software."
   },
   "trusted": {
     "title": "Miljoenen vertrouwen op onze compressor",

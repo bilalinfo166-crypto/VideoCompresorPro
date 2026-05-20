@@ -122,12 +122,12 @@
     "audio_failed": "Leikkaus epäonnistui. Tarkista aikamuoto (TT:MM:SS)."
   },
   "tools": {
-    "compressor_title": "VideoCompressorPro",
-    "compressor_desc": "Pakkaa videot verkossa ja pienennä kokoa jopa 90 % ilman laadun heikkenemistä. Kokeile ilmaista ohjelmistollemme MP4-, MOV-, AVI-, MKV- ja muille tiedostoille.",
-    "cutter_title": "Videon leikkaus",
-    "cutter_desc": "Leikkaa videoidesi kestoa nopeasti yksinkertaisella verkkoeditorilla. Poista turhat osat ja muokkaa videoita sosiaaliseen mediaan sekunneissa.",
-    "cropper_title": "Videon rajaus",
-    "cropper_desc": "Muuta videoiden kokoa TikTokiin, Instagram Reelsiin tai YouTube Shortsiin. Säädä kuvasuhde ammattimaisesti.",
+    "compressor_title": "Videokompressori",
+    "compressor_desc": "Optimoi videon koko sekä laatu katselua ja jakamista, tallennusta, verkkosivustoja ja sosiaaliseen mediaan latauksia varten. Toimii MP4, MOV, AVI, MKV ja suositumpien tiedostomuotojen kanssa.\n\nPAKKAUS • OPTIMOINTI • VÄHENNÄ TIEDOSTON KOKOA",
+    "cutter_title": "Online Video Cutter",
+    "cutter_desc": "Leikkaa pitkiä tallenteita, poista ylimääräisiä osia ja tee lyhyempiä leikkeitä YouTubeen, TikTokiin, Instagram Reelsiin, opetusohjelmiin, esityksiin ja sisällöntuottajasisältöön.\n\nCUT • SPLIT • MUOKKAA VIDEOLEIKETTÄ",
+    "cropper_title": "Video Cropper",
+    "cropper_desc": "Käytä valmiita sosiaalisen median esiasetuksia muuttaaksesi videoiden kokoa pysty-, neliö- tai laajakuvamuotoon sopiviksi. Ihanteellinen TikTokille, Shortseille, Instagramille, Facebookille ja mobiililaitteille optimoidulle sisällölle.\n\nRAJAA • MUUTA kokoa • SOSIAALINEN MEDIA VALMIS",
     "to_mp3_title": "Video MP3-muotoon",
     "to_mp3_desc": "Irrota korkealaatuinen ääni podcasteihin, musiikkiin ja tallenteisiin. Kuuntele offline-tilassa missä vain.",
     "audio_cutter_title": "Äänen leikkaus",
@@ -137,8 +137,8 @@
     "open_tool": "Avaa työkalu",
     "all_free_title": "Kaikki ilmaiset videotyökalut yhdessä paikassa",
     "all_free_desc": "Kaikki pakkaus-, muokkaus- ja muuntotarpeesi yhdellä nopealla ja turvallisella alustalla.",
-    "related_title": "Liittyvät työkalut",
-    "related_desc": "Etsitkö muita tapoja muokata tiedostojasi? Kokeile muita yksityisyyteen keskittyviä työkalujamme."
+    "related_title": "Aiheeseen liittyvät ilmaiset video- ja äänityökalut",
+    "related_desc": "Katso lisää VideoCompressorPron selainpohjaisia ​​sovelluksia, jotka on optimoitu nopeutta, turvallisuutta ja vaivatonta mediamuunnusta varten ilman latausta ja monimutkaisia ​​ohjelmistoja."
   },
   "trusted": {
     "title": "Miljoonat luottavat pakkaustyökaluunmme",

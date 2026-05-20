@@ -122,12 +122,12 @@
     "audio_failed": "Potong gagal. Periksa format waktu (JJ:MM:DD)."
   },
   "tools": {
-    "compressor_title": "VideoCompressorPro",
-    "compressor_desc": "Kompres video online dan kurangi ukuran hingga 90% tanpa kehilangan kualitas. Coba software gratis kami yang mendukung MP4, MOV, AVI, MKV, dan lainnya.",
-    "cutter_title": "Pemotong Video",
-    "cutter_desc": "Pangkas video dengan cepat menggunakan editor online sederhana. Hapus bagian yang tidak diinginkan dan edit video untuk media sosial dalam hitungan detik.",
-    "cropper_title": "Video Cropper",
-    "cropper_desc": "Ubah ukuran video untuk TikTok, Instagram Reels, YouTube Shorts, dan lainnya. Atur rasio aspek secara profesional.",
+    "compressor_title": "Kompresor Video",
+    "compressor_desc": "Optimalkan ukuran video, serta kualitas untuk dilihat dan dibagikan, penyimpanan, situs web, dan unggahan media sosial. Bekerja dengan format file MP4, MOV, AVI, MKV dan lebih populer.\n\nKOMPRESKAN • OPTIMALKAN • MENGURANGI UKURAN FILE",
+    "cutter_title": "Pemotong Video Online",
+    "cutter_desc": "Pangkas rekaman panjang, hapus bagian yang tidak relevan, dan buat klip pendek untuk YouTube, TikTok, Reel Instagram, tutorial, presentasi, dan konten pembuat.\n\nPOTONG • PISAHKAN • EDIT KLIP VIDEO",
+    "cropper_title": "Pemotong Video",
+    "cropper_desc": "Gunakan preset media sosial yang sudah jadi untuk mengubah ukuran video agar sesuai dengan format vertikal, persegi, atau layar lebar. Ideal untuk TikTok, Shorts, Instagram, Facebook, dan konten yang dioptimalkan untuk seluler.\n\nTANAMAN • UBAH UKURAN • MEDIA SOSIAL SIAP",
     "to_mp3_title": "Video ke MP3",
     "to_mp3_desc": "Ekstrak audio kualitas tinggi untuk podcast, musik, dan rekaman. Dengarkan secara offline tanpa internet.",
     "audio_cutter_title": "Pemotong Audio",
@@ -137,8 +137,8 @@
     "open_tool": "Buka Alat",
     "all_free_title": "Alat video gratis lengkap",
     "all_free_desc": "Semua kebutuhan kompresi, pengeditan, dan konversi Anda dalam satu platform yang cepat dan aman.",
-    "related_title": "Alat terkait",
-    "related_desc": "Mencari cara lain untuk mengedit file Anda? Coba alat kami yang berfokus pada privasi lainnya."
+    "related_title": "Alat Video & Audio Gratis Terkait",
+    "related_desc": "Lihat aplikasi tambahan berbasis browser dari VideoCompressorPro, dioptimalkan untuk kecepatan, keamanan, dan konversi media tanpa kerumitan tanpa pengunduhan dan perangkat lunak yang rumit."
   },
   "trusted": {
     "title": "Jutaan orang mempercayai kompresor kami",

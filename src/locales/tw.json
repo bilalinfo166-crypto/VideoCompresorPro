@@ -122,12 +122,12 @@
     "audio_failed": "裁剪失敗。請檢查時間格式 (HH:MM:SS)。"
   },
   "tools": {
-    "compressor_title": "VideoCompressorPro",
-    "compressor_desc": "線上壓縮影片，減小體積高達 90% 且無損畫質。試試我們支援 MP4、MOV、AVI、MKV 等格式的免費軟體。",
-    "cutter_title": "影片裁剪",
-    "cutter_desc": "使用簡單的線上編輯器快速裁剪影片。刪除不需要的部分，幾秒鐘內完成社群媒體影片編輯。",
-    "cropper_title": "影片切邊",
-    "cropper_desc": "為 TikTok、Instagram Reels、YouTube Shorts 調整影片大小。專業調整縱橫比。",
+    "compressor_title": "影片壓縮器",
+    "compressor_desc": "優化影片大小以及觀看和分享、儲存、網站和社群媒體上傳的品質。適用於 MP4、MOV、AVI、MKV 和更流行的檔案格式。\n\n壓縮• 最佳化• 減少檔案大小",
+    "cutter_title": "線上影片剪輯",
+    "cutter_desc": "修剪長錄音、刪除無關部分並為 YouTube、TikTok、Instagram Reels、教學、簡報和創作者內容製作較短的剪輯。\n\n剪切• 分割• 編輯影片剪輯",
+    "cropper_title": "影片裁剪器",
+    "cropper_desc": "使用現成的社群媒體預設來調整影片大小以適應垂直、方形或寬螢幕格式。非常適合 TikTok、Shorts、Instagram、Facebook 和行動優化內容。\n\n裁切 • 調整大小 • 社群媒體就緒",
     "to_mp3_title": "影片轉 MP3",
     "to_mp3_desc": "為播客、音樂和錄音提取高品質音訊。隨時隨地離線收聽。",
     "audio_cutter_title": "音訊裁剪",
@@ -137,8 +137,8 @@
     "open_tool": "打開工具",
     "all_free_title": "所有免費影片工具一站式體驗",
     "all_free_desc": "在一個快速且安全的平台上滿足您所有的壓縮、編輯和轉換需求。",
-    "related_title": "相關工具",
-    "related_desc": "尋找其他編輯方式？試試我們其他注重隱私的工具。"
+    "related_title": "相關免費視訊和音訊工具",
+    "related_desc": "查看 VideoCompressorPro 提供的其他基於瀏覽器的應用程序，這些應用程式針對速度、安全性和無憂媒體轉換進行了最佳化，無需下載和複雜的軟體。"
   },
   "trusted": {
     "title": "數百萬人信賴我們的壓縮器",

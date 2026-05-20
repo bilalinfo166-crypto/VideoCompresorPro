@@ -122,12 +122,12 @@
     "audio_failed": "A vágás sikertelen. Ellenőrizze az időformátumot (ÓÓ:PP:MP)."
   },
   "tools": {
-    "compressor_title": "VideoCompressorPro",
-    "compressor_desc": "Tömörítsen videót online és csökkentse a méretét akár 90%-kal minőségromlás nélkül. Próbálja ki ingyenes szoftverünket MP4, MOV, AVI, MKV és egyéb fájlokhoz.",
-    "cutter_title": "Videó vágó",
-    "cutter_desc": "Vágja meg videóit gyorsan egy egyszerű online szerkesztővel. Távolítsa el a nem kívánt részeket és szerkesszen videókat a közösségi médiához másodpercek alatt.",
-    "cropper_title": "Videó méretező",
-    "cropper_desc": "Méretezze át videóit TikTok-ra, Instagram Reels-re, YouTube Shorts-ra. Állítsa be a képarányt professzionálisan.",
+    "compressor_title": "Videókompresszor",
+    "compressor_desc": "Optimalizálja a videó méretét, valamint minőségét a megtekintéshez és megosztáshoz, a tároláshoz, a webhelyekhez és a közösségi oldalak feltöltéséhez. Működik MP4, MOV, AVI, MKV és népszerűbb fájlformátumokkal.\n\nTÖMÖRÍTÉS • OPTIMALIZÁLÁS • FÁJLMÉRET CSÖKKENTÉSE",
+    "cutter_title": "Online Video Cutter",
+    "cutter_desc": "Vágja le a hosszú felvételeket, távolítsa el a felesleges részeket, és készítsen rövidebb klipeket a YouTube-hoz, TikTok-hoz, Instagram-tekercsekhez, oktatóanyagokhoz, prezentációkhoz és alkotói tartalmakhoz.\n\nVÁGÁS • SPLIT • VIDEÓKLIPEK SZERKESZTÉSE",
+    "cropper_title": "Video Cropper",
+    "cropper_desc": "Használja a kész közösségimédia-beállításokat, hogy átméretezze a videókat függőleges, négyzet alakú vagy szélesvásznú formátumra. Ideális TikTok, Shorts, Instagram, Facebook és mobilra optimalizált tartalmakhoz.\n\nVÁGÁS • MÉRETETÉS • KÖZÖSSÉGI MÉDIA KÉSZ",
     "to_mp3_title": "Videó MP3-ba",
     "to_mp3_desc": "Nyerjen ki kiváló minőségű hangot podcastokhoz, zenékhez és felvételekhez. Hallgassa offline bárhol.",
     "audio_cutter_title": "Hang vágó",
@@ -137,8 +137,8 @@
     "open_tool": "Eszköz megnyitása",
     "all_free_title": "Minden ingyenes videó eszköz egy helyen",
     "all_free_desc": "Minden tömörítési, szerkesztési és konvertálási igénye egy gyors és biztonságos platformon.",
-    "related_title": "Kapcsolódó eszközök",
-    "related_desc": "Más módot keres a fájlok szerkesztésére? Próbálja ki további adatvédelmi fókuszú eszközeinket."
+    "related_title": "Kapcsolódó ingyenes video- és audioeszközök",
+    "related_desc": "Tekintse meg a VideoCompressorPro további böngészőalapú alkalmazásait, amelyeket a sebességre, biztonságra és problémamentes médiakonverzióra optimalizáltak letöltés és bonyolult szoftverek nélkül."
   },
   "trusted": {
     "title": "Milliók bíznak a tömörítőnkben",

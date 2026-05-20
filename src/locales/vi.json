@@ -122,12 +122,12 @@
     "audio_failed": "Cắt thất bại. Vui lòng kiểm tra định dạng thời gian (HH:MM:SS)."
   },
   "tools": {
-    "compressor_title": "VideoCompressorPro",
-    "compressor_desc": "Nén video trực tuyến và giảm dung lượng đến 90% mà không mất chất lượng. Thử ngay công cụ miễn phí hỗ trợ MP4, MOV, AVI, MKV và nhiều hơn nữa.",
-    "cutter_title": "Công cụ cắt Video",
-    "cutter_desc": "Cắt video nhanh chóng với trình chỉnh sửa trực tuyến đơn giản. Loại bỏ phần không mong muốn và chỉnh sửa video cho mạng xã hội trong vài giây.",
-    "cropper_title": "Cắt khung hình Video",
-    "cropper_desc": "Thay đổi kích thước video cho TikTok, Instagram Reels, YouTube Shorts. Điều chỉnh tỷ lệ chuyên nghiệp.",
+    "compressor_title": "Máy nén video",
+    "compressor_desc": "Tối ưu hóa kích thước video cũng như chất lượng để xem và chia sẻ, lưu trữ, trang web và tải lên phương tiện truyền thông xã hội. Hoạt động với MP4, MOV, AVI, MKV và các định dạng tệp phổ biến hơn.\n\nNÉN • TỐI ƯU HÓA • GIẢM KÍCH THƯỚC TẬP TIN",
+    "cutter_title": "Máy cắt video trực tuyến",
+    "cutter_desc": "Cắt bớt các bản ghi dài, xóa các phần không liên quan và tạo các clip ngắn hơn cho YouTube, TikTok, Instagram Reels, hướng dẫn, thuyết trình và nội dung của người sáng tạo.\n\nCẮT • TÁCH • CHỈNH SỬA VIDEO CLIP",
+    "cropper_title": "Trình cắt video",
+    "cropper_desc": "Sử dụng các cài đặt sẵn trên phương tiện truyền thông xã hội được tạo sẵn để thay đổi kích thước video cho phù hợp với định dạng màn hình dọc, hình vuông hoặc màn hình rộng. Lý tưởng cho TikTok, Shorts, Instagram, Facebook và nội dung được tối ưu hóa cho thiết bị di động.\n\nCROP • THAY ĐỔI KÍCH THƯỚC • TRUYỀN THÔNG XÃ HỘI SẴN SÀNG",
     "to_mp3_title": "Video sang MP3",
     "to_mp3_desc": "Trích xuất âm thanh chất lượng cao cho podcast, âm nhạc và ghi âm. Nghe ngoại tuyến không cần internet.",
     "audio_cutter_title": "Công cụ cắt Âm thanh",
@@ -137,8 +137,8 @@
     "open_tool": "Mở công cụ",
     "all_free_title": "Tất cả công cụ video miễn phí trong một",
     "all_free_desc": "Mọi nhu cầu nén, chỉnh sửa, chuyển đổi của bạn trên một nền tảng nhanh và an toàn.",
-    "related_title": "Công cụ liên quan",
-    "related_desc": "Tìm kiếm cách khác để chỉnh sửa tệp của bạn? Thử các công cụ bảo mật của chúng tôi."
+    "related_title": "Công cụ âm thanh và video miễn phí có liên quan",
+    "related_desc": "Xem các ứng dụng bổ sung dựa trên trình duyệt từ VideoCompressorPro, được tối ưu hóa về tốc độ, bảo mật và chuyển đổi phương tiện không rắc rối mà không cần tải xuống và phần mềm phức tạp."
   },
   "trusted": {
     "title": "Hàng triệu người tin dùng công cụ nén của chúng tôi",

@@ -122,12 +122,12 @@
     "audio_failed": "자르기에 실패했습니다. 시간 형식(HH:MM:SS)을 확인해 주세요."
   },
   "tools": {
-    "compressor_title": "VideoCompressorPro",
-    "compressor_desc": "온라인에서 비디오를 압축하고 화질 저하 없이 크기를 90%까지 줄이세요. MP4, MOV, AVI, MKV 등을 지원하는 무료 소프트웨어를 사용해 보세요.",
-    "cutter_title": "비디오 커터",
-    "cutter_desc": "간단한 온라인 에디터로 비디오를 빠르게 트리밍하세요. 불필요한 부분을 제거하고 몇 초 만에 소셜 미디어용 비디오를 편집할 수 있습니다.",
-    "cropper_title": "비디오 크로퍼",
-    "cropper_desc": "TikTok, Instagram Reels, YouTube Shorts용으로 비디오 크기를 조정하세요. 전문가 수준으로 화면 비율을 조정할 수 있습니다.",
+    "compressor_title": "비디오 압축기",
+    "compressor_desc": "보기 및 공유, 저장, 웹 사이트 및 소셜 미디어 업로드 품질은 물론 비디오 크기를 최적화합니다. MP4, MOV, AVI, MKV 및 기타 널리 사용되는 파일 형식에서 작동합니다.\n\n압축 • 최적화 • 파일 크기 감소",
+    "cutter_title": "온라인 비디오 커터",
+    "cutter_desc": "긴 녹음을 다듬고, 불필요한 부분을 제거하고, YouTube, TikTok, Instagram Reels, 튜토리얼, 프레젠테이션 및 제작자 콘텐츠를 위한 짧은 클립을 만드세요.\n\n잘라내기 • 분할 • 비디오 클립 편집",
+    "cropper_title": "비디오 자르기",
+    "cropper_desc": "미리 만들어진 소셜 미디어 사전 설정을 사용하여 세로, 정사각형 또는 와이드스크린 형식에 맞게 비디오 크기를 조정하세요. TikTok, Shorts, Instagram, Facebook 및 모바일에 최적화된 콘텐츠에 적합합니다.\n\n자르기 • 크기 조정 • 소셜 미디어 준비",
     "to_mp3_title": "비디오 MP3 변환",
     "to_mp3_desc": "팟캐스트, 음악, 녹음을 위한 고음질 오디오를 추출하세요. 인터넷 없이 오프라인으로 감상할 수 있습니다.",
     "audio_cutter_title": "오디오 커터",
@@ -137,8 +137,8 @@
     "open_tool": "도구 열기",
     "all_free_title": "올인원 무료 비디오 도구",
     "all_free_desc": "압축, 편집, 변환에 필요한 모든 기능을 빠르고 안전한 하나의 플랫폼에서 제공합니다.",
-    "related_title": "관련 도구",
-    "related_desc": "다른 편집 방법이 필요하신가요? 저희의 다른 개인정보 보호 도구들을 확인해 보세요."
+    "related_title": "관련 무료 비디오 및 오디오 도구",
+    "related_desc": "다운로드 및 복잡한 소프트웨어 없이 속도, 보안 및 번거로움 없는 미디어 변환을 위해 최적화된 VideoCompressorPro의 추가 브라우저 기반 애플리케이션을 확인하세요."
   },
   "trusted": {
     "title": "수백만 명의 사용자가 선택한 압축기",

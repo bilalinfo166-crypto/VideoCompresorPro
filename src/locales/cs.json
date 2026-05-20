@@ -122,12 +122,12 @@
     "audio_failed": "Ořez se nezdařil. Zkontrolujte formát času (HH:MM:SS)."
   },
   "tools": {
-    "compressor_title": "VideoCompressorPro",
-    "compressor_desc": "Komprimujte video online a snižte velikost až o 90 % bez ztráty kvality. Vyzkoušejte náš bezplatný software pro MP4, MOV, AVI, MKV a další.",
-    "cutter_title": "Ořez videa",
-    "cutter_desc": "Rychle ořízněte videa pomocí jednoduchého online editoru. Odstraňte nechtěné části a upravte videa pro sociální sítě během několika sekund.",
-    "cropper_title": "Změna rozměrů videa",
-    "cropper_desc": "Změňte velikost videí pro TikTok, Instagram Reels, YouTube Shorts. Upravte poměr stran profesionálně.",
+    "compressor_title": "Video kompresor",
+    "compressor_desc": "Optimalizujte velikost videa a také kvalitu pro prohlížení a sdílení, ukládání, webové stránky a nahrávání na sociální média. Pracuje s MP4, MOV, AVI, MKV a dalšími populárními formáty souborů.\n\nKOMPRESOVAT • OPTIMALIZOVAT • ZMENŠIT VELIKOST SOUBORU",
+    "cutter_title": "Online Video Cutter",
+    "cutter_desc": "Zkraťte dlouhé nahrávky, odstraňte přebytečné části a vytvořte kratší klipy pro YouTube, TikTok, Instagram Reels, výukové programy, prezentace a obsah pro tvůrce.\n\nSTŘIHOVAT • ROZDĚLIT • UPRAVOVAT VIDEOKLIPY",
+    "cropper_title": "Video Cropper",
+    "cropper_desc": "Použijte připravené předvolby sociálních médií ke změně velikosti videí, aby se vešly na vertikální, čtvercový nebo širokoúhlý formát. Ideální pro TikTok, Shorts, Instagram, Facebook a obsah optimalizovaný pro mobily.\n\nCROP • ZMĚNIT VELIKOST • PŘIPRAVENA SOCIÁLNÍ MÉDIA",
     "to_mp3_title": "Video do MP3",
     "to_mp3_desc": "Extrahujte vysoce kvalitní audio pro podcasty, hudbu a nahrávky. Poslouchejte offline kdekoli.",
     "audio_cutter_title": "Ořez audia",
@@ -137,8 +137,8 @@
     "open_tool": "Otevřít nástroj",
     "all_free_title": "Všechny bezplatné video nástroje v jednom",
     "all_free_desc": "Všechny vaše potřeby pro kompresi, úpravy a konverzi na jedné rychlé a bezpečné platformě.",
-    "related_title": "Související nástroje",
-    "related_desc": "Hledáte jiné způsoby úpravy souborů? Vyzkoušejte naše další nástroje zaměřené na soukromí."
+    "related_title": "Související bezplatné nástroje pro video a zvuk",
+    "related_desc": "Podívejte se na další aplikace založené na prohlížeči od VideoCompressorPro, optimalizované pro rychlost, zabezpečení a bezproblémovou konverzi médií bez stahování a složitého softwaru."
   },
   "trusted": {
     "title": "Miliony lidí důvěřují našemu kompresoru",

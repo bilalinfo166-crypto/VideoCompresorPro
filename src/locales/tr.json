@@ -122,12 +122,12 @@
     "audio_failed": "Kesme başarısız. Zaman formatını (SS:DD:SS) kontrol edin."
   },
   "tools": {
-    "compressor_title": "VideoCompressorPro",
-    "compressor_desc": "Videoları online sıkıştırın ve kalite kaybı olmadan boyutu %90'a kadar azaltın. MP4, MOV, AVI, MKV ve daha fazlası için ücretsiz yazılımımızı deneyin.",
-    "cutter_title": "Video Kes",
-    "cutter_desc": "Basit bir online editörle videolarınızı hızlıca kesin. İstenmeyen kısımları kaldırın ve saniyeler içinde sosyal medya videoları oluşturun.",
-    "cropper_title": "Video Kırp",
-    "cropper_desc": "TikTok, Instagram Reels, YouTube Shorts için video boyutunu değiştirin. En boy oranını profesyonelce ayarlayın.",
+    "compressor_title": "Video Kompresörü",
+    "compressor_desc": "Görüntüleme ve paylaşma, depolama, web siteleri ve sosyal medya yüklemeleri için video boyutunun yanı sıra kaliteyi de optimize edin. MP4, MOV, AVI, MKV ve daha popüler dosya formatlarıyla çalışır.\n\nSIKIŞTIRMA • OPTİMİZE ET • DOSYA BOYUTUNU KÜÇÜK",
+    "cutter_title": "Çevrimiçi Video Kesici",
+    "cutter_desc": "Uzun kayıtları kırpın, gereksiz kısımları kaldırın ve YouTube, TikTok, Instagram Reels, öğreticiler, sunumlar ve içerik oluşturucu içeriği için daha kısa klipler oluşturun.\n\nKES • BÖL • VİDEO KLİPLERİNİ DÜZENLE",
+    "cropper_title": "Video Kırpıcı",
+    "cropper_desc": "Videoları dikey, kare veya geniş ekran formatına uyacak şekilde yeniden boyutlandırmak için hazır sosyal medya ön ayarlarını kullanın. TikTok, Shorts, Instagram, Facebook ve mobil cihazlar için optimize edilmiş içerikler için idealdir.\n\nKIRP • YENİDEN BOYUTLANDIR • SOSYAL MEDYAYA HAZIR",
     "to_mp3_title": "Videodan MP3'e",
     "to_mp3_desc": "Podcast'ler, müzik ve kayıtlar için yüksek kaliteli ses çıkarın. Her yerde çevrimdışı dinleyin.",
     "audio_cutter_title": "Ses Kes",
@@ -137,8 +137,8 @@
     "open_tool": "Aracı aç",
     "all_free_title": "Tüm ücretsiz video araçlarınız tek bir yerde",
     "all_free_desc": "Sıkıştırma, düzenleme ve dönüştürme ihtiyaçlarınızın tamamı hızlı ve güvenli bir platformda.",
-    "related_title": "İlgili araçlar",
-    "related_desc": "Dosyalarınızı düzenlemenin başka yollarını mı arıyorsunuz? Diğer gizlilik odaklı araçlarımızı deneyin."
+    "related_title": "İlgili Ücretsiz Video ve Ses Araçları",
+    "related_desc": "VideoCompressorPro'nun hız, güvenlik ve indirmeye ve karmaşık yazılımlara gerek kalmadan sorunsuz medya dönüştürme için optimize edilmiş ek tarayıcı tabanlı uygulamalarına bakın."
   },
   "trusted": {
     "title": "Milyonlarca kişi sıkıştırıcımıza güveniyor",

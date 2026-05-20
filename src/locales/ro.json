@@ -122,12 +122,12 @@
     "audio_failed": "Tăierea a eșuat. Verifică formatul timpului (HH:MM:SS)."
   },
   "tools": {
-    "compressor_title": "VideoCompressorPro",
-    "compressor_desc": "Comprimă video online și reduce dimensiunea cu până la 90% fără pierderi de calitate. Încearcă software-ul nostru gratuit pentru MP4, MOV, AVI, MKV și altele.",
-    "cutter_title": "Tăiere Video",
-    "cutter_desc": "Tăiați videoclipurile rapid cu un editor online simplu. Eliminați părțile nedorite și editați videoclipuri pentru social media în câteva secunde.",
-    "cropper_title": "Decupare Video",
-    "cropper_desc": "Redimensionați videoclipurile pentru TikTok, Instagram Reels, YouTube Shorts. Ajustați raportul de aspect profesional.",
+    "compressor_title": "Compresor video",
+    "compressor_desc": "Optimizați dimensiunea videoclipului, precum și calitatea pentru vizionare și partajare, stocare, site-uri web și încărcări pe rețelele sociale. Funcționează cu MP4, MOV, AVI, MKV și mai multe formate de fișiere populare.\n\nCOMPRESS • OPTIMIZE • REDUCE DIMENSIUNEA FIȘIERULUI",
+    "cutter_title": "Cutter video online",
+    "cutter_desc": "Tăiați înregistrările lungi, eliminați părțile străine și faceți clipuri mai scurte pentru YouTube, TikTok, Instagram Reels, tutoriale, prezentări și conținut pentru creatori.\n\nTĂIARE • SPLIT • EDITARE CLIPURI VIDEO",
+    "cropper_title": "Video Cropper",
+    "cropper_desc": "Utilizați presetări gata făcute pentru rețelele sociale pentru a redimensiona videoclipurile pentru a se potrivi în format vertical, pătrat sau ecran lat. Ideal pentru TikTok, Shorts, Instagram, Facebook și conținut optimizat pentru mobil.\n\nDECUPAȚI • REDIMENSIUNEA • PREGĂTIT PENTRU SOCIAL MEDIA",
     "to_mp3_title": "Video în MP3",
     "to_mp3_desc": "Extrageți audio de înaltă calitate pentru podcast-uri, muzică și înregistrări. Ascultați offline oriunde.",
     "audio_cutter_title": "Tăiere Audio",
@@ -137,8 +137,8 @@
     "open_tool": "Deschide instrumentul",
     "all_free_title": "Toate instrumentele video gratuite într-un singur loc",
     "all_free_desc": "Toate nevoile tale de compresie, editare și conversie pe o singură platformă rapidă și sigură.",
-    "related_title": "Instrumente corelate",
-    "related_desc": "Cauți alte moduri de a edita fișierele? Încearcă celelalte instrumente ale noastre axate pe confidențialitate."
+    "related_title": "Instrumente video și audio gratuite conexe",
+    "related_desc": "Vedeți aplicații suplimentare bazate pe browser de la VideoCompressorPro, optimizate pentru viteză, securitate și conversie media fără probleme, fără descărcare și software complicat."
   },
   "trusted": {
     "title": "Milioane de oameni au încredere în compresorul nostru",

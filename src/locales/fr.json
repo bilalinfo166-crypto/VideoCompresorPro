@@ -122,12 +122,12 @@
     "audio_failed": "Le découpage a échoué. Vérifiez le format du temps (HH:MM:SS)."
   },
   "tools": {
-    "compressor_title": "VideoCompressorPro",
-    "compressor_desc": "Compressez des vidéos en ligne et réduisez la taille jusqu'à 90% sans perte de qualité. Essayez notre logiciel gratuit pour MP4, MOV, AVI, MKV et plus.",
-    "cutter_title": "Couper Vidéo",
-    "cutter_desc": "Coupez vos vidéos rapidement avec un éditeur en ligne simple. Supprimez les parties indésirables et éditez des vidéos pour les réseaux sociaux en quelques secondes.",
-    "cropper_title": "Recadrer Vidéo",
-    "cropper_desc": "Redimensionnez des vidéos pour TikTok, Instagram Reels, YouTube Shorts. Ajustez le ratio d'aspect professionnellement.",
+    "compressor_title": "Compresseur vidéo",
+    "compressor_desc": "Optimisez la taille de la vidéo, ainsi que la qualité pour la visualisation et le partage, le stockage, les sites Web et les téléchargements sur les réseaux sociaux. Fonctionne avec MP4, MOV, AVI, MKV et les formats de fichiers plus populaires.\n\nCOMPRESSER • OPTIMISER • RÉDUIRE LA TAILLE DU FICHIER",
+    "cutter_title": "Coupeur vidéo en ligne",
+    "cutter_desc": "Coupez les longs enregistrements, supprimez les parties superflues et créez des clips plus courts pour YouTube, TikTok, Instagram Reels, les didacticiels, les présentations et le contenu des créateurs.\n\nCOUPER • DIVISER • ÉDITER DES CLIPS VIDÉO",
+    "cropper_title": "Recadrage vidéo",
+    "cropper_desc": "Utilisez des préréglages de réseaux sociaux prêts à l'emploi pour redimensionner les vidéos afin de les adapter au format vertical, carré ou grand écran. Idéal pour TikTok, Shorts, Instagram, Facebook et le contenu optimisé pour les mobiles.\n\nRECOLTER • REDIMENSIONNER • PRÊT POUR LES MÉDIAS SOCIAUX",
     "to_mp3_title": "Vidéo en MP3",
     "to_mp3_desc": "Extrayez un audio de haute qualité pour les podcasts, la musique et les enregistrements. Écoutez partout hors ligne.",
     "audio_cutter_title": "Couper Audio",
@@ -137,8 +137,8 @@
     "open_tool": "Ouvrir l'outil",
     "all_free_title": "Tous vos outils vidéo gratuits au même endroit",
     "all_free_desc": "Tous vos besoins de compression, d'édition et de conversion sur une plateforme rapide et sécurisée.",
-    "related_title": "Outils connexes",
-    "related_desc": "Vous cherchez d'autres façons d'éditer vos fichiers ? Essayez nos autres outils axés sur la confidentialité."
+    "related_title": "Outils vidéo et audio gratuits associés",
+    "related_desc": "Découvrez des applications supplémentaires basées sur un navigateur de VideoCompressorPro, optimisées pour la vitesse, la sécurité et la conversion multimédia sans tracas, sans téléchargement ni logiciel compliqué."
   },
   "trusted": {
     "title": "Des millions de personnes font confiance à notre compresseur",
