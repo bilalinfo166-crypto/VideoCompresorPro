@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import { useLanguage } from "@/context/LanguageContext";
-import { Scissors, Zap, Shield, Sparkles, CheckCircle2, Star, ArrowRight, Play, Music, Mic2, AudioLines, Download, Headphones, Disc, Globe, Speaker, Smartphone, Radio, FileAudio, ChevronDown, List } from "lucide-react";
+import { Scissors, Zap, Shield, Sparkles, CheckCircle2, Star, ArrowRight, Play, Music, Mic2, AudioLines, Download, Headphones, Disc, Globe, Speaker, Smartphone, Radio, FileAudio, ChevronDown, List, HelpCircle } from "lucide-react";
 import { RelatedTools } from "@/components/layout/RelatedTools";
 import { SocialShare } from "@/components/layout/SocialShare";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
@@ -115,11 +115,23 @@ export default function AudioCutterPage() {
             <h3 className="text-sm font-bold text-[var(--muted-text)] uppercase tracking-wider mb-4 flex items-center gap-2">
               <List className="w-4 h-4" /> {t("common.quick_navigation") || "Quick Navigation"}
             </h3>
-            <div className="flex flex-wrap gap-x-8 gap-y-3 text-sm font-semibold text-[var(--foreground)]">
-              <a href="#visualizer" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Visualizer</a>
-              <a href="#features" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">Key Features</a>
-              <a href="#how-to-use" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">How to Cut</a>
-              <a href="#faq" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 underline decoration-blue-500/30 decoration-2 underline-offset-4">FAQ</a>
+            <div className="flex flex-wrap gap-x-10 gap-y-4 text-base font-bold text-[var(--foreground)]">
+              <a href="#visualizer" className="hover:text-indigo-500 transition-all flex items-center gap-2 group">
+                <AudioLines className="w-4 h-4 text-indigo-500 group-hover:scale-110 transition-transform" />
+                <span>Audio Visualizer</span>
+              </a>
+              <a href="#features" className="hover:text-indigo-500 transition-all flex items-center gap-2 group">
+                <Sparkles className="w-4 h-4 text-indigo-500 group-hover:scale-110 transition-transform" />
+                <span>Key Features</span>
+              </a>
+              <a href="#how-to-use" className="hover:text-indigo-500 transition-all flex items-center gap-2 group">
+                <List className="w-4 h-4 text-indigo-500 group-hover:scale-110 transition-transform" />
+                <span>How to Convert</span>
+              </a>
+              <a href="#faq" className="hover:text-indigo-500 transition-all flex items-center gap-2 group">
+                <HelpCircle className="w-4 h-4 text-indigo-500 group-hover:scale-110 transition-transform" />
+                <span>Common Questions</span>
+              </a>
             </div>
           </div>
         </div>
