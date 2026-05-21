@@ -125,11 +125,22 @@ export async function generateMetadata({ params }: LocalizedPageProps) {
     ? `${baseUrl}/${path}` 
     : `${baseUrl}/${locale}${path ? `/${path}` : ''}`;
 
+  // Build full hreflang (language alternates) map dynamically
+  const languages: Record<string, string> = {
+    "en": `${baseUrl}/${path}`,
+    "x-default": `${baseUrl}/${path}`,
+  };
+
+  for (const loc of locales) {
+    languages[loc] = `${baseUrl}/${loc}${path ? `/${path}` : ''}`;
+  }
+
   return {
     title,
     description,
     alternates: {
       canonical: fullUrl,
+      languages,
     },
     openGraph: {
       title,
