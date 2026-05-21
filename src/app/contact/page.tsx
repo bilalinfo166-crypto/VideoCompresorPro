@@ -7,7 +7,7 @@ export default function ContactPage() {
   const { t } = useLanguage();
 
   return (
-    <div className="flex flex-col min-h-screen pt-24 pb-16 relative overflow-hidden">
+    <div className="flex flex-col min-h-screen pt-8 pb-16 relative overflow-hidden">
       {/* Background Decorative Elements */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-indigo-600/10 rounded-full blur-[120px] -mr-64 -mt-64" />
       <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-violet-600/10 rounded-full blur-[100px] -ml-48 -mb-48" />

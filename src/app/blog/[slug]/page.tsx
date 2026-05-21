@@ -360,7 +360,7 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
   };
 
   return (
-    <div className="flex flex-col min-h-screen pt-24 pb-20 bg-[var(--background)]">
+    <div className="flex flex-col min-h-screen pt-8 pb-20 bg-[var(--background)]">
       {/* Dynamic SEO Schemas */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />

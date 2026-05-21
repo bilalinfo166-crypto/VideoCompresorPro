@@ -46,7 +46,7 @@ export default function BlogIndexPage() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen pt-24 pb-20 bg-[var(--background)]">
+    <div className="flex flex-col min-h-screen pt-8 pb-20 bg-[var(--background)]">
       <Breadcrumbs items={[{ label: "Blog", href: "/blog" }]} />
 
       <main className="container mx-auto px-4 max-w-6xl mt-6 flex-1">
