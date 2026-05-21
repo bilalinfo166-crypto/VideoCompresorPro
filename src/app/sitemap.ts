@@ -1,12 +1,12 @@
 import { MetadataRoute } from 'next';
+import { PSEO_SLUGS } from '@/data/compressor-seo';
+import { BLOG_POSTS } from '@/data/blog-posts';
 
 export const locales = [
   "ar", "hi", "es", "pt", "fr", "de", "it", "id", "ja", 
   "ru", "zh", "tr", "vi", "ko", "th", "nl", "pl", "fa", "ro", 
   "el", "uk", "sv", "he", "da", "fi", "no", "cs", "hu"
 ];
-
-import { PSEO_SLUGS } from '@/data/compressor-seo';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://videocompressorpro.com';
@@ -19,11 +19,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/video-to-audio',
     '/video-to-text',
     '/blog',
+    ...BLOG_POSTS.map(post => `/blog/${post.slug}`),
     '/about',
     '/contact',
     '/privacy',
     '/terms',
     ...PSEO_SLUGS.map(slug => `/compress-${slug}`),
+    '/tiktok',
+    '/instagram-reels',
+    '/youtube-shorts',
   ];
 
   const allRoutes: MetadataRoute.Sitemap = [];

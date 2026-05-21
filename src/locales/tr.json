@@ -1653,5 +1653,129 @@
         }
       ]
     }
+  },
+  "blog": {
+    "meta_title": "Video Optimizasyonu Öğrenme Merkezi | VideoCompressorPro Blogu",
+    "meta_desc": "Videolarınızı hafif ve güzel kılmak için uzman eğitimlerini, kodek derinlemesine incelemelerini, sıkıştırma sırlarını ve görsel geliştirme kılavuzlarını okuyun.",
+    "send-large-video-whatsapp-without-quality-loss": {
+      "title": "Kalite Kaybı Olmadan WhatsApp'ta Büyük Video Dosyaları Nasıl Gönderilir",
+      "description": "WhatsApp'ın 16MB video sınırıyla mı uğraşıyorsunuz? WhatsApp'ta anında büyük, yüksek kaliteli videolar göndermek için en iyi çevrimiçi sıkıştırma yöntemlerini öğrenin."
+    },
+    "compress-video-for-discord-limits": {
+      "title": "Discord için Videoları Ücretsiz Sıkıştırın (8 MB, 25 MB ve 100 MB'ın altında)",
+      "description": "'Dosya çok güçlü' hatasını düzeltin. Discord'un 8 MB, 25 MB ve 100 MB dosya boyutu sınırları altındaki videoları ücretsiz çevrimiçi olarak kolayca sıkıştırın ve küçültün."
+    },
+    "compress-video-for-email-gmail-outlook": {
+      "title": "E-posta için Videoyu Sıkıştırın (Gmail, Outlook ve Yahoo Sınırları)",
+      "description": "E-posta eki çok büyük hata mı? Gmail ve Outlook için 25 MB'ın altındaki video dosyalarını çevrimiçi olarak kolayca ve ücretsiz olarak nasıl sıkıştıracağınızı öğrenin."
+    },
+    "perfect-video-sizes-tiktok-instagram-reels-youtube-shorts": {
+      "title": "TikTok, Instagram Reels ve YouTube Shorts için Mükemmel Video Boyutları",
+      "description": "Her zaman yüksek kaliteli yüklemeler sağlamak için TikTok, Instagram Reels ve YouTube Shorts için mükemmel en boy oranlarını, çözünürlükleri ve dosya boyutlarını keşfedin."
+    },
+    "compress-video-for-instagram-without-losing-quality": {
+      "title": "HD Kalitesini Kaybetmeden Instagram Yüklemesi İçin Videolar Nasıl Sıkıştırılır",
+      "description": "Instagram'ın gönderilerinizi bulanıklaştırmasına izin vermeyin! Kaliteyi kaybetmeden videolarınızı yayın gönderileri, Makaralar ve Hikayeler için ideal spesifikasyonlara nasıl sıkıştıracağınızı öğrenin."
+    },
+    "bypass-discord-file-size-limit-free": {
+      "title": "Discord'un Dosya Boyutu Sınırı Nasıl Atlanır (Ücretsiz Çevrimiçi Yöntemler)",
+      "description": "Discord'un yükleme sınırını aşmanın yollarını mı arıyorsunuz? Büyük dosyaları Nitro olmadan göndermek için en iyi ücretsiz çevrimiçi sıkıştırma ve paylaşım yöntemlerini keşfedin."
+    },
+    "compress-video-for-slack-microsoft-teams": {
+      "title": "Hızlı Paylaşım için Slack ve Microsoft Teams için Video Nasıl Sıkıştırılır",
+      "description": "Slack veya Teams'te yavaş video yükleme konusunda sorun mu yaşıyorsunuz? Hızlı kurumsal mesajlaşma için iş videolarını sıkıştırmaya yönelik en iyi ayarları ve yöntemleri keşfedin."
+    },
+    "shrink-video-for-web-website-loading": {
+      "title": "Web ve Hızlı Web Sitesi Yükleme için Video Dosya Boyutu Nasıl Küçültülür",
+      "description": "Büyük video dosyaları Önemli Web Verileri puanlarını ezer. Web kullanımı için videoyu nasıl küçülteceğinizi, yükleme hızını nasıl artıracağınızı ve doğru ayarlarla SEO sıralamanızı nasıl yükselteceğinizi öğrenin."
+    },
+    "compress-mp4-without-losing-quality": {
+      "title": "MP4 Videoları Kaliteyi Kaybetmeden Çevrimiçi Olarak Nasıl Sıkıştırılır",
+      "description": "Kaliteyi kaybetmeden MP4 videolarını sıkıştırmanın tam tekniklerini öğrenin. HD çözünürlüğü ve keskin ayrıntıları ücretsiz olarak korurken dosya boyutlarını %60-80 oranında azaltın."
+    },
+    "5-ways-reduce-video-file-size-free": {
+      "title": "Video Dosya Boyutunu Anında Küçültmenin 5 Basit Yolu (%100 Ücretsiz)",
+      "description": "Kaliteyi bozmadan video dosyası boyutunu küçültmenin 5 basit, tamamen ücretsiz yolunu keşfedin. Herhangi bir cihazda veya işletim sisteminde çalışır."
+    },
+    "compress-4k-to-1080p-online": {
+      "title": "4K Videolar Çevrimiçi Olarak Hızlı Bir Şekilde 1080p'ye Nasıl Sıkıştırılır",
+      "description": "Büyük 4K dosyalar çok fazla yer mi kaplıyor? HD netliğini korurken video boyutunu %80'e kadar azaltarak 4K'yı ücretsiz olarak 1080p'ye hızlı bir şekilde çevrimiçi olarak nasıl sıkıştıracağınızı öğrenin."
+    },
+    "best-online-video-compressor-comparison": {
+      "title": "En Hızlı Çevrimiçi Video Kompresörleri: Hangisini Kullanmalısınız?",
+      "description": "İhtiyaçlarınıza en uygun çevrimiçi video sıkıştırıcıyı bulun. 2026'nın en iyi araçlarını hız, sıkıştırma kalitesi, gizlilik ve kullanım kolaylığı açısından karşılaştırıyoruz."
+    },
+    "shrink-video-50-percent-without-blur": {
+      "title": "Bir Video Dosyasını Bulanıklaştırmadan %50 veya Daha Fazla Nasıl Küçültülür",
+      "description": "Sıkıştırmanın videonuzun canlılığını bozmasına izin vermeyin. Pikselleşme veya bulanıklık yaratmadan video boyutunu %50-80 oranında küçültmek için kullanılan profesyonel ayarları öğrenin."
+    },
+    "reduce-gb-to-mb-compress-large-videos": {
+      "title": "GB'yi MB'ye Nasıl Küçültebilirsiniz: Büyük Videoları Çevrimiçi Olarak Saniyeler İçinde Sıkıştırın",
+      "description": "Çok gigabaytlık devasa bir video dosyanız mı var? Herhangi bir kurulum gerektirmeden ve kaliteden ödün vermeden saniyeler içinde çevrimiçi olarak megabaytlara nasıl indireceğinizi öğrenin."
+    },
+    "bulk-video-compression-guide": {
+      "title": "Çevrimiçi Olarak Toplu Videolar Nasıl Sıkıştırılır (Toplu Sıkıştırma Kılavuzu)",
+      "description": "Aynı anda birden fazla videoyu sıkıştırmanız mı gerekiyor? Zamandan ve depolama alanından tasarruf etmek için videoları ücretsiz olarak çevrimiçi toplu sıkıştırmaya yönelik en iyi yöntemleri ve araçları keşfedin."
+    },
+    "compress-mov-to-mp4-online": {
+      "title": "MOV Çevrimiçi MP4'e Nasıl Sıkıştırılır (Dönüştürme ve Küçültme Kılavuzu)",
+      "description": "MOV dosyalarını çevrimiçi olarak ücretsiz olarak MP4'e dönüştürün ve sıkıştırın. Full HD kalitesini korurken Apple iPhone ve Mac video boyutlarını %60-80 oranında azaltın."
+    },
+    "compress-video-iphone-ipad-no-apps": {
+      "title": "iPhone ve iPad'de Videolar Nasıl Sıkıştırılır (Uygulamaya Gerek Yok)",
+      "description": "iPhone videoları paylaşılamayacak kadar mı büyük? Herhangi bir uygulama indirmeden veya iCloud saklama alanını kullanmadan iPhone ve iPad'deki videoları Safari'de ücretsiz olarak nasıl sıkıştıracağınızı öğrenin."
+    },
+    "reduce-video-size-android-free": {
+      "title": "Android Telefonlarda Video Dosya Boyutu Nasıl Azaltılır Ücretsiz",
+      "description": "Büyük boyutlu Android videolarını ücretsiz olarak küçültün! Herhangi bir Android akıllı telefondaki video boyutunu, herhangi bir uygulamayı indirmeden doğrudan Chrome'da sıkıştırmayı ve küçültmeyi öğrenin."
+    },
+    "compress-gopro-dslr-video-online": {
+      "title": "GoPro ve DSLR Video Dosyaları Çevrimiçi Nasıl Sıkıştırılır",
+      "description": "GoPro ve DSLR videoları kolayca paylaşılamayacak kadar büyük. Çarpıcı sinematik görünümü korurken kamera görüntülerini ücretsiz olarak çevrimiçi olarak nasıl sıkıştıracağınızı öğrenin."
+    },
+    "mkv-vs-mp4-compress-convert": {
+      "title": "MKV vs MP4: Ağır Video Formatları Nasıl Sıkıştırılır ve Dönüştürülür",
+      "description": "MKV ve MP4 konusunda kafanız mı karıştı? Farkı, her birinin ne zaman kullanılacağını ve MKV dosyalarını kalite kaybı olmadan çevrimiçi olarak ücretsiz olarak MP4'e nasıl dönüştürüp sıkıştıracağınızı öğrenin."
+    },
+    "compress-video-windows-10-11": {
+      "title": "Windows 10 ve Windows 11'de Büyük Video Dosyaları Nasıl Sıkıştırılır",
+      "description": "Windows 10 ve Windows 11'de büyük video dosyalarını herhangi bir ek yazılım veya codec bileşeni yüklemeden hızlı ve ücretsiz olarak nasıl sıkıştıracağınızı öğrenin."
+    },
+    "trim-cut-video-online-before-compressing": {
+      "title": "Büyük Videolar Sıkıştırılmadan Önce Çevrimiçi Olarak Nasıl Kırpılır ve Kesilir",
+      "description": "Videonuzu sıkıştırmadan önce kırpmak, herhangi bir kalite kaybı olmadan dosya boyutunu azaltmanın en iyi yoludur. Profesyonel iki adımlı iş akışını buradan öğrenin."
+    },
+    "extract-audio-mp3-from-video-online": {
+      "title": "Herhangi Bir Çevrimiçi Videodan Ses (MP3) Nasıl Çıkarılır (Ücretsiz ve Hızlı)",
+      "description": "Bir videodan MP3 sesi çıkarmanız mı gerekiyor? Herhangi bir videoyu saniyeler içinde ücretsiz olarak çevrimiçi sese nasıl dönüştüreceğinizi öğrenin. MP4, MOV, AVI, MKV ve WebM ile çalışır."
+    },
+    "convert-video-to-text-transcription-guide": {
+      "title": "Videoyu Metne Dönüştürme: En İyi Transkripsiyon Kılavuzu",
+      "description": "Videoları manuel olarak metne dönüştürmeyi bırakın. Doğru başlıklar, alt yazılar ve metin belgeleri için AI transkripsiyonunu kullanarak videoyu otomatik olarak metne nasıl dönüştüreceğinizi öğrenin."
+    },
+    "trim-video-without-reencoding-quality-loss": {
+      "title": "Yeniden Kodlama ve Kalite Kaybı Olmadan Video Dosyaları Nasıl Kırpılır",
+      "description": "Çoğu video düzeltici, videonuzu yeniden kodlar ve kalitesini düşürür. Çevrimiçi kayıpsız video kesicimizi kullanarak videoyu yeniden kodlamaya gerek kalmadan kayıpsız bir şekilde nasıl kırpacağınızı öğrenin."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "TikTok ve YouTube Shorts için Çevrimiçi Videolar Nasıl Mükemmel Şekilde Kesilir",
+      "description": "Videolarınızı TikTok ve YouTube Shorts için tam olarak doğru uzunluğa getirin. Kısa biçimli erişimi en üst düzeye çıkarmak için video klipleri çevrimiçi olarak nasıl ücretsiz keseceğinizi ve kırpacağınızı öğrenin."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "Video Bit Hızı Nedir? Video Kalitenizi ve Boyutunuzu Nasıl Etkiler",
+      "description": "Video bit hızı konusunda kafanız mı karıştı? Bunun ne olduğunu, kaliteyi ve dosya boyutunu nasıl etkilediğini ve her platform ve kullanım durumu için hangi bit hızının hedefleneceğini öğrenin."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 ve H.265 (HEVC): Video Sıkıştırma için Hangi Codec En İyisidir?",
+      "description": "H.264 ve H.265 — sıkıştırma açısından hangi video codec bileşeni daha iyidir? Doğru seçimi yapmak için verimliliği, uyumluluğu, kodlama hızını ve cihaz desteğini karşılaştırın."
+    },
+    "lossless-vs-lossy-compression-guide": {
+      "title": "Kayıpsız ve Kayıplı Sıkıştırma: Video Düzenleyiciler için Basit Bir Kılavuz",
+      "description": "Kayıpsız ve kayıplı video sıkıştırma arasındaki farkı anlayın. Her türün ne zaman kullanılacağını ve en az kalite kaybıyla en küçük dosya boyutunun nasıl elde edileceğini öğrenin."
+    },
+    "video-container-vs-codec-explained": {
+      "title": "Video Container ve Codec nedir? (MP4, MKV, AVI Açıklaması)",
+      "description": "Video formatları konusunda kafanız mı karıştı? Video kapsayıcıları (MP4, MKV, AVI) ile kodlayıcılar (H.264, H.265) arasındaki farkı ve bunların sıkıştırma için neden önemli olduğunu öğrenin."
+    }
   }
 }

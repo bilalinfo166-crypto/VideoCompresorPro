@@ -1653,5 +1653,129 @@
         }
       ]
     }
+  },
+  "blog": {
+    "meta_title": "视频优化学习中心| VideoCompressorPro 博客",
+    "meta_desc": "阅读专家教程、编解码器深入研究、压缩秘诀和视觉增强指南，让您的视频变得轻量且美观。",
+    "send-large-video-whatsapp-without-quality-loss": {
+      "title": "如何在 WhatsApp 上发送大视频文件而不会造成质量损失",
+      "description": "还在为 WhatsApp 的 16MB 视频限制而烦恼吗？了解最佳在线压缩方法，以便在 WhatsApp 上即时发送大型、高质量视频。"
+    },
+    "compress-video-for-discord-limits": {
+      "title": "免费压缩视频以实现 Discord（8MB、25MB 和 100MB 以下）",
+      "description": "修复“文件太强大”错误。在 Discord 的 8MB、25MB 和 100MB 文件大小限制下免费在线轻松压缩和缩小视频。"
+    },
+    "compress-video-for-email-gmail-outlook": {
+      "title": "压缩电子邮件视频（Gmail、Outlook 和 Yahoo 限制）",
+      "description": "电子邮件附件太大错误？了解如何在线轻松免费地将 Gmail 和 Outlook 的视频文件压缩到 25MB 以下。"
+    },
+    "perfect-video-sizes-tiktok-instagram-reels-youtube-shorts": {
+      "title": "适合 TikTok、Instagram Reels 和 YouTube Shorts 的完美视频尺寸",
+      "description": "探索 TikTok、Instagram Reels 和 YouTube Shorts 的完美宽高比、分辨率和文件大小，以确保每次都能实现高质量上传。"
+    },
+    "compress-video-for-instagram-without-losing-quality": {
+      "title": "如何在不损失高清质量的情况下压缩 Instagram 上传的视频",
+      "description": "别再让 Instagram 让您的帖子变得模糊了！了解如何在不损失质量的情况下将视频压缩为供稿帖子、卷轴和故事的理想规格。"
+    },
+    "bypass-discord-file-size-limit-free": {
+      "title": "如何绕过 Discord 的文件大小限制（免费在线方法）",
+      "description": "正在寻找绕过 Discord 上传限制的方法？探索最好的免费在线压缩和共享方法，无需 Nitro 即可发送大文件。"
+    },
+    "compress-video-for-slack-microsoft-teams": {
+      "title": "如何压缩 Slack 和 Microsoft Teams 的视频以实现快速共享",
+      "description": "是否因 Slack 或 Teams 上的视频上传缓慢而苦苦挣扎？探索压缩商务视频以实现快速企业消息传递的最佳设置和方法。"
+    },
+    "shrink-video-for-web-website-loading": {
+      "title": "如何缩小视频文件大小以实现 Web 和快速网站加载",
+      "description": "大型视频文件会压垮 Core Web Vitals 分数。了解如何缩小视频以供网络使用、提高加载速度以及通过正确的设置提高 SEO 排名。"
+    },
+    "compress-mp4-without-losing-quality": {
+      "title": "如何在线压缩 MP4 视频而不损失质量",
+      "description": "了解在不损失质量的情况下压缩 MP4 视频的确切技术。将文件大小减少 60-80%，同时免费保持高清分辨率和清晰细节。"
+    },
+    "5-ways-reduce-video-file-size-free": {
+      "title": "立即减小视频文件大小的 5 种简单方法（100% 免费）",
+      "description": "了解 5 种简单、完全免费的方法来减小视频文件大小而不影响质量。适用于任何设备或操作系统。"
+    },
+    "compress-4k-to-1080p-online": {
+      "title": "如何在线快速压缩4K视频为1080p",
+      "description": "4K 大文件占用太多空间？了解如何免费在线快速压缩 4K 至 1080p，将视频大小减少多达 80%，同时保持高清清晰度。"
+    },
+    "best-online-video-compressor-comparison": {
+      "title": "最快的在线视频压缩器：您应该使用哪一个？",
+      "description": "找到最适合您需求的在线视频压缩器。我们从速度、压缩质量、隐私性和易用性方面比较了 2026 年的顶级工具。"
+    },
+    "shrink-video-50-percent-without-blur": {
+      "title": "如何在不模糊的情况下将视频文件缩小 50% 或更多",
+      "description": "不要让压缩破坏视频的清晰度。了解用于在不引入像素化或模糊的情况下将视频大小缩小 50-80% 的专业设置。"
+    },
+    "reduce-gb-to-mb-compress-large-videos": {
+      "title": "如何将 GB 缩减为 MB：秒级在线压缩大型视频",
+      "description": "有一个巨大的数 GB 视频文件吗？了解如何在几秒钟内在线将其减少到兆字节，无需任何安装且不会损失质量。"
+    },
+    "bulk-video-compression-guide": {
+      "title": "如何在线批量压缩视频（批量压缩指南）",
+      "description": "需要一次压缩多个视频？免费在线探索批量压缩视频的最佳方法和工具，以节省时间和存储空间。"
+    },
+    "compress-mov-to-mp4-online": {
+      "title": "如何在线压缩 MOV 为 MP4（转换和缩小指南）",
+      "description": "免费在线将 MOV 文件转换并压缩为 MP4。将 Apple iPhone 和 Mac 视频大小减少 60-80%，同时保持全高清质量。"
+    },
+    "compress-video-iphone-ipad-no-apps": {
+      "title": "如何在 iPhone 和 iPad 上压缩视频（无需应用程序）",
+      "description": "iPhone 视频太大无法分享？了解如何在 Safari 中免费压缩 iPhone 和 iPad 上的视频，而无需下载任何应用程序或使用 iCloud 存储。"
+    },
+    "reduce-video-size-android-free": {
+      "title": "如何免费减小 Android 手机上的视频文件大小",
+      "description": "免费缩小超大 Android 视频！了解直接在 Chrome 中压缩和减小任何 Android 智能手机上的视频大小，而无需下载任何应用程序。"
+    },
+    "compress-gopro-dslr-video-online": {
+      "title": "如何在线压缩 GoPro 和 DSLR 视频文件",
+      "description": "GoPro 和 DSLR 视频太大，无法轻松共享。了解如何免费在线压缩摄像机镜头，同时保留令人惊叹的电影外观。"
+    },
+    "mkv-vs-mp4-compress-convert": {
+      "title": "MKV 与 MP4：如何压缩和转换重型视频格式",
+      "description": "对 MKV 与 MP4 感到困惑吗？了解它们之间的区别、何时使用每种文件以及如何在线免费将 MKV 文件转换和压缩为 MP4 而不会降低质量。"
+    },
+    "compress-video-windows-10-11": {
+      "title": "如何在 Windows 10 和 Windows 11 上压缩大型视频文件",
+      "description": "了解如何在 Windows 10 和 Windows 11 上快速免费压缩大型视频文件，而无需安装任何其他软件或编解码器。"
+    },
+    "trim-cut-video-online-before-compressing": {
+      "title": "如何在压缩之前在线修剪和剪切大视频",
+      "description": "在压缩之前修剪视频是减小文件大小而不损失任何质量的最佳方法。在这里了解专业的两步工作流程。"
+    },
+    "extract-audio-mp3-from-video-online": {
+      "title": "如何从任何在线视频中提取音频 (MP3)（免费且快速）",
+      "description": "需要从视频中提取 MP3 音频？了解如何在几秒钟内免费在线将任何视频转换为音频。适用于 MP4、MOV、AVI、MKV 和 WebM。"
+    },
+    "convert-video-to-text-transcription-guide": {
+      "title": "如何将视频转换为文本：终极转录指南",
+      "description": "停止手动转录视频。了解如何使用 AI 转录自动将视频转换为文本，以获得准确的字幕、副标题和文本文档。"
+    },
+    "trim-video-without-reencoding-quality-loss": {
+      "title": "如何修剪视频文件而不重新编码和质量损失",
+      "description": "大多数视频修剪器都会重新编码并降低您的视频质量。了解如何使用我们的在线无损视频剪切器无损修剪视频而无需重新编码。"
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "如何完美在线剪辑 TikTok 和 YouTube Shorts 视频",
+      "description": "让您的视频达到适合 TikTok 和 YouTube Shorts 的长度。了解如何免费在线剪切和修剪视频剪辑，以最大限度地提高短片的覆盖范围。"
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "什么是视频比特率？它如何影响您的视频质量和大小",
+      "description": "对视频比特率感到困惑吗？了解它是什么、它如何影响质量和文件大小，以及每个平台和用例的目标比特率。"
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 与 H.265 (HEVC)：哪种编解码器最适合视频压缩？",
+      "description": "H.264 与 H.265 — 哪种视频编解码器的压缩效果更好？比较效率、兼容性、编码速度和设备支持以做出正确的选择。"
+    },
+    "lossless-vs-lossy-compression-guide": {
+      "title": "无损压缩与有损压缩：视频编辑器简单指南",
+      "description": "了解无损视频压缩和有损视频压缩之间的区别。了解何时使用每种类型以及如何以最小的质量损失获得最小的文件大小。"
+    },
+    "video-container-vs-codec-explained": {
+      "title": "什么是视频容器与编解码器？ （MP4、MKV、AVI 解释）",
+      "description": "对视频格式感到困惑？了解视频容器（MP4、MKV、AVI）和编解码器（H.264、H.265）之间的区别以及为什么它对压缩很重要。"
+    }
   }
 }

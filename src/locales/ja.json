@@ -1653,5 +1653,129 @@
         }
       ]
     }
+  },
+  "blog": {
+    "meta_title": "ビデオ最適化学習ハブ | VideoCompressorPro ブログ",
+    "meta_desc": "専門家によるチュートリアル、コーデックの詳細、圧縮の秘密、ビジュアル強化ガイドを読んで、ビデオを軽量かつ美しくします。",
+    "send-large-video-whatsapp-without-quality-loss": {
+      "title": "WhatsApp で品質を損なうことなく大きなビデオ ファイルを送信する方法",
+      "description": "WhatsApp の 16MB ビデオ制限に苦労していますか? WhatsApp で大規模で高品質のビデオを即座に送信するための最適なオンライン圧縮方法を学びましょう。"
+    },
+    "compress-video-for-discord-limits": {
+      "title": "Discord でビデオを無料で圧縮 (8MB、25MB、100MB 未満)",
+      "description": "「ファイルが強力すぎる」エラーを修正します。オンラインで無料で、Discord の 8MB、25MB、100MB のファイル サイズ制限内でビデオを簡単に圧縮および縮小できます。"
+    },
+    "compress-video-for-email-gmail-outlook": {
+      "title": "電子メール用にビデオを圧縮 (Gmail、Outlook、Yahoo の制限)",
+      "description": "電子メールの添付ファイルが大きすぎるエラー? Gmail や Outlook 用に 25 MB 未満のビデオ ファイルをオンラインで簡単に無料で圧縮する方法を学びましょう。"
+    },
+    "perfect-video-sizes-tiktok-instagram-reels-youtube-shorts": {
+      "title": "TikTok、Instagram リール、YouTube ショートに最適なビデオ サイズ",
+      "description": "TikTok、Instagram リール、YouTube ショートに最適なアスペクト比、解像度、ファイル サイズを見つけて、毎回高品質なアップロードを保証します。"
+    },
+    "compress-video-for-instagram-without-losing-quality": {
+      "title": "HD 品質を失わずに Instagram アップロード用にビデオを圧縮する方法",
+      "description": "Instagram で投稿がぼやけるのはやめましょう。品質を損なうことなく、フィード投稿、リール、ストーリーに理想的な仕様にビデオを圧縮する方法を学びます。"
+    },
+    "bypass-discord-file-size-limit-free": {
+      "title": "Discord のファイル サイズ制限を回避する方法 (無料のオンライン方法)",
+      "description": "Discord のアップロード制限を回避する方法をお探しですか? Nitro を使用せずに大きなファイルを送信するための最高の無料オンライン圧縮および共有方法を見つけてください。"
+    },
+    "compress-video-for-slack-microsoft-teams": {
+      "title": "Slack および Microsoft Teams でビデオを圧縮して高速共有する方法",
+      "description": "Slack や Teams でのビデオのアップロードが遅いことに悩んでいますか?企業メッセージを迅速に送信できるようにビジネスビデオを圧縮する最適な設定と方法を見つけてください。"
+    },
+    "shrink-video-for-web-website-loading": {
+      "title": "Web 用にビデオ ファイル サイズを縮小し、Web サイトを高速に読み込む方法",
+      "description": "大きなビデオ ファイルは Core Web Vitals スコアを押しつぶします。適切な設定で Web 用にビデオを縮小し、読み込み速度を改善し、SEO ランキングを上げる方法を学びましょう。"
+    },
+    "compress-mp4-without-losing-quality": {
+      "title": "品質を落とさずに MP4 ビデオをオンラインで圧縮する方法",
+      "description": "品質を損なうことなく MP4 ビデオを圧縮する正確なテクニックを学びましょう。無料で HD 解像度と鮮明なディテールを維持しながら、ファイル サイズを 60 ～ 80% 削減します。"
+    },
+    "5-ways-reduce-video-file-size-free": {
+      "title": "ビデオ ファイル サイズを即座に削減する 5 つの簡単な方法 (完全無料)",
+      "description": "品質を損なうことなくビデオファイルのサイズを削減する5つの簡単で完全に無料の方法を発見してください。あらゆるデバイスまたはオペレーティング システムで動作します。"
+    },
+    "compress-4k-to-1080p-online": {
+      "title": "4K ビデオをオンラインですばやく 1080p に圧縮する方法",
+      "description": "大きな 4K ファイルはスペースを取りすぎますか?オンラインで 4K を無料で 1080p にすばやく圧縮し、HD の鮮明さを維持しながらビデオ サイズを最大 80% 削減する方法を学びましょう。"
+    },
+    "best-online-video-compressor-comparison": {
+      "title": "最速のオンライン ビデオ コンプレッサー: どれを使用するべきですか?",
+      "description": "あなたのニーズに最適なオンラインビデオコンプレッサーを見つけてください。 2026 年のトップツールを速度、圧縮品質、プライバシー、使いやすさの観点から比較します。"
+    },
+    "shrink-video-50-percent-without-blur": {
+      "title": "ぼやけずにビデオ ファイルを 50% 以上縮小する方法",
+      "description": "圧縮によってビデオの鮮明さが損なわれないようにしてください。ピクセル化やぼやけを発生させずにビデオ サイズを 50 ～ 80% 縮小するためのプロの設定を学びます。"
+    },
+    "reduce-gb-to-mb-compress-large-videos": {
+      "title": "GB を MB に減らす方法: 大きなビデオを数秒でオンラインで圧縮",
+      "description": "巨大な数ギガバイトのビデオ ファイルをお持ちですか?インストール不要で、品質を損なうことなく、オンラインで数秒でデータをメガバイト単位に削減する方法を学びましょう。"
+    },
+    "bulk-video-compression-guide": {
+      "title": "オンラインでビデオを一括圧縮する方法 (バッチ圧縮ガイド)",
+      "description": "複数のビデオを一度に圧縮する必要がありますか?時間とストレージ容量を節約するために、オンラインでビデオをバッチ圧縮するための最適な方法とツールを無料で見つけてください。"
+    },
+    "compress-mov-to-mp4-online": {
+      "title": "オンラインで MOV を MP4 に圧縮する方法 (変換および圧縮ガイド)",
+      "description": "オンラインで無料でMOVファイルをMP4に変換して圧縮します。フル HD 品質を維持しながら、Apple iPhone および Mac のビデオ サイズを 60 ～ 80% 削減します。"
+    },
+    "compress-video-iphone-ipad-no-apps": {
+      "title": "iPhone および iPad でビデオを圧縮する方法 (アプリは必要ありません)",
+      "description": "iPhone のビデオが大きすぎて共有できませんか?アプリをダウンロードしたり、iCloud ストレージを使用したりせずに、Safari で iPhone と iPad でビデオを無料で圧縮する方法を学びましょう。"
+    },
+    "reduce-video-size-android-free": {
+      "title": "Android スマートフォンでビデオ ファイル サイズを無料で削減する方法",
+      "description": "サイズの大きい Android 動画を無料で縮小しましょう!アプリをダウンロードせずに、Android スマートフォンで Chrome を使用して直接ビデオのサイズを圧縮して縮小する方法を学びます。"
+    },
+    "compress-gopro-dslr-video-online": {
+      "title": "GoPro および DSLR ビデオ ファイルをオンラインで圧縮する方法",
+      "description": "GoPro および DSLR ビデオは大きすぎるため、簡単に共有できません。素晴らしい映画のような外観を維持しながら、カメラの映像をオンラインで無料で圧縮する方法を学びましょう。"
+    },
+    "mkv-vs-mp4-compress-convert": {
+      "title": "MKV と MP4: 重いビデオ形式を圧縮して変換する方法",
+      "description": "MKV と MP4 について混乱していますか?違い、それぞれをいつ使用するか、品質を損なうことなくオンラインで無料で MKV ファイルを MP4 に変換および圧縮する方法を学びましょう。"
+    },
+    "compress-video-windows-10-11": {
+      "title": "Windows 10 および Windows 11 で大きなビデオ ファイルを圧縮する方法",
+      "description": "追加のソフトウェアやコーデックをインストールせずに、Windows 10 および Windows 11 で大きなビデオ ファイルを迅速かつ無料で圧縮する方法を学びます。"
+    },
+    "trim-cut-video-online-before-compressing": {
+      "title": "大きなビデオを圧縮する前にオンラインでトリミングおよびカットする方法",
+      "description": "品質を損なうことなくファイル サイズを削減するには、ビデオを圧縮する前にトリミングすることが最善の方法です。ここでプロフェッショナルな 2 ステップのワークフローを学びましょう。"
+    },
+    "extract-audio-mp3-from-video-online": {
+      "title": "オンラインでビデオからオーディオ (MP3) を抽出する方法 (無料かつ高速)",
+      "description": "ビデオから MP3 オーディオを抽出する必要がありますか?無料で数秒でオンラインでビデオをオーディオに変換する方法を学びましょう。 MP4、MOV、AVI、MKV、WebM で動作します。"
+    },
+    "convert-video-to-text-transcription-guide": {
+      "title": "ビデオをテキストに変換する方法: 究極の文字起こしガイド",
+      "description": "ビデオを手動で転写するのはやめてください。 AI 文字起こしを使用してビデオを自動的にテキストに変換し、正確なキャプション、字幕、テキスト ドキュメントを作成する方法を学びます。"
+    },
+    "trim-video-without-reencoding-quality-loss": {
+      "title": "再エンコードや品質の低下を伴わずにビデオ ファイルをトリミングする方法",
+      "description": "ほとんどのビデオ トリマーはビデオを再エンコードし、劣化させます。オンラインのロスレス ビデオ カッターを使用して、再エンコードせずにビデオをロスレスでトリミングする方法を学びましょう。"
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "TikTok や YouTube ショート用にオンラインでビデオを完璧にカットする方法",
+      "description": "TikTok や YouTube ショートにぴったりの適切な長さのビデオを作成します。オンラインでビデオ クリップを無料でカットしてトリミングして、短編映画のリーチを最大化する方法を学びましょう。"
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "ビデオのビットレートとは何ですか?ビデオの品質とサイズに与える影響",
+      "description": "ビデオのビットレートについて混乱していますか?それが何であるか、品質とファイル サイズにどのような影響を与えるか、各プラットフォームとユースケースでどのビットレートをターゲットにすべきかを学びます。"
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 対 H.265 (HEVC): ビデオ圧縮にはどちらのコーデックが最適ですか?",
+      "description": "H.264 と H.265 — どちらのビデオ コーデックが圧縮に優れていますか?効率、互換性、エンコード速度、デバイスのサポートを比較して、正しい選択を行ってください。"
+    },
+    "lossless-vs-lossy-compression-guide": {
+      "title": "可逆圧縮と非可逆圧縮: ビデオ編集者のための簡単なガイド",
+      "description": "可逆ビデオ圧縮と非可逆ビデオ圧縮の違いを理解します。各タイプをいつ使用するか、および品質の低下を最小限に抑えてファイル サイズを最小にする方法について説明します。"
+    },
+    "video-container-vs-codec-explained": {
+      "title": "ビデオコンテナとコーデックとは何ですか? (MP4、MKV、AVI について説明)",
+      "description": "ビデオ形式について混乱していますか?ビデオ コンテナー (MP4、MKV、AVI) とコーデック (H.264、H.265) の違いと、それが圧縮に重要である理由を学びます。"
+    }
   }
 }

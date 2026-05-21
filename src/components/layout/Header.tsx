@@ -131,6 +131,15 @@ export function Header() {
               <Link href={getLocalizedHref('/blog')} className="px-3 py-2 text-xs xl:text-sm font-semibold text-[var(--muted-text)] hover:text-blue-600 rounded-lg transition-colors">
                 Blog
               </Link>
+              <Link href={getLocalizedHref('/tiktok')} className="px-3 py-2 text-xs xl:text-sm font-semibold text-[var(--muted-text)] hover:text-blue-600 rounded-lg transition-colors">
+                {t('tiktok')}
+              </Link>
+              <Link href={getLocalizedHref('/instagram-reels')} className="px-3 py-2 text-xs xl:text-sm font-semibold text-[var(--muted-text)] hover:text-blue-600 rounded-lg transition-colors">
+                {t('instagram_reels')}
+              </Link>
+              <Link href={getLocalizedHref('/youtube-shorts')} className="px-3 py-2 text-xs xl:text-sm font-semibold text-[var(--muted-text)] hover:text-blue-600 rounded-lg transition-colors">
+                {t('youtube_shorts')}
+              </Link>
             </nav>
 
             {/* Right side */}

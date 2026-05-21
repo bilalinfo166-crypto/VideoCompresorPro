@@ -1653,5 +1653,129 @@
         }
       ]
     }
+  },
+  "blog": {
+    "meta_title": "Centru de învățare pentru optimizarea video | Blog VideoCompressorPro",
+    "meta_desc": "Citiți tutoriale de experți, scufundări de codec, secrete de compresie și ghiduri de îmbunătățire vizuală pentru a vă face videoclipurile ușoare și frumoase.",
+    "send-large-video-whatsapp-without-quality-loss": {
+      "title": "Cum să trimiți fișiere video mari pe WhatsApp fără pierderi de calitate",
+      "description": "Te lupți cu limita video de 16 MB a WhatsApp? Aflați cele mai bune metode de compresie online pentru a trimite instantaneu videoclipuri mari, de înaltă calitate pe WhatsApp."
+    },
+    "compress-video-for-discord-limits": {
+      "title": "Comprimați videoclipuri pentru Discord gratuit (sub 8MB, 25MB și 100MB)",
+      "description": "Remediați eroarea „fișier prea puternic”. Comprimați și micșorați cu ușurință videoclipurile sub limitele Discord pentru dimensiunea fișierelor de 8MB, 25MB și 100MB, gratuit online."
+    },
+    "compress-video-for-email-gmail-outlook": {
+      "title": "Comprimați videoclipuri pentru e-mail (limite Gmail, Outlook și Yahoo)",
+      "description": "Eroare prea mare a atașamentului de e-mail? Aflați cum să comprimați fișiere video sub 25 MB pentru Gmail și Outlook ușor și gratuit online."
+    },
+    "perfect-video-sizes-tiktok-instagram-reels-youtube-shorts": {
+      "title": "Dimensiunile video perfecte pentru TikTok, Instagram Reels și YouTube Shorts",
+      "description": "Descoperiți raporturile de aspect, rezoluțiile și dimensiunile perfecte ale fișierelor pentru TikTok, Instagram Reels și YouTube Shorts pentru a asigura încărcări de înaltă calitate de fiecare dată."
+    },
+    "compress-video-for-instagram-without-losing-quality": {
+      "title": "Cum să comprimați videoclipuri pentru încărcare pe Instagram fără a pierde calitatea HD",
+      "description": "Nu lăsa Instagram să-ți facă postările neclare! Aflați cum să vă comprimați videoclipurile la specificațiile ideale pentru postări de feed, Reels și Povestiri, fără a pierde calitatea."
+    },
+    "bypass-discord-file-size-limit-free": {
+      "title": "Cum să ocoliți limita de dimensiune a fișierului Discord (metode online gratuite)",
+      "description": "Căutați modalități de a ocoli limita de încărcare a Discord? Descoperiți cele mai bune metode gratuite de compresie și partajare online pentru a trimite fișiere mari fără Nitro."
+    },
+    "compress-video-for-slack-microsoft-teams": {
+      "title": "Cum să comprimați videoclipuri pentru Slack și Microsoft Teams pentru partajare rapidă",
+      "description": "Te lupți cu încărcări lente de videoclipuri pe Slack sau Teams? Descoperiți cele mai bune setări și metode de comprimare a videoclipurilor de afaceri pentru mesaje corporative rapide."
+    },
+    "shrink-video-for-web-website-loading": {
+      "title": "Cum să micșorați dimensiunea fișierului video pentru web și încărcare rapidă a site-ului",
+      "description": "Fișierele video mari zdrobesc scorurile Core Web Vitals. Aflați cum să micșorați videoclipurile pentru utilizarea web, să îmbunătățiți viteza de încărcare și să vă îmbunătățiți clasamentul SEO cu setările potrivite."
+    },
+    "compress-mp4-without-losing-quality": {
+      "title": "Cum să comprimați videoclipuri MP4 online fără a pierde calitatea",
+      "description": "Aflați tehnici exacte de comprimare a videoclipurilor MP4 fără a pierde calitatea. Reduceți dimensiunea fișierelor cu 60-80%, păstrând în același timp rezoluția HD și detalii clare gratuit."
+    },
+    "5-ways-reduce-video-file-size-free": {
+      "title": "5 moduri simple de a reduce dimensiunea fișierului video instantaneu (100% gratuit)",
+      "description": "Descoperiți 5 moduri simple, complet gratuite de a reduce dimensiunea fișierului video fără a deteriora calitatea. Funcționează pe orice dispozitiv sau sistem de operare."
+    },
+    "compress-4k-to-1080p-online": {
+      "title": "Cum să comprimați rapid videoclipuri 4K la 1080p online",
+      "description": "Fișierele mari 4K ocupă prea mult spațiu? Aflați cum să comprimați rapid 4K la 1080p online gratuit, reducând dimensiunea videoclipului cu până la 80%, păstrând în același timp claritatea HD."
+    },
+    "best-online-video-compressor-comparison": {
+      "title": "Cele mai rapide compresoare video online: pe care ar trebui să le folosiți?",
+      "description": "Găsiți cel mai bun compresor video online pentru nevoile dvs. Comparăm instrumentele de top în 2026 după viteză, calitatea compresiei, confidențialitate și ușurință în utilizare."
+    },
+    "shrink-video-50-percent-without-blur": {
+      "title": "Cum să micșorați un fișier video cu 50% sau mai mult fără estompare",
+      "description": "Nu lăsați compresia să vă strice claritatea videoclipului. Aflați setările profesionale folosite pentru a micșora dimensiunea videoclipului cu 50-80% fără a introduce pixelare sau estompare."
+    },
+    "reduce-gb-to-mb-compress-large-videos": {
+      "title": "Cum să reduceți GB la MB: Comprimați videoclipuri mari online în câteva secunde",
+      "description": "Aveți un fișier video masiv de mai mulți gigaocteți? Aflați cum să îl reduceți la megaocteți online în câteva secunde, fără a fi necesară nicio instalare și fără a pierde calitatea."
+    },
+    "bulk-video-compression-guide": {
+      "title": "Cum să comprimați videoclipuri în vrac online (Ghid de compresie în serie)",
+      "description": "Trebuie să comprimați mai multe videoclipuri simultan? Descoperiți gratuit cele mai bune metode și instrumente pentru comprimarea în loturi a videoclipurilor online, pentru a economisi timp și spațiu de stocare."
+    },
+    "compress-mov-to-mp4-online": {
+      "title": "Cum să comprimați MOV în MP4 online (Ghid de conversie și micșorare)",
+      "description": "Convertiți și comprimați gratuit fișiere MOV în MP4 online. Reduceți dimensiunile videoclipurilor Apple iPhone și Mac cu 60-80%, păstrând în același timp calitatea Full HD."
+    },
+    "compress-video-iphone-ipad-no-apps": {
+      "title": "Cum să comprimați videoclipuri pe iPhone și iPad (nu sunt necesare aplicații)",
+      "description": "Videoclipurile iPhone sunt prea mari pentru a le partaja? Aflați cum să comprimați gratuit videoclipuri de pe iPhone și iPad în Safari fără să descărcați aplicații sau să folosiți stocarea iCloud."
+    },
+    "reduce-video-size-android-free": {
+      "title": "Cum să reduceți dimensiunea fișierului video pe telefoanele Android gratuit",
+      "description": "Reduceți gratuit videoclipurile Android supradimensionate! Aflați să comprimați și să reduceți dimensiunea videoclipului de pe orice smartphone Android direct în Chrome fără a descărca nicio aplicație."
+    },
+    "compress-gopro-dslr-video-online": {
+      "title": "Cum să comprimați online fișierele video GoPro și DSLR",
+      "description": "Videoclipurile GoPro și DSLR sunt prea mari pentru a le partaja cu ușurință. Aflați cum să comprimați gratuit înregistrările camerei online, păstrând în același timp aspectul cinematografic uimitor."
+    },
+    "mkv-vs-mp4-compress-convert": {
+      "title": "MKV vs MP4: Cum să comprimați și să convertiți formate video grele",
+      "description": "Sunteți confuz despre MKV vs MP4? Aflați diferența, când să utilizați fiecare și cum să convertiți și să comprimați gratuit fișierele MKV în MP4 online, fără a pierde calitatea."
+    },
+    "compress-video-windows-10-11": {
+      "title": "Cum să comprimați fișiere video mari pe Windows 10 și Windows 11",
+      "description": "Aflați cum să comprimați fișiere video mari pe Windows 10 și Windows 11 rapid și gratuit, fără a instala niciun software sau codec suplimentar."
+    },
+    "trim-cut-video-online-before-compressing": {
+      "title": "Cum să tăiați și să tăiați videoclipuri mari online înainte de a le comprima",
+      "description": "Decuparea videoclipului înainte de a-l comprima este cea mai bună modalitate de a reduce dimensiunea fișierului fără nicio pierdere a calității. Aflați aici fluxul de lucru profesional în doi pași."
+    },
+    "extract-audio-mp3-from-video-online": {
+      "title": "Cum să extrageți audio (MP3) din orice videoclip online (gratuit și rapid)",
+      "description": "Trebuie să extrageți audio MP3 dintr-un videoclip? Aflați cum să convertiți orice videoclip în audio online în câteva secunde gratuit. Funcționează cu MP4, MOV, AVI, MKV și WebM."
+    },
+    "convert-video-to-text-transcription-guide": {
+      "title": "Cum să convertiți videoclipurile în text: Ghidul final de transcriere",
+      "description": "Opriți transcrierea manuală a videoclipurilor. Aflați cum să convertiți automat videoclipurile în text folosind transcrierea AI pentru subtitrări, subtitrări și documente text precise."
+    },
+    "trim-video-without-reencoding-quality-loss": {
+      "title": "Cum să tăiați fișierele video fără recodificare și pierderea calității",
+      "description": "Majoritatea trimmerelor video re-codifică și degradează videoclipul. Aflați cum să tăiați video fără pierderi fără a re-coda folosind dispozitivul nostru online de tăiere video fără pierderi."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "Cum să tăiați perfect videoclipurile online pentru TikTok și scurtmetraje YouTube",
+      "description": "Obțineți videoclipurile la lungimea exactă potrivită pentru TikTok și YouTube Shorts. Aflați cum să tăiați și să decupați videoclipuri online gratuit pentru a maximiza acoperirea formelor scurte."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "Ce este rata de biți video? Cum afectează calitatea și dimensiunea videoclipului dvs.",
+      "description": "Sunteți confuz în legătură cu rata de biți a videoclipurilor? Aflați ce este, cum afectează calitatea și dimensiunea fișierului și ce rată de biți să vizați pentru fiecare platformă și caz de utilizare."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 vs. H.265 (HEVC): care codec este cel mai bun pentru compresia video?",
+      "description": "H.264 vs H.265 — care codec video este mai bun pentru compresie? Comparați eficiența, compatibilitatea, viteza de codare și suportul pentru dispozitiv pentru a face alegerea corectă."
+    },
+    "lossless-vs-lossy-compression-guide": {
+      "title": "Compresie fără pierderi vs. cu pierderi: un ghid simplu pentru editorii video",
+      "description": "Înțelegeți diferența dintre compresia video fără pierderi și compresia video cu pierderi. Aflați când să utilizați fiecare tip și cum să obțineți cea mai mică dimensiune a fișierului cu cea mai mică pierdere de calitate."
+    },
+    "video-container-vs-codec-explained": {
+      "title": "Ce este un container video vs. un codec? (MP4, MKV, AVI explicat)",
+      "description": "Sunteți confuz cu privire la formatele video? Aflați diferența dintre containerele video (MP4, MKV, AVI) și codecuri (H.264, H.265) și de ce este important pentru compresie."
+    }
   }
 }

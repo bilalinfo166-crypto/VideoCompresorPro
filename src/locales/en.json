@@ -27,7 +27,10 @@
     "compress_now": "Compress Now",
     "to_text": "Video to Text",
     "mobile_tools": "Tools",
-    "mobile_language": "Language"
+    "mobile_language": "Language",
+    "tiktok": "TikTok",
+    "instagram_reels": "Instagram Reels",
+    "youtube_shorts": "YouTube Shorts"
   },
   "hero": {
     "title_main": "Video Compressor with no Quality Compromise",
@@ -1318,6 +1321,130 @@
         { "q": "What is the Facebook file size limit?", "a": "Facebook supports up to 10GB, but small videos perform much better." },
         { "q": "Does it support Facebook Ads?", "a": "Yes, our tool is highly recommended to optimize Facebook Ad campaign assets." }
       ]
+    }
+  },
+  "blog": {
+    "meta_title": "Video Optimization Learning Hub | VideoCompressorPro Blog",
+    "meta_desc": "Read expert tutorials, codec deep-dives, compression secrets, and visual enhancement guides to make your videos lightweight and beautiful.",
+    "send-large-video-whatsapp-without-quality-loss": {
+      "title": "How to Send Large Video Files on WhatsApp Without Quality Loss",
+      "description": "Struggling with WhatsApp's 16MB video limit? Learn the best online compression methods to send large, high-quality videos on WhatsApp instantly."
+    },
+    "compress-video-for-discord-limits": {
+      "title": "Compress Videos for Discord Free (Under 8MB, 25MB & 100MB)",
+      "description": "Fix the 'file too powerful' error. Easily compress and shrink videos under Discord's 8MB, 25MB, and 100MB file size limits for free online."
+    },
+    "compress-video-for-email-gmail-outlook": {
+      "title": "Compress Video for Email (Gmail, Outlook & Yahoo Limits)",
+      "description": "Email attachment too large error? Learn how to compress video files under 25MB for Gmail and Outlook easily and free online."
+    },
+    "perfect-video-sizes-tiktok-instagram-reels-youtube-shorts": {
+      "title": "The Perfect Video Sizes for TikTok, Instagram Reels, and YouTube Shorts",
+      "description": "Discover the perfect aspect ratios, resolutions, and file sizes for TikTok, Instagram Reels, and YouTube Shorts to ensure high-quality uploads every time."
+    },
+    "compress-video-for-instagram-without-losing-quality": {
+      "title": "How to Compress Videos for Instagram Upload Without Losing HD Quality",
+      "description": "Stop letting Instagram make your posts blurry! Learn how to compress your videos to the ideal specs for feed posts, Reels, and Stories without losing quality."
+    },
+    "bypass-discord-file-size-limit-free": {
+      "title": "How to Bypass Discord's File Size Limit (Free Online Methods)",
+      "description": "Looking for ways to bypass Discord's upload limit? Discover the best free online compression and sharing methods to send large files without Nitro."
+    },
+    "compress-video-for-slack-microsoft-teams": {
+      "title": "How to Compress Video for Slack and Microsoft Teams for Fast Sharing",
+      "description": "Struggling with slow video uploads on Slack or Teams? Discover the best settings and methods to compress business videos for quick corporate messaging."
+    },
+    "shrink-video-for-web-website-loading": {
+      "title": "How to Shrink Video File Size for Web and Fast Website Loading",
+      "description": "Large video files crush Core Web Vitals scores. Learn how to shrink video for web use, improve load speed, and boost your SEO rankings with the right settings."
+    },
+    "compress-mp4-without-losing-quality": {
+      "title": "How to Compress MP4 Videos Online Without Losing Quality",
+      "description": "Learn the exact techniques to compress MP4 videos without losing quality. Reduce file sizes by 60-80% while maintaining HD resolution and sharp details for free."
+    },
+    "5-ways-reduce-video-file-size-free": {
+      "title": "5 Simple Ways to Reduce Video File Size Instantly (100% Free)",
+      "description": "Discover 5 simple, completely free ways to reduce video file size without ruining quality. Works on any device or operating system."
+    },
+    "compress-4k-to-1080p-online": {
+      "title": "How to Compress 4K Videos to 1080p Online Quickly",
+      "description": "Large 4K files taking too much space? Learn how to quickly compress 4K to 1080p online for free, reducing video size by up to 80% while preserving HD clarity."
+    },
+    "best-online-video-compressor-comparison": {
+      "title": "The Fastest Online Video Compressors: Which One Should You Use?",
+      "description": "Find the best online video compressor for your needs. We compare the top tools in 2026 by speed, compression quality, privacy, and ease of use."
+    },
+    "shrink-video-50-percent-without-blur": {
+      "title": "How to Shrink a Video File by 50% or More Without Blur",
+      "description": "Don't let compression ruin your video's crispness. Learn the pro settings used to shrink video size by 50-80% without introducing pixelation or blur."
+    },
+    "reduce-gb-to-mb-compress-large-videos": {
+      "title": "How to Reduce GB to MB: Compress Large Videos Online in Seconds",
+      "description": "Got a massive multi-gigabyte video file? Learn how to reduce it to megabytes online in seconds without any installation required and without losing quality."
+    },
+    "bulk-video-compression-guide": {
+      "title": "How to Compress Videos in Bulk Online (Batch Compression Guide)",
+      "description": "Need to compress multiple videos at once? Discover the best methods and tools for batch compressing videos online for free to save time and storage space."
+    },
+    "compress-mov-to-mp4-online": {
+      "title": "How to Compress MOV to MP4 Online (Convert & Shrink Guide)",
+      "description": "Convert and compress MOV files to MP4 online for free. Reduce Apple iPhone and Mac video sizes by 60-80% while keeping full HD quality."
+    },
+    "compress-video-iphone-ipad-no-apps": {
+      "title": "How to Compress Videos on iPhone and iPad (No Apps Required)",
+      "description": "iPhone videos too large to share? Learn how to compress videos on iPhone and iPad for free in Safari without downloading any apps or using iCloud storage."
+    },
+    "reduce-video-size-android-free": {
+      "title": "How to Reduce Video File Size on Android Phones Free",
+      "description": "Shrink oversized Android videos for free! Learn to compress and reduce video size on any Android smartphone directly in Chrome without downloading any app."
+    },
+    "compress-gopro-dslr-video-online": {
+      "title": "How to Compress GoPro and DSLR Video Files Online",
+      "description": "GoPro and DSLR videos are too large to share easily. Learn how to compress camera footage online for free while preserving the stunning cinematic look."
+    },
+    "mkv-vs-mp4-compress-convert": {
+      "title": "MKV vs MP4: How to Compress and Convert Heavy Video Formats",
+      "description": "Confused about MKV vs MP4? Learn the difference, when to use each, and how to convert and compress MKV files to MP4 online for free without losing quality."
+    },
+    "compress-video-windows-10-11": {
+      "title": "How to Compress Large Video Files on Windows 10 & Windows 11",
+      "description": "Learn how to compress large video files on Windows 10 and Windows 11 quickly and for free—without installing any additional software or codecs."
+    },
+    "trim-cut-video-online-before-compressing": {
+      "title": "How to Trim and Cut Large Videos Online Before Compressing Them",
+      "description": "Trimming your video before compressing it is the best way to reduce file size without any quality loss. Learn the professional two-step workflow here."
+    },
+    "extract-audio-mp3-from-video-online": {
+      "title": "How to Extract Audio (MP3) from Any Video Online (Free & Fast)",
+      "description": "Need to extract MP3 audio from a video? Learn how to convert any video to audio online in seconds for free. Works with MP4, MOV, AVI, MKV, and WebM."
+    },
+    "convert-video-to-text-transcription-guide": {
+      "title": "How to Convert Video to Text: The Ultimate Transcription Guide",
+      "description": "Stop manually transcribing videos. Learn how to convert video to text automatically using AI transcription for accurate captions, subtitles, and text documents."
+    },
+    "trim-video-without-reencoding-quality-loss": {
+      "title": "How to Trim Video Files Without Re-encoding and Quality Loss",
+      "description": "Most video trimmers re-encode and degrade your video. Learn how to trim video losslessly without re-encoding using our online lossless video cutter."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "How to Cut Videos Online for TikTok and YouTube Shorts Perfectly",
+      "description": "Get your videos to the exact right length for TikTok and YouTube Shorts. Learn how to cut and trim video clips online for free to maximize short-form reach."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "What is Video Bitrate? How It Affects Your Video Quality & Size",
+      "description": "Confused about video bitrate? Learn what it is, how it affects quality and file size, and what bitrate to target for every platform and use case."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 vs. H.265 (HEVC): Which Codec is Best for Video Compression?",
+      "description": "H.264 vs H.265—which video codec is better for compression? Compare efficiency, compatibility, encoding speed, and device support to make the right choice."
+    },
+    "lossless-vs-lossy-compression-guide": {
+      "title": "Lossless vs. Lossy Compression: A Simple Guide for Video Editors",
+      "description": "Understand the difference between lossless and lossy video compression. Learn when to use each type and how to get the smallest file size with the least quality loss."
+    },
+    "video-container-vs-codec-explained": {
+      "title": "What is a Video Container vs. a Codec? (MP4, MKV, AVI Explained)",
+      "description": "Confused about video formats? Learn the difference between video containers (MP4, MKV, AVI) and codecs (H.264, H.265) and why it matters for compression."
     }
   }
 }

@@ -14,7 +14,10 @@ import TermsPage from "@/app/terms/page";
 import VideoCutterPage from "@/app/video-cutter/page";
 import VideoToMp3Page from "@/app/video-to-mp3/page";
 import VideoToTextPage from "@/app/video-to-text/page";
+import BlogIndexPage from "@/app/blog/page";
+import BlogPostDetail from "@/app/blog/[slug]/page";
 import { COMPRESSOR_PAGES, PSEO_SLUGS } from "@/data/compressor-seo";
+import { BLOG_POSTS } from "@/data/blog-posts";
 import CompressorClient from "@/components/tools/CompressorClient";
 
 interface LocalizedPageProps {
@@ -73,8 +76,24 @@ export async function generateMetadata({ params }: LocalizedPageProps) {
   } else if (path === 'video-to-text') {
     const locTitle = t('to_text_page.meta_title');
     const locDesc = t('to_text_page.meta_description');
-    title = locTitle.includes('to_text_page.') ? 'Video to Text Converter - AI Video Transcription Free' : locTitle;
-    description = locDesc.includes('to_text_page.') ? 'VideoCompressorPro offers a user-friendly and easy-to-use video to text conversion solution, from a YouTube video to text, to an AI video to text conversion, or even a secure online video to text converter without software installation.' : locDesc;
+    title = locTitle.includes('to_text_page.') ? 'Video to Text Converter Online Free | AI Transcription' : locTitle;
+    description = locDesc.includes('to_text_page.') ? 'video to text converter online free with AI transcription. Generate captions, subtitles, and transcripts fast and securely.' : locDesc;
+  } else if (path === 'blog') {
+    if (slug && slug.length === 2) {
+      const postSlug = slug[1];
+      const post = BLOG_POSTS.find(p => p.slug === postSlug);
+      if (post) {
+        const locTitle = t(`blog.${postSlug}.title`);
+        const locDesc = t(`blog.${postSlug}.description`);
+        title = locTitle.includes('blog.') ? post.metaTitle : locTitle;
+        description = locDesc.includes('blog.') ? post.metaDesc : locDesc;
+      }
+    } else {
+      const locTitle = t('blog.meta_title');
+      const locDesc = t('blog.meta_desc');
+      title = locTitle.includes('blog.') ? 'Video Optimization Learning Hub | VideoCompressorPro Blog' : locTitle;
+      description = locDesc.includes('blog.') ? 'Read expert tutorials, codec deep-dives, compression secrets, and visual enhancement guides to make your videos lightweight and beautiful.' : locDesc;
+    }
   } else if (path.startsWith('compress-')) {
     const realSlug = path.replace('compress-', '');
     const data = COMPRESSOR_PAGES[realSlug];
@@ -127,6 +146,12 @@ export async function generateStaticParams() {
       params.push({ locale, slug: [tool] });
     }
 
+    // Localized Blog routes: /ar/blog and /ar/blog/[post-slug]
+    params.push({ locale, slug: ["blog"] });
+    for (const post of BLOG_POSTS) {
+      params.push({ locale, slug: ["blog", post.slug] });
+    }
+
     // Localized SEO pages: /ar/compress-mp4
     for (const slug of PSEO_SLUGS) {
       params.push({ locale, slug: [`compress-${slug}`] });
@@ -135,7 +160,6 @@ export async function generateStaticParams() {
 
   return params;
 }
-
 
 export default function LocalizedPage({ params }: LocalizedPageProps) {
   let { locale, slug } = params;
@@ -186,6 +210,13 @@ export default function LocalizedPage({ params }: LocalizedPageProps) {
       return <VideoToMp3Page />;
     case "video-to-text":
       return <VideoToTextPage />;
+    case "blog":
+      if (slug.length === 1) {
+        return <BlogIndexPage />;
+      } else if (slug.length === 2) {
+        return <BlogPostDetail params={{ slug: slug[1] }} />;
+      }
+      notFound();
   }
 
   // Handle dynamic format pages

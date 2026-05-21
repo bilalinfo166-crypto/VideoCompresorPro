@@ -1653,5 +1653,129 @@
         }
       ]
     }
+  },
+  "blog": {
+    "meta_title": "Video Optimization Learning Hub | VideoCompressorPro Blog",
+    "meta_desc": "Læs ekspertvejledninger, codec-dybdedykninger, komprimeringshemmeligheder og visuelle forbedringsguider for at gøre dine videoer lette og smukke.",
+    "send-large-video-whatsapp-without-quality-loss": {
+      "title": "Sådan sender du store videofiler på WhatsApp uden kvalitetstab",
+      "description": "Kæmper du med WhatsApps videogrænse på 16 MB? Lær de bedste online komprimeringsmetoder til at sende store videoer i høj kvalitet på WhatsApp med det samme."
+    },
+    "compress-video-for-discord-limits": {
+      "title": "Komprimer videoer til Discord gratis (under 8 MB, 25 MB & 100 MB)",
+      "description": "Ret fejlen 'fil for kraftig'. Komprimer og krymp nemt videoer under Discords 8 MB, 25 MB og 100 MB filstørrelsesgrænser gratis online."
+    },
+    "compress-video-for-email-gmail-outlook": {
+      "title": "Komprimer video til e-mail (Gmail, Outlook og Yahoo-grænser)",
+      "description": "Vedhæftet e-mail er for stor fejl? Lær, hvordan du nemt og gratis komprimerer videofiler under 25 MB til Gmail og Outlook."
+    },
+    "perfect-video-sizes-tiktok-instagram-reels-youtube-shorts": {
+      "title": "De perfekte videostørrelser til TikTok, Instagram Reels og YouTube Shorts",
+      "description": "Oplev de perfekte billedformater, opløsninger og filstørrelser til TikTok, Instagram Reels og YouTube Shorts for at sikre uploads af høj kvalitet hver gang."
+    },
+    "compress-video-for-instagram-without-losing-quality": {
+      "title": "Sådan komprimeres videoer til Instagram-upload uden at miste HD-kvalitet",
+      "description": "Stop med at lade Instagram gøre dine opslag slørede! Lær, hvordan du komprimerer dine videoer til de ideelle specifikationer for feedindlæg, ruller og historier uden at miste kvalitet."
+    },
+    "bypass-discord-file-size-limit-free": {
+      "title": "Sådan omgår du Discords filstørrelsesgrænse (gratis onlinemetoder)",
+      "description": "Leder du efter måder at omgå Discords uploadgrænse på? Oplev de bedste gratis online komprimering og delingsmetoder til at sende store filer uden Nitro."
+    },
+    "compress-video-for-slack-microsoft-teams": {
+      "title": "Sådan komprimeres video til Slack og Microsoft Teams til hurtig deling",
+      "description": "Kæmper du med langsomme videouploads på Slack eller Teams? Oplev de bedste indstillinger og metoder til at komprimere virksomhedsvideoer til hurtig virksomhedsmeddelelser."
+    },
+    "shrink-video-for-web-website-loading": {
+      "title": "Sådan formindskes videofilstørrelse til web og hurtig indlæsning af websted",
+      "description": "Store videofiler knuser Core Web Vitals-resultaterne. Lær, hvordan du formindsker video til webbrug, forbedrer indlæsningshastigheden og øger dine SEO-placeringer med de rigtige indstillinger."
+    },
+    "compress-mp4-without-losing-quality": {
+      "title": "Sådan komprimeres MP4-videoer online uden at miste kvalitet",
+      "description": "Lær de nøjagtige teknikker til at komprimere MP4-videoer uden at miste kvalitet. Reducer filstørrelser med 60-80 %, mens du bevarer HD-opløsning og skarpe detaljer gratis."
+    },
+    "5-ways-reduce-video-file-size-free": {
+      "title": "5 enkle måder at reducere videofilstørrelsen øjeblikkeligt (100 % gratis)",
+      "description": "Oplev 5 enkle, helt gratis måder at reducere videofilstørrelsen på uden at ødelægge kvaliteten. Virker på enhver enhed eller operativsystem."
+    },
+    "compress-4k-to-1080p-online": {
+      "title": "Sådan komprimeres 4K-videoer til 1080p online hurtigt",
+      "description": "Tager store 4K-filer for meget plads? Lær, hvordan du hurtigt komprimerer 4K til 1080p online gratis, hvilket reducerer videostørrelsen med op til 80 %, mens du bevarer HD-klarheden."
+    },
+    "best-online-video-compressor-comparison": {
+      "title": "De hurtigste online videokompressorer: Hvilken skal du bruge?",
+      "description": "Find den bedste online videokompressor til dine behov. Vi sammenligner de bedste værktøjer i 2026 efter hastighed, komprimeringskvalitet, privatliv og brugervenlighed."
+    },
+    "shrink-video-50-percent-without-blur": {
+      "title": "Sådan formindskes en videofil med 50 % eller mere uden sløring",
+      "description": "Lad ikke komprimering ødelægge din videos sprødhed. Lær de professionelle indstillinger, der bruges til at formindske videostørrelsen med 50-80 % uden at introducere pixelering eller sløring."
+    },
+    "reduce-gb-to-mb-compress-large-videos": {
+      "title": "Sådan reduceres GB til MB: Komprimer store videoer online på få sekunder",
+      "description": "Har du en massiv multi-gigabyte videofil? Lær, hvordan du reducerer det til megabyte online på få sekunder uden installation og uden at miste kvalitet."
+    },
+    "bulk-video-compression-guide": {
+      "title": "Sådan komprimeres videoer i bulk online (Batch-komprimeringsvejledning)",
+      "description": "Har du brug for at komprimere flere videoer på én gang? Oplev de bedste metoder og værktøjer til batchkomprimering af videoer online gratis for at spare tid og lagerplads."
+    },
+    "compress-mov-to-mp4-online": {
+      "title": "Sådan komprimeres MOV til MP4 online (Konverter & Krymp Guide)",
+      "description": "Konverter og komprimer MOV-filer til MP4 online gratis. Reducer Apple iPhone- og Mac-videostørrelser med 60-80 %, mens du beholder fuld HD-kvalitet."
+    },
+    "compress-video-iphone-ipad-no-apps": {
+      "title": "Sådan komprimeres videoer på iPhone og iPad (ingen apps påkrævet)",
+      "description": "iPhone-videoer for store til at dele? Lær, hvordan du komprimerer videoer på iPhone og iPad gratis i Safari uden at downloade nogen apps eller bruge iCloud-lagerplads."
+    },
+    "reduce-video-size-android-free": {
+      "title": "Sådan reduceres videofilstørrelsen på Android-telefoner Gratis",
+      "description": "Formindsk overdimensionerede Android-videoer gratis! Lær at komprimere og reducere videostørrelsen på enhver Android-smartphone direkte i Chrome uden at downloade nogen app."
+    },
+    "compress-gopro-dslr-video-online": {
+      "title": "Sådan komprimeres GoPro- og DSLR-videofiler online",
+      "description": "GoPro- og DSLR-videoer er for store til at de let kan deles. Lær, hvordan du komprimerer kameraoptagelser online gratis, mens du bevarer det fantastiske filmiske look."
+    },
+    "mkv-vs-mp4-compress-convert": {
+      "title": "MKV vs MP4: Sådan komprimeres og konverteres tunge videoformater",
+      "description": "Forvirret over MKV vs MP4? Lær forskellen, hvornår du skal bruge hver, og hvordan du konverterer og komprimerer MKV-filer til MP4 online gratis uden at miste kvalitet."
+    },
+    "compress-video-windows-10-11": {
+      "title": "Sådan komprimeres store videofiler på Windows 10 og Windows 11",
+      "description": "Lær, hvordan du komprimerer store videofiler på Windows 10 og Windows 11 hurtigt og gratis – uden at installere yderligere software eller codecs."
+    },
+    "trim-cut-video-online-before-compressing": {
+      "title": "Sådan trimmes og klippes store videoer online, før du komprimerer dem",
+      "description": "Trimning af din video, før du komprimerer den, er den bedste måde at reducere filstørrelsen på uden kvalitetstab. Lær den professionelle to-trins arbejdsgang her."
+    },
+    "extract-audio-mp3-from-video-online": {
+      "title": "Sådan ekstraheres lyd (MP3) fra enhver video online (gratis og hurtigt)",
+      "description": "Har du brug for at udtrække MP3-lyd fra en video? Lær, hvordan du konverterer enhver video til lyd online på få sekunder gratis. Fungerer med MP4, MOV, AVI, MKV og WebM."
+    },
+    "convert-video-to-text-transcription-guide": {
+      "title": "Sådan konverteres video til tekst: The Ultimate Transcription Guide",
+      "description": "Stop manuelt transskribering af videoer. Lær, hvordan du automatisk konverterer video til tekst ved hjælp af AI-transskription til nøjagtige billedtekster, undertekster og tekstdokumenter."
+    },
+    "trim-video-without-reencoding-quality-loss": {
+      "title": "Sådan trimmes videofiler uden omkodning og kvalitetstab",
+      "description": "De fleste videotrimmere omkoder og forringer din video. Lær, hvordan du trimmer video tabsfrit uden omkodning ved hjælp af vores online tabsfri videoskærer."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "Sådan klipper du videoer online til TikTok og YouTube Shorts perfekt",
+      "description": "Få dine videoer til den helt rigtige længde til TikTok og YouTube Shorts. Lær, hvordan du klipper og trimmer videoklip gratis online for at maksimere rækkevidde i kort form."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "Hvad er Video Bitrate? Hvordan det påvirker din videokvalitet og -størrelse",
+      "description": "Forvirret over video bitrate? Lær, hvad det er, hvordan det påvirker kvalitet og filstørrelse, og hvilken bitrate du skal målrette mod for hver platform og brugssag."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 vs. H.265 (HEVC): Hvilken codec er bedst til videokomprimering?",
+      "description": "H.264 vs. H.265 – hvilket video-codec er bedre til komprimering? Sammenlign effektivitet, kompatibilitet, kodningshastighed og enhedssupport for at træffe det rigtige valg."
+    },
+    "lossless-vs-lossy-compression-guide": {
+      "title": "Lossless vs Lossy Compression: En simpel vejledning til videoredigerere",
+      "description": "Forstå forskellen mellem tabsfri og tabsgivende videokomprimering. Lær, hvornår du skal bruge hver type, og hvordan du får den mindste filstørrelse med det mindste kvalitetstab."
+    },
+    "video-container-vs-codec-explained": {
+      "title": "Hvad er en videocontainer vs. et codec? (MP4, MKV, AVI forklaret)",
+      "description": "Er du forvirret over videoformater? Lær forskellen mellem videobeholdere (MP4, MKV, AVI) og codecs (H.264, H.265), og hvorfor det er vigtigt for komprimering."
+    }
   }
 }
