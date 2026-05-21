@@ -80,115 +80,114 @@ export default function SignupPage() {
   };
 
   return (
-    <div className="min-h-screen bg-[var(--background)] flex flex-col justify-center items-center p-4 relative overflow-hidden transition-colors duration-300">
+    <div className="min-h-screen bg-[var(--background)] flex flex-col justify-center items-center p-3 relative overflow-hidden transition-colors duration-300">
       {/* Background Decorative Elements */}
-      <div className="absolute top-[-10%] right-[-10%] w-[40%] h-[40%] bg-violet-600/10 rounded-full blur-[120px] animate-pulse" />
-      <div className="absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-600/10 rounded-full blur-[120px]" />
+      <div className="absolute top-[-10%] right-[-10%] w-[40%] h-[40%] bg-violet-600/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-600/10 rounded-full blur-[120px] pointer-events-none" />
 
       <Link 
         href="/" 
-        className="absolute top-8 left-8 flex items-center gap-2 text-[var(--muted-text)] hover:text-blue-600 transition-colors font-medium group"
+        className="absolute top-4 left-4 flex items-center gap-1.5 text-xs text-[var(--muted-text)] hover:text-blue-600 transition-colors font-medium group"
       >
-        <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+        <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-0.5 transition-transform" />
         {t("auth.back_home")}
       </Link>
 
-      <div className="w-full max-w-md relative z-10">
+      <div className="w-full max-w-sm relative z-10 py-4">
         {/* Logo */}
-        <div className="flex flex-col items-center mb-8">
-          <div className="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center shadow-xl shadow-blue-600/20 mb-4 transform hover:-rotate-6 transition-transform cursor-pointer relative">
-            <Video className="w-10 h-10 text-white" />
-            <div className="absolute -top-2 -right-2 w-6 h-6 bg-yellow-500 rounded-full flex items-center justify-center border-2 border-[var(--background)]">
-                <Sparkles className="w-3 h-3 text-white" />
+        <div className="flex flex-col items-center mb-3">
+          <div className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center shadow-lg shadow-blue-600/20 mb-2 transform hover:-rotate-6 transition-transform cursor-pointer relative">
+            <Video className="w-7 h-7 text-white" />
+            <div className="absolute -top-1.5 -right-1.5 w-5 h-5 bg-yellow-500 rounded-full flex items-center justify-center border-2 border-[var(--background)]">
+                <Sparkles className="w-2.5 h-2.5 text-white" />
             </div>
           </div>
-          <h1 className="text-3xl font-black text-[var(--foreground)] tracking-tight">{t("auth.signup_title")}</h1>
-          <p className="text-[var(--muted-text)] font-medium mt-2 text-center">{t("auth.signup_subtitle")}</p>
+          <h1 className="text-2xl font-black text-[var(--foreground)] tracking-tight">{t("auth.signup_title")}</h1>
+          <p className="text-xs text-[var(--muted-text)] font-semibold mt-1 text-center">{t("auth.signup_subtitle")}</p>
         </div>
 
         {/* Card */}
-        <div className="glass-card rounded-[32px] p-8 border border-[var(--card-border)] shadow-[0_20px_50px_rgba(0,0,0,0.1)] dark:shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
+        <div className="glass-card rounded-2xl p-5 border border-[var(--card-border)] shadow-lg">
           {/* Optional account benefits notice */}
-          <div className="mb-6 p-4 rounded-2xl bg-blue-600/10 border border-blue-600/20 text-xs text-[var(--muted-text)] font-semibold leading-relaxed text-left">
+          <div className="mb-3.5 p-2.5 rounded-xl bg-blue-600/10 border border-blue-600/20 text-[10px] text-[var(--muted-text)] font-semibold leading-normal text-left">
             💡 <span className="text-blue-500 font-bold">{t("auth.optional_info_badge")?.includes("auth.") ? "Optional Benefit" : (t("auth.optional_info_badge") || "Optional Benefit")}:</span> {t("auth.optional_info")}
           </div>
 
           {error && (
-            <div className="mb-6 p-4 rounded-2xl bg-red-500/10 border border-red-500/20 text-xs font-semibold text-red-500 text-left">
+            <div className="mb-3.5 p-3 rounded-xl bg-red-500/10 border border-red-500/20 text-[11px] font-semibold text-red-500 text-left">
               ⚠️ {error}
             </div>
           )}
 
-          <form onSubmit={handleSignup} className="space-y-6">
+          <form onSubmit={handleSignup} className="space-y-3.5">
 
             {/* Name Field */}
-            <div className="space-y-2">
-              <label className="text-sm font-bold text-[var(--foreground)] px-1">{t("auth.full_name_label")}</label>
+            <div className="space-y-1">
+              <label className="text-[11px] font-bold text-[var(--foreground)] px-0.5">{t("auth.full_name_label")}</label>
               <div className="relative group">
-                <User className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[var(--muted-text)] group-focus-within:text-blue-600 transition-colors" />
+                <User className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--muted-text)] group-focus-within:text-blue-600 transition-colors" />
                 <input 
                   type="text" 
                   required
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   placeholder="John Doe" 
-                  className="w-full bg-[var(--background)] border border-[var(--card-border)] p-4 pl-12 rounded-2xl text-[var(--foreground)] focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all font-medium"
+                  className="w-full bg-[var(--background)] border border-[var(--card-border)] py-2.5 pl-10 pr-4 text-xs rounded-xl text-[var(--foreground)] focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all font-semibold"
                 />
               </div>
             </div>
 
             {/* Email Field */}
-            <div className="space-y-2">
-              <label className="text-sm font-bold text-[var(--foreground)] px-1">{t("auth.email_label")}</label>
+            <div className="space-y-1">
+              <label className="text-[11px] font-bold text-[var(--foreground)] px-0.5">{t("auth.email_label")}</label>
               <div className="relative group">
-                <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[var(--muted-text)] group-focus-within:text-blue-600 transition-colors" />
+                <Mail className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--muted-text)] group-focus-within:text-blue-600 transition-colors" />
                 <input 
                   type="email" 
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="example@mail.com" 
-                  className="w-full bg-[var(--background)] border border-[var(--card-border)] p-4 pl-12 rounded-2xl text-[var(--foreground)] focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all font-medium"
+                  className="w-full bg-[var(--background)] border border-[var(--card-border)] py-2.5 pl-10 pr-4 text-xs rounded-xl text-[var(--foreground)] focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all font-semibold"
                 />
               </div>
             </div>
 
             {/* Password Field */}
-            <div className="space-y-2">
-              <label className="text-sm font-bold text-[var(--foreground)] px-1">{t("auth.password_label")}</label>
+            <div className="space-y-1">
+              <label className="text-[11px] font-bold text-[var(--foreground)] px-0.5">{t("auth.password_label")}</label>
               <div className="relative group">
-                <Lock className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[var(--muted-text)] group-focus-within:text-blue-600 transition-colors" />
+                <Lock className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--muted-text)] group-focus-within:text-blue-600 transition-colors" />
                 <input 
                   type={showPassword ? "text" : "password"} 
                   required
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  placeholder="Create a strong password" 
-                  className="w-full bg-[var(--background)] border border-[var(--card-border)] p-4 pl-12 pr-12 rounded-2xl text-[var(--foreground)] focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all font-medium"
+                  placeholder="Create password" 
+                  className="w-full bg-[var(--background)] border border-[var(--card-border)] py-2.5 pl-10 pr-10 text-xs rounded-xl text-[var(--foreground)] focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all font-semibold"
                 />
                 <button 
                   type="button"
                   onClick={() => setShowPassword(!showPassword)}
-                  className="absolute right-4 top-1/2 -translate-y-1/2 text-[var(--muted-text)] hover:text-blue-600 transition-colors"
+                  className="absolute right-3.5 top-1/2 -translate-y-1/2 text-[var(--muted-text)] hover:text-blue-600 transition-colors"
                 >
-                  {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
+                  {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
                 </button>
               </div>
-              <p className="text-[10px] text-[var(--muted-text)] px-1 font-medium">{t("auth.password_hint")}</p>
             </div>
 
             {/* Submit Button */}
             <button 
               type="submit"
               disabled={isLoading}
-              className="w-full bg-blue-600 hover:bg-blue-500 text-white p-4 rounded-2xl font-black text-lg shadow-xl shadow-blue-600/20 transition-all active:scale-[0.98] mt-2 flex items-center justify-center gap-2"
+              className="w-full bg-blue-600 hover:bg-blue-500 text-white py-3 rounded-xl font-bold text-sm shadow-md shadow-blue-600/20 transition-all active:scale-[0.98] mt-1.5 flex items-center justify-center gap-1.5"
             >
-              {isLoading ? <Loader2 className="w-5 h-5 animate-spin" /> : t("auth.signup_btn")}
+              {isLoading ? <Loader2 className="w-4 h-4 animate-spin" /> : t("auth.signup_btn")}
             </button>
 
-            <div className="relative flex items-center py-2">
+            <div className="relative flex items-center py-1">
               <div className="flex-grow border-t border-[var(--card-border)]"></div>
-              <span className="flex-shrink mx-4 text-xs font-bold text-[var(--muted-text)] uppercase tracking-widest">{t("auth.or_email")}</span>
+              <span className="flex-shrink mx-3 text-[10px] font-bold text-[var(--muted-text)] uppercase tracking-wider">{t("auth.or_email")}</span>
               <div className="flex-grow border-t border-[var(--card-border)]"></div>
             </div>
 
@@ -196,23 +195,23 @@ export default function SignupPage() {
             <button 
               type="button"
               onClick={handleGoogleSignup}
-              className="w-full flex items-center justify-center gap-3 bg-white dark:bg-slate-800 border border-[var(--card-border)] p-4 rounded-2xl font-bold text-[var(--foreground)] hover:bg-slate-50 dark:hover:bg-slate-700 transition-all group active:scale-[0.98]"
+              className="w-full flex items-center justify-center gap-2.5 bg-white dark:bg-slate-800 border border-[var(--card-border)] py-2.5 rounded-xl font-bold text-xs text-[var(--foreground)] hover:bg-slate-50 dark:hover:bg-slate-700 transition-all group active:scale-[0.98]"
             >
-              <div className="w-5 h-5 flex items-center justify-center bg-white rounded-full p-0.5 shadow-sm border border-slate-200">
+              <div className="w-4 h-4 flex items-center justify-center bg-white rounded-full p-0.5 shadow-sm border border-slate-200">
                 <Chrome className="w-full h-full text-blue-600" />
               </div>
               {t("auth.google_signup")}
             </button>
           </form>
 
-          <p className="text-center text-[var(--muted-text)] text-sm font-medium mt-8">
+          <p className="text-center text-[var(--muted-text)] text-xs font-semibold mt-4">
             {t("auth.have_account")}{" "}
             <Link href="/login" className="text-blue-600 font-bold hover:underline">{t("auth.login_link")}</Link>
           </p>
         </div>
 
         {/* Footer info */}
-        <p className="text-center text-[var(--muted-text)] text-xs mt-8 opacity-60">
+        <p className="text-center text-[var(--muted-text)] text-[10px] mt-4 opacity-60">
           {t("auth.terms_privacy")}
         </p>
       </div>
