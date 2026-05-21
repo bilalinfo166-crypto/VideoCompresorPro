@@ -5,7 +5,7 @@ import type { NextRequest } from "next/server";
 export const locales = [
   "ar", "hi", "es", "pt", "fr", "de", "it", "id", "ja", 
   "ru", "zh", "tr", "vi", "ko", "th", "nl", "pl", "fa", "ro", 
-  "el", "uk", "sv", "he", "da", "fi", "no", "cs", "hu", "tw"
+  "el", "uk", "sv", "he", "da", "fi", "no", "cs", "hu"
 ];
 
 function getLocale(request: NextRequest): string | undefined {
@@ -38,13 +38,9 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  // Handle root redirection based on language
-  if (pathname === '/') {
-    const preferredLocale = getLocale(request);
-    if (preferredLocale && preferredLocale !== 'en') {
-      return NextResponse.redirect(new URL(`/${preferredLocale}`, request.url));
-    }
-  }
+  // NOTE: We intentionally do NOT redirect from '/' to localized URLs.
+  // Auto-redirecting the root causes "Page with redirect" issues in Google
+  // Search Console and hurts indexing. The root '/' always serves English.
 
   const requestHeaders = new Headers(request.headers);
 

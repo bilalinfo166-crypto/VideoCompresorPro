@@ -10,49 +10,123 @@ export const locales = [
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://videocompressorpro.com';
+  const now = new Date();
 
-  const baseRoutes = [
-    '',
+  const allRoutes: MetadataRoute.Sitemap = [];
+
+  // ── 1. Homepage (highest priority) ─────────────────────────────────────────
+  allRoutes.push({
+    url: baseUrl,
+    lastModified: now,
+    changeFrequency: 'daily',
+    priority: 1.0,
+  });
+
+  // ── 2. pSEO format/platform compressor pages (very important) ──────────────
+  for (const slug of PSEO_SLUGS) {
+    allRoutes.push({
+      url: `${baseUrl}/compress-${slug}`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    });
+  }
+
+  // ── 3. Blog pages ──────────────────────────────────────────────────────────
+  allRoutes.push({
+    url: `${baseUrl}/blog`,
+    lastModified: now,
+    changeFrequency: 'weekly',
+    priority: 0.85,
+  });
+  for (const post of BLOG_POSTS) {
+    allRoutes.push({
+      url: `${baseUrl}/blog/${post.slug}`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    });
+  }
+
+  // ── 4. Core tool pages ─────────────────────────────────────────────────────
+  const coreTools = [
     '/video-cutter',
     '/crop-video',
     '/video-to-mp3',
     '/video-to-audio',
     '/video-to-text',
-    '/blog',
-    ...BLOG_POSTS.map(post => `/blog/${post.slug}`),
-    '/about',
-    '/contact',
-    '/privacy',
-    '/terms',
-    ...PSEO_SLUGS.map(slug => `/compress-${slug}`),
     '/tiktok',
     '/instagram-reels',
     '/youtube-shorts',
   ];
-
-  const allRoutes: MetadataRoute.Sitemap = [];
-
-  // Add default (English) routes
-  baseRoutes.forEach(route => {
+  for (const route of coreTools) {
     allRoutes.push({
       url: `${baseUrl}${route}`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: route === '' ? 1 : 0.8,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
     });
-  });
+  }
 
-  // Add localized routes for all other languages
-  locales.forEach(locale => {
-    baseRoutes.forEach(route => {
+  // ── 5. Static info pages ───────────────────────────────────────────────────
+  const infoPages = ['/about', '/contact', '/privacy', '/terms'];
+  for (const route of infoPages) {
+    allRoutes.push({
+      url: `${baseUrl}${route}`,
+      lastModified: now,
+      changeFrequency: 'yearly',
+      priority: 0.5,
+    });
+  }
+
+  // ── 6. Localized pages (lower priority, grouped after English) ──────────────
+  for (const locale of locales) {
+    // Localized homepage
+    allRoutes.push({
+      url: `${baseUrl}/${locale}`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.7,
+    });
+
+    // Localized pSEO pages
+    for (const slug of PSEO_SLUGS) {
+      allRoutes.push({
+        url: `${baseUrl}/${locale}/compress-${slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.65,
+      });
+    }
+
+    // Localized blog index
+    allRoutes.push({
+      url: `${baseUrl}/${locale}/blog`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.6,
+    });
+
+    // Localized blog posts
+    for (const post of BLOG_POSTS) {
+      allRoutes.push({
+        url: `${baseUrl}/${locale}/blog/${post.slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.55,
+      });
+    }
+
+    // Localized tool pages (only high-value ones)
+    for (const route of coreTools) {
       allRoutes.push({
         url: `${baseUrl}/${locale}${route}`,
-        lastModified: new Date(),
-        changeFrequency: 'weekly',
-        priority: route === '' ? 0.9 : 0.7,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.6,
       });
-    });
-  });
+    }
+  }
 
   return allRoutes;
 }
