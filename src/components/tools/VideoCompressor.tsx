@@ -18,6 +18,7 @@ import { isMobileDevice, fileSizeMB } from "@/hooks/useFFmpeg";
 import { useLanguage } from "@/context/LanguageContext";
 import Script from "next/script";
 import { QRCodeSVG } from "qrcode.react";
+import { logCompressionMetadata } from "@/lib/supabase";
 
 export function VideoCompressor() {
   const { t } = useLanguage();
@@ -78,7 +79,13 @@ export function VideoCompressor() {
     // Mobile: fast path
     if (isMobile && mobileFastCompress) {
       const result = await mobileFastCompress(file);
-      setResultBlob(result);
+      if (result) {
+        setResultBlob(result);
+        // Log compression asynchronously in background
+        logCompressionMetadata(file.name, "Compress", file.size, result.size);
+      } else {
+        alert(t("common.failed") || "Compression failed. Please try again.");
+      }
       setIsCompressing(false);
       return;
     }
@@ -87,6 +94,9 @@ export function VideoCompressor() {
     const result = await smartCompress(file, targetSize);
     if (result) {
       setResultBlob(result);
+
+      // Log compression asynchronously in background
+      logCompressionMetadata(file.name, "Compress", file.size, result.size);
     } else {
       alert(t("common.failed") || "Compression failed. Please try again.");
     }

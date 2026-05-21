@@ -1,13 +1,83 @@
 "use client";
 
 import Link from "next/link";
-import { Video, ArrowLeft, Mail, Lock, Eye, EyeOff, Chrome, User, Sparkles } from "lucide-react";
+import { Video, ArrowLeft, Mail, Lock, Eye, EyeOff, Chrome, User, Sparkles, Loader2 } from "lucide-react";
 import { useState } from "react";
 import { useLanguage } from "@/context/LanguageContext";
+import { supabase } from "@/lib/supabase";
 
 export default function SignupPage() {
   const { t } = useLanguage();
   const [showPassword, setShowPassword] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleSignup = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setError("");
+    setIsLoading(true);
+
+    if (!name || !email || !password) {
+      setError("Please fill in all fields.");
+      setIsLoading(false);
+      return;
+    }
+
+    try {
+      const { data, error: signupError } = await supabase.auth.signUp({
+        email,
+        password,
+        options: {
+          data: {
+            full_name: name,
+          }
+        }
+      });
+
+      if (signupError) {
+        setError(signupError.message);
+        setIsLoading(false);
+        return;
+      }
+
+      if (data?.user) {
+        // Also log in locally to maintain backward compatibility with Header
+        localStorage.setItem("user_logged_in", "true");
+        localStorage.setItem("user_email", email);
+        localStorage.setItem("user_name", name);
+        
+        // Dispatch auth_change event so header updates instantly
+        window.dispatchEvent(new Event("auth_change"));
+        
+        // Redirect to dashboard
+        window.location.href = "/dashboard";
+      }
+    } catch (err: any) {
+      setError(err.message || "An unexpected error occurred.");
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleGoogleSignup = async () => {
+    setError("");
+    try {
+      const { error: oauthError } = await supabase.auth.signInWithOAuth({
+        provider: 'google',
+        options: {
+          redirectTo: window.location.origin + '/dashboard',
+        }
+      });
+      if (oauthError) {
+        setError(oauthError.message);
+      }
+    } catch (err: any) {
+      setError(err.message || "OAuth login failed");
+    }
+  };
 
   return (
     <div className="min-h-screen bg-[var(--background)] flex flex-col justify-center items-center p-4 relative overflow-hidden transition-colors duration-300">
@@ -43,7 +113,13 @@ export default function SignupPage() {
             💡 <span className="text-blue-500 font-bold">{t("auth.optional_info_badge")?.includes("auth.") ? "Optional Benefit" : (t("auth.optional_info_badge") || "Optional Benefit")}:</span> {t("auth.optional_info")}
           </div>
 
-          <div className="space-y-6">
+          {error && (
+            <div className="mb-6 p-4 rounded-2xl bg-red-500/10 border border-red-500/20 text-xs font-semibold text-red-500 text-left">
+              ⚠️ {error}
+            </div>
+          )}
+
+          <form onSubmit={handleSignup} className="space-y-6">
 
             {/* Name Field */}
             <div className="space-y-2">
@@ -52,6 +128,9 @@ export default function SignupPage() {
                 <User className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[var(--muted-text)] group-focus-within:text-blue-600 transition-colors" />
                 <input 
                   type="text" 
+                  required
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                   placeholder="John Doe" 
                   className="w-full bg-[var(--background)] border border-[var(--card-border)] p-4 pl-12 rounded-2xl text-[var(--foreground)] focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all font-medium"
                 />
@@ -65,6 +144,9 @@ export default function SignupPage() {
                 <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[var(--muted-text)] group-focus-within:text-blue-600 transition-colors" />
                 <input 
                   type="email" 
+                  required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   placeholder="example@mail.com" 
                   className="w-full bg-[var(--background)] border border-[var(--card-border)] p-4 pl-12 rounded-2xl text-[var(--foreground)] focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all font-medium"
                 />
@@ -78,6 +160,9 @@ export default function SignupPage() {
                 <Lock className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[var(--muted-text)] group-focus-within:text-blue-600 transition-colors" />
                 <input 
                   type={showPassword ? "text" : "password"} 
+                  required
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
                   placeholder="Create a strong password" 
                   className="w-full bg-[var(--background)] border border-[var(--card-border)] p-4 pl-12 pr-12 rounded-2xl text-[var(--foreground)] focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all font-medium"
                 />
@@ -93,8 +178,12 @@ export default function SignupPage() {
             </div>
 
             {/* Submit Button */}
-            <button className="w-full bg-blue-600 hover:bg-blue-500 text-white p-4 rounded-2xl font-black text-lg shadow-xl shadow-blue-600/20 transition-all active:scale-[0.98] mt-2">
-              {t("auth.signup_btn")}
+            <button 
+              type="submit"
+              disabled={isLoading}
+              className="w-full bg-blue-600 hover:bg-blue-500 text-white p-4 rounded-2xl font-black text-lg shadow-xl shadow-blue-600/20 transition-all active:scale-[0.98] mt-2 flex items-center justify-center gap-2"
+            >
+              {isLoading ? <Loader2 className="w-5 h-5 animate-spin" /> : t("auth.signup_btn")}
             </button>
 
             <div className="relative flex items-center py-2">
@@ -104,13 +193,17 @@ export default function SignupPage() {
             </div>
 
             {/* Social Signup */}
-            <button className="w-full flex items-center justify-center gap-3 bg-white dark:bg-slate-800 border border-[var(--card-border)] p-4 rounded-2xl font-bold text-[var(--foreground)] hover:bg-slate-50 dark:hover:bg-slate-700 transition-all group active:scale-[0.98]">
+            <button 
+              type="button"
+              onClick={handleGoogleSignup}
+              className="w-full flex items-center justify-center gap-3 bg-white dark:bg-slate-800 border border-[var(--card-border)] p-4 rounded-2xl font-bold text-[var(--foreground)] hover:bg-slate-50 dark:hover:bg-slate-700 transition-all group active:scale-[0.98]"
+            >
               <div className="w-5 h-5 flex items-center justify-center bg-white rounded-full p-0.5 shadow-sm border border-slate-200">
                 <Chrome className="w-full h-full text-blue-600" />
               </div>
               {t("auth.google_signup")}
             </button>
-          </div>
+          </form>
 
           <p className="text-center text-[var(--muted-text)] text-sm font-medium mt-8">
             {t("auth.have_account")}{" "}
@@ -126,3 +219,4 @@ export default function SignupPage() {
     </div>
   );
 }
+

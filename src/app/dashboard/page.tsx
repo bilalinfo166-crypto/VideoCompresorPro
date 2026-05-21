@@ -4,35 +4,110 @@ import { useEffect, useState } from "react";
 import { 
   User, Mail, Settings, History, Video, Clock, 
   Download, HardDrive, ShieldCheck, LogOut, LayoutDashboard,
-  BarChart3, Sparkles, Scissors, Crop, Music
+  BarChart3, Sparkles, Scissors, Crop, Music, Loader2
 } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
+import { supabase } from "@/lib/supabase";
 import Link from "next/link";
-
-const MOCK_HISTORY = [
-  { id: 1, name: "final_vlog_v1.mp4", type: "Compress", date: "2026-05-15", size: "24.5 MB", original: "145 MB", icon: HardDrive },
-  { id: 2, name: "tiktok_edit.mp4", type: "Crop", date: "2026-05-14", size: "12.2 MB", original: "45 MB", icon: Crop },
-  { id: 3, name: "interview_audio.mp3", type: "MP3", date: "2026-05-12", size: "4.1 MB", original: "28 MB", icon: Music },
-];
 
 export default function DashboardPage() {
   const { t } = useLanguage();
   const [userEmail, setUserEmail] = useState("");
   const [userName, setUserName] = useState("");
   const [userImage, setUserImage] = useState("");
+  const [history, setHistory] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [stats, setStats] = useState({ totalProcesses: 0, storageSaved: "0 MB" });
 
   useEffect(() => {
-    setUserEmail(localStorage.getItem("user_email") || "guest@example.com");
-    setUserName(localStorage.getItem("user_name") || "Guest User");
-    setUserImage(localStorage.getItem("user_image") || "");
+    const fetchUserDataAndHistory = async () => {
+      setLoading(true);
+      try {
+        // 1. Get Session
+        const { data: { session }, error: sessionError } = await supabase.auth.getSession();
+        
+        if (sessionError || !session) {
+          // If no session, redirect to login
+          window.location.href = "/login";
+          return;
+        }
+
+        const user = session.user;
+        const email = user.email || "";
+        const name = user.user_metadata?.full_name || email.split("@")[0] || "User";
+        
+        setUserEmail(email);
+        setUserName(name);
+        setUserImage(user.user_metadata?.avatar_url || "");
+
+        // Sync with localStorage so header stays matching
+        localStorage.setItem("user_logged_in", "true");
+        localStorage.setItem("user_email", email);
+        localStorage.setItem("user_name", name);
+
+        // 2. Fetch compression history
+        const { data: logs, error: logsError } = await supabase
+          .from("compression_history")
+          .select("*")
+          .eq("user_id", user.id)
+          .order("created_at", { ascending: false });
+
+        if (logsError) {
+          console.error("Failed to fetch logs:", logsError.message);
+        } else if (logs) {
+          setHistory(logs);
+          
+          // Calculate dynamic stats
+          const total = logs.length;
+          const totalSavingsBytes = logs.reduce((sum, item) => sum + Math.max(0, item.original_size - item.compressed_size), 0);
+          const totalSavingsMB = totalSavingsBytes / (1024 * 1024);
+          
+          let formattedSaved = "0 MB";
+          if (totalSavingsMB >= 1024) {
+            formattedSaved = `${(totalSavingsMB / 1024).toFixed(2)} GB`;
+          } else {
+            formattedSaved = `${totalSavingsMB.toFixed(1)} MB`;
+          }
+
+          setStats({
+            totalProcesses: total,
+            storageSaved: formattedSaved
+          });
+        }
+      } catch (err) {
+        console.error("Dashboard error:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchUserDataAndHistory();
   }, []);
 
-  const handleLogout = () => {
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
     localStorage.removeItem("user_logged_in");
     localStorage.removeItem("user_email");
+    localStorage.removeItem("user_name");
     localStorage.removeItem("user_token");
+    
+    // Notify header
+    window.dispatchEvent(new Event("auth_change"));
     window.location.href = "/";
   };
+
+  const formatSize = (bytes: number) => {
+    return (bytes / (1024 * 1024)).toFixed(2) + " MB";
+  };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-[var(--background)] flex flex-col justify-center items-center gap-4 transition-colors duration-300">
+        <Loader2 className="w-10 h-10 text-blue-600 animate-spin" />
+        <p className="text-sm font-bold text-[var(--muted-text)] tracking-wider uppercase">Loading Dashboard...</p>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-[var(--background)] pt-8 pb-12 px-4 transition-colors duration-300">
@@ -46,7 +121,7 @@ export default function DashboardPage() {
              </div>
              <div>
                 <p className="text-[10px] font-black text-[var(--muted-text)] uppercase tracking-widest">Total Processes</p>
-                <h3 className="text-2xl font-black text-[var(--foreground)]">42</h3>
+                <h3 className="text-2xl font-black text-[var(--foreground)]">{stats.totalProcesses}</h3>
              </div>
           </div>
           <div className="glass-card rounded-[32px] p-6 border border-[var(--card-border)] flex items-center gap-5">
@@ -55,7 +130,7 @@ export default function DashboardPage() {
              </div>
              <div>
                 <p className="text-[10px] font-black text-[var(--muted-text)] uppercase tracking-widest">Storage Saved</p>
-                <h3 className="text-2xl font-black text-[var(--foreground)]">1.2 GB</h3>
+                <h3 className="text-2xl font-black text-[var(--foreground)]">{stats.storageSaved}</h3>
              </div>
           </div>
           <div className="glass-card rounded-[32px] p-6 border border-[var(--card-border)] flex items-center gap-5">
@@ -123,35 +198,31 @@ export default function DashboardPage() {
                      <History className="w-6 h-6 text-blue-600" />
                      <h3 className="text-xl font-black text-[var(--foreground)]">Recent Activity</h3>
                   </div>
-                  <button className="text-xs font-black text-blue-600 hover:underline uppercase tracking-widest">View All</button>
                </div>
 
                <div className="space-y-4">
-                  {MOCK_HISTORY.map((item) => (
+                  {history.map((item) => (
                     <div key={item.id} className="flex items-center gap-4 p-4 rounded-3xl bg-slate-50 dark:bg-slate-800/50 border border-transparent hover:border-blue-600/20 transition-all group">
                        <div className="w-12 h-12 rounded-2xl bg-white dark:bg-slate-800 flex items-center justify-center shadow-sm border border-[var(--card-border)]">
-                          <item.icon className="w-5 h-5 text-blue-600" />
+                          <HardDrive className="w-5 h-5 text-blue-600" />
                        </div>
                        <div className="flex-1 min-w-0">
-                          <h5 className="font-bold text-[var(--foreground)] truncate">{item.name}</h5>
+                          <h5 className="font-bold text-[var(--foreground)] truncate">{item.file_name}</h5>
                           <div className="flex items-center gap-3 mt-1">
-                             <span className="text-[10px] font-black uppercase tracking-tighter text-blue-600 bg-blue-500/10 px-2 py-0.5 rounded-md">{item.type}</span>
-                             <span className="text-[10px] text-[var(--muted-text)] font-bold">{item.date}</span>
+                             <span className="text-[10px] font-black uppercase tracking-tighter text-blue-600 bg-blue-500/10 px-2 py-0.5 rounded-md">{item.file_type}</span>
+                             <span className="text-[10px] text-[var(--muted-text)] font-bold">{new Date(item.created_at).toLocaleDateString()}</span>
                           </div>
                        </div>
-                       <div className="text-right hidden sm:block">
-                          <p className="text-xs font-black text-[var(--foreground)]">{item.size}</p>
-                          <p className="text-[10px] text-[var(--muted-text)] line-through">{item.original}</p>
+                       <div className="text-right hidden sm:block mr-2">
+                          <p className="text-xs font-black text-[var(--foreground)]">{formatSize(item.compressed_size)}</p>
+                          <p className="text-[10px] text-[var(--muted-text)] line-through">{formatSize(item.original_size)}</p>
                        </div>
-                       <button className="p-2 hover:bg-blue-600 hover:text-white rounded-xl transition-all text-[var(--muted-text)]">
-                          <Download className="w-4 h-4" />
-                       </button>
                     </div>
                   ))}
                </div>
 
                {/* Empty State placeholder */}
-               {MOCK_HISTORY.length === 0 && (
+               {history.length === 0 && (
                  <div className="py-20 text-center">
                     <div className="w-20 h-20 bg-slate-100 dark:bg-slate-800 rounded-full flex items-center justify-center mx-auto mb-6">
                        <HardDrive className="w-10 h-10 text-slate-300" />
