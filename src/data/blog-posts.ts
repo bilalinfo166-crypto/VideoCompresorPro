@@ -162,7 +162,7 @@ Preserving your video's clarity while keeping it under the WhatsApp size thresho
     ctaType: "compressor",
     ctaText: "Got a 'file too powerful' error? Use our Free Discord Video Compressor to shrink your video under the limit instantly!",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1614680376593-902f74fa0d41?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?auto=format&fit=crop&q=80&w=800&h=450",
     faqs: [
       {
         question: "What are the exact upload limits for Discord users?",
@@ -636,7 +636,7 @@ Bypassing Discord's file limits does not require an expensive Nitro subscription
     ctaType: "compressor",
     ctaText: "Make remote team collaboration lightning fast! Instantly compress your presentation videos online before sharing them on Slack or Teams.",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1531535934202-f0d444b05fc0?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=800&h=450",
     faqs: [
       {
         question: "What are the file upload limits for Slack and Microsoft Teams?",
@@ -1004,7 +1004,7 @@ By combining multiple methods—trimming unnecessary footage, choosing the right
     ctaType: "compressor",
     ctaText: "Got a huge 4K file? Compress it to 1080p online for free and reduce its size by up to 80% using our intelligent video compressor!",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1536240478700-b869ad10e128?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "https://images.unsplash.com/photo-1461151304267-38535e780c79?auto=format&fit=crop&q=80&w=800&h=450",
     faqs: [
       {
         question: "How much smaller does a video get when converted from 4K to 1080p?",
