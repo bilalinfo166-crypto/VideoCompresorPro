@@ -13,6 +13,9 @@ export function Features({ context }: FeaturesProps) {
   const isDiscord = context?.toLowerCase().includes("discord");
   const isWhatsApp = context?.toLowerCase().includes("whatsapp");
   const isEmail = context?.toLowerCase().includes("email");
+  const isTikTok = context?.toLowerCase().includes("tiktok");
+  const isInstagram = context?.toLowerCase().includes("instagram") || context?.toLowerCase().includes("reels");
+  const isYouTube = context?.toLowerCase().includes("youtube") || context?.toLowerCase().includes("shorts");
 
   const badgeText = context
     ? t("pseo_features.badge").replace("{context}", context)
@@ -33,6 +36,13 @@ export function Features({ context }: FeaturesProps) {
   const privacyDesc = context
     ? t("pseo_features.privacy_desc")
     : t("storage.desc");
+
+  // Determine feature image based on context
+  let featureImage = "/discord-feature.png";
+  if (isWhatsApp) featureImage = "/storage-feature.png";
+  else if (isTikTok) featureImage = "/tiktok-feature.png";
+  else if (isInstagram) featureImage = "/instagram-feature.png";
+  else if (isYouTube) featureImage = "/youtube-feature.png";
 
   return (
     <section id="features" className="py-24 relative overflow-hidden bg-[var(--background)]">
@@ -55,7 +65,7 @@ export function Features({ context }: FeaturesProps) {
             <div className="order-1 md:order-2">
               <div className="relative rounded-[2.5rem] overflow-hidden border border-[var(--card-border)] aspect-[4/3] shadow-[0_32px_64px_-12px_rgba(0,0,0,0.15)] group">
                 <Image 
-                  src={isWhatsApp ? "/storage-feature.png" : "/discord-feature.png"} 
+                  src={featureImage} 
                   alt={context ? `Compress video for ${context}` : "Video compression feature"} 
                   fill 
                   className="object-cover group-hover:scale-105 transition-transform duration-700" 
