@@ -16,6 +16,9 @@ import VideoToMp3Page from "@/app/video-to-mp3/page";
 import VideoToTextPage from "@/app/video-to-text/page";
 import BlogIndexPage from "@/app/blog/page";
 import BlogPostDetail from "@/app/blog/[slug]/page";
+import TikTokPage from "@/app/tiktok/page";
+import InstagramReelsPage from "@/app/instagram-reels/page";
+import YouTubeShortsPage from "@/app/youtube-shorts/page";
 import { COMPRESSOR_PAGES, PSEO_SLUGS } from "@/data/compressor-seo";
 import { BLOG_POSTS } from "@/data/blog-posts";
 import CompressorClient from "@/components/tools/CompressorClient";
@@ -78,6 +81,15 @@ export async function generateMetadata({ params }: LocalizedPageProps) {
     const locDesc = t('to_text_page.meta_description');
     title = locTitle.includes('to_text_page.') ? 'Video to Text Converter Online Free | AI Transcription' : locTitle;
     description = locDesc.includes('to_text_page.') ? 'video to text converter online free with AI transcription. Generate captions, subtitles, and transcripts fast and securely.' : locDesc;
+  } else if (path === 'tiktok') {
+    title = t('tiktok_page.hero_title');
+    description = t('tiktok_page.hero_subtitle');
+  } else if (path === 'instagram-reels') {
+    title = t('reels_page.hero_title');
+    description = t('reels_page.hero_subtitle');
+  } else if (path === 'youtube-shorts') {
+    title = t('shorts_page.hero_title');
+    description = t('shorts_page.hero_subtitle');
   } else if (path === 'blog') {
     if (slug && slug.length === 2) {
       const postSlug = slug[1];
@@ -141,7 +153,7 @@ export async function generateStaticParams() {
     params.push({ locale, slug: [] });
     
     // Static Tools: /ar/video-cutter, etc.
-    const staticTools = ["about", "contact", "crop-video", "login", "privacy", "signup", "terms", "video-cutter", "video-to-audio", "video-to-mp3", "video-to-text"];
+    const staticTools = ["about", "contact", "crop-video", "login", "privacy", "signup", "terms", "video-cutter", "video-to-audio", "video-to-mp3", "video-to-text", "tiktok", "instagram-reels", "youtube-shorts"];
     for (const tool of staticTools) {
       params.push({ locale, slug: [tool] });
     }
@@ -210,6 +222,12 @@ export default function LocalizedPage({ params }: LocalizedPageProps) {
       return <VideoToMp3Page />;
     case "video-to-text":
       return <VideoToTextPage />;
+    case "tiktok":
+      return <TikTokPage />;
+    case "instagram-reels":
+      return <InstagramReelsPage />;
+    case "youtube-shorts":
+      return <YouTubeShortsPage />;
     case "blog":
       if (slug.length === 1) {
         return <BlogIndexPage />;
