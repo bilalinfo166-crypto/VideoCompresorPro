@@ -15,7 +15,10 @@
     "quick_navigation": "Rychlá navigace",
     "share_tool": "Sdílet tento nástroj",
     "copied": "Zkopírováno!",
-    "copy_link": "Kopírovat odkaz"
+    "copy_link": "Kopírovat odkaz",
+    "popular": "Populární",
+    "new": "Nový",
+    "why_choose": "Proč si vybrat"
   },
   "nav": {
     "compressor": "Komprese videa",
@@ -141,8 +144,8 @@
     "related_desc": "Podívejte se na další aplikace založené na prohlížeči od VideoCompressorPro, optimalizované pro rychlost, zabezpečení a bezproblémovou konverzi médií bez stahování a složitého softwaru."
   },
   "trusted": {
-    "title": "Miliony lidí důvěřují našemu kompresoru",
-    "desc": "Používá se ke zmenšení souborů, zrychlení nahrávání, úspoře místa a snadnému sdílení na všech platformách."
+    "title": "Optimalizováno pro bezproblémové nahrávání a přehrávání na všech hlavních platformách",
+    "desc": "Komprimujte svá videa, abyste splnili přísná omezení nahrávání vašich oblíbených webů, poskytovatelů e-mailů a platforem sociálních médií."
   },
   "stats": {
     "videos_compressed": "Komprimovaná videa",
@@ -896,7 +899,9 @@
     "stat3_val": "0ms",
     "stat3_label": "Latence serveru",
     "stat4_val": "Zdarma",
-    "stat4_label": "Navždy"
+    "stat4_label": "Navždy",
+    "meta_title": "O nás - Ochrana osobních údajů-First Video Tools | VideoCompressorPro",
+    "meta_description": "Zjistěte více o VideoCompressorPro, našem poslání poskytovat bleskově rychlé, soukromé a vysoce kvalitní online video nástroje zdarma."
   },
   "contact_page": {
     "hero_title": "Kontaktujte nás",
@@ -918,7 +923,9 @@
     "form_s4": "Business Opportunity",
     "form_message": "Zpráva",
     "form_message_placeholder": "How can we help you?",
-    "form_submit": "Odeslat zprávu"
+    "form_submit": "Odeslat zprávu",
+    "meta_title": "Kontaktujte nás - Podpora a dotazy | VideoCompressorPro",
+    "meta_description": "Kontaktujte tým VideoCompressorPro ohledně podpory, požadavků na funkce nebo obchodních dotazů. Jsme tu, abychom vám pomohli."
   },
   "format_page": {
     "badge": "Specializovaný kompresor {format}",
@@ -955,7 +962,8 @@
     "login_link": "Log in here",
     "terms_privacy": "Pokračováním souhlasíte s našimi podmínkami a zásadami.",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
-    "back_home": "Back to Home"
+    "back_home": "Back to Home",
+    "optional_info": "Zatímco naše nástroje jsou 100% zdarma a fungují plně bez účtu, vytvoření jednoho vám umožní ukládat vlastní přednastavení, přistupovat k pokročilým kodekům a sledovat historii komprese."
   },
   "comparison": {
     "title": "Proč VideoCompressorPro?",
@@ -1852,5 +1860,13 @@
     "review_r2_role": "Vlogger & Video Editor",
     "review_r3_text": "Nezbytný nástroj pro kanál YouTube Shorts naší agentury. Jednoduché, bezpečné a rychlé.",
     "review_r3_role": "Agenturní producent"
+  },
+  "privacy_page": {
+    "meta_title": "Zásady ochrany osobních údajů – 100% komprese soukromého videa | VideoCompressorPro",
+    "meta_description": "Přečtěte si Zásady ochrany osobních údajů VideoCompressorPro. Všechny vaše soubory zpracováváme 100% lokálně ve vašem prohlížeči – žádné soubory se nenahrávají na naše servery."
+  },
+  "terms_page": {
+    "meta_title": "Podmínky služby – bezplatné online video nástroje | VideoCompressorPro",
+    "meta_description": "Přečtěte si podmínky služby pro používání bezplatných, bezpečných online video nástrojů založených na prohlížeči VideoCompressorPro."
   }
 }

@@ -15,7 +15,10 @@
     "quick_navigation": "نقل سريع",
     "share_tool": "مشاركة الأداة",
     "copied": "تم النسخ!",
-    "copy_link": "نسخ الرابط"
+    "copy_link": "نسخ الرابط",
+    "popular": "شائع",
+    "new": "جديد",
+    "why_choose": "لماذا تختار"
   },
   "nav": {
     "compressor": "ضغط الفيديو",
@@ -141,8 +144,8 @@
     "related_desc": "شاهد التطبيقات الإضافية المستندة إلى المتصفح من VideoCompressorPro، المُحسّنة للسرعة والأمان وتحويل الوسائط بدون أي متاعب بدون تنزيل أو برامج معقدة."
   },
   "trusted": {
-    "title": "الملايين يثقون في ضاغطنا",
-    "desc": "يُستخدم لتقليص الملفات، وتسريع الرفع، وتوفير المساحة، والمشاركة بسهولة عبر جميع المنصات."
+    "title": "مُحسّن للتحميل والتشغيل السلس على جميع الأنظمة الأساسية الرئيسية",
+    "desc": "قم بضغط مقاطع الفيديو الخاصة بك للوفاء بقيود التحميل الصارمة لمواقع الويب المفضلة لديك وموفري البريد الإلكتروني ومنصات الوسائط الاجتماعية."
   },
   "stats": {
     "videos_compressed": "فيديوهات مضغوطة",
@@ -896,7 +899,9 @@
     "stat3_val": "0ms",
     "stat3_label": "تأخير الخادم",
     "stat4_val": "مجاني",
-    "stat4_label": "للأبد"
+    "stat4_label": "للأبد",
+    "meta_title": "من نحن - أدوات الفيديو للخصوصية أولاً | VideoCompressorPro",
+    "meta_description": "تعرف على المزيد حول VideoCompressorPro، مهمتنا هي توفير أدوات فيديو عبر الإنترنت سريعة للغاية وخاصة وعالية الجودة مجانًا."
   },
   "contact_page": {
     "hero_title": "اتصل بنا",
@@ -918,7 +923,9 @@
     "form_s4": "Business Opportunity",
     "form_message": "الرسالة",
     "form_message_placeholder": "How can we help you?",
-    "form_submit": "إرسال الرسالة"
+    "form_submit": "إرسال الرسالة",
+    "meta_title": "اتصل بنا - الدعم والاستفسارات | VideoCompressorPro",
+    "meta_description": "تواصل مع فريق VideoCompressorPro للحصول على الدعم أو طلبات الميزات أو الاستفسارات التجارية. نحن هنا للمساعدة."
   },
   "format_page": {
     "badge": "ضاغط {format} متخصص",
@@ -955,7 +962,8 @@
     "login_link": "Log in here",
     "terms_privacy": "بالمتابعة، أنت توافق على شروطنا وسياساتنا.",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
-    "back_home": "Back to Home"
+    "back_home": "Back to Home",
+    "optional_info": "على الرغم من أن أدواتنا مجانية بنسبة 100% وتعمل بشكل كامل بدون حساب، فإن إنشاء واحدة يتيح لك حفظ الإعدادات المسبقة المخصصة والوصول إلى برامج الترميز المتقدمة وتتبع سجل الضغط."
   },
   "comparison": {
     "title": "لماذا VideoCompressorPro؟",
@@ -1852,5 +1860,13 @@
     "review_r2_role": "مدون فيديو ومحرر فيديو",
     "review_r3_text": "أداة لا غنى عنها لقناة YouTube Shorts التابعة لوكالتنا. بسيطة وآمنة وسريعة.",
     "review_r3_role": "منتج الوكالة"
+  },
+  "privacy_page": {
+    "meta_title": "سياسة الخصوصية - ضغط فيديو خاص بنسبة 100% | VideoCompressorPro",
+    "meta_description": "اقرأ سياسة الخصوصية الخاصة بـ VideoCompressorPro. نقوم بمعالجة جميع ملفاتك محليًا بنسبة 100% في متصفحك - ولا يتم تحميل أي ملفات على خوادمنا."
+  },
+  "terms_page": {
+    "meta_title": "شروط الخدمة - أدوات فيديو مجانية عبر الإنترنت | VideoCompressorPro",
+    "meta_description": "اقرأ شروط الخدمة لاستخدام أدوات الفيديو عبر الإنترنت المجانية والآمنة والمعتمدة على المتصفح من VideoCompressorPro."
   }
 }

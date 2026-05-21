@@ -15,7 +15,10 @@
     "quick_navigation": "Navigation rapide",
     "share_tool": "Partager l'outil",
     "copied": "Copié !",
-    "copy_link": "Copier le lien"
+    "copy_link": "Copier le lien",
+    "popular": "Populaire",
+    "new": "Nouveau",
+    "why_choose": "Pourquoi choisir"
   },
   "nav": {
     "compressor": "Compresser Vidéo",
@@ -141,8 +144,8 @@
     "related_desc": "Découvrez des applications supplémentaires basées sur un navigateur de VideoCompressorPro, optimisées pour la vitesse, la sécurité et la conversion multimédia sans tracas, sans téléchargement ni logiciel compliqué."
   },
   "trusted": {
-    "title": "Des millions de personnes font confiance à notre compresseur",
-    "desc": "Utilisé pour réduire les fichiers, accélérer les téléchargements, économiser de l'espace et partager facilement sur toutes les plateformes."
+    "title": "Optimisé pour un téléchargement et une lecture fluides sur toutes les principales plates-formes",
+    "desc": "Compressez vos vidéos pour répondre aux contraintes strictes de téléchargement de vos sites Web, fournisseurs de messagerie et plateformes de réseaux sociaux préférés."
   },
   "stats": {
     "videos_compressed": "Vidéos compressées",
@@ -896,7 +899,9 @@
     "stat3_val": "0ms",
     "stat3_label": "Latence serveur",
     "stat4_val": "Gratuit",
-    "stat4_label": "Pour toujours"
+    "stat4_label": "Pour toujours",
+    "meta_title": "À propos de nous - Outils vidéo axés sur la confidentialité | VidéoCompressorPro",
+    "meta_description": "Apprenez-en davantage sur VideoCompressorPro, notre mission consistant à fournir gratuitement des outils vidéo en ligne ultra-rapides, privés et de haute qualité."
   },
   "contact_page": {
     "hero_title": "Contactez-nous",
@@ -918,7 +923,9 @@
     "form_s4": "Business Opportunity",
     "form_message": "Message",
     "form_message_placeholder": "How can we help you?",
-    "form_submit": "Envoyer le message"
+    "form_submit": "Envoyer le message",
+    "meta_title": "Contactez-nous - Assistance et demandes de renseignements | VidéoCompressorPro",
+    "meta_description": "Contactez l'équipe VideoCompressorPro pour obtenir de l'aide, des demandes de fonctionnalités ou des demandes commerciales. Nous sommes là pour vous aider."
   },
   "format_page": {
     "badge": "Compresseur {format} spécialisé",
@@ -955,7 +962,8 @@
     "login_link": "Log in here",
     "terms_privacy": "En continuant, vous acceptez nos conditions et politiques.",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
-    "back_home": "Back to Home"
+    "back_home": "Back to Home",
+    "optional_info": "Bien que nos outils soient 100 % gratuits et fonctionnent entièrement sans compte, en créer un vous permet d'enregistrer des préréglages personnalisés, d'accéder à des codecs avancés et de suivre l'historique de compression."
   },
   "comparison": {
     "title": "Pourquoi VideoCompressorPro ?",
@@ -1852,5 +1860,13 @@
     "review_r2_role": "Vlogger et éditeur vidéo",
     "review_r3_text": "Un outil incontournable pour le pipeline YouTube Shorts de notre agence. Simple, sécurisé et rapide.",
     "review_r3_role": "Producteur d'agence"
+  },
+  "privacy_page": {
+    "meta_title": "Politique de confidentialité - Compression vidéo 100 % privée | VidéoCompressorPro",
+    "meta_description": "Lisez la politique de confidentialité de VideoCompressorPro. Nous traitons tous vos fichiers 100 % localement dans votre navigateur – aucun fichier n'est téléchargé sur nos serveurs."
+  },
+  "terms_page": {
+    "meta_title": "Conditions d'utilisation - Outils vidéo en ligne gratuits | VidéoCompressorPro",
+    "meta_description": "Lisez les conditions d'utilisation pour utiliser les outils vidéo en ligne gratuits et sécurisés basés sur un navigateur de VideoCompressorPro."
   }
 }

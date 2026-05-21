@@ -9,6 +9,12 @@ interface BreadcrumbProps {
 }
 
 export function Breadcrumbs({ items }: BreadcrumbProps) {
+  // Merge the default root "Home" with the first item if it points to "/"
+  // to avoid duplicate "Home" / "/" entries (e.g. Home > Video Tools > Crop Video where Video Tools links to '/')
+  const hasRootItem = items.length > 0 && items[0].href === "/";
+  const displayItems = hasRootItem ? items.slice(1) : items;
+  const rootLabel = hasRootItem ? items[0].label : "Home";
+
   // JSON-LD for SEO BreadcrumbList
   const jsonLd = {
     "@context": "https://schema.org",
@@ -17,10 +23,10 @@ export function Breadcrumbs({ items }: BreadcrumbProps) {
       {
         "@type": "ListItem",
         "position": 1,
-        "name": "Home",
+        "name": rootLabel,
         "item": "https://videocompressorpro.com"
       },
-      ...items.map((item, index) => ({
+      ...displayItems.map((item, index) => ({
         "@type": "ListItem",
         "position": index + 2,
         "name": item.label,
@@ -34,18 +40,18 @@ export function Breadcrumbs({ items }: BreadcrumbProps) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <ol className="flex items-center flex-wrap gap-2 text-xs sm:text-sm font-semibold text-[var(--muted-text)]">
         <li className="flex items-center">
-          <Link href="/" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 py-1 px-2 rounded-lg hover:bg-blue-500/5" aria-label="Home">
+          <Link href="/" className="hover:text-blue-500 transition-colors flex items-center gap-1.5 py-1 px-2 rounded-lg hover:bg-blue-500/5" aria-label={rootLabel}>
             <Home className="w-3.5 h-3.5 sm:w-4 sm:h-4" aria-hidden="true" />
-            <span className="hidden sm:inline">Home</span>
+            <span className="hidden sm:inline">{rootLabel}</span>
           </Link>
         </li>
-        {items.map((item, index) => (
+        {displayItems.map((item, index) => (
           <li key={index} className="flex items-center gap-2">
             <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-slate-400" aria-hidden="true" />
             <Link 
               href={item.href} 
-              className={`hover:text-blue-500 transition-colors py-1 px-2 rounded-lg hover:bg-blue-500/5 ${index === items.length - 1 ? 'text-blue-600 dark:text-blue-400 font-bold' : ''}`}
-              aria-current={index === items.length - 1 ? 'page' : undefined}
+              className={`hover:text-blue-500 transition-colors py-1 px-2 rounded-lg hover:bg-blue-500/5 ${index === displayItems.length - 1 ? 'text-blue-600 dark:text-blue-400 font-bold' : ''}`}
+              aria-current={index === displayItems.length - 1 ? 'page' : undefined}
             >
               {item.label}
             </Link>

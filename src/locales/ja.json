@@ -15,7 +15,10 @@
     "quick_navigation": "クイックナビゲーション",
     "share_tool": "ツールを共有",
     "copied": "コピーしました！",
-    "copy_link": "リンクをコピー"
+    "copy_link": "リンクをコピー",
+    "popular": "人気",
+    "new": "新規",
+    "why_choose": "選ばれる理由"
   },
   "nav": {
     "compressor": "動画圧縮",
@@ -141,8 +144,8 @@
     "related_desc": "VideoCompressorPro のその他のブラウザベースのアプリケーションをご覧ください。速度、セキュリティ、ダウンロードや複雑なソフトウェアを必要としない手間のかからないメディア変換のために最適化されています。"
   },
   "trusted": {
-    "title": "何百万人ものユーザーが信頼する圧縮ツール",
-    "desc": "ファイルの縮小、アップロードの高速化、容量の節約、全プラットフォームでの簡単な共有に利用されています。"
+    "title": "すべての主要なプラットフォームでのシームレスなアップロードと再生のために最適化されています",
+    "desc": "お気に入りの Web サイト、電子メール プロバイダー、ソーシャル メディア プラットフォームの厳しいアップロード制限を満たすようにビデオを圧縮します。"
   },
   "stats": {
     "videos_compressed": "圧縮された動画",
@@ -896,7 +899,9 @@
     "stat3_val": "0ms",
     "stat3_label": "サーバー遅延",
     "stat4_val": "無料",
-    "stat4_label": "永久に"
+    "stat4_label": "永久に",
+    "meta_title": "私たちについて - プライバシー優先のビデオ ツール | VideoCompressorPro",
+    "meta_description": "超高速、プライベート、高品質のオンライン ビデオ ツールを無料で提供するという私たちの使命である VideoCompressorPro について詳しくご覧ください。"
   },
   "contact_page": {
     "hero_title": "お問い合わせ",
@@ -918,7 +923,9 @@
     "form_s4": "Business Opportunity",
     "form_message": "メッセージ",
     "form_message_placeholder": "How can we help you?",
-    "form_submit": "メッセージを送信"
+    "form_submit": "メッセージを送信",
+    "meta_title": "お問い合わせ - サポートと問い合わせ | VideoCompressorPro",
+    "meta_description": "サポート、機能リクエスト、ビジネスに関するお問い合わせについては、VideoCompressorPro チームにお問い合わせください。私たちはお手伝いをするためにここにいます。"
   },
   "format_page": {
     "badge": "特化型 {format} 圧縮ツール",
@@ -955,7 +962,8 @@
     "login_link": "Log in here",
     "terms_privacy": "続行することで、弊社の規約とポリシーに同意したものとみなされます。",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
-    "back_home": "Back to Home"
+    "back_home": "Back to Home",
+    "optional_info": "当社のツールは完全に無料で、アカウントがなくても完全に機能しますが、アカウントを作成すると、カスタム プリセットの保存、高度なコーデックへのアクセス、圧縮履歴の追跡が可能になります。"
   },
   "comparison": {
     "title": "なぜ VideoCompressorPro なのか？",
@@ -1852,5 +1860,13 @@
     "review_r2_role": "ビデオブロガー & ビデオ編集者",
     "review_r3_text": "私たちの代理店の YouTube ショート パイプラインには必須のツールです。シンプル、安全、高速です。",
     "review_r3_role": "エージェンシープロデューサー"
+  },
+  "privacy_page": {
+    "meta_title": "プライバシー ポリシー - 100% プライベート ビデオ圧縮 | VideoCompressorPro",
+    "meta_description": "VideoCompressorPro のプライバシー ポリシーをお読みください。すべてのファイルはブラウザ内で 100% ローカルに処理されます。ファイルが当社のサーバーにアップロードされることはありません。"
+  },
+  "terms_page": {
+    "meta_title": "利用規約 - 無料のオンライン ビデオ ツール | VideoCompressorPro",
+    "meta_description": "VideoCompressorPro の無料で安全なブラウザベースのオンライン ビデオ ツールを使用するには、利用規約をお読みください。"
   }
 }

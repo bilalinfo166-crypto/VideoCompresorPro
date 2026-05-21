@@ -15,7 +15,10 @@
     "quick_navigation": "Navigasi Cepat",
     "share_tool": "Bagikan alat ini",
     "copied": "Disalin!",
-    "copy_link": "Salin tautan"
+    "copy_link": "Salin tautan",
+    "popular": "Populer",
+    "new": "Baru",
+    "why_choose": "Mengapa memilih"
   },
   "nav": {
     "compressor": "Kompres Video",
@@ -141,8 +144,8 @@
     "related_desc": "Lihat aplikasi tambahan berbasis browser dari VideoCompressorPro, dioptimalkan untuk kecepatan, keamanan, dan konversi media tanpa kerumitan tanpa pengunduhan dan perangkat lunak yang rumit."
   },
   "trusted": {
-    "title": "Jutaan orang mempercayai kompresor kami",
-    "desc": "Digunakan untuk mengecilkan file, mempercepat unggahan, menghemat ruang, dan berbagi dengan mudah di semua platform."
+    "title": "Dioptimalkan untuk Pengunggahan dan Pemutaran yang Lancar di Semua Platform Utama",
+    "desc": "Kompres video Anda untuk memenuhi batasan unggahan yang ketat di situs web favorit Anda, penyedia email, dan platform media sosial."
   },
   "stats": {
     "videos_compressed": "Video Dikompres",
@@ -896,7 +899,9 @@
     "stat3_val": "0ms",
     "stat3_label": "Latensi Server",
     "stat4_val": "Gratis",
-    "stat4_label": "Selamanya"
+    "stat4_label": "Selamanya",
+    "meta_title": "Tentang Kami - Alat Video yang Mengutamakan Privasi | VideoCompressorPro",
+    "meta_description": "Pelajari lebih lanjut tentang VideoCompressorPro, misi kami untuk menyediakan alat video online secepat kilat, pribadi, dan berkualitas tinggi secara gratis."
   },
   "contact_page": {
     "hero_title": "Hubungi Kami",
@@ -918,7 +923,9 @@
     "form_s4": "Business Opportunity",
     "form_message": "Pesan",
     "form_message_placeholder": "How can we help you?",
-    "form_submit": "Kirim Pesan"
+    "form_submit": "Kirim Pesan",
+    "meta_title": "Hubungi Kami - Dukungan & Pertanyaan | VideoCompressorPro",
+    "meta_description": "Hubungi tim VideoCompressorPro untuk dukungan, permintaan fitur, atau pertanyaan bisnis. Kami di sini untuk membantu."
   },
   "format_page": {
     "badge": "Kompresor {format} spesialis",
@@ -955,7 +962,8 @@
     "login_link": "Log in here",
     "terms_privacy": "Dengan melanjutkan, Anda setuju dengan ketentuan dan kebijakan kami.",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
-    "back_home": "Back to Home"
+    "back_home": "Back to Home",
+    "optional_info": "Meskipun alat kami 100% gratis dan berfungsi sepenuhnya tanpa akun, dengan membuatnya memungkinkan Anda menyimpan preset khusus, mengakses codec tingkat lanjut, dan melacak riwayat kompresi."
   },
   "comparison": {
     "title": "Mengapa VideoCompressorPro?",
@@ -1852,5 +1860,13 @@
     "review_r2_role": "Vlogger & Penyunting Video",
     "review_r3_text": "Alat yang harus dimiliki untuk saluran YouTube Shorts agensi kami. Sederhana, aman, dan cepat.",
     "review_r3_role": "Produser Agensi"
+  },
+  "privacy_page": {
+    "meta_title": "Kebijakan Privasi - 100% Kompresi Video Pribadi | VideoCompressorPro",
+    "meta_description": "Baca Kebijakan Privasi VideoCompressorPro. Kami memproses semua file Anda 100% secara lokal di browser Anda - tidak ada file yang diunggah ke server kami."
+  },
+  "terms_page": {
+    "meta_title": "Ketentuan Layanan - Alat Video Online Gratis | VideoCompressorPro",
+    "meta_description": "Baca Ketentuan Layanan untuk menggunakan alat video online berbasis browser VideoCompressorPro yang gratis dan aman."
   }
 }

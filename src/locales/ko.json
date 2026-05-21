@@ -15,7 +15,10 @@
     "quick_navigation": "빠른 탐색",
     "share_tool": "이 도구 공유하기",
     "copied": "복사 완료!",
-    "copy_link": "링크 복사"
+    "copy_link": "링크 복사",
+    "popular": "인기",
+    "new": "새로운",
+    "why_choose": "선택하는 이유"
   },
   "nav": {
     "compressor": "비디오 압축",
@@ -141,8 +144,8 @@
     "related_desc": "다운로드 및 복잡한 소프트웨어 없이 속도, 보안 및 번거로움 없는 미디어 변환을 위해 최적화된 VideoCompressorPro의 추가 브라우저 기반 애플리케이션을 확인하세요."
   },
   "trusted": {
-    "title": "수백만 명의 사용자가 선택한 압축기",
-    "desc": "파일 크기 축소, 업로드 속도 향상, 공간 절약 및 모든 플랫폼에서의 간편한 공유를 위해 사용됩니다."
+    "title": "모든 주요 플랫폼에서 원활한 업로드 및 재생을 위해 최적화됨",
+    "desc": "즐겨찾는 웹사이트, 이메일 제공업체, 소셜 미디어 플랫폼의 엄격한 업로드 제한을 충족하도록 비디오를 압축하세요."
   },
   "stats": {
     "videos_compressed": "압축된 비디오",
@@ -896,7 +899,9 @@
     "stat3_val": "0ms",
     "stat3_label": "서버 지연 시간",
     "stat4_val": "무료",
-    "stat4_label": "영원히"
+    "stat4_label": "영원히",
+    "meta_title": "회사 소개 - 개인 정보 보호 우선 비디오 도구 | VideoCompressorPro",
+    "meta_description": "초고속의 비공개 고품질 온라인 비디오 도구를 무료로 제공하려는 당사의 사명인 VideoCompressorPro에 대해 자세히 알아보세요."
   },
   "contact_page": {
     "hero_title": "문의하기",
@@ -918,7 +923,9 @@
     "form_s4": "Business Opportunity",
     "form_message": "메시지",
     "form_message_placeholder": "How can we help you?",
-    "form_submit": "메시지 전송"
+    "form_submit": "메시지 전송",
+    "meta_title": "연락처 - 지원 및 문의 | VideoCompressorPro",
+    "meta_description": "지원, 기능 요청 또는 비즈니스 문의는 VideoCompressorPro 팀에 문의하세요. 우리가 도와드리겠습니다."
   },
   "format_page": {
     "badge": "특화된 {format} 압축기",
@@ -955,7 +962,8 @@
     "login_link": "Log in here",
     "terms_privacy": "계속 진행하면 저희의 약관과 정책에 동의하는 것으로 간주됩니다.",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
-    "back_home": "Back to Home"
+    "back_home": "Back to Home",
+    "optional_info": "당사의 도구는 100% 무료이며 계정 없이도 완벽하게 작동하지만 계정을 만들면 사용자 정의 사전 설정을 저장하고 고급 코덱에 액세스하고 압축 기록을 추적할 수 있습니다."
   },
   "comparison": {
     "title": "왜 VideoCompressorPro인가요?",
@@ -1852,5 +1860,13 @@
     "review_r2_role": "동영상 블로거 및 동영상 편집기",
     "review_r3_text": "우리 대행사의 YouTube Shorts 파이프라인을 위한 필수 도구입니다. 간단하고 안전하며 빠릅니다.",
     "review_r3_role": "대행사 프로듀서"
+  },
+  "privacy_page": {
+    "meta_title": "개인 정보 보호 정책 - 100% 비공개 비디오 압축 | VideoCompressorPro",
+    "meta_description": "VideoCompressorPro의 개인정보 보호정책을 읽어보세요. 우리는 귀하의 브라우저에서 모든 파일을 100% 로컬로 처리합니다. 어떤 파일도 우리 서버에 업로드되지 않습니다."
+  },
+  "terms_page": {
+    "meta_title": "서비스 약관 - 무료 온라인 비디오 도구 | VideoCompressorPro",
+    "meta_description": "VideoCompressorPro의 안전한 무료 브라우저 기반 온라인 비디오 도구 사용에 대한 서비스 약관을 읽어보세요."
   }
 }

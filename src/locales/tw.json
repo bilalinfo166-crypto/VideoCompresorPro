@@ -15,7 +15,10 @@
     "quick_navigation": "快速導覽",
     "share_tool": "分享工具",
     "copied": "已複製！",
-    "copy_link": "複製連結"
+    "copy_link": "複製連結",
+    "popular": "Popular",
+    "new": "New",
+    "why_choose": "Why Choose"
   },
   "nav": {
     "compressor": "影片壓縮",
@@ -141,8 +144,8 @@
     "related_desc": "查看 VideoCompressorPro 提供的其他基於瀏覽器的應用程序，這些應用程式針對速度、安全性和無憂媒體轉換進行了最佳化，無需下載和複雜的軟體。"
   },
   "trusted": {
-    "title": "數百萬人信賴我們的壓縮器",
-    "desc": "用於縮小檔案、加速上傳、節省空間並在所有平台上輕鬆分享。"
+    "title": "針對所有主要平台上的無縫上傳和播放進行了最佳化",
+    "desc": "壓縮您的影片以滿足您喜愛的網站、電子郵件提供者和社群媒體平台的嚴格上傳限制。"
   },
   "stats": {
     "videos_compressed": "已壓縮影片",

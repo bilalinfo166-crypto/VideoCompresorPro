@@ -15,7 +15,10 @@
     "quick_navigation": "Navigare rapidă",
     "share_tool": "Distribuie acest instrument",
     "copied": "Copiat!",
-    "copy_link": "Copiază link-ul"
+    "copy_link": "Copiază link-ul",
+    "popular": "Popular",
+    "new": "Nou",
+    "why_choose": "De ce să alegeți"
   },
   "nav": {
     "compressor": "Compresor Video",
@@ -141,8 +144,8 @@
     "related_desc": "Vedeți aplicații suplimentare bazate pe browser de la VideoCompressorPro, optimizate pentru viteză, securitate și conversie media fără probleme, fără descărcare și software complicat."
   },
   "trusted": {
-    "title": "Milioane de oameni au încredere în compresorul nostru",
-    "desc": "Folosit pentru a micșora fișiere, a accelera încărcările, a economisi spațiu și a partaja ușor pe toate platformele."
+    "title": "Optimizat pentru încărcare și redare fără întreruperi pe toate platformele majore",
+    "desc": "Comprimați videoclipurile pentru a îndeplini constrângerile stricte de încărcare ale site-urilor, furnizorilor de e-mail și platformelor de socializare preferate."
   },
   "stats": {
     "videos_compressed": "Video-uri comprimate",
@@ -896,7 +899,9 @@
     "stat3_val": "0ms",
     "stat3_label": "Latență server",
     "stat4_val": "Gratuit",
-    "stat4_label": "Pe viață"
+    "stat4_label": "Pe viață",
+    "meta_title": "Despre noi - Instrumente video în primul rând confidențialitate | VideoCompressorPro",
+    "meta_description": "Aflați mai multe despre VideoCompressorPro, misiunea noastră de a oferi instrumente video online fulgerătoare, private și de înaltă calitate, gratuit."
   },
   "contact_page": {
     "hero_title": "Contactează-ne",
@@ -918,7 +923,9 @@
     "form_s4": "Business Opportunity",
     "form_message": "Mesaj",
     "form_message_placeholder": "How can we help you?",
-    "form_submit": "Trimite mesaj"
+    "form_submit": "Trimite mesaj",
+    "meta_title": "Contactați-ne - Asistență și întrebări | VideoCompressorPro",
+    "meta_description": "Luați legătura cu echipa VideoCompressorPro pentru asistență, solicitări de funcții sau întrebări de afaceri. Suntem aici pentru a vă ajuta."
   },
   "format_page": {
     "badge": "Compresor specialist {format}",
@@ -955,7 +962,8 @@
     "login_link": "Log in here",
     "terms_privacy": "Continuând, ești de acord cu termenii și politicile noastre.",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
-    "back_home": "Back to Home"
+    "back_home": "Back to Home",
+    "optional_info": "În timp ce instrumentele noastre sunt 100% gratuite și funcționează complet fără un cont, crearea unuia vă permite să salvați presetări personalizate, să accesați codecuri avansate și să urmăriți istoricul compresiei."
   },
   "comparison": {
     "title": "De ce VideoCompressorPro?",
@@ -1852,5 +1860,13 @@
     "review_r2_role": "Vlogger și editor video",
     "review_r3_text": "Un instrument obligatoriu pentru canalul YouTube Shorts al agenției noastre. Simplu, sigur și rapid.",
     "review_r3_role": "Producator agentie"
+  },
+  "privacy_page": {
+    "meta_title": "Politica de confidențialitate - Compresie video 100% privată | VideoCompressorPro",
+    "meta_description": "Citiți Politica de confidențialitate a VideoCompressorPro. Procesăm toate fișierele dvs. 100% local în browser - niciun fișier nu este încărcat pe serverele noastre."
+  },
+  "terms_page": {
+    "meta_title": "Termeni și condiții - Instrumente video online gratuite | VideoCompressorPro",
+    "meta_description": "Citiți Termenii și condițiile pentru utilizarea instrumentelor video online gratuite, sigure și bazate pe browser ale VideoCompressorPro."
   }
 }

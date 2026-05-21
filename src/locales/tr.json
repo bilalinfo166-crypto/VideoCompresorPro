@@ -15,7 +15,10 @@
     "quick_navigation": "Hızlı Gezinme",
     "share_tool": "Aracı paylaş",
     "copied": "Kopyalandı!",
-    "copy_link": "Bağlantıyı kopyala"
+    "copy_link": "Bağlantıyı kopyala",
+    "popular": "Popüler",
+    "new": "Yeni",
+    "why_choose": "Neden seçmelisiniz"
   },
   "nav": {
     "compressor": "Video Sıkıştır",
@@ -141,8 +144,8 @@
     "related_desc": "VideoCompressorPro'nun hız, güvenlik ve indirmeye ve karmaşık yazılımlara gerek kalmadan sorunsuz medya dönüştürme için optimize edilmiş ek tarayıcı tabanlı uygulamalarına bakın."
   },
   "trusted": {
-    "title": "Milyonlarca kişi sıkıştırıcımıza güveniyor",
-    "desc": "Dosyaları küçültmek, yüklemeleri hızlandırmak, yer kazanmak ve tüm platformlarda kolayca paylaşmak için kullanılır."
+    "title": "Tüm Büyük Platformlarda Sorunsuz Yükleme ve Oynatma için Optimize Edildi",
+    "desc": "Favori web sitelerinizin, e-posta sağlayıcılarınızın ve sosyal medya platformlarınızın katı yükleme kısıtlamalarını karşılamak için videolarınızı sıkıştırın."
   },
   "stats": {
     "videos_compressed": "Sıkıştırılan Videolar",

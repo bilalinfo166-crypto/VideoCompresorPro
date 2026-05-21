@@ -90,6 +90,32 @@ export async function generateMetadata({ params }: LocalizedPageProps) {
   } else if (path === 'youtube-shorts') {
     title = t('shorts_page.hero_title');
     description = t('shorts_page.hero_subtitle');
+  } else if (path === 'about') {
+    const locTitle = t('about_page.meta_title');
+    const locDesc = t('about_page.meta_description');
+    title = locTitle.includes('about_page.') ? 'About Us - Privacy-First Video Tools | VideoCompressorPro' : locTitle;
+    description = locDesc.includes('about_page.') ? 'Learn more about VideoCompressorPro, our mission to provide lightning-fast, private, and high-quality online video tools for free.' : locDesc;
+  } else if (path === 'contact') {
+    const locTitle = t('contact_page.meta_title');
+    const locDesc = t('contact_page.meta_description');
+    title = locTitle.includes('contact_page.') ? 'Contact Us - Support & Inquiries | VideoCompressorPro' : locTitle;
+    description = locDesc.includes('contact_page.') ? 'Get in touch with the VideoCompressorPro team for support, feature requests, or business inquiries. We are here to help.' : locDesc;
+  } else if (path === 'privacy') {
+    const locTitle = t('privacy_page.meta_title');
+    const locDesc = t('privacy_page.meta_description');
+    title = locTitle.includes('privacy_page.') ? 'Privacy Policy - 100% Private Video Compression | VideoCompressorPro' : locTitle;
+    description = locDesc.includes('privacy_page.') ? 'Read the Privacy Policy of VideoCompressorPro. We process all your files 100% locally in your browser - no files are uploaded to our servers.' : locDesc;
+  } else if (path === 'terms') {
+    const locTitle = t('terms_page.meta_title');
+    const locDesc = t('terms_page.meta_description');
+    title = locTitle.includes('terms_page.') ? 'Terms of Service - Free Online Video Tools | VideoCompressorPro' : locTitle;
+    description = locDesc.includes('terms_page.') ? 'Read the Terms of Service for using VideoCompressorPro\'s free, secure, browser-based online video tools.' : locDesc;
+  } else if (path === 'login') {
+    title = 'Log In | VideoCompressorPro';
+    description = 'Log in to your VideoCompressorPro account.';
+  } else if (path === 'signup') {
+    title = 'Sign Up | VideoCompressorPro';
+    description = 'Create a free VideoCompressorPro account.';
   } else if (path === 'blog') {
     if (slug && slug.length === 2) {
       const postSlug = slug[1];
@@ -135,7 +161,7 @@ export async function generateMetadata({ params }: LocalizedPageProps) {
     languages[loc] = `${baseUrl}/${loc}${path ? `/${path}` : ''}`;
   }
 
-  return {
+  const metadataResult: any = {
     title,
     description,
     alternates: {
@@ -148,6 +174,15 @@ export async function generateMetadata({ params }: LocalizedPageProps) {
       url: fullUrl,
     }
   };
+
+  if (path === 'login' || path === 'signup') {
+    metadataResult.robots = {
+      index: false,
+      follow: false,
+    };
+  }
+
+  return metadataResult;
 }
 
 export async function generateStaticParams() {

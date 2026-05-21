@@ -15,7 +15,10 @@
     "quick_navigation": "Hurtignavigasjon",
     "share_tool": "Del dette verktøyet",
     "copied": "Kopiert!",
-    "copy_link": "Kopier lenke"
+    "copy_link": "Kopier lenke",
+    "popular": "Populær",
+    "new": "Ny",
+    "why_choose": "Hvorfor velge"
   },
   "nav": {
     "compressor": "Videokomprimering",
@@ -896,7 +899,9 @@
     "stat3_val": "0ms",
     "stat3_label": "Server latency",
     "stat4_val": "Gratis",
-    "stat4_label": "For alltid"
+    "stat4_label": "For alltid",
+    "meta_title": "Om oss - Privacy-First Video Tools | VideoCompressorPro",
+    "meta_description": "Lær mer om VideoCompressorPro, vårt oppdrag om å tilby lynraske, private og høykvalitets online videoverktøy gratis."
   },
   "contact_page": {
     "hero_title": "Kontakt oss",
@@ -918,7 +923,9 @@
     "form_s4": "Business Opportunity",
     "form_message": "Melding",
     "form_message_placeholder": "How can we help you?",
-    "form_submit": "Send melding"
+    "form_submit": "Send melding",
+    "meta_title": "Kontakt oss - Support & Forespørsler | VideoCompressorPro",
+    "meta_description": "Ta kontakt med VideoCompressorPro-teamet for støtte, funksjonsforespørsler eller forretningshenvendelser. Vi er her for å hjelpe."
   },
   "format_page": {
     "badge": "Spesialisert {format}-kompressor",
@@ -955,7 +962,8 @@
     "login_link": "Log in here",
     "terms_privacy": "Ved å fortsette godtar du våre vilkår og policyer.",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
-    "back_home": "Back to Home"
+    "back_home": "Back to Home",
+    "optional_info": "Selv om verktøyene våre er 100 % gratis og fungerer fullt ut uten konto, kan du ved å opprette en lagre tilpassede forhåndsinnstillinger, få tilgang til avanserte kodeker og spore komprimeringshistorikk."
   },
   "comparison": {
     "title": "Hvorfor VideoCompressorPro?",
@@ -1852,5 +1860,13 @@
     "review_r2_role": "Vlogger og videoredigerer",
     "review_r3_text": "Et must-ha-verktøy for byråets YouTube Shorts-pipeline. Enkelt, sikkert og raskt.",
     "review_r3_role": "Byråprodusent"
+  },
+  "privacy_page": {
+    "meta_title": "Personvernerklæring - 100 % privat videokomprimering | VideoCompressorPro",
+    "meta_description": "Les personvernreglene til VideoCompressorPro. Vi behandler alle filene dine 100 % lokalt i nettleseren din – ingen filer lastes opp til serverne våre."
+  },
+  "terms_page": {
+    "meta_title": "Vilkår for bruk - Gratis online videoverktøy | VideoCompressorPro",
+    "meta_description": "Les vilkårene for bruk for bruk av VideoCompressorPros gratis, sikre, nettleserbaserte videoverktøy."
   }
 }

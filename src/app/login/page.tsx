@@ -35,6 +35,11 @@ export default function LoginPage() {
 
         {/* Card */}
         <div className="glass-card rounded-[32px] p-8 border border-[var(--card-border)] shadow-[0_20px_50px_rgba(0,0,0,0.1)] dark:shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
+          {/* Optional account benefits notice */}
+          <div className="mb-6 p-4 rounded-2xl bg-blue-600/10 border border-blue-600/20 text-xs text-[var(--muted-text)] font-semibold leading-relaxed text-left">
+            💡 <span className="text-blue-500 font-bold">{t("auth.optional_info_badge")?.includes("auth.") ? "Optional Benefit" : (t("auth.optional_info_badge") || "Optional Benefit")}:</span> {t("auth.optional_info")}
+          </div>
+
           <div className="space-y-6">
 
             {/* Email Field */}

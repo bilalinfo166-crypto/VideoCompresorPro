@@ -15,7 +15,10 @@
     "quick_navigation": "Điều hướng nhanh",
     "share_tool": "Chia sẻ công cụ này",
     "copied": "Đã sao chép!",
-    "copy_link": "Sao chép liên kết"
+    "copy_link": "Sao chép liên kết",
+    "popular": "Phổ biến",
+    "new": "Mới",
+    "why_choose": "Tại sao chọn"
   },
   "nav": {
     "compressor": "Nén Video",
@@ -141,8 +144,8 @@
     "related_desc": "Xem các ứng dụng bổ sung dựa trên trình duyệt từ VideoCompressorPro, được tối ưu hóa về tốc độ, bảo mật và chuyển đổi phương tiện không rắc rối mà không cần tải xuống và phần mềm phức tạp."
   },
   "trusted": {
-    "title": "Hàng triệu người tin dùng công cụ nén của chúng tôi",
-    "desc": "Được sử dụng để giảm dung lượng tệp, tăng tốc tải lên, tiết kiệm không gian và chia sẻ dễ dàng trên mọi nền tảng."
+    "title": "Được tối ưu hóa để tải lên và phát lại liền mạch trên tất cả các nền tảng chính",
+    "desc": "Nén video của bạn để đáp ứng các hạn chế tải lên nghiêm ngặt của các trang web, nhà cung cấp email và nền tảng truyền thông xã hội yêu thích của bạn."
   },
   "stats": {
     "videos_compressed": "Video đã nén",

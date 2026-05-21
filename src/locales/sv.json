@@ -15,7 +15,10 @@
     "quick_navigation": "Snabbnavigering",
     "share_tool": "Dela detta verktyg",
     "copied": "Kopierat!",
-    "copy_link": "Kopiera länk"
+    "copy_link": "Kopiera länk",
+    "popular": "Populär",
+    "new": "Ny",
+    "why_choose": "Varför välja"
   },
   "nav": {
     "compressor": "Videokomprimering",
@@ -141,8 +144,8 @@
     "related_desc": "Se ytterligare webbläsarbaserade applikationer från VideoCompressorPro, optimerade för hastighet, säkerhet och problemfri mediekonvertering utan nedladdning och komplicerad programvara."
   },
   "trusted": {
-    "title": "Miljontals människor litar på vår kompressor",
-    "desc": "Används för att förminska filer, påskynda uppladdningar, spara utrymme och dela enkelt på alla plattformar."
+    "title": "Optimerad för sömlös uppladdning och uppspelning på alla större plattformar",
+    "desc": "Komprimera dina videor för att möta de strikta uppladdningsbegränsningarna för dina favoritwebbplatser, e-postleverantörer och sociala medieplattformar."
   },
   "stats": {
     "videos_compressed": "Komprimerade videor",
@@ -896,7 +899,9 @@
     "stat3_val": "0ms",
     "stat3_label": "Serverlatens",
     "stat4_val": "Gratis",
-    "stat4_label": "För alltid"
+    "stat4_label": "För alltid",
+    "meta_title": "Om oss - Privacy-First Video Tools | VideoCompressorPro",
+    "meta_description": "Lär dig mer om VideoCompressorPro, vårt uppdrag att tillhandahålla blixtsnabba, privata och högkvalitativa onlinevideoverktyg gratis."
   },
   "contact_page": {
     "hero_title": "Kontakta oss",
@@ -918,7 +923,9 @@
     "form_s4": "Business Opportunity",
     "form_message": "Meddelande",
     "form_message_placeholder": "How can we help you?",
-    "form_submit": "Skicka meddelande"
+    "form_submit": "Skicka meddelande",
+    "meta_title": "Kontakta oss - Support & Förfrågningar | VideoCompressorPro",
+    "meta_description": "Ta kontakt med VideoCompressorPro-teamet för support, funktionsförfrågningar eller affärsförfrågningar. Vi är här för att hjälpa till."
   },
   "format_page": {
     "badge": "Specialiserad {format}-kompressor",
@@ -955,7 +962,8 @@
     "login_link": "Log in here",
     "terms_privacy": "Genom att fortsätta godkänner du våra villkor och policyer.",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
-    "back_home": "Back to Home"
+    "back_home": "Back to Home",
+    "optional_info": "Medan våra verktyg är 100 % gratis och fungerar helt utan konto, kan du genom att skapa ett konto spara anpassade förinställningar, komma åt avancerade codecs och spåra komprimeringshistorik."
   },
   "comparison": {
     "title": "Varför VideoCompressorPro?",
@@ -1852,5 +1860,13 @@
     "review_r2_role": "Vlogger och videoredigerare",
     "review_r3_text": "Ett måste-verktyg för vår byrås YouTube Shorts-pipeline. Enkelt, säkert och snabbt.",
     "review_r3_role": "Byråproducent"
+  },
+  "privacy_page": {
+    "meta_title": "Sekretesspolicy - 100 % privat videokomprimering | VideoCompressorPro",
+    "meta_description": "Läs integritetspolicyn för VideoCompressorPro. Vi behandlar alla dina filer 100% lokalt i din webbläsare - inga filer laddas upp till våra servrar."
+  },
+  "terms_page": {
+    "meta_title": "Användarvillkor - Gratis onlinevideoverktyg | VideoCompressorPro",
+    "meta_description": "Läs användarvillkoren för att använda VideoCompressorPros gratis, säkra, webbläsarbaserade videoverktyg online."
   }
 }

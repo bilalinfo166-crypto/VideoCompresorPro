@@ -39,6 +39,13 @@ const nextConfig = {
         ],
       },
       {
+        // Aggressive caching for static assets (illustrations, icons, videos)
+        source: "/:path*(svg|png|jpg|jpeg|gif|ico|mp4|webm)",
+        headers: [
+          { key: "Cache-Control", value: "public, max-age=31536000, immutable" },
+        ],
+      },
+      {
         // Root-level SEO pages: /compress-mp4
         source: "/compress-:format*",
         headers: [

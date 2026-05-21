@@ -15,7 +15,10 @@
     "quick_navigation": "ניווט מהיר",
     "share_tool": "שתף כלי זה",
     "copied": "הועתק!",
-    "copy_link": "העתק קישור"
+    "copy_link": "העתק קישור",
+    "popular": "פופולרי",
+    "new": "חדש",
+    "why_choose": "למה לבחור"
   },
   "nav": {
     "compressor": "דחיסת וידאו",
@@ -141,8 +144,8 @@
     "related_desc": "ראה יישומים נוספים מבוססי דפדפן מ-VideoCompressorPro, מותאמים למהירות, אבטחה והמרת מדיה ללא טרחה ללא הורדה ותוכנה מסובכת."
   },
   "trusted": {
-    "title": "מיליוני אנשים סומכים על הדוחס שלנו",
-    "desc": "משמש להקטנת קבצים, האצת העלאות, חיסכון במקום ושיתוף קל בכל הפלטפורמות."
+    "title": "מותאם להעלאה והשמעה חלקים בכל הפלטפורמות העיקריות",
+    "desc": "דחוס את הסרטונים שלך כדי לעמוד באילוצי ההעלאה המחמירים של האתרים המועדפים עליך, ספקי הדוא\"ל ופלטפורמות המדיה החברתית."
   },
   "stats": {
     "videos_compressed": "סרטונים שנדחסו",
@@ -896,7 +899,9 @@
     "stat3_val": "0ms",
     "stat3_label": "זמן תגובת שרת",
     "stat4_val": "חינם",
-    "stat4_label": "לתמיד"
+    "stat4_label": "לתמיד",
+    "meta_title": "אודותינו - פרטיות-ראשון כלי וידאו | VideoCompressorPro",
+    "meta_description": "למד עוד על VideoCompressorPro, המשימה שלנו לספק כלי וידאו מקוונים במהירות הבזק, פרטיים ואיכותיים בחינם."
   },
   "contact_page": {
     "hero_title": "צור קשר",
@@ -918,7 +923,9 @@
     "form_s4": "Business Opportunity",
     "form_message": "הודעה",
     "form_message_placeholder": "How can we help you?",
-    "form_submit": "שלח הודעה"
+    "form_submit": "שלח הודעה",
+    "meta_title": "צור קשר - תמיכה ופניות | VideoCompressorPro",
+    "meta_description": "צור קשר עם צוות VideoCompressorPro לתמיכה, בקשות תכונה או פניות עסקיות. אנחנו כאן כדי לעזור."
   },
   "format_page": {
     "badge": "דוחס {format} ייעודי",
@@ -955,7 +962,8 @@
     "login_link": "Log in here",
     "terms_privacy": "בהמשך התהליך, אתה מסכים לתנאים ולמדיניות שלנו.",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
-    "back_home": "Back to Home"
+    "back_home": "Back to Home",
+    "optional_info": "בעוד שהכלים שלנו הם 100% חינמיים ופועלים במלואם ללא חשבון, יצירת אחד מאפשרת לך לשמור הגדרות מותאמות אישית מראש, לגשת לקודקים מתקדמים ולעקוב אחר היסטוריית הדחיסה."
   },
   "comparison": {
     "title": "למה VideoCompressorPro?",
@@ -1852,5 +1860,13 @@
     "review_r2_role": "ובלוגר ועורך וידאו",
     "review_r3_text": "כלי חובה עבור הצינור של YouTube Shorts של הסוכנות שלנו. פשוט, מאובטח ומהיר.",
     "review_r3_role": "מפיק סוכנות"
+  },
+  "privacy_page": {
+    "meta_title": "מדיניות פרטיות - 100% דחיסת וידאו פרטית | VideoCompressorPro",
+    "meta_description": "קרא את מדיניות הפרטיות של VideoCompressorPro. אנו מעבדים את כל הקבצים שלך 100% באופן מקומי בדפדפן שלך - לא מועלים קבצים לשרתים שלנו."
+  },
+  "terms_page": {
+    "meta_title": "תנאים והגבלות - כלי וידאו מקוונים בחינם | VideoCompressorPro",
+    "meta_description": "קרא את תנאי השירות לשימוש בכלי הווידאו המקוונים החינמיים, המאובטחים, מבוססי הדפדפן של VideoCompressorPro."
   }
 }

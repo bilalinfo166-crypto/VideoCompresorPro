@@ -15,7 +15,10 @@
     "quick_navigation": "快速导航",
     "share_tool": "分享工具",
     "copied": "已复制！",
-    "copy_link": "复制链接"
+    "copy_link": "复制链接",
+    "popular": "热门",
+    "new": "最新",
+    "why_choose": "为什么选择"
   },
   "nav": {
     "compressor": "视频压缩",
@@ -141,8 +144,8 @@
     "related_desc": "查看 VideoCompressorPro 提供的其他基于浏览器的应用程序，这些应用程序针对速度、安全性和无忧媒体转换进行了优化，无需下载和复杂的软件。"
   },
   "trusted": {
-    "title": "数百万人信赖我们的压缩器",
-    "desc": "用于缩小文件、加速上传、节省空间并在所有平台上轻松分享。"
+    "title": "针对所有主要平台上的无缝上传和播放进行了优化",
+    "desc": "压缩您的视频以满足您喜爱的网站、电子邮件提供商和社交媒体平台的严格上传限制。"
   },
   "stats": {
     "videos_compressed": "已压缩视频",

@@ -15,7 +15,10 @@
     "quick_navigation": "Pikanavigointi",
     "share_tool": "Jaa tämä työkalu",
     "copied": "Kopioitu!",
-    "copy_link": "Kopioi linkki"
+    "copy_link": "Kopioi linkki",
+    "popular": "Suosittu",
+    "new": "Uusi",
+    "why_choose": "Miksi valita"
   },
   "nav": {
     "compressor": "Videon pakkaus",
@@ -141,8 +144,8 @@
     "related_desc": "Katso lisää VideoCompressorPron selainpohjaisia ​​sovelluksia, jotka on optimoitu nopeutta, turvallisuutta ja vaivatonta mediamuunnusta varten ilman latausta ja monimutkaisia ​​ohjelmistoja."
   },
   "trusted": {
-    "title": "Miljoonat luottavat pakkaustyökaluunmme",
-    "desc": "Käytetään tiedostokoon pienentämiseen, latausten nopeuttamiseen, tilan säästämiseen ja helppoon jakamiseen kaikilla alustoilla."
+    "title": "Optimoitu saumattomaan lataamiseen ja toistoon kaikilla tärkeimmillä alustoilla",
+    "desc": "Pakkaa videosi täyttääksesi suosikkisivustojesi, sähköpostipalveluntarjoajien ja sosiaalisen median alustojen tiukat latausrajoitukset."
   },
   "stats": {
     "videos_compressed": "Pakattua videota",
@@ -896,7 +899,9 @@
     "stat3_val": "0 ms",
     "stat3_label": "Palvelinviive",
     "stat4_val": "Ilmainen",
-    "stat4_label": "Ikuisesti"
+    "stat4_label": "Ikuisesti",
+    "meta_title": "Tietoja meistä - Privacy-First Video Tools | VideoCompressorPro",
+    "meta_description": "Lue lisää VideoCompressorProsta, tehtävästämme tarjota salamannopeita, yksityisiä ja korkealaatuisia online-videotyökaluja ilmaiseksi."
   },
   "contact_page": {
     "hero_title": "Ota yhteyttä",
@@ -918,7 +923,9 @@
     "form_s4": "Business Opportunity",
     "form_message": "Viesti",
     "form_message_placeholder": "How can we help you?",
-    "form_submit": "Lähetä viesti"
+    "form_submit": "Lähetä viesti",
+    "meta_title": "Ota yhteyttä - Tuki ja tiedustelut | VideoCompressorPro",
+    "meta_description": "Ota yhteyttä VideoCompressorPro-tiimiin saadaksesi tukea, ominaisuuspyyntöjä tai yrityskysymyksiä. Olemme täällä auttamassa."
   },
   "format_page": {
     "badge": "Erikoistunut {format}-pakkaustyökalu",
@@ -955,7 +962,8 @@
     "login_link": "Log in here",
     "terms_privacy": "Jatkamalla hyväksyt ehtomme ja käytäntömme.",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
-    "back_home": "Back to Home"
+    "back_home": "Back to Home",
+    "optional_info": "Vaikka työkalumme ovat 100 % ilmaisia ​​ja toimivat täysin ilman tiliä, sellaisen luomisen avulla voit tallentaa mukautettuja esiasetuksia, käyttää edistyneitä koodekkeja ja seurata pakkaushistoriaa."
   },
   "comparison": {
     "title": "Miksi VideoCompressorPro?",
@@ -1852,5 +1860,13 @@
     "review_r2_role": "Vlogger & Video Editor",
     "review_r3_text": "Pakollinen työkalu toimistomme YouTube Shorts -sarjaan. Yksinkertainen, turvallinen ja nopea.",
     "review_r3_role": "Välitystuottaja"
+  },
+  "privacy_page": {
+    "meta_title": "Tietosuojakäytäntö - 100 % yksityinen videon pakkaus | VideoCompressorPro",
+    "meta_description": "Lue VideoCompressorPron tietosuojakäytäntö. Käsittelemme kaikki tiedostosi 100 % paikallisesti selaimessasi – tiedostoja ei ladata palvelimillemme."
+  },
+  "terms_page": {
+    "meta_title": "Palveluehdot - Ilmaiset online-videotyökalut | VideoCompressorPro",
+    "meta_description": "Lue VideoCompressorPron ilmaisten, turvallisten selainpohjaisten online-videotyökalujen käyttöehdot."
   }
 }

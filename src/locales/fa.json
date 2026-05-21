@@ -15,7 +15,10 @@
     "quick_navigation": "دسترسی سریع",
     "share_tool": "این ابزار را به اشتراک بگذارید",
     "copied": "کپی شد!",
-    "copy_link": "کپی لینک"
+    "copy_link": "کپی لینک",
+    "popular": "محبوب",
+    "new": "جدید",
+    "why_choose": "چرا انتخاب کنید"
   },
   "nav": {
     "compressor": "فشرده‌سازی ویدیو",
@@ -141,8 +144,8 @@
     "related_desc": "برنامه های کاربردی مبتنی بر مرورگر اضافی را از VideoCompressorPro مشاهده کنید که برای سرعت، امنیت و تبدیل رسانه ای بدون دردسر بدون دانلود و نرم افزار پیچیده بهینه شده اند."
   },
   "trusted": {
-    "title": "میلیون‌ها نفر به فشرده‌ساز ما اعتماد دارند",
-    "desc": "برای کوچک کردن فایل‌ها، سرعت بخشیدن به آپلود، صرفه‌جویی در فضا و اشتراک‌گذاری آسان در تمام پلتفرم‌ها استفاده می‌شود."
+    "title": "بهینه شده برای آپلود و پخش بدون درز در همه پلتفرم های اصلی",
+    "desc": "ویدیوهای خود را فشرده کنید تا با محدودیت‌های آپلود سخت وب‌سایت‌ها، ارائه‌دهندگان ایمیل، و پلتفرم‌های رسانه‌های اجتماعی مورد علاقه‌تان مواجه شوید."
   },
   "stats": {
     "videos_compressed": "ویدیو فشرده شده",
@@ -896,7 +899,9 @@
     "stat3_val": "0ms",
     "stat3_label": "تأخیر سرور",
     "stat4_val": "رایگان",
-    "stat4_label": "برای همیشه"
+    "stat4_label": "برای همیشه",
+    "meta_title": "درباره ما - Privacy-First Video Tools | VideoCompressorPro",
+    "meta_description": "درباره VideoCompressorPro بیشتر بیاموزید، ماموریت ما برای ارائه ابزارهای ویدئویی آنلاین سریع، خصوصی و با کیفیت بالا به صورت رایگان."
   },
   "contact_page": {
     "hero_title": "تماس با ما",
@@ -918,7 +923,9 @@
     "form_s4": "Business Opportunity",
     "form_message": "پیام",
     "form_message_placeholder": "How can we help you?",
-    "form_submit": "ارسال پیام"
+    "form_submit": "ارسال پیام",
+    "meta_title": "تماس با ما - پشتیبانی و سوالات | VideoCompressorPro",
+    "meta_description": "برای پشتیبانی، درخواست‌های ویژگی یا سوالات تجاری با تیم VideoCompressorPro تماس بگیرید. ما اینجا هستیم تا کمک کنیم."
   },
   "format_page": {
     "badge": "فشرده‌ساز اختصاصی {format}",
@@ -955,7 +962,8 @@
     "login_link": "Log in here",
     "terms_privacy": "با ادامه، شما با شرایط و سیاست‌های ما موافقت می‌کنید.",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
-    "back_home": "Back to Home"
+    "back_home": "Back to Home",
+    "optional_info": "در حالی که ابزارهای ما 100% رایگان هستند و کاملاً بدون حساب کار می‌کنند، ایجاد آن به شما امکان می‌دهد از پیش تنظیمات سفارشی ذخیره کنید، به کدک‌های پیشرفته دسترسی داشته باشید و تاریخچه فشرده‌سازی را ردیابی کنید."
   },
   "comparison": {
     "title": "چرا VideoCompressorPro؟",
@@ -1852,5 +1860,13 @@
     "review_r2_role": "Vlogger & Video Editor",
     "review_r3_text": "ابزاری ضروری برای خط لوله شورت YouTube آژانس ما. ساده، ایمن و سریع.",
     "review_r3_role": "تولید کننده آژانس"
+  },
+  "privacy_page": {
+    "meta_title": "سیاست حفظ حریم خصوصی - 100% فشرده سازی ویدیوی خصوصی | VideoCompressorPro",
+    "meta_description": "سیاست حفظ حریم خصوصی VideoCompressorPro را بخوانید. ما تمام فایل های شما را 100% به صورت محلی در مرورگر شما پردازش می کنیم - هیچ فایلی در سرورهای ما آپلود نمی شود."
+  },
+  "terms_page": {
+    "meta_title": "شرایط خدمات - ابزارهای ویدئویی آنلاین رایگان | VideoCompressorPro",
+    "meta_description": "شرایط خدمات را برای استفاده از ابزارهای ویدئویی آنلاین رایگان، ایمن و مبتنی بر مرورگر VideoCompressorPro بخوانید."
   }
 }

@@ -15,7 +15,10 @@
     "quick_navigation": "Quick Navigation",
     "share_tool": "Share this tool",
     "copied": "Copied!",
-    "copy_link": "Copy Link"
+    "copy_link": "Copy Link",
+    "why_choose": "Why Choose",
+    "popular": "Popular",
+    "new": "New"
   },
   "nav": {
     "compressor": "Video Compressor",
@@ -144,8 +147,8 @@
     "related_desc": "See additional browser-based applications from VideoCompressorPro, optimized for speed, security and hassle free media conversion without download and complicated software."
   },
   "trusted": {
-    "title": "Million of trust on our online video compressor",
-    "desc": "Our video compressor is used by people for various purposes such as reducing file sizes, speeding up video uploads, conserving storage space and making video sharing easier and quicker across different platforms."
+    "title": "Optimized for Seamless Upload and Playback on All Major Platforms",
+    "desc": "Compress your videos to meet the strict upload constraints of your favorite websites, email providers, and social media platforms."
   },
   "stats": {
     "videos_compressed": "Videos Compressed",
@@ -901,7 +904,9 @@
     "stat3_val": "0ms",
     "stat3_label": "Server Delay",
     "stat4_val": "Free",
-    "stat4_label": "Forever"
+    "stat4_label": "Forever",
+    "meta_title": "About Us - Privacy-First Video Tools | VideoCompressorPro",
+    "meta_description": "Learn more about VideoCompressorPro, our mission to provide lightning-fast, private, and high-quality online video tools for free."
   },
   "contact_page": {
     "hero_title": "Get in Touch",
@@ -923,7 +928,9 @@
     "form_s4": "Business Opportunity",
     "form_message": "Message",
     "form_message_placeholder": "How can we help you?",
-    "form_submit": "Send Message"
+    "form_submit": "Send Message",
+    "meta_title": "Contact Us - Support & Inquiries | VideoCompressorPro",
+    "meta_description": "Get in touch with the VideoCompressorPro team for support, feature requests, or business inquiries. We are here to help."
   },
   "format_page": {
     "badge": "Dedicated {format} Compressor",
@@ -960,7 +967,8 @@
     "login_link": "Log in here",
     "terms_privacy": "By continuing, you agree to our Terms of Service and Privacy Policy.",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
-    "back_home": "Back to Home"
+    "back_home": "Back to Home",
+    "optional_info": "While our tools are 100% free and work fully without an account, creating one lets you save custom presets, access advanced codecs, and track compression history."
   },
   "comparison": {
     "title": "Why Choose VideoCompressorPro?",
@@ -1035,18 +1043,42 @@
       "heroText": "The world's most trusted MP4 compressor. Shrink your MP4 files in seconds while keeping stunning 1080p/4K quality.",
       "introText": "MP4 is the most popular video format, but high-resolution MP4 files can be massive. Our intelligent compression engine analyzes your MP4 bitrates to provide the perfect balance between file size and visual clarity.",
       "features": [
-        { "title": "No Quality Loss", "desc": "Advanced libx264 encoding ensures your MP4 stays crisp." },
-        { "title": "Universal Playback", "desc": "Compressed MP4s work on all iPhones, Androids, and Smart TVs." },
-        { "title": "Privacy First", "desc": "Your files never leave your browser. 100% secure processing." }
+        {
+          "title": "No Quality Loss",
+          "desc": "Advanced libx264 encoding ensures your MP4 stays crisp."
+        },
+        {
+          "title": "Universal Playback",
+          "desc": "Compressed MP4s work on all iPhones, Androids, and Smart TVs."
+        },
+        {
+          "title": "Privacy First",
+          "desc": "Your files never leave your browser. 100% secure processing."
+        }
       ],
       "steps": [
-        { "title": "Upload MP4", "desc": "Drag and drop your MP4 file into the compressor box." },
-        { "title": "Set Target Size", "desc": "Choose your desired output size in MB." },
-        { "title": "Compress & Save", "desc": "Download your optimized MP4 instantly." }
+        {
+          "title": "Upload MP4",
+          "desc": "Drag and drop your MP4 file into the compressor box."
+        },
+        {
+          "title": "Set Target Size",
+          "desc": "Choose your desired output size in MB."
+        },
+        {
+          "title": "Compress & Save",
+          "desc": "Download your optimized MP4 instantly."
+        }
       ],
       "faqs": [
-        { "q": "Will my MP4 lose quality?", "a": "No, we use high-efficiency constant rate factors to maintain visual integrity." },
-        { "q": "Is there a file size limit?", "a": "You can compress MP4 files up to 5GB for free." }
+        {
+          "q": "Will my MP4 lose quality?",
+          "a": "No, we use high-efficiency constant rate factors to maintain visual integrity."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "You can compress MP4 files up to 5GB for free."
+        }
       ]
     },
     "mov": {
@@ -1056,18 +1088,42 @@
       "heroText": "Apple MOV files are notoriously large. Our tool optimizes MOV bitrates for the web without sacrificing Apple's signature quality.",
       "introText": "QuickTime (MOV) files captured on iPhones or Macs often take up gigabytes of space. We help you convert and compress them into efficient, web-ready formats instantly.",
       "features": [
-        { "title": "Apple Optimized", "desc": "Specifically tuned for high-bitrate ProRes and H.264 MOV files." },
-        { "title": "Web Ready", "desc": "Convert bulky MOVs into streamable, lightweight versions." },
-        { "title": "Zero Wait", "desc": "Fast browser-based processing, no server uploads required." }
+        {
+          "title": "Apple Optimized",
+          "desc": "Specifically tuned for high-bitrate ProRes and H.264 MOV files."
+        },
+        {
+          "title": "Web Ready",
+          "desc": "Convert bulky MOVs into streamable, lightweight versions."
+        },
+        {
+          "title": "Zero Wait",
+          "desc": "Fast browser-based processing, no server uploads required."
+        }
       ],
       "steps": [
-        { "title": "Import MOV", "desc": "Select your .mov file from your Mac or iPhone." },
-        { "title": "Adjust Size", "desc": "Pick a target size that fits your sharing needs." },
-        { "title": "Export", "desc": "Save your compressed video in seconds." }
+        {
+          "title": "Import MOV",
+          "desc": "Select your .mov file from your Mac or iPhone."
+        },
+        {
+          "title": "Adjust Size",
+          "desc": "Pick a target size that fits your sharing needs."
+        },
+        {
+          "title": "Export",
+          "desc": "Save your compressed video in seconds."
+        }
       ],
       "faqs": [
-        { "q": "Can I use this on iPhone?", "a": "Yes, our tool is fully compatible with Safari on iOS for MOV compression." },
-        { "q": "Does it support 4K MOV?", "a": "Absolutely, we handle 4K 60fps MOV files with ease." }
+        {
+          "q": "Can I use this on iPhone?",
+          "a": "Yes, our tool is fully compatible with Safari on iOS for MOV compression."
+        },
+        {
+          "q": "Does it support 4K MOV?",
+          "a": "Absolutely, we handle 4K 60fps MOV files with ease."
+        }
       ]
     },
     "video-for-whatsapp": {
@@ -1077,18 +1133,42 @@
       "heroText": "Stop getting the 'File too large' error on WhatsApp. Compress your videos to fit the 16MB or 64MB limit perfectly.",
       "introText": "WhatsApp has strict file size limits (16MB for mobile, 64MB for web). Our tool automatically optimizes your video to fit these limits while keeping the content clear and watchable.",
       "features": [
-        { "title": "Bypass Limits", "desc": "Automatically hit the exact 16MB or 64MB WhatsApp target." },
-        { "title": "Instant Sharing", "desc": "Compressed files are ready for immediate WhatsApp forwarding." },
-        { "title": "Group Friendly", "desc": "Smaller files mean faster uploads and downloads for your group chats." }
+        {
+          "title": "Bypass Limits",
+          "desc": "Automatically hit the exact 16MB or 64MB WhatsApp target."
+        },
+        {
+          "title": "Instant Sharing",
+          "desc": "Compressed files are ready for immediate WhatsApp forwarding."
+        },
+        {
+          "title": "Group Friendly",
+          "desc": "Smaller files mean faster uploads and downloads for your group chats."
+        }
       ],
       "steps": [
-        { "title": "Choose Video", "desc": "Pick the video you want to send on WhatsApp." },
-        { "title": "Select Limit", "desc": "Set target to 15MB to be safe for WhatsApp mobile." },
-        { "title": "Download & Send", "desc": "Share your video without any 'limit' warnings." }
+        {
+          "title": "Choose Video",
+          "desc": "Pick the video you want to send on WhatsApp."
+        },
+        {
+          "title": "Select Limit",
+          "desc": "Set target to 15MB to be safe for WhatsApp mobile."
+        },
+        {
+          "title": "Download & Send",
+          "desc": "Share your video without any 'limit' warnings."
+        }
       ],
       "faqs": [
-        { "q": "What is the WhatsApp file limit?", "a": "The mobile limit is 16MB, while WhatsApp Web supports up to 64MB." },
-        { "q": "Will the video look blurry?", "a": "No, we optimize the resolution to ensure it looks great on phone screens." }
+        {
+          "q": "What is the WhatsApp file limit?",
+          "a": "The mobile limit is 16MB, while WhatsApp Web supports up to 64MB."
+        },
+        {
+          "q": "Will the video look blurry?",
+          "a": "No, we optimize the resolution to ensure it looks great on phone screens."
+        }
       ]
     },
     "video-for-discord": {
@@ -1098,18 +1178,42 @@
       "heroText": "Tired of Discord Nitro prompts? Compress your memes and clips to fit under the 8MB or 25MB free limit instantly.",
       "introText": "Discord's upload limits are the bane of every gamer. Whether you need an 8MB file for free users or a 25MB file for Nitro Basic, our tool ensures your clips stay high-quality and shareable.",
       "features": [
-        { "title": "Nitro Friendly", "desc": "Presets for 8MB, 25MB, and 50MB Discord limits." },
-        { "title": "Gamer Ready", "desc": "Perfect for high-FPS gameplay clips from OBS or Shadowplay." },
-        { "title": "Auto-Resize", "desc": "Adjusts dimensions to ensure the file fits the tiny Discord limit." }
+        {
+          "title": "Nitro Friendly",
+          "desc": "Presets for 8MB, 25MB, and 50MB Discord limits."
+        },
+        {
+          "title": "Gamer Ready",
+          "desc": "Perfect for high-FPS gameplay clips from OBS or Shadowplay."
+        },
+        {
+          "title": "Auto-Resize",
+          "desc": "Adjusts dimensions to ensure the file fits the tiny Discord limit."
+        }
       ],
       "steps": [
-        { "title": "Upload Clip", "desc": "Drag your gameplay clip or meme into the box." },
-        { "title": "Set 8MB Target", "desc": "Use the slider to hit the 8MB mark exactly." },
-        { "title": "Share on Discord", "desc": "Post your video in any channel without Nitro." }
+        {
+          "title": "Upload Clip",
+          "desc": "Drag your gameplay clip or meme into the box."
+        },
+        {
+          "title": "Set 8MB Target",
+          "desc": "Use the slider to hit the 8MB mark exactly."
+        },
+        {
+          "title": "Share on Discord",
+          "desc": "Post your video in any channel without Nitro."
+        }
       ],
       "faqs": [
-        { "q": "What is the Discord free limit?", "a": "Discord recently increased the free limit to 25MB for most users, but 8MB is still safer for some servers." },
-        { "q": "Does it support .webm?", "a": "Yes, we recommend .webm for Discord as it has better compression for small sizes." }
+        {
+          "q": "What is the Discord free limit?",
+          "a": "Discord recently increased the free limit to 25MB for most users, but 8MB is still safer for some servers."
+        },
+        {
+          "q": "Does it support .webm?",
+          "a": "Yes, we recommend .webm for Discord as it has better compression for small sizes."
+        }
       ]
     },
     "video-for-email": {
@@ -1119,18 +1223,42 @@
       "heroText": "Send videos via Email without using Google Drive or Dropbox. Shrink your files to fit the 25MB email attachment limit.",
       "introText": "Most email providers like Gmail and Outlook have a 25MB limit. Our tool optimizes your professional videos or family clips to fit inside an email body perfectly.",
       "features": [
-        { "title": "Gmail Compatible", "desc": "Stays under the 25MB limit for seamless attachments." },
-        { "title": "Professional Quality", "desc": "Keeps your business presentations and tutorials looking sharp." },
-        { "title": "Cross-Platform", "desc": "Works on all browsers, including Outlook and Yahoo Mail." }
+        {
+          "title": "Gmail Compatible",
+          "desc": "Stays under the 25MB limit for seamless attachments."
+        },
+        {
+          "title": "Professional Quality",
+          "desc": "Keeps your business presentations and tutorials looking sharp."
+        },
+        {
+          "title": "Cross-Platform",
+          "desc": "Works on all browsers, including Outlook and Yahoo Mail."
+        }
       ],
       "steps": [
-        { "title": "Add Attachment", "desc": "Select the large video file you want to email." },
-        { "title": "Set 24MB Limit", "desc": "Aim for 24MB to ensure it fits the 25MB email cap." },
-        { "title": "Attach & Send", "desc": "Download the file and attach it directly to your email." }
+        {
+          "title": "Add Attachment",
+          "desc": "Select the large video file you want to email."
+        },
+        {
+          "title": "Set 24MB Limit",
+          "desc": "Aim for 24MB to ensure it fits the 25MB email cap."
+        },
+        {
+          "title": "Attach & Send",
+          "desc": "Download the file and attach it directly to your email."
+        }
       ],
       "faqs": [
-        { "q": "What is the Gmail attachment limit?", "a": "Gmail allows up to 25MB per email. If it's larger, it forces a Google Drive link." },
-        { "q": "How much can I shrink a video?", "a": "Often, we can shrink a 200MB video to 25MB while keeping it very watchable." }
+        {
+          "q": "What is the Gmail attachment limit?",
+          "a": "Gmail allows up to 25MB per email. If it's larger, it forces a Google Drive link."
+        },
+        {
+          "q": "How much can I shrink a video?",
+          "a": "Often, we can shrink a 200MB video to 25MB while keeping it very watchable."
+        }
       ]
     },
     "youtube": {
@@ -1140,18 +1268,42 @@
       "heroText": "Upload to YouTube in seconds. Compress your 1080p and 4K videos while keeping the exact high-fidelity visual quality.",
       "introText": "YouTube processes massive video uploads, but heavy files can cause processing hangs and endless wait times. Our smart optimizer reduces file size without losing resolutions or color accuracy.",
       "features": [
-        { "title": "No Quality Loss", "desc": "Advanced libx264 compression maintains your visual clarity." },
-        { "title": "Fast Processing", "desc": "Local browser processing means no server wait times." },
-        { "title": "Privacy First", "desc": "Your video never leaves your browser. 100% secure." }
+        {
+          "title": "No Quality Loss",
+          "desc": "Advanced libx264 compression maintains your visual clarity."
+        },
+        {
+          "title": "Fast Processing",
+          "desc": "Local browser processing means no server wait times."
+        },
+        {
+          "title": "Privacy First",
+          "desc": "Your video never leaves your browser. 100% secure."
+        }
       ],
       "steps": [
-        { "title": "Upload Video", "desc": "Drag and drop your MP4, MOV, or WebM video file." },
-        { "title": "Choose Resolution", "desc": "Select 1080p or 4K to stay optimized for YouTube." },
-        { "title": "Compress & Download", "desc": "Get your lightweight video ready for instant upload." }
+        {
+          "title": "Upload Video",
+          "desc": "Drag and drop your MP4, MOV, or WebM video file."
+        },
+        {
+          "title": "Choose Resolution",
+          "desc": "Select 1080p or 4K to stay optimized for YouTube."
+        },
+        {
+          "title": "Compress & Download",
+          "desc": "Get your lightweight video ready for instant upload."
+        }
       ],
       "faqs": [
-        { "q": "Will this lower my YouTube quality?", "a": "No, our tool compresses files without losing resolution, so YouTube will process it in HD/4K." },
-        { "q": "Is it safe to use?", "a": "Yes, all processing is done inside your browser, ensuring total privacy." }
+        {
+          "q": "Will this lower my YouTube quality?",
+          "a": "No, our tool compresses files without losing resolution, so YouTube will process it in HD/4K."
+        },
+        {
+          "q": "Is it safe to use?",
+          "a": "Yes, all processing is done inside your browser, ensuring total privacy."
+        }
       ]
     },
     "tiktok": {
@@ -1161,18 +1313,42 @@
       "heroText": "Make your videos pop on the FYP. Compress vertical clips to upload to TikTok instantly with zero lag.",
       "introText": "TikTok favors fast-loading, high-quality vertical videos. Our compressor shrinks your MP4 and MOV files to fit TikTok mobile guidelines while keeping transitions and text perfectly sharp.",
       "features": [
-        { "title": "9:16 Optimized", "desc": "Perfect for vertical clips, Instagram Reels, and Shorts." },
-        { "title": "FYP Quality", "desc": "Keeps video resolution sharp to avoid blurry TikTok compression." },
-        { "title": "Zero Server Lag", "desc": "No uploading to external databases, processing completes instantly." }
+        {
+          "title": "9:16 Optimized",
+          "desc": "Perfect for vertical clips, Instagram Reels, and Shorts."
+        },
+        {
+          "title": "FYP Quality",
+          "desc": "Keeps video resolution sharp to avoid blurry TikTok compression."
+        },
+        {
+          "title": "Zero Server Lag",
+          "desc": "No uploading to external databases, processing completes instantly."
+        }
       ],
       "steps": [
-        { "title": "Select Video", "desc": "Choose your vertical video from your phone or PC." },
-        { "title": "Set Guidelines", "desc": "Optimize your bitrate for fast TikTok loading." },
-        { "title": "Save & Share", "desc": "Download the compressed video and post to TikTok immediately." }
+        {
+          "title": "Select Video",
+          "desc": "Choose your vertical video from your phone or PC."
+        },
+        {
+          "title": "Set Guidelines",
+          "desc": "Optimize your bitrate for fast TikTok loading."
+        },
+        {
+          "title": "Save & Share",
+          "desc": "Download the compressed video and post to TikTok immediately."
+        }
       ],
       "faqs": [
-        { "q": "Does TikTok compress videos?", "a": "Yes, TikTok compresses files on upload, but compressing them first with our tool avoids blurry results." },
-        { "q": "What format is best for TikTok?", "a": "MP4 and MOV in vertical 9:16 aspect ratio are the ideal formats for TikTok." }
+        {
+          "q": "Does TikTok compress videos?",
+          "a": "Yes, TikTok compresses files on upload, but compressing them first with our tool avoids blurry results."
+        },
+        {
+          "q": "What format is best for TikTok?",
+          "a": "MP4 and MOV in vertical 9:16 aspect ratio are the ideal formats for TikTok."
+        }
       ]
     },
     "avi": {
@@ -1182,18 +1358,42 @@
       "heroText": "Shrink heavy AVI files in seconds. Keep your high-quality AVI videos looking perfect while saving up to 80% storage space.",
       "introText": "AVI files are known for their high video quality, but they can be incredibly heavy and take up massive storage. Our smart browser compressor optimizes AVI bitrates and streams them effortlessly.",
       "features": [
-        { "title": "No Quality Loss", "desc": "Advanced libx264 encoding ensures your AVI stays crisp." },
-        { "title": "High Compression", "desc": "Reduces AVI container overhead by up to 80%." },
-        { "title": "Privacy First", "desc": "Your files never leave your browser. 100% secure processing." }
+        {
+          "title": "No Quality Loss",
+          "desc": "Advanced libx264 encoding ensures your AVI stays crisp."
+        },
+        {
+          "title": "High Compression",
+          "desc": "Reduces AVI container overhead by up to 80%."
+        },
+        {
+          "title": "Privacy First",
+          "desc": "Your files never leave your browser. 100% secure processing."
+        }
       ],
       "steps": [
-        { "title": "Upload AVI", "desc": "Drag and drop your AVI file into the compressor box." },
-        { "title": "Set Target Size", "desc": "Choose your desired output size in MB." },
-        { "title": "Compress & Save", "desc": "Download your optimized AVI instantly." }
+        {
+          "title": "Upload AVI",
+          "desc": "Drag and drop your AVI file into the compressor box."
+        },
+        {
+          "title": "Set Target Size",
+          "desc": "Choose your desired output size in MB."
+        },
+        {
+          "title": "Compress & Save",
+          "desc": "Download your optimized AVI instantly."
+        }
       ],
       "faqs": [
-        { "q": "Will my AVI lose quality?", "a": "No, our tool maintains high visual clarity by adjusting container bitrates losslessly." },
-        { "q": "Is there a file size limit?", "a": "You can compress AVI files up to 5GB for free." }
+        {
+          "q": "Will my AVI lose quality?",
+          "a": "No, our tool maintains high visual clarity by adjusting container bitrates losslessly."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "You can compress AVI files up to 5GB for free."
+        }
       ]
     },
     "mkv": {
@@ -1203,18 +1403,42 @@
       "heroText": "Easily downsize large MKV movies and recordings. Shrink MKV container size in seconds with high-fidelity visual preservation.",
       "introText": "MKV is a powerful container that often houses high-definition movies with multiple audio tracks. Our compressor shrinks heavy MKV files without stripping away your essential tracks or subtitles.",
       "features": [
-        { "title": "HD Preservation", "desc": "Retains full resolution and high-definition video clarity." },
-        { "title": "Multi-Track Ready", "desc": "Compresses the video stream while keeping audio/subtitle mapping intact." },
-        { "title": "Local Processing", "desc": "Zero server uploads mean 100% secure and immediate processing." }
+        {
+          "title": "HD Preservation",
+          "desc": "Retains full resolution and high-definition video clarity."
+        },
+        {
+          "title": "Multi-Track Ready",
+          "desc": "Compresses the video stream while keeping audio/subtitle mapping intact."
+        },
+        {
+          "title": "Local Processing",
+          "desc": "Zero server uploads mean 100% secure and immediate processing."
+        }
       ],
       "steps": [
-        { "title": "Import MKV", "desc": "Select your heavy MKV file from your local storage." },
-        { "title": "Choose Output Size", "desc": "Define your target file size in MB." },
-        { "title": "Export MKV", "desc": "Save your compressed MKV video instantly." }
+        {
+          "title": "Import MKV",
+          "desc": "Select your heavy MKV file from your local storage."
+        },
+        {
+          "title": "Choose Output Size",
+          "desc": "Define your target file size in MB."
+        },
+        {
+          "title": "Export MKV",
+          "desc": "Save your compressed MKV video instantly."
+        }
       ],
       "faqs": [
-        { "q": "Does it support 4K MKV files?", "a": "Yes, we handle raw and 4K MKV files captured from cameras or streaming." },
-        { "q": "Are my files uploaded?", "a": "No, all compression happens inside your browser locally." }
+        {
+          "q": "Does it support 4K MKV files?",
+          "a": "Yes, we handle raw and 4K MKV files captured from cameras or streaming."
+        },
+        {
+          "q": "Are my files uploaded?",
+          "a": "No, all compression happens inside your browser locally."
+        }
       ]
     },
     "webm": {
@@ -1224,18 +1448,42 @@
       "heroText": "Optimize WebM files for high-speed website performance. Reduce file size to improve website load speeds and user experience.",
       "introText": "WebM is the standard format for modern, high-speed HTML5 web video. Our optimizer fine-tunes WebM encoding bitrates to provide the absolute lightest web-ready files.",
       "features": [
-        { "title": "Web Optimized", "desc": "Designed specifically for web developers and fast site load times." },
-        { "title": "VP8/VP9 Support", "desc": "Fully supports modern VP8 and VP9 video codecs." },
-        { "title": "Secure Processing", "desc": "Local browser execution keeps your web assets 100% private." }
+        {
+          "title": "Web Optimized",
+          "desc": "Designed specifically for web developers and fast site load times."
+        },
+        {
+          "title": "VP8/VP9 Support",
+          "desc": "Fully supports modern VP8 and VP9 video codecs."
+        },
+        {
+          "title": "Secure Processing",
+          "desc": "Local browser execution keeps your web assets 100% private."
+        }
       ],
       "steps": [
-        { "title": "Upload WebM", "desc": "Drag and drop your WebM assets into the tool." },
-        { "title": "Select Target Size", "desc": "Set the ideal output size to minimize page load times." },
-        { "title": "Save Optimized File", "desc": "Download your streamable WebM instantly." }
+        {
+          "title": "Upload WebM",
+          "desc": "Drag and drop your WebM assets into the tool."
+        },
+        {
+          "title": "Select Target Size",
+          "desc": "Set the ideal output size to minimize page load times."
+        },
+        {
+          "title": "Save Optimized File",
+          "desc": "Download your streamable WebM instantly."
+        }
       ],
       "faqs": [
-        { "q": "Can I compress WebM with transparency?", "a": "Yes, our compressor preserves alpha channel transparency in WebM files." },
-        { "q": "Why should I compress WebM for websites?", "a": "Smaller video files improve PageSpeed scores and user retention." }
+        {
+          "q": "Can I compress WebM with transparency?",
+          "a": "Yes, our compressor preserves alpha channel transparency in WebM files."
+        },
+        {
+          "q": "Why should I compress WebM for websites?",
+          "a": "Smaller video files improve PageSpeed scores and user retention."
+        }
       ]
     },
     "video-for-instagram": {
@@ -1245,18 +1493,42 @@
       "heroText": "Avoid blurry uploads on Instagram. Compress your Reels, IGTV, and Stories to hit Instagram's strict specs with perfect clarity.",
       "introText": "Instagram automatically compresses raw video uploads, often resulting in pixelated or blurry Reels. By pre-compressing with our tool, you maintain HD visual quality on the feed.",
       "features": [
-        { "title": "Reels Optimized", "desc": "Perfect for vertical 9:16 layout specs and Reels uploads." },
-        { "title": "HD Feed Quality", "desc": "Forces Instagram's algorithm to keep your video sharp." },
-        { "title": "Mobile Friendly", "desc": "Compress directly from your iPhone or Android browser." }
+        {
+          "title": "Reels Optimized",
+          "desc": "Perfect for vertical 9:16 layout specs and Reels uploads."
+        },
+        {
+          "title": "HD Feed Quality",
+          "desc": "Forces Instagram's algorithm to keep your video sharp."
+        },
+        {
+          "title": "Mobile Friendly",
+          "desc": "Compress directly from your iPhone or Android browser."
+        }
       ],
       "steps": [
-        { "title": "Upload Instagram Video", "desc": "Select your vertical Reel or post file." },
-        { "title": "Apply HD Preset", "desc": "Optimize bitrates to match Instagram's standard spec." },
-        { "title": "Download & Post", "desc": "Export and upload to Instagram with stunning quality." }
+        {
+          "title": "Upload Instagram Video",
+          "desc": "Select your vertical Reel or post file."
+        },
+        {
+          "title": "Apply HD Preset",
+          "desc": "Optimize bitrates to match Instagram's standard spec."
+        },
+        {
+          "title": "Download & Post",
+          "desc": "Export and upload to Instagram with stunning quality."
+        }
       ],
       "faqs": [
-        { "q": "What is the best format for Instagram?", "a": "MP4 with H.264 codec and AAC audio is the ideal format for Instagram uploads." },
-        { "q": "Why does Instagram make my video blurry?", "a": "If your file is too heavy, Instagram compresses it aggressively. Pre-compressing it keeps it crisp." }
+        {
+          "q": "What is the best format for Instagram?",
+          "a": "MP4 with H.264 codec and AAC audio is the ideal format for Instagram uploads."
+        },
+        {
+          "q": "Why does Instagram make my video blurry?",
+          "a": "If your file is too heavy, Instagram compresses it aggressively. Pre-compressing it keeps it crisp."
+        }
       ]
     },
     "video-for-slack": {
@@ -1266,18 +1538,42 @@
       "heroText": "Share videos in Slack channels without reaching the upload limits. Shrink your MP4 and MOV clips for quick communication.",
       "introText": "Slack has a strict file size limit for free workspaces. Our tool optimizes work clips, screen recordings, and tutorials so they upload instantly to any channel.",
       "features": [
-        { "title": "Slack Compatible", "desc": "Easily downsize clips under the free Slack upload limit." },
-        { "title": "Fast Sharing", "desc": "Smaller files mean faster uploads and quicker playbacks for team members." },
-        { "title": "100% Confidential", "desc": "Secure browser processing ensures work files stay private." }
+        {
+          "title": "Slack Compatible",
+          "desc": "Easily downsize clips under the free Slack upload limit."
+        },
+        {
+          "title": "Fast Sharing",
+          "desc": "Smaller files mean faster uploads and quicker playbacks for team members."
+        },
+        {
+          "title": "100% Confidential",
+          "desc": "Secure browser processing ensures work files stay private."
+        }
       ],
       "steps": [
-        { "title": "Choose Slack Video", "desc": "Select the work clip or demo video." },
-        { "title": "Reduce File Size", "desc": "Shrink it below the Slack file limit." },
-        { "title": "Upload to Channel", "desc": "Download and share directly in your Slack chat." }
+        {
+          "title": "Choose Slack Video",
+          "desc": "Select the work clip or demo video."
+        },
+        {
+          "title": "Reduce File Size",
+          "desc": "Shrink it below the Slack file limit."
+        },
+        {
+          "title": "Upload to Channel",
+          "desc": "Download and share directly in your Slack chat."
+        }
       ],
       "faqs": [
-        { "q": "What is the file limit on Slack?", "a": "Slack free workspaces have a file limit of 1GB, but uploads are much faster when kept small." },
-        { "q": "Can I compress screen recordings?", "a": "Yes, we support compressing MP4, WebM, and MOV screen captures." }
+        {
+          "q": "What is the file limit on Slack?",
+          "a": "Slack free workspaces have a file limit of 1GB, but uploads are much faster when kept small."
+        },
+        {
+          "q": "Can I compress screen recordings?",
+          "a": "Yes, we support compressing MP4, WebM, and MOV screen captures."
+        }
       ]
     },
     "video-for-teams": {
@@ -1287,18 +1583,42 @@
       "heroText": "Share heavy presentations and recordings in Microsoft Teams. Compress videos to fit Teams chat and channel limits perfectly.",
       "introText": "Microsoft Teams is vital for corporate collaboration, but sharing heavy raw videos can be slow. Our tool shrinks video size so you can collaborate instantly and smoothly.",
       "features": [
-        { "title": "Teams Optimized", "desc": "Downscale presentations to fit corporate email or Teams chat." },
-        { "title": "High Definition", "desc": "Keeps presentation slides and text perfectly legible." },
-        { "title": "Enterprise Security", "desc": "Local browser compression means no corporate data leaks." }
+        {
+          "title": "Teams Optimized",
+          "desc": "Downscale presentations to fit corporate email or Teams chat."
+        },
+        {
+          "title": "High Definition",
+          "desc": "Keeps presentation slides and text perfectly legible."
+        },
+        {
+          "title": "Enterprise Security",
+          "desc": "Local browser compression means no corporate data leaks."
+        }
       ],
       "steps": [
-        { "title": "Select Teams Recording", "desc": "Import your meeting capture or demo." },
-        { "title": "Choose Output Size", "desc": "Set a lightweight target for easy sharing." },
-        { "title": "Download & Share", "desc": "Get your optimized file and send it on Teams." }
+        {
+          "title": "Select Teams Recording",
+          "desc": "Import your meeting capture or demo."
+        },
+        {
+          "title": "Choose Output Size",
+          "desc": "Set a lightweight target for easy sharing."
+        },
+        {
+          "title": "Download & Share",
+          "desc": "Get your optimized file and send it on Teams."
+        }
       ],
       "faqs": [
-        { "q": "Will my presentation text remain readable?", "a": "Yes, we prioritize text clarity so slides stay sharp." },
-        { "q": "Is it safe for company files?", "a": "Yes, no files are uploaded to any server. All processing is local." }
+        {
+          "q": "Will my presentation text remain readable?",
+          "a": "Yes, we prioritize text clarity so slides stay sharp."
+        },
+        {
+          "q": "Is it safe for company files?",
+          "a": "Yes, no files are uploaded to any server. All processing is local."
+        }
       ]
     },
     "video-for-facebook": {
@@ -1308,18 +1628,42 @@
       "heroText": "Optimize your videos for Facebook feeds and Ads. Shrink MP4 files to load faster and retain high-definition feed quality.",
       "introText": "Slow-loading videos on Facebook hurt engagement and ad conversions. Pre-compressing your Facebook videos improves loading times and guarantees high viewer retention.",
       "features": [
-        { "title": "Ad Optimized", "desc": "Reduces ad file sizes for faster delivery and lower bounce rates." },
-        { "title": "Cover Ready", "desc": "Perfect specs for Facebook page cover videos." },
-        { "title": "Instant Processing", "desc": "Direct browser encoding, no server upload delays." }
+        {
+          "title": "Ad Optimized",
+          "desc": "Reduces ad file sizes for faster delivery and lower bounce rates."
+        },
+        {
+          "title": "Cover Ready",
+          "desc": "Perfect specs for Facebook page cover videos."
+        },
+        {
+          "title": "Instant Processing",
+          "desc": "Direct browser encoding, no server upload delays."
+        }
       ],
       "steps": [
-        { "title": "Upload Facebook Video", "desc": "Drag and drop your post or ad video." },
-        { "title": "Apply FB Guidelines", "desc": "Optimize bitrates for standard social feeds." },
-        { "title": "Export & Upload", "desc": "Download your lightweight file and post on Facebook." }
+        {
+          "title": "Upload Facebook Video",
+          "desc": "Drag and drop your post or ad video."
+        },
+        {
+          "title": "Apply FB Guidelines",
+          "desc": "Optimize bitrates for standard social feeds."
+        },
+        {
+          "title": "Export & Upload",
+          "desc": "Download your lightweight file and post on Facebook."
+        }
       ],
       "faqs": [
-        { "q": "What is the Facebook file size limit?", "a": "Facebook supports up to 10GB, but small videos perform much better." },
-        { "q": "Does it support Facebook Ads?", "a": "Yes, our tool is highly recommended to optimize Facebook Ad campaign assets." }
+        {
+          "q": "What is the Facebook file size limit?",
+          "a": "Facebook supports up to 10GB, but small videos perform much better."
+        },
+        {
+          "q": "Does it support Facebook Ads?",
+          "a": "Yes, our tool is highly recommended to optimize Facebook Ad campaign assets."
+        }
       ]
     }
   },
@@ -1521,5 +1865,13 @@
     "review_r2_role": "Vlogger & Video Editor",
     "review_r3_text": "A must-have tool for our agency's YouTube Shorts pipeline. Simple, secure, and fast.",
     "review_r3_role": "Agency Producer"
+  },
+  "privacy_page": {
+    "meta_title": "Privacy Policy - 100% Private Video Compression | VideoCompressorPro",
+    "meta_description": "Read the Privacy Policy of VideoCompressorPro. We process all your files 100% locally in your browser - no files are uploaded to our servers."
+  },
+  "terms_page": {
+    "meta_title": "Terms of Service - Free Online Video Tools | VideoCompressorPro",
+    "meta_description": "Read the Terms of Service for using VideoCompressorPro's free, secure, browser-based online video tools."
   }
 }

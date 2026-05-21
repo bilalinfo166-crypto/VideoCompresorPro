@@ -15,7 +15,10 @@
     "quick_navigation": "Gyors navigáció",
     "share_tool": "Eszköz megosztása",
     "copied": "Másolva!",
-    "copy_link": "Link másolása"
+    "copy_link": "Link másolása",
+    "popular": "Népszerű",
+    "new": "Új",
+    "why_choose": "Miért válassza"
   },
   "nav": {
     "compressor": "Videó tömörítő",
@@ -141,8 +144,8 @@
     "related_desc": "Tekintse meg a VideoCompressorPro további böngészőalapú alkalmazásait, amelyeket a sebességre, biztonságra és problémamentes médiakonverzióra optimalizáltak letöltés és bonyolult szoftverek nélkül."
   },
   "trusted": {
-    "title": "Milliók bíznak a tömörítőnkben",
-    "desc": "Fájlok kicsinyítésére, a feltöltések felgyorsítására, helymegtakarításra és egyszerű megosztásra használják minden platformon."
+    "title": "Zökkenőmentes feltöltésre és lejátszásra optimalizálva az összes főbb platformon",
+    "desc": "Tömörítse össze videóit, hogy megfeleljen kedvenc webhelyei, e-mail-szolgáltatói és közösségi médiaplatformjai szigorú feltöltési korlátozásainak."
   },
   "stats": {
     "videos_compressed": "Tömörített videó",
@@ -896,7 +899,9 @@
     "stat3_val": "0ms",
     "stat3_label": "Szerver késleltetés",
     "stat4_val": "Ingyenes",
-    "stat4_label": "Örökké"
+    "stat4_label": "Örökké",
+    "meta_title": "Rólunk - Privacy-First Video Tools | VideoCompressorPro",
+    "meta_description": "Tudjon meg többet a VideoCompressorPro-ról, küldetésünkről, hogy villámgyors, privát és kiváló minőségű online videoeszközöket biztosítson ingyenesen."
   },
   "contact_page": {
     "hero_title": "Kapcsolat",
@@ -918,7 +923,9 @@
     "form_s4": "Business Opportunity",
     "form_message": "Üzenet",
     "form_message_placeholder": "How can we help you?",
-    "form_submit": "Üzenet küldése"
+    "form_submit": "Üzenet küldése",
+    "meta_title": "Lépjen kapcsolatba velünk - Támogatás és kérdések | VideoCompressorPro",
+    "meta_description": "Vegye fel a kapcsolatot a VideoCompressorPro csapatával támogatásért, szolgáltatásokkal kapcsolatos kérésekért vagy üzleti kérdésekért. Azért vagyunk itt, hogy segítsünk."
   },
   "format_page": {
     "badge": "Specialista {format} tömörítő",
@@ -955,7 +962,8 @@
     "login_link": "Log in here",
     "terms_privacy": "A folytatással elfogadja feltételeinket és irányelveinket.",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
-    "back_home": "Back to Home"
+    "back_home": "Back to Home",
+    "optional_info": "Míg eszközeink 100%-ban ingyenesek, és fiók nélkül is működnek, egy ilyen létrehozásával mentheti az egyéni előre beállított értékeket, hozzáférhet a fejlett kodekekhez, és nyomon követheti a tömörítési előzményeket."
   },
   "comparison": {
     "title": "Miért a VideoCompressorPro?",
@@ -1852,5 +1860,13 @@
     "review_r2_role": "Vlogger és videószerkesztő",
     "review_r3_text": "Kötelező eszköz ügynökségünk YouTube Shorts-csatornájához. Egyszerű, biztonságos és gyors.",
     "review_r3_role": "Ügynökség Producer"
+  },
+  "privacy_page": {
+    "meta_title": "Adatvédelmi szabályzat – 100%-os privát videótömörítés | VideoCompressorPro",
+    "meta_description": "Olvassa el a VideoCompressorPro adatvédelmi szabályzatát. Minden fájlját 100%-ban helyileg dolgozzuk fel a böngészőjében – a szervereinkre nem töltődnek fel fájlok."
+  },
+  "terms_page": {
+    "meta_title": "Szolgáltatási feltételek – Ingyenes online videóeszközök | VideoCompressorPro",
+    "meta_description": "Olvassa el a Szolgáltatási feltételeket a VideoCompressorPro ingyenes, biztonságos, böngészőalapú online videóeszközeinek használatához."
   }
 }
