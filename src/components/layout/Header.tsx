@@ -56,7 +56,35 @@ export function Header() {
   const [userEmail, setUserEmail] = useState("");
 
   useEffect(() => {
-    const checkAuth = () => {
+    const checkAuth = async () => {
+      // 1. Check active Supabase session (resolves Google OAuth redirect automatically)
+      try {
+        const { supabase } = await import("@/lib/supabase");
+        const { data: { session } } = await supabase.auth.getSession();
+        
+        if (session?.user) {
+          const user = session.user;
+          const name = user.user_metadata?.full_name || user.email?.split("@")[0] || "User";
+          
+          if (localStorage.getItem("user_logged_in") !== "true") {
+            localStorage.setItem("user_logged_in", "true");
+            localStorage.setItem("user_email", user.email || "");
+            localStorage.setItem("user_name", name);
+            window.dispatchEvent(new Event("auth_change"));
+            
+            // Redirect to dashboard if currently on auth or home-with-hash URL
+            const isAuthPage = window.location.pathname.includes("/login") || window.location.pathname.includes("/signup");
+            const isHomeHash = window.location.pathname === "/" && (window.location.hash.includes("access_token") || window.location.hash.includes("id_token"));
+            if (isAuthPage || isHomeHash) {
+              window.location.href = "/dashboard";
+              return;
+            }
+          }
+        }
+      } catch (err) {
+        console.error("Failed to check Supabase session in Header:", err);
+      }
+
       const loggedIn = localStorage.getItem("user_logged_in") === "true";
       setIsLoggedIn(loggedIn);
       if (loggedIn) {
@@ -66,12 +94,46 @@ export function Header() {
 
     checkAuth();
     window.addEventListener("auth_change", checkAuth);
-    return () => window.removeEventListener("auth_change", checkAuth);
+
+    // 2. Direct onAuthStateChange listener to keep states dynamically synchronized
+    let unsubscribe: any = null;
+    import("@/lib/supabase").then(({ supabase }) => {
+      const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+        if (session?.user) {
+          const user = session.user;
+          const name = user.user_metadata?.full_name || user.email?.split("@")[0] || "User";
+          localStorage.setItem("user_logged_in", "true");
+          localStorage.setItem("user_email", user.email || "");
+          localStorage.setItem("user_name", name);
+          setIsLoggedIn(true);
+          setUserEmail(user.email || "User");
+        } else if (event === "SIGNED_OUT") {
+          localStorage.removeItem("user_logged_in");
+          localStorage.removeItem("user_email");
+          localStorage.removeItem("user_name");
+          setIsLoggedIn(false);
+          setUserEmail("");
+        }
+      });
+      unsubscribe = subscription;
+    }).catch(err => console.error("Error setting up auth state listener:", err));
+
+    return () => {
+      window.removeEventListener("auth_change", checkAuth);
+      if (unsubscribe) unsubscribe.unsubscribe();
+    };
   }, []);
 
-  const handleLogout = () => {
+  const handleLogout = async () => {
+    try {
+      const { supabase } = await import("@/lib/supabase");
+      await supabase.auth.signOut();
+    } catch (err) {
+      console.error("Error signing out from Supabase:", err);
+    }
     localStorage.removeItem("user_logged_in");
     localStorage.removeItem("user_email");
+    localStorage.removeItem("user_name");
     localStorage.removeItem("user_token");
     setIsLoggedIn(false);
     window.location.href = "/";
