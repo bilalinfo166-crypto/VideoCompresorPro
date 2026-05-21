@@ -899,7 +899,9 @@
     "stat3_val": "0ms",
     "stat3_label": "服务器延迟",
     "stat4_val": "免费",
-    "stat4_label": "永久"
+    "stat4_label": "永久",
+    "meta_title": "关于我们 - 隐私第一的视频工具 |视频压缩软件",
+    "meta_description": "了解有关 VideoCompressorPro 的更多信息，我们的使命是免费提供闪电般快速、私密且高质量的在线视频工具。"
   },
   "contact_page": {
     "hero_title": "联系我们",
@@ -921,7 +923,9 @@
     "form_s4": "Business Opportunity",
     "form_message": "留言内容",
     "form_message_placeholder": "How can we help you?",
-    "form_submit": "发送留言"
+    "form_submit": "发送留言",
+    "meta_title": "联系我们 - 支持与查询 |视频压缩软件",
+    "meta_description": "请与 VideoCompressorPro 团队联系以获取支持、功能请求或业务咨询。我们随时为您提供帮助。"
   },
   "format_page": {
     "badge": "专用 {format} 压缩器",
@@ -958,7 +962,8 @@
     "login_link": "Log in here",
     "terms_privacy": "继续即表示您同意我们的条款和政策。",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
-    "back_home": "Back to Home"
+    "back_home": "Back to Home",
+    "optional_info": "虽然我们的工具 100% 免费且无需帐户即可完全运行，但创建一个工具可以让您保存自定义预设、访问高级编解码器并跟踪压缩历史记录。"
   },
   "comparison": {
     "title": "为什么选择 VideoCompressorPro？",
@@ -1855,5 +1860,13 @@
     "review_r2_role": "Vlogger 和视频编辑器",
     "review_r3_text": "我们机构的 YouTube Shorts 渠道的必备工具。简单、安全、快速。",
     "review_r3_role": "代理制作人"
+  },
+  "privacy_page": {
+    "meta_title": "隐私政策 - 100% 私人视频压缩 |视频压缩软件",
+    "meta_description": "阅读 VideoCompressorPro 的隐私政策。我们在您的浏览器中本地 100% 处理您的所有文件 - 不会将任何文件上传到我们的服务器。"
+  },
+  "terms_page": {
+    "meta_title": "服务条款-免费在线视频工具|视频压缩软件",
+    "meta_description": "请阅读使用 VideoCompressorPro 免费、安全、基于浏览器的在线视频工具的服务条款。"
   }
 }

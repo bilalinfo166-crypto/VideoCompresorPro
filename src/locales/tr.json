@@ -899,7 +899,9 @@
     "stat3_val": "0ms",
     "stat3_label": "Sunucu gecikmesi",
     "stat4_val": "Ücretsiz",
-    "stat4_label": "Sonsuza kadar"
+    "stat4_label": "Sonsuza kadar",
+    "meta_title": "Hakkımızda - Gizliliğe Önem Veren Video Araçları | VideoKompresörPro",
+    "meta_description": "Işık hızında, özel ve yüksek kaliteli çevrimiçi video araçlarını ücretsiz olarak sunma misyonumuz olan VideoCompressorPro hakkında daha fazla bilgi edinin."
   },
   "contact_page": {
     "hero_title": "Bize Ulaşın",
@@ -921,7 +923,9 @@
     "form_s4": "Business Opportunity",
     "form_message": "Mesaj",
     "form_message_placeholder": "How can we help you?",
-    "form_submit": "Mesaj Gönder"
+    "form_submit": "Mesaj Gönder",
+    "meta_title": "Bize Ulaşın - Destek ve Sorular | VideoKompresörPro",
+    "meta_description": "Destek, özellik talepleri veya iş soruları için VideoCompressorPro ekibiyle iletişime geçin. Yardım etmek için buradayız."
   },
   "format_page": {
     "badge": "Özel {format} sıkıştırıcı",
@@ -958,7 +962,8 @@
     "login_link": "Log in here",
     "terms_privacy": "Devam ederek şartlarımızı ve politikalarımızı kabul etmiş olursunuz.",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
-    "back_home": "Back to Home"
+    "back_home": "Back to Home",
+    "optional_info": "Araçlarımız %100 ücretsiz olmasına ve bir hesap olmadan tamamen çalışmasına rağmen, bir araç oluşturmak özel ön ayarları kaydetmenize, gelişmiş codec bileşenlerine erişmenize ve sıkıştırma geçmişini izlemenize olanak tanır."
   },
   "comparison": {
     "title": "Neden VideoCompressorPro?",
@@ -1855,5 +1860,13 @@
     "review_r2_role": "Vlogger ve Video Düzenleyici",
     "review_r3_text": "Ajansımızın YouTube Shorts kanalı için mutlaka sahip olunması gereken bir araç. Basit, güvenli ve hızlı.",
     "review_r3_role": "Ajans Yapımcısı"
+  },
+  "privacy_page": {
+    "meta_title": "Gizlilik Politikası - %100 Özel Video Sıkıştırma | VideoKompresörPro",
+    "meta_description": "VideoCompressorPro'nun Gizlilik Politikasını okuyun. Tüm dosyalarınızı tarayıcınızda %100 yerel olarak işleriz; sunucularımıza hiçbir dosya yüklenmez."
+  },
+  "terms_page": {
+    "meta_title": "Hizmet Şartları - Ücretsiz Çevrimiçi Video Araçları | VideoKompresörPro",
+    "meta_description": "VideoCompressorPro'nun ücretsiz, güvenli, tarayıcı tabanlı çevrimiçi video araçlarını kullanmak için Hizmet Koşullarını okuyun."
   }
 }

@@ -899,7 +899,9 @@
     "stat3_val": "0ms",
     "stat3_label": "伺服器延遲",
     "stat4_val": "免費",
-    "stat4_label": "永久"
+    "stat4_label": "永久",
+    "meta_title": "關於我們 - 隱私第一的視訊工具 |視訊壓縮軟體",
+    "meta_description": "了解有關 VideoCompressorPro 的更多信息，我們的使命是免費提供閃電般快速、私密且高品質的線上影片工具。"
   },
   "contact_page": {
     "hero_title": "聯繫我們",
@@ -921,7 +923,9 @@
     "form_s4": "Business Opportunity",
     "form_message": "留言內容",
     "form_message_placeholder": "How can we help you?",
-    "form_submit": "發送留言"
+    "form_submit": "發送留言",
+    "meta_title": "聯絡我們 - 支援與查詢 |視訊壓縮軟體",
+    "meta_description": "請與 VideoCompressorPro 團隊聯繫以取得支援、功能請求或業務諮詢。我們隨時為您提供協助。"
   },
   "format_page": {
     "badge": "專用 {format} 壓縮器",
@@ -958,7 +962,8 @@
     "login_link": "Log in here",
     "terms_privacy": "繼續即表示您同意我們的條款和政策。",
     "password_hint": "Minimum 8 characters with a mix of letters and numbers.",
-    "back_home": "Back to Home"
+    "back_home": "Back to Home",
+    "optional_info": "雖然我們的工具 100% 免費且無需帳戶即可完全運行，但創建一個工具可以讓您保存自訂預設、存取高級編解碼器並追蹤壓縮歷史記錄。"
   },
   "comparison": {
     "title": "為什麼選擇 VideoCompressorPro？",
@@ -1855,5 +1860,13 @@
     "review_r2_role": "Vlogger 和影片編輯器",
     "review_r3_text": "我們機構的 YouTube Shorts 頻道的必備工具。簡單、安全、快速。",
     "review_r3_role": "代理商製作人"
+  },
+  "privacy_page": {
+    "meta_title": "隱私權政策 - 100% 私人視訊壓縮 |視訊壓縮軟體",
+    "meta_description": "閱讀 VideoCompressorPro 的隱私權政策。我們在您的瀏覽器中本地 100% 處理您的所有文件 - 不會將任何文件上傳到我們的伺服器。"
+  },
+  "terms_page": {
+    "meta_title": "服務條款-免費線上影片工具|影片壓縮軟體",
+    "meta_description": "請閱讀使用 VideoCompressorPro 免費、安全、基於瀏覽器的線上影片工具的服務條款。"
   }
 }
