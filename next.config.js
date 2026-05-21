@@ -12,6 +12,19 @@ const nextConfig = {
       bodySizeLimit: '50mb',
     },
   },
+  async redirects() {
+    return [
+      // ── www → non-www permanent redirect (301) ────────────────────────────
+      // This fixes the duplicate domain issue in Google Search Console
+      // where both www and non-www versions were being indexed separately.
+      {
+        source: '/(.*)',
+        has: [{ type: 'host', value: 'www.videocompressorpro.com' }],
+        destination: 'https://videocompressorpro.com/:path*',
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
