@@ -15,7 +15,7 @@ export function OneTapSignup() {
 
       if (hasSeen || isLoggedIn) return;
 
-      const clientId = process.env.NEXT_PUBLIC_GOOGLE_DRIVE_CLIENT_ID || "969090107342-r11haf11a8q75tq03s27nqh9rd4ko5pf.apps.googleusercontent.com";
+      const clientId = process.env.NEXT_PUBLIC_GOOGLE_DRIVE_CLIENT_ID || "969090107342-sb8jtobgt0eocjp039g27ubb1v981ekm.apps.googleusercontent.com";
 
       const decodeJwt = (token: string) => {
         try {
