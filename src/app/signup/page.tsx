@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Video, ArrowLeft, Mail, Lock, Eye, EyeOff, Chrome, User, Sparkles, Loader2 } from "lucide-react";
+import { Video, ArrowLeft, Mail, Lock, Eye, EyeOff, Chrome, User, Sparkles, Loader2, CheckCircle2 } from "lucide-react";
 import { useState } from "react";
 import { useLanguage } from "@/context/LanguageContext";
 import { supabase } from "@/lib/supabase";
@@ -14,6 +14,7 @@ export default function SignupPage() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const [isRegistered, setIsRegistered] = useState(false);
 
   const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -44,16 +45,21 @@ export default function SignupPage() {
       }
 
       if (data?.user) {
-        // Also log in locally to maintain backward compatibility with Header
-        localStorage.setItem("user_logged_in", "true");
-        localStorage.setItem("user_email", email);
-        localStorage.setItem("user_name", name);
-        
-        // Dispatch auth_change event so header updates instantly
-        window.dispatchEvent(new Event("auth_change"));
-        
-        // Redirect to dashboard
-        window.location.href = "/dashboard";
+        if (data.session) {
+          // If auto-logged in (Confirm Email is DISABLED in Supabase console)
+          localStorage.setItem("user_logged_in", "true");
+          localStorage.setItem("user_email", email);
+          localStorage.setItem("user_name", name);
+          
+          // Dispatch auth_change event so header updates instantly
+          window.dispatchEvent(new Event("auth_change"));
+          
+          // Redirect to dashboard
+          window.location.href = "/dashboard";
+        } else {
+          // If email verification is REQUIRED (Confirm Email is ENABLED in Supabase console)
+          setIsRegistered(true);
+        }
       }
     } catch (err: any) {
       setError(err.message || "An unexpected error occurred.");
@@ -108,106 +114,135 @@ export default function SignupPage() {
 
         {/* Card */}
         <div className="glass-card rounded-2xl p-5 border border-[var(--card-border)] shadow-lg">
-          {/* Optional account benefits notice */}
-          <div className="mb-3.5 p-2.5 rounded-xl bg-blue-600/10 border border-blue-600/20 text-[10px] text-[var(--muted-text)] font-semibold leading-normal text-left">
-            💡 <span className="text-blue-500 font-bold">{t("auth.optional_info_badge")?.includes("auth.") ? "Optional Benefit" : (t("auth.optional_info_badge") || "Optional Benefit")}:</span> {t("auth.optional_info")}
-          </div>
-
-          {error && (
-            <div className="mb-3.5 p-3 rounded-xl bg-red-500/10 border border-red-500/20 text-[11px] font-semibold text-red-500 text-left">
-              ⚠️ {error}
-            </div>
-          )}
-
-          <form onSubmit={handleSignup} className="space-y-3.5">
-
-            {/* Name Field */}
-            <div className="space-y-1">
-              <label className="text-[11px] font-bold text-[var(--foreground)] px-0.5">{t("auth.full_name_label")}</label>
-              <div className="relative group">
-                <User className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--muted-text)] group-focus-within:text-blue-600 transition-colors" />
-                <input 
-                  type="text" 
-                  required
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                  placeholder="John Doe" 
-                  className="w-full bg-[var(--background)] border border-[var(--card-border)] py-2.5 pl-10 pr-4 text-xs rounded-xl text-[var(--foreground)] focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all font-semibold"
-                />
+          {isRegistered ? (
+            <div className="py-4 flex flex-col items-center text-center">
+              <div className="w-14 h-14 bg-green-500/10 border border-green-500/20 rounded-full flex items-center justify-center mb-4 text-green-500 animate-pulse">
+                <CheckCircle2 className="w-7 h-7" />
               </div>
+              <h2 className="text-lg font-black text-[var(--foreground)] tracking-tight mb-2">
+                {t("auth.verification_sent_title") === "auth.verification_sent_title" ? "Verify your email" : t("auth.verification_sent_title")}
+              </h2>
+              <p className="text-xs text-[var(--muted-text)] font-semibold leading-relaxed mb-6 px-2">
+                {t("auth.verification_sent_desc") === "auth.verification_sent_desc" 
+                  ? `We've sent a verification link to ${email}. Please check your inbox and verify your email to log in.`
+                  : t("auth.verification_sent_desc").replace("{email}", email)}
+              </p>
+              
+              <Link
+                href="/login"
+                className="w-full bg-blue-600 hover:bg-blue-500 text-white py-3 rounded-xl font-bold text-sm shadow-md shadow-blue-600/20 transition-all active:scale-[0.98] flex items-center justify-center"
+              >
+                {t("auth.go_to_login") === "auth.go_to_login" ? "Go to Login" : t("auth.go_to_login")}
+              </Link>
+              
+              <p className="text-[10px] text-[var(--muted-text)] font-semibold mt-4 opacity-75">
+                💡 {t("auth.spam_hint") === "auth.spam_hint" ? "Didn't receive it? Don't forget to check your spam folder!" : t("auth.spam_hint")}
+              </p>
             </div>
-
-            {/* Email Field */}
-            <div className="space-y-1">
-              <label className="text-[11px] font-bold text-[var(--foreground)] px-0.5">{t("auth.email_label")}</label>
-              <div className="relative group">
-                <Mail className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--muted-text)] group-focus-within:text-blue-600 transition-colors" />
-                <input 
-                  type="email" 
-                  required
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="example@mail.com" 
-                  className="w-full bg-[var(--background)] border border-[var(--card-border)] py-2.5 pl-10 pr-4 text-xs rounded-xl text-[var(--foreground)] focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all font-semibold"
-                />
+          ) : (
+            <>
+              {/* Optional account benefits notice */}
+              <div className="mb-3.5 p-2.5 rounded-xl bg-blue-600/10 border border-blue-600/20 text-[10px] text-[var(--muted-text)] font-semibold leading-normal text-left">
+                💡 <span className="text-blue-500 font-bold">{t("auth.optional_info_badge")?.includes("auth.") ? "Optional Benefit" : (t("auth.optional_info_badge") || "Optional Benefit")}:</span> {t("auth.optional_info")}
               </div>
-            </div>
 
-            {/* Password Field */}
-            <div className="space-y-1">
-              <label className="text-[11px] font-bold text-[var(--foreground)] px-0.5">{t("auth.password_label")}</label>
-              <div className="relative group">
-                <Lock className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--muted-text)] group-focus-within:text-blue-600 transition-colors" />
-                <input 
-                  type={showPassword ? "text" : "password"} 
-                  required
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  placeholder="Create password" 
-                  className="w-full bg-[var(--background)] border border-[var(--card-border)] py-2.5 pl-10 pr-10 text-xs rounded-xl text-[var(--foreground)] focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all font-semibold"
-                />
+              {error && (
+                <div className="mb-3.5 p-3 rounded-xl bg-red-500/10 border border-red-500/20 text-[11px] font-semibold text-red-500 text-left">
+                  ⚠️ {error}
+                </div>
+              )}
+
+              <form onSubmit={handleSignup} className="space-y-3.5">
+
+                {/* Name Field */}
+                <div className="space-y-1">
+                  <label className="text-[11px] font-bold text-[var(--foreground)] px-0.5">{t("auth.full_name_label")}</label>
+                  <div className="relative group">
+                    <User className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--muted-text)] group-focus-within:text-blue-600 transition-colors" />
+                    <input 
+                      type="text" 
+                      required
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                      placeholder="John Doe" 
+                      className="w-full bg-[var(--background)] border border-[var(--card-border)] py-2.5 pl-10 pr-4 text-xs rounded-xl text-[var(--foreground)] focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all font-semibold"
+                    />
+                  </div>
+                </div>
+
+                {/* Email Field */}
+                <div className="space-y-1">
+                  <label className="text-[11px] font-bold text-[var(--foreground)] px-0.5">{t("auth.email_label")}</label>
+                  <div className="relative group">
+                    <Mail className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--muted-text)] group-focus-within:text-blue-600 transition-colors" />
+                    <input 
+                      type="email" 
+                      required
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      placeholder="example@mail.com" 
+                      className="w-full bg-[var(--background)] border border-[var(--card-border)] py-2.5 pl-10 pr-4 text-xs rounded-xl text-[var(--foreground)] focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all font-semibold"
+                    />
+                  </div>
+                </div>
+
+                {/* Password Field */}
+                <div className="space-y-1">
+                  <label className="text-[11px] font-bold text-[var(--foreground)] px-0.5">{t("auth.password_label")}</label>
+                  <div className="relative group">
+                    <Lock className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--muted-text)] group-focus-within:text-blue-600 transition-colors" />
+                    <input 
+                      type={showPassword ? "text" : "password"} 
+                      required
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                      placeholder="Create password" 
+                      className="w-full bg-[var(--background)] border border-[var(--card-border)] py-2.5 pl-10 pr-10 text-xs rounded-xl text-[var(--foreground)] focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all font-semibold"
+                    />
+                    <button 
+                      type="button"
+                      onClick={() => setShowPassword(!showPassword)}
+                      className="absolute right-3.5 top-1/2 -translate-y-1/2 text-[var(--muted-text)] hover:text-blue-600 transition-colors"
+                    >
+                      {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                    </button>
+                  </div>
+                </div>
+
+                {/* Submit Button */}
+                <button 
+                  type="submit"
+                  disabled={isLoading}
+                  className="w-full bg-blue-600 hover:bg-blue-500 text-white py-3 rounded-xl font-bold text-sm shadow-md shadow-blue-600/20 transition-all active:scale-[0.98] mt-1.5 flex items-center justify-center gap-1.5"
+                >
+                  {isLoading ? <Loader2 className="w-4 h-4 animate-spin" /> : t("auth.signup_btn")}
+                </button>
+
+                <div className="relative flex items-center py-1">
+                  <div className="flex-grow border-t border-[var(--card-border)]"></div>
+                  <span className="flex-shrink mx-3 text-[10px] font-bold text-[var(--muted-text)] uppercase tracking-wider">{t("auth.or_email")}</span>
+                  <div className="flex-grow border-t border-[var(--card-border)]"></div>
+                </div>
+
+                {/* Social Signup */}
                 <button 
                   type="button"
-                  onClick={() => setShowPassword(!showPassword)}
-                  className="absolute right-3.5 top-1/2 -translate-y-1/2 text-[var(--muted-text)] hover:text-blue-600 transition-colors"
+                  onClick={handleGoogleSignup}
+                  className="w-full flex items-center justify-center gap-2.5 bg-white dark:bg-slate-800 border border-[var(--card-border)] py-2.5 rounded-xl font-bold text-xs text-[var(--foreground)] hover:bg-slate-50 dark:hover:bg-slate-700 transition-all group active:scale-[0.98]"
                 >
-                  {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                  <div className="w-4 h-4 flex items-center justify-center bg-white rounded-full p-0.5 shadow-sm border border-slate-200">
+                    <Chrome className="w-full h-full text-blue-600" />
+                  </div>
+                  {t("auth.google_signup")}
                 </button>
-              </div>
-            </div>
+              </form>
 
-            {/* Submit Button */}
-            <button 
-              type="submit"
-              disabled={isLoading}
-              className="w-full bg-blue-600 hover:bg-blue-500 text-white py-3 rounded-xl font-bold text-sm shadow-md shadow-blue-600/20 transition-all active:scale-[0.98] mt-1.5 flex items-center justify-center gap-1.5"
-            >
-              {isLoading ? <Loader2 className="w-4 h-4 animate-spin" /> : t("auth.signup_btn")}
-            </button>
-
-            <div className="relative flex items-center py-1">
-              <div className="flex-grow border-t border-[var(--card-border)]"></div>
-              <span className="flex-shrink mx-3 text-[10px] font-bold text-[var(--muted-text)] uppercase tracking-wider">{t("auth.or_email")}</span>
-              <div className="flex-grow border-t border-[var(--card-border)]"></div>
-            </div>
-
-            {/* Social Signup */}
-            <button 
-              type="button"
-              onClick={handleGoogleSignup}
-              className="w-full flex items-center justify-center gap-2.5 bg-white dark:bg-slate-800 border border-[var(--card-border)] py-2.5 rounded-xl font-bold text-xs text-[var(--foreground)] hover:bg-slate-50 dark:hover:bg-slate-700 transition-all group active:scale-[0.98]"
-            >
-              <div className="w-4 h-4 flex items-center justify-center bg-white rounded-full p-0.5 shadow-sm border border-slate-200">
-                <Chrome className="w-full h-full text-blue-600" />
-              </div>
-              {t("auth.google_signup")}
-            </button>
-          </form>
-
-          <p className="text-center text-[var(--muted-text)] text-xs font-semibold mt-4">
-            {t("auth.have_account")}{" "}
-            <Link href="/login" className="text-blue-600 font-bold hover:underline">{t("auth.login_link")}</Link>
-          </p>
+              <p className="text-center text-[var(--muted-text)] text-xs font-semibold mt-4">
+                {t("auth.have_account")}{" "}
+                <Link href="/login" className="text-blue-600 font-bold hover:underline">{t("auth.login_link")}</Link>
+              </p>
+            </>
+          )}
         </div>
 
         {/* Footer info */}
