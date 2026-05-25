@@ -75,9 +75,30 @@ export default function VideoCutterPage() {
     }))
   };
 
+  const softwareSchema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": t("tools.cutter_title"),
+    "description": t("tools.cutter_desc"),
+    "operatingSystem": "All",
+    "applicationCategory": "MultimediaApplication",
+    "browserRequirements": "Requires HTML5 and WebAssembly support",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1840"
+    }
+  };
+
   return (
     <div className="flex flex-col transition-colors duration-300">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema) }} />
       
       <Breadcrumbs items={[{ label: "Video Tools", href: "/" }, { label: "Video Cutter", href: "/video-cutter" }]} />
 

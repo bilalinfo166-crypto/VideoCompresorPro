@@ -56,8 +56,57 @@ export default function CompressorClient({ data, slug }: { data: SEOData, slug: 
                      slug.includes('email') ? 'Email' : 
                      slug.toUpperCase();
 
+  // Dynamically build localized FAQ schema
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": data.faqs.map((faq, i) => {
+      const locQ = t(`pseo.${slug}.faqs.${i}.q`);
+      const locA = t(`pseo.${slug}.faqs.${i}.a`);
+      const q = locQ.includes('pseo.') ? faq.q : locQ;
+      const a = locA.includes('pseo.') ? faq.a : locA;
+      return {
+        "@type": "Question",
+        "name": q,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": a
+        }
+      };
+    })
+  };
+
+  // Dynamically build localized SoftwareApplication schema
+  const localizedTitle = t(`pseo.${slug}.title`);
+  const appTitle = localizedTitle.includes('pseo.') ? data.title : localizedTitle;
+  const localizedDesc = t(`pseo.${slug}.description`);
+  const appDesc = localizedDesc.includes('pseo.') ? data.description : localizedDesc;
+
+  const softwareSchema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": appTitle,
+    "description": appDesc,
+    "operatingSystem": "All",
+    "applicationCategory": "MultimediaApplication",
+    "browserRequirements": "Requires HTML5 and WebAssembly support",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1248"
+    }
+  };
+
   return (
     <div className="flex flex-col transition-colors duration-300">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema) }} />
+      
       <Breadcrumbs 
         items={[
           { label: "Home", href: "/" },

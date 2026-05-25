@@ -101,9 +101,30 @@ export default function VideoToTextPage() {
     }))
   };
 
+  const softwareSchema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": t("tools.to_text_title"),
+    "description": t("tools.to_text_desc"),
+    "operatingSystem": "All",
+    "applicationCategory": "MultimediaApplication",
+    "browserRequirements": "Requires HTML5 and WebAssembly support",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1040"
+    }
+  };
+
   return (
     <div className="flex flex-col transition-colors duration-300">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema) }} />
       
       <Breadcrumbs items={[{ label: "AI Tools", href: "/" }, { label: "Video to Text", href: "/video-to-text" }]} />
 

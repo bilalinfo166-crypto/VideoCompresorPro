@@ -76,11 +76,20 @@ export function Footer() {
   ];
 
   const FORMAT_LINKS = [
-    { label: t("footer.links.compress_mp4"), href: "/" },
-    { label: t("footer.links.compress_avi"), href: "/" },
-    { label: t("footer.links.compress_mov"), href: "/" },
-    { label: t("footer.links.compress_mkv"), href: "/" },
-    { label: t("footer.links.compress_webm"), href: "/" },
+    { label: t("footer.links.compress_mp4"), href: "/compress-mp4" },
+    { label: t("footer.links.compress_avi"), href: "/compress-avi" },
+    { label: t("footer.links.compress_mov"), href: "/compress-mov" },
+    { label: t("footer.links.compress_mkv"), href: "/compress-mkv" },
+    { label: t("footer.links.compress_webm"), href: "/compress-webm" },
+  ];
+
+  const PLATFORM_LINKS = [
+    { label: t("footer.links.compress_whatsapp"), href: "/compress-video-for-whatsapp" },
+    { label: t("footer.links.compress_discord"), href: "/compress-video-for-discord" },
+    { label: t("footer.links.compress_instagram"), href: "/compress-video-for-instagram" },
+    { label: t("footer.links.compress_tiktok"), href: "/compress-tiktok" },
+    { label: t("footer.links.compress_youtube"), href: "/compress-youtube" },
+    { label: t("footer.links.compress_email"), href: "/compress-video-for-email" },
   ];
 
   const LEGAL_LINKS = [
@@ -119,7 +128,7 @@ export function Footer() {
         </div>
 
         {/* Links Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-0 md:gap-8 mb-0 md:mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-6 gap-0 md:gap-8 mb-0 md:mb-6">
           {/* Brand Description — desktop only */}
           <div className="hidden md:block md:col-span-2">
             <Link href={getLocalizedHref('/')} className="flex items-center gap-2 mb-4" aria-label="VideoCompressorPro Home">
@@ -154,6 +163,7 @@ export function Footer() {
           {/* Collapsible on Mobile, Static on Desktop */}
           <FooterSection title={t("footer.tools")} links={TOOL_LINKS} getHref={getLocalizedHref} />
           <FooterSection title={t("footer.formats")} links={FORMAT_LINKS} getHref={getLocalizedHref} />
+          <FooterSection title={t("footer.platforms")} links={PLATFORM_LINKS} getHref={getLocalizedHref} />
           <FooterSection title={t("footer.company")} links={LEGAL_LINKS} getHref={getLocalizedHref} />
         </div>
 
