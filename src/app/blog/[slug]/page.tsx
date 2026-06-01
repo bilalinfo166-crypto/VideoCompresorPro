@@ -12,6 +12,7 @@ import {
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { BLOG_POSTS, BlogPost } from "@/data/blog-posts";
 import { useLanguage } from "@/context/LanguageContext";
+import DirectAnswer from "@/components/seo/DirectAnswer";
 
 interface BlogPostProps {
   params: {
@@ -27,6 +28,10 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
   if (!post) {
     notFound();
   }
+
+  const currentYear = new Date().getFullYear().toString();
+  const freshTitle = post.title.replace(/2026/g, currentYear);
+  const freshContent = post.content.replace(/2026/g, currentYear);
 
   const [scrollProgress, setScrollProgress] = useState(0);
   const [activeSection, setActiveSection] = useState("");
@@ -64,7 +69,7 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
   // Parse Markdown Content to generate Table of Contents list
   useEffect(() => {
     const headingList: { id: string; text: string; level: number }[] = [];
-    const lines = post.content.split("\n");
+    const lines = freshContent.split("\n");
     lines.forEach((line) => {
       if (line.startsWith("## ")) {
         const text = line.replace("## ", "").replace(/\*\*/g, "");
@@ -77,7 +82,7 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
       }
     });
     setHeadings(headingList);
-  }, [post.content]);
+  }, [freshContent]);
 
   // Handle Share Actions
   const handleCopyLink = () => {
@@ -329,7 +334,7 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "headline": post.title,
+    "headline": freshTitle,
     "description": post.metaDesc,
     "image": post.image,
     "datePublished": "2026-05-20T16:00:00+05:00",
@@ -359,11 +364,37 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
     }))
   };
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://videocompressorpro.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://videocompressorpro.com/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": freshTitle,
+        "item": `https://videocompressorpro.com/blog/${post.slug}`
+      }
+    ]
+  };
+
   return (
     <div className="flex flex-col min-h-screen pt-8 pb-20 bg-[var(--background)]">
       {/* Dynamic SEO Schemas */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Reading Progress Indicator */}
       <div 
@@ -371,7 +402,7 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
         style={{ width: `${scrollProgress}%` }}
       />
 
-      <Breadcrumbs items={[{ label: "Blog", href: "/blog" }, { label: post.title, href: `/blog/${post.slug}` }]} />
+      <Breadcrumbs items={[{ label: "Blog", href: "/blog" }, { label: freshTitle, href: `/blog/${post.slug}` }]} />
 
       <main className="container mx-auto px-4 max-w-6xl mt-6 flex-1">
         {/* Back navigation */}
@@ -393,7 +424,7 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
                 {post.category}
               </span>
               <h1 className="text-3xl sm:text-5xl font-black text-[var(--foreground)] tracking-tight leading-tight mb-6">
-                {post.title}
+                {freshTitle}
               </h1>
 
               {/* Author info & stats */}
@@ -423,12 +454,21 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
 
             {/* Featured Hero Banner */}
             <div className="relative aspect-[16/9] w-full rounded-[2.5rem] overflow-hidden border border-[var(--card-border)] shadow-md mb-12">
-              <Image src={post.image} alt={post.title} fill className="object-cover" priority />
+              <Image src={post.image} alt={freshTitle} fill className="object-cover" priority />
             </div>
+
+            {/* Direct Answer Featured Snippet optimization */}
+            {post.directAnswer && (
+              <DirectAnswer 
+                question={post.directAnswer.question}
+                answer={post.directAnswer.answer}
+                steps={post.directAnswer.steps}
+              />
+            )}
 
             {/* Main Post Body */}
             <div ref={contentRef} className="prose dark:prose-invert max-w-none text-[var(--foreground)]">
-              {renderMarkdown(post.content)}
+              {renderMarkdown(freshContent)}
             </div>
 
             {/* Customized Conversion CTA Banner */}

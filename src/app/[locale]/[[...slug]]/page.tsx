@@ -161,16 +161,20 @@ export async function generateMetadata({ params }: LocalizedPageProps) {
     languages[loc] = `${baseUrl}/${loc}${path ? `/${path}` : ''}`;
   }
 
+  const currentYear = new Date().getFullYear().toString();
+  const freshTitle = typeof title === "string" ? title.replace(/2026/g, currentYear) : title;
+  const freshDesc = typeof description === "string" ? description.replace(/2026/g, currentYear) : description;
+
   const metadataResult: any = {
-    title,
-    description,
+    title: freshTitle,
+    description: freshDesc,
     alternates: {
       canonical: fullUrl,
       languages,
     },
     openGraph: {
-      title,
-      description,
+      title: freshTitle,
+      description: freshDesc,
       url: fullUrl,
     }
   };
