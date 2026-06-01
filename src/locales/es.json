@@ -33,8 +33,8 @@
     "mobile_language": "Idioma"
   },
   "hero": {
-    "title_main": "Compresor de Vídeo sin pérdida de calidad",
-    "subtitle": "Nuestro compresor de vídeo gratuito puede comprimir archivos de vídeo online en segundos. Reduce el tamaño de MP4, MOV, AVI, MKV y más directamente en tu navegador sin pérdida de calidad visible.",
+    "title_main": "Compresor de Video Online Gratis - Reducir Tamaño de Video",
+    "subtitle": "Comprimir videos gratis y reducir tamaño de video online en segundos. Nuestro compresor de videos le permite bajar peso de video MP4, MOV, AVI, MKV y otros formatos grandes sin perder calidad.",
     "drop_title": "Suelta el vídeo aquí",
     "drop_subtitle": "o haz clic para seleccionar de tu dispositivo"
   },
@@ -125,8 +125,8 @@
     "audio_failed": "El corte falló. Revisa el formato del tiempo (HH:MM:SS)."
   },
   "tools": {
-    "compressor_title": "Compresor de vídeo",
-    "compressor_desc": "Optimice el tamaño del video, así como la calidad para verlo y compartirlo, almacenarlo, subirlo a sitios web y redes sociales. Funciona con MP4, MOV, AVI, MKV y formatos de archivo más populares.\n\nCOMPRIMIR • OPTIMIZAR • REDUCIR EL TAMAÑO DEL ARCHIVO",
+    "compressor_title": "Compresor de Video Online Gratis | Reducir Tamaño de Video",
+    "compressor_desc": "Comprimir video online gratis para reducir tamaño de video sin perder calidad. Nuestro compresor de videos soporta comprimir mp4, MOV, AVI, MKV y más para bajar peso de video rápido.",
     "cutter_title": "Cortador de vídeo en línea",
     "cutter_desc": "Recorte grabaciones largas, elimine partes superfluas y cree clips más cortos para YouTube, TikTok, Instagram Reels, tutoriales, presentaciones y contenido de creadores.\n\nCORTAR • DIVIDIR • EDITAR VIDEOCLIPS",
     "cropper_title": "Recortador de vídeo",
@@ -226,12 +226,12 @@
     "r12_role": "Creador Digital"
   },
   "why_choose": {
-    "title": "Privacidad sin riesgo de subida",
-    "desc": "A diferencia de otros, priorizamos la privacidad. El procesamiento local protege tu contenido al 100%.",
-    "point1": "Sin límites en compresión básica",
-    "point2": "Tus vídeos nunca tocan nuestros servidores",
+    "title": "Cómo Comprimir un Video de Forma Segura Sin Subir Archivos",
+    "desc": "Reducir tamaño de video online de forma privada. Nuestro procesamiento local protege tu privacidad al 100% al comprimir videos grandes.",
+    "point1": "Comprimir videos gratis y sin límites",
+    "point2": "Tus videos nunca tocan nuestros servidores",
     "point3": "Funciona offline tras la primera carga",
-    "point4": "No es necesario crear cuenta"
+    "point4": "Compresor de videos sin necesidad de registro"
   },
   "formats_sec": {
     "title": "Soporte para más de 30 formatos de vídeo",
@@ -246,8 +246,8 @@
     "a2": "Sí, funciona en Android, iPhone, tablets y PC a través de cualquier navegador moderno.",
     "q3": "¿Cómo funciona?",
     "a3": "Carga el vídeo, elige los parámetros y nuestra IA optimiza el archivo manteniendo la alta calidad.",
-    "q4": "¿Cómo reducir el tamaño sin perder calidad?",
-    "a4": "Elige los ajustes equilibrados. VideoCompressorPro está diseñado para mantener resolución y bitrate.",
+    "q4": "¿Cómo comprimir video sin perder calidad?",
+    "a4": "Para comprimir video sin perder calidad, elija los ajustes 'Equilibrado' o 'Alta Calidad'. Nuestro compresor de videos optimizará la tasa de bits y resolución para mantener el video nítido.",
     "q5": "¿Cómo reproduzco los vídeos comprimidos?",
     "a5": "Funcionan como archivos normales en cualquier dispositivo o red social.",
     "q6": "¿Cuál es el mejor codificador?",
@@ -262,10 +262,10 @@
     "a10": "Sì, sin suscripciones, descargas o configuraciones complicadas.",
     "q11": "¿Qué formatos son aceptados?",
     "a11": "MP4, MOV, AVI, MKV, WebM, MPEG y muchos otros.",
-    "q12": "¿Cómo hacer un vídeo más ligero?",
-    "a12": "Carga el archivo, elige el nivel de compresión и descarga la versión optimizada.",
-    "q13": "¿Cómo reducir peso de archivos MP4?",
-    "a13": "Reduce el bitrate o la resolución con nuestro compresor MP4 especializado.",
+    "q12": "¿Cómo bajar peso de video online?",
+    "a12": "Bajar peso de video es muy fácil: cargue el archivo de video, elija el tamaño objetivo (como comprimir video a 10MB o 100MB) y descargue la versión optimizada gratis.",
+    "q13": "¿Cómo reducir tamaño de video MP4?",
+    "a13": "Puede reducir tamaño de video MP4 con nuestro compresor de video gratis disminuyendo el bitrate o la resolución del archivo.",
     "q14": "¿Cómo comprimir sin que se vea borroso?",
     "a14": "Usa nuestros parámetros ideales para mantener una completa claridad visual.",
     "q15": "¿Por qué cambiar la calidad?",
@@ -1039,11 +1039,11 @@
   },
   "pseo": {
     "mp4": {
-      "title": "Comprimir MP4 Online - Reducir Tamaño de Vídeo Sin Perder Calidad",
-      "description": "Comprime vídeos MP4 online gratis. Reduce el tamaño de archivos MP4 rápidamente y sin marcas de agua. Ideal para compartir por móvil, email y redes sociales.",
-      "h1": "Compresor de Vídeo MP4 Rápido",
-      "heroText": "El compresor de MP4 más confiable del mundo. Reduce tus archivos MP4 en segundos manteniendo una calidad impresionante de 1080p/4K.",
-      "introText": "MP4 es el formato de vídeo más popular, pero los archivos de alta resolución pueden ser enormes. Nuestro motor de compresión inteligente analiza los bitrates de tu MP4 para ofrecer el equilibrio perfecto entre tamaño de archivo y claridad visual.",
+      "title": "Comprimir MP4 Online Gratis | MP4 Compressor & Reducir Video",
+      "description": "Comprimir video MP4 online gratis para reducir tamaño de video sin perder calidad. Bajar peso de video MP4 en segundos y sin marca de agua.",
+      "h1": "Compresor de Video MP4 Online",
+      "heroText": "El mejor compresor de videos MP4 para reducir tamaño de video online gratis. Baje el peso de archivos MP4 manteniendo calidad HD/4K.",
+      "introText": "MP4 is the most popular video format, but high-resolution MP4 files can be massive. Our intelligent compression engine analyzes your MP4 bitrates to provide the perfect balance to reduce size of your video.",
       "features": [
         {
           "title": "Sin Pérdida de Calidad",
@@ -1129,11 +1129,11 @@
       ]
     },
     "video-for-whatsapp": {
-      "title": "Comprimir Vídeo para WhatsApp Online - Envía Vídeos Grandes Fácilmente",
-      "description": "Comprime vídeos para WhatsApp online. Reduce archivos por debajo de 16MB o 64MB para superar los límites de WhatsApp. Sin marcas de agua, 100% gratis.",
-      "h1": "Compresor de Vídeo para WhatsApp",
-      "heroText": "Deja de recibir el error 'Archivo demasiado grande' en WhatsApp. Comprime tus vídeos para que se ajusten perfectamente al límite de 16MB o 64MB.",
-      "introText": "WhatsApp tiene límites estrictos de tamaño de archivo (16MB para móvil, 64MB para web). Nuestra herramienta optimiza automáticamente tu vídeo para cumplir con estos límites manteniendo el contenido claro.",
+      "title": "Comprimir Video para WhatsApp Online - Bajar Peso de Video WA",
+      "description": "Comprimir video para WhatsApp online gratis. Reducir tamaño de video por debajo de 16MB o 64MB para enviar por WA sin perder calidad.",
+      "h1": "Compresor de Video para WhatsApp",
+      "heroText": "Cómo comprimir un video para WhatsApp sin perder calidad. Baje el peso de sus videos para cumplir el límite de 16MB o 64MB online gratis.",
+      "introText": "WhatsApp tiene límites de tamaño estrictos. Nuestro reductor de videos optimiza sus archivos automáticamente para enviarlos sin problemas por WhatsApp.",
       "features": [
         {
           "title": "Superar Límites",
@@ -1670,19 +1670,19 @@
     }
   },
   "blog": {
-    "meta_title": "Centro de aprendizaje sobre optimización de vídeos | Blog de VideoCompressorPro",
-    "meta_desc": "Lea tutoriales de expertos, análisis profundos de códecs, secretos de compresión y guías de mejora visual para que sus videos sean livianos y hermosos.",
+    "meta_title": "Blog de Optimización de Video | Cómo Comprimir Video Online",
+    "meta_desc": "Tutoriales para aprender cómo reducir tamaño de video online gratis. Aprenda a comprimir video MP4, MOV, MKV y bajar el peso de sus videos sin perder calidad.",
     "send-large-video-whatsapp-without-quality-loss": {
-      "title": "Cómo enviar archivos de vídeo grandes en WhatsApp sin pérdida de calidad",
-      "description": "¿Tienes problemas con el límite de vídeo de 16 MB de WhatsApp? Conozca los mejores métodos de compresión en línea para enviar videos grandes y de alta calidad en WhatsApp al instante."
+      "title": "Cómo Comprimir Video para WhatsApp sin Perder Calidad - Reducir Peso",
+      "description": "Cómo comprimir un video para enviar por WhatsApp. Aprenda los mejores métodos de compresión online gratis para reducir peso y enviar videos a WA sin perder calidad."
     },
     "compress-video-for-discord-limits": {
-      "title": "Comprimir videos para Discord gratis (menos de 8 MB, 25 MB y 100 MB)",
-      "description": "Solucione el error \"archivo demasiado potente\". Comprime y reduce fácilmente vídeos bajo los límites de tamaño de archivo de 8 MB, 25 MB y 100 MB de Discord de forma gratuita y en línea."
+      "title": "Comprimir Videos para Discord Gratis (Límites de 8MB, 25MB y 100MB)",
+      "description": "Cómo reducir el tamaño de un video para Discord. Comprima y baje el peso de sus videos online gratis para compartirlos sin límites."
     },
     "compress-video-for-email-gmail-outlook": {
-      "title": "Comprimir vídeo para correo electrónico (límites de Gmail, Outlook y Yahoo)",
-      "description": "¿Error de archivo adjunto de correo electrónico demasiado grande? Aprenda a comprimir archivos de vídeo de menos de 25 MB para Gmail y Outlook de forma fácil y gratuita en línea."
+      "title": "Cómo Comprimir un Video para Enviar por Correo Electrónico",
+      "description": "¿Error de archivo adjunto demasiado grande? Aprenda a reducir tamaño de video a menos de 25MB para adjuntarlo en Gmail u Outlook de forma rápida y gratuita."
     },
     "perfect-video-sizes-tiktok-instagram-reels-youtube-shorts": {
       "title": "Los tamaños de video perfectos para TikTok, Instagram Reels y YouTube Shorts",
@@ -1705,12 +1705,12 @@
       "description": "Los archivos de vídeo de gran tamaño aplastan las puntuaciones de Core Web Vitals. Aprenda cómo reducir videos para uso web, mejorar la velocidad de carga y mejorar su clasificación SEO con la configuración adecuada."
     },
     "compress-mp4-without-losing-quality": {
-      "title": "Cómo comprimir vídeos MP4 online sin perder calidad",
-      "description": "Aprenda las técnicas exactas para comprimir videos MP4 sin perder calidad. Reduzca el tamaño de los archivos entre un 60 y un 80 % manteniendo la resolución HD y los detalles nítidos de forma gratuita."
+      "title": "Cómo comprimir videos MP4 online gratis sin perder calidad",
+      "description": "Aprenda las técnicas de compresión avanzadas para reducir tamaño de video MP4 de un 60% a un 80% manteniendo la calidad HD y los detalles nítidos de forma gratuita."
     },
     "5-ways-reduce-video-file-size-free": {
-      "title": "5 formas sencillas de reducir el tamaño de un archivo de vídeo al instante (100% gratis)",
-      "description": "Descubra 5 formas sencillas y completamente gratuitas de reducir el tamaño de un archivo de vídeo sin arruinar la calidad. Funciona en cualquier dispositivo o sistema operativo."
+      "title": "5 Formas de Reducir Tamaño de Video Online Gratis y Rápido",
+      "description": "Descubra 5 formas sencillas y completamente gratis de reducir peso de video sin perder calidad. Funciona en Android, iPhone, Windows y Mac."
     },
     "compress-4k-to-1080p-online": {
       "title": "Cómo comprimir vídeos 4K a 1080p en línea rápidamente",
@@ -1725,8 +1725,8 @@
       "description": "No permita que la compresión arruine la nitidez de su video. Conozca la configuración profesional utilizada para reducir el tamaño del video entre un 50 y un 80 % sin introducir pixelación ni desenfoque."
     },
     "reduce-gb-to-mb-compress-large-videos": {
-      "title": "Cómo reducir GB a MB: comprimir vídeos grandes en línea en segundos",
-      "description": "¿Tienes un archivo de vídeo masivo de varios gigabytes? Aprende cómo reducirlo a megas online en segundos sin necesidad de instalación y sin perder calidad."
+      "title": "Cómo Reducir GB a MB: Comprimir Videos Grandes Online Gratis",
+      "description": "¿Tiene un video de 1gb o 2gb muy grande? Aprenda a reducir tamaño de video a mb de forma rápida y sencilla sin perder calidad."
     },
     "bulk-video-compression-guide": {
       "title": "Cómo comprimir vídeos de forma masiva en línea (Guía de compresión por lotes)",
@@ -1753,8 +1753,8 @@
       "description": "¿Confundido acerca de MKV vs MP4? Conozca la diferencia, cuándo usar cada uno y cómo convertir y comprimir archivos MKV a MP4 en línea de forma gratuita sin perder calidad."
     },
     "compress-video-windows-10-11": {
-      "title": "Cómo comprimir archivos de vídeo grandes en Windows 10 y Windows 11",
-      "description": "Aprenda a comprimir archivos de vídeo grandes en Windows 10 y Windows 11 de forma rápida y gratuita, sin instalar ningún software ni códecs adicionales."
+      "title": "Cómo Comprimir Video en PC o Laptop Windows 10 & 11",
+      "description": "Cómo reducir tamaño de video en laptop o PC Windows 10/11 de forma online y gratuita. Comprima videos grandes fácilmente sin programas pesados."
     },
     "trim-cut-video-online-before-compressing": {
       "title": "Cómo recortar y cortar vídeos grandes en línea antes de comprimirlos",
@@ -1794,8 +1794,8 @@
     }
   },
   "tiktok_page": {
-    "hero_title": "Compresor de video TikTok sin pérdida de calidad",
-    "hero_subtitle": "Comprime y optimiza tus videos para TikTok en línea en segundos. Reduzca el tamaño del archivo para cargarlo más rápido, ajustarlo a los límites y obtener una mayor retención en el FYP sin comprometer la calidad visual.",
+    "hero_title": "Compresor de Video TikTok Online Gratis | Reducir Peso de Video",
+    "hero_subtitle": "Comprimir videos gratis para TikTok de forma rápida y sencilla. Aprenda cómo reducir el tamaño de un video vertical para cargarlo al instante en el FYP sin pixelar.",
     "features_badge": "TikTok optimizado",
     "features_title": "Compresor de video gratuito para cargas de TikTok",
     "features_desc": "Haga que sus videos de TikTok se carguen instantáneamente, evite retrasos en el procesamiento de la carga y evite perfectamente el límite de tamaño de archivo. Nuestra tecnología WASM basada en navegador comprime sus videos verticales localmente para brindar 100% de seguridad.",
@@ -1819,8 +1819,8 @@
     "review_r3_role": "Educador en línea"
   },
   "reels_page": {
-    "hero_title": "Compresor de vídeo de carretes de Instagram en línea",
-    "hero_subtitle": "Reduzca y optimice videos verticales para Instagram Reels sin perder claridad. Garantice cargas rápidas, reproducción fluida y perfiles de color impecables directamente desde su navegador.",
+    "hero_title": "Compresor de Video Reels de Instagram Online | Reducir Tamaño de Video",
+    "hero_subtitle": "Cómo reducir el tamaño de un video vertical para Reels de Instagram de forma online. Baje el peso de sus videos y garantice cargas ultrarrápidas con la máxima definición.",
     "features_badge": "Reels de Instagram optimizados",
     "features_title": "Compresor de vídeo gratuito para carretes de Instagram",
     "features_desc": "La compresión agresiva de Instagram puede arruinar los videos de alta resolución. Al optimizar su vídeo a la tasa de bits correcta de antemano, conserva el control y se asegura de que sus carretes permanezcan nítidos.",
@@ -1844,8 +1844,8 @@
     "review_r3_role": "Director de marketing"
   },
   "shorts_page": {
-    "hero_title": "Compresor de vídeos cortos de YouTube en línea",
-    "hero_subtitle": "Comprime videos MP4 verticales para YouTube Shorts sin pérdida visual. Optimice la resolución, la tasa de bits y la velocidad de fotogramas para una carga instantánea y una máxima retención de espectadores.",
+    "hero_title": "Compresor de YouTube Shorts Online Gratis | Reducir Peso Video",
+    "hero_subtitle": "Cómo comprimir videos de YouTube Shorts de forma online gratis. Reduzca peso y baje los megas de sus videos MP4 verticales sin perder calidad.",
     "features_badge": "Cortos de YouTube optimizados",
     "features_title": "Compresor de vídeo gratuito para cortos de YouTube",
     "features_desc": "Asegúrese de que sus cortos verticales cumplan con los perfiles de reproducción H.264 exactos de YouTube. Reduzca imágenes DSLR o móviles de alta tasa de bits a archivos listos para la web en segundos, ejecutándose completamente sin conexión.",

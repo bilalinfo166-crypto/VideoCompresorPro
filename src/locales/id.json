@@ -33,8 +33,8 @@
     "mobile_language": "Bahasa"
   },
   "hero": {
-    "title_main": "Kompresor Video Tanpa Kurangi Kualitas",
-    "subtitle": "Kompresor video gratis kami dapat mengompres file video online dalam hitungan detik. Langsung dari browser Anda, kurangi ukuran file MP4, MOV, AVI, MKV, dan lainnya tanpa kehilangan kualitas yang terlihat.",
+    "title_main": "Kompresor Video Online Gratis - Mengecilkan Ukuran Video",
+    "subtitle": "Kompres video gratis dan perkecil ukuran video online dalam hitungan detik. Pengecil mb video berbasis browser kami memudahkan Anda memperkecil ukuran video MP4, MOV, AVI, MKV, dan ukuran besar lainnya (lebih dari 100mb hingga 1gb) tanpa mengurangi kualitas.",
     "drop_title": "Letakkan video di sini",
     "drop_subtitle": "atau klik untuk memilih dari perangkat"
   },
@@ -125,8 +125,8 @@
     "audio_failed": "Potong gagal. Periksa format waktu (JJ:MM:DD)."
   },
   "tools": {
-    "compressor_title": "Kompresor Video",
-    "compressor_desc": "Optimalkan ukuran video, serta kualitas untuk dilihat dan dibagikan, penyimpanan, situs web, dan unggahan media sosial. Bekerja dengan format file MP4, MOV, AVI, MKV dan lebih populer.\n\nKOMPRESKAN • OPTIMALKAN • MENGURANGI UKURAN FILE",
+    "compressor_title": "Kompresor Video Online Gratis | Pengecil & Perkecil Ukuran Video",
+    "compressor_desc": "Kompres video online gratis untuk mengecilkan ukuran video tanpa mengurangi kualitas. Pengecil mb video kami mendukung MP4 compressor, MOV, AVI, MKV, untuk perkecil mb video Anda dengan cepat dan aman.",
     "cutter_title": "Pemotong Video Online",
     "cutter_desc": "Pangkas rekaman panjang, hapus bagian yang tidak relevan, dan buat klip pendek untuk YouTube, TikTok, Reel Instagram, tutorial, presentasi, dan konten pembuat.\n\nPOTONG • PISAHKAN • EDIT KLIP VIDEO",
     "cropper_title": "Pemotong Video",
@@ -226,12 +226,12 @@
     "r12_role": "Kreator Digital"
   },
   "why_choose": {
-    "title": "Privasi tanpa risiko unggah",
-    "desc": "Berbeda dengan yang lain, kami memprioritaskan privasi. Pemrosesan lokal melindungi konten Anda 100%.",
-    "point1": "Tanpa batas untuk kompresi dasar",
+    "title": "Cara Kompres Video Aman Tanpa Unggah File",
+    "desc": "Kurangi ukuran video online secara privat. Pemrosesan lokal melindungi konten Anda 100% saat memperkecil ukuran video.",
+    "point1": "Kompres video gratis tanpa batas",
     "point2": "Video Anda tidak pernah menyentuh server kami",
-    "point3": "Bekerja secara offline setelah pemuatan pertama",
-    "point4": "Tidak butuh akun"
+    "point3": "Bekerja offline setelah pemuatan pertama",
+    "point4": "Pengecil ukuran video tanpa pendaftaran"
   },
   "formats_sec": {
     "title": "Mendukung lebih dari 30 format video",
@@ -246,8 +246,8 @@
     "a2": "Ya, berfungsi di Android, iPhone, tablet, dan PC melalui browser modern apa pun.",
     "q3": "Bagaimana cara kerjanya?",
     "a3": "Unggah video, pilih parameter, dan AI kami akan mengoptimalkan file dengan tetap menjaga kualitas tinggi.",
-    "q4": "Bagaimana cara mengecilkan tanpa kehilangan kualitas?",
-    "a4": "Pilih pengaturan seimbang. VideoCompressorPro dirancang untuk menjaga resolusi dan bitrate.",
+    "q4": "Bagaimana cara kompres video tanpa mengurangi kualitas?",
+    "a4": "Untuk kompres video tanpa mengurangi kualitas, pilih tingkat kompresi 'Seimbang' atau 'Kualitas Tinggi'. Pengompres video kami akan menjaga resolusi dan bitrate tetap optimal.",
     "q5": "Bagaimana cara memutar video yang sudah dikompres?",
     "a5": "Video tersebut berfungsi seperti file normal di perangkat atau media sosial mana pun.",
     "q6": "Apa encoder terbaik?",
@@ -262,10 +262,10 @@
     "a10": "Ya, tanpa langganan, unduhan, atau setup yang rumit.",
     "q11": "Format apa saja yang diterima?",
     "a11": "MP4, MOV, AVI, MKV, WebM, MPEG, dan banyak lainnya.",
-    "q12": "Bagaimana cara membuat video jadi lebih ringan?",
-    "a12": "Muat file, pilih tingkat kompresi, dan unduh versi yang dioptimalkan.",
-    "q13": "Bagaimana cara mengecilkan file MP4?",
-    "a13": "Kurangi bitrate atau resolusi dengan kompresor MP4 khusus kami.",
+    "q12": "Bagaimana cara mengecilkan mb video?",
+    "a12": "Cara mengecilkan mb video sangat mudah: muat file video, tentukan target kompresi (misalnya kompres video 10 mb atau 100 mb), lalu unduh versi yang dioptimalkan secara gratis.",
+    "q13": "Bagaimana cara mengecilkan ukuran video MP4?",
+    "a13": "Anda bisa mengecilkan ukuran video MP4 menggunakan MP4 compressor gratis kami dengan mengurangi bitrate atau resolusi video.",
     "q14": "Bagaimana cara kompres tanpa jadi buram?",
     "a14": "Gunakan parameter optimal kami untuk menjaga kejernihan visual penuh.",
     "q15": "Mengapa harus mengubah kualitas?",
@@ -1032,11 +1032,11 @@
   },
   "pseo": {
     "mp4": {
-      "title": "Kompres MP4 Online - Kurangi Ukuran File MP4 Tanpa Mengurangi Kualitas",
-      "description": "Kompres video MP4 online gratis. Kurangi ukuran file MP4 dengan cepat tanpa watermark. Sempurna untuk berbagi di seluler, email, dan media sosial.",
-      "h1": "Kompresor Video MP4 Cepat",
-      "heroText": "Kompresor MP4 paling tepercaya di dunia. Kecilkan file MP4 Anda dalam hitungan detik sambil tetap menjaga kualitas 1080p/4K yang memukau.",
-      "introText": "MP4 adalah format video paling populer, tetapi file resolusi tinggi bisa berukuran sangat besar. Mesin kompresi cerdas kami menganalisis bitrate MP4 Anda untuk menawarkan keseimbangan sempurna antara ukuran file dan kejernihan visual.",
+      "title": "Kompres MP4 Online Gratis | MP4 Compressor & Pengecil Video",
+      "description": "Kompres video MP4 online gratis untuk memperkecil ukuran video tanpa mengurangi kualitas. Kurangi mb video MP4 Anda dalam hitungan detik tanpa watermark.",
+      "h1": "Kompresor Video MP4 Online",
+      "heroText": "MP4 Compressor gratis terbaik untuk mengecilkan ukuran video MP4 secara online. Kurangi kapasitas file MP4 Anda dalam hitungan detik dengan tetap menjaga resolusi HD/4K.",
+      "introText": "MP4 adalah format video paling populer, tetapi file resolusi tinggi bisa berukuran sangat besar. Mesin kompresi cerdas kami menganalisis bitrate MP4 Anda untuk menawarkan keseimbangan sempurna untuk perkecil ukuran video Anda.",
       "features": [
         {
           "title": "Tanpa Penurunan Kualitas",
@@ -1122,11 +1122,11 @@
       ]
     },
     "video-for-whatsapp": {
-      "title": "Kompres Video untuk WhatsApp Online - Kirim Video Besar dengan Mudah",
-      "description": "Kompres video untuk WhatsApp online. Kecilkan file hingga di bawah 16MB atau 64MB untuk melewati batas berbagi WhatsApp. Tanpa watermark, 100% gratis.",
-      "h1": "Kompresor Video WhatsApp",
-      "heroText": "Berhenti menerima pesan error 'File terlalu besar' di WhatsApp. Kompres video Anda agar pas dengan batas 16MB atau 64MB.",
-      "introText": "WhatsApp memiliki batas ukuran file yang ketat (16MB untuk seluler, 64MB untuk web). Alat kami secara otomatis mengoptimalkan video Anda agar mematuhi batas ini sambil menjaga konten tetap jelas.",
+      "title": "Kompres Video untuk WhatsApp Online - Perkecil MB Video WA",
+      "description": "Kompres video untuk WhatsApp online gratis. Pengecil mb video kami membantu Anda memperkecil ukuran video di bawah 16MB atau 64MB untuk dikirim ke WA tanpa pecah.",
+      "h1": "Kompresor Video untuk WhatsApp",
+      "heroText": "Cara kompres video untuk WhatsApp agar tidak pecah. Perkecil ukuran video Anda agar pas di bawah batas 16MB (ponsel) atau 64MB (web) secara online gratis.",
+      "introText": "WhatsApp memiliki batas ukuran file yang ketat (16MB untuk seluler, 64MB for web). Pengecil mb video kami secara otomatis mengoptimalkan video Anda agar mematuhi batas ini sambil menjaga konten tetap jelas.",
       "features": [
         {
           "title": "Lewati Batasan",
@@ -1663,15 +1663,15 @@
     }
   },
   "blog": {
-    "meta_title": "Pusat Pembelajaran Pengoptimalan Video | Blog VideoCompressorPro",
-    "meta_desc": "Baca tutorial ahli, penjelasan mendalam tentang codec, rahasia kompresi, dan panduan peningkatan visual untuk membuat video Anda ringan dan indah.",
+    "meta_title": "Blog Pengoptimalan Video | Cara Kompres Video Online Gratis",
+    "meta_desc": "Kumpulan tutorial ahli cara mengecilkan ukuran video online gratis. Pelajari cara memperkecil ukuran video MP4, MOV, MKV tanpa mengurangi kualitas.",
     "send-large-video-whatsapp-without-quality-loss": {
-      "title": "Cara Mengirim File Video Besar di WhatsApp Tanpa Kehilangan Kualitas",
-      "description": "Berjuang dengan batas video WhatsApp 16MB? Pelajari metode kompresi online terbaik untuk mengirim video berukuran besar dan berkualitas tinggi di WhatsApp secara instan."
+      "title": "Cara Mengirim Video Ukuran Besar di WhatsApp - Perkecil MB Video",
+      "description": "Cara kompres video untuk WhatsApp agar tidak pecah. Pelajari cara mengecilkan mb video dan mengirim video ukuran besar di WA secara instan."
     },
     "compress-video-for-discord-limits": {
       "title": "Kompres Video untuk Discord Gratis (Di Bawah 8MB, 25MB & 100MB)",
-      "description": "Perbaiki kesalahan 'file terlalu kuat'. Kompres dan kecilkan video dengan mudah di bawah batas ukuran file Discord 8MB, 25MB, dan 100MB secara online gratis."
+      "description": "Cara mengecilkan file video untuk Discord. Kompres dan perkecil ukuran video online gratis di bawah batas Discord 8MB, 25MB, dan 100MB tanpa lag."
     },
     "compress-video-for-email-gmail-outlook": {
       "title": "Kompres Video untuk Email (Batas Gmail, Outlook & Yahoo)",
@@ -1702,8 +1702,8 @@
       "description": "Pelajari teknik yang tepat untuk mengompres video MP4 tanpa kehilangan kualitas. Kurangi ukuran file hingga 60-80% dengan tetap mempertahankan resolusi HD dan detail tajam secara gratis."
     },
     "5-ways-reduce-video-file-size-free": {
-      "title": "5 Cara Sederhana Mengecilkan Ukuran File Video Secara Instan (100% Gratis)",
-      "description": "Temukan 5 cara sederhana dan gratis untuk memperkecil ukuran file video tanpa merusak kualitas. Bekerja pada perangkat atau sistem operasi apa pun."
+      "title": "5 Cara Mengecilkan Ukuran Video Online Gratis & Cepat",
+      "description": "Temukan 5 cara kompres video gratis untuk memperkecil ukuran video online tanpa mengurangi kualitas. Bekerja di Android, iPhone, dan PC."
     },
     "compress-4k-to-1080p-online": {
       "title": "Cara Kompres Video 4K ke 1080p Online dengan Cepat",
@@ -1718,8 +1718,8 @@
       "description": "Jangan biarkan kompresi merusak kerenyahan video Anda. Pelajari pengaturan pro yang digunakan untuk memperkecil ukuran video sebesar 50-80% tanpa menimbulkan pikselasi atau keburaman."
     },
     "reduce-gb-to-mb-compress-large-videos": {
-      "title": "Cara Mengurangi GB ke MB: Kompres Video Besar Secara Online dalam Hitungan Detik",
-      "description": "Punya file video multi-gigabyte yang sangat besar? Pelajari cara menguranginya menjadi megabita secara online dalam hitungan detik tanpa memerlukan instalasi apa pun dan tanpa kehilangan kualitas."
+      "title": "Cara Mengurangi GB ke MB: Kompres Video Ukuran Besar Online Gratis",
+      "description": "Punya file video 1gb atau 2gb yang sangat besar? Pelajari cara perkecil ukuran video online menjadi mb dalam hitungan detik tanpa mengurangi kualitas."
     },
     "bulk-video-compression-guide": {
       "title": "Cara Mengompresi Video Secara Massal Secara Online (Panduan Kompresi Batch)",
@@ -1746,8 +1746,8 @@
       "description": "Bingung tentang MKV vs MP4? Pelajari perbedaannya, kapan menggunakannya, dan cara mengonversi dan mengompres file MKV ke MP4 online secara gratis tanpa kehilangan kualitas."
     },
     "compress-video-windows-10-11": {
-      "title": "Cara Kompres File Video Besar di Windows 10 & Windows 11",
-      "description": "Pelajari cara mengompresi file video besar di Windows 10 dan Windows 11 dengan cepat dan gratis—tanpa menginstal perangkat lunak atau codec tambahan apa pun."
+      "title": "Cara Kompres Video di Laptop / PC Windows 10 & 11",
+      "description": "Cara mengecilkan ukuran video di laptop Windows 10 dan 11 gratis. Pelajari cara kompres video ukuran besar secara online dengan cepat dan mudah."
     },
     "trim-cut-video-online-before-compressing": {
       "title": "Cara Memangkas dan Memotong Video Besar Secara Online Sebelum Mengompresinya",
@@ -1787,8 +1787,8 @@
     }
   },
   "tiktok_page": {
-    "hero_title": "Kompresor Video TikTok tanpa Kehilangan Kualitas",
-    "hero_subtitle": "Kompres dan optimalkan video Anda untuk TikTok online dalam hitungan detik. Kurangi ukuran file untuk mengunggah lebih cepat, sesuai batas, dan dapatkan retensi lebih tinggi di FYP tanpa mengurangi kualitas visual.",
+    "hero_title": "Kompresor Video TikTok Online Gratis | Pengecil MB Video TikTok",
+    "hero_subtitle": "Kompres video gratis untuk TikTok online. Cara mengecilkan ukuran video vertikal Anda untuk diunggah secara instan ke TikTok tanpa buram atau pecah.",
     "features_badge": "TikTok Dioptimalkan",
     "features_title": "Kompresor Video Gratis untuk Unggahan TikTok",
     "features_desc": "Jadikan video TikTok Anda dimuat secara instan, hindari penundaan pemrosesan saat pengunggahan, dan lewati batas ukuran file dengan sempurna. Teknologi WASM berbasis browser kami memampatkan video vertikal Anda secara lokal untuk keamanan 100%.",
@@ -1812,8 +1812,8 @@
     "review_r3_role": "Pendidik Online"
   },
   "reels_page": {
-    "hero_title": "Kompresor Video Reel Instagram Online",
-    "hero_subtitle": "Kecilkan dan optimalkan video vertikal untuk Reel Instagram tanpa kehilangan kejelasan. Pastikan unggahan cepat, pemutaran lancar, dan profil warna murni langsung dari browser Anda.",
+    "hero_title": "Kompresor Video Reel Instagram Online - Perkecil Ukuran Video",
+    "hero_subtitle": "Cara mengecilkan file video vertikal untuk Instagram Reels secara online. Perkecil ukuran video Anda agar pas diunggah ke Reels dengan kualitas tajam.",
     "features_badge": "Reel Instagram Dioptimalkan",
     "features_title": "Kompresor Video Gratis untuk Reel Instagram",
     "features_desc": "Kompresi agresif Instagram dapat merusak video beresolusi tinggi. Dengan mengoptimalkan video Anda ke bitrate yang benar sebelumnya, Anda tetap memegang kendali dan memastikan Reel Anda tetap tajam.",
@@ -1837,8 +1837,8 @@
     "review_r3_role": "Direktur Pemasaran"
   },
   "shorts_page": {
-    "hero_title": "Kompresor Video Pendek YouTube Online",
-    "hero_subtitle": "Kompres video MP4 vertikal untuk YouTube Shorts tanpa kehilangan visual. Optimalkan resolusi, bitrate, dan frame rate untuk unggahan instan dan retensi pemirsa maksimum.",
+    "hero_title": "Kompresor YouTube Shorts Online Gratis | Pengecil Video",
+    "hero_subtitle": "Cara kompres video untuk YouTube Shorts secara online. Kurangi ukuran video MP4 vertikal Anda dengan cepat dan mudah tanpa mengurangi kualitas.",
     "features_badge": "Celana Pendek YouTube Dioptimalkan",
     "features_title": "Kompresor Video Gratis untuk YouTube Shorts",
     "features_desc": "Pastikan video Shorts vertikal Anda memenuhi profil pemutaran H.264 yang sama persis dengan YouTube. Kurangi rekaman DSLR atau rekaman seluler dengan kecepatan bit tinggi menjadi file siap pakai web dalam hitungan detik, berjalan sepenuhnya offline.",
