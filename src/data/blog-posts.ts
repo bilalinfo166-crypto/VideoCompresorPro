@@ -109,7 +109,7 @@ If you want smooth, instant, in-chat playback without the ugly compression blur,
 
 ## Method 1: The Best Way to Compress Videos for WhatsApp (Free & Instant)
 
-The most elegant way to solve the WhatsApp file limit is to compress your video using a specialized tool like **VideoCompressorPro**. This browser-based tool uses advanced next-generation compression algorithms (like H.264 Web-Optimized encoding) to shrink your video directly on your device, meaning your video never leaves your browser and stays 100% secure.
+The most elegant way to solve the WhatsApp file limit is to compress your video using a specialized tool like **VideoCompressorPro**. This browser-based tool uses advanced next-generation compression algorithms (like [H.264](https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC) Web-Optimized encoding) running on a local [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly) engine to shrink your video directly on your device, meaning your video never leaves your browser and stays 100% secure.
 
 ### Step-by-Step Guide to Compress Video for WhatsApp:
 
@@ -120,7 +120,7 @@ The most elegant way to solve the WhatsApp file limit is to compress your video 
 5. Click **Compress**. The intelligent encoder will process your video in seconds.
 6. Click **Download** and share the optimized video on WhatsApp!
 
-This method works flawlessly because it recalculates the video bitrate dynamically. Instead of blindly cutting down the resolution, it preserves sharp details, text readability, and color balance while shrinking the file size.
+This method works flawlessly because it recalculates the video [bitrate](https://en.wikipedia.org/wiki/Bitrate) dynamically. Instead of blindly cutting down the [resolution](https://en.wikipedia.org/wiki/Image_resolution), it preserves sharp details, text readability, and color balance while shrinking the file size.
 
 ---
 
@@ -225,7 +225,7 @@ Even if you have Nitro, uploading massive, uncompressed video files is a bad ide
 
 ## The Ultimate Discord Video Compression Method (100% Local & Free)
 
-The fastest and most secure way to shrink your gaming clips for Discord is to use **VideoCompressorPro**. Because our compression engine runs directly in your browser using modern WebAssembly technology, your large video files are processed locally on your hardware. They are never uploaded to any external server, ensuring **100% privacy** and saving your internet data.
+The fastest and most secure way to shrink your gaming clips for Discord is to use **VideoCompressorPro**. Because our compression engine runs directly in your browser using modern [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly) technology, your large video files are processed locally on your hardware. They are never uploaded to any external server, ensuring **100% privacy** and saving your internet data.
 
 ### Step-by-Step Guide to Compress Video for Discord:
 
@@ -242,8 +242,8 @@ The fastest and most secure way to shrink your gaming clips for Discord is to us
 
 When compressing videos for Discord, **compatibility is king**. Discord uses web-native players to stream videos inline within its chat channels. 
 
-* **H.264 (AVC) + MP4**: **This is the gold standard.** It plays instantly on every version of Discord, including Windows, Mac, Linux, Android, iOS, and web browsers.
-* **H.265 (HEVC) / AV1**: While H.265 and AV1 offer superior compression sizes, they are **not universally supported** by Discord's inline player. If you upload an HEVC video, your friends will likely see a blank black box or be forced to download the file manually to watch it.
+* **H.264 (AVC) + MP4**: **This is the gold standard.** It plays instantly on every version of Discord, including Windows, Mac, Linux, Android, iOS, and web browsers. Learn more about [H.264](https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC).
+* **H.265 (HEVC) / AV1**: While [H.265 (HEVC)](https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding) and [AV1](https://en.wikipedia.org/wiki/AV1) offer superior compression sizes, they are **not universally supported** by Discord's inline player. If you upload an HEVC video, your friends will likely see a blank black box or be forced to download the file manually to watch it.
 
 **VideoCompressorPro** encodes all outputs to web-standard H.264 MP4 by default, guaranteeing that your clips will autoplay and stream flawlessly in any Discord channel.
 

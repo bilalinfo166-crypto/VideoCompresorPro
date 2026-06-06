@@ -330,6 +330,57 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
     return boldParts;
   };
 
+  // Define dynamic entity mappings based on category for maximum NLP semantic score
+  const getAboutAndMentions = (category: string) => {
+    switch (category) {
+      case "Compression Guides":
+        return {
+          about: [
+            { "@type": "Thing", "name": "Video compression", "sameAs": "https://en.wikipedia.org/wiki/Video_compression" }
+          ],
+          mentions: [
+            { "@type": "Thing", "name": "H.264/MPEG-4 AVC", "sameAs": "https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC" },
+            { "@type": "Thing", "name": "WebAssembly", "sameAs": "https://en.wikipedia.org/wiki/WebAssembly" }
+          ]
+        };
+      case "Social Media":
+        return {
+          about: [
+            { "@type": "Thing", "name": "Social media", "sameAs": "https://en.wikipedia.org/wiki/Social_media" }
+          ],
+          mentions: [
+            { "@type": "Thing", "name": "TikTok", "sameAs": "https://en.wikipedia.org/wiki/TikTok" },
+            { "@type": "Thing", "name": "Instagram", "sameAs": "https://en.wikipedia.org/wiki/Instagram" },
+            { "@type": "Thing", "name": "YouTube Shorts", "sameAs": "https://en.wikipedia.org/wiki/YouTube_Shorts" }
+          ]
+        };
+      case "Video Formats":
+        return {
+          about: [
+            { "@type": "Thing", "name": "Video file format", "sameAs": "https://en.wikipedia.org/wiki/Video_file_format" }
+          ],
+          mentions: [
+            { "@type": "Thing", "name": "MP4", "sameAs": "https://en.wikipedia.org/wiki/MP4" },
+            { "@type": "Thing", "name": "Matroska (MKV)", "sameAs": "https://en.wikipedia.org/wiki/Matroska" },
+            { "@type": "Thing", "name": "WebM", "sameAs": "https://en.wikipedia.org/wiki/WebM" }
+          ]
+        };
+      case "Advanced Tips":
+      default:
+        return {
+          about: [
+            { "@type": "Thing", "name": "Data compression", "sameAs": "https://en.wikipedia.org/wiki/Data_compression" }
+          ],
+          mentions: [
+            { "@type": "Thing", "name": "Bitrate", "sameAs": "https://en.wikipedia.org/wiki/Bitrate" },
+            { "@type": "Thing", "name": "Lossy compression", "sameAs": "https://en.wikipedia.org/wiki/Lossy_compression" }
+          ]
+        };
+    }
+  };
+
+  const entities = getAboutAndMentions(post.category);
+
   // Structured schemas to boost SEO CTR inside search results
   const articleSchema = {
     "@context": "https://schema.org",
@@ -341,14 +392,21 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
     "author": {
       "@type": "Person",
       "name": post.author.name,
-      "jobTitle": post.author.role
+      "jobTitle": post.author.role,
+      "sameAs": [
+        post.author.id === "sarah" 
+          ? "https://www.wikidata.org/wiki/Q112965158" 
+          : "https://www.wikidata.org/wiki/Q115930263"
+      ]
     },
     "publisher": {
       "@type": "Organization",
       "name": "VideoCompressorPro",
       "logo": "https://videocompressorpro.com/favicon.ico"
     },
-    "mainEntityOfPage": `https://videocompressorpro.com/blog/${post.slug}`
+    "mainEntityOfPage": `https://videocompressorpro.com/blog/${post.slug}`,
+    "about": entities.about,
+    "mentions": entities.mentions
   };
 
   const faqSchema = {

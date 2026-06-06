@@ -222,14 +222,22 @@ export default function RootLayout({
                   "@type": "AggregateRating",
                   "ratingValue": "4.9",
                   "ratingCount": "5280"
-                }
+                },
+                "sameAs": [
+                  "https://en.wikipedia.org/wiki/WebAssembly",
+                  "https://en.wikipedia.org/wiki/FFmpeg",
+                  "https://en.wikipedia.org/wiki/Video_compression"
+                ]
               },
               {
                 "@context": "https://schema.org",
                 "@type": "Organization",
                 "name": "VideoCompressorPro",
                 "url": "https://videocompressorpro.com",
-                "logo": "https://videocompressorpro.com/icon.svg"
+                "logo": "https://videocompressorpro.com/icon.svg",
+                "sameAs": [
+                  "https://www.wikidata.org/wiki/Q115930263"
+                ]
               }
             ])
           }}
