@@ -236,7 +236,11 @@ export default function RootLayout({
                 "url": "https://videocompressorpro.com",
                 "logo": "https://videocompressorpro.com/icon.svg",
                 "sameAs": [
-                  "https://www.wikidata.org/wiki/Q115930263"
+                  "https://www.wikidata.org/wiki/Q115930263",
+                  "https://www.facebook.com/profile.php?id=61590436030756",
+                  "https://www.youtube.com/@VideoCompressorPro",
+                  "https://www.instagram.com/videocompressorpro2026/",
+                  "https://www.threads.net/@videocompressorpro2026"
                 ]
               }
             ])
