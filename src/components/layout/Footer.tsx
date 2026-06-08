@@ -93,7 +93,7 @@ export function Footer() {
   ];
 
   return (
-    <footer className="border-t border-[var(--card-border)] bg-[var(--header-bg)] pt-6 md:pt-8 pb-4 transition-colors duration-300 safe-bottom">
+    <footer className="notranslate border-t border-[var(--card-border)] bg-[var(--header-bg)] pt-6 md:pt-8 pb-4 transition-colors duration-300 safe-bottom">
       <div className="container mx-auto px-4">
 
         {/* Brand Row — mobile only */}

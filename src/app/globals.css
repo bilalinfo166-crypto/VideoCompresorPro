@@ -175,3 +175,22 @@ input, select, textarea {
   to   { transform: translateX(0); }
 }
 
+/* ── Google Translate Widget Cleanup ── */
+.skiptranslate,
+#google_translate_element,
+.goog-te-banner-frame,
+.goog-te-banner,
+.goog-te-balloon-frame {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+font[style*="background-color"] {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+

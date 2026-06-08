@@ -147,6 +147,53 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
       : "Frequently Asked Questions",
   };
 
+  // Set up automatic translation for languages other than English
+  useEffect(() => {
+    const originalLang = document.documentElement.lang;
+
+    if (language !== "en") {
+      // Temporarily set HTML lang to 'en' so Google Translate realizes the page is in English and translates it
+      document.documentElement.lang = "en";
+
+      document.cookie = `googtrans=/en/${language}; path=/;`;
+      document.cookie = `googtrans=/en/${language}; path=/; domain=.videocompressorpro.com;`;
+
+      (window as any).googleTranslateElementInit = () => {
+        new (window as any).google.translate.TranslateElement({
+          pageLanguage: 'en',
+          autoDisplay: false,
+          layout: (window as any).google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+      };
+
+      if (!document.getElementById("google-translate-script")) {
+        const script = document.createElement("script");
+        script.id = "google-translate-script";
+        script.src = "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+        script.async = true;
+        document.body.appendChild(script);
+      } else {
+        try {
+          if ((window as any).google && (window as any).google.translate) {
+            new (window as any).google.translate.TranslateElement({
+              pageLanguage: 'en',
+              autoDisplay: false
+            }, 'google_translate_element');
+          }
+        } catch (e) {
+          console.error(e);
+        }
+      }
+    } else {
+      document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+      document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.videocompressorpro.com;";
+    }
+
+    return () => {
+      // Restore the original document language on unmount or language switch
+      document.documentElement.lang = originalLang;
+    };
+  }, [language]);
 
   // Calculate Reading Progress and Parse Headings for Table of Contents
   useEffect(() => {
@@ -556,35 +603,40 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
 
   return (
     <div className="flex flex-col min-h-screen pt-8 pb-20 bg-[var(--background)]">
+      {/* Hidden Google Translate anchor */}
+      <div id="google_translate_element" style={{ display: 'none' }} className="hidden" />
+
       {/* Dynamic SEO Schemas */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-
-      {/* Reading Progress Indicator */}
-      <div 
-        className="fixed top-16 left-0 h-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 z-50 transition-all duration-700" 
-        style={{ width: `${scrollProgress}%` }}
-      />
-
-      <Breadcrumbs items={[{ label: t("nav.blog").includes("nav.") ? "Blog" : t("nav.blog"), href: "/blog" }, { label: freshTitle, href: `/blog/${post.slug}` }]} />
  
-       <main className="container mx-auto px-4 max-w-6xl mt-6 flex-1">
-         {/* Back navigation */}
-         <Link 
-           href={getLocalizedHref("/blog")} 
-           className="inline-flex items-center gap-2 text-xs font-bold text-[var(--muted-text)] hover:text-blue-600 mb-8 py-2 px-4 rounded-xl bg-white/5 border border-[var(--card-border)] transition-all hover:-translate-x-1"
-         >
-           <ArrowLeft className="w-4 h-4" /> {tUI.back}
-         </Link>
+       {/* Reading Progress Indicator */}
+       <div 
+         className="fixed top-16 left-0 h-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 z-50 transition-all duration-700" 
+         style={{ width: `${scrollProgress}%` }}
+       />
  
-         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-           
-           {/* 1. Left Post Column */}
-           <article className="lg:col-span-8 flex flex-col">
-             
-             {/* Header Details */}
-             <div className="mb-8">
+      <div className="notranslate">
+        <Breadcrumbs items={[{ label: t("nav.blog").includes("nav.") ? "Blog" : t("nav.blog"), href: "/blog" }, { label: freshTitle, href: `/blog/${post.slug}` }]} />
+      </div>
+  
+        <main className="container mx-auto px-4 max-w-6xl mt-6 flex-1">
+          {/* Back navigation */}
+          <Link 
+            href={getLocalizedHref("/blog")} 
+            className="inline-flex items-center gap-2 text-xs font-bold text-[var(--muted-text)] hover:text-blue-600 mb-8 py-2 px-4 rounded-xl bg-white/5 border border-[var(--card-border)] transition-all hover:-translate-x-1 notranslate"
+          >
+            <ArrowLeft className="w-4 h-4" /> {tUI.back}
+          </Link>
+  
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+            
+            {/* 1. Left Post Column */}
+            <article className="lg:col-span-8 flex flex-col">
+              
+              {/* Header Details */}
+              <div className="mb-8 notranslate">
                <span className="px-3.5 py-1.5 rounded-xl bg-blue-500/10 border border-blue-500/20 text-blue-600 dark:text-blue-400 text-xs font-black uppercase tracking-wider mb-4 inline-block">
                  {translateCategory(post.category)}
                </span>
@@ -656,9 +708,17 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
  
                  <Link
                    href={getLocalizedHref(post.ctaLink)}
-                   className="px-6 py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-2xl flex items-center justify-center gap-2 group transition-all shadow-md shadow-blue-500/25 active:scale-95 shrink-0"
+                   className="px-6 py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-2xl flex items-center justify-center gap-2 group transition-all shadow-md shadow-blue-500/25 active:scale-95 shrink-0 notranslate"
                  >
-                   Compress Video Now
+                   {language === "es" 
+                     ? "Comprimir video ahora" 
+                     : language === "ar" 
+                     ? "اضغط الفيديو الآن" 
+                     : language === "de" 
+                     ? "Jetzt Video komprimieren" 
+                     : language === "fr" 
+                     ? "Compresser la vidéo maintenant" 
+                     : "Compress Video Now"}
                    <Play className="w-4 h-4 fill-white group-hover:translate-x-1 transition-transform" />
                  </Link>
                </div>
@@ -666,7 +726,7 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
  
              {/* In-Depth FAQ Section */}
              <div className="mt-8 border-t border-[var(--card-border)] pt-12">
-               <h2 className="text-2xl sm:text-3xl font-black text-[var(--foreground)] mb-8 tracking-tight">
+               <h2 className="text-2xl sm:text-3xl font-black text-[var(--foreground)] mb-8 tracking-tight notranslate">
                  {tUI.faqs}
                </h2>
                
@@ -674,7 +734,7 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
                  {post.faqs.map((faq, i) => (
                    <div key={i} className="glass-card p-6 rounded-2xl border border-[var(--card-border)]">
                      <h3 className="text-base sm:text-lg font-bold text-[var(--foreground)] mb-3 flex items-start gap-2.5">
-                       <span className="w-5 h-5 rounded-lg bg-blue-500/10 text-blue-600 dark:text-blue-400 flex items-center justify-center text-xs font-black shrink-0 mt-0.5">Q</span>
+                       <span className="w-5 h-5 rounded-lg bg-blue-500/10 text-blue-600 dark:text-blue-400 flex items-center justify-center text-xs font-black shrink-0 mt-0.5 notranslate">Q</span>
                        {faq.question}
                      </h3>
                      <p className="text-sm sm:text-base text-[var(--muted-text)] font-semibold leading-relaxed pl-7">
@@ -688,7 +748,7 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
            </article>
  
            {/* 2. Right Table of Contents Sidebar */}
-           <aside className="lg:col-span-4 sticky top-24 hidden lg:flex flex-col gap-8">
+           <aside className="lg:col-span-4 sticky top-24 hidden lg:flex flex-col gap-8 notranslate">
              
              {/* Table of Contents card */}
              {headings.length > 0 && (

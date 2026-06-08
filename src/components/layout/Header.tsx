@@ -162,7 +162,7 @@ export function Header() {
 
   return (
     <>
-      <header className="fixed top-0 w-full z-50 bg-[var(--header-bg)] backdrop-blur-md border-b border-[var(--card-border)] shadow-sm transition-colors duration-300">
+      <header className="notranslate fixed top-0 w-full z-50 bg-[var(--header-bg)] backdrop-blur-md border-b border-[var(--card-border)] shadow-sm transition-colors duration-300">
         <div className="container mx-auto px-4">
           <div className="h-16 flex items-center justify-between gap-4">
             {/* Logo */}
@@ -293,7 +293,7 @@ export function Header() {
           />
 
           {/* Drawer Panel */}
-          <div className="mobile-drawer bg-[var(--background)] border-l border-[var(--card-border)] flex flex-col safe-bottom">
+          <div className="notranslate mobile-drawer bg-[var(--background)] border-l border-[var(--card-border)] flex flex-col safe-bottom">
             {/* Drawer Header */}
             <div className="flex items-center justify-between p-5 border-b border-[var(--card-border)]">
               <Link href={getLocalizedHref('/')} className="flex items-center gap-2" onClick={closeDrawer}>

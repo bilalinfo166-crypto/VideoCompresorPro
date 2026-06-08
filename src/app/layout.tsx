@@ -26,7 +26,10 @@ export const metadata: Metadata = {
     template: "%s | VideoCompressorPro"
   },
   icons: {
-    icon: '/icon.svg',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.svg', type: 'image/svg+xml' }
+    ],
     apple: '/icon.svg',
   },
   description: "Compress videos online for free without losing quality. Reduce MP4, MOV, AVI, and other video file sizes quickly with our secure online video compressor.",
