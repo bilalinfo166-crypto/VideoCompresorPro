@@ -15,7 +15,7 @@ import { useLanguage } from "@/context/LanguageContext";
 import DirectAnswer from "@/components/seo/DirectAnswer";
 
 export default function BlogPostClient({ params }: { params: { slug: string } }) {
-  const { language } = useLanguage();
+  const { language, t } = useLanguage();
   const slug = params.slug;
 
   const post = BLOG_POSTS.find((p) => p.slug === slug);
@@ -24,7 +24,8 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
   }
 
   const currentYear = new Date().getFullYear().toString();
-  const freshTitle = post.title.replace(/2026/g, currentYear);
+  const locTitle = t(`blog.${post.slug}.title`);
+  const freshTitle = (locTitle.includes("blog.") ? post.title : locTitle).replace(/2026/g, currentYear);
   const freshContent = post.content.replace(/2026/g, currentYear);
 
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -32,6 +33,120 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
   const [copied, setCopied] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
   const [headings, setHeadings] = useState<{ id: string; text: string; level: number }[]>([]);
+
+  // Category Translation Helper
+  const translateCategory = (cat: string) => {
+    const mappings: Record<string, Record<string, string>> = {
+      es: {
+        "Compression Guides": "Guías de Compresión",
+        "Social Media": "Redes Sociales",
+        "Video Formats": "Formatos de Video",
+        "Advanced Tips": "Consejos Avanzados"
+      },
+      ar: {
+        "Compression Guides": "أدلة الضغط",
+        "Social Media": "وسائل التواصل",
+        "Video Formats": "تنسيقات الفيديو",
+        "Advanced Tips": "نصائح متقدمة"
+      },
+      fr: {
+        "Compression Guides": "Guides de Compression",
+        "Social Media": "Réseaux Sociaux",
+        "Video Formats": "Formats Vidéo",
+        "Advanced Tips": "Conseils Avancés"
+      },
+      de: {
+        "Compression Guides": "Komprimierungsleitfäden",
+        "Social Media": "Soziale Medien",
+        "Video Formats": "Videoformate",
+        "Advanced Tips": "Erweiterte Tipps"
+      },
+      hi: {
+        "Compression Guides": "कंप्रेशन गाइड",
+        "Social Media": "सोशल मीडिया",
+        "Video Formats": "वीडियो प्रारूप",
+        "Advanced Tips": "उन्नत सुझाव"
+      }
+    };
+    return mappings[language]?.[cat] || cat;
+  };
+
+  const translateAuthorRole = (role: string) => {
+    if (role === "Senior Video Producer & Editor") {
+      return language === "es" 
+        ? "Productora y Editora de Video Senior" 
+        : language === "ar" 
+        ? "منتج ومحرر فيديو أول" 
+        : language === "de"
+        ? "Leitender Videoproduzent & Editor"
+        : language === "fr"
+        ? "Producteur & Éditeur Vidéo Senior"
+        : role;
+    }
+    if (role === "Web Performance & Codec Engineer") {
+      return language === "es" 
+        ? "Ingeniero de Rendimiento Web y Códecs" 
+        : language === "ar" 
+        ? "مهندس أداء الويب وبرامج الترميز" 
+        : language === "de"
+        ? "Web-Performance & Codec-Ingenieur"
+        : language === "fr"
+        ? "Ingénieur Performance Web & Codec"
+        : role;
+    }
+    return role;
+  };
+
+  const tUI = {
+    back: language === "es" 
+      ? "Volver al centro de aprendizaje" 
+      : language === "ar" 
+      ? "العودة إلى مركز التعلم" 
+      : language === "de" 
+      ? "Zurück zum Lernzentrum" 
+      : language === "fr" 
+      ? "Retour au centre d'apprentissage" 
+      : "Back to learning hub",
+    toc: language === "es" 
+      ? "Tabla de Contenidos" 
+      : language === "ar" 
+      ? "جدول المحتويات" 
+      : language === "de" 
+      ? "Inhaltsverzeichnis" 
+      : language === "fr" 
+      ? "Table des matières" 
+      : "Table of Contents",
+    aboutAuthor: language === "es" 
+      ? "Sobre el Autor" 
+      : language === "ar" 
+      ? "نبذة عن الكاتب" 
+      : language === "de" 
+      ? "Über den Autor" 
+      : language === "fr" 
+      ? "À propos de l'auteur" 
+      : "About the Author",
+    share: language === "es" 
+      ? "Compartir Artículo" 
+      : language === "ar" 
+      ? "مشاركة المقال" 
+      : language === "de" 
+      ? "Artikel teilen" 
+      : language === "fr" 
+      ? "Partager l'article" 
+      : "Share Article",
+    copied: language === "es" ? "¡Copiado!" : language === "ar" ? "تم النسخ!" : "Copied!",
+    copyLink: language === "es" ? "Copiar Enlace" : language === "ar" ? "نسخ الرابط" : "Copy Link",
+    faqs: language === "es" 
+      ? "Preguntas Frecuentes" 
+      : language === "ar" 
+      ? "الأسئلة الشائعة" 
+      : language === "de" 
+      ? "Häufig gestellte Fragen" 
+      : language === "fr" 
+      ? "Questions fréquemment posées" 
+      : "Frequently Asked Questions",
+  };
+
 
   // Calculate Reading Progress and Parse Headings for Table of Contents
   useEffect(() => {
@@ -452,212 +567,212 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
         style={{ width: `${scrollProgress}%` }}
       />
 
-      <Breadcrumbs items={[{ label: "Blog", href: "/blog" }, { label: freshTitle, href: `/blog/${post.slug}` }]} />
-
-      <main className="container mx-auto px-4 max-w-6xl mt-6 flex-1">
-        {/* Back navigation */}
-        <Link 
-          href={getLocalizedHref("/blog")} 
-          className="inline-flex items-center gap-2 text-xs font-bold text-[var(--muted-text)] hover:text-blue-600 mb-8 py-2 px-4 rounded-xl bg-white/5 border border-[var(--card-border)] transition-all hover:-translate-x-1"
-        >
-          <ArrowLeft className="w-4 h-4" /> Back to learning hub
-        </Link>
-
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-          
-          {/* 1. Left Post Column */}
-          <article className="lg:col-span-8 flex flex-col">
-            
-            {/* Header Details */}
-            <div className="mb-8">
-              <span className="px-3.5 py-1.5 rounded-xl bg-blue-500/10 border border-blue-500/20 text-blue-600 dark:text-blue-400 text-xs font-black uppercase tracking-wider mb-4 inline-block">
-                {post.category}
-              </span>
-              <h1 className="text-3xl sm:text-5xl font-black text-[var(--foreground)] tracking-tight leading-tight mb-6">
-                {freshTitle}
-              </h1>
-
-              {/* Author info & stats */}
-              <div className="flex flex-wrap items-center justify-between gap-4 p-4 rounded-2xl bg-slate-50 dark:bg-slate-900/30 border border-[var(--card-border)]">
-                <div className="flex items-center gap-3">
-                  <div className="relative w-10 h-10 rounded-full overflow-hidden border border-[var(--card-border)]">
-                    <Image src={post.author.avatar} alt={post.author.name} fill className="object-cover" />
-                  </div>
-                  <div>
-                    <div className="text-sm font-bold text-[var(--foreground)]">{post.author.name}</div>
-                    <div className="text-xs font-semibold text-[var(--muted-text)]">{post.author.role}</div>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-4 text-xs text-[var(--muted-text)] font-bold">
-                  <span className="flex items-center gap-1.5">
-                    <Calendar className="w-3.5 h-3.5" />
-                    {post.publishDate}
-                  </span>
-                  <span className="flex items-center gap-1.5">
-                    <Clock className="w-3.5 h-3.5" />
-                    {post.readTime}
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            {/* Featured Hero Banner */}
-            <div className="relative aspect-[16/9] w-full rounded-[2.5rem] overflow-hidden border border-[var(--card-border)] shadow-md mb-12">
-              <Image src={post.image} alt={freshTitle} fill className="object-cover" priority />
-            </div>
-
-            {/* Direct Answer Featured Snippet optimization */}
-            {post.directAnswer && (
-              <DirectAnswer 
-                question={post.directAnswer.question}
-                answer={post.directAnswer.answer}
-                steps={post.directAnswer.steps}
-              />
-            )}
-
-            {/* Main Post Body */}
-            <div ref={contentRef} className="prose dark:prose-invert max-w-none text-[var(--foreground)]">
-              {renderMarkdown(freshContent)}
-            </div>
-
-            {/* Customized Conversion CTA Banner */}
-            <div className="glass-card p-8 rounded-[2.5rem] border border-[var(--card-border)] my-12 bg-gradient-to-br from-blue-600/5 via-indigo-600/5 to-purple-600/5 relative overflow-hidden shadow-lg">
-              <div className="absolute top-0 right-0 w-[200px] h-[200px] bg-blue-500/10 rounded-full blur-[80px] pointer-events-none" />
-              <div className="absolute bottom-0 left-0 w-[200px] h-[200px] bg-purple-500/10 rounded-full blur-[80px] pointer-events-none" />
-              
-              <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
-                <div className="flex-1">
-                  <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-600 dark:text-blue-400 text-xs font-bold shadow-sm mb-4">
-                    <Sparkles className="w-3.5 h-3.5" /> Fast & 100% Local Tool
-                  </div>
-                  <h3 className="text-xl sm:text-2xl font-black tracking-tight text-[var(--foreground)] mb-3 leading-snug">
-                    Bypass File Size Limits Instantly!
-                  </h3>
-                  <p className="text-sm font-semibold text-[var(--muted-text)] leading-relaxed">
-                    {post.ctaText}
-                  </p>
-                </div>
-
-                <Link
-                  href={getLocalizedHref(post.ctaLink)}
-                  className="px-6 py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-2xl flex items-center justify-center gap-2 group transition-all shadow-md shadow-blue-500/25 active:scale-95 shrink-0"
-                >
-                  Compress Video Now
-                  <Play className="w-4 h-4 fill-white group-hover:translate-x-1 transition-transform" />
-                </Link>
-              </div>
-            </div>
-
-            {/* In-Depth FAQ Section */}
-            <div className="mt-8 border-t border-[var(--card-border)] pt-12">
-              <h2 className="text-2xl sm:text-3xl font-black text-[var(--foreground)] mb-8 tracking-tight">
-                Frequently Asked Questions
-              </h2>
-              
-              <div className="space-y-6">
-                {post.faqs.map((faq, i) => (
-                  <div key={i} className="glass-card p-6 rounded-2xl border border-[var(--card-border)]">
-                    <h3 className="text-base sm:text-lg font-bold text-[var(--foreground)] mb-3 flex items-start gap-2.5">
-                      <span className="w-5 h-5 rounded-lg bg-blue-500/10 text-blue-600 dark:text-blue-400 flex items-center justify-center text-xs font-black shrink-0 mt-0.5">Q</span>
-                      {faq.question}
-                    </h3>
-                    <p className="text-sm sm:text-base text-[var(--muted-text)] font-semibold leading-relaxed pl-7">
-                      {faq.answer}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-            
-          </article>
-
-          {/* 2. Right Table of Contents Sidebar */}
-          <aside className="lg:col-span-4 sticky top-24 hidden lg:flex flex-col gap-8">
-            
-            {/* Table of Contents card */}
-            {headings.length > 0 && (
-              <div className="glass-card p-6 rounded-[2rem] border border-[var(--card-border)] shadow-sm">
-                <h3 className="text-xs font-black text-[var(--muted-text)] uppercase tracking-wider mb-4 pb-3 border-b border-[var(--card-border)]">
-                  Table of Contents
-                </h3>
-                <nav className="flex flex-col gap-3">
-                  {headings.map((h, i) => (
-                    <a
-                      key={i}
-                      href={`#${h.id}`}
-                      className={`text-xs sm:text-sm font-semibold transition-all hover:text-blue-500 py-1 border-l-2 pl-3 ${
-                        h.level === 3 ? "ml-4" : ""
-                      } ${
-                        activeSection === h.id
-                          ? "border-blue-600 text-blue-600 dark:text-blue-400 font-bold bg-blue-500/5 rounded-r-lg"
-                          : "border-transparent text-[var(--muted-text)]"
-                      }`}
-                    >
-                      {h.text}
-                    </a>
-                  ))}
-                </nav>
-              </div>
-            )}
-
-            {/* Author Expert Bio card */}
-            <div className="glass-card p-6 rounded-[2rem] border border-[var(--card-border)] shadow-sm">
-              <h3 className="text-xs font-black text-[var(--muted-text)] uppercase tracking-wider mb-4 pb-3 border-b border-[var(--card-border)]">
-                About the Author
-              </h3>
-              <div className="flex items-center gap-3 mb-4">
-                <div className="relative w-12 h-12 rounded-full overflow-hidden border border-[var(--card-border)]">
-                  <Image src={post.author.avatar} alt={post.author.name} fill className="object-cover" />
-                </div>
-                <div>
-                  <h4 className="text-sm font-bold text-[var(--foreground)]">{post.author.name}</h4>
-                  <div className="text-[10px] font-semibold text-[var(--muted-text)]">{post.author.role}</div>
-                </div>
-              </div>
-              <p className="text-xs text-[var(--muted-text)] font-semibold leading-relaxed">
-                {post.author.bio}
-              </p>
-            </div>
-
-            {/* Share Card */}
-            <div className="glass-card p-6 rounded-[2rem] border border-[var(--card-border)] shadow-sm">
-              <h3 className="text-xs font-black text-[var(--muted-text)] uppercase tracking-wider mb-4 pb-3 border-b border-[var(--card-border)]">
-                Share Article
-              </h3>
-              <div className="grid grid-cols-3 gap-2">
-                <button
-                  onClick={handleShareTwitter}
-                  className="p-3 bg-white/5 hover:bg-blue-500/10 text-[var(--muted-text)] hover:text-blue-400 rounded-xl border border-[var(--card-border)] hover:border-blue-500/20 flex flex-col items-center justify-center gap-1 transition-all active:scale-95 text-[10px] font-bold"
-                >
-                  <Twitter className="w-4 h-4" />
-                  X / Twitter
-                </button>
-                <button
-                  onClick={handleShareWhatsApp}
-                  className="p-3 bg-white/5 hover:bg-emerald-500/10 text-[var(--muted-text)] hover:text-emerald-400 rounded-xl border border-[var(--card-border)] hover:border-emerald-500/20 flex flex-col items-center justify-center gap-1 transition-all active:scale-95 text-[10px] font-bold"
-                >
-                  <MessageCircle className="w-4 h-4" />
-                  WhatsApp
-                </button>
-                <button
-                  onClick={handleCopyLink}
-                  className={`p-3 rounded-xl border flex flex-col items-center justify-center gap-1 transition-all active:scale-95 text-[10px] font-bold ${
-                    copied 
-                      ? "bg-blue-600 border-blue-600 text-white" 
-                      : "bg-white/5 border-[var(--card-border)] text-[var(--muted-text)] hover:bg-blue-600/10 hover:text-blue-500 hover:border-blue-500/20"
-                  }`}
-                >
-                  {copied ? <Check className="w-4 h-4" /> : <Link2 className="w-4 h-4" />}
-                  {copied ? "Copied!" : "Copy Link"}
-                </button>
-              </div>
-            </div>
-
-          </aside>
-
-        </div>
-      </main>
-    </div>
+      <Breadcrumbs items={[{ label: t("nav.blog").includes("nav.") ? "Blog" : t("nav.blog"), href: "/blog" }, { label: freshTitle, href: `/blog/${post.slug}` }]} />
+ 
+       <main className="container mx-auto px-4 max-w-6xl mt-6 flex-1">
+         {/* Back navigation */}
+         <Link 
+           href={getLocalizedHref("/blog")} 
+           className="inline-flex items-center gap-2 text-xs font-bold text-[var(--muted-text)] hover:text-blue-600 mb-8 py-2 px-4 rounded-xl bg-white/5 border border-[var(--card-border)] transition-all hover:-translate-x-1"
+         >
+           <ArrowLeft className="w-4 h-4" /> {tUI.back}
+         </Link>
+ 
+         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+           
+           {/* 1. Left Post Column */}
+           <article className="lg:col-span-8 flex flex-col">
+             
+             {/* Header Details */}
+             <div className="mb-8">
+               <span className="px-3.5 py-1.5 rounded-xl bg-blue-500/10 border border-blue-500/20 text-blue-600 dark:text-blue-400 text-xs font-black uppercase tracking-wider mb-4 inline-block">
+                 {translateCategory(post.category)}
+               </span>
+               <h1 className="text-3xl sm:text-5xl font-black text-[var(--foreground)] tracking-tight leading-tight mb-6">
+                 {freshTitle}
+               </h1>
+ 
+               {/* Author info & stats */}
+               <div className="flex flex-wrap items-center justify-between gap-4 p-4 rounded-2xl bg-slate-50 dark:bg-slate-900/30 border border-[var(--card-border)]">
+                 <div className="flex items-center gap-3">
+                   <div className="relative w-10 h-10 rounded-full overflow-hidden border border-[var(--card-border)]">
+                     <Image src={post.author.avatar} alt={post.author.name} fill className="object-cover" />
+                   </div>
+                   <div>
+                     <div className="text-sm font-bold text-[var(--foreground)]">{post.author.name}</div>
+                     <div className="text-xs font-semibold text-[var(--muted-text)]">{translateAuthorRole(post.author.role)}</div>
+                   </div>
+                 </div>
+ 
+                 <div className="flex items-center gap-4 text-xs text-[var(--muted-text)] font-bold">
+                   <span className="flex items-center gap-1.5">
+                     <Calendar className="w-3.5 h-3.5" />
+                     {post.publishDate}
+                   </span>
+                   <span className="flex items-center gap-1.5">
+                     <Clock className="w-3.5 h-3.5" />
+                     {post.readTime}
+                   </span>
+                 </div>
+               </div>
+             </div>
+ 
+             {/* Featured Hero Banner */}
+             <div className="relative aspect-[16/9] w-full rounded-[2.5rem] overflow-hidden border border-[var(--card-border)] shadow-md mb-12">
+               <Image src={post.image} alt={freshTitle} fill className="object-cover" priority />
+             </div>
+ 
+             {/* Direct Answer Featured Snippet optimization */}
+             {post.directAnswer && (
+               <DirectAnswer 
+                 question={post.directAnswer.question}
+                 answer={post.directAnswer.answer}
+                 steps={post.directAnswer.steps}
+               />
+             )}
+ 
+             {/* Main Post Body */}
+             <div ref={contentRef} className="prose dark:prose-invert max-w-none text-[var(--foreground)]">
+               {renderMarkdown(freshContent)}
+             </div>
+ 
+             {/* Customized Conversion CTA Banner */}
+             <div className="glass-card p-8 rounded-[2.5rem] border border-[var(--card-border)] my-12 bg-gradient-to-br from-blue-600/5 via-indigo-600/5 to-purple-600/5 relative overflow-hidden shadow-lg">
+               <div className="absolute top-0 right-0 w-[200px] h-[200px] bg-blue-500/10 rounded-full blur-[80px] pointer-events-none" />
+               <div className="absolute bottom-0 left-0 w-[200px] h-[200px] bg-purple-500/10 rounded-full blur-[80px] pointer-events-none" />
+               
+               <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+                 <div className="flex-1">
+                   <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-600 dark:text-blue-400 text-xs font-bold shadow-sm mb-4">
+                     <Sparkles className="w-3.5 h-3.5" /> Fast & 100% Local Tool
+                   </div>
+                   <h3 className="text-xl sm:text-2xl font-black tracking-tight text-[var(--foreground)] mb-3 leading-snug">
+                     Bypass File Size Limits Instantly!
+                   </h3>
+                   <p className="text-sm font-semibold text-[var(--muted-text)] leading-relaxed">
+                     {post.ctaText}
+                   </p>
+                 </div>
+ 
+                 <Link
+                   href={getLocalizedHref(post.ctaLink)}
+                   className="px-6 py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-2xl flex items-center justify-center gap-2 group transition-all shadow-md shadow-blue-500/25 active:scale-95 shrink-0"
+                 >
+                   Compress Video Now
+                   <Play className="w-4 h-4 fill-white group-hover:translate-x-1 transition-transform" />
+                 </Link>
+               </div>
+             </div>
+ 
+             {/* In-Depth FAQ Section */}
+             <div className="mt-8 border-t border-[var(--card-border)] pt-12">
+               <h2 className="text-2xl sm:text-3xl font-black text-[var(--foreground)] mb-8 tracking-tight">
+                 {tUI.faqs}
+               </h2>
+               
+               <div className="space-y-6">
+                 {post.faqs.map((faq, i) => (
+                   <div key={i} className="glass-card p-6 rounded-2xl border border-[var(--card-border)]">
+                     <h3 className="text-base sm:text-lg font-bold text-[var(--foreground)] mb-3 flex items-start gap-2.5">
+                       <span className="w-5 h-5 rounded-lg bg-blue-500/10 text-blue-600 dark:text-blue-400 flex items-center justify-center text-xs font-black shrink-0 mt-0.5">Q</span>
+                       {faq.question}
+                     </h3>
+                     <p className="text-sm sm:text-base text-[var(--muted-text)] font-semibold leading-relaxed pl-7">
+                       {faq.answer}
+                     </p>
+                   </div>
+                 ))}
+               </div>
+             </div>
+             
+           </article>
+ 
+           {/* 2. Right Table of Contents Sidebar */}
+           <aside className="lg:col-span-4 sticky top-24 hidden lg:flex flex-col gap-8">
+             
+             {/* Table of Contents card */}
+             {headings.length > 0 && (
+               <div className="glass-card p-6 rounded-[2rem] border border-[var(--card-border)] shadow-sm">
+                 <h3 className="text-xs font-black text-[var(--muted-text)] uppercase tracking-wider mb-4 pb-3 border-b border-[var(--card-border)]">
+                   {tUI.toc}
+                 </h3>
+                 <nav className="flex flex-col gap-3">
+                   {headings.map((h, i) => (
+                     <a
+                       key={i}
+                       href={`#${h.id}`}
+                       className={`text-xs sm:text-sm font-semibold transition-all hover:text-blue-500 py-1 border-l-2 pl-3 ${
+                         h.level === 3 ? "ml-4" : ""
+                       } ${
+                         activeSection === h.id
+                           ? "border-blue-600 text-blue-600 dark:text-blue-400 font-bold bg-blue-500/5 rounded-r-lg"
+                           : "border-transparent text-[var(--muted-text)]"
+                       }`}
+                     >
+                       {h.text}
+                     </a>
+                   ))}
+                 </nav>
+               </div>
+             )}
+ 
+             {/* Author Expert Bio card */}
+             <div className="glass-card p-6 rounded-[2rem] border border-[var(--card-border)] shadow-sm">
+               <h3 className="text-xs font-black text-[var(--muted-text)] uppercase tracking-wider mb-4 pb-3 border-b border-[var(--card-border)]">
+                 {tUI.aboutAuthor}
+               </h3>
+               <div className="flex items-center gap-3 mb-4">
+                 <div className="relative w-12 h-12 rounded-full overflow-hidden border border-[var(--card-border)]">
+                   <Image src={post.author.avatar} alt={post.author.name} fill className="object-cover" />
+                 </div>
+                 <div>
+                   <h4 className="text-sm font-bold text-[var(--foreground)]">{post.author.name}</h4>
+                   <div className="text-[10px] font-semibold text-[var(--muted-text)]">{translateAuthorRole(post.author.role)}</div>
+                 </div>
+               </div>
+               <p className="text-xs text-[var(--muted-text)] font-semibold leading-relaxed">
+                 {post.author.bio}
+               </p>
+             </div>
+ 
+             {/* Share Card */}
+             <div className="glass-card p-6 rounded-[2rem] border border-[var(--card-border)] shadow-sm">
+               <h3 className="text-xs font-black text-[var(--muted-text)] uppercase tracking-wider mb-4 pb-3 border-b border-[var(--card-border)]">
+                 {tUI.share}
+               </h3>
+               <div className="grid grid-cols-3 gap-2">
+                 <button
+                   onClick={handleShareTwitter}
+                   className="p-3 bg-white/5 hover:bg-blue-500/10 text-[var(--muted-text)] hover:text-blue-400 rounded-xl border border-[var(--card-border)] hover:border-blue-500/20 flex flex-col items-center justify-center gap-1 transition-all active:scale-95 text-[10px] font-bold"
+                 >
+                   <Twitter className="w-4 h-4" />
+                   X / Twitter
+                 </button>
+                 <button
+                   onClick={handleShareWhatsApp}
+                   className="p-3 bg-white/5 hover:bg-emerald-500/10 text-[var(--muted-text)] hover:text-emerald-400 rounded-xl border border-[var(--card-border)] hover:border-emerald-500/20 flex flex-col items-center justify-center gap-1 transition-all active:scale-95 text-[10px] font-bold"
+                 >
+                   <MessageCircle className="w-4 h-4" />
+                   WhatsApp
+                 </button>
+                 <button
+                   onClick={handleCopyLink}
+                   className={`p-3 rounded-xl border flex flex-col items-center justify-center gap-1 transition-all active:scale-95 text-[10px] font-bold ${
+                     copied 
+                       ? "bg-blue-600 border-blue-600 text-white" 
+                       : "bg-white/5 border-[var(--card-border)] text-[var(--muted-text)] hover:bg-blue-600/10 hover:text-blue-500 hover:border-blue-500/20"
+                   }`}
+                 >
+                   {copied ? <Check className="w-4 h-4" /> : <Link2 className="w-4 h-4" />}
+                   {copied ? tUI.copied : tUI.copyLink}
+                 </button>
+               </div>
+             </div>
+ 
+           </aside>
+ 
+         </div>
+       </main>
+     </div>
   );
 }

@@ -9,18 +9,113 @@ import { BLOG_POSTS, BlogPost } from "@/data/blog-posts";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function BlogIndexClient() {
-  const { language } = useLanguage();
+  const { language, t } = useLanguage();
   const [searchQuery, setSearchQuery] = useState("");
   const [activeCategory, setActiveCategory] = useState<string>("All");
 
   const categories = ["All", "Compression Guides", "Social Media", "Video Formats", "Advanced Tips"];
 
+  // Helper to translate categories dynamically
+  const translateCategory = (cat: string) => {
+    const mappings: Record<string, Record<string, string>> = {
+      es: {
+        "All": "Todo",
+        "Compression Guides": "Guías de Compresión",
+        "Social Media": "Redes Sociales",
+        "Video Formats": "Formatos de Video",
+        "Advanced Tips": "Consejos Avanzados"
+      },
+      ar: {
+        "All": "الكل",
+        "Compression Guides": "أدلة الضغط",
+        "Social Media": "وسائل التواصل",
+        "Video Formats": "تنسيقات الفيديو",
+        "Advanced Tips": "نصائح متقدمة"
+      },
+      fr: {
+        "All": "Tout",
+        "Compression Guides": "Guides de Compression",
+        "Social Media": "Réseaux Sociaux",
+        "Video Formats": "Formats Vidéo",
+        "Advanced Tips": "Conseils Avancés"
+      },
+      de: {
+        "All": "Alle",
+        "Compression Guides": "Komprimierungsleitfäden",
+        "Social Media": "Soziale Medien",
+        "Video Formats": "Videoformate",
+        "Advanced Tips": "Erweiterte Tipps"
+      },
+      hi: {
+        "All": "सभी",
+        "Compression Guides": "कंप्रेशन गाइड",
+        "Social Media": "सोशल मीडिया",
+        "Video Formats": "वीडियो प्रारूप",
+        "Advanced Tips": "उन्नत सुझाव"
+      },
+      pt: {
+        "All": "Tudo",
+        "Compression Guides": "Guias de Compressão",
+        "Social Media": "Redes Sociais",
+        "Video Formats": "Formatos de Vídeo",
+        "Advanced Tips": "Dicas Avançadas"
+      },
+      it: {
+        "All": "Tutto",
+        "Compression Guides": "Guide alla Compressione",
+        "Social Media": "Social Media",
+        "Video Formats": "Formati Video",
+        "Advanced Tips": "Suggerimenti Avanzati"
+      },
+      ru: {
+        "All": "Все",
+        "Compression Guides": "Руководства по сжатию",
+        "Social Media": "Социальные сети",
+        "Video Formats": "Видеоформаты",
+        "Advanced Tips": "Продвинутые советы"
+      }
+    };
+    return mappings[language]?.[cat] || cat;
+  };
+
+  const tUI = {
+    heroTitle: t("blog.meta_title").includes("blog.") ? "Our Video Optimization Learning Hub" : t("blog.meta_title"),
+    heroDesc: t("blog.meta_desc").includes("blog.") 
+      ? "Discover expert tutorials, codec deep-dives, compression secrets, and visual enhancement guides to make your videos lightweight and beautiful." 
+      : t("blog.meta_desc"),
+    searchPlaceholder: language === "es" 
+      ? "Buscar tutoriales, palabras clave..." 
+      : language === "ar" 
+      ? "البحث في الدروس التعليمية، الكلمات المفتاحية..." 
+      : language === "de" 
+      ? "Tutorials, Keywords, Codecs suchen..." 
+      : language === "fr" 
+      ? "Rechercher des tutoriels, mots-clés..." 
+      : "Search tutorials, keywords, codecs...",
+    emptyTitle: language === "es" 
+      ? "No se encontraron artículos" 
+      : language === "ar" 
+      ? "لم يتم العثور على مقالات" 
+      : language === "de" 
+      ? "Keine Artikel gefunden" 
+      : language === "fr" 
+      ? "Aucun article trouvé" 
+      : "No articles found",
+    emptyDesc: language === "es" 
+      ? "No pudimos encontrar ningún artículo que coincida con su búsqueda. Intente verificar la ortografía o seleccionar otra categoría." 
+      : language === "ar" 
+      ? "لم نتمكن من العثور على أي مقالات تطابق بحثك. حاول التحقق من الإملاء أو اختيار فئة أخرى." 
+      : "We couldn't find any articles matching your search query. Try checking your spelling or selecting another category.",
+  };
+
   // Handle localized content (titles and excerpts) dynamically if translated, otherwise fallback to English
   const getPostMeta = (post: BlogPost) => {
+    const locTitle = t(`blog.${post.slug}.title`);
+    const locDesc = t(`blog.${post.slug}.description`);
     return {
-      title: post.title,
-      excerpt: post.excerpt,
-      category: post.category
+      title: locTitle.includes("blog.") ? post.title : locTitle,
+      excerpt: locDesc.includes("blog.") ? post.excerpt : locDesc,
+      category: translateCategory(post.category)
     };
   };
 
@@ -55,13 +150,10 @@ export default function BlogIndexClient() {
             VideoCompressorPro Insights
           </div>
           <h1 className="text-4xl sm:text-6xl font-black tracking-tight mb-6 leading-tight text-[var(--foreground)]">
-            Our Video Optimization{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500">
-              Learning Hub
-            </span>
+            {tUI.heroTitle}
           </h1>
           <p className="text-[var(--muted-text)] text-base sm:text-lg leading-relaxed font-medium">
-            Discover expert tutorials, codec deep-dives, compression secrets, and visual enhancement guides to make your videos lightweight and beautiful.
+            {tUI.heroDesc}
           </p>
         </div>
 
@@ -72,7 +164,7 @@ export default function BlogIndexClient() {
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[var(--muted-text)]" />
             <input
               type="text"
-              placeholder="Search tutorials, keywords, codecs..."
+              placeholder={tUI.searchPlaceholder}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-12 pr-4 py-3 bg-white/5 border border-[var(--card-border)] rounded-2xl text-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all font-medium text-[var(--foreground)]"
@@ -91,7 +183,7 @@ export default function BlogIndexClient() {
                     : "bg-white/5 text-[var(--muted-text)] hover:text-[var(--foreground)] border border-[var(--card-border)]"
                 }`}
               >
-                {category}
+                {translateCategory(category)}
               </button>
             ))}
           </div>
@@ -101,9 +193,9 @@ export default function BlogIndexClient() {
         {filteredPosts.length === 0 && (
           <div className="text-center py-20 bg-slate-50/50 dark:bg-slate-900/10 rounded-3xl border border-[var(--card-border)]">
             <BookOpen className="w-12 h-12 text-slate-400 mx-auto mb-4" />
-            <h3 className="text-xl font-bold text-[var(--foreground)] mb-2">No articles found</h3>
+            <h3 className="text-xl font-bold text-[var(--foreground)] mb-2">{tUI.emptyTitle}</h3>
             <p className="text-[var(--muted-text)] text-sm max-w-md mx-auto">
-              We couldn't find any articles matching your search query. Try checking your spelling or selecting another category.
+              {tUI.emptyDesc}
             </p>
           </div>
         )}

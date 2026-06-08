@@ -64,7 +64,7 @@ export const BLOG_POSTS: BlogPost[] = [
     ctaType: "compressor",
     ctaText: "Need to send a big video on WhatsApp right now? Use our Free Online Video Compressor to shrink it in 3 seconds!",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/send-large-video-whatsapp-without-quality-loss.jpg",
     faqs: [
       {
         question: "What is the exact video file limit on WhatsApp?",
@@ -177,7 +177,7 @@ Preserving your video's clarity while keeping it under the WhatsApp size thresho
     ctaType: "compressor",
     ctaText: "Got a 'file too powerful' error? Use our Free Discord Video Compressor to shrink your video under the limit instantly!",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/compress-video-for-discord-limits.jpg",
     faqs: [
       {
         question: "What are the exact upload limits for Discord users?",
@@ -275,7 +275,7 @@ No Nitro? No problem! Bypass Discord's file size bottlenecks today using our ins
     ctaType: "compressor",
     ctaText: "Email attachment too large? Use our Free Online Video Compressor to easily reduce its size and send it without hassle!",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1557200134-90327ee9fafa?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/compress-video-for-email-gmail-outlook.jpg",
     faqs: [
       {
         question: "What is the maximum attachment size for Gmail and Outlook?",
@@ -364,7 +364,7 @@ Attaching large videos to email drafts doesn't have to be a hassle. Compress you
     ctaType: "cutter",
     ctaText: "Make sure your social media clips are the right size and duration! Use our Free Online Video Cutter to crop and trim your videos perfectly for mobile.",
     ctaLink: "/video-cutter",
-    image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/perfect-video-sizes-tiktok-instagram-reels-youtube-shorts.jpg",
     faqs: [
       {
         question: "What is the best aspect ratio for TikTok, Reels, and YouTube Shorts?",
@@ -468,7 +468,7 @@ Optimizing your short-form dimensions is simple. Ensure you have cropped and tri
     ctaType: "compressor",
     ctaText: "Ready to stop Instagram's automatic low-quality compression? Shrink your video yourself using our Free Video Size Reducer before uploading!",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/compress-video-for-instagram-without-losing-quality.jpg",
     faqs: [
       {
         question: "Why does Instagram compress my videos so aggressively?",
@@ -568,7 +568,7 @@ Don't let aggressive compression ruin your creative hard work. Compress your vid
     ctaType: "compressor",
     ctaText: "No Nitro? No problem! Bypass the upload limit for free by instantly shrinking your gameplay clips with our Fast Online Video Compressor!",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/bypass-discord-file-size-limit-free.jpg",
     faqs: [
       {
         question: "Is there a way to send files larger than 25MB on Discord without Nitro?",
@@ -661,7 +661,7 @@ Bypassing Discord's file limits does not require an expensive Nitro subscription
     ctaType: "compressor",
     ctaText: "Make remote team collaboration lightning fast! Instantly compress your presentation videos online before sharing them on Slack or Teams.",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/compress-video-for-slack-microsoft-teams.jpg",
     faqs: [
       {
         question: "What are the file upload limits for Slack and Microsoft Teams?",
@@ -743,7 +743,7 @@ Speed up your remote workspace communication and save valuable corporate bandwid
     ctaType: "compressor",
     ctaText: "Improve your page load speed and SEO score right now! Shrink and optimize your video for web use with our free online compressor.",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/shrink-video-for-web-website-loading.jpg",
     faqs: [
       {
         question: "How does video file size affect website performance?",
@@ -834,7 +834,7 @@ Use a fast, local compressor to ensure your web videos are always lightweight, S
     ctaType: "compressor",
     ctaText: "Don't sacrifice your video's clarity! Compress your MP4 file without losing quality using our intelligent compression algorithms.",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/compress-mp4-without-losing-quality.jpg",
     faqs: [
       {
         question: "Is it possible to compress MP4 without losing any quality?",
@@ -922,7 +922,7 @@ Compressing your MP4 files intelligently means you no longer have to choose betw
     ctaType: "compressor",
     ctaText: "Ready to save disk space? Reduce your video file size instantly with our free online video compressor—no watermarks, no limits!",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1553481187-be93c21490a9?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/5-ways-reduce-video-file-size-free.jpg",
     faqs: [
       {
         question: "How much can I reduce a video file size without losing quality?",
@@ -1029,7 +1029,7 @@ By combining multiple methods—trimming unnecessary footage, choosing the right
     ctaType: "compressor",
     ctaText: "Got a huge 4K file? Compress it to 1080p online for free and reduce its size by up to 80% using our intelligent video compressor!",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1461151304267-38535e780c79?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/compress-4k-to-1080p-online.jpg",
     faqs: [
       {
         question: "How much smaller does a video get when converted from 4K to 1080p?",
@@ -1116,7 +1116,7 @@ Downscaling 4K footage to crisp, professional-looking 1080p is the smartest way 
     ctaType: "compressor",
     ctaText: "Try the fastest and most private online compressor today! Our tool runs locally in your browser—no upload wait times, no privacy risks.",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/best-online-video-compressor-comparison.jpg",
     faqs: [
       {
         question: "What makes an online video compressor good?",
@@ -1212,7 +1212,7 @@ For any video compression task—whether you are shrinking a 4K cinematic clip, 
     ctaType: "compressor",
     ctaText: "Reduce your video size by 50% or more without losing crispness. Use our intelligent online compressor and see the difference today!",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/shrink-video-50-percent-without-blur.jpg",
     faqs: [
       {
         question: "Why do most video compressors make videos blurry?",
@@ -1303,7 +1303,7 @@ Blur-free compression is not magic—it is the result of using the right encodin
     ctaType: "compressor",
     ctaText: "Dealing with a massive multi-gigabyte video? Reduce it to a manageable MB size right now using our powerful free online video compressor!",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/reduce-gb-to-mb-compress-large-videos.jpg",
     faqs: [
       {
         question: "How do I compress a 2GB video to under 100MB?",
@@ -1397,7 +1397,7 @@ Stop letting giant video files clog your storage drives and email inboxes. Compr
     ctaType: "compressor",
     ctaText: "Save hours of work! Compress multiple video files at once using our fast bulk video compressor. Free, local, and no quality loss.",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/bulk-video-compression-guide.jpg",
     faqs: [
       {
         question: "Can I compress multiple videos at the same time online?",
@@ -1488,7 +1488,7 @@ Batch compression transforms a day-long task into a quick, automated workflow. S
     ctaType: "compressor",
     ctaText: "Quickly convert and shrink your Apple MOV files to web-friendly MP4! Use our free online converter and compressor to get started now.",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/compress-mov-to-mp4-online.jpg",
     faqs: [
       {
         question: "Why are MOV files so much larger than MP4 files?",
@@ -1557,7 +1557,7 @@ Converting and compressing your MOV files to MP4 is the quickest path to univers
     ctaType: "compressor",
     ctaText: "No need to download heavy apps from the App Store! Open our Mobile-friendly Video Compressor in Safari and shrink your iPhone videos instantly.",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/compress-video-iphone-ipad-no-apps.jpg",
     faqs: [
       {
         question: "Can I compress a video on iPhone without an app?",
@@ -1625,7 +1625,7 @@ Open Safari, visit VideoCompressorPro, and shrink your iPhone videos for free in
     ctaType: "compressor",
     ctaText: "Free up precious storage space on your Android! Reduce video size instantly using Chrome browser—no app required, no watermarks.",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/reduce-video-size-android-free.jpg",
     faqs: [
       {
         question: "How can I compress a video on Android without an app?",
@@ -1685,7 +1685,7 @@ With Chrome and VideoCompressorPro, reducing video file size on any Android devi
     ctaType: "compressor",
     ctaText: "Your high-bitrate camera files are too heavy for online sharing. Compress your GoPro and DSLR videos to web-friendly sizes for free—right now!",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/compress-gopro-dslr-video-online.jpg",
     faqs: [
       {
         question: "What bitrate does a GoPro Hero 12 record at?",
@@ -1751,7 +1751,7 @@ Keep your cinematic vision intact while making your footage easy to share online
     ctaType: "compressor",
     ctaText: "Convert your MKV files to web-friendly MP4 and shrink them in one step! Try our free MKV to MP4 Compressor now.",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1535016120720-40c646be5580?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/mkv-vs-mp4-compress-convert.jpg",
     faqs: [
       {
         question: "Is MKV better quality than MP4?",
@@ -1820,7 +1820,7 @@ Converting your MKV library to universally compatible MP4 ensures your videos pl
     ctaType: "compressor",
     ctaText: "Optimize your PC video storage effortlessly. Compress large video files on Windows without installing any software—free and instant!",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/compress-video-windows-10-11.jpg",
     faqs: [
       {
         question: "Can Windows 10 and 11 compress videos without extra software?",
@@ -1889,7 +1889,7 @@ Compressing your Windows video library takes minutes and immediately frees up gi
     ctaType: "cutter",
     ctaText: "Cut out the fluff first! Use our ultra-fast Online Video Cutter to trim your video before you compress it—the smart way to save the most space.",
     ctaLink: "/video-cutter",
-    image: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/trim-cut-video-online-before-compressing.jpg",
     faqs: [
       {
         question: "Should I trim my video before or after compressing it?",
@@ -1962,7 +1962,7 @@ Combine lossless trimming with intelligent compression for maximum file size red
     ctaType: "video-to-mp3",
     ctaText: "Only need the audio track from your video? Extract MP3 audio from any video format instantly using our simple and free Video to MP3 converter!",
     ctaLink: "/video-to-mp3",
-    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/extract-audio-mp3-from-video-online.jpg",
     faqs: [
       {
         question: "What is the best quality audio format to extract from a video?",
@@ -2026,7 +2026,7 @@ All processing runs **100% locally in your browser**—your videos are never upl
     ctaType: "video-to-text",
     ctaText: "Save hours of manual typing! Use our AI-powered Video to Text Converter to get accurate transcripts from any video in seconds.",
     ctaLink: "/video-to-text",
-    image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/convert-video-to-text-transcription-guide.jpg",
     faqs: [
       {
         question: "How accurate is AI video-to-text transcription?",
@@ -2095,7 +2095,7 @@ Convert your video library into a searchable, repurposable text archive for free
     ctaType: "cutter",
     ctaText: "Cut your video in milliseconds without any quality loss! Try our free Lossless Video Cutter now—no re-encoding, no blurring, just perfect cuts.",
     ctaLink: "/video-cutter",
-    image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/trim-video-without-reencoding-quality-loss.jpg",
     faqs: [
       {
         question: "What does re-encoding mean in video editing?",
@@ -2165,7 +2165,7 @@ This order is critical—trim first, compress second for maximum quality at mini
     ctaType: "cutter",
     ctaText: "Get your social media clips down to the exact second. Trim and cut videos for TikTok, Shorts, and Reels for free using our Online Video Cutter!",
     ctaLink: "/video-cutter",
-    image: "https://images.unsplash.com/photo-1533750349088-cd871a92f312?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/cut-videos-tiktok-youtube-shorts.jpg",
     faqs: [
       {
         question: "What is the maximum length for a TikTok video?",
@@ -2239,7 +2239,7 @@ Get perfect duration AND perfect file size for every platform!
     ctaType: "compressor",
     ctaText: "Now that you understand bitrate, put your knowledge to work! Use our Advanced Video Compressor to set custom bitrates and optimize any video perfectly.",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/what-is-video-bitrate-guide.jpg",
     faqs: [
       {
         question: "What is a good video bitrate for 1080p?",
@@ -2319,7 +2319,7 @@ Use our [Advanced Video Compressor](file:///) to precisely target any bitrate!
     ctaType: "compressor",
     ctaText: "Compare both codecs, then encode and compress videos using H.264 and H.265 on our free online compression tool!",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/h264-vs-h265-best-codec-compression.jpg",
     faqs: [
       {
         question: "Is H.265 always better than H.264?",
@@ -2388,7 +2388,7 @@ Start compressing with the right codec for your use case today!
     ctaType: "compressor",
     ctaText: "Learn the difference, then test it yourself! Use our free Online Video Optimizer to apply intelligent lossy compression and see the results instantly.",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/lossless-vs-lossy-compression-guide.jpg",
     faqs: [
       {
         question: "Can a video be compressed losslessly?",
@@ -2466,7 +2466,7 @@ Use our [Free Online Video Optimizer](file:///) for intelligent lossy compressio
     ctaType: "compressor",
     ctaText: "Now you know the difference! Convert and compress videos in any format and container instantly using our free multi-format online compressor.",
     ctaLink: "/",
-    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800&h=450",
+    image: "/images/blog/video-container-vs-codec-explained.jpg",
     faqs: [
       {
         question: "What is the difference between MP4 and H.264?",
