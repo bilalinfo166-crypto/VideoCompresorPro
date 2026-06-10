@@ -268,124 +268,180 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
   // Safe Simple Markdown Renderer to prevent dangerous compilation bugs
   const renderMarkdown = (content: string) => {
     const lines = content.split("\n");
-    let inList = false;
-    let listItems: string[] = [];
+    const elements: (JSX.Element | null)[] = [];
+    let i = 0;
     
-    return lines.map((line, index) => {
+    while (i < lines.length) {
+      const line = lines[i];
       const trimmed = line.trim();
-
+      
       // Empty line
       if (trimmed === "") {
-        if (inList) {
-          inList = false;
-          const renderedList = (
-            <ul key={`list-${index}`} className="list-disc pl-6 my-4 space-y-2 text-[var(--muted-text)] font-medium leading-relaxed">
-              {listItems.map((item, i) => (
-                <li key={i}>{parseInlineFormatting(item)}</li>
-              ))}
-            </ul>
-          );
-          listItems = [];
-          return renderedList;
-        }
-        return <div key={index} className="h-4" />;
+        elements.push(<div key={`empty-${i}`} className="h-4" />);
+        i++;
+        continue;
       }
-
-      // Ordered list tables or standard tables (represented by markdown pipe characters)
+      
+      // Parse Table Block
       if (trimmed.startsWith("|")) {
-        if (trimmed.includes("---")) return null;
+        const tableLines: string[] = [];
+        // Gather all consecutive table lines
+        while (i < lines.length && lines[i].trim().startsWith("|")) {
+          tableLines.push(lines[i].trim());
+          i++;
+        }
         
-        const cells = trimmed.split("|").map(c => c.trim()).filter((_, idx, arr) => idx > 0 && idx < arr.length - 1);
-        const isHeader = index > 0 && lines[index - 1].trim() === "" && lines[index + 1]?.trim().includes("---");
+        // Parse gathered table lines
+        const rows: string[][] = [];
+        let hasHeader = false;
         
-        return (
-          <div key={index} className="overflow-x-auto my-6 rounded-2xl border border-[var(--card-border)] bg-slate-50/50 dark:bg-slate-900/10">
-            <table className="min-w-full divide-y divide-[var(--card-border)]">
-              <tbody>
-                <tr className={isHeader ? "bg-slate-100 dark:bg-slate-800/50 font-bold" : "hover:bg-white/5"}>
-                  {cells.map((cell, cIdx) => (
-                    <td key={cIdx} className="px-6 py-4 text-sm font-semibold text-[var(--foreground)] border-r last:border-r-0 border-[var(--card-border)]">
-                      {parseInlineFormatting(cell)}
-                    </td>
+        tableLines.forEach((tLine) => {
+          if (tLine.includes("---")) {
+            hasHeader = true;
+            return; // skip separator line
+          }
+          const cells = tLine.split("|").map(c => c.trim()).filter((_, idx, arr) => idx > 0 && idx < arr.length - 1);
+          rows.push(cells);
+        });
+        
+        if (rows.length > 0) {
+          const headerCells = hasHeader ? rows[0] : null;
+          const bodyRows = hasHeader ? rows.slice(1) : rows;
+          
+          elements.push(
+            <div key={`table-${i}`} className="overflow-x-auto my-6 rounded-2xl border border-[var(--card-border)] bg-slate-50/50 dark:bg-slate-900/10">
+              <table className="min-w-full divide-y divide-[var(--card-border)]">
+                {headerCells && (
+                  <thead className="bg-slate-100 dark:bg-slate-800/50">
+                    <tr>
+                      {headerCells.map((cell, cIdx) => (
+                        <th key={`th-${cIdx}`} className="px-6 py-4 text-left text-sm font-black text-[var(--foreground)] border-r last:border-r-0 border-[var(--card-border)]">
+                          {parseInlineFormatting(cell)}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                )}
+                <tbody className="divide-y divide-[var(--card-border)]">
+                  {bodyRows.map((rCells, rIdx) => (
+                    <tr key={`tr-${rIdx}`} className="hover:bg-white/5">
+                      {rCells.map((cell, cIdx) => (
+                        <td key={`td-${cIdx}`} className="px-6 py-4 text-sm font-semibold text-[var(--foreground)] border-r last:border-r-0 border-[var(--card-border)]">
+                          {parseInlineFormatting(cell)}
+                        </td>
+                      ))}
+                    </tr>
                   ))}
-                </tr>
-              </tbody>
-            </table>
+                </tbody>
+              </table>
+            </div>
+          );
+        }
+        continue;
+      }
+      
+      // Parse Bullet List Block
+      if (trimmed.startsWith("* ") || trimmed.startsWith("- ")) {
+        const listItems: string[] = [];
+        while (i < lines.length && (lines[i].trim().startsWith("* ") || lines[i].trim().startsWith("- "))) {
+          listItems.push(lines[i].trim().substring(2));
+          i++;
+        }
+        elements.push(
+          <ul key={`list-${i}`} className="list-disc pl-6 my-4 space-y-2 text-[var(--muted-text)] font-medium leading-relaxed">
+            {listItems.map((item, idx) => (
+              <li key={`li-${idx}`}>{parseInlineFormatting(item)}</li>
+            ))}
+          </ul>
+        );
+        continue;
+      }
+      
+      // Parse Numbered List Block
+      if (/^\d+\.\s/.test(trimmed)) {
+        const listItems: { num: string; text: string }[] = [];
+        while (i < lines.length && /^\d+\.\s/.test(lines[i].trim())) {
+          const tLine = lines[i].trim();
+          const matchNum = tLine.match(/^\d+/)?.[0] || "";
+          const text = tLine.replace(/^\d+\.\s/, "");
+          listItems.push({ num: matchNum, text });
+          i++;
+        }
+        elements.push(
+          <div key={`nlist-${i}`} className="space-y-4 my-4">
+            {listItems.map((item, idx) => (
+              <div key={`nli-${idx}`} className="flex gap-3">
+                <span className="flex-shrink-0 w-6 h-6 rounded-lg bg-blue-500/10 text-blue-600 dark:text-blue-400 font-black text-xs flex items-center justify-center">
+                  {item.num}
+                </span>
+                <p className="text-[var(--muted-text)] font-medium leading-relaxed flex-1">
+                  {parseInlineFormatting(item.text)}
+                </p>
+              </div>
+            ))}
           </div>
         );
+        continue;
       }
-
+      
       // Headers (H2)
       if (trimmed.startsWith("## ")) {
         const text = trimmed.replace("## ", "");
         const id = text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
-        return (
+        elements.push(
           <h2 
-            key={index} 
+            key={`h2-${i}`} 
             id={id} 
             className="text-2xl sm:text-3xl font-black text-[var(--foreground)] mt-10 mb-4 tracking-tight flex items-center gap-2 group scroll-mt-24"
           >
-            {parseInlineFormatting(trimmed.replace("## ", ""))}
+            {parseInlineFormatting(text)}
           </h2>
         );
+        i++;
+        continue;
       }
-
+      
       // Headers (H3)
       if (trimmed.startsWith("### ")) {
         const text = trimmed.replace("### ", "");
         const id = text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
-        return (
+        elements.push(
           <h3 
-            key={index} 
+            key={`h3-${i}`} 
             id={id} 
             className="text-xl sm:text-2xl font-black text-[var(--foreground)] mt-8 mb-3 tracking-tight scroll-mt-24"
           >
-            {parseInlineFormatting(trimmed.replace("### ", ""))}
+            {parseInlineFormatting(text)}
           </h3>
         );
+        i++;
+        continue;
       }
-
-      // Bullet List item
-      if (trimmed.startsWith("* ") || trimmed.startsWith("- ")) {
-        inList = true;
-        listItems.push(trimmed.substring(2));
-        return null;
-      }
-
-      // Numbered List
-      if (/^\d+\.\s/.test(trimmed)) {
-        const text = trimmed.replace(/^\d+\.\s/, "");
-        return (
-          <div key={index} className="flex gap-3 my-4">
-            <span className="flex-shrink-0 w-6 h-6 rounded-lg bg-blue-500/10 text-blue-600 dark:text-blue-400 font-black text-xs flex items-center justify-center">
-              {trimmed.match(/^\d+/)?.[0]}
-            </span>
-            <p className="text-[var(--muted-text)] font-medium leading-relaxed flex-1">
-              {parseInlineFormatting(text)}
-            </p>
-          </div>
-        );
-      }
-
+      
       // Blockquotes / Alerts
       if (trimmed.startsWith("> ")) {
-        return (
-          <div key={index} className="my-6 p-6 rounded-3xl border-l-4 border-indigo-500 bg-indigo-500/5 flex gap-4">
+        elements.push(
+          <div key={`quote-${i}`} className="my-6 p-6 rounded-3xl border-l-4 border-indigo-500 bg-indigo-500/5 flex gap-4">
             <AlertCircle className="w-5 h-5 text-indigo-400 flex-shrink-0 mt-0.5" />
             <p className="text-sm font-semibold leading-relaxed text-[var(--foreground)] italic">
               {parseInlineFormatting(trimmed.replace("> ", ""))}
             </p>
           </div>
         );
+        i++;
+        continue;
       }
-
+      
       // Default Paragraph
-      return (
-        <p key={index} className="text-base text-[var(--muted-text)] leading-relaxed font-medium mb-6">
+      elements.push(
+        <p key={`p-${i}`} className="text-base text-[var(--muted-text)] leading-relaxed font-medium mb-6">
           {parseInlineFormatting(trimmed)}
         </p>
       );
-    });
+      i++;
+    }
+    
+    return elements;
   };
 
   // Helper to convert Markdown inline tokens like bold (`**`), links (`[]()`), and highlights to TSX
@@ -424,7 +480,7 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
             <Link 
               key={match.index} 
               href={getLocalizedHref(cleanUrl)} 
-              className="text-blue-600 dark:text-blue-400 font-bold hover:underline"
+              className="text-blue-600 dark:text-blue-400 hover:underline"
             >
               {linkText}
             </Link>
@@ -436,7 +492,7 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
               href={linkUrl} 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="text-blue-600 dark:text-blue-400 font-bold hover:underline"
+              className="text-blue-600 dark:text-blue-400 hover:underline"
             >
               {linkText}
             </a>
