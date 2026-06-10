@@ -417,6 +417,23 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
         i++;
         continue;
       }
+
+      // Headers (H4)
+      if (trimmed.startsWith("#### ")) {
+        const text = trimmed.replace("#### ", "");
+        const id = text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+        elements.push(
+          <h4 
+            key={`h4-${i}`} 
+            id={id} 
+            className="text-lg sm:text-xl font-bold text-[var(--foreground)] mt-6 mb-2 tracking-tight scroll-mt-24"
+          >
+            {parseInlineFormatting(text)}
+          </h4>
+        );
+        i++;
+        continue;
+      }
       
       // Blockquotes / Alerts
       if (trimmed.startsWith("> ")) {

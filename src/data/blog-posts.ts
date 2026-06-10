@@ -126,12 +126,12 @@ These video compression tips are tried and true if you want to compress video wi
 
 
 
-[Try Video Compressor Pro](/)
+[Try Video Compressor Pro](https://videocompressorpro.com/)
 ### Favor the use of Modern Video Codecs
 The codec you choose has a huge impact on compression efficiency.
-### H.264 Compression
+#### H.264 Compression
 H.264 is still one of the most popular codecs. It has very good compatibility and file size reduction.
-### H.265 Compression
+#### H.265 Compression
 H.265 (HEVC) is more efficient than H.264 in compressing video without compromising quality.
 * Benefits include:
 * Smaller file sizes
@@ -191,7 +191,7 @@ To select a video compressor that doesn't compromise quality, consider these fea
 * High-quality export options
 * Fast processing speeds
 * No watermark restrictions
-The VideoCompressorPro is created to supply free [online video compressor](/)  functionality, yet keeping the video quality during compression.
+The VideoCompressorPro is created to supply free [online video compressor](https://videocompressorpro.com/)  functionality, yet keeping the video quality during compression.
 
 
 ## How to Compress Large Video Files
@@ -224,7 +224,7 @@ MP4 has excellent compression and compatibility.
 ### Use Modern Codecs
 H.264 and H.265 are more efficient.
 ### Remove Unnecessary Content
-Cut out extra video and shorten length by using [video cutter](/video-cutter) 
+Cut out extra video and shorten length by using [video cutter](https://videocompressorpro.com/video-cutter) 
 ### Compress Audio
 Audio settings can make a huge difference in file size.
 
@@ -311,7 +311,7 @@ This prevents the upload limitation.
 
 ## How to Compress Video on iPhone Without Losing Quality
 iPhone users can:
-* Use [browser-based compressors](/)
+* Use [browser-based compressors](https://videocompressorpro.com/)
 * Lower export settings
 * Convert large recordings
 * Optimize sharing formats
