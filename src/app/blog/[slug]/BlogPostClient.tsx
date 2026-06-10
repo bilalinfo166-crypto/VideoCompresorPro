@@ -818,12 +818,12 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
            </article>
  
            {/* 2. Right Table of Contents Sidebar */}
-           <aside className="lg:col-span-4 sticky top-24 hidden lg:flex flex-col gap-8 notranslate">
+           <aside className="lg:col-span-4 sticky top-24 hidden lg:flex flex-col gap-8">
              
              {/* Table of Contents card */}
              {headings.length > 0 && (
                <div className="glass-card p-6 rounded-[2rem] border border-[var(--card-border)] shadow-sm">
-                 <h3 className="text-xs font-black text-[var(--muted-text)] uppercase tracking-wider mb-4 pb-3 border-b border-[var(--card-border)]">
+                 <h3 className="text-xs font-black text-[var(--muted-text)] uppercase tracking-wider mb-4 pb-3 border-b border-[var(--card-border)] notranslate">
                    {tUI.toc}
                  </h3>
                  <nav className="flex flex-col gap-3">
@@ -848,13 +848,13 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
  
              {/* Author Expert Bio card */}
              <div className="glass-card p-6 rounded-[2rem] border border-[var(--card-border)] shadow-sm">
-               <h3 className="text-xs font-black text-[var(--muted-text)] uppercase tracking-wider mb-4 pb-3 border-b border-[var(--card-border)]">
+               <h3 className="text-xs font-black text-[var(--muted-text)] uppercase tracking-wider mb-4 pb-3 border-b border-[var(--card-border)] notranslate">
                  {tUI.aboutAuthor}
                </h3>
                <div className="mb-4">
                  <div>
-                   <h4 className="text-sm font-bold text-[var(--foreground)]">{post.author.name}</h4>
-                   <div className="text-[10px] font-semibold text-[var(--muted-text)]">{translateAuthorRole(post.author.role)}</div>
+                   <h4 className="text-sm font-bold text-[var(--foreground)] notranslate">{post.author.name}</h4>
+                   <div className="text-[10px] font-semibold text-[var(--muted-text)] notranslate">{translateAuthorRole(post.author.role)}</div>
                  </div>
                </div>
                <p className="text-xs text-[var(--muted-text)] font-semibold leading-relaxed">
