@@ -249,9 +249,6 @@ export default function BlogIndexClient() {
                   {/* Footer Line */}
                   <div className="pt-4 border-t border-[var(--card-border)] mt-auto flex items-center justify-between">
                     <div className="flex items-center gap-2.5">
-                      <div className="relative w-8 h-8 rounded-full overflow-hidden border border-[var(--card-border)]">
-                        <Image src={post.author.avatar} alt={post.author.name} fill className="object-cover" />
-                      </div>
                       <div>
                         <div className="text-xs font-bold text-[var(--foreground)]">{post.author.name}</div>
                         <div className="text-[10px] font-semibold text-[var(--muted-text)] leading-none">{post.author.role}</div>

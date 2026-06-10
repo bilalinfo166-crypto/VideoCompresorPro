@@ -720,9 +720,6 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
                {/* Author info & stats */}
                <div className="flex flex-wrap items-center justify-between gap-4 p-4 rounded-2xl bg-slate-50 dark:bg-slate-900/30 border border-[var(--card-border)]">
                  <div className="flex items-center gap-3">
-                   <div className="relative w-10 h-10 rounded-full overflow-hidden border border-[var(--card-border)]">
-                     <Image src={post.author.avatar} alt={post.author.name} fill className="object-cover" />
-                   </div>
                    <div>
                      <div className="text-sm font-bold text-[var(--foreground)]">{post.author.name}</div>
                      <div className="text-xs font-semibold text-[var(--muted-text)]">{translateAuthorRole(post.author.role)}</div>
@@ -854,10 +851,7 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
                <h3 className="text-xs font-black text-[var(--muted-text)] uppercase tracking-wider mb-4 pb-3 border-b border-[var(--card-border)]">
                  {tUI.aboutAuthor}
                </h3>
-               <div className="flex items-center gap-3 mb-4">
-                 <div className="relative w-12 h-12 rounded-full overflow-hidden border border-[var(--card-border)]">
-                   <Image src={post.author.avatar} alt={post.author.name} fill className="object-cover" />
-                 </div>
+               <div className="mb-4">
                  <div>
                    <h4 className="text-sm font-bold text-[var(--foreground)]">{post.author.name}</h4>
                    <div className="text-[10px] font-semibold text-[var(--muted-text)]">{translateAuthorRole(post.author.role)}</div>
