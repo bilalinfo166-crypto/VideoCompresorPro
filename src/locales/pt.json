@@ -1791,6 +1791,10 @@
     "video-container-vs-codec-explained": {
       "title": "O que é um contêiner de vídeo versus um codec? (MP4, MKV, AVI explicado)",
       "description": "Ficou confuso sobre os formatos de vídeo? Aprenda a diferença entre contêineres de vídeo (MP4, MKV, AVI) e codecs (H.264, H.265) e por que isso é importante para a compactação."
+    },
+    "compress-video-without-losing-quality": {
+      "title": "Como compactar vídeo sem perder qualidade (Guia 2026)",
+      "description": "Aprenda como compactar vídeo sem perder qualidade usando os melhores métodos de compactação de vídeo, configurações, codecs e ferramentas online para arquivos MP4."
     }
   },
   "tiktok_page": {

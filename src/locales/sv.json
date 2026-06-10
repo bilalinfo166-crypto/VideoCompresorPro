@@ -1784,6 +1784,10 @@
     "video-container-vs-codec-explained": {
       "title": "Vad är en videobehållare kontra en codec? (MP4, MKV, AVI Explained)",
       "description": "Är du förvirrad över videoformat? Lär dig skillnaden mellan videobehållare (MP4, MKV, AVI) och codecs (H.264, H.265) och varför det är viktigt för komprimering."
+    },
+    "compress-video-without-losing-quality": {
+      "title": "Hur man komprimerar video utan att förlora kvalitet (2026 Guide)",
+      "description": "Lär dig hur du komprimerar video utan att förlora kvalitet med de bästa videokomprimeringsmetoderna, inställningarna, codecs och onlineverktyg för MP4-filer."
     }
   },
   "tiktok_page": {

@@ -1784,6 +1784,10 @@
     "video-container-vs-codec-explained": {
       "title": "Video Container ve Codec nedir? (MP4, MKV, AVI Açıklaması)",
       "description": "Video formatları konusunda kafanız mı karıştı? Video kapsayıcıları (MP4, MKV, AVI) ile kodlayıcılar (H.264, H.265) arasındaki farkı ve bunların sıkıştırma için neden önemli olduğunu öğrenin."
+    },
+    "compress-video-without-losing-quality": {
+      "title": "Kaliteyi Kaybetmeden Video Nasıl Sıkıştırılır (2026 Kılavuzu)",
+      "description": "MP4 dosyaları için en iyi video sıkıştırma yöntemlerini, ayarlarını, codec'lerini ve çevrimiçi araçlarını kullanarak kaliteyi kaybetmeden videoyu nasıl sıkıştıracağınızı öğrenin."
     }
   },
   "tiktok_page": {

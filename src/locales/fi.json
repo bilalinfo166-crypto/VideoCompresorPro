@@ -1784,6 +1784,10 @@
     "video-container-vs-codec-explained": {
       "title": "Mikä on videosäilö vs. koodekki? (MP4, MKV, AVI Explained)",
       "description": "Oletko hämmentynyt videoformaateista? Opi ero videosäiliöiden (MP4, MKV, AVI) ja koodekkien (H.264, H.265) välillä ja miksi se on tärkeää pakkaamisessa."
+    },
+    "compress-video-without-losing-quality": {
+      "title": "Videon pakkaaminen laatua menettämättä (2026-opas)",
+      "description": "Opi pakata videota laadun heikkenemättä käyttämällä parhaita videonpakkausmenetelmiä, asetuksia, koodekkeja ja online-työkaluja MP4-tiedostoille."
     }
   },
   "tiktok_page": {

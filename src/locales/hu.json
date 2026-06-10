@@ -1784,6 +1784,10 @@
     "video-container-vs-codec-explained": {
       "title": "Mi az a videotároló és a kodek? (MP4, MKV, AVI magyarázat)",
       "description": "Zavarban van a videóformátumokkal kapcsolatban? Ismerje meg a videótárolók (MP4, MKV, AVI) és a kodekek (H.264, H.265) közötti különbséget, és hogy miért fontos ez a tömörítésnél."
+    },
+    "compress-video-without-losing-quality": {
+      "title": "Videó tömörítése a minőség elvesztése nélkül (2026. évi útmutató)",
+      "description": "Tanulja meg, hogyan tömöríthet videót minőségromlás nélkül a legjobb videótömörítési módszerek, beállítások, kodekek és online eszközök segítségével MP4-fájlokhoz."
     }
   },
   "tiktok_page": {

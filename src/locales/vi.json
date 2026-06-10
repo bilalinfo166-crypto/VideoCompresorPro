@@ -1784,6 +1784,10 @@
     "video-container-vs-codec-explained": {
       "title": "Vùng chứa video so với Codec là gì? (Giải thích về MP4, MKV, AVI)",
       "description": "Nhầm lẫn về các định dạng video? Tìm hiểu sự khác biệt giữa bộ chứa video (MP4, MKV, AVI) và codec (H.264, H.265) và lý do nén lại quan trọng."
+    },
+    "compress-video-without-losing-quality": {
+      "title": "Cách nén video mà không làm giảm chất lượng (Hướng dẫn năm 2026)",
+      "description": "Tìm hiểu cách nén video mà không làm giảm chất lượng bằng các phương pháp, cài đặt, codec và công cụ trực tuyến nén video tốt nhất cho tệp MP4."
     }
   },
   "tiktok_page": {

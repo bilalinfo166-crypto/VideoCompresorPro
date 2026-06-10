@@ -1784,6 +1784,10 @@
     "video-container-vs-codec-explained": {
       "title": "Ce este un container video vs. un codec? (MP4, MKV, AVI explicat)",
       "description": "Sunteți confuz cu privire la formatele video? Aflați diferența dintre containerele video (MP4, MKV, AVI) și codecuri (H.264, H.265) și de ce este important pentru compresie."
+    },
+    "compress-video-without-losing-quality": {
+      "title": "Cum să comprimați videoclipuri fără a pierde calitatea (Ghid 2026)",
+      "description": "Aflați cum să comprimați videoclipuri fără a pierde calitatea utilizând cele mai bune metode de compresie video, setări, codecuri și instrumente online pentru fișierele MP4."
     }
   },
   "tiktok_page": {

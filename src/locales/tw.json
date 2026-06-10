@@ -1784,6 +1784,10 @@
     "video-container-vs-codec-explained": {
       "title": "什麼是視訊容器與編解碼器？ （MP4、MKV、AVI 解釋）",
       "description": "對視訊格式感到困惑？了解視訊容器（MP4、MKV、AVI）和編解碼器（H.264、H.265）之間的差異以及為什麼它對壓縮很重要。"
+    },
+    "compress-video-without-losing-quality": {
+      "title": "如何在不損失品質的情況下壓縮影片（2026 年指南）",
+      "description": "了解如何使用 MP4 檔案的最佳視訊壓縮方法、設定、編解碼器和線上工具來壓縮視訊而不損失品質。"
     }
   },
   "tiktok_page": {

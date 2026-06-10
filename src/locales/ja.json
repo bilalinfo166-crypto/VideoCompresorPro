@@ -1784,6 +1784,10 @@
     "video-container-vs-codec-explained": {
       "title": "ビデオコンテナとコーデックとは何ですか? (MP4、MKV、AVI について説明)",
       "description": "ビデオ形式について混乱していますか?ビデオ コンテナー (MP4、MKV、AVI) とコーデック (H.264、H.265) の違いと、それが圧縮に重要である理由を学びます。"
+    },
+    "compress-video-without-losing-quality": {
+      "title": "品質を落とさずにビデオを圧縮する方法 (2026 年ガイド)",
+      "description": "MP4 ファイルに最適なビデオ圧縮方法、設定、コーデック、オンライン ツールを使用して、品質を落とさずにビデオを圧縮する方法を学びます。"
     }
   },
   "tiktok_page": {

@@ -1784,6 +1784,10 @@
     "video-container-vs-codec-explained": {
       "title": "Czym jest kontener wideo a kodek? (Wyjaśnienie MP4, MKV, AVI)",
       "description": "Nie masz pewności co do formatów wideo? Dowiedz się, jaka jest różnica między kontenerami wideo (MP4, MKV, AVI) a kodekami (H.264, H.265) i dlaczego ma to znaczenie dla kompresji."
+    },
+    "compress-video-without-losing-quality": {
+      "title": "Jak kompresować wideo bez utraty jakości (przewodnik 2026)",
+      "description": "Dowiedz się, jak kompresować wideo bez utraty jakości, korzystając z najlepszych metod kompresji wideo, ustawień, kodeków i narzędzi online do plików MP4."
     }
   },
   "tiktok_page": {

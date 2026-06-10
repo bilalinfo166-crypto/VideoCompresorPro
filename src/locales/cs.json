@@ -1784,6 +1784,10 @@
     "video-container-vs-codec-explained": {
       "title": "Co je to video kontejner vs. kodek? (vysvětlení MP4, MKV, AVI)",
       "description": "Jste zmateni formáty videa? Zjistěte, jaký je rozdíl mezi video kontejnery (MP4, MKV, AVI) a kodeky (H.264, H.265) a proč je důležitá pro kompresi."
+    },
+    "compress-video-without-losing-quality": {
+      "title": "Jak komprimovat video bez ztráty kvality (průvodce 2026)",
+      "description": "Naučte se komprimovat video bez ztráty kvality pomocí nejlepších metod komprese videa, nastavení, kodeků a online nástrojů pro soubory MP4."
     }
   },
   "tiktok_page": {

@@ -1784,6 +1784,10 @@
     "video-container-vs-codec-explained": {
       "title": "Hvad er en videocontainer vs. et codec? (MP4, MKV, AVI forklaret)",
       "description": "Er du forvirret over videoformater? Lær forskellen mellem videobeholdere (MP4, MKV, AVI) og codecs (H.264, H.265), og hvorfor det er vigtigt for komprimering."
+    },
+    "compress-video-without-losing-quality": {
+      "title": "Sådan komprimeres video uden at miste kvalitet (2026-vejledning)",
+      "description": "Lær, hvordan du komprimerer video uden at miste kvalitet ved at bruge de bedste videokomprimeringsmetoder, indstillinger, codecs og onlineværktøjer til MP4-filer."
     }
   },
   "tiktok_page": {
