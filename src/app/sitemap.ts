@@ -126,6 +126,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.6,
       });
     }
+
+    // Localized info pages
+    for (const route of infoPages) {
+      allRoutes.push({
+        url: `${baseUrl}/${locale}${route}`,
+        lastModified: now,
+        changeFrequency: 'yearly',
+        priority: 0.45,
+      });
+    }
   }
 
   return allRoutes;
