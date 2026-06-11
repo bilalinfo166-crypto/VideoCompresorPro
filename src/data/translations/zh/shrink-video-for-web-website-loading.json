@@ -1,0 +1,21 @@
+{
+  "title": "如何缩小视频文件大小以实现 Web 和快速网站加载",
+  "excerpt": "大量视频文件会降低网站的加载速度和 Google 排名。了解如何快速免费地缩小和优化网络视频。",
+  "metaTitle": "缩小网站视频文件大小并加快页面加载速度（免费）",
+  "metaDesc": "大型视频文件会压垮 Core Web Vitals 分数。了解如何缩小视频以供网络使用、提高加载速度以及通过正确的设置提高 SEO 排名。",
+  "faqs": [
+    {
+      "question": "视频文件大小如何影响网站性能？",
+      "answer": "大型视频文件直接影响两个关键的网站性能指标：首字节时间 (TTFB) 和最大内容绘制 (LCP)。两者都是 Google 用于对网站进行排名的 Core Web Vitals。主页上 50MB 的背景视频可能会导致页面加载时间增加 3-5 秒，从而导致页面在搜索结果中的排名下降。"
+    },
+    {
+      "question": "网站上的背景视频的理想文件大小是多少？",
+      "answer": "对于网站上的英雄部分或背景视频，理想的文件大小是 5MB 以下，循环时间为 15-30 秒。对于常规嵌入内容视频，请将其控制在 15MB 以下。对 Chrome/Firefox 使用 WebM 格式，并提供 MP4 后备以实现 Safari 兼容性。"
+    },
+    {
+      "question": "网站视频应该使用 MP4 还是 WebM？",
+      "answer": "两者都有各自的用例。 WebM（VP9 编解码器）受 Chrome、Firefox 和 Edge 支持，在相同质量下生成的文件比 H.264 MP4 小最多 30%。 MP4（H.264 编解码器）得到普遍支持，包括 Safari 和旧版浏览器。最佳实践是在“<video>”标记内使用 HTML5“<source>”元素包含这两种格式。"
+    }
+  ],
+  "content": "视频内容极大地提高了网站上的用户参与度。根据 Forrester Research 的数据，与纯文本页面相比，嵌入视频的页面看到的首页 Google 搜索结果要多 53 倍。然而，有一个关键问题：未优化的视频文件是网站加载缓慢和 Core Web Vitals 分数不佳的主要原因之一。\n\n如果您的网站背景视频或嵌入式教程加载缓慢，它会直接降低您的 Google 排名，增加您的跳出率，并阻止您的访问者离开。在本专家指南中，我们将向您准确展示如何缩小视频以供网络使用，从而显着改善用户体验和 SEO 性能。\n\n---\n\n## 视频文件大小如何影响您的核心网络生命力\n\nGoogle 的 Core Web Vitals 是一组三个指标，用于衡量网页的实际加载体验。大量、未优化的视频文件的存在会对这三个方面产生负面影响：\n\n1. **最大内容绘制 (LCP)**：如果您的英雄部分有背景视频，LCP 会测量该视频元素完全显示所需的时间。 Google 希望 LCP 低于 **2.5 秒**。 20MB 的英雄视频通常会产生 5-7 秒的 LCP 分数，该分数被评为“差”并会影响您的排名。\n2. **累积布局变化 (CLS)**：如果未在 HTML 中预先设置视频尺寸，则页面布局会随着视频加载而变化，从而导致不和谐的跳转。这是一个 CLS 问题。\n3. **与下一个绘制的交互（INP）**：带有大视频文件的页面会迫使浏览器的主线程超时工作，使用户感觉按钮和链接缓慢。\n\n将视频压缩并优化为正确的网络格式可以直接解决所有这三个问题。\n\n---\n\n## 理想的网络视频规格\n\n以下是在网站上嵌入视频时应达到的目标规范：\n\n|参数|推荐值|\n| :--- | :--- |\n| **主要格式** | **WebM**（适用于 Chrome/Firefox 的 VP9 编解码器）|\n| **后备格式** | **MP4**（适用于 Safari 的 H.264 编解码器）|\n| **分辨率** | **720p** (1280x720) 用于背景； **1080p** 教程 |\n| **比特率** | **背景为 500 至 1,000 kbps**；教程 | 1,500 至 3,000 kbps |\n| **音频** |从背景循环中删除音频；教程保持在 96-128 kbps |\n| **帧率** | **24fps** 实现流畅的电影背景； **30fps** 教程 |\n\n---\n\n## 优化网络视频的分步指南\n\n创建网络优化视频的最快方法是使用 **VideoCompressorPro**，它使用基于本地浏览器的编码引擎，可在几秒钟内生成行业标准的网络视频。\n\n### 如何为您的网站压缩视频：\n\n1. 打开[免费在线视频优化器](file:///)。\n2. 上传原始视频文件（支持 MP4、MOV、AVI、WebM）。\n3. 将输出格式设置为 **MP4**（用于通用兼容性）或 **WebM**（用于现代浏览器）。\n4. 选择 **720p** 作为背景循环，或选择 **1080p** 作为教程内容。\n5. 将比特率滑块拖动至 **1,000 kbps**（用于背景）或 **2,500 kbps**（用于教程）。\n6. 如果您的视频是循环播放，请完全删除音轨以节省更多数据。\n7. 单击“**压缩**”并下载优化后的网络就绪文件。\n\n---\n\n## 高级 Web 性能技术\n\n正确压缩视频后，直接在网站的 HTML 中应用这些额外的性能优化：\n\n* **使用 preload=\"metadata\" 属性**：使用 preload=\"metadata\" 只加载第一帧和视频持续时间，而不是 preload=\"auto\" （强制浏览器立即下载整个视频），从而节省大量页面加载带宽。\n* **为后台循环添加内联播放和静音**：移动浏览器（尤其是 iOS 上的 Safari）会阻止自动播放，除非视频同时静音并标记为内联播放。 Without these attributes, your hero video simply will not play on mobile devices.\n* **实现延迟加载**：使用loading=\"lazy\" 属性或 JavaScript 中的 IntersectionObserver 仅当用户滚动到视频附近时才开始加载视频。 This dramatically speeds up the initial above-the-fold page load.\n\n使用快速的本地压缩器来确保您的网络视频始终是轻量级的、经过 SEO 优化的，并准备好为每个访问者提供令人惊叹的第一印象！\n\n\n---\n\n### 网络视频性能检查表\nWhen embedding videos on pages for public consumption, verify that the following configurations are implemented:\n* **Always Use Autoplay Correctly**: Modern browsers will block autoplay if the video does not have the `muted` attribute.\n* **Preload Optimization**: Set `preload=\"metadata\"` so that the browser does not download the entire video until the user clicks play.\n* **Responsive Video Containers**: Wrap your video tag in responsive CSS styles so it displays perfectly on mobile and desktop screens.\n\n### 最终网站视频检查\nImplementing lightweight web video files directly improves search engine optimization rankings and user retention rates.嵌入视频时，使用封装在响应式 CSS 容器中的现代 HTML5 视频标签，为浏览器配置静音自动播放，并应用预加载元数据标签以保持初始页面加载速度非常快。\n* **监控页面速度得分**：定期在包含视频标签的页面上运行 Google PageSpeed Insights，以确认媒体渲染不会阻碍网站的初始加载速度。"
+}

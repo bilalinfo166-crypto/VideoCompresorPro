@@ -56,10 +56,35 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function BlogPostDetail({ params }: Props) {
+import fs from "fs";
+import path from "path";
+
+export default function BlogPostDetail({ params, locale = "en" }: Props & { locale?: string }) {
   const post = BLOG_POSTS.find((p) => p.slug === params.slug);
   if (!post) {
     notFound();
   }
-  return <BlogPostClient params={params} />;
+
+  let localizedPost = { ...post };
+  if (locale !== "en") {
+    try {
+      const transPath = path.join(process.cwd(), `src/data/translations/${locale}/${post.slug}.json`);
+      if (fs.existsSync(transPath)) {
+        const trans = JSON.parse(fs.readFileSync(transPath, "utf8"));
+        localizedPost = {
+          ...post,
+          title: trans.title || post.title,
+          excerpt: trans.excerpt || post.excerpt,
+          content: trans.content || post.content,
+          faqs: trans.faqs || post.faqs,
+          metaTitle: trans.metaTitle || post.metaTitle,
+          metaDesc: trans.metaDesc || post.metaDesc,
+        };
+      }
+    } catch (e) {
+      console.error(`Failed to load translation for ${locale}/${post.slug}:`, e);
+    }
+  }
+
+  return <BlogPostClient params={params} postData={localizedPost} />;
 }

@@ -20,6 +20,28 @@ export const metadata: Metadata = {
   }
 };
 
-export default function BlogPage() {
-  return <BlogIndexClient />;
+import fs from "fs";
+import path from "path";
+import { BLOG_POSTS } from "@/data/blog-posts";
+
+export default function BlogPage({ locale = "en" }: { locale?: string }) {
+  const localizedPosts = BLOG_POSTS.map((post) => {
+    if (locale === "en") return post;
+    try {
+      const transPath = path.join(process.cwd(), `src/data/translations/${locale}/${post.slug}.json`);
+      if (fs.existsSync(transPath)) {
+        const trans = JSON.parse(fs.readFileSync(transPath, "utf8"));
+        return {
+          ...post,
+          title: trans.title || post.title,
+          excerpt: trans.excerpt || post.excerpt,
+        };
+      }
+    } catch (e) {
+      // Fallback
+    }
+    return post;
+  });
+
+  return <BlogIndexClient postsData={localizedPosts} />;
 }

@@ -8,8 +8,9 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { BLOG_POSTS, BlogPost } from "@/data/blog-posts";
 import { useLanguage } from "@/context/LanguageContext";
 
-export default function BlogIndexClient() {
+export default function BlogIndexClient({ postsData }: { postsData?: BlogPost[] }) {
   const { language, t } = useLanguage();
+  const posts = postsData || BLOG_POSTS;
   const [searchQuery, setSearchQuery] = useState("");
   const [activeCategory, setActiveCategory] = useState<string>("All");
 
@@ -120,7 +121,7 @@ export default function BlogIndexClient() {
   };
 
   // Filter posts
-  const filteredPosts = BLOG_POSTS.filter((post) => {
+  const filteredPosts = posts.filter((post) => {
     const meta = getPostMeta(post);
     const matchesSearch =
       meta.title.toLowerCase().includes(searchQuery.toLowerCase()) ||

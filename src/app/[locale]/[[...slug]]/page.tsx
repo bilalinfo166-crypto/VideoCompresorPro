@@ -280,9 +280,9 @@ export default function LocalizedPage({ params }: LocalizedPageProps) {
       return <YouTubeShortsPage />;
     case "blog":
       if (slug.length === 1) {
-        return <BlogIndexPage />;
+        return <BlogIndexPage locale={locale} />;
       } else if (slug.length === 2) {
-        return <BlogPostDetail params={{ slug: slug[1] }} />;
+        return <BlogPostDetail params={{ slug: slug[1] }} locale={locale} />;
       }
       notFound();
   }

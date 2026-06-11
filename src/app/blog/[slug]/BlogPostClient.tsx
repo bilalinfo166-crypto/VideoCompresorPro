@@ -10,15 +10,15 @@ import {
   Sparkles, AlertCircle, Play
 } from "lucide-react";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
-import { BLOG_POSTS } from "@/data/blog-posts";
+import { BLOG_POSTS, BlogPost } from "@/data/blog-posts";
 import { useLanguage } from "@/context/LanguageContext";
 import DirectAnswer from "@/components/seo/DirectAnswer";
 
-export default function BlogPostClient({ params }: { params: { slug: string } }) {
+export default function BlogPostClient({ params, postData }: { params: { slug: string }; postData?: BlogPost }) {
   const { language, t } = useLanguage();
   const slug = params.slug;
 
-  const post = BLOG_POSTS.find((p) => p.slug === slug);
+  const post = postData || BLOG_POSTS.find((p) => p.slug === slug);
   if (!post) {
     notFound();
   }
@@ -147,53 +147,7 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
       : "Frequently Asked Questions",
   };
 
-  // Set up automatic translation for languages other than English
-  useEffect(() => {
-    const originalLang = document.documentElement.lang;
 
-    if (language !== "en") {
-      // Temporarily set HTML lang to 'en' so Google Translate realizes the page is in English and translates it
-      document.documentElement.lang = "en";
-
-      document.cookie = `googtrans=/en/${language}; path=/;`;
-      document.cookie = `googtrans=/en/${language}; path=/; domain=.videocompressorpro.com;`;
-
-      (window as any).googleTranslateElementInit = () => {
-        new (window as any).google.translate.TranslateElement({
-          pageLanguage: 'en',
-          autoDisplay: false,
-          layout: (window as any).google.translate.TranslateElement.InlineLayout.SIMPLE
-        }, 'google_translate_element');
-      };
-
-      if (!document.getElementById("google-translate-script")) {
-        const script = document.createElement("script");
-        script.id = "google-translate-script";
-        script.src = "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-        script.async = true;
-        document.body.appendChild(script);
-      } else {
-        try {
-          if ((window as any).google && (window as any).google.translate) {
-            new (window as any).google.translate.TranslateElement({
-              pageLanguage: 'en',
-              autoDisplay: false
-            }, 'google_translate_element');
-          }
-        } catch (e) {
-          console.error(e);
-        }
-      }
-    } else {
-      document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-      document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.videocompressorpro.com;";
-    }
-
-    return () => {
-      // Restore the original document language on unmount or language switch
-      document.documentElement.lang = originalLang;
-    };
-  }, [language]);
 
   // Calculate Reading Progress and Parse Headings for Table of Contents
   useEffect(() => {
@@ -676,9 +630,6 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
 
   return (
     <div className="flex flex-col min-h-screen pt-8 pb-20 bg-[var(--background)]">
-      {/* Hidden Google Translate anchor */}
-      <div id="google_translate_element" style={{ display: 'none' }} className="hidden" />
-
       {/* Dynamic SEO Schemas */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
