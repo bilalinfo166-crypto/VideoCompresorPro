@@ -1765,18 +1765,6 @@
       "title": "Yeniden Kodlama ve Kalite Kaybı Olmadan Video Dosyaları Nasıl Kırpılır",
       "description": "Çoğu video düzeltici, videonuzu yeniden kodlar ve kalitesini düşürür. Çevrimiçi kayıpsız video kesicimizi kullanarak videoyu yeniden kodlamaya gerek kalmadan kayıpsız bir şekilde nasıl kırpacağınızı öğrenin."
     },
-    "cut-videos-tiktok-youtube-shorts": {
-      "title": "TikTok ve YouTube Shorts için Çevrimiçi Videolar Nasıl Mükemmel Şekilde Kesilir",
-      "description": "Videolarınızı TikTok ve YouTube Shorts için tam olarak doğru uzunluğa getirin. Kısa biçimli erişimi en üst düzeye çıkarmak için video klipleri çevrimiçi olarak nasıl ücretsiz keseceğinizi ve kırpacağınızı öğrenin."
-    },
-    "what-is-video-bitrate-guide": {
-      "title": "Video Bit Hızı Nedir? Video Kalitenizi ve Boyutunuzu Nasıl Etkiler",
-      "description": "Video bit hızı konusunda kafanız mı karıştı? Bunun ne olduğunu, kaliteyi ve dosya boyutunu nasıl etkilediğini ve her platform ve kullanım durumu için hangi bit hızının hedefleneceğini öğrenin."
-    },
-    "h264-vs-h265-best-codec-compression": {
-      "title": "H.264 ve H.265 (HEVC): Video Sıkıştırma için Hangi Codec En İyisidir?",
-      "description": "H.264 ve H.265 — sıkıştırma açısından hangi video codec bileşeni daha iyidir? Doğru seçimi yapmak için verimliliği, uyumluluğu, kodlama hızını ve cihaz desteğini karşılaştırın."
-    },
     "lossless-vs-lossy-compression-guide": {
       "title": "Kayıpsız ve Kayıplı Sıkıştırma: Video Düzenleyiciler için Basit Bir Kılavuz",
       "description": "Kayıpsız ve kayıplı video sıkıştırma arasındaki farkı anlayın. Her türün ne zaman kullanılacağını ve en az kalite kaybıyla en küçük dosya boyutunun nasıl elde edileceğini öğrenin."
@@ -1792,6 +1780,18 @@
     "best-online-video-cutter-without-watermark": {
       "title": "Filigransız En İyi Çevrimiçi Video Kesici (2026 Kılavuzu)",
       "description": "2026'nın filigransız en iyi çevrimiçi video kesicisi. Özellikleri karşılaştırın, neleri arayacağınızı öğrenin ve kaliteyi kaybetmeden videoları çevrimiçi olarak kırpmanın en kolay yolunu bulun."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "TikTok ve YouTube Shorts için Çevrimiçi Videolar Nasıl Mükemmel Şekilde Kesilir (Adım Adım Kılavuz 2026)",
+      "description": "2026'da görüntülemeleri, etkileşimi ve viral erişimi artırmak için kolay adım adım düzenleme ipuçları, ideal video uzunlukları ve dışa aktarma ayarlarıyla TikTok ve YouTube Shorts için videoları nasıl mükemmel şekilde çevrimiçi keseceğinizi öğrenin."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "Video Bit Hızı Nedir? Bit Hızı Video Kalitesini ve Dosya Boyutunu Nasıl Etkiler?",
+      "description": "Video bit hızının ne olduğunu ve video kalitesini, dosya boyutunu, akış performansını ve sıkıştırmayı nasıl etkilediğini öğrenin. Daha net videolar ve verimli depolama için en iyi bit hızı ayarlarını keşfedin."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 ve H.265 (HEVC): 2026'da Sıkıştırma için Hangi Video Codec Bileşeni En İyisidir?",
+      "description": "H.264 ve H.265 (HEVC) Video Codec Bileşenlerinin Karşılaştırılması. Doğru olanı seçmek için bu codec bileşenlerinin sıkıştırma, boyut, kalite, akış ve uyumluluk açısından nasıl farklılık gösterdiğini keşfedin."
     }
   },
   "tiktok_page": {

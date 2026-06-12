@@ -1765,18 +1765,6 @@
       "title": "Comment découper des fichiers vidéo sans réencodage ni perte de qualité",
       "description": "La plupart des découpages vidéo réencodent et dégradent votre vidéo. Apprenez à découper une vidéo sans perte sans réencodage à l'aide de notre outil de découpe vidéo sans perte en ligne."
     },
-    "cut-videos-tiktok-youtube-shorts": {
-      "title": "Comment couper parfaitement des vidéos en ligne pour les courts métrages TikTok et YouTube",
-      "description": "Obtenez vos vidéos à la bonne longueur pour TikTok et YouTube Shorts. Apprenez à couper et à découper des clips vidéo en ligne gratuitement pour maximiser la portée des formats courts."
-    },
-    "what-is-video-bitrate-guide": {
-      "title": "Qu’est-ce que le débit vidéo ? Comment cela affecte la qualité et la taille de votre vidéo",
-      "description": "Vous ne savez pas quel débit vidéo ? Découvrez de quoi il s'agit, comment cela affecte la qualité et la taille des fichiers, ainsi que le débit binaire à cibler pour chaque plate-forme et chaque cas d'utilisation."
-    },
-    "h264-vs-h265-best-codec-compression": {
-      "title": "H.264 ou H.265 (HEVC) : quel codec est le meilleur pour la compression vidéo ?",
-      "description": "H.264 ou H.265 : quel codec vidéo est le meilleur pour la compression ? Comparez l'efficacité, la compatibilité, la vitesse d'encodage et la prise en charge des appareils pour faire le bon choix."
-    },
     "lossless-vs-lossy-compression-guide": {
       "title": "Compression sans perte ou avec perte : un guide simple pour les éditeurs vidéo",
       "description": "Comprenez la différence entre la compression vidéo sans perte et avec perte. Découvrez quand utiliser chaque type et comment obtenir la plus petite taille de fichier avec le moins de perte de qualité."
@@ -1792,6 +1780,18 @@
     "best-online-video-cutter-without-watermark": {
       "title": "Meilleur outil de découpe vidéo en ligne sans filigrane (Guide 2026)",
       "description": "Le meilleur outil de découpe vidéo en ligne sans filigrane en 2026. Comparez les fonctionnalités, découvrez ce qu'il faut rechercher et trouvez le moyen le plus simple de découper des vidéos en ligne sans perte de qualité."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "Comment couper parfaitement des vidéos en ligne pour les courts métrages TikTok et YouTube (Guide étape par étape 2026)",
+      "description": "Apprenez à couper parfaitement des vidéos en ligne pour TikTok et YouTube Shorts grâce à des conseils d'édition simples étape par étape, des durées de vidéo idéales et des paramètres d'exportation pour augmenter les vues, l'engagement et la portée virale en 2026."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "Qu’est-ce que le débit vidéo ? Comment le débit binaire affecte la qualité vidéo et la taille du fichier",
+      "description": "Découvrez ce qu'est le débit vidéo et son impact sur la qualité vidéo, la taille du fichier, les performances de streaming et la compression. Découvrez les meilleurs paramètres de débit binaire pour des vidéos plus claires et un stockage efficace."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 vs H.265 (HEVC) : quel codec vidéo est le meilleur pour la compression en 2026 ?",
+      "description": "Comparaison des codecs vidéo H.264 et H.265 (HEVC). Découvrez comment ces codecs diffèrent en termes de compression, de taille, de qualité, de streaming et de compatibilité pour sélectionner celui qui vous convient."
     }
   },
   "tiktok_page": {

@@ -1765,18 +1765,6 @@
       "title": "Jak przyciąć pliki wideo bez ponownego kodowania i utraty jakości",
       "description": "Większość przycinarek wideo ponownie koduje i pogarsza jakość wideo. Dowiedz się, jak bezstratnie przycinać wideo bez ponownego kodowania, korzystając z naszego internetowego bezstratnego narzędzia do cięcia wideo."
     },
-    "cut-videos-tiktok-youtube-shorts": {
-      "title": "Jak idealnie przycinać filmy online na potrzeby TikTok i YouTube Shorts",
-      "description": "Ustawiaj swoje filmy na dokładnie odpowiednią długość dla TikTok i YouTube Shorts. Dowiedz się, jak bezpłatnie przycinać i przycinać klipy wideo online, aby zmaksymalizować zasięg krótkich form."
-    },
-    "what-is-video-bitrate-guide": {
-      "title": "Co to jest szybkość transmisji wideo? Jak to wpływa na jakość i rozmiar Twojego wideo",
-      "description": "Nie masz pewności co do szybkości transmisji wideo? Dowiedz się, co to jest, jak wpływa na jakość i rozmiar pliku oraz jaką szybkość transmisji bitów należy ustawić dla każdej platformy i przypadku użycia."
-    },
-    "h264-vs-h265-best-codec-compression": {
-      "title": "H.264 kontra H.265 (HEVC): który kodek jest najlepszy do kompresji wideo?",
-      "description": "H.264 czy H.265 — który kodek wideo jest lepszy pod względem kompresji? Porównaj wydajność, kompatybilność, szybkość kodowania i obsługę urządzeń, aby dokonać właściwego wyboru."
-    },
     "lossless-vs-lossy-compression-guide": {
       "title": "Kompresja bezstratna a kompresja stratna: prosty przewodnik dla edytorów wideo",
       "description": "Zrozum różnicę między bezstratną i stratną kompresją wideo. Dowiedz się, kiedy używać poszczególnych typów i jak uzyskać najmniejszy rozmiar pliku przy jak najmniejszej utracie jakości."
@@ -1792,6 +1780,18 @@
     "best-online-video-cutter-without-watermark": {
       "title": "Najlepszy internetowy obcinacz wideo bez znaku wodnego (przewodnik 2026)",
       "description": "Najlepsza przycinarka wideo online bez znaku wodnego w 2026 r. Porównaj funkcje, dowiedz się, na co zwrócić uwagę i znajdź najłatwiejszy sposób przycinania filmów online bez utraty jakości."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "Jak idealnie przycinać filmy online do krótkich filmów TikTok i YouTube (przewodnik krok po kroku 2026)",
+      "description": "Dowiedz się, jak idealnie przycinać filmy online na potrzeby TikTok i YouTube Shorts, korzystając z prostych, szczegółowych wskazówek dotyczących edycji, idealnych długości filmów i ustawień eksportu, aby zwiększyć liczbę wyświetleń, zaangażowanie i zasięg wirusowy w 2026 roku."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "Co to jest szybkość transmisji wideo? Jak szybkość transmisji wpływa na jakość wideo i rozmiar pliku",
+      "description": "Dowiedz się, czym jest szybkość transmisji wideo i jej wpływ na jakość wideo, rozmiar pliku, wydajność przesyłania strumieniowego i kompresję. Odkryj najlepsze ustawienia szybkości transmisji, aby uzyskać wyraźniejsze filmy i wydajniejsze przechowywanie."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 vs H.265 (HEVC): który kodek wideo jest najlepszy do kompresji w 2026 r.?",
+      "description": "Porównanie kodeków wideo H.264 i H.265 (HEVC). Odkryj, czym różnią się te kodeki pod względem kompresji, rozmiaru, jakości, przesyłania strumieniowego i kompatybilności, aby wybrać właściwy."
     }
   },
   "tiktok_page": {

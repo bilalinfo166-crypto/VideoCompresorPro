@@ -1765,18 +1765,6 @@
       "title": "Videotiedostojen leikkaaminen ilman uudelleenkoodausta ja laadun heikkenemistä",
       "description": "Useimmat videoleikkurit koodaavat ja huonontavat videosi uudelleen. Opi leikkaamaan videota häviöttömästi ilman uudelleenkoodausta käyttämällä häviötöntä online-videoleikkuria."
     },
-    "cut-videos-tiktok-youtube-shorts": {
-      "title": "Kuinka leikata videoita verkossa TikTokille ja YouTube-shortseille täydellisesti",
-      "description": "Hanki videosi täsmälleen oikean pituisiksi TikTokille ja YouTube Shortsille. Opi leikkaamaan ja leikkaamaan videoleikkeitä verkossa ilmaiseksi maksimoidaksesi lyhyen kattavuuden."
-    },
-    "what-is-video-bitrate-guide": {
-      "title": "Mikä on videon bittinopeus? Miten se vaikuttaa videon laatuun ja kokoon",
-      "description": "Oletko hämmentynyt videon bittinopeudesta? Opi, mikä se on, miten se vaikuttaa laatuun ja tiedostokokoon ja mihin bittinopeus on kohdistettava jokaisessa alustassa ja käyttötapauksessa."
-    },
-    "h264-vs-h265-best-codec-compression": {
-      "title": "H.264 vs. H.265 (HEVC): Mikä koodekki on paras videon pakkaamiseen?",
-      "description": "H.264 vs. H.265 – mikä videokoodekki on parempi pakkaamiseen? Vertaa tehokkuutta, yhteensopivuutta, koodausnopeutta ja laitetukea tehdäksesi oikean valinnan."
-    },
     "lossless-vs-lossy-compression-guide": {
       "title": "Häviötön vs. häviöllinen pakkaus: yksinkertainen opas videoeditorille",
       "description": "Ymmärrä ero häviöttömän ja häviöllisen videopakkauksen välillä. Opi käyttämään kutakin tyyppiä ja kuinka saada pienin tiedostokoko vähiten laatuhäviöillä."
@@ -1792,6 +1780,18 @@
     "best-online-video-cutter-without-watermark": {
       "title": "Paras online-videoleikkuri ilman vesileimaa (2026-opas)",
       "description": "Paras online-videoleikkuri ilman vesileimaa vuonna 2026. Vertaa ominaisuuksia, opi etsimään ja löydä helpoin tapa leikata videoita verkossa laadun heikkenemättä."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "Kuinka leikata videoita verkossa TikTokille ja YouTube-shortseille täydellisesti (vaiheittainen opas 2026)",
+      "description": "Opi leikkaamaan videoita verkossa TikTokille ja YouTube Shortsille täydellisesti helppojen vaiheittaisten editointivinkkien, ihanteellisten videoiden pituuksien ja vientiasetusten avulla, jotka lisäävät katselukertoja, sitoutumista ja viruksen kattavuutta vuonna 2026."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "Mikä on videon bittinopeus? Kuinka bittinopeus vaikuttaa videon laatuun ja tiedostokokoon",
+      "description": "Opi, mitä videon bittinopeus on ja miten se vaikuttaa videon laatuun, tiedostokokoon, suoratoiston suorituskykyyn ja pakkaukseen. Löydä parhaat bittinopeusasetukset selkeämpien videoiden ja tehokkaan tallennustilan saamiseksi."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 vs. H.265 (HEVC): Mikä videokoodekki sopii parhaiten pakkaamiseen vuonna 2026?",
+      "description": "H.264- ja H.265 (HEVC) -videokoodekkien vertailu. Ota selvää, miten nämä koodekit eroavat pakkauksen, koon, laadun, suoratoiston ja yhteensopivuuden suhteen valitaksesi oikean."
     }
   },
   "tiktok_page": {

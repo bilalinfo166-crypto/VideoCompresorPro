@@ -1765,18 +1765,6 @@
       "title": "Videobestanden inkorten zonder opnieuw te coderen en kwaliteitsverlies",
       "description": "De meeste videotrimmers coderen en verslechteren uw video. Leer hoe u video verliesvrij kunt inkorten zonder opnieuw te coderen met behulp van onze online verliesvrije videosnijder."
     },
-    "cut-videos-tiktok-youtube-shorts": {
-      "title": "Hoe je perfect online video's kunt knippen voor TikTok en YouTube Shorts",
-      "description": "Zorg ervoor dat je video's precies de juiste lengte hebben voor TikTok en YouTube Shorts. Leer gratis online hoe u videoclips kunt knippen en bijsnijden om het bereik van korte video's te maximaliseren."
-    },
-    "what-is-video-bitrate-guide": {
-      "title": "Wat is videobitsnelheid? Hoe dit uw videokwaliteit en -grootte beïnvloedt",
-      "description": "Bent u in de war over de videobitsnelheid? Ontdek wat het is, hoe het de kwaliteit en bestandsgrootte beïnvloedt, en welke bitrate u moet targeten voor elk platform en gebruiksscenario."
-    },
-    "h264-vs-h265-best-codec-compression": {
-      "title": "H.264 versus H.265 (HEVC): welke codec is het beste voor videocompressie?",
-      "description": "H.264 versus H.265: welke videocodec is beter voor compressie? Vergelijk efficiëntie, compatibiliteit, coderingssnelheid en apparaatondersteuning om de juiste keuze te maken."
-    },
     "lossless-vs-lossy-compression-guide": {
       "title": "Lossless versus lossy compressie: een eenvoudige handleiding voor video-editors",
       "description": "Begrijp het verschil tussen verliesloze en verliesgevende videocompressie. Leer wanneer u elk type moet gebruiken en hoe u de kleinste bestandsgrootte kunt verkrijgen met het minste kwaliteitsverlies."
@@ -1792,6 +1780,18 @@
     "best-online-video-cutter-without-watermark": {
       "title": "Beste online videosnijder zonder watermerk (gids 2026)",
       "description": "De beste online videosnijder zonder watermerk in 2026. Vergelijk functies, leer waar je op moet letten en vind de gemakkelijkste manier om video's online bij te snijden zonder kwaliteitsverlies."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "Hoe je perfect online video's kunt knippen voor TikTok en YouTube Shorts (stapsgewijze handleiding 2026)",
+      "description": "Leer hoe je perfect video's online kunt knippen voor TikTok en YouTube Shorts met eenvoudige stapsgewijze bewerkingstips, ideale videolengtes en exportinstellingen om het aantal weergaven, de betrokkenheid en het virale bereik in 2026 te vergroten."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "Wat is videobitsnelheid? Hoe bitrate de videokwaliteit en bestandsgrootte beïnvloedt",
+      "description": "Ontdek wat videobitsnelheid is en welke invloed dit heeft op de videokwaliteit, bestandsgrootte, streamingprestaties en compressie. Ontdek de beste bitrate-instellingen voor duidelijkere video's en efficiënte opslag."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 versus H.265 (HEVC): welke videocodec is het beste voor compressie in 2026?",
+      "description": "Vergelijking van H.264 en H.265 (HEVC) videocodecs. Ontdek hoe deze codecs verschillen qua compressie, grootte, kwaliteit, streaming en compatibiliteit om de juiste te selecteren."
     }
   },
   "tiktok_page": {

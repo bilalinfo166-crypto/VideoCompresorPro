@@ -1765,18 +1765,6 @@
       "title": "如何修剪視訊檔案而不重新編碼和品質損失",
       "description": "大多數視訊修剪器都會重新編碼並降低您的視訊品質。了解如何使用我們的線上無損視訊剪切器無損修剪影片而無需重新編碼。"
     },
-    "cut-videos-tiktok-youtube-shorts": {
-      "title": "如何完美在線剪輯 TikTok 和 YouTube Shorts 影片",
-      "description": "讓您的影片達到適合 TikTok 和 YouTube Shorts 的長度。了解如何免費在線剪切和修剪視頻剪輯，以最大限度地提高短片的覆蓋範圍。"
-    },
-    "what-is-video-bitrate-guide": {
-      "title": "什麼是視訊比特率？它如何影響您的視訊品質和大小",
-      "description": "對視訊位元率感到困惑嗎？了解它是什麼、它如何影響品質和檔案大小，以及每個平台和用例的目標位元率。"
-    },
-    "h264-vs-h265-best-codec-compression": {
-      "title": "H.264 與 H.265 (HEVC)：哪種編解碼器最適合視訊壓縮？",
-      "description": "H.264 與 H.265 — 哪一種視訊編解碼器的壓縮效果較好？比較效率、相容性、編碼速度和設備支援以做出正確的選擇。"
-    },
     "lossless-vs-lossy-compression-guide": {
       "title": "無損壓縮與有損壓縮：影片編輯器簡單指南",
       "description": "了解無損視訊壓縮和有損視訊壓縮之間的差異。了解何時使用每種類型以及如何以最小的品質損失獲得最小的檔案大小。"
@@ -1792,6 +1780,18 @@
     "best-online-video-cutter-without-watermark": {
       "title": "最佳無浮水印線上影片剪輯器（2026 年指南）",
       "description": "2026 年最好的無浮水印線上影片剪輯器。比較功能、了解要尋找的內容，並找到在不損失品質的情況下在線剪輯影片的最簡單方法。"
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "如何完美在線剪切 TikTok 和 YouTube Shorts 影片（逐步指南 2026）",
+      "description": "了解如何透過簡單的分步編輯技巧、理想的視頻長度和導出設置完美在線剪輯 TikTok 和 YouTube Shorts 視頻，以在 2026 年提高觀看次數、參與度和病毒式傳播。"
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "什麼是視訊比特率？比特率如何影響影片品質和檔案大小",
+      "description": "了解什麼是視訊位元率以及它如何影響視訊品質、檔案大小、串流媒體效能和壓縮。探索最佳比特率設置，以獲得更清晰的視訊和高效的儲存。"
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 與 H.265 (HEVC)：2026 年哪種視訊編解碼器最適合壓縮？",
+      "description": "H.264 和 H.265 (HEVC) 視訊編解碼器的比較。了解這些編解碼器在壓縮、大小、品質、串流媒體和相容性方面有何不同，以選擇正確的編解碼器。"
     }
   },
   "tiktok_page": {

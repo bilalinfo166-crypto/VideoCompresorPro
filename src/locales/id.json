@@ -1765,18 +1765,6 @@
       "title": "Cara Memangkas File Video Tanpa Encoding Ulang dan Penurunan Kualitas",
       "description": "Kebanyakan pemangkas video menyandikan ulang dan menurunkan kualitas video Anda. Pelajari cara memangkas video lossless tanpa melakukan pengkodean ulang menggunakan pemotong video lossless online kami."
     },
-    "cut-videos-tiktok-youtube-shorts": {
-      "title": "Cara Memotong Video Online untuk TikTok dan YouTube Shorts dengan Sempurna",
-      "description": "Dapatkan video Anda dengan durasi yang tepat untuk TikTok dan YouTube Shorts. Pelajari cara memotong dan memangkas klip video online secara gratis untuk memaksimalkan jangkauan format pendek."
-    },
-    "what-is-video-bitrate-guide": {
-      "title": "Apa itu Kecepatan Bit Video? Bagaimana Pengaruhnya Terhadap Kualitas & Ukuran Video Anda",
-      "description": "Bingung tentang bitrate video? Pelajari apa itu, bagaimana pengaruhnya terhadap kualitas dan ukuran file, dan berapa bitrate yang ditargetkan untuk setiap platform dan kasus penggunaan."
-    },
-    "h264-vs-h265-best-codec-compression": {
-      "title": "H.264 vs. H.265 (HEVC): Codec Mana yang Terbaik untuk Kompresi Video?",
-      "description": "H.264 vs H.265—codec video mana yang lebih baik untuk kompresi? Bandingkan efisiensi, kompatibilitas, kecepatan pengkodean, dan dukungan perangkat untuk membuat pilihan yang tepat."
-    },
     "lossless-vs-lossy-compression-guide": {
       "title": "Kompresi Lossless vs. Lossy: Panduan Sederhana untuk Editor Video",
       "description": "Pahami perbedaan antara kompresi video lossless dan lossy. Pelajari kapan menggunakan setiap jenis dan cara mendapatkan ukuran file terkecil dengan kehilangan kualitas paling sedikit."
@@ -1792,6 +1780,18 @@
     "best-online-video-cutter-without-watermark": {
       "title": "Pemotong Video Online Terbaik Tanpa Tanda Air (Panduan 2026)",
       "description": "Pemotong video online terbaik tanpa tanda air pada tahun 2026. Bandingkan fitur, pelajari apa yang harus dicari, dan temukan cara termudah untuk memotong video online tanpa kehilangan kualitas."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "Cara Memotong Video Online untuk TikTok & YouTube Shorts dengan Sempurna (Panduan Langkah demi Langkah 2026)",
+      "description": "Pelajari cara memotong video online untuk TikTok dan YouTube Shorts dengan sempurna dengan tips pengeditan langkah demi langkah yang mudah, durasi video yang ideal, dan pengaturan ekspor untuk meningkatkan penayangan, keterlibatan, dan jangkauan viral pada tahun 2026."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "Apa itu Kecepatan Bit Video? Bagaimana Bitrate Mempengaruhi Kualitas Video dan Ukuran File",
+      "description": "Pelajari apa itu bitrate video dan pengaruhnya terhadap kualitas video, ukuran file, kinerja streaming, dan kompresi. Temukan pengaturan bitrate terbaik untuk video lebih jernih dan penyimpanan efisien."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 vs H.265 (HEVC): Codec Video Mana yang Terbaik untuk Kompresi pada tahun 2026?",
+      "description": "Perbandingan Codec Video H.264 dan H.265 (HEVC). Temukan perbedaan codec ini dalam hal kompresi, ukuran, kualitas, streaming, dan kompatibilitas untuk memilih yang tepat."
     }
   },
   "tiktok_page": {

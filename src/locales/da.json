@@ -1765,18 +1765,6 @@
       "title": "Sådan trimmes videofiler uden omkodning og kvalitetstab",
       "description": "De fleste videotrimmere omkoder og forringer din video. Lær, hvordan du trimmer video tabsfrit uden omkodning ved hjælp af vores online tabsfri videoskærer."
     },
-    "cut-videos-tiktok-youtube-shorts": {
-      "title": "Sådan klipper du videoer online til TikTok og YouTube Shorts perfekt",
-      "description": "Få dine videoer til den helt rigtige længde til TikTok og YouTube Shorts. Lær, hvordan du klipper og trimmer videoklip gratis online for at maksimere rækkevidde i kort form."
-    },
-    "what-is-video-bitrate-guide": {
-      "title": "Hvad er Video Bitrate? Hvordan det påvirker din videokvalitet og -størrelse",
-      "description": "Forvirret over video bitrate? Lær, hvad det er, hvordan det påvirker kvalitet og filstørrelse, og hvilken bitrate du skal målrette mod for hver platform og brugssag."
-    },
-    "h264-vs-h265-best-codec-compression": {
-      "title": "H.264 vs. H.265 (HEVC): Hvilken codec er bedst til videokomprimering?",
-      "description": "H.264 vs. H.265 – hvilket video-codec er bedre til komprimering? Sammenlign effektivitet, kompatibilitet, kodningshastighed og enhedssupport for at træffe det rigtige valg."
-    },
     "lossless-vs-lossy-compression-guide": {
       "title": "Lossless vs Lossy Compression: En simpel vejledning til videoredigerere",
       "description": "Forstå forskellen mellem tabsfri og tabsgivende videokomprimering. Lær, hvornår du skal bruge hver type, og hvordan du får den mindste filstørrelse med det mindste kvalitetstab."
@@ -1792,6 +1780,18 @@
     "best-online-video-cutter-without-watermark": {
       "title": "Bedste online videoskærer uden vandmærke (2026 guide)",
       "description": "Den bedste online videoskærer uden vandmærke i 2026. Sammenlign funktioner, lær, hvad du skal kigge efter, og find den nemmeste måde at trimme videoer online uden at miste kvalitet."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "Sådan klipper du videoer online til TikTok og YouTube Shorts perfekt (trin-for-trin guide 2026)",
+      "description": "Lær, hvordan du klipper videoer online til TikTok og YouTube Shorts perfekt med nemme trin-for-trin redigeringstips, ideelle videolængder og eksportindstillinger for at øge visninger, engagement og viral rækkevidde i 2026."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "Hvad er videobithastighed? Hvordan bitrate påvirker videokvalitet og filstørrelse",
+      "description": "Lær, hvad videobithastighed er, og hvordan det påvirker videokvalitet, filstørrelse, streamingydelse og komprimering. Opdag de bedste bithastighedsindstillinger for klarere videoer og effektiv opbevaring."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 vs. H.265 (HEVC): Hvilken videocodec er bedst til komprimering i 2026?",
+      "description": "Sammenligning af H.264 og H.265 (HEVC) videocodecs. Opdag, hvordan disse codecs adskiller sig med hensyn til komprimering, størrelse, kvalitet, streaming og kompatibilitet for at vælge den rigtige."
     }
   },
   "tiktok_page": {

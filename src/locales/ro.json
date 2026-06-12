@@ -1765,18 +1765,6 @@
       "title": "Cum să tăiați fișierele video fără recodificare și pierderea calității",
       "description": "Majoritatea trimmerelor video re-codifică și degradează videoclipul. Aflați cum să tăiați video fără pierderi fără a re-coda folosind dispozitivul nostru online de tăiere video fără pierderi."
     },
-    "cut-videos-tiktok-youtube-shorts": {
-      "title": "Cum să tăiați perfect videoclipurile online pentru TikTok și scurtmetraje YouTube",
-      "description": "Obțineți videoclipurile la lungimea exactă potrivită pentru TikTok și YouTube Shorts. Aflați cum să tăiați și să decupați videoclipuri online gratuit pentru a maximiza acoperirea formelor scurte."
-    },
-    "what-is-video-bitrate-guide": {
-      "title": "Ce este rata de biți video? Cum afectează calitatea și dimensiunea videoclipului dvs.",
-      "description": "Sunteți confuz în legătură cu rata de biți a videoclipurilor? Aflați ce este, cum afectează calitatea și dimensiunea fișierului și ce rată de biți să vizați pentru fiecare platformă și caz de utilizare."
-    },
-    "h264-vs-h265-best-codec-compression": {
-      "title": "H.264 vs. H.265 (HEVC): care codec este cel mai bun pentru compresia video?",
-      "description": "H.264 vs H.265 — care codec video este mai bun pentru compresie? Comparați eficiența, compatibilitatea, viteza de codare și suportul pentru dispozitiv pentru a face alegerea corectă."
-    },
     "lossless-vs-lossy-compression-guide": {
       "title": "Compresie fără pierderi vs. cu pierderi: un ghid simplu pentru editorii video",
       "description": "Înțelegeți diferența dintre compresia video fără pierderi și compresia video cu pierderi. Aflați când să utilizați fiecare tip și cum să obțineți cea mai mică dimensiune a fișierului cu cea mai mică pierdere de calitate."
@@ -1792,6 +1780,18 @@
     "best-online-video-cutter-without-watermark": {
       "title": "Cel mai bun dispozitiv de tăiat video online fără filigran (Ghid 2026)",
       "description": "Cel mai bun dispozitiv de tăiere video online fără filigran din 2026. Comparați funcțiile, aflați ce să căutați și găsiți cel mai simplu mod de a tăia videoclipuri online fără a pierde calitatea."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "Cum să tăiați perfect videoclipurile online pentru TikTok și scurtmetraje YouTube (Ghid pas cu pas 2026)",
+      "description": "Aflați cum să tăiați videoclipuri online pentru TikTok și YouTube Shorts, cu sfaturi simple de editare pas cu pas, lungimi video ideale și setări de export pentru a crește vizionările, implicarea și acoperirea virală în 2026."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "Ce este rata de biți video? Cum afectează rata de biți calitatea video și dimensiunea fișierului",
+      "description": "Aflați ce este rata de biți video și cum afectează aceasta calitatea video, dimensiunea fișierului, performanța de streaming și compresia. Descoperiți cele mai bune setări de rată de biți pentru videoclipuri mai clare și stocare eficientă."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 vs H.265 (HEVC): care codec video este cel mai bun pentru compresie în 2026?",
+      "description": "Comparație între codecuri video H.264 și H.265 (HEVC). Descoperiți cum diferă aceste codecuri în ceea ce privește compresia, dimensiunea, calitatea, streamingul și compatibilitatea pentru a-l selecta pe cel potrivit."
     }
   },
   "tiktok_page": {

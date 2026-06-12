@@ -1772,18 +1772,6 @@
       "title": "Cómo recortar archivos de vídeo sin volver a codificarlos ni perder calidad",
       "description": "La mayoría de los recortadores de video recodifican y degradan su video. Aprenda a recortar videos sin pérdidas sin volver a codificarlos utilizando nuestro cortador de videos sin pérdidas en línea."
     },
-    "cut-videos-tiktok-youtube-shorts": {
-      "title": "Cómo cortar perfectamente vídeos en línea para cortos de TikTok y YouTube",
-      "description": "Haga que sus videos tengan la duración exacta adecuada para TikTok y YouTube Shorts. Aprenda a cortar y recortar videoclips en línea de forma gratuita para maximizar el alcance del formato corto."
-    },
-    "what-is-video-bitrate-guide": {
-      "title": "¿Qué es la tasa de bits de vídeo? Cómo afecta la calidad y el tamaño de su video",
-      "description": "¿Confundido acerca de la tasa de bits del vídeo? Aprenda qué es, cómo afecta la calidad y el tamaño del archivo, y qué tasa de bits debe apuntar para cada plataforma y caso de uso."
-    },
-    "h264-vs-h265-best-codec-compression": {
-      "title": "H.264 frente a H.265 (HEVC): ¿Qué códec es mejor para la compresión de vídeo?",
-      "description": "H.264 frente a H.265: ¿qué códec de vídeo es mejor para la compresión? Compare la eficiencia, la compatibilidad, la velocidad de codificación y la compatibilidad con dispositivos para tomar la decisión correcta."
-    },
     "lossless-vs-lossy-compression-guide": {
       "title": "Compresión sin pérdida versus compresión con pérdida: una guía sencilla para editores de vídeo",
       "description": "Comprenda la diferencia entre compresión de video sin pérdida y con pérdida. Aprenda cuándo utilizar cada tipo y cómo obtener el tamaño de archivo más pequeño con la menor pérdida de calidad."
@@ -1799,6 +1787,18 @@
     "best-online-video-cutter-without-watermark": {
       "title": "El mejor cortador de video en línea sin marca de agua (Guía 2026)",
       "description": "El mejor cortador de videos en línea sin marca de agua en 2026. Compare funciones, aprenda qué buscar y encuentre la forma más fácil de recortar videos en línea sin perder calidad."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "Cómo cortar perfectamente vídeos en línea para cortos de TikTok y YouTube (Guía paso a paso 2026)",
+      "description": "Aprenda a cortar videos en línea para TikTok y YouTube Shorts a la perfección con sencillos consejos de edición paso a paso, duraciones de video ideales y configuraciones de exportación para aumentar las vistas, la participación y el alcance viral en 2026."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "¿Qué es la tasa de bits de vídeo? Cómo la tasa de bits afecta la calidad del vídeo y el tamaño del archivo",
+      "description": "Aprenda qué es la tasa de bits de video y cómo afecta la calidad del video, el tamaño del archivo, el rendimiento de la transmisión y la compresión. Descubra las mejores configuraciones de tasa de bits para videos más claros y almacenamiento eficiente."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 vs H.265 (HEVC): ¿Qué códec de vídeo es mejor para la compresión en 2026?",
+      "description": "Comparación de códecs de vídeo H.264 y H.265 (HEVC). Descubra en qué se diferencian estos códecs en términos de compresión, tamaño, calidad, transmisión y compatibilidad para seleccionar el correcto."
     }
   },
   "tiktok_page": {

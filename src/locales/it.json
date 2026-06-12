@@ -1765,18 +1765,6 @@
       "title": "Come tagliare i file video senza ricodificarli e senza perdita di qualità",
       "description": "La maggior parte dei trimmer video ricodifica e degrada il tuo video. Scopri come tagliare i video senza perdita di dati senza ricodificarli utilizzando il nostro taglierino video senza perdita di dati online."
     },
-    "cut-videos-tiktok-youtube-shorts": {
-      "title": "Come tagliare perfettamente i video online per i cortometraggi di TikTok e YouTube",
-      "description": "Ottieni i tuoi video con la lunghezza esatta per TikTok e YouTube Shorts. Scopri come tagliare e ritagliare video clip online gratuitamente per massimizzare la copertura in formato breve."
-    },
-    "what-is-video-bitrate-guide": {
-      "title": "Cos'è il bitrate video? In che modo influisce sulla qualità e sulle dimensioni del video",
-      "description": "Confuso sul bitrate del video? Scopri di cosa si tratta, come influisce sulla qualità e sulle dimensioni dei file e quale bitrate utilizzare per ogni piattaforma e caso d'uso."
-    },
-    "h264-vs-h265-best-codec-compression": {
-      "title": "H.264 vs. H.265 (HEVC): quale codec è il migliore per la compressione video?",
-      "description": "H.264 vs H.265: quale codec video è migliore per la compressione? Confronta efficienza, compatibilità, velocità di codifica e supporto dei dispositivi per fare la scelta giusta."
-    },
     "lossless-vs-lossy-compression-guide": {
       "title": "Compressione senza perdita e compressione con perdita: una semplice guida per gli editor video",
       "description": "Comprendere la differenza tra compressione video lossless e lossy. Scopri quando utilizzare ciascun tipo e come ottenere la dimensione del file più piccola con la minima perdita di qualità."
@@ -1792,6 +1780,18 @@
     "best-online-video-cutter-without-watermark": {
       "title": "Miglior taglierino video online senza filigrana (guida 2026)",
       "description": "Il miglior taglierino video online senza filigrana nel 2026. Confronta le funzionalità, scopri cosa cercare e trova il modo più semplice per ritagliare video online senza perdere la qualità."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "Come tagliare perfettamente video online per TikTok e cortometraggi YouTube (guida passo passo 2026)",
+      "description": "Scopri come tagliare perfettamente i video online per TikTok e YouTube Shorts con semplici suggerimenti di editing passo passo, lunghezze video ideali e impostazioni di esportazione per aumentare visualizzazioni, coinvolgimento e portata virale nel 2026."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "Cos'è il bitrate video? In che modo il bitrate influisce sulla qualità del video e sulla dimensione del file",
+      "description": "Scopri cos'è il bitrate video e come influisce sulla qualità del video, sulle dimensioni del file, sulle prestazioni dello streaming e sulla compressione. Scopri le migliori impostazioni di bitrate per video più nitidi e un'archiviazione efficiente."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 vs H.265 (HEVC): quale codec video è il migliore per la compressione nel 2026?",
+      "description": "Confronto tra i codec video H.264 e H.265 (HEVC). Scopri come differiscono questi codec in termini di compressione, dimensione, qualità, streaming e compatibilità per selezionare quello giusto."
     }
   },
   "tiktok_page": {

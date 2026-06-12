@@ -1765,18 +1765,6 @@
       "title": "Jak oříznout video soubory bez překódování a ztráty kvality",
       "description": "Většina video trimmerů překóduje a degraduje vaše video. Naučte se, jak oříznout video bezeztrátově bez překódování pomocí našeho online bezztrátového nástroje pro řezání videa."
     },
-    "cut-videos-tiktok-youtube-shorts": {
-      "title": "Jak dokonale stříhat videa online pro šortky TikTok a YouTube",
-      "description": "Získejte přesně správnou délku svých videí pro TikTok a YouTube Shorts. Naučte se, jak zdarma stříhat a ořezávat videoklipy online, abyste maximalizovali dosah krátkého formátu."
-    },
-    "what-is-video-bitrate-guide": {
-      "title": "Co je to přenosová rychlost videa? Jak to ovlivňuje kvalitu a velikost vašeho videa",
-      "description": "Jste zmateni datovým tokem videa? Zjistěte, co to je, jak ovlivňuje kvalitu a velikost souboru a na jakou datovou rychlost cílit pro každou platformu a případ použití."
-    },
-    "h264-vs-h265-best-codec-compression": {
-      "title": "H.264 vs. H.265 (HEVC): Který kodek je nejlepší pro kompresi videa?",
-      "description": "H.264 vs H.265 – který video kodek je lepší pro kompresi? Porovnejte efektivitu, kompatibilitu, rychlost kódování a podporu zařízení, abyste se rozhodli správně."
-    },
     "lossless-vs-lossy-compression-guide": {
       "title": "Bezeztrátová vs. ztrátová komprese: Jednoduchý průvodce pro editory videa",
       "description": "Pochopte rozdíl mezi bezztrátovou a ztrátovou kompresí videa. Naučte se, kdy použít jednotlivé typy a jak získat nejmenší velikost souboru s nejmenší ztrátou kvality."
@@ -1792,6 +1780,18 @@
     "best-online-video-cutter-without-watermark": {
       "title": "Nejlepší online řezačka videa bez vodoznaku (průvodce 2026)",
       "description": "Nejlepší online řezačka videa bez vodoznaku v roce 2026. Porovnejte funkce, zjistěte, co hledat, a najděte nejjednodušší způsob, jak oříznout videa online bez ztráty kvality."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "Jak dokonale stříhat videa online pro šortky TikTok a YouTube (Podrobný průvodce 2026)",
+      "description": "Naučte se, jak perfektně stříhat videa online pro TikTok a YouTube Shorts, pomocí jednoduchých tipů pro úpravy krok za krokem, ideální délky videa a nastavení exportu pro zvýšení počtu zhlédnutí, zapojení a virálního dosahu v roce 2026."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "Co je přenosová rychlost videa? Jak přenosová rychlost ovlivňuje kvalitu videa a velikost souboru",
+      "description": "Zjistěte, co je to datový tok videa a jak ovlivňuje kvalitu videa, velikost souboru, výkon streamování a kompresi. Objevte nejlepší nastavení datového toku pro čistší videa a efektivní úložiště."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 vs H.265 (HEVC): Který video kodek je nejlepší pro kompresi v roce 2026?",
+      "description": "Porovnání videokodeků H.264 a H.265 (HEVC). Zjistěte, jak se tyto kodeky liší, pokud jde o kompresi, velikost, kvalitu, streamování a kompatibilitu, abyste si vybrali ten správný."
     }
   },
   "tiktok_page": {

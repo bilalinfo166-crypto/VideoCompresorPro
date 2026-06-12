@@ -1765,18 +1765,6 @@
       "title": "So schneiden Sie Videodateien ohne Neukodierung und Qualitätsverlust",
       "description": "Die meisten Videotrimmer kodieren Ihr Video neu und verschlechtern es. Erfahren Sie, wie Sie mit unserem verlustfreien Online-Videoschneider Videos verlustfrei zuschneiden können, ohne sie neu zu kodieren."
     },
-    "cut-videos-tiktok-youtube-shorts": {
-      "title": "So schneiden Sie Online-Videos für TikTok und YouTube-Shorts perfekt",
-      "description": "Bringen Sie Ihre Videos für TikTok und YouTube Shorts auf die exakt richtige Länge. Erfahren Sie online kostenlos, wie Sie Videoclips schneiden und trimmen, um die Reichweite von Kurzfilmen zu maximieren."
-    },
-    "what-is-video-bitrate-guide": {
-      "title": "Was ist Videobitrate? Wie es sich auf die Qualität und Größe Ihres Videos auswirkt",
-      "description": "Verwirrt über die Videobitrate? Erfahren Sie, was es ist, wie es sich auf Qualität und Dateigröße auswirkt und welche Bitrate für jede Plattform und jeden Anwendungsfall angestrebt werden sollte."
-    },
-    "h264-vs-h265-best-codec-compression": {
-      "title": "H.264 vs. H.265 (HEVC): Welcher Codec eignet sich am besten für die Videokomprimierung?",
-      "description": "H.264 vs. H.265 – welcher Videocodec eignet sich besser für die Komprimierung? Vergleichen Sie Effizienz, Kompatibilität, Kodierungsgeschwindigkeit und Geräteunterstützung, um die richtige Wahl zu treffen."
-    },
     "lossless-vs-lossy-compression-guide": {
       "title": "Verlustfreie vs. verlustbehaftete Komprimierung: Eine einfache Anleitung für Videoeditoren",
       "description": "Verstehen Sie den Unterschied zwischen verlustfreier und verlustbehafteter Videokomprimierung. Erfahren Sie, wann Sie welche Typen verwenden sollten und wie Sie die kleinste Dateigröße mit dem geringsten Qualitätsverlust erzielen."
@@ -1792,6 +1780,18 @@
     "best-online-video-cutter-without-watermark": {
       "title": "Bester Online-Videoschneider ohne Wasserzeichen (Leitfaden 2026)",
       "description": "Der beste Online-Videoschneider ohne Wasserzeichen im Jahr 2026. Vergleichen Sie Funktionen, erfahren Sie, worauf Sie achten müssen, und finden Sie den einfachsten Weg, Videos online zu schneiden, ohne an Qualität zu verlieren."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "So schneiden Sie Online-Videos für TikTok und YouTube-Shorts perfekt (Schritt-für-Schritt-Anleitung 2026)",
+      "description": "Erfahren Sie, wie Sie online Videos für TikTok und YouTube Shorts perfekt schneiden – mit einfachen Schritt-für-Schritt-Bearbeitungstipps, idealen Videolängen und Exporteinstellungen, um die Aufrufe, das Engagement und die virale Reichweite im Jahr 2026 zu steigern."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "Was ist Videobitrate? Wie sich die Bitrate auf die Videoqualität und Dateigröße auswirkt",
+      "description": "Erfahren Sie, was Videobitrate ist und wie sie sich auf Videoqualität, Dateigröße, Streaming-Leistung und Komprimierung auswirkt. Entdecken Sie die besten Bitrateneinstellungen für klarere Videos und effiziente Speicherung."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 vs. H.265 (HEVC): Welcher Video-Codec eignet sich im Jahr 2026 am besten für die Komprimierung?",
+      "description": "Vergleich der Videocodecs H.264 und H.265 (HEVC). Entdecken Sie, wie sich diese Codecs in Bezug auf Komprimierung, Größe, Qualität, Streaming und Kompatibilität unterscheiden, um den richtigen Codec auszuwählen."
     }
   },
   "tiktok_page": {

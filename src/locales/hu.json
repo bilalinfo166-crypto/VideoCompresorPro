@@ -1765,18 +1765,6 @@
       "title": "Videofájlok megvágása újrakódolás és minőségromlás nélkül",
       "description": "A legtöbb videovágó újrakódolja és lerontja a videót. Tanulja meg, hogyan vághat le veszteségmentesen videót újrakódolás nélkül az online veszteségmentes videóvágó segítségével."
     },
-    "cut-videos-tiktok-youtube-shorts": {
-      "title": "Hogyan vágjunk online videókat tökéletesen a TikTok és a YouTube Shorts számára",
-      "description": "Pontosan megfelelő hosszúságúra állíthatja videóit a TikTok és a YouTube Shorts számára. Tanulja meg, hogyan vághat ki és vághat le ingyen videóklipeket online, hogy maximalizálja a rövid méretű elérést."
-    },
-    "what-is-video-bitrate-guide": {
-      "title": "Mi az a videó bitráta? Hogyan befolyásolja a videó minőségét és méretét",
-      "description": "Zavarban van a videó bitrátája? Ismerje meg, mi ez, hogyan befolyásolja a minőséget és a fájlméretet, és milyen bitrátát célozzon meg minden platformon és használati eseten."
-    },
-    "h264-vs-h265-best-codec-compression": {
-      "title": "H.264 vs. H.265 (HEVC): Melyik kodek a legjobb videótömörítéshez?",
-      "description": "H.264 vs H.265 – melyik videokodek jobb a tömörítéshez? Hasonlítsa össze a hatékonyságot, a kompatibilitást, a kódolási sebességet és az eszköztámogatást a megfelelő választás érdekében."
-    },
     "lossless-vs-lossy-compression-guide": {
       "title": "Veszteségmentes és veszteséges tömörítés: Egyszerű útmutató videószerkesztőknek",
       "description": "Ismerje meg a veszteségmentes és a veszteséges videotömörítés közötti különbséget. Tanulja meg, mikor kell használni az egyes típusokat, és hogyan érheti el a legkisebb fájlméretet a legkisebb minőségveszteséggel."
@@ -1792,6 +1780,18 @@
     "best-online-video-cutter-without-watermark": {
       "title": "A legjobb online videovágó vízjel nélkül (2026. évi útmutató)",
       "description": "A legjobb online videovágó vízjel nélkül 2026-ban. Hasonlítsa össze a funkciókat, tanulja meg, mit kell keresnie, és találja meg a legegyszerűbb módot a videók online vágására a minőség romlása nélkül."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "Hogyan vágjunk ki tökéletesen online videókat a TikTok és a YouTube Shorts számára (Lépésről lépésre, 2026)",
+      "description": "Tanulja meg, hogyan vághat ki tökéletesen online videókat a TikTok és a YouTube Shorts számára az egyszerű, lépésről lépésre szerkesztési tippekkel, az ideális videóhosszokkal és az exportálási beállításokkal, hogy 2026-ban növelje a nézettséget, az elköteleződést és a víruselérést."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "Mi az a videó bitráta? Hogyan befolyásolja a bitráta a videó minőségét és a fájlméretet",
+      "description": "Ismerje meg, mi az a videó bitráta, és hogyan befolyásolja a videó minőségét, a fájlméretet, a streamelési teljesítményt és a tömörítést. Fedezze fel a legjobb bitsebesség-beállításokat a tisztább videók és a hatékony tárolás érdekében."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 vs H.265 (HEVC): Melyik videokodek a legjobb a tömörítéshez 2026-ban?",
+      "description": "A H.264 és H.265 (HEVC) videokodekek összehasonlítása. Fedezze fel, hogyan különböznek ezek a kodekek a tömörítés, a méret, a minőség, az adatfolyam és a kompatibilitás tekintetében a megfelelő kiválasztásához."
     }
   },
   "tiktok_page": {

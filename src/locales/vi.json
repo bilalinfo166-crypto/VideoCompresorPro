@@ -1765,18 +1765,6 @@
       "title": "Cách cắt tập tin video mà không cần mã hóa lại và giảm chất lượng",
       "description": "Hầu hết các trình cắt video đều mã hóa lại và làm giảm chất lượng video của bạn. Tìm hiểu cách cắt video không mất dữ liệu mà không cần mã hóa lại bằng trình cắt video không mất dữ liệu trực tuyến của chúng tôi."
     },
-    "cut-videos-tiktok-youtube-shorts": {
-      "title": "Cách cắt video trực tuyến cho video ngắn TikTok và YouTube một cách hoàn hảo",
-      "description": "Đưa video của bạn có độ dài chính xác phù hợp cho TikTok và YouTube Shorts. Tìm hiểu cách cắt và cắt các video clip trực tuyến miễn phí để tối đa hóa phạm vi tiếp cận dạng ngắn."
-    },
-    "what-is-video-bitrate-guide": {
-      "title": "Tốc độ bit của video là gì? Nó ảnh hưởng như thế nào đến chất lượng và kích thước video của bạn",
-      "description": "Bạn bối rối về tốc độ bit của video? Tìm hiểu xem nó là gì, nó ảnh hưởng như thế nào đến chất lượng và kích thước tệp cũng như tốc độ bit cần nhắm mục tiêu cho mọi nền tảng và trường hợp sử dụng."
-    },
-    "h264-vs-h265-best-codec-compression": {
-      "title": "H.264 so với H.265 (HEVC): Codec nào tốt nhất để nén video?",
-      "description": "H.264 và H.265—codec video nào nén tốt hơn? So sánh hiệu quả, khả năng tương thích, tốc độ mã hóa và hỗ trợ thiết bị để đưa ra lựa chọn đúng đắn."
-    },
     "lossless-vs-lossy-compression-guide": {
       "title": "Nén không mất dữ liệu và nén mất dữ liệu: Hướng dẫn đơn giản dành cho người chỉnh sửa video",
       "description": "Hiểu sự khác biệt giữa nén video lossless và lossy. Tìm hiểu thời điểm sử dụng từng loại và cách nhận được kích thước tệp nhỏ nhất mà ít giảm chất lượng nhất."
@@ -1792,6 +1780,18 @@
     "best-online-video-cutter-without-watermark": {
       "title": "Trình cắt video trực tuyến tốt nhất không có hình mờ (Hướng dẫn năm 2026)",
       "description": "Công cụ cắt video trực tuyến không có hình mờ tốt nhất năm 2026. So sánh các tính năng, tìm hiểu nội dung cần tìm và tìm cách dễ dàng nhất để cắt video trực tuyến mà không làm giảm chất lượng."
+    },
+    "cut-videos-tiktok-youtube-shorts": {
+      "title": "Cách cắt video trực tuyến cho video ngắn TikTok và YouTube một cách hoàn hảo (Hướng dẫn từng bước 2026)",
+      "description": "Tìm hiểu cách cắt video trực tuyến cho TikTok và YouTube Shorts một cách hoàn hảo bằng các mẹo chỉnh sửa từng bước dễ dàng, thời lượng video lý tưởng và cài đặt xuất để tăng lượt xem, mức độ tương tác và phạm vi tiếp cận lan truyền vào năm 2026."
+    },
+    "what-is-video-bitrate-guide": {
+      "title": "Tốc độ bit của video là gì? Tốc độ bit ảnh hưởng như thế nào đến chất lượng video và kích thước tệp",
+      "description": "Tìm hiểu tốc độ bit của video là gì và nó ảnh hưởng như thế nào đến chất lượng video, kích thước tệp, hiệu suất phát trực tuyến và khả năng nén. Khám phá cài đặt tốc độ bit tốt nhất để có video rõ ràng hơn và lưu trữ hiệu quả."
+    },
+    "h264-vs-h265-best-codec-compression": {
+      "title": "H.264 và H.265 (HEVC): Codec video nào nén tốt nhất vào năm 2026?",
+      "description": "So sánh Codec video H.264 và H.265 (HEVC). Khám phá sự khác biệt giữa các codec này về độ nén, kích thước, chất lượng, khả năng phát trực tuyến và khả năng tương thích để chọn loại codec phù hợp."
     }
   },
   "tiktok_page": {
